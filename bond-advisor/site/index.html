@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RS3 Bond Advisor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <div>
+          <p class="eyebrow">RuneScape 3</p>
+          <h1>Bond Sustainer Advisor</h1>
+          <p class="subhead">Static dashboard for the latest generated daily plan.</p>
+        </div>
+        <div class="status-card">
+          <span id="source">Loading</span>
+          <strong id="target">—</strong>
+          <small>safe daily target</small>
+        </div>
+      </header>
+
+      <section class="panel">
+        <h2>Headline</h2>
+        <p id="headline">Loading plan…</p>
+      </section>
+
+      <section class="grid">
+        <div class="panel">
+          <h2>Recommended plan</h2>
+          <div id="recommended"></div>
+        </div>
+        <div class="panel">
+          <h2>Avoid today</h2>
+          <div id="avoid"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Missing info / confidence notes</h2>
+        <ul id="notes"></ul>
+      </section>
+
+      <footer>
+        <p>This page displays generated advice only. It does not automate gameplay or store API keys in the browser.</p>
+      </footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
