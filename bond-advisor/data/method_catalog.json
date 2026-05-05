@@ -1,0 +1,53 @@
+{
+  "version": "0.1",
+  "notes": "Starter catalog. Values are placeholders until formulas and item IDs are validated. Do not treat gp/hr as confirmed.",
+  "methods": [
+    {
+      "id": "sell_existing_bank_value",
+      "name": "Sell selected existing bank value",
+      "category": "liquidation",
+      "required_skills": {},
+      "required_quests": [],
+      "required_unlocks": [],
+      "inputs": [],
+      "outputs": [],
+      "attention": "low",
+      "mobile_friendliness": "high",
+      "market_risk": "medium",
+      "setup_cost_gp": 0,
+      "notes": "Uses user-provided bank notes. Useful as an emergency bond gap closer, not a long-term sustain method."
+    },
+    {
+      "id": "archaeology_materials_review",
+      "name": "Review and sell surplus Archaeology materials",
+      "category": "skilling_bank_cleanup",
+      "required_skills": {
+        "archaeology": 1
+      },
+      "required_quests": [],
+      "required_unlocks": [],
+      "inputs": [],
+      "outputs": [],
+      "attention": "low",
+      "mobile_friendliness": "high",
+      "market_risk": "medium",
+      "setup_cost_gp": 0,
+      "notes": "Requires manual material-bank export or notes. The advisor should not assume exact quantities."
+    },
+    {
+      "id": "daily_shop_runs_placeholder",
+      "name": "Daily shop/run checklist placeholder",
+      "category": "daily",
+      "required_skills": {},
+      "required_quests": [],
+      "required_unlocks": [],
+      "inputs": [],
+      "outputs": [],
+      "attention": "medium",
+      "mobile_friendliness": "medium",
+      "market_risk": "low",
+      "setup_cost_gp": 0,
+      "notes": "Needs specific shops/unlocks added later. Keep conservative until verified."
+    }
+  ]
+}
