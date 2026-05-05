@@ -12,7 +12,9 @@ from dotenv import load_dotenv
 from _common import OUTPUT_DIR, load_json, now_iso, write_json
 
 OPENAI_RESPONSES_URL = "https://api.openai.com/v1/responses"
-DEFAULT_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
+GROQ_CHAT_COMPLETIONS_URL = "https://api.groq.com/openai/v1/chat/completions"
+DEFAULT_OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
+DEFAULT_GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 
 
 def compact_for_ai(context: Dict[str, Any], scored: Dict[str, Any]) -> Dict[str, Any]:
@@ -54,12 +56,12 @@ def fallback_plan(context: Dict[str, Any], scored: Dict[str, Any], reason: str) 
     blocked = scored.get("blocked_methods", [])
     best = (strong + usable)[:5]
     return {
-        "schema_version": "0.5",
+        "schema_version": "0.6",
         "generated_at": now_iso(),
         "source": "local_fallback",
         "model": None,
         "daily_target_gp": (market.get("safe_daily_target_gp") or {}).get("value"),
-        "headline": "Local fallback plan generated because OpenAI was unavailable.",
+        "headline": "Local fallback plan generated because the configured LLM provider was unavailable.",
         "recommended_plan": [
             {
                 "method_id": method.get("id"),
@@ -83,7 +85,7 @@ def fallback_plan(context: Dict[str, Any], scored: Dict[str, Any], reason: str) 
         ],
         "confidence_notes": [
             reason,
-            "No OpenAI reasoning was used for this file.",
+            "No external LLM reasoning was used for this file.",
             "Use the scored methods file for raw ranking details.",
         ],
         "missing_info_needed": context.get("uncertainties", []),
@@ -96,6 +98,7 @@ def render_markdown(plan: Dict[str, Any]) -> str:
     lines.append("")
     lines.append(f"Generated: {plan.get('generated_at')}")
     lines.append(f"Source: {plan.get('source')}")
+    lines.append(f"Model: {plan.get('model') or 'none'}")
     lines.append("")
     lines.append(f"## Headline\n\n{plan.get('headline', 'No headline provided.')}")
     lines.append("")
@@ -136,96 +139,99 @@ def render_markdown(plan: Dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
-def call_openai(context: Dict[str, Any], scored: Dict[str, Any], model: str) -> Dict[str, Any]:
-    load_dotenv()
-    api_key = os.getenv("OPENAI_API_KEY", "").strip()
-    if not api_key:
-        return fallback_plan(context, scored, "OPENAI_API_KEY is not set.")
-
+def plan_prompt(context: Dict[str, Any], scored: Dict[str, Any]) -> tuple[str, str]:
     payload = compact_for_ai(context, scored)
     instructions = (
         "You are an RS3 bond-sustaining planning assistant. "
         "Use only the provided data. Do not invent live prices, unlocks, or guaranteed gp/hr. "
         "Treat RuneScape gameplay automation as out of scope. Produce legal manual advice only. "
-        "Be conservative, mobile-aware, and direct. If data is missing, say so."
+        "Be conservative, mobile-aware, and direct. If data is missing, say so. "
+        "Return valid JSON only."
     )
     user_text = (
         "Create a realistic RS3 bond-sustain daily plan from this JSON. "
-        "Return JSON only with keys: schema_version, generated_at, source, model, daily_target_gp, headline, "
+        "Return JSON only with exactly these keys: schema_version, generated_at, source, model, daily_target_gp, headline, "
         "recommended_plan, avoid_today, confidence_notes, missing_info_needed.\n\n"
+        "recommended_plan items must have: method_id, method_name, priority, expected_gp, time_minutes, confidence, reason, next_action.\n"
+        "avoid_today items must have: method_id, method_name, reason.\n\n"
         + json.dumps(payload, ensure_ascii=False)
     )
+    return instructions, user_text
 
+
+def normalize_plan(plan: Dict[str, Any], source: str, model: str) -> Dict[str, Any]:
+    return {
+        "schema_version": str(plan.get("schema_version") or "0.6"),
+        "generated_at": str(plan.get("generated_at") or now_iso()),
+        "source": source,
+        "model": model,
+        "daily_target_gp": plan.get("daily_target_gp"),
+        "headline": str(plan.get("headline") or "No headline provided."),
+        "recommended_plan": plan.get("recommended_plan") if isinstance(plan.get("recommended_plan"), list) else [],
+        "avoid_today": plan.get("avoid_today") if isinstance(plan.get("avoid_today"), list) else [],
+        "confidence_notes": plan.get("confidence_notes") if isinstance(plan.get("confidence_notes"), list) else [],
+        "missing_info_needed": plan.get("missing_info_needed") if isinstance(plan.get("missing_info_needed"), list) else [],
+    }
+
+
+def parse_json_plan(text: str) -> Dict[str, Any]:
+    text = (text or "").strip()
+    if text.startswith("```json"):
+        text = text.removeprefix("```json").strip()
+    if text.startswith("```"):
+        text = text.removeprefix("```").strip()
+    if text.endswith("```"):
+        text = text.removesuffix("```").strip()
+    return json.loads(text)
+
+
+def call_groq(context: Dict[str, Any], scored: Dict[str, Any], model: str) -> Dict[str, Any]:
+    api_key = os.getenv("GROQ_API_KEY", "").strip()
+    if not api_key:
+        return fallback_plan(context, scored, "GROQ_API_KEY is not set.")
+
+    instructions, user_text = plan_prompt(context, scored)
+    body = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": instructions},
+            {"role": "user", "content": user_text},
+        ],
+        "temperature": 0.2,
+        "max_completion_tokens": 1800,
+        "response_format": {"type": "json_object"},
+    }
+
+    response = requests.post(
+        GROQ_CHAT_COMPLETIONS_URL,
+        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+        json=body,
+        timeout=60,
+    )
+    if not response.ok:
+        return fallback_plan(context, scored, f"Groq request failed: HTTP {response.status_code}: {response.text[:500]}")
+
+    data = response.json()
+    try:
+        output_text = data["choices"][0]["message"]["content"]
+        return normalize_plan(parse_json_plan(output_text), "groq", model)
+    except Exception as exc:
+        return fallback_plan(context, scored, f"Groq returned unparseable output: {exc}")
+
+
+def call_openai(context: Dict[str, Any], scored: Dict[str, Any], model: str) -> Dict[str, Any]:
+    api_key = os.getenv("OPENAI_API_KEY", "").strip()
+    if not api_key:
+        return fallback_plan(context, scored, "OPENAI_API_KEY is not set.")
+
+    instructions, user_text = plan_prompt(context, scored)
     body = {
         "model": model,
         "input": [
             {"role": "system", "content": instructions},
             {"role": "user", "content": user_text},
         ],
-        "text": {
-            "format": {
-                "type": "json_schema",
-                "name": "rs3_bond_daily_plan",
-                "strict": True,
-                "schema": {
-                    "type": "object",
-                    "additionalProperties": False,
-                    "required": [
-                        "schema_version",
-                        "generated_at",
-                        "source",
-                        "model",
-                        "daily_target_gp",
-                        "headline",
-                        "recommended_plan",
-                        "avoid_today",
-                        "confidence_notes",
-                        "missing_info_needed",
-                    ],
-                    "properties": {
-                        "schema_version": {"type": "string"},
-                        "generated_at": {"type": "string"},
-                        "source": {"type": "string"},
-                        "model": {"type": "string"},
-                        "daily_target_gp": {"type": ["integer", "null"]},
-                        "headline": {"type": "string"},
-                        "recommended_plan": {
-                            "type": "array",
-                            "items": {
-                                "type": "object",
-                                "additionalProperties": False,
-                                "required": ["method_id", "method_name", "priority", "expected_gp", "time_minutes", "confidence", "reason", "next_action"],
-                                "properties": {
-                                    "method_id": {"type": ["string", "null"]},
-                                    "method_name": {"type": ["string", "null"]},
-                                    "priority": {"type": "integer"},
-                                    "expected_gp": {"type": ["integer", "null"]},
-                                    "time_minutes": {"type": ["integer", "null"]},
-                                    "confidence": {"type": "string"},
-                                    "reason": {"type": "string"},
-                                    "next_action": {"type": "string"},
-                                },
-                            },
-                        },
-                        "avoid_today": {
-                            "type": "array",
-                            "items": {
-                                "type": "object",
-                                "additionalProperties": False,
-                                "required": ["method_id", "method_name", "reason"],
-                                "properties": {
-                                    "method_id": {"type": ["string", "null"]},
-                                    "method_name": {"type": ["string", "null"]},
-                                    "reason": {"type": "string"},
-                                },
-                            },
-                        },
-                        "confidence_notes": {"type": "array", "items": {"type": "string"}},
-                        "missing_info_needed": {"type": "array", "items": {"type": "string"}},
-                    },
-                },
-            }
-        },
+        "text": {"format": {"type": "json_object"}},
     }
 
     response = requests.post(
@@ -240,7 +246,6 @@ def call_openai(context: Dict[str, Any], scored: Dict[str, Any], model: str) -> 
     data = response.json()
     output_text = data.get("output_text")
     if not output_text:
-        # Fallback parser for Responses API output array.
         parts = []
         for item in data.get("output", []) or []:
             for content in item.get("content", []) or []:
@@ -249,21 +254,38 @@ def call_openai(context: Dict[str, Any], scored: Dict[str, Any], model: str) -> 
         output_text = "".join(parts)
 
     try:
-        plan = json.loads(output_text)
+        return normalize_plan(parse_json_plan(output_text), "openai", model)
     except Exception as exc:
         return fallback_plan(context, scored, f"OpenAI returned non-JSON or unparseable output: {exc}")
 
-    plan["generated_at"] = plan.get("generated_at") or now_iso()
-    plan["source"] = "openai"
-    plan["model"] = model
-    return plan
+
+def choose_provider(cli_provider: str) -> str:
+    provider = (cli_provider or os.getenv("ADVISOR_LLM_PROVIDER", "auto")).strip().lower()
+    if provider in {"groq", "openai", "none"}:
+        return provider
+    if os.getenv("GROQ_API_KEY", "").strip():
+        return "groq"
+    if os.getenv("OPENAI_API_KEY", "").strip():
+        return "openai"
+    return "none"
+
+
+def generate_plan(context: Dict[str, Any], scored: Dict[str, Any], provider: str, openai_model: str, groq_model: str) -> Dict[str, Any]:
+    if provider == "groq":
+        return call_groq(context, scored, groq_model)
+    if provider == "openai":
+        return call_openai(context, scored, openai_model)
+    return fallback_plan(context, scored, "No LLM provider configured. Set GROQ_API_KEY or OPENAI_API_KEY.")
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate daily plan with OpenAI or local fallback.")
+    load_dotenv()
+    parser = argparse.ArgumentParser(description="Generate daily plan with Groq/OpenAI or local fallback.")
     parser.add_argument("--context", default=str(OUTPUT_DIR / "bond_advisor_context.json"))
     parser.add_argument("--scored", default=str(OUTPUT_DIR / "scored_methods.json"))
-    parser.add_argument("--model", default=DEFAULT_MODEL)
+    parser.add_argument("--provider", default=os.getenv("ADVISOR_LLM_PROVIDER", "auto"), choices=["auto", "groq", "openai", "none"])
+    parser.add_argument("--openai-model", default=DEFAULT_OPENAI_MODEL)
+    parser.add_argument("--groq-model", default=DEFAULT_GROQ_MODEL)
     args = parser.parse_args()
 
     context = load_json(Path(args.context), default={}) or {}
@@ -273,9 +295,11 @@ def main() -> None:
     if not scored:
         raise SystemExit("Missing scored methods. Run scripts/score_methods.py first.")
 
-    plan = call_openai(context, scored, args.model)
+    provider = choose_provider(args.provider)
+    plan = generate_plan(context, scored, provider, args.openai_model, args.groq_model)
     write_json(OUTPUT_DIR / "daily_plan.json", plan)
     (OUTPUT_DIR / "daily_plan.md").write_text(render_markdown(plan), encoding="utf-8")
+    print(f"Provider: {provider}")
     print(f"Wrote {OUTPUT_DIR / 'daily_plan.json'}")
     print(f"Wrote {OUTPUT_DIR / 'daily_plan.md'}")
 
