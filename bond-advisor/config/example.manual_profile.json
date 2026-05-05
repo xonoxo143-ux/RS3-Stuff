@@ -1,0 +1,35 @@
+{
+  "rsn": "Your RSN",
+  "coins": 0,
+  "membership_days_left": 0,
+  "bond_target_price": null,
+  "available_playtime_per_day_minutes": 60,
+  "preferred_attention": "medium",
+  "mobile_only": true,
+  "combat_comfort": {
+    "bossing": "learner",
+    "slayer": "okay"
+  },
+  "gear_summary": {
+    "melee": "",
+    "ranged": "",
+    "magic": "",
+    "necromancy": ""
+  },
+  "important_unlocks": {
+    "invention": false,
+    "ancient_curses": false,
+    "prifddinas": false,
+    "menaphos": false,
+    "wars_retreat": false,
+    "archaeology_relics": []
+  },
+  "bank_notes": {
+    "archaeology_materials": false,
+    "common_supplies": [],
+    "valuable_items_to_consider_selling": []
+  },
+  "methods_to_avoid": [],
+  "methods_you_like": [],
+  "notes": "Manual fields fill gaps that public APIs cannot see."
+}
