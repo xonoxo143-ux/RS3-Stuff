@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Secrets and local config
+.env
+*.env
+bond-advisor/.env
+bond-advisor/data/manual_profile.local.json
+bond-advisor/output/*.json
+bond-advisor/output/*.md
+!bond-advisor/output/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
