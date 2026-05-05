@@ -16,6 +16,16 @@ on:
           - normal
           - ironman
           - hardcore_ironman
+      llm_provider:
+        description: "LLM provider"
+        required: false
+        default: "auto"
+        type: choice
+        options:
+          - auto
+          - groq
+          - openai
+          - none
   schedule:
     - cron: "17 11 * * *"
 
@@ -63,6 +73,9 @@ jobs:
 
       - name: Generate daily plan
         env:
+          ADVISOR_LLM_PROVIDER: ${{ inputs.llm_provider || vars.ADVISOR_LLM_PROVIDER || 'auto' }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL || 'llama-3.3-70b-versatile' }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
         run: python scripts/ask_openai.py
