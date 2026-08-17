@@ -22,24 +22,41 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Fetch, parse, and update rolling history
+      - name: Fetch Jagex HiScores and WikiSync
         shell: bash
         run: |
           set -euo pipefail
-          URL='https://rs.runescape.com/hiscores/leagues/player/112321'
-          echo "Fetching: $URL"
 
-          STATUS=$(curl -L --compressed \
+          HISCORES_URL='https://rs.runescape.com/hiscores/leagues/player/112321'
+          WIKISYNC_URL='https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
+          UA='RS3-Stuff-Leagues-Tracker/1.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
+
+          echo "Fetching HiScores: $HISCORES_URL"
+          HISCORES_STATUS=$(curl -sS -L --compressed \
             --connect-timeout 20 \
             --max-time 60 \
-            -A 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/140 Safari/537.36' \
+            -A "$UA" \
             -o profile.html \
             -w '%{http_code}' \
-            "$URL")
+            "$HISCORES_URL")
+          echo "HISCORES_HTTP_STATUS=$HISCORES_STATUS"
+          test "$HISCORES_STATUS" = "200"
 
-          echo "HTTP_STATUS=$STATUS"
-          test "$STATUS" = "200"
+          echo "Fetching WikiSync: $WIKISYNC_URL"
+          WIKISYNC_STATUS=$(curl -sS -L --compressed \
+            --connect-timeout 20 \
+            --max-time 60 \
+            -A "$UA" \
+            -o wikisync.json \
+            -w '%{http_code}' \
+            "$WIKISYNC_URL")
+          echo "WIKISYNC_HTTP_STATUS=$WIKISYNC_STATUS"
+          test "$WIKISYNC_STATUS" = "200"
 
+      - name: Parse and update rolling history
+        shell: bash
+        run: |
+          set -euo pipefail
           mkdir -p leagues-tracker
 
           python3 - <<'PY'
@@ -83,20 +100,66 @@ jobs:
                   }
 
           if totals['league_points'] is None or totals['total_level'] is None or not skills:
-              raise RuntimeError('Jagex page was reachable, but profile parsing failed')
+              raise RuntimeError('Jagex HiScores page was reachable, but profile parsing failed')
 
-          snapshot = {
-              'timestamp_utc': dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
-              'player': '112321',
-              **totals,
-              'skills': skills,
-          }
+          with open('wikisync.json', encoding='utf-8') as f:
+              wikisync = json.load(f)
+
+          completed_task_ids = wikisync.get('league_tasks')
+          if not isinstance(completed_task_ids, list):
+              raise RuntimeError('WikiSync response did not contain a league_tasks list')
+          completed_task_ids = sorted({int(task_id) for task_id in completed_task_ids})
 
           latest_path = 'leagues-tracker/latest.json'
           history_path = 'leagues-tracker/history.json'
+          tasks_path = 'leagues-tracker/tasks.json'
+
+          previous_task_ids = None
+          try:
+              with open(latest_path, encoding='utf-8') as f:
+                  previous = json.load(f)
+              old = previous.get('completed_task_ids')
+              if isinstance(old, list):
+                  previous_task_ids = {int(task_id) for task_id in old}
+          except (FileNotFoundError, json.JSONDecodeError, TypeError, ValueError):
+              pass
+
+          current_task_set = set(completed_task_ids)
+          if previous_task_ids is None:
+              new_task_ids = []
+              removed_task_ids = []
+          else:
+              new_task_ids = sorted(current_task_set - previous_task_ids)
+              removed_task_ids = sorted(previous_task_ids - current_task_set)
+
+          now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
+          snapshot = {
+              'timestamp_utc': now,
+              'player': '112321',
+              **totals,
+              'skills': skills,
+              'wikisync_profile': 'LEAGUE_2',
+              'completed_task_count': len(completed_task_ids),
+              'completed_task_ids': completed_task_ids,
+              'new_task_ids_since_previous_snapshot': new_task_ids,
+              'removed_task_ids_since_previous_snapshot': removed_task_ids,
+          }
 
           with open(latest_path, 'w', encoding='utf-8') as f:
               json.dump(snapshot, f, indent=2, sort_keys=True)
+              f.write('\n')
+
+          tasks_doc = {
+              'timestamp_utc': now,
+              'player': '112321',
+              'wikisync_profile': 'LEAGUE_2',
+              'completed_task_count': len(completed_task_ids),
+              'completed_task_ids': completed_task_ids,
+              'new_task_ids_since_previous_snapshot': new_task_ids,
+              'removed_task_ids_since_previous_snapshot': removed_task_ids,
+          }
+          with open(tasks_path, 'w', encoding='utf-8') as f:
+              json.dump(tasks_doc, f, indent=2, sort_keys=True)
               f.write('\n')
 
           try:
@@ -119,6 +182,10 @@ jobs:
           print(f"LP: {snapshot['league_points']:,}")
           print(f"Total level: {snapshot['total_level']:,}")
           print(f"Total XP: {snapshot['total_xp']:,}")
+          print(f"Completed tasks: {snapshot['completed_task_count']}")
+          print(f"New task IDs: {new_task_ids}")
+          if removed_task_ids:
+              print(f"Removed task IDs: {removed_task_ids}")
           print(f"Snapshots retained: {len(history)}/6")
           print('Levels:')
           print(', '.join(f"{name} {data['level']}" for name, data in skills.items()))
@@ -130,7 +197,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add leagues-tracker/latest.json leagues-tracker/history.json
+          git add leagues-tracker/latest.json leagues-tracker/history.json leagues-tracker/tasks.json
           if git diff --cached --quiet; then
             echo 'No tracker changes to commit.'
             exit 0
