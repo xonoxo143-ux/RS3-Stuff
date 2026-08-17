@@ -1,16 +1,25 @@
-name: Check RS3 Leagues Profile
+name: Track RS3 Leagues Profile
 
 on:
-  push:
-    paths:
-      - '.github/workflows/check-leagues-profile.yml'
+  schedule:
+    - cron: '17 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: rs3-leagues-profile-history
+  cancel-in-progress: false
+
 jobs:
-  check-profile:
+  track-profile:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch and parse Jagex Leagues profile
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Fetch, parse, and update rolling history
         shell: bash
         run: |
           set -euo pipefail
@@ -28,9 +37,13 @@ jobs:
           echo "HTTP_STATUS=$STATUS"
           test "$STATUS" = "200"
 
+          mkdir -p leagues-tracker
+
           python3 - <<'PY'
+          import datetime as dt
           import html
           import json
+          import os
           import re
 
           raw = open('profile.html', encoding='utf-8').read()
@@ -67,12 +80,58 @@ jobs:
                       'xp': int(xp.replace(',', '')),
                   }
 
-          out = {
+          if totals['league_points'] is None or totals['total_level'] is None or not skills:
+              raise RuntimeError('Jagex page was reachable, but profile parsing failed')
+
+          snapshot = {
+              'timestamp_utc': dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
               'player': '112321',
               **totals,
               'skills': skills,
           }
 
-          print('--- RS3_LEAGUES_PROFILE_JSON ---')
-          print(json.dumps(out, indent=2, sort_keys=True))
+          latest_path = 'leagues-tracker/latest.json'
+          history_path = 'leagues-tracker/history.json'
+
+          with open(latest_path, 'w', encoding='utf-8') as f:
+              json.dump(snapshot, f, indent=2, sort_keys=True)
+              f.write('\n')
+
+          try:
+              with open(history_path, encoding='utf-8') as f:
+                  history = json.load(f)
+              if not isinstance(history, list):
+                  history = []
+          except (FileNotFoundError, json.JSONDecodeError):
+              history = []
+
+          history.append(snapshot)
+          history = history[-6:]
+
+          with open(history_path, 'w', encoding='utf-8') as f:
+              json.dump(history, f, indent=2, sort_keys=True)
+              f.write('\n')
+
+          print('--- CURRENT SNAPSHOT ---')
+          print(f"Time: {snapshot['timestamp_utc']}")
+          print(f"LP: {snapshot['league_points']:,}")
+          print(f"Total level: {snapshot['total_level']:,}")
+          print(f"Total XP: {snapshot['total_xp']:,}")
+          print(f"Snapshots retained: {len(history)}/6")
+          print('Levels:')
+          print(', '.join(f"{name} {data['level']}" for name, data in skills.items()))
           PY
+
+      - name: Commit updated tracker history
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add leagues-tracker/latest.json leagues-tracker/history.json
+          if git diff --cached --quiet; then
+            echo 'No tracker changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Update RS3 Leagues hourly snapshot'
+          git push
