@@ -2,7 +2,8 @@
   "player": "112321",
   "confirmed_relic_choices": {
     "1": "Golden Touch",
-    "2": "Divine Druid"
+    "2": "Divine Druid",
+    "3": "Voidwalker"
   },
   "confirmed_unlocked_regions": [
     "Misthalin",
@@ -24,7 +25,7 @@
     ]
   },
   "notes": [
-    "Tier 3 relic choice is not recorded here until confirmed; do not infer it.",
+    "Tier 3 relic choice confirmed by the user as Voidwalker.",
     "Update confirmed_unlocked_regions when a newly selected optional region is known before a task from that region has been completed.",
     "planned_optional_regions is a strategy preference, not proof that those regions are unlocked."
   ]
