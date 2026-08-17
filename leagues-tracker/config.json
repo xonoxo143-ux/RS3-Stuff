@@ -1,0 +1,31 @@
+{
+  "player": "112321",
+  "confirmed_relic_choices": {
+    "1": "Golden Touch",
+    "2": "Divine Druid"
+  },
+  "confirmed_unlocked_regions": [
+    "Misthalin",
+    "Havenhythe",
+    "Karamja"
+  ],
+  "planned_optional_regions": [
+    "Tirannwn",
+    "Kandarin",
+    "Asgarnia"
+  ],
+  "strategy": {
+    "primary_goal": "Snowball progression by unlocking stronger bonuses and regions quickly.",
+    "priority_order": [
+      "task count toward region unlocks",
+      "league points toward relic tiers",
+      "blessing tasks when efficient",
+      "account power and useful skill unlocks"
+    ]
+  },
+  "notes": [
+    "Tier 3 relic choice is not recorded here until confirmed; do not infer it.",
+    "Update confirmed_unlocked_regions when a newly selected optional region is known before a task from that region has been completed.",
+    "planned_optional_regions is a strategy preference, not proof that those regions are unlocked."
+  ]
+}
