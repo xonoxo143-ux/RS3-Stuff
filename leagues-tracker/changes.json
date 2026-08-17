@@ -1,143 +1,87 @@
 {
   "player": "112321",
   "rolling_six_snapshot_rate": {
-    "elapsed_hours": 1.782,
-    "levels_per_hour": 44.34,
-    "lp_per_hour": 89.8,
-    "tasks_per_hour": 0.0,
-    "xp_per_hour": 6577624.32
+    "elapsed_hours": 2.665,
+    "levels_per_hour": 36.78,
+    "lp_per_hour": 60.04,
+    "tasks_per_hour": 2.25,
+    "xp_per_hour": 4784384.99
   },
   "since_previous_snapshot": {
-    "completed_tasks": 6,
-    "elapsed_hours": 1.009,
+    "completed_tasks": 0,
+    "elapsed_hours": 0.945,
     "has_previous_snapshot": true,
-    "league_points": 100,
+    "league_points": 0,
     "level_ups": [
       {
-        "from": 58,
-        "levels_gained": 12,
-        "skill": "Prayer",
-        "to": 70
-      },
-      {
-        "from": 74,
-        "levels_gained": 8,
-        "skill": "Thieving",
-        "to": 82
-      },
-      {
-        "from": 8,
-        "levels_gained": 6,
-        "skill": "Herblore",
-        "to": 14
-      },
-      {
         "from": 26,
-        "levels_gained": 2,
+        "levels_gained": 5,
+        "skill": "Defence",
+        "to": 31
+      },
+      {
+        "from": 28,
+        "levels_gained": 5,
         "skill": "Magic",
-        "to": 28
+        "to": 33
+      },
+      {
+        "from": 25,
+        "levels_gained": 4,
+        "skill": "Constitution",
+        "to": 29
+      },
+      {
+        "from": 1,
+        "levels_gained": 4,
+        "skill": "Summoning",
+        "to": 5
+      },
+      {
+        "from": 70,
+        "levels_gained": 1,
+        "skill": "Prayer",
+        "to": 71
       }
     ],
-    "new_task_ids": [
-      107,
-      116,
-      188,
-      814,
-      848,
-      902
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "id": 107,
-        "issue": null,
-        "name": "Steal from the Varrock tea stall.",
-        "points": 10,
-        "region": "Misthalin",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "id": 116,
-        "issue": null,
-        "name": "Pickpocket a guard in Varrock Palace's courtyard.",
-        "points": 30,
-        "region": "Misthalin",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": false,
-        "id": 188,
-        "issue": null,
-        "name": "Activate the thick skin, rock skin, or steel skin prayer.",
-        "points": 10,
-        "region": "Global",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "id": 814,
-        "issue": null,
-        "name": "Clean 15 grimy tarromin.",
-        "points": 10,
-        "region": "Global",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "id": 848,
-        "issue": null,
-        "name": "Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.",
-        "points": 10,
-        "region": "Global",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "id": 902,
-        "issue": null,
-        "name": "Activate Protect from Melee prayer.",
-        "points": 30,
-        "region": "Global",
-        "tier": "medium"
-      }
-    ],
+    "new_task_ids": [],
+    "new_tasks": [],
     "rates": {
-      "levels_per_hour": 27.75,
-      "lp_per_hour": 99.12,
-      "tasks_per_hour": 5.95,
-      "xp_per_hour": 8178786.67
+      "levels_per_hour": 20.1,
+      "lp_per_hour": 0.0,
+      "tasks_per_hour": 0.0,
+      "xp_per_hour": 1089545.34
     },
     "removed_task_ids": [],
     "removed_tasks": [],
-    "total_level": 28,
-    "total_xp": 8251487,
+    "total_level": 19,
+    "total_xp": 1029923,
     "xp_gains": [
       {
         "skill": "Agility",
-        "xp_gained": 6316580
-      },
-      {
-        "skill": "Thieving",
-        "xp_gained": 1352134
-      },
-      {
-        "skill": "Prayer",
-        "xp_gained": 578406
+        "xp_gained": 1005448
       },
       {
         "skill": "Magic",
-        "xp_gained": 2728
+        "xp_gained": 7412
       },
       {
-        "skill": "Herblore",
-        "xp_gained": 1415
+        "skill": "Prayer",
+        "xp_gained": 6437
       },
       {
-        "skill": "Archaeology",
-        "xp_gained": 224
+        "skill": "Defence",
+        "xp_gained": 6171
+      },
+      {
+        "skill": "Constitution",
+        "xp_gained": 4063
+      },
+      {
+        "skill": "Summoning",
+        "xp_gained": 392
       }
     ]
   },
-  "timestamp_utc": "2026-08-17T22:43:59+00:00"
+  "timestamp_utc": "2026-08-17T23:40:42+00:00"
 }

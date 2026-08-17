@@ -1019,75 +1019,13 @@
       "tier": "elite"
     }
   ],
-  "new_task_ids_since_previous_snapshot": [
-    107,
-    116,
-    188,
-    814,
-    848,
-    902
-  ],
-  "new_tasks_since_previous_snapshot": [
-    {
-      "blessing_task": false,
-      "id": 107,
-      "issue": null,
-      "name": "Steal from the Varrock tea stall.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "id": 116,
-      "issue": null,
-      "name": "Pickpocket a guard in Varrock Palace's courtyard.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "id": 188,
-      "issue": null,
-      "name": "Activate the thick skin, rock skin, or steel skin prayer.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "id": 814,
-      "issue": null,
-      "name": "Clean 15 grimy tarromin.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "id": 848,
-      "issue": null,
-      "name": "Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "id": 902,
-      "issue": null,
-      "name": "Activate Protect from Melee prayer.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    }
-  ],
+  "new_task_ids_since_previous_snapshot": [],
+  "new_tasks_since_previous_snapshot": [],
   "player": "112321",
   "removed_task_ids_since_previous_snapshot": [],
   "removed_tasks_since_previous_snapshot": [],
   "schema_version": 2,
-  "timestamp_utc": "2026-08-17T22:43:59+00:00",
+  "timestamp_utc": "2026-08-17T23:40:42+00:00",
   "wikisync_profile": "LEAGUE_2",
-  "wikisync_timestamp": "2026-08-17T22:43:59.271Z"
+  "wikisync_timestamp": "2026-08-17T23:40:41.851Z"
 }

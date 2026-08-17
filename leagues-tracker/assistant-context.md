@@ -1,6 +1,6 @@
 # RS3 Equilibrium account state — 112321
 
-Updated: **2026-08-17T22:43:59+00:00** · **35 calendar days** until 2026-09-21
+Updated: **2026-08-17T23:40:42+00:00** · **35 calendar days** until 2026-09-21
 
 ## Read this first
 
@@ -8,21 +8,21 @@ Updated: **2026-08-17T22:43:59+00:00** · **35 calendar days** until 2026-09-21
 - **98 tasks** completed · **77 tasks** to First elective region
 - Blessings: **1 blessing tasks** · current step **Tier 1** · **2** to Tier 2
 - Trophy: **Bronze** · **1,880 LP** to Iron
-- Total level **689** · Total XP **26,479,018**
+- Total level **708** · Total XP **27,508,941**
 - Inferred/confirmed regions: **Havenhythe, Karamja, Misthalin**
 - Current planned next optional region: **Tirannwn**
 - Confirmed relic picks: **T1 Golden Touch, T2 Divine Druid, T3 Voidwalker**
 
 ## Since previous snapshot
 
-- LP: **+100**
-- Tasks: **+6**
-- Total levels: **+28**
-- Total XP: **+8,251,487**
-- New tasks: **Steal from the Varrock tea stall.** (easy, Misthalin, 10 LP); **Pickpocket a guard in Varrock Palace's courtyard.** (medium, Misthalin, 30 LP); **Activate the thick skin, rock skin, or steel skin prayer.** (easy, Global, 10 LP); **Clean 15 grimy tarromin.** (easy, Global, 10 LP); **Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.** (easy, Global, 10 LP); **Activate Protect from Melee prayer.** (medium, Global, 30 LP)
-- Level-ups: Prayer 58→70; Thieving 74→82; Herblore 8→14; Magic 26→28
-- Largest XP gains: Agility +6,316,580; Thieving +1,352,134; Prayer +578,406; Magic +2,728; Herblore +1,415; Archaeology +224
-- Pace over 1.01h: +99.1 LP/h · +6.0 tasks/h · +8,178,787 XP/h
+- LP: **+0**
+- Tasks: **+0**
+- Total levels: **+19**
+- Total XP: **+1,029,923**
+- New tasks: none
+- Level-ups: Defence 26→31; Magic 28→33; Constitution 25→29; Summoning 1→5; Prayer 70→71
+- Largest XP gains: Agility +1,005,448; Magic +7,412; Prayer +6,437; Defence +6,171; Constitution +4,063; Summoning +392
+- Pace over 0.94h: +0.0 LP/h · +0.0 tasks/h · +1,089,545 XP/h
 
 ## Task routing
 
@@ -65,26 +65,26 @@ Updated: **2026-08-17T22:43:59+00:00** · **35 calendar days** until 2026-09-21
 ## Skill highlights
 
 - 99+: Agility
-- Level 1 or lower: Construction, Dungeoneering, Invention, Necromancy, Summoning, Farming
-- Below 20: Construction, Dungeoneering, Invention, Necromancy, Summoning, Farming, Hunter, Ranged, Fishing, Herblore, Attack, Strength, Firemaking, Cooking, Archaeology, Slayer
-- Nearest standard milestones: Mining 46→50 (4); Thieving 82→90 (8); Prayer 70→80 (10); Smithing 37→50 (13); Woodcutting 34→50 (16); Runecrafting 31→50 (19); Divination 30→50 (20); Magic 28→50 (22)
+- Level 1 or lower: Construction, Dungeoneering, Invention, Necromancy, Farming
+- Below 20: Construction, Dungeoneering, Invention, Necromancy, Farming, Hunter, Summoning, Ranged, Fishing, Herblore, Attack, Strength, Firemaking, Cooking, Archaeology, Slayer
+- Nearest standard milestones: Mining 46→50 (4); Thieving 82→90 (8); Prayer 71→80 (9); Smithing 37→50 (13); Woodcutting 34→50 (16); Magic 33→50 (17); Defence 31→50 (19); Runecrafting 31→50 (19)
 
 ## Skills
 
 | Skill | Level | XP |
 |---|---:|---:|
-| Agility | 99 | 22,962,048 |
+| Agility | 99 | 23,967,496 |
 | Thieving | 82 | 2,491,991 |
-| Prayer | 70 | 808,795 |
+| Prayer | 71 | 815,232 |
 | Mining | 46 | 69,458 |
 | Smithing | 37 | 28,884 |
 | Woodcutting | 34 | 22,390 |
+| Magic | 33 | 19,055 |
 | Runecrafting | 31 | 15,360 |
+| Defence | 31 | 15,180 |
 | Divination | 30 | 13,728 |
-| Magic | 28 | 11,643 |
+| Constitution | 29 | 12,223 |
 | Crafting | 27 | 9,795 |
-| Defence | 26 | 9,009 |
-| Constitution | 25 | 8,160 |
 | Fletching | 20 | 5,013 |
 | Slayer | 19 | 4,035 |
 | Archaeology | 18 | 3,792 |
@@ -95,17 +95,17 @@ Updated: **2026-08-17T22:43:59+00:00** · **35 calendar days** until 2026-09-21
 | Herblore | 14 | 2,228 |
 | Fishing | 6 | 640 |
 | Ranged | 6 | 593 |
+| Summoning | 5 | 392 |
 | Hunter | 2 | 100 |
 | Farming | 1 | 20 |
 | Construction | 1 | 0 |
 | Dungeoneering | 1 | 0 |
 | Invention | 1 | 0 |
 | Necromancy | 1 | 0 |
-| Summoning | 1 | 0 |
 
 ## Data quality / freshness
 
-- WikiSync: **2026-08-17T22:43:59.271Z** via **LEAGUE_2**
+- WikiSync: **2026-08-17T23:40:41.851Z** via **LEAGUE_2**
 - Task catalog: **fresh**, 1,152 mapped tasks
 - Completed task IDs mapped to names: **98/98**
 - LP consistency: HiScores 2,120 vs mapped completed-task points 2,120 · delta **+0**
