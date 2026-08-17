@@ -1,77 +1,31 @@
 {
-  "completed_tasks": 0,
-  "has_previous_snapshot": true,
-  "league_points": 60,
-  "level_ups": [
-    {
-      "from": 1,
-      "levels_gained": 30,
-      "skill": "Runecrafting",
-      "to": 31
+  "player": "112321",
+  "rolling_six_snapshot_rate": {
+    "elapsed_hours": 0.672,
+    "levels_per_hour": 75.93,
+    "lp_per_hour": 89.33,
+    "tasks_per_hour": 0.0,
+    "xp_per_hour": 5162749.88
+  },
+  "since_previous_snapshot": {
+    "completed_tasks": 0,
+    "elapsed_hours": 0.116,
+    "has_previous_snapshot": true,
+    "league_points": 0,
+    "level_ups": [],
+    "new_task_ids": [],
+    "new_tasks": [],
+    "rates": {
+      "levels_per_hour": 0.0,
+      "lp_per_hour": 0.0,
+      "tasks_per_hour": 0.0,
+      "xp_per_hour": 0.0
     },
-    {
-      "from": 68,
-      "levels_gained": 6,
-      "skill": "Thieving",
-      "to": 74
-    },
-    {
-      "from": 22,
-      "levels_gained": 4,
-      "skill": "Defence",
-      "to": 26
-    },
-    {
-      "from": 22,
-      "levels_gained": 4,
-      "skill": "Magic",
-      "to": 26
-    },
-    {
-      "from": 33,
-      "levels_gained": 4,
-      "skill": "Smithing",
-      "to": 37
-    },
-    {
-      "from": 22,
-      "levels_gained": 3,
-      "skill": "Constitution",
-      "to": 25
-    }
-  ],
-  "new_task_ids": [],
-  "removed_task_ids": [],
-  "total_level": 51,
-  "total_xp": 3467647,
-  "xp_gains": [
-    {
-      "skill": "Agility",
-      "xp_gained": 2945371
-    },
-    {
-      "skill": "Thieving",
-      "xp_gained": 488376
-    },
-    {
-      "skill": "Runecrafting",
-      "xp_gained": 15360
-    },
-    {
-      "skill": "Smithing",
-      "xp_gained": 10560
-    },
-    {
-      "skill": "Defence",
-      "xp_gained": 3000
-    },
-    {
-      "skill": "Magic",
-      "xp_gained": 3000
-    },
-    {
-      "skill": "Constitution",
-      "xp_gained": 1980
-    }
-  ]
+    "removed_task_ids": [],
+    "removed_tasks": [],
+    "total_level": 0,
+    "total_xp": 0,
+    "xp_gains": []
+  },
+  "timestamp_utc": "2026-08-17T21:37:23+00:00"
 }

@@ -1,4 +1,39 @@
 {
+  "blessing_tasks_completed": [
+    {
+      "blessing_task": true,
+      "id": 28,
+      "issue": null,
+      "name": "Kill a goblin in Lumbridge.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    }
+  ],
+  "breakdown": {
+    "count_by_region": {
+      "Global": 67,
+      "Karamja": 1,
+      "Misthalin": 24
+    },
+    "count_by_tier": {
+      "easy": 70,
+      "elite": 3,
+      "hard": 3,
+      "medium": 16
+    },
+    "points_by_region": {
+      "Global": 1650,
+      "Karamja": 30,
+      "Misthalin": 340
+    },
+    "points_by_tier": {
+      "easy": 700,
+      "elite": 600,
+      "hard": 240,
+      "medium": 480
+    }
+  },
   "completed_task_count": 92,
   "completed_task_ids": [
     0,
@@ -94,10 +129,843 @@
     1151,
     1152
   ],
+  "completed_tasks": [
+    {
+      "blessing_task": false,
+      "id": 0,
+      "issue": null,
+      "name": "Progress through the Leagues tutorial to unlock your first relic.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 1,
+      "issue": null,
+      "name": "Kill the lesser demon in the Wizards' Tower.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 2,
+      "issue": null,
+      "name": "Climb to the top of the Wizards' Tower.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 5,
+      "issue": null,
+      "name": "Convert at least one pale memory into energy.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 27,
+      "issue": null,
+      "name": "Kill a giant rat in Lumbridge Swamp.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": true,
+      "id": 28,
+      "issue": null,
+      "name": "Kill a goblin in Lumbridge.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 29,
+      "issue": null,
+      "name": "Kill a giant spider in Lumbridge or Lumbridge Swamp.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 30,
+      "issue": null,
+      "name": "Milk a cow.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 31,
+      "issue": null,
+      "name": "Enter Zanaris via Lumbridge Swamp.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 32,
+      "issue": null,
+      "name": "Talk to Hans and find out how old you are.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 33,
+      "issue": null,
+      "name": "Complete the quest: The Blood Pact.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 36,
+      "issue": null,
+      "name": "Smelt a steel bar in the furnace in Lumbridge.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 37,
+      "issue": null,
+      "name": "Cook some rat meat on a fire in Lumbridge Swamp.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 38,
+      "issue": null,
+      "name": "Mine iron ore from the mining site south-west of Lumbridge Swamp.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 40,
+      "issue": null,
+      "name": "Complete a task from Jacquelyn, the Lumbridge Slayer master.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 44,
+      "issue": null,
+      "name": "Drink from the Tears of Guthix.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 50,
+      "issue": null,
+      "name": "Pickpocket a H.A.M. member.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 98,
+      "issue": null,
+      "name": "Kill a dark wizard.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 102,
+      "issue": null,
+      "name": "Claim a free clue scroll from Zaida at the Grand Exchange.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 104,
+      "issue": null,
+      "name": "Complete the Archaeology tutorial.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 106,
+      "issue": null,
+      "name": "Mine some iron ore in the mining spot south-west of Varrock.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 117,
+      "issue": null,
+      "name": "Gather and convert 50 bright memories.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 133,
+      "issue": null,
+      "name": "Level up any of your skills for the first time.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 134,
+      "issue": null,
+      "name": "Reach level 5 in any skill.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 135,
+      "issue": null,
+      "name": "Reach level 10 in any skill.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 136,
+      "issue": null,
+      "name": "Reach level 20 in any skill.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 137,
+      "issue": null,
+      "name": "Reach level 50 in any skill.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 142,
+      "issue": null,
+      "name": "Reach combat level 5.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 143,
+      "issue": null,
+      "name": "Reach combat level 10.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 147,
+      "issue": null,
+      "name": "Reach total level 50.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 148,
+      "issue": null,
+      "name": "Reach total level 100.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 149,
+      "issue": null,
+      "name": "Reach total level 500.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 153,
+      "issue": null,
+      "name": "Mine a copper ore.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 154,
+      "issue": null,
+      "name": "Mine 10 copper ore.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 155,
+      "issue": null,
+      "name": "Mine a tin ore.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 156,
+      "issue": null,
+      "name": "Mine 10 tin ore.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 157,
+      "issue": null,
+      "name": "Smelt a bronze bar.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 158,
+      "issue": null,
+      "name": "Smelt 10 bronze bars.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 159,
+      "issue": null,
+      "name": "Smith any bronze item.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 162,
+      "issue": null,
+      "name": "Mine any ore 5 times.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 163,
+      "issue": null,
+      "name": "Mine any ore 200 times.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 165,
+      "issue": null,
+      "name": "Chop any tree 5 times.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 168,
+      "issue": null,
+      "name": "Chop a basic tree.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 169,
+      "issue": null,
+      "name": "Chop 10 basic trees.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 170,
+      "issue": null,
+      "name": "Chop an oak tree.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 171,
+      "issue": null,
+      "name": "Chop a willow tree.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 172,
+      "issue": null,
+      "name": "Burn any logs.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 173,
+      "issue": null,
+      "name": "Burn any logs 5 times.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 176,
+      "issue": null,
+      "name": "Catch a shrimp.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 180,
+      "issue": null,
+      "name": "Cook shrimp, meat, or chicken.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 181,
+      "issue": null,
+      "name": "Cook 10 shrimp, meat, or chicken.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 182,
+      "issue": null,
+      "name": "Burn any food.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 183,
+      "issue": null,
+      "name": "Catch any fish 5 times.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 186,
+      "issue": null,
+      "name": "Bury any bones.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 187,
+      "issue": null,
+      "name": "Bury any bones 10 times.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 190,
+      "issue": null,
+      "name": "Harvest a memory from a pale wisp.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 191,
+      "issue": null,
+      "name": "Harvest 10 memories from a pale wisp.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 192,
+      "issue": null,
+      "name": "Harvest any memory from a wisp 5 times.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 193,
+      "issue": null,
+      "name": "Harvest any memory from a wisp 200 times.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 195,
+      "issue": null,
+      "name": "Pickpocket from a man or woman.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 196,
+      "issue": null,
+      "name": "Pickpocket from a man or woman 10 times.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 197,
+      "issue": null,
+      "name": "Steal from any stall.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 198,
+      "issue": null,
+      "name": "Steal from any stall 10 times.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 199,
+      "issue": null,
+      "name": "Pickpocket anyone 5 times.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 200,
+      "issue": null,
+      "name": "Pickpocket anyone 200 times.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 201,
+      "issue": null,
+      "name": "Pickpocket anyone 1000 times.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "id": 210,
+      "issue": null,
+      "name": "Use the Home Teleport spell to return to Lumbridge.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 214,
+      "issue": null,
+      "name": "Kill an imp.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 215,
+      "issue": null,
+      "name": "Kill a chicken.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 216,
+      "issue": null,
+      "name": "Claim a free item from any store.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 218,
+      "issue": null,
+      "name": "Sell an item to any store.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 220,
+      "issue": null,
+      "name": "Pick wheat from a field.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 222,
+      "issue": null,
+      "name": "View the skillguide.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 612,
+      "issue": null,
+      "name": "Complete the quest: Dragon Slayer.",
+      "points": 30,
+      "region": "Karamja",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 813,
+      "issue": null,
+      "name": "Clean 5 grimy guam.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 815,
+      "issue": null,
+      "name": "Clean 5 of any herb.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 816,
+      "issue": null,
+      "name": "Clean 10 of any herb",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 820,
+      "issue": null,
+      "name": "Fletch some arrow shafts.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 827,
+      "issue": null,
+      "name": "Smith 10 of any metal weapon or armour piece.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 835,
+      "issue": null,
+      "name": "Cook 5 fish.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 839,
+      "issue": null,
+      "name": "Make some flour.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 840,
+      "issue": null,
+      "name": "Offer 5 bones of any kind to an altar.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 843,
+      "issue": null,
+      "name": "Scatter some ashes.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 888,
+      "issue": null,
+      "name": "Mine 20 mithril ore.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 1060,
+      "issue": null,
+      "name": "Reach level 99 in the Agility skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "id": 1146,
+      "issue": null,
+      "name": "Reach level 30 in any skill.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 1147,
+      "issue": null,
+      "name": "Reach level 40 in any skill.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 1148,
+      "issue": null,
+      "name": "Reach level 60 in any skill.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 1149,
+      "issue": null,
+      "name": "Reach level 70 in any skill.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "id": 1150,
+      "issue": null,
+      "name": "Reach level 80 in any skill.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "id": 1151,
+      "issue": null,
+      "name": "Reach level 90 in any skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "id": 1152,
+      "issue": null,
+      "name": "Reach level 95 in any skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    }
+  ],
   "new_task_ids_since_previous_snapshot": [],
+  "new_tasks_since_previous_snapshot": [],
   "player": "112321",
   "removed_task_ids_since_previous_snapshot": [],
-  "timestamp_utc": "2026-08-17T21:30:26+00:00",
+  "removed_tasks_since_previous_snapshot": [],
+  "schema_version": 2,
+  "timestamp_utc": "2026-08-17T21:37:23+00:00",
   "wikisync_profile": "LEAGUE_2",
-  "wikisync_timestamp": "2026-08-17T21:30:26.465Z"
+  "wikisync_timestamp": "2026-08-17T21:37:23.346Z"
 }
