@@ -1,0 +1,127 @@
+[
+  {
+    "league_points": 1960,
+    "player": "112321",
+    "skills": {
+      "Agility": {
+        "level": 99,
+        "xp": 13700097
+      },
+      "Archaeology": {
+        "level": 18,
+        "xp": 3568
+      },
+      "Attack": {
+        "level": 15,
+        "xp": 2623
+      },
+      "Constitution": {
+        "level": 22,
+        "xp": 6180
+      },
+      "Construction": {
+        "level": 1,
+        "xp": 0
+      },
+      "Cooking": {
+        "level": 17,
+        "xp": 3338
+      },
+      "Crafting": {
+        "level": 27,
+        "xp": 9795
+      },
+      "Defence": {
+        "level": 22,
+        "xp": 6009
+      },
+      "Divination": {
+        "level": 30,
+        "xp": 13728
+      },
+      "Dungeoneering": {
+        "level": 1,
+        "xp": 0
+      },
+      "Farming": {
+        "level": 1,
+        "xp": 20
+      },
+      "Firemaking": {
+        "level": 16,
+        "xp": 2752
+      },
+      "Fishing": {
+        "level": 6,
+        "xp": 640
+      },
+      "Fletching": {
+        "level": 20,
+        "xp": 5013
+      },
+      "Herblore": {
+        "level": 8,
+        "xp": 813
+      },
+      "Hunter": {
+        "level": 2,
+        "xp": 100
+      },
+      "Invention": {
+        "level": 1,
+        "xp": 0
+      },
+      "Magic": {
+        "level": 22,
+        "xp": 5915
+      },
+      "Mining": {
+        "level": 46,
+        "xp": 69458
+      },
+      "Necromancy": {
+        "level": 1,
+        "xp": 0
+      },
+      "Prayer": {
+        "level": 58,
+        "xp": 230389
+      },
+      "Ranged": {
+        "level": 6,
+        "xp": 593
+      },
+      "Runecrafting": {
+        "level": 1,
+        "xp": 0
+      },
+      "Slayer": {
+        "level": 19,
+        "xp": 4035
+      },
+      "Smithing": {
+        "level": 33,
+        "xp": 18324
+      },
+      "Strength": {
+        "level": 15,
+        "xp": 2623
+      },
+      "Summoning": {
+        "level": 1,
+        "xp": 0
+      },
+      "Thieving": {
+        "level": 68,
+        "xp": 651481
+      },
+      "Woodcutting": {
+        "level": 34,
+        "xp": 22390
+      }
+    },
+    "timestamp_utc": "2026-08-17T20:57:05+00:00",
+    "total_level": 610,
+    "total_xp": 14759884
+  }
+]
