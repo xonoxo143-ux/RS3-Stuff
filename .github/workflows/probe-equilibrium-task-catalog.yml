@@ -17,11 +17,44 @@ jobs:
           URL='https://scapeleagues.com/rs3/equilibrium/tasks'
           UA='RS3-Stuff-Leagues-Tracker/1.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
           curl -sS -L --compressed -A "$UA" -o tasks.html "$URL"
-          echo "SIZE=$(wc -c < tasks.html)"
-          echo '--- script/src hints ---'
-          grep -oE 'https?://[^"'"' ]+|/[^"'"' ]+\.(json|js)(\?[^"'"' ]*)?' tasks.html | head -n 200 || true
-          echo '--- framework/data hints ---'
-          grep -oiE '__NEXT_DATA__|self\.__next_f\.push|application/ld\+json|application/json|task[^<]{0,80}|knownIssue|blessing|difficulty|region' tasks.html | head -n 250 || true
-          echo '--- first 5000 chars ---'
-          head -c 5000 tasks.html
-          echo
+          python3 - <<'PY'
+          import re
+          from html import unescape
+
+          raw = open('tasks.html', encoding='utf-8').read()
+          print('SIZE=', len(raw))
+          print('NEXT_DATA=', '__NEXT_DATA__' in raw)
+          print('NEXT_FLIGHT=', 'self.__next_f.push' in raw)
+
+          print('--- SCRIPT SRCS ---')
+          for src in re.findall(r'<script[^>]+src=["\']([^"\']+)', raw, re.I)[:100]:
+              print(src)
+
+          print('--- DATA/API/ID HINTS ---')
+          patterns = [
+              r'[^"\']{0,80}(?:taskId|task_id|leagueTask|knownIssue|blessing|difficulty|region)[^"\']{0,120}',
+              r'/[^"\']+(?:\.json|/api/)[^"\']*',
+          ]
+          seen = set()
+          for pat in patterns:
+              for m in re.finditer(pat, raw, re.I):
+                  s = unescape(m.group(0)).replace('\\"', '"')
+                  if s not in seen:
+                      print(s[:260])
+                      seen.add(s)
+                      if len(seen) >= 160:
+                          break
+              if len(seen) >= 160:
+                  break
+
+          for needle in [
+              'Complete the base camp tutorial on Anachronia.',
+              'Have Ned make you some rope from balls of wool',
+              'Kill a giant rat in Lumbridge Swamp',
+          ]:
+              print(f'--- CONTEXT: {needle} ---')
+              pos = raw.find(needle)
+              print('POS=', pos)
+              if pos >= 0:
+                  print(unescape(raw[max(0,pos-1200):pos+1800]))
+          PY
