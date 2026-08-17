@@ -12,29 +12,29 @@
   ],
   "breakdown": {
     "count_by_region": {
-      "Global": 67,
+      "Global": 71,
       "Karamja": 1,
-      "Misthalin": 24
+      "Misthalin": 26
     },
     "count_by_tier": {
-      "easy": 70,
+      "easy": 74,
       "elite": 3,
       "hard": 3,
-      "medium": 16
+      "medium": 18
     },
     "points_by_region": {
-      "Global": 1650,
+      "Global": 1710,
       "Karamja": 30,
-      "Misthalin": 340
+      "Misthalin": 380
     },
     "points_by_tier": {
-      "easy": 700,
+      "easy": 740,
       "elite": 600,
       "hard": 240,
-      "medium": 480
+      "medium": 540
     }
   },
-  "completed_task_count": 92,
+  "completed_task_count": 98,
   "completed_task_ids": [
     0,
     1,
@@ -57,6 +57,8 @@
     102,
     104,
     106,
+    107,
+    116,
     117,
     133,
     134,
@@ -91,6 +93,7 @@
     183,
     186,
     187,
+    188,
     190,
     191,
     192,
@@ -111,6 +114,7 @@
     222,
     612,
     813,
+    814,
     815,
     816,
     820,
@@ -119,7 +123,9 @@
     839,
     840,
     843,
+    848,
     888,
+    902,
     1060,
     1146,
     1147,
@@ -318,6 +324,24 @@
       "points": 10,
       "region": "Misthalin",
       "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 107,
+      "issue": null,
+      "name": "Steal from the Varrock tea stall.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 116,
+      "issue": null,
+      "name": "Pickpocket a guard in Varrock Palace's courtyard.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
     },
     {
       "blessing_task": false,
@@ -627,6 +651,15 @@
     },
     {
       "blessing_task": false,
+      "id": 188,
+      "issue": null,
+      "name": "Activate the thick skin, rock skin, or steel skin prayer.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
       "id": 190,
       "issue": null,
       "name": "Harvest a memory from a pale wisp.",
@@ -807,6 +840,15 @@
     },
     {
       "blessing_task": false,
+      "id": 814,
+      "issue": null,
+      "name": "Clean 15 grimy tarromin.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
       "id": 815,
       "issue": null,
       "name": "Clean 5 of any herb.",
@@ -879,9 +921,27 @@
     },
     {
       "blessing_task": false,
+      "id": 848,
+      "issue": null,
+      "name": "Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
       "id": 888,
       "issue": null,
       "name": "Mine 20 mithril ore.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 902,
+      "issue": null,
+      "name": "Activate Protect from Melee prayer.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -959,13 +1019,75 @@
       "tier": "elite"
     }
   ],
-  "new_task_ids_since_previous_snapshot": [],
-  "new_tasks_since_previous_snapshot": [],
+  "new_task_ids_since_previous_snapshot": [
+    107,
+    116,
+    188,
+    814,
+    848,
+    902
+  ],
+  "new_tasks_since_previous_snapshot": [
+    {
+      "blessing_task": false,
+      "id": 107,
+      "issue": null,
+      "name": "Steal from the Varrock tea stall.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 116,
+      "issue": null,
+      "name": "Pickpocket a guard in Varrock Palace's courtyard.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 188,
+      "issue": null,
+      "name": "Activate the thick skin, rock skin, or steel skin prayer.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 814,
+      "issue": null,
+      "name": "Clean 15 grimy tarromin.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 848,
+      "issue": null,
+      "name": "Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 902,
+      "issue": null,
+      "name": "Activate Protect from Melee prayer.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    }
+  ],
   "player": "112321",
   "removed_task_ids_since_previous_snapshot": [],
   "removed_tasks_since_previous_snapshot": [],
   "schema_version": 2,
-  "timestamp_utc": "2026-08-17T21:43:27+00:00",
+  "timestamp_utc": "2026-08-17T22:43:59+00:00",
   "wikisync_profile": "LEAGUE_2",
-  "wikisync_timestamp": "2026-08-17T21:43:26.422Z"
+  "wikisync_timestamp": "2026-08-17T22:43:59.271Z"
 }

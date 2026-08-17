@@ -129,9 +129,9 @@
   ],
   "candidate_pool_note": "Pools are filtered by completed state, inferred/confirmed region access, and known issue flags. The catalog does not expose skill requirements, so candidates are not guaranteed to be immediately doable.",
   "counts": {
-    "accessible_uncompleted": 548,
+    "accessible_uncompleted": 542,
     "blessing_candidates": 14,
-    "clean_accessible_uncompleted": 543,
+    "clean_accessible_uncompleted": 537,
     "known_issue_accessible": 5
   },
   "high_point_candidates_top_50": [
@@ -642,24 +642,6 @@
   "task_count_candidates_top_75": [
     {
       "blessing_task": false,
-      "id": 848,
-      "issue": null,
-      "name": "Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "id": 188,
-      "issue": null,
-      "name": "Activate the thick skin, rock skin, or steel skin prayer.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "id": 206,
       "issue": null,
       "name": "Add any compostable item to a compost bin.",
@@ -717,15 +699,6 @@
       "id": 178,
       "issue": null,
       "name": "Catch an anchovy.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "id": 814,
-      "issue": null,
-      "name": "Clean 15 grimy tarromin.",
       "points": 10,
       "region": "Global",
       "tier": "easy"
@@ -1314,7 +1287,34 @@
       "points": 10,
       "region": "Karamja",
       "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 600,
+      "issue": null,
+      "name": "Defeat a greater demon on Karamja.",
+      "points": 10,
+      "region": "Karamja",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 602,
+      "issue": null,
+      "name": "Enter the Brimhaven Dungeon.",
+      "points": 10,
+      "region": "Karamja",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 595,
+      "issue": null,
+      "name": "Fill up Luthas' crate near the Musa Point plantation with bananas and receive 30 coins for your work.",
+      "points": 10,
+      "region": "Karamja",
+      "tier": "easy"
     }
   ],
-  "timestamp_utc": "2026-08-17T21:43:27+00:00"
+  "timestamp_utc": "2026-08-17T22:43:59+00:00"
 }

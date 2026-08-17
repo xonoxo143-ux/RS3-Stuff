@@ -1,25 +1,137 @@
 {
   "changes_since_previous_snapshot": {
-    "completed_tasks": 0,
-    "elapsed_hours": 0.101,
+    "completed_tasks": 6,
+    "elapsed_hours": 1.009,
     "has_previous_snapshot": true,
-    "league_points": 0,
-    "level_ups": [],
-    "new_task_ids": [],
-    "new_tasks": [],
+    "league_points": 100,
+    "level_ups": [
+      {
+        "from": 58,
+        "levels_gained": 12,
+        "skill": "Prayer",
+        "to": 70
+      },
+      {
+        "from": 74,
+        "levels_gained": 8,
+        "skill": "Thieving",
+        "to": 82
+      },
+      {
+        "from": 8,
+        "levels_gained": 6,
+        "skill": "Herblore",
+        "to": 14
+      },
+      {
+        "from": 26,
+        "levels_gained": 2,
+        "skill": "Magic",
+        "to": 28
+      }
+    ],
+    "new_task_ids": [
+      107,
+      116,
+      188,
+      814,
+      848,
+      902
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "id": 107,
+        "issue": null,
+        "name": "Steal from the Varrock tea stall.",
+        "points": 10,
+        "region": "Misthalin",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "id": 116,
+        "issue": null,
+        "name": "Pickpocket a guard in Varrock Palace's courtyard.",
+        "points": 30,
+        "region": "Misthalin",
+        "tier": "medium"
+      },
+      {
+        "blessing_task": false,
+        "id": 188,
+        "issue": null,
+        "name": "Activate the thick skin, rock skin, or steel skin prayer.",
+        "points": 10,
+        "region": "Global",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "id": 814,
+        "issue": null,
+        "name": "Clean 15 grimy tarromin.",
+        "points": 10,
+        "region": "Global",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "id": 848,
+        "issue": null,
+        "name": "Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.",
+        "points": 10,
+        "region": "Global",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "id": 902,
+        "issue": null,
+        "name": "Activate Protect from Melee prayer.",
+        "points": 30,
+        "region": "Global",
+        "tier": "medium"
+      }
+    ],
     "rates": {
-      "levels_per_hour": 0.0,
-      "lp_per_hour": 0.0,
-      "tasks_per_hour": 0.0,
-      "xp_per_hour": 0.0
+      "levels_per_hour": 27.75,
+      "lp_per_hour": 99.12,
+      "tasks_per_hour": 5.95,
+      "xp_per_hour": 8178786.67
     },
     "removed_task_ids": [],
     "removed_tasks": [],
-    "total_level": 0,
-    "total_xp": 0,
-    "xp_gains": []
+    "total_level": 28,
+    "total_xp": 8251487,
+    "xp_gains": [
+      {
+        "skill": "Agility",
+        "xp_gained": 6316580
+      },
+      {
+        "skill": "Thieving",
+        "xp_gained": 1352134
+      },
+      {
+        "skill": "Prayer",
+        "xp_gained": 578406
+      },
+      {
+        "skill": "Magic",
+        "xp_gained": 2728
+      },
+      {
+        "skill": "Herblore",
+        "xp_gained": 1415
+      },
+      {
+        "skill": "Archaeology",
+        "xp_gained": 224
+      }
+    ]
   },
-  "completed_task_count": 92,
+  "completed_task_count": 98,
   "completed_task_ids": [
     0,
     1,
@@ -42,6 +154,8 @@
     102,
     104,
     106,
+    107,
+    116,
     117,
     133,
     134,
@@ -76,6 +190,7 @@
     183,
     186,
     187,
+    188,
     190,
     191,
     192,
@@ -96,6 +211,7 @@
     222,
     612,
     813,
+    814,
     815,
     816,
     820,
@@ -104,7 +220,9 @@
     839,
     840,
     843,
+    848,
     888,
+    902,
     1060,
     1146,
     1147,
@@ -117,33 +235,33 @@
   "derived": {
     "completed_task_breakdown": {
       "count_by_region": {
-        "Global": 67,
+        "Global": 71,
         "Karamja": 1,
-        "Misthalin": 24
+        "Misthalin": 26
       },
       "count_by_tier": {
-        "easy": 70,
+        "easy": 74,
         "elite": 3,
         "hard": 3,
-        "medium": 16
+        "medium": 18
       },
       "points_by_region": {
-        "Global": 1650,
+        "Global": 1710,
         "Karamja": 30,
-        "Misthalin": 340
+        "Misthalin": 380
       },
       "points_by_tier": {
-        "easy": 700,
+        "easy": 740,
         "elite": 600,
         "hard": 240,
-        "medium": 480
+        "medium": 540
       }
     },
     "data_consistency": {
-      "catalog_points_from_completed_tasks": 2020,
+      "catalog_points_from_completed_tasks": 2120,
       "catalog_task_count": 1152,
       "hiscores_lp_minus_catalog_completed_points": 0,
-      "mapped_completed_tasks": 92,
+      "mapped_completed_tasks": 98,
       "unmapped_completed_task_ids": []
     },
     "progression": {
@@ -151,14 +269,14 @@
       "blessing_tasks_completed": 1,
       "blessing_tasks_to_next_step": 2,
       "calendar_days_remaining": 35,
-      "completed_tasks": 92,
+      "completed_tasks": 98,
       "inferred_unlocked_regions": [
         "Havenhythe",
         "Karamja",
         "Misthalin"
       ],
       "league_end_date": "2026-09-21",
-      "league_points": 2020,
+      "league_points": 2120,
       "next_blessing_step": "Tier 2",
       "next_planned_region": "Tirannwn",
       "next_region_task_threshold": 175,
@@ -166,17 +284,18 @@
       "next_relic_points": 3500,
       "next_relic_tier": 4,
       "next_trophy": "Iron",
-      "points_to_next_relic": 1480,
-      "points_to_next_trophy": 1980,
+      "points_to_next_relic": 1380,
+      "points_to_next_trophy": 1880,
       "relic_tier": 3,
-      "tasks_to_next_region_unlock": 83,
-      "total_level": 661,
-      "total_xp": 18227531,
+      "tasks_to_next_region_unlock": 77,
+      "total_level": 689,
+      "total_xp": 26479018,
       "trophy": "Bronze"
     },
     "skill_summary": {
       "80_or_higher": [
-        "Agility"
+        "Agility",
+        "Thieving"
       ],
       "99_or_higher": [
         "Agility"
@@ -203,17 +322,17 @@
         {
           "level": 99,
           "name": "Agility",
-          "xp": 16645468
+          "xp": 22962048
         },
         {
-          "level": 74,
+          "level": 82,
           "name": "Thieving",
-          "xp": 1139857
+          "xp": 2491991
         },
         {
-          "level": 58,
+          "level": 70,
           "name": "Prayer",
-          "xp": 230389
+          "xp": 808795
         },
         {
           "level": 46,
@@ -299,16 +418,16 @@
           "target_level": 50
         },
         {
-          "current_level": 74,
-          "levels_needed": 6,
+          "current_level": 82,
+          "levels_needed": 8,
           "skill": "Thieving",
-          "target_level": 80
+          "target_level": 90
         },
         {
-          "current_level": 58,
-          "levels_needed": 12,
+          "current_level": 70,
+          "levels_needed": 10,
           "skill": "Prayer",
-          "target_level": 70
+          "target_level": 80
         },
         {
           "current_level": 37,
@@ -335,6 +454,12 @@
           "target_level": 50
         },
         {
+          "current_level": 28,
+          "levels_needed": 22,
+          "skill": "Magic",
+          "target_level": 50
+        },
+        {
           "current_level": 27,
           "levels_needed": 23,
           "skill": "Crafting",
@@ -345,28 +470,22 @@
           "levels_needed": 24,
           "skill": "Defence",
           "target_level": 50
-        },
-        {
-          "current_level": 26,
-          "levels_needed": 24,
-          "skill": "Magic",
-          "target_level": 50
         }
       ]
     }
   },
   "league": "Leagues II: Equilibrium",
-  "league_points": 2020,
+  "league_points": 2120,
   "player": "112321",
   "schema_version": 3,
   "skills": {
     "Agility": {
       "level": 99,
-      "xp": 16645468
+      "xp": 22962048
     },
     "Archaeology": {
       "level": 18,
-      "xp": 3568
+      "xp": 3792
     },
     "Attack": {
       "level": 15,
@@ -417,8 +536,8 @@
       "xp": 5013
     },
     "Herblore": {
-      "level": 8,
-      "xp": 813
+      "level": 14,
+      "xp": 2228
     },
     "Hunter": {
       "level": 2,
@@ -429,8 +548,8 @@
       "xp": 0
     },
     "Magic": {
-      "level": 26,
-      "xp": 8915
+      "level": 28,
+      "xp": 11643
     },
     "Mining": {
       "level": 46,
@@ -441,8 +560,8 @@
       "xp": 0
     },
     "Prayer": {
-      "level": 58,
-      "xp": 230389
+      "level": 70,
+      "xp": 808795
     },
     "Ranged": {
       "level": 6,
@@ -469,8 +588,8 @@
       "xp": 0
     },
     "Thieving": {
-      "level": 74,
-      "xp": 1139857
+      "level": 82,
+      "xp": 2491991
     },
     "Woodcutting": {
       "level": 34,
@@ -479,13 +598,13 @@
   },
   "sources": {
     "jagex_hiscores": "https://rs.runescape.com/hiscores/leagues/player/112321",
-    "task_catalog_fetched_at_utc": "2026-08-17T21:43:27+00:00",
+    "task_catalog_fetched_at_utc": "2026-08-17T22:43:59+00:00",
     "task_catalog_status": "fresh",
     "task_catalog_url": "https://scapeleagues.com/rs3/equilibrium/tasks",
     "wikisync_profile": "LEAGUE_2",
-    "wikisync_timestamp": "2026-08-17T21:43:26.422Z"
+    "wikisync_timestamp": "2026-08-17T22:43:59.271Z"
   },
-  "timestamp_utc": "2026-08-17T21:43:27+00:00",
-  "total_level": 661,
-  "total_xp": 18227531
+  "timestamp_utc": "2026-08-17T22:43:59+00:00",
+  "total_level": 689,
+  "total_xp": 26479018
 }

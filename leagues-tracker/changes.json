@@ -1,31 +1,143 @@
 {
   "player": "112321",
   "rolling_six_snapshot_rate": {
-    "elapsed_hours": 0.773,
-    "levels_per_hour": 66.0,
-    "lp_per_hour": 77.64,
+    "elapsed_hours": 1.782,
+    "levels_per_hour": 44.34,
+    "lp_per_hour": 89.8,
     "tasks_per_hour": 0.0,
-    "xp_per_hour": 4487249.89
+    "xp_per_hour": 6577624.32
   },
   "since_previous_snapshot": {
-    "completed_tasks": 0,
-    "elapsed_hours": 0.101,
+    "completed_tasks": 6,
+    "elapsed_hours": 1.009,
     "has_previous_snapshot": true,
-    "league_points": 0,
-    "level_ups": [],
-    "new_task_ids": [],
-    "new_tasks": [],
+    "league_points": 100,
+    "level_ups": [
+      {
+        "from": 58,
+        "levels_gained": 12,
+        "skill": "Prayer",
+        "to": 70
+      },
+      {
+        "from": 74,
+        "levels_gained": 8,
+        "skill": "Thieving",
+        "to": 82
+      },
+      {
+        "from": 8,
+        "levels_gained": 6,
+        "skill": "Herblore",
+        "to": 14
+      },
+      {
+        "from": 26,
+        "levels_gained": 2,
+        "skill": "Magic",
+        "to": 28
+      }
+    ],
+    "new_task_ids": [
+      107,
+      116,
+      188,
+      814,
+      848,
+      902
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "id": 107,
+        "issue": null,
+        "name": "Steal from the Varrock tea stall.",
+        "points": 10,
+        "region": "Misthalin",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "id": 116,
+        "issue": null,
+        "name": "Pickpocket a guard in Varrock Palace's courtyard.",
+        "points": 30,
+        "region": "Misthalin",
+        "tier": "medium"
+      },
+      {
+        "blessing_task": false,
+        "id": 188,
+        "issue": null,
+        "name": "Activate the thick skin, rock skin, or steel skin prayer.",
+        "points": 10,
+        "region": "Global",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "id": 814,
+        "issue": null,
+        "name": "Clean 15 grimy tarromin.",
+        "points": 10,
+        "region": "Global",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "id": 848,
+        "issue": null,
+        "name": "Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.",
+        "points": 10,
+        "region": "Global",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "id": 902,
+        "issue": null,
+        "name": "Activate Protect from Melee prayer.",
+        "points": 30,
+        "region": "Global",
+        "tier": "medium"
+      }
+    ],
     "rates": {
-      "levels_per_hour": 0.0,
-      "lp_per_hour": 0.0,
-      "tasks_per_hour": 0.0,
-      "xp_per_hour": 0.0
+      "levels_per_hour": 27.75,
+      "lp_per_hour": 99.12,
+      "tasks_per_hour": 5.95,
+      "xp_per_hour": 8178786.67
     },
     "removed_task_ids": [],
     "removed_tasks": [],
-    "total_level": 0,
-    "total_xp": 0,
-    "xp_gains": []
+    "total_level": 28,
+    "total_xp": 8251487,
+    "xp_gains": [
+      {
+        "skill": "Agility",
+        "xp_gained": 6316580
+      },
+      {
+        "skill": "Thieving",
+        "xp_gained": 1352134
+      },
+      {
+        "skill": "Prayer",
+        "xp_gained": 578406
+      },
+      {
+        "skill": "Magic",
+        "xp_gained": 2728
+      },
+      {
+        "skill": "Herblore",
+        "xp_gained": 1415
+      },
+      {
+        "skill": "Archaeology",
+        "xp_gained": 224
+      }
+    ]
   },
-  "timestamp_utc": "2026-08-17T21:43:27+00:00"
+  "timestamp_utc": "2026-08-17T22:43:59+00:00"
 }

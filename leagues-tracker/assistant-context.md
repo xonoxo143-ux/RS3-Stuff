@@ -1,38 +1,37 @@
 # RS3 Equilibrium account state — 112321
 
-Updated: **2026-08-17T21:43:27+00:00** · **35 calendar days** until 2026-09-21
+Updated: **2026-08-17T22:43:59+00:00** · **35 calendar days** until 2026-09-21
 
 ## Read this first
 
-- **2,020 LP** · relic **T3** · **1,480 LP** to T4
-- **92 tasks** completed · **83 tasks** to First elective region
+- **2,120 LP** · relic **T3** · **1,380 LP** to T4
+- **98 tasks** completed · **77 tasks** to First elective region
 - Blessings: **1 blessing tasks** · current step **Tier 1** · **2** to Tier 2
-- Trophy: **Bronze** · **1,980 LP** to Iron
-- Total level **661** · Total XP **18,227,531**
+- Trophy: **Bronze** · **1,880 LP** to Iron
+- Total level **689** · Total XP **26,479,018**
 - Inferred/confirmed regions: **Havenhythe, Karamja, Misthalin**
 - Current planned next optional region: **Tirannwn**
 - Confirmed relic picks: **T1 Golden Touch, T2 Divine Druid, T3 Voidwalker**
 
 ## Since previous snapshot
 
-- LP: **+0**
-- Tasks: **+0**
-- Total levels: **+0**
-- Total XP: **+0**
-- New tasks: none
-- Level-ups: none
-- Pace over 0.10h: +0.0 LP/h · +0.0 tasks/h · +0 XP/h
+- LP: **+100**
+- Tasks: **+6**
+- Total levels: **+28**
+- Total XP: **+8,251,487**
+- New tasks: **Steal from the Varrock tea stall.** (easy, Misthalin, 10 LP); **Pickpocket a guard in Varrock Palace's courtyard.** (medium, Misthalin, 30 LP); **Activate the thick skin, rock skin, or steel skin prayer.** (easy, Global, 10 LP); **Clean 15 grimy tarromin.** (easy, Global, 10 LP); **Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.** (easy, Global, 10 LP); **Activate Protect from Melee prayer.** (medium, Global, 30 LP)
+- Level-ups: Prayer 58→70; Thieving 74→82; Herblore 8→14; Magic 26→28
+- Largest XP gains: Agility +6,316,580; Thieving +1,352,134; Prayer +578,406; Magic +2,728; Herblore +1,415; Archaeology +224
+- Pace over 1.01h: +99.1 LP/h · +6.0 tasks/h · +8,178,787 XP/h
 
 ## Task routing
 
 - Catalog: **1,152 tasks**, status **fresh**
-- Clean incomplete tasks in inferred/confirmed regions: **543**
+- Clean incomplete tasks in inferred/confirmed regions: **537**
 - Known-issue tasks in those regions to avoid/check first: **5**
 - Uncompleted blessing candidates in those regions: **14**
 - Candidate warning: the catalog does **not** expose skill requirements, so this is a routing pool, not a claim that every task is immediately doable.
 - First 12 task-count candidates:
-  - [848] Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time. — easy, Global, 10 LP
-  - [188] Activate the thick skin, rock skin, or steel skin prayer. — easy, Global, 10 LP
   - [206] Add any compostable item to a compost bin. — easy, Global, 10 LP
   - [850] Catch 10 implings of any kind. — easy, Global, 10 LP
   - [177] Catch 10 shrimp. — easy, Global, 10 LP
@@ -40,9 +39,11 @@ Updated: **2026-08-17T21:43:27+00:00** · **35 calendar days** until 2026-09-21
   - [849] Catch a baby impling. — easy, Global, 10 LP
   - [179] Catch a herring. — easy, Global, 10 LP
   - [178] Catch an anchovy. — easy, Global, 10 LP
-  - [814] Clean 15 grimy tarromin. — easy, Global, 10 LP
   - [873] Collect 10 unique items for the general clue rewards collection log. — easy, Global, 10 LP
   - [823] Complete 10 laps of any agility course. — easy, Global, 10 LP
+  - [856] Complete 5 Slayer tasks. — easy, Global, 10 LP
+  - [869] Complete an easy clue scroll. — easy, Global, 10 LP
+  - [363] Create a Guthix rest potion. — easy, Global, 10 LP
 - Blessing candidates currently visible to the tracker:
   - [1203] Defeat Ivar, King of Bones. — easy, Havenhythe, 10 LP
   - [1206] Defeat Silverquill, the Dreadhog. — easy, Havenhythe, 10 LP
@@ -66,32 +67,32 @@ Updated: **2026-08-17T21:43:27+00:00** · **35 calendar days** until 2026-09-21
 - 99+: Agility
 - Level 1 or lower: Construction, Dungeoneering, Invention, Necromancy, Summoning, Farming
 - Below 20: Construction, Dungeoneering, Invention, Necromancy, Summoning, Farming, Hunter, Ranged, Fishing, Herblore, Attack, Strength, Firemaking, Cooking, Archaeology, Slayer
-- Nearest standard milestones: Mining 46→50 (4); Thieving 74→80 (6); Prayer 58→70 (12); Smithing 37→50 (13); Woodcutting 34→50 (16); Runecrafting 31→50 (19); Divination 30→50 (20); Crafting 27→50 (23)
+- Nearest standard milestones: Mining 46→50 (4); Thieving 82→90 (8); Prayer 70→80 (10); Smithing 37→50 (13); Woodcutting 34→50 (16); Runecrafting 31→50 (19); Divination 30→50 (20); Magic 28→50 (22)
 
 ## Skills
 
 | Skill | Level | XP |
 |---|---:|---:|
-| Agility | 99 | 16,645,468 |
-| Thieving | 74 | 1,139,857 |
-| Prayer | 58 | 230,389 |
+| Agility | 99 | 22,962,048 |
+| Thieving | 82 | 2,491,991 |
+| Prayer | 70 | 808,795 |
 | Mining | 46 | 69,458 |
 | Smithing | 37 | 28,884 |
 | Woodcutting | 34 | 22,390 |
 | Runecrafting | 31 | 15,360 |
 | Divination | 30 | 13,728 |
+| Magic | 28 | 11,643 |
 | Crafting | 27 | 9,795 |
 | Defence | 26 | 9,009 |
-| Magic | 26 | 8,915 |
 | Constitution | 25 | 8,160 |
 | Fletching | 20 | 5,013 |
 | Slayer | 19 | 4,035 |
-| Archaeology | 18 | 3,568 |
+| Archaeology | 18 | 3,792 |
 | Cooking | 17 | 3,338 |
 | Firemaking | 16 | 2,752 |
 | Attack | 15 | 2,623 |
 | Strength | 15 | 2,623 |
-| Herblore | 8 | 813 |
+| Herblore | 14 | 2,228 |
 | Fishing | 6 | 640 |
 | Ranged | 6 | 593 |
 | Hunter | 2 | 100 |
@@ -104,9 +105,9 @@ Updated: **2026-08-17T21:43:27+00:00** · **35 calendar days** until 2026-09-21
 
 ## Data quality / freshness
 
-- WikiSync: **2026-08-17T21:43:26.422Z** via **LEAGUE_2**
+- WikiSync: **2026-08-17T22:43:59.271Z** via **LEAGUE_2**
 - Task catalog: **fresh**, 1,152 mapped tasks
-- Completed task IDs mapped to names: **92/92**
-- LP consistency: HiScores 2,020 vs mapped completed-task points 2,020 · delta **+0**
+- Completed task IDs mapped to names: **98/98**
+- LP consistency: HiScores 2,120 vs mapped completed-task points 2,120 · delta **+0**
 
 > Generated automatically. Read `assistant-context.json` for structured state, `tasks.json` for named completions, `task-pools.json` for routing candidates, and `task-catalog.json` for the full Equilibrium task database.
