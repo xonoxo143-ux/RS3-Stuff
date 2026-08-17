@@ -1,0 +1,457 @@
+{
+  "changes": {
+    "completed_tasks": 0,
+    "has_previous_snapshot": true,
+    "league_points": 60,
+    "level_ups": [
+      {
+        "from": 1,
+        "levels_gained": 30,
+        "skill": "Runecrafting",
+        "to": 31
+      },
+      {
+        "from": 68,
+        "levels_gained": 6,
+        "skill": "Thieving",
+        "to": 74
+      },
+      {
+        "from": 22,
+        "levels_gained": 4,
+        "skill": "Defence",
+        "to": 26
+      },
+      {
+        "from": 22,
+        "levels_gained": 4,
+        "skill": "Magic",
+        "to": 26
+      },
+      {
+        "from": 33,
+        "levels_gained": 4,
+        "skill": "Smithing",
+        "to": 37
+      },
+      {
+        "from": 22,
+        "levels_gained": 3,
+        "skill": "Constitution",
+        "to": 25
+      }
+    ],
+    "new_task_ids": [],
+    "removed_task_ids": [],
+    "total_level": 51,
+    "total_xp": 3467647,
+    "xp_gains": [
+      {
+        "skill": "Agility",
+        "xp_gained": 2945371
+      },
+      {
+        "skill": "Thieving",
+        "xp_gained": 488376
+      },
+      {
+        "skill": "Runecrafting",
+        "xp_gained": 15360
+      },
+      {
+        "skill": "Smithing",
+        "xp_gained": 10560
+      },
+      {
+        "skill": "Defence",
+        "xp_gained": 3000
+      },
+      {
+        "skill": "Magic",
+        "xp_gained": 3000
+      },
+      {
+        "skill": "Constitution",
+        "xp_gained": 1980
+      }
+    ]
+  },
+  "league": "Leagues II: Equilibrium",
+  "player": "112321",
+  "progression": {
+    "completed_tasks": 92,
+    "league_points": 2020,
+    "next_region_task_threshold": 175,
+    "next_region_unlock": "First elective region",
+    "next_relic_points": 3500,
+    "next_relic_tier": 4,
+    "points_to_next_relic": 1480,
+    "relic_tier": 3,
+    "tasks_to_next_region_unlock": 83,
+    "total_level": 661,
+    "total_xp": 18227531
+  },
+  "read_me_first": true,
+  "schema_version": 1,
+  "skill_summary": {
+    "80_or_higher": [
+      "Agility"
+    ],
+    "99_or_higher": [
+      "Agility"
+    ],
+    "below_20": [
+      "Construction",
+      "Dungeoneering",
+      "Invention",
+      "Necromancy",
+      "Summoning",
+      "Farming",
+      "Hunter",
+      "Ranged",
+      "Fishing",
+      "Herblore",
+      "Attack",
+      "Strength",
+      "Firemaking",
+      "Cooking",
+      "Archaeology",
+      "Slayer"
+    ],
+    "highest": [
+      {
+        "level": 99,
+        "name": "Agility",
+        "xp": 16645468
+      },
+      {
+        "level": 74,
+        "name": "Thieving",
+        "xp": 1139857
+      },
+      {
+        "level": 58,
+        "name": "Prayer",
+        "xp": 230389
+      },
+      {
+        "level": 46,
+        "name": "Mining",
+        "xp": 69458
+      },
+      {
+        "level": 37,
+        "name": "Smithing",
+        "xp": 28884
+      },
+      {
+        "level": 34,
+        "name": "Woodcutting",
+        "xp": 22390
+      },
+      {
+        "level": 31,
+        "name": "Runecrafting",
+        "xp": 15360
+      },
+      {
+        "level": 30,
+        "name": "Divination",
+        "xp": 13728
+      }
+    ],
+    "lowest": [
+      {
+        "level": 1,
+        "name": "Construction",
+        "xp": 0
+      },
+      {
+        "level": 1,
+        "name": "Dungeoneering",
+        "xp": 0
+      },
+      {
+        "level": 1,
+        "name": "Invention",
+        "xp": 0
+      },
+      {
+        "level": 1,
+        "name": "Necromancy",
+        "xp": 0
+      },
+      {
+        "level": 1,
+        "name": "Summoning",
+        "xp": 0
+      },
+      {
+        "level": 1,
+        "name": "Farming",
+        "xp": 20
+      },
+      {
+        "level": 2,
+        "name": "Hunter",
+        "xp": 100
+      },
+      {
+        "level": 6,
+        "name": "Ranged",
+        "xp": 593
+      }
+    ]
+  },
+  "skills_sorted_high_to_low": [
+    {
+      "level": 99,
+      "name": "Agility",
+      "xp": 16645468
+    },
+    {
+      "level": 74,
+      "name": "Thieving",
+      "xp": 1139857
+    },
+    {
+      "level": 58,
+      "name": "Prayer",
+      "xp": 230389
+    },
+    {
+      "level": 46,
+      "name": "Mining",
+      "xp": 69458
+    },
+    {
+      "level": 37,
+      "name": "Smithing",
+      "xp": 28884
+    },
+    {
+      "level": 34,
+      "name": "Woodcutting",
+      "xp": 22390
+    },
+    {
+      "level": 31,
+      "name": "Runecrafting",
+      "xp": 15360
+    },
+    {
+      "level": 30,
+      "name": "Divination",
+      "xp": 13728
+    },
+    {
+      "level": 27,
+      "name": "Crafting",
+      "xp": 9795
+    },
+    {
+      "level": 26,
+      "name": "Defence",
+      "xp": 9009
+    },
+    {
+      "level": 26,
+      "name": "Magic",
+      "xp": 8915
+    },
+    {
+      "level": 25,
+      "name": "Constitution",
+      "xp": 8160
+    },
+    {
+      "level": 20,
+      "name": "Fletching",
+      "xp": 5013
+    },
+    {
+      "level": 19,
+      "name": "Slayer",
+      "xp": 4035
+    },
+    {
+      "level": 18,
+      "name": "Archaeology",
+      "xp": 3568
+    },
+    {
+      "level": 17,
+      "name": "Cooking",
+      "xp": 3338
+    },
+    {
+      "level": 16,
+      "name": "Firemaking",
+      "xp": 2752
+    },
+    {
+      "level": 15,
+      "name": "Attack",
+      "xp": 2623
+    },
+    {
+      "level": 15,
+      "name": "Strength",
+      "xp": 2623
+    },
+    {
+      "level": 8,
+      "name": "Herblore",
+      "xp": 813
+    },
+    {
+      "level": 6,
+      "name": "Fishing",
+      "xp": 640
+    },
+    {
+      "level": 6,
+      "name": "Ranged",
+      "xp": 593
+    },
+    {
+      "level": 2,
+      "name": "Hunter",
+      "xp": 100
+    },
+    {
+      "level": 1,
+      "name": "Farming",
+      "xp": 20
+    },
+    {
+      "level": 1,
+      "name": "Construction",
+      "xp": 0
+    },
+    {
+      "level": 1,
+      "name": "Dungeoneering",
+      "xp": 0
+    },
+    {
+      "level": 1,
+      "name": "Invention",
+      "xp": 0
+    },
+    {
+      "level": 1,
+      "name": "Necromancy",
+      "xp": 0
+    },
+    {
+      "level": 1,
+      "name": "Summoning",
+      "xp": 0
+    }
+  ],
+  "source_freshness": {
+    "jagex_hiscores_checked_at_utc": "2026-08-17T21:30:26+00:00",
+    "wikisync_timestamp": "2026-08-17T21:30:26.465Z"
+  },
+  "tasks": {
+    "completed_count": 92,
+    "completed_ids": [
+      0,
+      1,
+      2,
+      5,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      36,
+      37,
+      38,
+      40,
+      44,
+      50,
+      98,
+      102,
+      104,
+      106,
+      117,
+      133,
+      134,
+      135,
+      136,
+      137,
+      142,
+      143,
+      147,
+      148,
+      149,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      162,
+      163,
+      165,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      176,
+      180,
+      181,
+      182,
+      183,
+      186,
+      187,
+      190,
+      191,
+      192,
+      193,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      210,
+      214,
+      215,
+      216,
+      218,
+      220,
+      222,
+      612,
+      813,
+      815,
+      816,
+      820,
+      827,
+      835,
+      839,
+      840,
+      843,
+      888,
+      1060,
+      1146,
+      1147,
+      1148,
+      1149,
+      1150,
+      1151,
+      1152
+    ],
+    "new_ids": [],
+    "removed_ids": []
+  },
+  "timestamp_utc": "2026-08-17T21:30:26+00:00"
+}

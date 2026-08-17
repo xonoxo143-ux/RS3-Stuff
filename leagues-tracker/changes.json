@@ -1,0 +1,77 @@
+{
+  "completed_tasks": 0,
+  "has_previous_snapshot": true,
+  "league_points": 60,
+  "level_ups": [
+    {
+      "from": 1,
+      "levels_gained": 30,
+      "skill": "Runecrafting",
+      "to": 31
+    },
+    {
+      "from": 68,
+      "levels_gained": 6,
+      "skill": "Thieving",
+      "to": 74
+    },
+    {
+      "from": 22,
+      "levels_gained": 4,
+      "skill": "Defence",
+      "to": 26
+    },
+    {
+      "from": 22,
+      "levels_gained": 4,
+      "skill": "Magic",
+      "to": 26
+    },
+    {
+      "from": 33,
+      "levels_gained": 4,
+      "skill": "Smithing",
+      "to": 37
+    },
+    {
+      "from": 22,
+      "levels_gained": 3,
+      "skill": "Constitution",
+      "to": 25
+    }
+  ],
+  "new_task_ids": [],
+  "removed_task_ids": [],
+  "total_level": 51,
+  "total_xp": 3467647,
+  "xp_gains": [
+    {
+      "skill": "Agility",
+      "xp_gained": 2945371
+    },
+    {
+      "skill": "Thieving",
+      "xp_gained": 488376
+    },
+    {
+      "skill": "Runecrafting",
+      "xp_gained": 15360
+    },
+    {
+      "skill": "Smithing",
+      "xp_gained": 10560
+    },
+    {
+      "skill": "Defence",
+      "xp_gained": 3000
+    },
+    {
+      "skill": "Magic",
+      "xp_gained": 3000
+    },
+    {
+      "skill": "Constitution",
+      "xp_gained": 1980
+    }
+  ]
+}
