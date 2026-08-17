@@ -1,6 +1,9 @@
 name: Track RS3 Leagues Profile
 
 on:
+  push:
+    paths:
+      - '.github/workflows/check-leagues-profile.yml'
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
@@ -43,7 +46,6 @@ jobs:
           import datetime as dt
           import html
           import json
-          import os
           import re
 
           raw = open('profile.html', encoding='utf-8').read()
