@@ -10,7 +10,7 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe ScapeLeagues task data source
+      - name: Inspect embedded task schema
         shell: bash
         run: |
           set -euo pipefail
@@ -18,43 +18,43 @@ jobs:
           UA='RS3-Stuff-Leagues-Tracker/1.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
           curl -sS -L --compressed -A "$UA" -o tasks.html "$URL"
           python3 - <<'PY'
-          import re
-          from html import unescape
-
+          import json, re
           raw = open('tasks.html', encoding='utf-8').read()
-          print('SIZE=', len(raw))
-          print('NEXT_DATA=', '__NEXT_DATA__' in raw)
-          print('NEXT_FLIGHT=', 'self.__next_f.push' in raw)
 
-          print('--- SCRIPT SRCS ---')
-          for src in re.findall(r'<script[^>]+src=["\']([^"\']+)', raw, re.I)[:100]:
-              print(src)
+          decoded_chunks = []
+          for m in re.finditer(r'self\.__next_f\.push\(\[1,("(?:\\.|[^"\\])*")\]\)', raw, re.S):
+              try:
+                  decoded_chunks.append(json.loads(m.group(1)))
+              except Exception:
+                  pass
+          decoded = '\n'.join(decoded_chunks)
+          print('decoded_chars=', len(decoded))
 
-          print('--- DATA/API/ID HINTS ---')
-          patterns = [
-              r'[^"\']{0,80}(?:taskId|task_id|leagueTask|knownIssue|blessing|difficulty|region)[^"\']{0,120}',
-              r'/[^"\']+(?:\.json|/api/)[^"\']*',
-          ]
-          seen = set()
-          for pat in patterns:
-              for m in re.finditer(pat, raw, re.I):
-                  s = unescape(m.group(0)).replace('\\"', '"')
-                  if s not in seen:
-                      print(s[:260])
-                      seen.add(s)
-                      if len(seen) >= 160:
-                          break
-              if len(seen) >= 160:
+          dec = json.JSONDecoder()
+          tasks = {}
+          pos = 0
+          while True:
+              pos = decoded.find('{"id":"', pos)
+              if pos < 0:
                   break
+              try:
+                  obj, end = dec.raw_decode(decoded[pos:])
+              except Exception:
+                  pos += 1
+                  continue
+              pos += max(end, 1)
+              if isinstance(obj, dict) and {'id','name','tier','region','points'} <= set(obj):
+                  tasks[str(obj['id'])] = obj
 
-          for needle in [
-              'Complete the base camp tutorial on Anachronia.',
-              'Have Ned make you some rope from balls of wool',
-              'Kill a giant rat in Lumbridge Swamp',
-          ]:
-              print(f'--- CONTEXT: {needle} ---')
-              pos = raw.find(needle)
-              print('POS=', pos)
-              if pos >= 0:
-                  print(unescape(raw[max(0,pos-1200):pos+1800]))
+          print('TASK_COUNT=', len(tasks))
+          all_keys = sorted({k for t in tasks.values() for k in t})
+          print('ALL_KEYS=', all_keys)
+          extras = [t for t in tasks.values() if set(t) - {'id','name','description','tier','region','points'}]
+          print('EXTRA_FIELD_TASKS=', len(extras))
+          for t in extras[:30]:
+              print(json.dumps(t, ensure_ascii=False, sort_keys=True))
+
+          for tid in ['0','3','27','28','190','612','1146']:
+              if tid in tasks:
+                  print('SAMPLE', tid, json.dumps(tasks[tid], ensure_ascii=False, sort_keys=True))
           PY
