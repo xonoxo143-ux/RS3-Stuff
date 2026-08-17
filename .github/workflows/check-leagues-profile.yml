@@ -29,31 +29,23 @@ jobs:
 
           HISCORES_URL='https://rs.runescape.com/hiscores/leagues/player/112321'
           WIKISYNC_URL='https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
-          UA='RS3-Stuff-Leagues-Tracker/1.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
+          UA='RS3-Stuff-Leagues-Tracker/2.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
 
-          echo "Fetching HiScores: $HISCORES_URL"
           HISCORES_STATUS=$(curl -sS -L --compressed \
-            --connect-timeout 20 \
-            --max-time 60 \
-            -A "$UA" \
-            -o profile.html \
-            -w '%{http_code}' \
+            --connect-timeout 20 --max-time 60 \
+            -A "$UA" -o profile.html -w '%{http_code}' \
             "$HISCORES_URL")
           echo "HISCORES_HTTP_STATUS=$HISCORES_STATUS"
           test "$HISCORES_STATUS" = "200"
 
-          echo "Fetching WikiSync: $WIKISYNC_URL"
           WIKISYNC_STATUS=$(curl -sS -L --compressed \
-            --connect-timeout 20 \
-            --max-time 60 \
-            -A "$UA" \
-            -o wikisync.json \
-            -w '%{http_code}' \
+            --connect-timeout 20 --max-time 60 \
+            -A "$UA" -o wikisync.json -w '%{http_code}' \
             "$WIKISYNC_URL")
           echo "WIKISYNC_HTTP_STATUS=$WIKISYNC_STATUS"
           test "$WIKISYNC_STATUS" = "200"
 
-      - name: Parse and update rolling history
+      - name: Build assistant-ready account state
         shell: bash
         run: |
           set -euo pipefail
@@ -64,8 +56,44 @@ jobs:
           import html
           import json
           import re
+          from pathlib import Path
 
-          raw = open('profile.html', encoding='utf-8').read()
+          ROOT = Path('leagues-tracker')
+          PLAYER = '112321'
+          WIKISYNC_PROFILE = 'LEAGUE_2'
+
+          # League progression constants. Kept here so the derived briefing is
+          # reproducible and easy to update if Jagex changes anything.
+          RELIC_THRESHOLDS = [
+              {'tier': 1, 'points': 10},
+              {'tier': 2, 'points': 750},
+              {'tier': 3, 'points': 1750},
+              {'tier': 4, 'points': 3500},
+              {'tier': 5, 'points': 6000},
+              {'tier': 6, 'points': 12000},
+              {'tier': 7, 'points': 20000},
+          ]
+          REGION_THRESHOLDS = [
+              {'tasks': 50, 'name': 'Karamja automatic unlock'},
+              {'tasks': 175, 'name': 'First elective region'},
+              {'tasks': 300, 'name': 'Second elective region'},
+              {'tasks': 450, 'name': 'Third elective region'},
+          ]
+
+          def load_json(path, default):
+              try:
+                  with open(path, encoding='utf-8') as f:
+                      return json.load(f)
+              except (FileNotFoundError, json.JSONDecodeError, TypeError):
+                  return default
+
+          def write_json(path, data):
+              with open(path, 'w', encoding='utf-8') as f:
+                  json.dump(data, f, indent=2, sort_keys=True)
+                  f.write('\n')
+
+          # ---------- Parse Jagex HiScores ----------
+          raw = Path('profile.html').read_text(encoding='utf-8')
 
           def clean(s):
               return html.unescape(re.sub(r'<[^>]+>', '', s)).strip()
@@ -74,12 +102,12 @@ jobs:
               m = re.search(pattern, raw, re.S | re.I)
               return clean(m.group(1)) if m else default
 
-          totals = {}
           total_patterns = {
               'total_level': r'>Level</h2>.*?>Total</p>.*?totalValue[^>]*>([\d,]+)</p>',
               'total_xp': r'>XP</h2>.*?>Total</p>.*?totalValue[^>]*>([\d,]+)</p>',
               'league_points': r'>LP</h2>.*?>Total</p>.*?totalValue[^>]*>([\d,]+)</p>',
           }
+          totals = {}
           for key, pat in total_patterns.items():
               value = first(pat)
               totals[key] = int(value.replace(',', '')) if value else None
@@ -102,105 +130,296 @@ jobs:
           if totals['league_points'] is None or totals['total_level'] is None or not skills:
               raise RuntimeError('Jagex HiScores page was reachable, but profile parsing failed')
 
-          with open('wikisync.json', encoding='utf-8') as f:
-              wikisync = json.load(f)
-
+          # ---------- Parse WikiSync ----------
+          wikisync = load_json('wikisync.json', {})
           completed_task_ids = wikisync.get('league_tasks')
           if not isinstance(completed_task_ids, list):
               raise RuntimeError('WikiSync response did not contain a league_tasks list')
-          completed_task_ids = sorted({int(task_id) for task_id in completed_task_ids})
+          completed_task_ids = sorted({int(x) for x in completed_task_ids})
+          wikisync_timestamp = wikisync.get('timestamp')
 
-          latest_path = 'leagues-tracker/latest.json'
-          history_path = 'leagues-tracker/history.json'
-          tasks_path = 'leagues-tracker/tasks.json'
-
-          previous_task_ids = None
-          try:
-              with open(latest_path, encoding='utf-8') as f:
-                  previous = json.load(f)
-              old = previous.get('completed_task_ids')
-              if isinstance(old, list):
-                  previous_task_ids = {int(task_id) for task_id in old}
-          except (FileNotFoundError, json.JSONDecodeError, TypeError, ValueError):
-              pass
-
-          current_task_set = set(completed_task_ids)
-          if previous_task_ids is None:
-              new_task_ids = []
-              removed_task_ids = []
-          else:
-              new_task_ids = sorted(current_task_set - previous_task_ids)
-              removed_task_ids = sorted(previous_task_ids - current_task_set)
+          # ---------- Previous state ----------
+          history = load_json(ROOT / 'history.json', [])
+          if not isinstance(history, list):
+              history = []
+          previous = history[-1] if history else None
 
           now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
+          current_task_set = set(completed_task_ids)
+          previous_task_set = set(previous.get('completed_task_ids', [])) if previous else set()
+
+          new_task_ids = sorted(current_task_set - previous_task_set) if previous else []
+          removed_task_ids = sorted(previous_task_set - current_task_set) if previous else []
+
+          # ---------- Derived progression ----------
+          lp = totals['league_points']
+          current_relic = max((x for x in RELIC_THRESHOLDS if lp >= x['points']),
+                              key=lambda x: x['tier'], default=None)
+          next_relic = next((x for x in RELIC_THRESHOLDS if lp < x['points']), None)
+
+          task_count = len(completed_task_ids)
+          next_region = next((x for x in REGION_THRESHOLDS if task_count < x['tasks']), None)
+
+          skill_rows = [
+              {'name': name, 'level': data['level'], 'xp': data['xp']}
+              for name, data in skills.items()
+          ]
+          skill_rows_desc = sorted(skill_rows, key=lambda x: (-x['level'], -x['xp'], x['name']))
+          skill_rows_asc = sorted(skill_rows, key=lambda x: (x['level'], x['xp'], x['name']))
+
+          skill_summary = {
+              '99_or_higher': [x['name'] for x in skill_rows_desc if x['level'] >= 99],
+              '80_or_higher': [x['name'] for x in skill_rows_desc if x['level'] >= 80],
+              'below_20': [x['name'] for x in skill_rows_asc if x['level'] < 20],
+              'highest': skill_rows_desc[:8],
+              'lowest': skill_rows_asc[:8],
+          }
+
+          progression = {
+              'league_points': lp,
+              'relic_tier': current_relic['tier'] if current_relic else 0,
+              'next_relic_tier': next_relic['tier'] if next_relic else None,
+              'next_relic_points': next_relic['points'] if next_relic else None,
+              'points_to_next_relic': max(0, next_relic['points'] - lp) if next_relic else 0,
+              'completed_tasks': task_count,
+              'next_region_unlock': next_region['name'] if next_region else None,
+              'next_region_task_threshold': next_region['tasks'] if next_region else None,
+              'tasks_to_next_region_unlock': max(0, next_region['tasks'] - task_count) if next_region else 0,
+              'total_level': totals['total_level'],
+              'total_xp': totals['total_xp'],
+          }
+
+          # ---------- Delta from previous hourly snapshot ----------
+          delta = {
+              'has_previous_snapshot': bool(previous),
+              'league_points': 0,
+              'total_level': 0,
+              'total_xp': 0,
+              'completed_tasks': 0,
+              'new_task_ids': new_task_ids,
+              'removed_task_ids': removed_task_ids,
+              'level_ups': [],
+              'xp_gains': [],
+          }
+
+          if previous:
+              delta['league_points'] = lp - int(previous.get('league_points', lp))
+              delta['total_level'] = totals['total_level'] - int(previous.get('total_level', totals['total_level']))
+              delta['total_xp'] = totals['total_xp'] - int(previous.get('total_xp', totals['total_xp']))
+              delta['completed_tasks'] = task_count - int(previous.get('completed_task_count', task_count))
+
+              prev_skills = previous.get('skills', {})
+              for name, cur in skills.items():
+                  old = prev_skills.get(name, {})
+                  old_level = int(old.get('level', cur['level']))
+                  old_xp = int(old.get('xp', cur['xp']))
+                  if cur['level'] > old_level:
+                      delta['level_ups'].append({
+                          'skill': name,
+                          'from': old_level,
+                          'to': cur['level'],
+                          'levels_gained': cur['level'] - old_level,
+                      })
+                  xp_gain = cur['xp'] - old_xp
+                  if xp_gain > 0:
+                      delta['xp_gains'].append({'skill': name, 'xp_gained': xp_gain})
+
+              delta['level_ups'].sort(key=lambda x: (-x['levels_gained'], x['skill']))
+              delta['xp_gains'].sort(key=lambda x: (-x['xp_gained'], x['skill']))
+
+          # ---------- Canonical current snapshot ----------
           snapshot = {
+              'schema_version': 2,
               'timestamp_utc': now,
-              'player': '112321',
+              'player': PLAYER,
+              'league': 'Leagues II: Equilibrium',
+              'sources': {
+                  'jagex_hiscores': 'https://rs.runescape.com/hiscores/leagues/player/112321',
+                  'wikisync_profile': WIKISYNC_PROFILE,
+                  'wikisync_timestamp': wikisync_timestamp,
+              },
               **totals,
               'skills': skills,
-              'wikisync_profile': 'LEAGUE_2',
-              'completed_task_count': len(completed_task_ids),
+              'completed_task_count': task_count,
               'completed_task_ids': completed_task_ids,
-              'new_task_ids_since_previous_snapshot': new_task_ids,
-              'removed_task_ids_since_previous_snapshot': removed_task_ids,
+              'derived': {
+                  'progression': progression,
+                  'skill_summary': skill_summary,
+              },
+              'changes_since_previous_snapshot': delta,
           }
 
-          with open(latest_path, 'w', encoding='utf-8') as f:
-              json.dump(snapshot, f, indent=2, sort_keys=True)
-              f.write('\n')
-
-          tasks_doc = {
-              'timestamp_utc': now,
-              'player': '112321',
-              'wikisync_profile': 'LEAGUE_2',
-              'completed_task_count': len(completed_task_ids),
-              'completed_task_ids': completed_task_ids,
-              'new_task_ids_since_previous_snapshot': new_task_ids,
-              'removed_task_ids_since_previous_snapshot': removed_task_ids,
-          }
-          with open(tasks_path, 'w', encoding='utf-8') as f:
-              json.dump(tasks_doc, f, indent=2, sort_keys=True)
-              f.write('\n')
-
-          try:
-              with open(history_path, encoding='utf-8') as f:
-                  history = json.load(f)
-              if not isinstance(history, list):
-                  history = []
-          except (FileNotFoundError, json.JSONDecodeError):
-              history = []
-
+          # Full six-snapshot rolling window.
           history.append(snapshot)
           history = history[-6:]
 
-          with open(history_path, 'w', encoding='utf-8') as f:
-              json.dump(history, f, indent=2, sort_keys=True)
-              f.write('\n')
+          # Compact six-point timeline for fast comparison.
+          timeline = []
+          for item in history:
+              timeline.append({
+                  'timestamp_utc': item.get('timestamp_utc'),
+                  'league_points': item.get('league_points'),
+                  'total_level': item.get('total_level'),
+                  'total_xp': item.get('total_xp'),
+                  'completed_tasks': item.get('completed_task_count'),
+              })
 
-          print('--- CURRENT SNAPSHOT ---')
-          print(f"Time: {snapshot['timestamp_utc']}")
-          print(f"LP: {snapshot['league_points']:,}")
-          print(f"Total level: {snapshot['total_level']:,}")
-          print(f"Total XP: {snapshot['total_xp']:,}")
-          print(f"Completed tasks: {snapshot['completed_task_count']}")
-          print(f"New task IDs: {new_task_ids}")
-          if removed_task_ids:
-              print(f"Removed task IDs: {removed_task_ids}")
-          print(f"Snapshots retained: {len(history)}/6")
-          print('Levels:')
-          print(', '.join(f"{name} {data['level']}" for name, data in skills.items()))
+          tasks_doc = {
+              'timestamp_utc': now,
+              'player': PLAYER,
+              'wikisync_profile': WIKISYNC_PROFILE,
+              'wikisync_timestamp': wikisync_timestamp,
+              'completed_task_count': task_count,
+              'completed_task_ids': completed_task_ids,
+              'new_task_ids_since_previous_snapshot': new_task_ids,
+              'removed_task_ids_since_previous_snapshot': removed_task_ids,
+          }
+
+          assistant_context = {
+              'schema_version': 1,
+              'read_me_first': True,
+              'timestamp_utc': now,
+              'player': PLAYER,
+              'league': 'Leagues II: Equilibrium',
+              'progression': progression,
+              'changes': delta,
+              'skill_summary': skill_summary,
+              'skills_sorted_high_to_low': skill_rows_desc,
+              'tasks': {
+                  'completed_count': task_count,
+                  'completed_ids': completed_task_ids,
+                  'new_ids': new_task_ids,
+                  'removed_ids': removed_task_ids,
+              },
+              'source_freshness': {
+                  'jagex_hiscores_checked_at_utc': now,
+                  'wikisync_timestamp': wikisync_timestamp,
+              },
+          }
+
+          # ---------- Human-readable assistant briefing ----------
+          def fmt_num(n):
+              return f'{n:,}' if isinstance(n, int) else str(n)
+
+          lines = [
+              f'# RS3 Equilibrium account state — {PLAYER}',
+              '',
+              f'Updated: **{now}**',
+              '',
+              '## Progression',
+              '',
+              f'- League Points: **{lp:,}**',
+              f'- Relic tier: **T{progression["relic_tier"]}**',
+          ]
+          if progression['next_relic_tier']:
+              lines.append(
+                  f'- Next relic: **T{progression["next_relic_tier"]} at {progression["next_relic_points"]:,} LP** '
+                  f'(**{progression["points_to_next_relic"]:,} LP remaining**)'
+              )
+          else:
+              lines.append('- Next relic: **all relic tiers unlocked**')
+
+          lines += [
+              f'- Completed tasks: **{task_count}**',
+          ]
+          if progression['next_region_unlock']:
+              lines.append(
+                  f'- Next region milestone: **{progression["next_region_unlock"]} at '
+                  f'{progression["next_region_task_threshold"]} tasks** '
+                  f'(**{progression["tasks_to_next_region_unlock"]} tasks remaining**)'
+              )
+          else:
+              lines.append('- Next region milestone: **all task-count region unlocks reached**')
+
+          lines += [
+              f'- Total level: **{totals["total_level"]:,}**',
+              f'- Total XP: **{totals["total_xp"]:,}**',
+              '',
+              '## Since previous snapshot',
+              '',
+          ]
+
+          if previous:
+              lines += [
+                  f'- LP: **{delta["league_points"]:+,}**',
+                  f'- Tasks: **{delta["completed_tasks"]:+,}**',
+                  f'- Total levels: **{delta["total_level"]:+,}**',
+                  f'- Total XP: **{delta["total_xp"]:+,}**',
+                  f'- New task IDs: **{", ".join(map(str, new_task_ids)) if new_task_ids else "none"}**',
+              ]
+              if delta['level_ups']:
+                  lines.append('- Level-ups: ' + '; '.join(
+                      f'{x["skill"]} {x["from"]}→{x["to"]}' for x in delta['level_ups']
+                  ))
+              else:
+                  lines.append('- Level-ups: none')
+              if delta['xp_gains']:
+                  lines.append('- Largest XP gains: ' + '; '.join(
+                      f'{x["skill"]} +{x["xp_gained"]:,}' for x in delta['xp_gains'][:8]
+                  ))
+              else:
+                  lines.append('- XP gains: none detected')
+          else:
+              lines.append('- No comparable previous snapshot yet.')
+
+          lines += [
+              '',
+              '## Skill highlights',
+              '',
+              '- 99+: ' + (', '.join(skill_summary['99_or_higher']) or 'none'),
+              '- Below 20: ' + (', '.join(skill_summary['below_20']) or 'none'),
+              '',
+              '## Skills',
+              '',
+              '| Skill | Level | XP |',
+              '|---|---:|---:|',
+          ]
+          lines += [f'| {x["name"]} | {x["level"]} | {x["xp"]:,} |' for x in skill_rows_desc]
+
+          lines += [
+              '',
+              '## Completed League task IDs',
+              '',
+              ', '.join(map(str, completed_task_ids)),
+              '',
+              '## Source freshness',
+              '',
+              f'- Jagex HiScores fetched: {now}',
+              f'- WikiSync profile: {WIKISYNC_PROFILE}',
+              f'- WikiSync timestamp: {wikisync_timestamp}',
+              '',
+              '> This file is generated. For exact raw data use `latest.json`; for the six-snapshot window use `history.json`.',
+              '',
+          ]
+
+          # ---------- Write outputs ----------
+          write_json(ROOT / 'latest.json', snapshot)
+          write_json(ROOT / 'changes.json', delta)
+          write_json(ROOT / 'tasks.json', tasks_doc)
+          write_json(ROOT / 'history.json', history)
+          write_json(ROOT / 'timeline.json', timeline)
+          write_json(ROOT / 'assistant-context.json', assistant_context)
+          (ROOT / 'assistant-context.md').write_text('\n'.join(lines), encoding='utf-8')
+
+          print('--- ASSISTANT-READY SUMMARY ---')
+          print(f'LP: {lp:,} | T{progression["relic_tier"]} | next relic in {progression["points_to_next_relic"]:,} LP')
+          print(f'Tasks: {task_count} | next region in {progression["tasks_to_next_region_unlock"]} tasks')
+          print(f'Total: level {totals["total_level"]:,} | XP {totals["total_xp"]:,}')
+          print(f'New task IDs: {new_task_ids}')
+          print(f'99+: {skill_summary["99_or_higher"]}')
+          print(f'Rolling snapshots: {len(history)}/6')
           PY
 
-      - name: Commit updated tracker history
+      - name: Commit updated tracker state
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add leagues-tracker/latest.json leagues-tracker/history.json leagues-tracker/tasks.json
+          git add leagues-tracker/
           if git diff --cached --quiet; then
             echo 'No tracker changes to commit.'
             exit 0
           fi
-          git commit -m 'Update RS3 Leagues hourly snapshot'
+          git commit -m 'Update RS3 Leagues account state'
           git push
