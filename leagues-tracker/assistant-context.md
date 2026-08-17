@@ -1,6 +1,6 @@
 # RS3 Equilibrium account state — 112321
 
-Updated: **2026-08-17T21:37:23+00:00** · **35 calendar days** until 2026-09-21
+Updated: **2026-08-17T21:43:27+00:00** · **35 calendar days** until 2026-09-21
 
 ## Read this first
 
@@ -11,7 +11,7 @@ Updated: **2026-08-17T21:37:23+00:00** · **35 calendar days** until 2026-09-21
 - Total level **661** · Total XP **18,227,531**
 - Inferred/confirmed regions: **Havenhythe, Karamja, Misthalin**
 - Current planned next optional region: **Tirannwn**
-- Confirmed relic picks: **T1 Golden Touch, T2 Divine Druid**
+- Confirmed relic picks: **T1 Golden Touch, T2 Divine Druid, T3 Voidwalker**
 
 ## Since previous snapshot
 
@@ -21,7 +21,7 @@ Updated: **2026-08-17T21:37:23+00:00** · **35 calendar days** until 2026-09-21
 - Total XP: **+0**
 - New tasks: none
 - Level-ups: none
-- Pace over 0.12h: +0.0 LP/h · +0.0 tasks/h · +0 XP/h
+- Pace over 0.10h: +0.0 LP/h · +0.0 tasks/h · +0 XP/h
 
 ## Task routing
 
@@ -104,7 +104,7 @@ Updated: **2026-08-17T21:37:23+00:00** · **35 calendar days** until 2026-09-21
 
 ## Data quality / freshness
 
-- WikiSync: **2026-08-17T21:37:23.346Z** via **LEAGUE_2**
+- WikiSync: **2026-08-17T21:43:26.422Z** via **LEAGUE_2**
 - Task catalog: **fresh**, 1,152 mapped tasks
 - Completed task IDs mapped to names: **92/92**
 - LP consistency: HiScores 2,020 vs mapped completed-task points 2,020 · delta **+0**
