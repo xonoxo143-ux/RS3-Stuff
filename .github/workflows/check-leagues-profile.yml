@@ -1,0 +1,37 @@
+name: Check RS3 Leagues Profile
+
+on:
+  push:
+    paths:
+      - '.github/workflows/check-leagues-profile.yml'
+  workflow_dispatch:
+
+jobs:
+  check-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch Jagex Leagues profile
+        shell: bash
+        run: |
+          set -o pipefail
+          URL='https://rs.runescape.com/hiscores/leagues/player/112321'
+          echo "Fetching: $URL"
+          echo
+          curl -L --compressed \
+            --connect-timeout 20 \
+            --max-time 60 \
+            -A 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/140 Safari/537.36' \
+            -D headers.txt \
+            -o profile.html \
+            -w 'HTTP_STATUS=%{http_code}\nFINAL_URL=%{url_effective}\nCONTENT_TYPE=%{content_type}\nSIZE=%{size_download}\n' \
+            "$URL"
+
+          echo
+          echo '--- RESPONSE HEADERS ---'
+          cat headers.txt
+          echo
+          echo '--- PAGE TITLE / RELEVANT TEXT ---'
+          grep -ioE '<title>[^<]*|112321|league points|total level|total xp|overall|attack|strength|defence|constitution|ranged|prayer|magic|cooking|woodcutting|fletching|fishing|firemaking|crafting|smithing|mining|herblore|agility|thieving|slayer|farming|runecrafting|hunter|construction|summoning|dungeoneering|divination|invention|archaeology|necromancy' profile.html | head -n 250 || true
+          echo
+          echo '--- FIRST 120 LINES OF BODY ---'
+          sed -n '1,120p' profile.html
