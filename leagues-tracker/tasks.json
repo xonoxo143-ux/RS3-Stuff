@@ -14,27 +14,27 @@
     "count_by_region": {
       "Global": 71,
       "Karamja": 1,
-      "Misthalin": 26
+      "Misthalin": 29
     },
     "count_by_tier": {
-      "easy": 74,
+      "easy": 75,
       "elite": 3,
       "hard": 3,
-      "medium": 18
+      "medium": 20
     },
     "points_by_region": {
       "Global": 1710,
       "Karamja": 30,
-      "Misthalin": 380
+      "Misthalin": 450
     },
     "points_by_tier": {
-      "easy": 740,
+      "easy": 750,
       "elite": 600,
       "hard": 240,
-      "medium": 540
+      "medium": 600
     }
   },
-  "completed_task_count": 98,
+  "completed_task_count": 101,
   "completed_task_ids": [
     0,
     1,
@@ -50,14 +50,17 @@
     36,
     37,
     38,
+    39,
     40,
     44,
+    49,
     50,
     98,
     102,
     104,
     106,
     107,
+    111,
     116,
     117,
     133,
@@ -264,6 +267,15 @@
     },
     {
       "blessing_task": false,
+      "id": 39,
+      "issue": null,
+      "name": "Craft a water rune at the Water Altar.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
       "id": 40,
       "issue": null,
       "name": "Complete a task from Jacquelyn, the Lumbridge Slayer master.",
@@ -276,6 +288,15 @@
       "id": 44,
       "issue": null,
       "name": "Drink from the Tears of Guthix.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 49,
+      "issue": null,
+      "name": "Craft 50 water runes.",
       "points": 30,
       "region": "Misthalin",
       "tier": "medium"
@@ -333,6 +354,15 @@
       "points": 10,
       "region": "Misthalin",
       "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 111,
+      "issue": null,
+      "name": "Browse through Oziach's Armour Shop.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
     },
     {
       "blessing_task": false,
@@ -1019,13 +1049,45 @@
       "tier": "elite"
     }
   ],
-  "new_task_ids_since_previous_snapshot": [],
-  "new_tasks_since_previous_snapshot": [],
+  "new_task_ids_since_previous_snapshot": [
+    39,
+    49,
+    111
+  ],
+  "new_tasks_since_previous_snapshot": [
+    {
+      "blessing_task": false,
+      "id": 39,
+      "issue": null,
+      "name": "Craft a water rune at the Water Altar.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "id": 49,
+      "issue": null,
+      "name": "Craft 50 water runes.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "id": 111,
+      "issue": null,
+      "name": "Browse through Oziach's Armour Shop.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    }
+  ],
   "player": "112321",
   "removed_task_ids_since_previous_snapshot": [],
   "removed_tasks_since_previous_snapshot": [],
   "schema_version": 2,
-  "timestamp_utc": "2026-08-18T00:54:00+00:00",
+  "timestamp_utc": "2026-08-18T01:52:48+00:00",
   "wikisync_profile": "LEAGUE_2",
-  "wikisync_timestamp": "2026-08-18T00:54:00.662Z"
+  "wikisync_timestamp": "2026-08-18T01:52:47.791Z"
 }

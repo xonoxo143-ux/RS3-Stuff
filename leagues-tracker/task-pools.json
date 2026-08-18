@@ -129,9 +129,9 @@
   ],
   "candidate_pool_note": "Pools are filtered by completed state, inferred/confirmed region access, and known issue flags. The catalog does not expose skill requirements, so candidates are not guaranteed to be immediately doable.",
   "counts": {
-    "accessible_uncompleted": 542,
+    "accessible_uncompleted": 539,
     "blessing_candidates": 14,
-    "clean_accessible_uncompleted": 537,
+    "clean_accessible_uncompleted": 534,
     "known_issue_accessible": 5
   },
   "high_point_candidates_top_50": [
@@ -1316,5 +1316,5 @@
       "tier": "easy"
     }
   ],
-  "timestamp_utc": "2026-08-18T00:54:00+00:00"
+  "timestamp_utc": "2026-08-18T01:52:48+00:00"
 }

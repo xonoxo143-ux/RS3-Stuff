@@ -1,11 +1,11 @@
 # RS3 Equilibrium account state — 112321
 
-Updated: **2026-08-18T00:54:00+00:00** · **34 calendar days** until 2026-09-21
+Updated: **2026-08-18T01:52:48+00:00** · **34 calendar days** until 2026-09-21
 
 ## Read this first
 
 - **2,120 LP** · relic **T3** · **1,380 LP** to T4
-- **98 tasks** completed · **77 tasks** to First elective region
+- **101 tasks** completed · **74 tasks** to First elective region
 - Blessings: **1 blessing tasks** · current step **Tier 1** · **2** to Tier 2
 - Trophy: **Bronze** · **1,880 LP** to Iron
 - Total level **708** · Total XP **27,508,941**
@@ -16,17 +16,17 @@ Updated: **2026-08-18T00:54:00+00:00** · **34 calendar days** until 2026-09-21
 ## Since previous snapshot
 
 - LP: **+0**
-- Tasks: **+0**
+- Tasks: **+3**
 - Total levels: **+0**
 - Total XP: **+0**
-- New tasks: none
+- New tasks: **Craft a water rune at the Water Altar.** (easy, Misthalin, 10 LP); **Craft 50 water runes.** (medium, Misthalin, 30 LP); **Browse through Oziach's Armour Shop.** (medium, Misthalin, 30 LP)
 - Level-ups: none
-- Pace over 1.22h: +0.0 LP/h · +0.0 tasks/h · +0 XP/h
+- Pace over 0.98h: +0.0 LP/h · +3.1 tasks/h · +0 XP/h
 
 ## Task routing
 
 - Catalog: **1,152 tasks**, status **fresh**
-- Clean incomplete tasks in inferred/confirmed regions: **537**
+- Clean incomplete tasks in inferred/confirmed regions: **534**
 - Known-issue tasks in those regions to avoid/check first: **5**
 - Uncompleted blessing candidates in those regions: **14**
 - Candidate warning: the catalog does **not** expose skill requirements, so this is a routing pool, not a claim that every task is immediately doable.
@@ -104,9 +104,9 @@ Updated: **2026-08-18T00:54:00+00:00** · **34 calendar days** until 2026-09-21
 
 ## Data quality / freshness
 
-- WikiSync: **2026-08-18T00:54:00.662Z** via **LEAGUE_2**
+- WikiSync: **2026-08-18T01:52:47.791Z** via **LEAGUE_2**
 - Task catalog: **fresh**, 1,152 mapped tasks
-- Completed task IDs mapped to names: **98/98**
-- LP consistency: HiScores 2,120 vs mapped completed-task points 2,120 · delta **+0**
+- Completed task IDs mapped to names: **101/101**
+- LP consistency: HiScores 2,120 vs mapped completed-task points 2,190 · delta **-70**
 
 > Generated automatically. Read `assistant-context.json` for structured state, `tasks.json` for named completions, `task-pools.json` for routing candidates, and `task-catalog.json` for the full Equilibrium task database.

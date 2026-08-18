@@ -1,16 +1,48 @@
 {
   "changes": {
-    "completed_tasks": 0,
-    "elapsed_hours": 1.222,
+    "completed_tasks": 3,
+    "elapsed_hours": 0.98,
     "has_previous_snapshot": true,
     "league_points": 0,
     "level_ups": [],
-    "new_task_ids": [],
-    "new_tasks": [],
+    "new_task_ids": [
+      39,
+      49,
+      111
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "id": 39,
+        "issue": null,
+        "name": "Craft a water rune at the Water Altar.",
+        "points": 10,
+        "region": "Misthalin",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "id": 49,
+        "issue": null,
+        "name": "Craft 50 water runes.",
+        "points": 30,
+        "region": "Misthalin",
+        "tier": "medium"
+      },
+      {
+        "blessing_task": false,
+        "id": 111,
+        "issue": null,
+        "name": "Browse through Oziach's Armour Shop.",
+        "points": 30,
+        "region": "Misthalin",
+        "tier": "medium"
+      }
+    ],
     "rates": {
       "levels_per_hour": 0.0,
       "lp_per_hour": 0.0,
-      "tasks_per_hour": 0.0,
+      "tasks_per_hour": 3.06,
       "xp_per_hour": 0.0
     },
     "removed_task_ids": [],
@@ -20,10 +52,10 @@
     "xp_gains": []
   },
   "data_quality": {
-    "catalog_points_from_completed_tasks": 2120,
+    "catalog_points_from_completed_tasks": 2190,
     "catalog_task_count": 1152,
-    "hiscores_lp_minus_catalog_completed_points": 0,
-    "mapped_completed_tasks": 98,
+    "hiscores_lp_minus_catalog_completed_points": -70,
+    "mapped_completed_tasks": 101,
     "unmapped_completed_task_ids": []
   },
   "league": "Leagues II: Equilibrium",
@@ -97,7 +129,7 @@
     "blessing_tasks_completed": 1,
     "blessing_tasks_to_next_step": 2,
     "calendar_days_remaining": 34,
-    "completed_tasks": 98,
+    "completed_tasks": 101,
     "inferred_unlocked_regions": [
       "Havenhythe",
       "Karamja",
@@ -115,18 +147,18 @@
     "points_to_next_relic": 1380,
     "points_to_next_trophy": 1880,
     "relic_tier": 3,
-    "tasks_to_next_region_unlock": 77,
+    "tasks_to_next_region_unlock": 74,
     "total_level": 708,
     "total_xp": 27508941,
     "trophy": "Bronze"
   },
   "read_me_first": true,
   "rolling_six_snapshot_rate": {
-    "elapsed_hours": 3.393,
-    "levels_per_hour": 13.85,
-    "lp_per_hour": 29.47,
-    "tasks_per_hour": 1.77,
-    "xp_per_hour": 2735637.47
+    "elapsed_hours": 4.257,
+    "levels_per_hour": 11.04,
+    "lp_per_hour": 23.49,
+    "tasks_per_hour": 2.11,
+    "xp_per_hour": 2180298.6
   },
   "routing": {
     "blessing_candidates": [
@@ -863,11 +895,11 @@
   ],
   "source_freshness": {
     "jagex_hiscores": "https://rs.runescape.com/hiscores/leagues/player/112321",
-    "task_catalog_fetched_at_utc": "2026-08-18T00:54:00+00:00",
+    "task_catalog_fetched_at_utc": "2026-08-18T01:52:48+00:00",
     "task_catalog_status": "fresh",
     "task_catalog_url": "https://scapeleagues.com/rs3/equilibrium/tasks",
     "wikisync_profile": "LEAGUE_2",
-    "wikisync_timestamp": "2026-08-18T00:54:00.662Z"
+    "wikisync_timestamp": "2026-08-18T01:52:47.791Z"
   },
   "strategy_config": {
     "confirmed_relic_choices": {
@@ -907,28 +939,56 @@
       "count_by_region": {
         "Global": 71,
         "Karamja": 1,
-        "Misthalin": 26
+        "Misthalin": 29
       },
       "count_by_tier": {
-        "easy": 74,
+        "easy": 75,
         "elite": 3,
         "hard": 3,
-        "medium": 18
+        "medium": 20
       },
       "points_by_region": {
         "Global": 1710,
         "Karamja": 30,
-        "Misthalin": 380
+        "Misthalin": 450
       },
       "points_by_tier": {
-        "easy": 740,
+        "easy": 750,
         "elite": 600,
         "hard": 240,
-        "medium": 540
+        "medium": 600
       }
     },
-    "completed_count": 98,
-    "new_tasks": []
+    "completed_count": 101,
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "id": 39,
+        "issue": null,
+        "name": "Craft a water rune at the Water Altar.",
+        "points": 10,
+        "region": "Misthalin",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "id": 49,
+        "issue": null,
+        "name": "Craft 50 water runes.",
+        "points": 30,
+        "region": "Misthalin",
+        "tier": "medium"
+      },
+      {
+        "blessing_task": false,
+        "id": 111,
+        "issue": null,
+        "name": "Browse through Oziach's Armour Shop.",
+        "points": 30,
+        "region": "Misthalin",
+        "tier": "medium"
+      }
+    ]
   },
-  "timestamp_utc": "2026-08-18T00:54:00+00:00"
+  "timestamp_utc": "2026-08-18T01:52:48+00:00"
 }
