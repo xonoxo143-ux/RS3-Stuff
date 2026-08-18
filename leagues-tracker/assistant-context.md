@@ -1,6 +1,6 @@
 # RS3 Equilibrium account state — 112321
 
-Updated: **2026-08-17T23:40:42+00:00** · **35 calendar days** until 2026-09-21
+Updated: **2026-08-18T00:54:00+00:00** · **34 calendar days** until 2026-09-21
 
 ## Read this first
 
@@ -17,12 +17,11 @@ Updated: **2026-08-17T23:40:42+00:00** · **35 calendar days** until 2026-09-21
 
 - LP: **+0**
 - Tasks: **+0**
-- Total levels: **+19**
-- Total XP: **+1,029,923**
+- Total levels: **+0**
+- Total XP: **+0**
 - New tasks: none
-- Level-ups: Defence 26→31; Magic 28→33; Constitution 25→29; Summoning 1→5; Prayer 70→71
-- Largest XP gains: Agility +1,005,448; Magic +7,412; Prayer +6,437; Defence +6,171; Constitution +4,063; Summoning +392
-- Pace over 0.94h: +0.0 LP/h · +0.0 tasks/h · +1,089,545 XP/h
+- Level-ups: none
+- Pace over 1.22h: +0.0 LP/h · +0.0 tasks/h · +0 XP/h
 
 ## Task routing
 
@@ -105,7 +104,7 @@ Updated: **2026-08-17T23:40:42+00:00** · **35 calendar days** until 2026-09-21
 
 ## Data quality / freshness
 
-- WikiSync: **2026-08-17T23:40:41.851Z** via **LEAGUE_2**
+- WikiSync: **2026-08-18T00:54:00.662Z** via **LEAGUE_2**
 - Task catalog: **fresh**, 1,152 mapped tasks
 - Completed task IDs mapped to names: **98/98**
 - LP consistency: HiScores 2,120 vs mapped completed-task points 2,120 · delta **+0**

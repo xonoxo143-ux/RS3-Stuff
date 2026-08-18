@@ -1,79 +1,23 @@
 {
   "changes": {
     "completed_tasks": 0,
-    "elapsed_hours": 0.945,
+    "elapsed_hours": 1.222,
     "has_previous_snapshot": true,
     "league_points": 0,
-    "level_ups": [
-      {
-        "from": 26,
-        "levels_gained": 5,
-        "skill": "Defence",
-        "to": 31
-      },
-      {
-        "from": 28,
-        "levels_gained": 5,
-        "skill": "Magic",
-        "to": 33
-      },
-      {
-        "from": 25,
-        "levels_gained": 4,
-        "skill": "Constitution",
-        "to": 29
-      },
-      {
-        "from": 1,
-        "levels_gained": 4,
-        "skill": "Summoning",
-        "to": 5
-      },
-      {
-        "from": 70,
-        "levels_gained": 1,
-        "skill": "Prayer",
-        "to": 71
-      }
-    ],
+    "level_ups": [],
     "new_task_ids": [],
     "new_tasks": [],
     "rates": {
-      "levels_per_hour": 20.1,
+      "levels_per_hour": 0.0,
       "lp_per_hour": 0.0,
       "tasks_per_hour": 0.0,
-      "xp_per_hour": 1089545.34
+      "xp_per_hour": 0.0
     },
     "removed_task_ids": [],
     "removed_tasks": [],
-    "total_level": 19,
-    "total_xp": 1029923,
-    "xp_gains": [
-      {
-        "skill": "Agility",
-        "xp_gained": 1005448
-      },
-      {
-        "skill": "Magic",
-        "xp_gained": 7412
-      },
-      {
-        "skill": "Prayer",
-        "xp_gained": 6437
-      },
-      {
-        "skill": "Defence",
-        "xp_gained": 6171
-      },
-      {
-        "skill": "Constitution",
-        "xp_gained": 4063
-      },
-      {
-        "skill": "Summoning",
-        "xp_gained": 392
-      }
-    ]
+    "total_level": 0,
+    "total_xp": 0,
+    "xp_gains": []
   },
   "data_quality": {
     "catalog_points_from_completed_tasks": 2120,
@@ -152,7 +96,7 @@
     "blessing_step": "Tier 1",
     "blessing_tasks_completed": 1,
     "blessing_tasks_to_next_step": 2,
-    "calendar_days_remaining": 35,
+    "calendar_days_remaining": 34,
     "completed_tasks": 98,
     "inferred_unlocked_regions": [
       "Havenhythe",
@@ -178,11 +122,11 @@
   },
   "read_me_first": true,
   "rolling_six_snapshot_rate": {
-    "elapsed_hours": 2.665,
-    "levels_per_hour": 36.78,
-    "lp_per_hour": 60.04,
-    "tasks_per_hour": 2.25,
-    "xp_per_hour": 4784384.99
+    "elapsed_hours": 3.393,
+    "levels_per_hour": 13.85,
+    "lp_per_hour": 29.47,
+    "tasks_per_hour": 1.77,
+    "xp_per_hour": 2735637.47
   },
   "routing": {
     "blessing_candidates": [
@@ -919,11 +863,11 @@
   ],
   "source_freshness": {
     "jagex_hiscores": "https://rs.runescape.com/hiscores/leagues/player/112321",
-    "task_catalog_fetched_at_utc": "2026-08-17T23:40:42+00:00",
+    "task_catalog_fetched_at_utc": "2026-08-18T00:54:00+00:00",
     "task_catalog_status": "fresh",
     "task_catalog_url": "https://scapeleagues.com/rs3/equilibrium/tasks",
     "wikisync_profile": "LEAGUE_2",
-    "wikisync_timestamp": "2026-08-17T23:40:41.851Z"
+    "wikisync_timestamp": "2026-08-18T00:54:00.662Z"
   },
   "strategy_config": {
     "confirmed_relic_choices": {
@@ -986,5 +930,5 @@
     "completed_count": 98,
     "new_tasks": []
   },
-  "timestamp_utc": "2026-08-17T23:40:42+00:00"
+  "timestamp_utc": "2026-08-18T00:54:00+00:00"
 }
