@@ -2,13 +2,6 @@
   {
     "completed_tasks": 101,
     "league_points": 2190,
-    "timestamp_utc": "2026-08-18T03:11:02+00:00",
-    "total_level": 711,
-    "total_xp": 30265795
-  },
-  {
-    "completed_tasks": 101,
-    "league_points": 2190,
     "timestamp_utc": "2026-08-18T04:00:27+00:00",
     "total_level": 711,
     "total_xp": 30265795
@@ -38,6 +31,13 @@
     "completed_tasks": 101,
     "league_points": 2190,
     "timestamp_utc": "2026-08-18T07:56:20+00:00",
+    "total_level": 711,
+    "total_xp": 30265795
+  },
+  {
+    "completed_tasks": 101,
+    "league_points": 2190,
+    "timestamp_utc": "2026-08-18T08:55:23+00:00",
     "total_level": 711,
     "total_xp": 30265795
   }
