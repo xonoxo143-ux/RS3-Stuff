@@ -131,8 +131,8 @@
   "counts": {
     "accessible_uncompleted": 539,
     "blessing_candidates": 14,
-    "clean_accessible_uncompleted": 534,
-    "known_issue_accessible": 5
+    "clean_accessible_uncompleted": 535,
+    "known_issue_accessible": 4
   },
   "high_point_candidates_top_50": [
     {
@@ -604,7 +604,7 @@
     {
       "blessing_task": false,
       "id": 59,
-      "issue": "Cannot be completed",
+      "issue": "Requires one kill after 17 August to complete the task",
       "name": "Defeat 50 tormented demons.",
       "points": 200,
       "region": "Misthalin",
@@ -618,15 +618,6 @@
       "points": 30,
       "region": "Misthalin",
       "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "id": 803,
-      "issue": "Cannot be completed",
-      "name": "Complete the task set: Hard Underworld.",
-      "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
     },
     {
       "blessing_task": false,
@@ -1316,5 +1307,5 @@
       "tier": "easy"
     }
   ],
-  "timestamp_utc": "2026-08-18T01:52:48+00:00"
+  "timestamp_utc": "2026-08-18T03:11:02+00:00"
 }

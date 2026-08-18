@@ -6,8 +6,8 @@
       "hard": 3
     },
     "currently_inferred_unlocked": false,
-    "non_issue_points": 8000,
-    "non_issue_tasks": 55,
+    "non_issue_points": 8200,
+    "non_issue_tasks": 56,
     "planned": false,
     "tier_counts": {
       "easy": 7,
@@ -71,8 +71,8 @@
       "medium": 1
     },
     "currently_inferred_unlocked": false,
-    "non_issue_points": 4730,
-    "non_issue_tasks": 58,
+    "non_issue_points": 4530,
+    "non_issue_tasks": 57,
     "planned": false,
     "tier_counts": {
       "easy": 7,
@@ -111,8 +111,8 @@
       "medium": 2
     },
     "currently_inferred_unlocked": false,
-    "non_issue_points": 5670,
-    "non_issue_tasks": 59,
+    "non_issue_points": 5750,
+    "non_issue_tasks": 60,
     "planned": true,
     "tier_counts": {
       "easy": 9,
@@ -152,8 +152,8 @@
       "hard": 2
     },
     "currently_inferred_unlocked": true,
-    "non_issue_points": 13040,
-    "non_issue_tasks": 137,
+    "non_issue_points": 13120,
+    "non_issue_tasks": 138,
     "planned": false,
     "tier_counts": {
       "easy": 40,
@@ -194,8 +194,8 @@
       "hard": 2
     },
     "currently_inferred_unlocked": false,
-    "non_issue_points": 6950,
-    "non_issue_tasks": 60,
+    "non_issue_points": 7150,
+    "non_issue_tasks": 61,
     "planned": true,
     "tier_counts": {
       "easy": 9,

@@ -1,63 +1,73 @@
 {
   "player": "112321",
   "rolling_six_snapshot_rate": {
-    "elapsed_hours": 4.257,
-    "levels_per_hour": 11.04,
-    "lp_per_hour": 23.49,
-    "tasks_per_hour": 2.11,
-    "xp_per_hour": 2180298.6
+    "elapsed_hours": 5.46,
+    "levels_per_hour": 9.16,
+    "lp_per_hour": 31.14,
+    "tasks_per_hour": 1.65,
+    "xp_per_hour": 2204922.43
   },
   "since_previous_snapshot": {
-    "completed_tasks": 3,
-    "elapsed_hours": 0.98,
+    "completed_tasks": 0,
+    "elapsed_hours": 1.304,
     "has_previous_snapshot": true,
-    "league_points": 0,
-    "level_ups": [],
-    "new_task_ids": [
-      39,
-      49,
-      111
-    ],
-    "new_tasks": [
+    "league_points": 70,
+    "level_ups": [
       {
-        "blessing_task": false,
-        "id": 39,
-        "issue": null,
-        "name": "Craft a water rune at the Water Altar.",
-        "points": 10,
-        "region": "Misthalin",
-        "tier": "easy"
+        "from": 82,
+        "levels_gained": 2,
+        "skill": "Thieving",
+        "to": 84
       },
       {
-        "blessing_task": false,
-        "id": 49,
-        "issue": null,
-        "name": "Craft 50 water runes.",
-        "points": 30,
-        "region": "Misthalin",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": false,
-        "id": 111,
-        "issue": null,
-        "name": "Browse through Oziach's Armour Shop.",
-        "points": 30,
-        "region": "Misthalin",
-        "tier": "medium"
+        "from": 31,
+        "levels_gained": 1,
+        "skill": "Runecrafting",
+        "to": 32
       }
     ],
+    "new_task_ids": [],
+    "new_tasks": [],
     "rates": {
-      "levels_per_hour": 0.0,
-      "lp_per_hour": 0.0,
-      "tasks_per_hour": 3.06,
-      "xp_per_hour": 0.0
+      "levels_per_hour": 2.3,
+      "lp_per_hour": 53.69,
+      "tasks_per_hour": 0.0,
+      "xp_per_hour": 2114332.0
     },
     "removed_task_ids": [],
     "removed_tasks": [],
-    "total_level": 0,
-    "total_xp": 0,
-    "xp_gains": []
+    "total_level": 3,
+    "total_xp": 2756854,
+    "xp_gains": [
+      {
+        "skill": "Agility",
+        "xp_gained": 2188328
+      },
+      {
+        "skill": "Thieving",
+        "xp_gained": 560111
+      },
+      {
+        "skill": "Prayer",
+        "xp_gained": 6541
+      },
+      {
+        "skill": "Runecrafting",
+        "xp_gained": 1848
+      },
+      {
+        "skill": "Defence",
+        "xp_gained": 10
+      },
+      {
+        "skill": "Magic",
+        "xp_gained": 9
+      },
+      {
+        "skill": "Constitution",
+        "xp_gained": 7
+      }
+    ]
   },
-  "timestamp_utc": "2026-08-18T01:52:48+00:00"
+  "timestamp_utc": "2026-08-18T03:11:02+00:00"
 }

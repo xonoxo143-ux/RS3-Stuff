@@ -1,60 +1,70 @@
 {
   "changes": {
-    "completed_tasks": 3,
-    "elapsed_hours": 0.98,
+    "completed_tasks": 0,
+    "elapsed_hours": 1.304,
     "has_previous_snapshot": true,
-    "league_points": 0,
-    "level_ups": [],
-    "new_task_ids": [
-      39,
-      49,
-      111
-    ],
-    "new_tasks": [
+    "league_points": 70,
+    "level_ups": [
       {
-        "blessing_task": false,
-        "id": 39,
-        "issue": null,
-        "name": "Craft a water rune at the Water Altar.",
-        "points": 10,
-        "region": "Misthalin",
-        "tier": "easy"
+        "from": 82,
+        "levels_gained": 2,
+        "skill": "Thieving",
+        "to": 84
       },
       {
-        "blessing_task": false,
-        "id": 49,
-        "issue": null,
-        "name": "Craft 50 water runes.",
-        "points": 30,
-        "region": "Misthalin",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": false,
-        "id": 111,
-        "issue": null,
-        "name": "Browse through Oziach's Armour Shop.",
-        "points": 30,
-        "region": "Misthalin",
-        "tier": "medium"
+        "from": 31,
+        "levels_gained": 1,
+        "skill": "Runecrafting",
+        "to": 32
       }
     ],
+    "new_task_ids": [],
+    "new_tasks": [],
     "rates": {
-      "levels_per_hour": 0.0,
-      "lp_per_hour": 0.0,
-      "tasks_per_hour": 3.06,
-      "xp_per_hour": 0.0
+      "levels_per_hour": 2.3,
+      "lp_per_hour": 53.69,
+      "tasks_per_hour": 0.0,
+      "xp_per_hour": 2114332.0
     },
     "removed_task_ids": [],
     "removed_tasks": [],
-    "total_level": 0,
-    "total_xp": 0,
-    "xp_gains": []
+    "total_level": 3,
+    "total_xp": 2756854,
+    "xp_gains": [
+      {
+        "skill": "Agility",
+        "xp_gained": 2188328
+      },
+      {
+        "skill": "Thieving",
+        "xp_gained": 560111
+      },
+      {
+        "skill": "Prayer",
+        "xp_gained": 6541
+      },
+      {
+        "skill": "Runecrafting",
+        "xp_gained": 1848
+      },
+      {
+        "skill": "Defence",
+        "xp_gained": 10
+      },
+      {
+        "skill": "Magic",
+        "xp_gained": 9
+      },
+      {
+        "skill": "Constitution",
+        "xp_gained": 7
+      }
+    ]
   },
   "data_quality": {
     "catalog_points_from_completed_tasks": 2190,
     "catalog_task_count": 1152,
-    "hiscores_lp_minus_catalog_completed_points": -70,
+    "hiscores_lp_minus_catalog_completed_points": 0,
     "mapped_completed_tasks": 101,
     "unmapped_completed_task_ids": []
   },
@@ -89,8 +99,8 @@
         "medium": 2
       },
       "currently_inferred_unlocked": false,
-      "non_issue_points": 5670,
-      "non_issue_tasks": 59,
+      "non_issue_points": 5750,
+      "non_issue_tasks": 60,
       "planned": true,
       "tier_counts": {
         "easy": 9,
@@ -109,8 +119,8 @@
         "hard": 2
       },
       "currently_inferred_unlocked": false,
-      "non_issue_points": 6950,
-      "non_issue_tasks": 60,
+      "non_issue_points": 7150,
+      "non_issue_tasks": 61,
       "planned": true,
       "tier_counts": {
         "easy": 9,
@@ -136,7 +146,7 @@
       "Misthalin"
     ],
     "league_end_date": "2026-09-21",
-    "league_points": 2120,
+    "league_points": 2190,
     "next_blessing_step": "Tier 2",
     "next_planned_region": "Tirannwn",
     "next_region_task_threshold": 175,
@@ -144,21 +154,21 @@
     "next_relic_points": 3500,
     "next_relic_tier": 4,
     "next_trophy": "Iron",
-    "points_to_next_relic": 1380,
-    "points_to_next_trophy": 1880,
+    "points_to_next_relic": 1310,
+    "points_to_next_trophy": 1810,
     "relic_tier": 3,
     "tasks_to_next_region_unlock": 74,
-    "total_level": 708,
-    "total_xp": 27508941,
+    "total_level": 711,
+    "total_xp": 30265795,
     "trophy": "Bronze"
   },
   "read_me_first": true,
   "rolling_six_snapshot_rate": {
-    "elapsed_hours": 4.257,
-    "levels_per_hour": 11.04,
-    "lp_per_hour": 23.49,
-    "tasks_per_hour": 2.11,
-    "xp_per_hour": 2180298.6
+    "elapsed_hours": 5.46,
+    "levels_per_hour": 9.16,
+    "lp_per_hour": 31.14,
+    "tasks_per_hour": 1.65,
+    "xp_per_hour": 2204922.43
   },
   "routing": {
     "blessing_candidates": [
@@ -303,7 +313,7 @@
       {
         "blessing_task": false,
         "id": 59,
-        "issue": "Cannot be completed",
+        "issue": "Requires one kill after 17 August to complete the task",
         "name": "Defeat 50 tormented demons.",
         "points": 200,
         "region": "Misthalin",
@@ -317,15 +327,6 @@
         "points": 30,
         "region": "Misthalin",
         "tier": "medium"
-      },
-      {
-        "blessing_task": false,
-        "id": 803,
-        "issue": "Cannot be completed",
-        "name": "Complete the task set: Hard Underworld.",
-        "points": 80,
-        "region": "Misthalin",
-        "tier": "hard"
       },
       {
         "blessing_task": false,
@@ -596,17 +597,17 @@
       {
         "level": 99,
         "name": "Agility",
-        "xp": 23967496
+        "xp": 26155824
       },
       {
-        "level": 82,
+        "level": 84,
         "name": "Thieving",
-        "xp": 2491991
+        "xp": 3052102
       },
       {
         "level": 71,
         "name": "Prayer",
-        "xp": 815232
+        "xp": 821773
       },
       {
         "level": 46,
@@ -626,12 +627,12 @@
       {
         "level": 33,
         "name": "Magic",
-        "xp": 19055
+        "xp": 19064
       },
       {
-        "level": 31,
+        "level": 32,
         "name": "Runecrafting",
-        "xp": 15360
+        "xp": 17208
       }
     ],
     "level_1_or_lower": [
@@ -691,8 +692,8 @@
         "target_level": 50
       },
       {
-        "current_level": 82,
-        "levels_needed": 8,
+        "current_level": 84,
+        "levels_needed": 6,
         "skill": "Thieving",
         "target_level": 90
       },
@@ -721,15 +722,15 @@
         "target_level": 50
       },
       {
-        "current_level": 31,
-        "levels_needed": 19,
-        "skill": "Defence",
+        "current_level": 32,
+        "levels_needed": 18,
+        "skill": "Runecrafting",
         "target_level": 50
       },
       {
         "current_level": 31,
         "levels_needed": 19,
-        "skill": "Runecrafting",
+        "skill": "Defence",
         "target_level": 50
       },
       {
@@ -750,17 +751,17 @@
     {
       "level": 99,
       "name": "Agility",
-      "xp": 23967496
+      "xp": 26155824
     },
     {
-      "level": 82,
+      "level": 84,
       "name": "Thieving",
-      "xp": 2491991
+      "xp": 3052102
     },
     {
       "level": 71,
       "name": "Prayer",
-      "xp": 815232
+      "xp": 821773
     },
     {
       "level": 46,
@@ -780,17 +781,17 @@
     {
       "level": 33,
       "name": "Magic",
-      "xp": 19055
+      "xp": 19064
     },
     {
-      "level": 31,
+      "level": 32,
       "name": "Runecrafting",
-      "xp": 15360
+      "xp": 17208
     },
     {
       "level": 31,
       "name": "Defence",
-      "xp": 15180
+      "xp": 15190
     },
     {
       "level": 30,
@@ -800,7 +801,7 @@
     {
       "level": 29,
       "name": "Constitution",
-      "xp": 12223
+      "xp": 12230
     },
     {
       "level": 27,
@@ -895,11 +896,11 @@
   ],
   "source_freshness": {
     "jagex_hiscores": "https://rs.runescape.com/hiscores/leagues/player/112321",
-    "task_catalog_fetched_at_utc": "2026-08-18T01:52:48+00:00",
+    "task_catalog_fetched_at_utc": "2026-08-18T03:11:02+00:00",
     "task_catalog_status": "fresh",
     "task_catalog_url": "https://scapeleagues.com/rs3/equilibrium/tasks",
     "wikisync_profile": "LEAGUE_2",
-    "wikisync_timestamp": "2026-08-18T01:52:47.791Z"
+    "wikisync_timestamp": "2026-08-18T03:11:02.157Z"
   },
   "strategy_config": {
     "confirmed_relic_choices": {
@@ -960,35 +961,7 @@
       }
     },
     "completed_count": 101,
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "id": 39,
-        "issue": null,
-        "name": "Craft a water rune at the Water Altar.",
-        "points": 10,
-        "region": "Misthalin",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "id": 49,
-        "issue": null,
-        "name": "Craft 50 water runes.",
-        "points": 30,
-        "region": "Misthalin",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": false,
-        "id": 111,
-        "issue": null,
-        "name": "Browse through Oziach's Armour Shop.",
-        "points": 30,
-        "region": "Misthalin",
-        "tier": "medium"
-      }
-    ]
+    "new_tasks": []
   },
-  "timestamp_utc": "2026-08-18T01:52:48+00:00"
+  "timestamp_utc": "2026-08-18T03:11:02+00:00"
 }
