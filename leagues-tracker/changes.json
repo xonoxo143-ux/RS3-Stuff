@@ -1,15 +1,15 @@
 {
   "player": "112321",
   "rolling_six_snapshot_rate": {
-    "elapsed_hours": 5.274,
-    "levels_per_hour": 4.17,
-    "lp_per_hour": 13.27,
+    "elapsed_hours": 5.236,
+    "levels_per_hour": 0.57,
+    "lp_per_hour": 13.37,
     "tasks_per_hour": 0.57,
-    "xp_per_hour": 717948.03
+    "xp_per_hour": 526507.93
   },
   "since_previous_snapshot": {
     "completed_tasks": 0,
-    "elapsed_hours": 0.824,
+    "elapsed_hours": 0.907,
     "has_previous_snapshot": true,
     "league_points": 0,
     "level_ups": [],
@@ -27,5 +27,5 @@
     "total_xp": 0,
     "xp_gains": []
   },
-  "timestamp_utc": "2026-08-18T04:00:27+00:00"
+  "timestamp_utc": "2026-08-18T04:54:52+00:00"
 }
