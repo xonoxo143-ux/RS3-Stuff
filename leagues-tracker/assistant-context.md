@@ -1,6 +1,6 @@
 # RS3 Equilibrium account state — 112321
 
-Updated: **2026-08-18T13:58:47+00:00** · **34 calendar days** until 2026-09-21
+Updated: **2026-08-18T14:54:43+00:00** · **34 calendar days** until 2026-09-21
 
 ## Read this first
 
@@ -21,7 +21,7 @@ Updated: **2026-08-18T13:58:47+00:00** · **34 calendar days** until 2026-09-21
 - Total XP: **+0**
 - New tasks: none
 - Level-ups: none
-- Pace over 0.79h: +0.0 LP/h · +0.0 tasks/h · +0 XP/h
+- Pace over 0.93h: +0.0 LP/h · +0.0 tasks/h · +0 XP/h
 
 ## Task routing
 
@@ -104,7 +104,7 @@ Updated: **2026-08-18T13:58:47+00:00** · **34 calendar days** until 2026-09-21
 
 ## Data quality / freshness
 
-- WikiSync: **2026-08-18T13:58:45.984Z** via **LEAGUE_2**
+- WikiSync: **2026-08-18T14:54:42.782Z** via **LEAGUE_2**
 - Task catalog: **fresh**, 1,152 mapped tasks
 - Completed task IDs mapped to names: **101/101**
 - LP consistency: HiScores 2,190 vs mapped completed-task points 2,190 · delta **+0**
