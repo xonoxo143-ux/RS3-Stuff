@@ -1,6 +1,6 @@
 # RS3 Equilibrium account state — 112321
 
-Updated: **2026-08-18T03:11:02+00:00** · **34 calendar days** until 2026-09-21
+Updated: **2026-08-18T04:00:27+00:00** · **34 calendar days** until 2026-09-21
 
 ## Read this first
 
@@ -15,14 +15,13 @@ Updated: **2026-08-18T03:11:02+00:00** · **34 calendar days** until 2026-09-21
 
 ## Since previous snapshot
 
-- LP: **+70**
+- LP: **+0**
 - Tasks: **+0**
-- Total levels: **+3**
-- Total XP: **+2,756,854**
+- Total levels: **+0**
+- Total XP: **+0**
 - New tasks: none
-- Level-ups: Thieving 82→84; Runecrafting 31→32
-- Largest XP gains: Agility +2,188,328; Thieving +560,111; Prayer +6,541; Runecrafting +1,848; Defence +10; Magic +9; Constitution +7
-- Pace over 1.30h: +53.7 LP/h · +0.0 tasks/h · +2,114,332 XP/h
+- Level-ups: none
+- Pace over 0.82h: +0.0 LP/h · +0.0 tasks/h · +0 XP/h
 
 ## Task routing
 
@@ -105,7 +104,7 @@ Updated: **2026-08-18T03:11:02+00:00** · **34 calendar days** until 2026-09-21
 
 ## Data quality / freshness
 
-- WikiSync: **2026-08-18T03:11:02.157Z** via **LEAGUE_2**
+- WikiSync: **2026-08-18T04:00:26.660Z** via **LEAGUE_2**
 - Task catalog: **fresh**, 1,152 mapped tasks
 - Completed task IDs mapped to names: **101/101**
 - LP consistency: HiScores 2,190 vs mapped completed-task points 2,190 · delta **+0**
