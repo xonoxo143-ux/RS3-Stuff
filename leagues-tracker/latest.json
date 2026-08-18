@@ -1,7 +1,7 @@
 {
   "changes_since_previous_snapshot": {
     "completed_tasks": 0,
-    "elapsed_hours": 0.907,
+    "elapsed_hours": 0.871,
     "has_previous_snapshot": true,
     "league_points": 0,
     "level_ups": [],
@@ -488,13 +488,13 @@
   },
   "sources": {
     "jagex_hiscores": "https://rs.runescape.com/hiscores/leagues/player/112321",
-    "task_catalog_fetched_at_utc": "2026-08-18T04:54:52+00:00",
+    "task_catalog_fetched_at_utc": "2026-08-18T05:47:07+00:00",
     "task_catalog_status": "fresh",
     "task_catalog_url": "https://scapeleagues.com/rs3/equilibrium/tasks",
     "wikisync_profile": "LEAGUE_2",
-    "wikisync_timestamp": "2026-08-18T04:54:51.193Z"
+    "wikisync_timestamp": "2026-08-18T05:47:06.374Z"
   },
-  "timestamp_utc": "2026-08-18T04:54:52+00:00",
+  "timestamp_utc": "2026-08-18T05:47:07+00:00",
   "total_level": 711,
   "total_xp": 30265795
 }
