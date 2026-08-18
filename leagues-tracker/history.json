@@ -2,506 +2,6 @@
   {
     "changes_since_previous_snapshot": {
       "completed_tasks": 0,
-      "elapsed_hours": 1.335,
-      "has_previous_snapshot": true,
-      "league_points": 0,
-      "level_ups": [],
-      "new_task_ids": [],
-      "new_tasks": [],
-      "rates": {
-        "levels_per_hour": 0.0,
-        "lp_per_hour": 0.0,
-        "tasks_per_hour": 0.0,
-        "xp_per_hour": 0.0
-      },
-      "removed_task_ids": [],
-      "removed_tasks": [],
-      "total_level": 0,
-      "total_xp": 0,
-      "xp_gains": []
-    },
-    "completed_task_count": 101,
-    "completed_task_ids": [
-      0,
-      1,
-      2,
-      5,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      36,
-      37,
-      38,
-      39,
-      40,
-      44,
-      49,
-      50,
-      98,
-      102,
-      104,
-      106,
-      107,
-      111,
-      116,
-      117,
-      133,
-      134,
-      135,
-      136,
-      137,
-      142,
-      143,
-      147,
-      148,
-      149,
-      153,
-      154,
-      155,
-      156,
-      157,
-      158,
-      159,
-      162,
-      163,
-      165,
-      168,
-      169,
-      170,
-      171,
-      172,
-      173,
-      176,
-      180,
-      181,
-      182,
-      183,
-      186,
-      187,
-      188,
-      190,
-      191,
-      192,
-      193,
-      195,
-      196,
-      197,
-      198,
-      199,
-      200,
-      201,
-      210,
-      214,
-      215,
-      216,
-      218,
-      220,
-      222,
-      612,
-      813,
-      814,
-      815,
-      816,
-      820,
-      827,
-      835,
-      839,
-      840,
-      843,
-      848,
-      888,
-      902,
-      1060,
-      1146,
-      1147,
-      1148,
-      1149,
-      1150,
-      1151,
-      1152
-    ],
-    "derived": {
-      "completed_task_breakdown": {
-        "count_by_region": {
-          "Global": 71,
-          "Karamja": 1,
-          "Misthalin": 29
-        },
-        "count_by_tier": {
-          "easy": 75,
-          "elite": 3,
-          "hard": 3,
-          "medium": 20
-        },
-        "points_by_region": {
-          "Global": 1710,
-          "Karamja": 30,
-          "Misthalin": 450
-        },
-        "points_by_tier": {
-          "easy": 750,
-          "elite": 600,
-          "hard": 240,
-          "medium": 600
-        }
-      },
-      "data_consistency": {
-        "catalog_points_from_completed_tasks": 2190,
-        "catalog_task_count": 1152,
-        "hiscores_lp_minus_catalog_completed_points": 0,
-        "mapped_completed_tasks": 101,
-        "unmapped_completed_task_ids": []
-      },
-      "progression": {
-        "blessing_step": "Tier 1",
-        "blessing_tasks_completed": 1,
-        "blessing_tasks_to_next_step": 2,
-        "calendar_days_remaining": 34,
-        "completed_tasks": 101,
-        "inferred_unlocked_regions": [
-          "Havenhythe",
-          "Karamja",
-          "Misthalin"
-        ],
-        "league_end_date": "2026-09-21",
-        "league_points": 2190,
-        "next_blessing_step": "Tier 2",
-        "next_planned_region": "Tirannwn",
-        "next_region_task_threshold": 175,
-        "next_region_unlock": "First elective region",
-        "next_relic_points": 3500,
-        "next_relic_tier": 4,
-        "next_trophy": "Iron",
-        "points_to_next_relic": 1310,
-        "points_to_next_trophy": 1810,
-        "relic_tier": 3,
-        "tasks_to_next_region_unlock": 74,
-        "total_level": 711,
-        "total_xp": 30265795,
-        "trophy": "Bronze"
-      },
-      "skill_summary": {
-        "80_or_higher": [
-          "Agility",
-          "Thieving"
-        ],
-        "99_or_higher": [
-          "Agility"
-        ],
-        "below_20": [
-          "Construction",
-          "Dungeoneering",
-          "Invention",
-          "Necromancy",
-          "Farming",
-          "Hunter",
-          "Summoning",
-          "Ranged",
-          "Fishing",
-          "Herblore",
-          "Attack",
-          "Strength",
-          "Firemaking",
-          "Cooking",
-          "Archaeology",
-          "Slayer"
-        ],
-        "highest": [
-          {
-            "level": 99,
-            "name": "Agility",
-            "xp": 26155824
-          },
-          {
-            "level": 84,
-            "name": "Thieving",
-            "xp": 3052102
-          },
-          {
-            "level": 71,
-            "name": "Prayer",
-            "xp": 821773
-          },
-          {
-            "level": 46,
-            "name": "Mining",
-            "xp": 69458
-          },
-          {
-            "level": 37,
-            "name": "Smithing",
-            "xp": 28884
-          },
-          {
-            "level": 34,
-            "name": "Woodcutting",
-            "xp": 22390
-          },
-          {
-            "level": 33,
-            "name": "Magic",
-            "xp": 19064
-          },
-          {
-            "level": 32,
-            "name": "Runecrafting",
-            "xp": 17208
-          }
-        ],
-        "level_1_or_lower": [
-          "Construction",
-          "Dungeoneering",
-          "Invention",
-          "Necromancy",
-          "Farming"
-        ],
-        "lowest": [
-          {
-            "level": 1,
-            "name": "Construction",
-            "xp": 0
-          },
-          {
-            "level": 1,
-            "name": "Dungeoneering",
-            "xp": 0
-          },
-          {
-            "level": 1,
-            "name": "Invention",
-            "xp": 0
-          },
-          {
-            "level": 1,
-            "name": "Necromancy",
-            "xp": 0
-          },
-          {
-            "level": 1,
-            "name": "Farming",
-            "xp": 20
-          },
-          {
-            "level": 2,
-            "name": "Hunter",
-            "xp": 100
-          },
-          {
-            "level": 5,
-            "name": "Summoning",
-            "xp": 392
-          },
-          {
-            "level": 6,
-            "name": "Ranged",
-            "xp": 593
-          }
-        ],
-        "nearest_standard_level_milestones": [
-          {
-            "current_level": 46,
-            "levels_needed": 4,
-            "skill": "Mining",
-            "target_level": 50
-          },
-          {
-            "current_level": 84,
-            "levels_needed": 6,
-            "skill": "Thieving",
-            "target_level": 90
-          },
-          {
-            "current_level": 71,
-            "levels_needed": 9,
-            "skill": "Prayer",
-            "target_level": 80
-          },
-          {
-            "current_level": 37,
-            "levels_needed": 13,
-            "skill": "Smithing",
-            "target_level": 50
-          },
-          {
-            "current_level": 34,
-            "levels_needed": 16,
-            "skill": "Woodcutting",
-            "target_level": 50
-          },
-          {
-            "current_level": 33,
-            "levels_needed": 17,
-            "skill": "Magic",
-            "target_level": 50
-          },
-          {
-            "current_level": 32,
-            "levels_needed": 18,
-            "skill": "Runecrafting",
-            "target_level": 50
-          },
-          {
-            "current_level": 31,
-            "levels_needed": 19,
-            "skill": "Defence",
-            "target_level": 50
-          },
-          {
-            "current_level": 30,
-            "levels_needed": 20,
-            "skill": "Divination",
-            "target_level": 50
-          },
-          {
-            "current_level": 29,
-            "levels_needed": 21,
-            "skill": "Constitution",
-            "target_level": 50
-          }
-        ]
-      }
-    },
-    "league": "Leagues II: Equilibrium",
-    "league_points": 2190,
-    "player": "112321",
-    "schema_version": 3,
-    "skills": {
-      "Agility": {
-        "level": 99,
-        "xp": 26155824
-      },
-      "Archaeology": {
-        "level": 18,
-        "xp": 3792
-      },
-      "Attack": {
-        "level": 15,
-        "xp": 2623
-      },
-      "Constitution": {
-        "level": 29,
-        "xp": 12230
-      },
-      "Construction": {
-        "level": 1,
-        "xp": 0
-      },
-      "Cooking": {
-        "level": 17,
-        "xp": 3338
-      },
-      "Crafting": {
-        "level": 27,
-        "xp": 9795
-      },
-      "Defence": {
-        "level": 31,
-        "xp": 15190
-      },
-      "Divination": {
-        "level": 30,
-        "xp": 13728
-      },
-      "Dungeoneering": {
-        "level": 1,
-        "xp": 0
-      },
-      "Farming": {
-        "level": 1,
-        "xp": 20
-      },
-      "Firemaking": {
-        "level": 16,
-        "xp": 2752
-      },
-      "Fishing": {
-        "level": 6,
-        "xp": 640
-      },
-      "Fletching": {
-        "level": 20,
-        "xp": 5013
-      },
-      "Herblore": {
-        "level": 14,
-        "xp": 2228
-      },
-      "Hunter": {
-        "level": 2,
-        "xp": 100
-      },
-      "Invention": {
-        "level": 1,
-        "xp": 0
-      },
-      "Magic": {
-        "level": 33,
-        "xp": 19064
-      },
-      "Mining": {
-        "level": 46,
-        "xp": 69458
-      },
-      "Necromancy": {
-        "level": 1,
-        "xp": 0
-      },
-      "Prayer": {
-        "level": 71,
-        "xp": 821773
-      },
-      "Ranged": {
-        "level": 6,
-        "xp": 593
-      },
-      "Runecrafting": {
-        "level": 32,
-        "xp": 17208
-      },
-      "Slayer": {
-        "level": 19,
-        "xp": 4035
-      },
-      "Smithing": {
-        "level": 37,
-        "xp": 28884
-      },
-      "Strength": {
-        "level": 15,
-        "xp": 2623
-      },
-      "Summoning": {
-        "level": 5,
-        "xp": 392
-      },
-      "Thieving": {
-        "level": 84,
-        "xp": 3052102
-      },
-      "Woodcutting": {
-        "level": 34,
-        "xp": 22390
-      }
-    },
-    "sources": {
-      "jagex_hiscores": "https://rs.runescape.com/hiscores/leagues/player/112321",
-      "task_catalog_fetched_at_utc": "2026-08-18T07:07:13+00:00",
-      "task_catalog_status": "fresh",
-      "task_catalog_url": "https://scapeleagues.com/rs3/equilibrium/tasks",
-      "wikisync_profile": "LEAGUE_2",
-      "wikisync_timestamp": "2026-08-18T07:07:12.790Z"
-    },
-    "timestamp_utc": "2026-08-18T07:07:13+00:00",
-    "total_level": 711,
-    "total_xp": 30265795
-  },
-  {
-    "changes_since_previous_snapshot": {
-      "completed_tasks": 0,
       "elapsed_hours": 0.819,
       "has_previous_snapshot": true,
       "league_points": 0,
@@ -2996,6 +2496,506 @@
       "wikisync_timestamp": "2026-08-18T11:43:54.375Z"
     },
     "timestamp_utc": "2026-08-18T11:43:55+00:00",
+    "total_level": 711,
+    "total_xp": 30265795
+  },
+  {
+    "changes_since_previous_snapshot": {
+      "completed_tasks": 0,
+      "elapsed_hours": 1.454,
+      "has_previous_snapshot": true,
+      "league_points": 0,
+      "level_ups": [],
+      "new_task_ids": [],
+      "new_tasks": [],
+      "rates": {
+        "levels_per_hour": 0.0,
+        "lp_per_hour": 0.0,
+        "tasks_per_hour": 0.0,
+        "xp_per_hour": 0.0
+      },
+      "removed_task_ids": [],
+      "removed_tasks": [],
+      "total_level": 0,
+      "total_xp": 0,
+      "xp_gains": []
+    },
+    "completed_task_count": 101,
+    "completed_task_ids": [
+      0,
+      1,
+      2,
+      5,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      36,
+      37,
+      38,
+      39,
+      40,
+      44,
+      49,
+      50,
+      98,
+      102,
+      104,
+      106,
+      107,
+      111,
+      116,
+      117,
+      133,
+      134,
+      135,
+      136,
+      137,
+      142,
+      143,
+      147,
+      148,
+      149,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      162,
+      163,
+      165,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      176,
+      180,
+      181,
+      182,
+      183,
+      186,
+      187,
+      188,
+      190,
+      191,
+      192,
+      193,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      210,
+      214,
+      215,
+      216,
+      218,
+      220,
+      222,
+      612,
+      813,
+      814,
+      815,
+      816,
+      820,
+      827,
+      835,
+      839,
+      840,
+      843,
+      848,
+      888,
+      902,
+      1060,
+      1146,
+      1147,
+      1148,
+      1149,
+      1150,
+      1151,
+      1152
+    ],
+    "derived": {
+      "completed_task_breakdown": {
+        "count_by_region": {
+          "Global": 71,
+          "Karamja": 1,
+          "Misthalin": 29
+        },
+        "count_by_tier": {
+          "easy": 75,
+          "elite": 3,
+          "hard": 3,
+          "medium": 20
+        },
+        "points_by_region": {
+          "Global": 1710,
+          "Karamja": 30,
+          "Misthalin": 450
+        },
+        "points_by_tier": {
+          "easy": 750,
+          "elite": 600,
+          "hard": 240,
+          "medium": 600
+        }
+      },
+      "data_consistency": {
+        "catalog_points_from_completed_tasks": 2190,
+        "catalog_task_count": 1152,
+        "hiscores_lp_minus_catalog_completed_points": 0,
+        "mapped_completed_tasks": 101,
+        "unmapped_completed_task_ids": []
+      },
+      "progression": {
+        "blessing_step": "Tier 1",
+        "blessing_tasks_completed": 1,
+        "blessing_tasks_to_next_step": 2,
+        "calendar_days_remaining": 34,
+        "completed_tasks": 101,
+        "inferred_unlocked_regions": [
+          "Havenhythe",
+          "Karamja",
+          "Misthalin"
+        ],
+        "league_end_date": "2026-09-21",
+        "league_points": 2190,
+        "next_blessing_step": "Tier 2",
+        "next_planned_region": "Tirannwn",
+        "next_region_task_threshold": 175,
+        "next_region_unlock": "First elective region",
+        "next_relic_points": 3500,
+        "next_relic_tier": 4,
+        "next_trophy": "Iron",
+        "points_to_next_relic": 1310,
+        "points_to_next_trophy": 1810,
+        "relic_tier": 3,
+        "tasks_to_next_region_unlock": 74,
+        "total_level": 711,
+        "total_xp": 30265795,
+        "trophy": "Bronze"
+      },
+      "skill_summary": {
+        "80_or_higher": [
+          "Agility",
+          "Thieving"
+        ],
+        "99_or_higher": [
+          "Agility"
+        ],
+        "below_20": [
+          "Construction",
+          "Dungeoneering",
+          "Invention",
+          "Necromancy",
+          "Farming",
+          "Hunter",
+          "Summoning",
+          "Ranged",
+          "Fishing",
+          "Herblore",
+          "Attack",
+          "Strength",
+          "Firemaking",
+          "Cooking",
+          "Archaeology",
+          "Slayer"
+        ],
+        "highest": [
+          {
+            "level": 99,
+            "name": "Agility",
+            "xp": 26155824
+          },
+          {
+            "level": 84,
+            "name": "Thieving",
+            "xp": 3052102
+          },
+          {
+            "level": 71,
+            "name": "Prayer",
+            "xp": 821773
+          },
+          {
+            "level": 46,
+            "name": "Mining",
+            "xp": 69458
+          },
+          {
+            "level": 37,
+            "name": "Smithing",
+            "xp": 28884
+          },
+          {
+            "level": 34,
+            "name": "Woodcutting",
+            "xp": 22390
+          },
+          {
+            "level": 33,
+            "name": "Magic",
+            "xp": 19064
+          },
+          {
+            "level": 32,
+            "name": "Runecrafting",
+            "xp": 17208
+          }
+        ],
+        "level_1_or_lower": [
+          "Construction",
+          "Dungeoneering",
+          "Invention",
+          "Necromancy",
+          "Farming"
+        ],
+        "lowest": [
+          {
+            "level": 1,
+            "name": "Construction",
+            "xp": 0
+          },
+          {
+            "level": 1,
+            "name": "Dungeoneering",
+            "xp": 0
+          },
+          {
+            "level": 1,
+            "name": "Invention",
+            "xp": 0
+          },
+          {
+            "level": 1,
+            "name": "Necromancy",
+            "xp": 0
+          },
+          {
+            "level": 1,
+            "name": "Farming",
+            "xp": 20
+          },
+          {
+            "level": 2,
+            "name": "Hunter",
+            "xp": 100
+          },
+          {
+            "level": 5,
+            "name": "Summoning",
+            "xp": 392
+          },
+          {
+            "level": 6,
+            "name": "Ranged",
+            "xp": 593
+          }
+        ],
+        "nearest_standard_level_milestones": [
+          {
+            "current_level": 46,
+            "levels_needed": 4,
+            "skill": "Mining",
+            "target_level": 50
+          },
+          {
+            "current_level": 84,
+            "levels_needed": 6,
+            "skill": "Thieving",
+            "target_level": 90
+          },
+          {
+            "current_level": 71,
+            "levels_needed": 9,
+            "skill": "Prayer",
+            "target_level": 80
+          },
+          {
+            "current_level": 37,
+            "levels_needed": 13,
+            "skill": "Smithing",
+            "target_level": 50
+          },
+          {
+            "current_level": 34,
+            "levels_needed": 16,
+            "skill": "Woodcutting",
+            "target_level": 50
+          },
+          {
+            "current_level": 33,
+            "levels_needed": 17,
+            "skill": "Magic",
+            "target_level": 50
+          },
+          {
+            "current_level": 32,
+            "levels_needed": 18,
+            "skill": "Runecrafting",
+            "target_level": 50
+          },
+          {
+            "current_level": 31,
+            "levels_needed": 19,
+            "skill": "Defence",
+            "target_level": 50
+          },
+          {
+            "current_level": 30,
+            "levels_needed": 20,
+            "skill": "Divination",
+            "target_level": 50
+          },
+          {
+            "current_level": 29,
+            "levels_needed": 21,
+            "skill": "Constitution",
+            "target_level": 50
+          }
+        ]
+      }
+    },
+    "league": "Leagues II: Equilibrium",
+    "league_points": 2190,
+    "player": "112321",
+    "schema_version": 3,
+    "skills": {
+      "Agility": {
+        "level": 99,
+        "xp": 26155824
+      },
+      "Archaeology": {
+        "level": 18,
+        "xp": 3792
+      },
+      "Attack": {
+        "level": 15,
+        "xp": 2623
+      },
+      "Constitution": {
+        "level": 29,
+        "xp": 12230
+      },
+      "Construction": {
+        "level": 1,
+        "xp": 0
+      },
+      "Cooking": {
+        "level": 17,
+        "xp": 3338
+      },
+      "Crafting": {
+        "level": 27,
+        "xp": 9795
+      },
+      "Defence": {
+        "level": 31,
+        "xp": 15190
+      },
+      "Divination": {
+        "level": 30,
+        "xp": 13728
+      },
+      "Dungeoneering": {
+        "level": 1,
+        "xp": 0
+      },
+      "Farming": {
+        "level": 1,
+        "xp": 20
+      },
+      "Firemaking": {
+        "level": 16,
+        "xp": 2752
+      },
+      "Fishing": {
+        "level": 6,
+        "xp": 640
+      },
+      "Fletching": {
+        "level": 20,
+        "xp": 5013
+      },
+      "Herblore": {
+        "level": 14,
+        "xp": 2228
+      },
+      "Hunter": {
+        "level": 2,
+        "xp": 100
+      },
+      "Invention": {
+        "level": 1,
+        "xp": 0
+      },
+      "Magic": {
+        "level": 33,
+        "xp": 19064
+      },
+      "Mining": {
+        "level": 46,
+        "xp": 69458
+      },
+      "Necromancy": {
+        "level": 1,
+        "xp": 0
+      },
+      "Prayer": {
+        "level": 71,
+        "xp": 821773
+      },
+      "Ranged": {
+        "level": 6,
+        "xp": 593
+      },
+      "Runecrafting": {
+        "level": 32,
+        "xp": 17208
+      },
+      "Slayer": {
+        "level": 19,
+        "xp": 4035
+      },
+      "Smithing": {
+        "level": 37,
+        "xp": 28884
+      },
+      "Strength": {
+        "level": 15,
+        "xp": 2623
+      },
+      "Summoning": {
+        "level": 5,
+        "xp": 392
+      },
+      "Thieving": {
+        "level": 84,
+        "xp": 3052102
+      },
+      "Woodcutting": {
+        "level": 34,
+        "xp": 22390
+      }
+    },
+    "sources": {
+      "jagex_hiscores": "https://rs.runescape.com/hiscores/leagues/player/112321",
+      "task_catalog_fetched_at_utc": "2026-08-18T13:11:11+00:00",
+      "task_catalog_status": "fresh",
+      "task_catalog_url": "https://scapeleagues.com/rs3/equilibrium/tasks",
+      "wikisync_profile": "LEAGUE_2",
+      "wikisync_timestamp": "2026-08-18T13:11:10.712Z"
+    },
+    "timestamp_utc": "2026-08-18T13:11:11+00:00",
     "total_level": 711,
     "total_xp": 30265795
   }
