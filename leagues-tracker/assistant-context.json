@@ -1,7 +1,7 @@
 {
   "changes": {
     "completed_tasks": 0,
-    "elapsed_hours": 0.871,
+    "elapsed_hours": 1.335,
     "has_previous_snapshot": true,
     "league_points": 0,
     "level_ups": [],
@@ -122,11 +122,11 @@
   },
   "read_me_first": true,
   "rolling_six_snapshot_rate": {
-    "elapsed_hours": 4.885,
-    "levels_per_hour": 0.61,
-    "lp_per_hour": 14.33,
-    "tasks_per_hour": 0.61,
-    "xp_per_hour": 564318.78
+    "elapsed_hours": 5.24,
+    "levels_per_hour": 0.57,
+    "lp_per_hour": 13.36,
+    "tasks_per_hour": 0.0,
+    "xp_per_hour": 526089.29
   },
   "routing": {
     "blessing_candidates": [
@@ -854,11 +854,11 @@
   ],
   "source_freshness": {
     "jagex_hiscores": "https://rs.runescape.com/hiscores/leagues/player/112321",
-    "task_catalog_fetched_at_utc": "2026-08-18T05:47:07+00:00",
+    "task_catalog_fetched_at_utc": "2026-08-18T07:07:13+00:00",
     "task_catalog_status": "fresh",
     "task_catalog_url": "https://scapeleagues.com/rs3/equilibrium/tasks",
     "wikisync_profile": "LEAGUE_2",
-    "wikisync_timestamp": "2026-08-18T05:47:06.374Z"
+    "wikisync_timestamp": "2026-08-18T07:07:12.790Z"
   },
   "strategy_config": {
     "confirmed_relic_choices": {
@@ -921,5 +921,5 @@
     "completed_count": 101,
     "new_tasks": []
   },
-  "timestamp_utc": "2026-08-18T05:47:07+00:00"
+  "timestamp_utc": "2026-08-18T07:07:13+00:00"
 }
