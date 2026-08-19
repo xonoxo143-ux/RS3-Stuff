@@ -1,0 +1,334 @@
+{
+  "blessing_tasks_completed": 1,
+  "catalog_task_count": 1152,
+  "completed_tasks": 119,
+  "league_points": 2540,
+  "level_ups_since_stored_snapshot": [
+    {
+      "from": 15,
+      "skill": "Attack",
+      "to": 23
+    },
+    {
+      "from": 31,
+      "skill": "Defence",
+      "to": 48
+    },
+    {
+      "from": 15,
+      "skill": "Strength",
+      "to": 23
+    },
+    {
+      "from": 29,
+      "skill": "Constitution",
+      "to": 45
+    },
+    {
+      "from": 71,
+      "skill": "Prayer",
+      "to": 77
+    },
+    {
+      "from": 33,
+      "skill": "Magic",
+      "to": 51
+    },
+    {
+      "from": 17,
+      "skill": "Cooking",
+      "to": 19
+    },
+    {
+      "from": 34,
+      "skill": "Woodcutting",
+      "to": 41
+    },
+    {
+      "from": 6,
+      "skill": "Fishing",
+      "to": 11
+    },
+    {
+      "from": 16,
+      "skill": "Firemaking",
+      "to": 19
+    },
+    {
+      "from": 46,
+      "skill": "Mining",
+      "to": 54
+    },
+    {
+      "from": 14,
+      "skill": "Herblore",
+      "to": 17
+    },
+    {
+      "from": 84,
+      "skill": "Thieving",
+      "to": 87
+    },
+    {
+      "from": 1,
+      "skill": "Farming",
+      "to": 2
+    },
+    {
+      "from": 32,
+      "skill": "Runecrafting",
+      "to": 33
+    },
+    {
+      "from": 30,
+      "skill": "Divination",
+      "to": 34
+    }
+  ],
+  "levels": {
+    "Agility": 99,
+    "Archaeology": 18,
+    "Attack": 23,
+    "Constitution": 45,
+    "Construction": 1,
+    "Cooking": 19,
+    "Crafting": 27,
+    "Defence": 48,
+    "Divination": 34,
+    "Dungeoneering": 1,
+    "Farming": 2,
+    "Firemaking": 19,
+    "Fishing": 11,
+    "Fletching": 20,
+    "Herblore": 17,
+    "Hunter": 2,
+    "Invention": 1,
+    "Magic": 51,
+    "Mining": 54,
+    "Necromancy": 1,
+    "Prayer": 77,
+    "Ranged": 6,
+    "Runecrafting": 33,
+    "Slayer": 19,
+    "Smithing": 37,
+    "Strength": 23,
+    "Summoning": 5,
+    "Thieving": 87,
+    "Woodcutting": 41
+  },
+  "lp_delta_since_stored_snapshot": 350,
+  "mapped_completed_tasks": 119,
+  "new_task_ids_since_stored_snapshot": [
+    16,
+    79,
+    101,
+    115,
+    144,
+    160,
+    161,
+    166,
+    177,
+    189,
+    202,
+    211,
+    213,
+    598,
+    831,
+    846,
+    847,
+    905
+  ],
+  "new_tasks_since_stored_snapshot": [
+    {
+      "blessing_task": false,
+      "description": "Mine some coal in the centre of Barbarian Village.",
+      "id": 16,
+      "issue": null,
+      "name": "Mine some coal in the centre of Barbarian village.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Complete the Do You Like Jazz? achievement.",
+      "id": 79,
+      "issue": null,
+      "name": "Rest whilst listening to the Dead Beats in the City of Um.",
+      "points": 80,
+      "region": "Misthalin",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Use some bones on one of Varrock's stray dogs (or to your pet stray dog if you have one).",
+      "id": 101,
+      "issue": null,
+      "name": "Give a bone to one of Varrock's stray dogs (or to your pet stray dog if you have one).",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Mine 50 pure essence.",
+      "id": 115,
+      "issue": null,
+      "name": "Mine 50 pure essence.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Reach combat level 50.",
+      "id": 144,
+      "issue": null,
+      "name": "Reach combat level 50.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Mine clay.",
+      "id": 160,
+      "issue": null,
+      "name": "Mine clay.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Make soft clay by using clay on a water source or with a container of water.",
+      "id": 161,
+      "issue": null,
+      "name": "Make some soft clay.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Chop any tree 200 times.",
+      "id": 166,
+      "issue": null,
+      "name": "Chop any tree 200 times.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Catch 10 raw shrimps.",
+      "id": 177,
+      "issue": null,
+      "name": "Catch 10 shrimp.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Run out of Prayer points.",
+      "id": 189,
+      "issue": null,
+      "name": "Run out of prayer points.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Rake any farming patch.",
+      "id": 202,
+      "issue": null,
+      "name": "Rake any farming patch.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Eat a cabbage.",
+      "id": 211,
+      "issue": null,
+      "name": "Eat a cabbage.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Eat an onion.",
+      "id": 213,
+      "issue": null,
+      "name": "Eat an onion.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Catch a raw karambwanji.",
+      "id": 598,
+      "issue": null,
+      "name": "Catch a karambwanji.",
+      "points": 10,
+      "region": "Karamja",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Open 30 sedimentary geodes. These are found randomly while mining.",
+      "id": 831,
+      "issue": null,
+      "name": "Open 30 sedimentary geodes.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Restore 50 Prayer Points at an Altar at once.",
+      "id": 846,
+      "issue": null,
+      "name": "Restore 50 prayer points at an altar at once.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Restore 500 Prayer Points at an Altar at once.",
+      "id": 847,
+      "issue": null,
+      "name": "Restore 500 prayer points at an altar at once.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Teleport using law runes. The lowest level teleport spell is South Feldip Hills Teleport which also requires one air and one water rune",
+      "id": 905,
+      "issue": null,
+      "name": "Teleport using law runes.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    }
+  ],
+  "player": "112321",
+  "points_to_iron_trophy": 1460,
+  "points_to_t4": 960,
+  "relic_tier": 3,
+  "source": "WikiSync + fresh ScapeLeagues task catalog fallback",
+  "task_delta_since_stored_snapshot": 18,
+  "tasks_to_first_elective_region": 56,
+  "timestamp_utc": "2026-08-19T20:02:31.459Z",
+  "total_level": 821,
+  "total_level_delta_since_stored_snapshot": 110,
+  "unmapped_completed_task_ids": []
+}
