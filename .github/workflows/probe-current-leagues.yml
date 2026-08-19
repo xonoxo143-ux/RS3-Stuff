@@ -1,0 +1,35 @@
+name: Probe Current RS3 Leagues Sources
+
+on:
+  push:
+    paths:
+      - '.github/workflows/probe-current-leagues.yml'
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch and inspect live sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          UA='RS3-Stuff-Leagues-Probe/1.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
+          curl -sS -L --compressed -A "$UA" -o profile.html 'https://rs.runescape.com/hiscores/leagues/player/112321'
+          curl -sS -L --compressed -A "$UA" -o wikisync.json 'https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          print('=== WIKISYNC ===')
+          w=json.loads(Path('wikisync.json').read_text())
+          print(json.dumps(w, indent=2, ensure_ascii=False))
+          print('=== JAGEX STRUCTURE ===')
+          raw=Path('profile.html').read_text(errors='replace')
+          print('bytes', len(raw))
+          for pat in ['skillName','levelIcon','xpIcon','totalValue','LP','League Points','Total','__NEXT_DATA__','application/json']:
+              print(pat, raw.find(pat))
+          for needle in ['LP','Total','skillName','levelIcon','xpIcon']:
+              pos=raw.find(needle)
+              if pos>=0:
+                  print(f'--- around {needle} ---')
+                  print(raw[max(0,pos-800):pos+1800])
+          PY
