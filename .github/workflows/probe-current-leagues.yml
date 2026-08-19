@@ -13,18 +13,101 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch live WikiSync
+      - name: Build live fallback snapshot
         shell: bash
         run: |
           set -euo pipefail
-          UA='RS3-Stuff-Leagues-Probe/1.1 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
+          UA='RS3-Stuff-Leagues-Probe/1.2 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
           curl -sS -L --compressed -A "$UA" -o leagues-tracker/live-wikisync.json 'https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
+          curl -sS -L --compressed -A "$UA" -o task-catalog.html 'https://scapeleagues.com/rs3/equilibrium/tasks'
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+
+          root=Path('leagues-tracker')
+          w=json.loads((root/'live-wikisync.json').read_text())
+          raw=Path('task-catalog.html').read_text(encoding='utf-8')
+          chunks=[]
+          rx=re.compile(r'self\.__next_f\.push\(\[1,("(?:\\.|[^"\\])*")\]\)',re.S)
+          for m in rx.finditer(raw):
+              try: chunks.append(json.loads(m.group(1)))
+              except Exception: pass
+          decoded='\n'.join(chunks)
+          dec=json.JSONDecoder(); pos=0; found={}
+          while True:
+              pos=decoded.find('{"id":"',pos)
+              if pos<0: break
+              try: obj,end=dec.raw_decode(decoded[pos:])
+              except Exception:
+                  pos+=1; continue
+              pos+=max(end,1)
+              if isinstance(obj,dict) and {'id','name','tier','region','points'} <= set(obj):
+                  try:
+                      tid=int(obj['id'])
+                      found[tid]={
+                          'id':tid,
+                          'name':str(obj.get('name','')).strip(),
+                          'description':str(obj.get('description','')).strip(),
+                          'tier':str(obj.get('tier','')).lower(),
+                          'region':str(obj.get('region','')).strip(),
+                          'points':int(obj.get('points',0)),
+                          'blessing_task':bool(obj.get('blessingTask',False)),
+                          'issue':obj.get('issue') or None,
+                      }
+                  except Exception: pass
+
+          ids=sorted({int(x) for x in w.get('league_tasks',[])})
+          levels={k:int(v) for k,v in w.get('levels',{}).items()}
+          completed=[found[x] for x in ids if x in found]
+          missing=[x for x in ids if x not in found]
+          lp=sum(x['points'] for x in completed)
+          blessings=sum(1 for x in completed if x['blessing_task'])
+          total_level=sum(levels.values())
+
+          try: prev=json.loads((root/'latest.json').read_text())
+          except Exception: prev={}
+          prev_ids=set(prev.get('completed_task_ids',[]))
+          new_ids=sorted(set(ids)-prev_ids)
+          new_tasks=[found[x] for x in new_ids if x in found]
+          prev_skills=prev.get('skills',{})
+          level_ups=[]
+          for skill,level in levels.items():
+              old=prev_skills.get(skill,{})
+              oldlevel=int(old.get('level',level)) if isinstance(old,dict) else int(old or level)
+              if level>oldlevel: level_ups.append({'skill':skill,'from':oldlevel,'to':level})
+
+          summary={
+              'timestamp_utc':w.get('timestamp'),
+              'player':w.get('username','112321'),
+              'source':'WikiSync + fresh ScapeLeagues task catalog fallback',
+              'league_points':lp,
+              'completed_tasks':len(ids),
+              'total_level':total_level,
+              'levels':levels,
+              'blessing_tasks_completed':blessings,
+              'relic_tier':3 if lp>=1750 else (2 if lp>=750 else 1),
+              'points_to_t4':max(0,3500-lp),
+              'tasks_to_first_elective_region':max(0,175-len(ids)),
+              'points_to_iron_trophy':max(0,4000-lp),
+              'new_task_ids_since_stored_snapshot':new_ids,
+              'new_tasks_since_stored_snapshot':new_tasks,
+              'task_delta_since_stored_snapshot':len(ids)-int(prev.get('completed_task_count',len(ids))),
+              'lp_delta_since_stored_snapshot':lp-int(prev.get('league_points',lp)),
+              'total_level_delta_since_stored_snapshot':total_level-int(prev.get('total_level',total_level)),
+              'level_ups_since_stored_snapshot':level_ups,
+              'catalog_task_count':len(found),
+              'mapped_completed_tasks':len(completed),
+              'unmapped_completed_task_ids':missing,
+          }
+          (root/'live-summary.json').write_text(json.dumps(summary,indent=2,sort_keys=True)+'\n')
+          print(json.dumps(summary,indent=2))
+          PY
       - name: Commit live probe
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add leagues-tracker/live-wikisync.json
-          git commit -m 'Refresh live WikiSync probe' || exit 0
+          git add leagues-tracker/live-wikisync.json leagues-tracker/live-summary.json
+          git commit -m 'Refresh live League fallback snapshot' || exit 0
           git push
