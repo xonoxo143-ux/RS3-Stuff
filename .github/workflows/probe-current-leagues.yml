@@ -85,7 +85,7 @@ jobs:
               'total_level':total_level,
               'levels':levels,
               'blessing_tasks_completed':blessings,
-              'relic_tier':3 if lp>=1750 else (2 if lp>=750 else 1),
+              'relic_tier':4 if lp>=3500 else (3 if lp>=1750 else (2 if lp>=750 else 1)),
               'points_to_t4':max(0,3500-lp),
               'tasks_to_first_elective_region':max(0,175-len(ids)),
               'points_to_iron_trophy':max(0,4000-lp),
@@ -112,4 +112,4 @@ jobs:
           git commit -m 'Refresh live League fallback snapshot' || exit 0
           git push
 
-# manual refresh: 2026-08-22T13:38-04:00
+# manual refresh: 2026-08-22T15:46-04:00
