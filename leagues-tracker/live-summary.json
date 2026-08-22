@@ -32,7 +32,7 @@
     {
       "from": 71,
       "skill": "Prayer",
-      "to": 87
+      "to": 90
     },
     {
       "from": 33,
@@ -87,7 +87,7 @@
     {
       "from": 84,
       "skill": "Thieving",
-      "to": 93
+      "to": 96
     },
     {
       "from": 1,
@@ -131,14 +131,14 @@
     "Magic": 51,
     "Mining": 56,
     "Necromancy": 1,
-    "Prayer": 87,
+    "Prayer": 90,
     "Ranged": 28,
     "Runecrafting": 33,
     "Slayer": 19,
     "Smithing": 45,
     "Strength": 25,
     "Summoning": 5,
-    "Thieving": 93,
+    "Thieving": 96,
     "Woodcutting": 42
   },
   "lp_delta_since_stored_snapshot": 820,
@@ -484,8 +484,8 @@
   "source": "WikiSync + fresh ScapeLeagues task catalog fallback",
   "task_delta_since_stored_snapshot": 30,
   "tasks_to_first_elective_region": 44,
-  "timestamp_utc": "2026-08-22T03:28:33.971Z",
-  "total_level": 954,
-  "total_level_delta_since_stored_snapshot": 243,
+  "timestamp_utc": "2026-08-22T05:08:48.978Z",
+  "total_level": 960,
+  "total_level_delta_since_stored_snapshot": 249,
   "unmapped_completed_task_ids": []
 }
