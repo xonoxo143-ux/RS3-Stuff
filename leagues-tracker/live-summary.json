@@ -1,33 +1,38 @@
 {
   "blessing_tasks_completed": 1,
   "catalog_task_count": 1152,
-  "completed_tasks": 119,
-  "league_points": 2540,
+  "completed_tasks": 131,
+  "league_points": 3010,
   "level_ups_since_stored_snapshot": [
     {
       "from": 15,
       "skill": "Attack",
-      "to": 23
+      "to": 25
     },
     {
       "from": 31,
       "skill": "Defence",
-      "to": 48
+      "to": 49
     },
     {
       "from": 15,
       "skill": "Strength",
-      "to": 23
+      "to": 25
     },
     {
       "from": 29,
       "skill": "Constitution",
-      "to": 45
+      "to": 46
+    },
+    {
+      "from": 6,
+      "skill": "Ranged",
+      "to": 28
     },
     {
       "from": 71,
       "skill": "Prayer",
-      "to": 77
+      "to": 87
     },
     {
       "from": 33,
@@ -42,12 +47,17 @@
     {
       "from": 34,
       "skill": "Woodcutting",
-      "to": 41
+      "to": 42
+    },
+    {
+      "from": 20,
+      "skill": "Fletching",
+      "to": 51
     },
     {
       "from": 6,
       "skill": "Fishing",
-      "to": 11
+      "to": 32
     },
     {
       "from": 16,
@@ -55,9 +65,19 @@
       "to": 19
     },
     {
+      "from": 27,
+      "skill": "Crafting",
+      "to": 52
+    },
+    {
+      "from": 37,
+      "skill": "Smithing",
+      "to": 45
+    },
+    {
       "from": 46,
       "skill": "Mining",
-      "to": 54
+      "to": 56
     },
     {
       "from": 14,
@@ -67,7 +87,7 @@
     {
       "from": 84,
       "skill": "Thieving",
-      "to": 87
+      "to": 93
     },
     {
       "from": 1,
@@ -83,43 +103,49 @@
       "from": 30,
       "skill": "Divination",
       "to": 34
+    },
+    {
+      "from": 18,
+      "skill": "Archaeology",
+      "to": 19
     }
   ],
   "levels": {
     "Agility": 99,
-    "Archaeology": 18,
-    "Attack": 23,
-    "Constitution": 45,
+    "Archaeology": 19,
+    "Attack": 25,
+    "Constitution": 46,
     "Construction": 1,
     "Cooking": 19,
-    "Crafting": 27,
-    "Defence": 48,
+    "Crafting": 52,
+    "Defence": 49,
     "Divination": 34,
     "Dungeoneering": 1,
     "Farming": 2,
     "Firemaking": 19,
-    "Fishing": 11,
-    "Fletching": 20,
+    "Fishing": 32,
+    "Fletching": 51,
     "Herblore": 17,
     "Hunter": 2,
     "Invention": 1,
     "Magic": 51,
-    "Mining": 54,
+    "Mining": 56,
     "Necromancy": 1,
-    "Prayer": 77,
-    "Ranged": 6,
+    "Prayer": 87,
+    "Ranged": 28,
     "Runecrafting": 33,
     "Slayer": 19,
-    "Smithing": 37,
-    "Strength": 23,
+    "Smithing": 45,
+    "Strength": 25,
     "Summoning": 5,
-    "Thieving": 87,
-    "Woodcutting": 41
+    "Thieving": 93,
+    "Woodcutting": 42
   },
-  "lp_delta_since_stored_snapshot": 350,
-  "mapped_completed_tasks": 119,
+  "lp_delta_since_stored_snapshot": 820,
+  "mapped_completed_tasks": 131,
   "new_task_ids_since_stored_snapshot": [
     16,
+    53,
     79,
     101,
     115,
@@ -128,15 +154,26 @@
     161,
     166,
     177,
+    179,
     189,
     202,
     211,
     213,
     598,
+    610,
+    821,
     831,
     846,
     847,
-    905
+    865,
+    885,
+    896,
+    905,
+    911,
+    912,
+    913,
+    1103,
+    1172
   ],
   "new_tasks_since_stored_snapshot": [
     {
@@ -148,6 +185,16 @@
       "points": 10,
       "region": "Misthalin",
       "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Steal a lantern from a cave goblin (only the ones in Dorgesh-Kaan have the lantern as a possible loot from pickpocketting).",
+      "id": 53,
+      "issue": null,
+      "name": "Steal a lantern from a cave goblin.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
     },
     {
       "blessing_task": false,
@@ -231,6 +278,16 @@
     },
     {
       "blessing_task": false,
+      "description": "Catch a raw herring by using the bait option at a net/bait fishing spot",
+      "id": 179,
+      "issue": null,
+      "name": "Catch a herring.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
       "description": "Run out of Prayer points.",
       "id": 189,
       "issue": null,
@@ -281,6 +338,26 @@
     },
     {
       "blessing_task": false,
+      "description": "Mine a ruby from a gem rock in Shilo Village.",
+      "id": 610,
+      "issue": null,
+      "name": "Mine a ruby from a gem rock in Shilo Village.",
+      "points": 30,
+      "region": "Karamja",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Fletch 1,000 arrow shafts.",
+      "id": 821,
+      "issue": null,
+      "name": "Fletch 1,000 arrow shafts.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
       "description": "Open 30 sedimentary geodes. These are found randomly while mining.",
       "id": 831,
       "issue": null,
@@ -311,6 +388,36 @@
     },
     {
       "blessing_task": false,
+      "description": "Equip a green dragonhide coif, green dragonhide body, green dragonhide chaps, green dragonhide vambraces, and green dragonhide boots. These can all be bought at Lowe's Archery Emporium.",
+      "id": 865,
+      "issue": null,
+      "name": "Equip a full set of green dragonhide armour.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Fletch 400 steel arrows.",
+      "id": 885,
+      "issue": null,
+      "name": "Fletch 400 steel arrows.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Catch 10 pike.",
+      "id": 896,
+      "issue": null,
+      "name": "Catch 10 pike.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
       "description": "Teleport using law runes. The lowest level teleport spell is South Feldip Hills Teleport which also requires one air and one water rune",
       "id": 905,
       "issue": null,
@@ -318,17 +425,67 @@
       "points": 30,
       "region": "Global",
       "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Equip a steel full helm, steel platebody, steel platelegs/steel plateskirt, steel gauntlets, and steel armoured boots. Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Steel armour can be bought at Horvik's Armour Shop.",
+      "id": 911,
+      "issue": null,
+      "name": "Equip a full set of steel armour.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Equip a mithril full helm, mithril platebody, mithril platelegs/mithril plateskirt, mithril gauntlets, and mithril armoured boots. Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Mithril armour can be bought at Horvik's Armour Shop.",
+      "id": 912,
+      "issue": null,
+      "name": "Equip a full set of mithril armour.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Equip an adamant full helm, adamant platebody, adamant platelegs/adamant plateskirt, adamant gauntlets, and adamant armoured boots. Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Adamant armour can be bought at Horvik's Armour Shop.",
+      "id": 913,
+      "issue": null,
+      "name": "Equip a full set of adamant armour.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Obtain 50 million Agility XP.",
+      "id": 1103,
+      "issue": null,
+      "name": "Obtain 50 million Agility XP.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "description": "Use a fairy ring to travel to Amberfell forest. (fairy ring code DLP)",
+      "id": 1172,
+      "issue": null,
+      "name": "Use a fairy ring to travel to Amberfell forest.",
+      "points": 10,
+      "region": "Havenhythe",
+      "tier": "easy"
     }
   ],
   "player": "112321",
-  "points_to_iron_trophy": 1460,
-  "points_to_t4": 960,
+  "points_to_iron_trophy": 990,
+  "points_to_t4": 490,
   "relic_tier": 3,
   "source": "WikiSync + fresh ScapeLeagues task catalog fallback",
-  "task_delta_since_stored_snapshot": 18,
-  "tasks_to_first_elective_region": 56,
-  "timestamp_utc": "2026-08-19T20:02:31.459Z",
-  "total_level": 821,
-  "total_level_delta_since_stored_snapshot": 110,
+  "task_delta_since_stored_snapshot": 30,
+  "tasks_to_first_elective_region": 44,
+  "timestamp_utc": "2026-08-22T03:28:33.971Z",
+  "total_level": 954,
+  "total_level_delta_since_stored_snapshot": 243,
   "unmapped_completed_task_ids": []
 }
