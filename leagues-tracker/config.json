@@ -11,22 +11,12 @@
     "Karamja"
   ],
   "planned_optional_regions": [
-    "Tirannwn",
-    "Kandarin",
     "Asgarnia"
   ],
-  "strategy": {
-    "primary_goal": "Snowball progression by unlocking stronger bonuses and regions quickly.",
-    "priority_order": [
-      "task count toward region unlocks",
-      "league points toward relic tiers",
-      "blessing tasks when efficient",
-      "account power and useful skill unlocks"
-    ]
-  },
   "notes": [
     "Tier 3 relic choice confirmed by the user as Voidwalker.",
-    "Update confirmed_unlocked_regions when a newly selected optional region is known before a task from that region has been completed.",
-    "planned_optional_regions is a strategy preference, not proof that those regions are unlocked."
+    "The user's confirmed first elective region pick is Asgarnia.",
+    "Later elective region choices are intentionally unset until reconfirmed.",
+    "Update confirmed_unlocked_regions only after an elective region is actually unlocked/selected."
   ]
 }
