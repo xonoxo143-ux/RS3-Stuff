@@ -1,23 +1,23 @@
 {
   "blessing_tasks_completed": 1,
   "catalog_task_count": 1152,
-  "completed_tasks": 131,
-  "league_points": 3010,
+  "completed_tasks": 142,
+  "league_points": 3640,
   "level_ups_since_stored_snapshot": [
     {
       "from": 15,
       "skill": "Attack",
-      "to": 25
+      "to": 27
     },
     {
       "from": 31,
       "skill": "Defence",
-      "to": 49
+      "to": 50
     },
     {
       "from": 15,
       "skill": "Strength",
-      "to": 25
+      "to": 27
     },
     {
       "from": 29,
@@ -32,12 +32,12 @@
     {
       "from": 71,
       "skill": "Prayer",
-      "to": 90
+      "to": 91
     },
     {
       "from": 33,
       "skill": "Magic",
-      "to": 51
+      "to": 54
     },
     {
       "from": 17,
@@ -52,7 +52,7 @@
     {
       "from": 20,
       "skill": "Fletching",
-      "to": 51
+      "to": 52
     },
     {
       "from": 6,
@@ -62,12 +62,12 @@
     {
       "from": 16,
       "skill": "Firemaking",
-      "to": 19
+      "to": 29
     },
     {
       "from": 27,
       "skill": "Crafting",
-      "to": 52
+      "to": 56
     },
     {
       "from": 37,
@@ -77,12 +77,12 @@
     {
       "from": 46,
       "skill": "Mining",
-      "to": 56
+      "to": 58
     },
     {
       "from": 14,
       "skill": "Herblore",
-      "to": 17
+      "to": 28
     },
     {
       "from": 84,
@@ -100,6 +100,11 @@
       "to": 33
     },
     {
+      "from": 5,
+      "skill": "Summoning",
+      "to": 11
+    },
+    {
       "from": 30,
       "skill": "Divination",
       "to": 34
@@ -108,48 +113,57 @@
       "from": 18,
       "skill": "Archaeology",
       "to": 19
+    },
+    {
+      "from": 1,
+      "skill": "Necromancy",
+      "to": 32
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 19,
-    "Attack": 25,
+    "Attack": 27,
     "Constitution": 46,
     "Construction": 1,
     "Cooking": 19,
-    "Crafting": 52,
-    "Defence": 49,
+    "Crafting": 56,
+    "Defence": 50,
     "Divination": 34,
     "Dungeoneering": 1,
     "Farming": 2,
-    "Firemaking": 19,
+    "Firemaking": 29,
     "Fishing": 32,
-    "Fletching": 51,
-    "Herblore": 17,
+    "Fletching": 52,
+    "Herblore": 28,
     "Hunter": 2,
     "Invention": 1,
-    "Magic": 51,
-    "Mining": 56,
-    "Necromancy": 1,
-    "Prayer": 90,
+    "Magic": 54,
+    "Mining": 58,
+    "Necromancy": 32,
+    "Prayer": 91,
     "Ranged": 28,
     "Runecrafting": 33,
     "Slayer": 19,
     "Smithing": 45,
-    "Strength": 25,
-    "Summoning": 5,
+    "Strength": 27,
+    "Summoning": 11,
     "Thieving": 96,
     "Woodcutting": 42
   },
-  "lp_delta_since_stored_snapshot": 820,
-  "mapped_completed_tasks": 131,
+  "lp_delta_since_stored_snapshot": 1450,
+  "mapped_completed_tasks": 142,
   "new_task_ids_since_stored_snapshot": [
     16,
     53,
+    62,
+    65,
+    73,
     79,
     101,
     115,
     144,
+    150,
     160,
     161,
     166,
@@ -159,20 +173,27 @@
     202,
     211,
     213,
+    219,
+    221,
     598,
     610,
+    664,
+    807,
+    817,
     821,
     831,
     846,
     847,
     865,
     885,
+    886,
     896,
     905,
     911,
     912,
     913,
     1103,
+    1141,
     1172
   ],
   "new_tasks_since_stored_snapshot": [
@@ -192,6 +213,36 @@
       "id": 53,
       "issue": null,
       "name": "Steal a lantern from a cave goblin.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Complete Necromancy!",
+      "id": 62,
+      "issue": null,
+      "name": "Complete the quest: Necromancy!",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Complete a Lesser Necroplasm ritual.",
+      "id": 65,
+      "issue": null,
+      "name": "Complete a Lesser Necroplasm ritual.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Complete a communion ritual using a memento.",
+      "id": 73,
+      "issue": null,
+      "name": "Complete a communion ritual using a memento.",
       "points": 30,
       "region": "Misthalin",
       "tier": "medium"
@@ -235,6 +286,16 @@
       "points": 30,
       "region": "Global",
       "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Reach total level 1000.",
+      "id": 150,
+      "issue": null,
+      "name": "Reach total level 1000.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
     },
     {
       "blessing_task": false,
@@ -328,6 +389,26 @@
     },
     {
       "blessing_task": false,
+      "description": "Listen to any musician.",
+      "id": 219,
+      "issue": null,
+      "name": "Listen to any musician.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Prospect any rock.",
+      "id": 221,
+      "issue": null,
+      "name": "Prospect any rock.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
       "description": "Catch a raw karambwanji.",
       "id": 598,
       "issue": null,
@@ -344,6 +425,36 @@
       "name": "Mine a ruby from a gem rock in Shilo Village.",
       "points": 30,
       "region": "Karamja",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Make use of either an autoheater, gem bag, herbicide, bonecrusher or charming imp.",
+      "id": 664,
+      "issue": null,
+      "name": "Make use of either an autoheater, gem bag, herbicide, bonecrusher or charming imp.",
+      "points": 10,
+      "region": "Wilderness",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Make 5 potions of any kind.",
+      "id": 807,
+      "issue": null,
+      "name": "Make 5 potions of any kind.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Clean 200 of any herb.",
+      "id": 817,
+      "issue": null,
+      "name": "Clean 200 of any herb.",
+      "points": 30,
+      "region": "Global",
       "tier": "medium"
     },
     {
@@ -402,6 +513,16 @@
       "id": 885,
       "issue": null,
       "name": "Fletch 400 steel arrows.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Fletch 100 iron bolts.",
+      "id": 886,
+      "issue": null,
+      "name": "Fletch 100 iron bolts.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -468,6 +589,16 @@
     },
     {
       "blessing_task": false,
+      "description": "Donate 100,000,000 GP to Richie.",
+      "id": 1141,
+      "issue": null,
+      "name": "Unlock the Richie pet from helping Richie accumulate wealth at the Grand Exchange.",
+      "points": 400,
+      "region": "Global",
+      "tier": "master"
+    },
+    {
+      "blessing_task": false,
       "description": "Use a fairy ring to travel to Amberfell forest. (fairy ring code DLP)",
       "id": 1172,
       "issue": null,
@@ -478,14 +609,14 @@
     }
   ],
   "player": "112321",
-  "points_to_iron_trophy": 990,
-  "points_to_t4": 490,
+  "points_to_iron_trophy": 360,
+  "points_to_t4": 0,
   "relic_tier": 3,
   "source": "WikiSync + fresh ScapeLeagues task catalog fallback",
-  "task_delta_since_stored_snapshot": 30,
-  "tasks_to_first_elective_region": 44,
-  "timestamp_utc": "2026-08-22T05:08:48.978Z",
-  "total_level": 960,
-  "total_level_delta_since_stored_snapshot": 249,
+  "task_delta_since_stored_snapshot": 41,
+  "tasks_to_first_elective_region": 33,
+  "timestamp_utc": "2026-08-22T17:38:49.872Z",
+  "total_level": 1034,
+  "total_level_delta_since_stored_snapshot": 323,
   "unmapped_completed_task_ids": []
 }
