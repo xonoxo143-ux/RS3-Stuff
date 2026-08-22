@@ -20,6 +20,7 @@ jobs:
           UA='RS3-Stuff-Leagues-Probe/1.2 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
           curl -sS -L --compressed -A "$UA" -o leagues-tracker/live-wikisync.json 'https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
           curl -sS -L --compressed -A "$UA" -o task-catalog.html 'https://scapeleagues.com/rs3/equilibrium/tasks'
+          curl -sS -L --compressed -A "$UA" -o leagues-tracker/live-hiscores.html 'https://rs.runescape.com/hiscores/leagues/player/112321'
           python3 - <<'PY'
           import json,re
           from pathlib import Path
@@ -108,8 +109,8 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add leagues-tracker/live-wikisync.json leagues-tracker/live-summary.json
+          git add leagues-tracker/live-wikisync.json leagues-tracker/live-summary.json leagues-tracker/live-hiscores.html
           git commit -m 'Refresh live League fallback snapshot' || exit 0
           git push
 
-# manual refresh: 2026-08-22T15:46-04:00
+# manual refresh with hiscores capture: 2026-08-22T15:50-04:00
