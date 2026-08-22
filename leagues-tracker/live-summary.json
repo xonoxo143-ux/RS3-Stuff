@@ -1,28 +1,28 @@
 {
-  "blessing_tasks_completed": 1,
+  "blessing_tasks_completed": 2,
   "catalog_task_count": 1152,
-  "completed_tasks": 142,
-  "league_points": 3640,
+  "completed_tasks": 144,
+  "league_points": 3750,
   "level_ups_since_stored_snapshot": [
     {
       "from": 15,
       "skill": "Attack",
-      "to": 27
+      "to": 36
     },
     {
       "from": 31,
       "skill": "Defence",
-      "to": 50
+      "to": 54
     },
     {
       "from": 15,
       "skill": "Strength",
-      "to": 27
+      "to": 36
     },
     {
       "from": 29,
       "skill": "Constitution",
-      "to": 46
+      "to": 51
     },
     {
       "from": 6,
@@ -32,7 +32,7 @@
     {
       "from": 71,
       "skill": "Prayer",
-      "to": 91
+      "to": 92
     },
     {
       "from": 33,
@@ -67,7 +67,7 @@
     {
       "from": 27,
       "skill": "Crafting",
-      "to": 56
+      "to": 57
     },
     {
       "from": 37,
@@ -77,7 +77,7 @@
     {
       "from": 46,
       "skill": "Mining",
-      "to": 58
+      "to": 60
     },
     {
       "from": 14,
@@ -102,7 +102,7 @@
     {
       "from": 5,
       "skill": "Summoning",
-      "to": 11
+      "to": 37
     },
     {
       "from": 30,
@@ -117,18 +117,18 @@
     {
       "from": 1,
       "skill": "Necromancy",
-      "to": 32
+      "to": 46
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 19,
-    "Attack": 27,
-    "Constitution": 46,
+    "Attack": 36,
+    "Constitution": 51,
     "Construction": 1,
     "Cooking": 19,
-    "Crafting": 56,
-    "Defence": 50,
+    "Crafting": 57,
+    "Defence": 54,
     "Divination": 34,
     "Dungeoneering": 1,
     "Farming": 2,
@@ -139,20 +139,20 @@
     "Hunter": 2,
     "Invention": 1,
     "Magic": 54,
-    "Mining": 58,
-    "Necromancy": 32,
-    "Prayer": 91,
+    "Mining": 60,
+    "Necromancy": 46,
+    "Prayer": 92,
     "Ranged": 28,
     "Runecrafting": 33,
     "Slayer": 19,
     "Smithing": 45,
-    "Strength": 27,
-    "Summoning": 11,
+    "Strength": 36,
+    "Summoning": 37,
     "Thieving": 96,
     "Woodcutting": 42
   },
-  "lp_delta_since_stored_snapshot": 1450,
-  "mapped_completed_tasks": 142,
+  "lp_delta_since_stored_snapshot": 1560,
+  "mapped_completed_tasks": 144,
   "new_task_ids_since_stored_snapshot": [
     16,
     53,
@@ -166,6 +166,7 @@
     150,
     160,
     161,
+    164,
     166,
     177,
     179,
@@ -177,6 +178,7 @@
     221,
     598,
     610,
+    614,
     664,
     807,
     817,
@@ -319,6 +321,16 @@
     },
     {
       "blessing_task": false,
+      "description": "Mine any ore 1000 times.",
+      "id": 164,
+      "issue": null,
+      "name": "Mine any ore 1000 times.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
       "description": "Chop any tree 200 times.",
       "id": 166,
       "issue": null,
@@ -423,6 +435,16 @@
       "id": 610,
       "issue": null,
       "name": "Mine a ruby from a gem rock in Shilo Village.",
+      "points": 30,
+      "region": "Karamja",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": true,
+      "description": "Defeat a TzHaar.",
+      "id": 614,
+      "issue": null,
+      "name": "Defeat a TzHaar.",
       "points": 30,
       "region": "Karamja",
       "tier": "medium"
@@ -609,14 +631,14 @@
     }
   ],
   "player": "112321",
-  "points_to_iron_trophy": 360,
+  "points_to_iron_trophy": 250,
   "points_to_t4": 0,
   "relic_tier": 4,
   "source": "WikiSync + fresh ScapeLeagues task catalog fallback",
-  "task_delta_since_stored_snapshot": 41,
-  "tasks_to_first_elective_region": 33,
-  "timestamp_utc": "2026-08-22T19:47:49.266Z",
-  "total_level": 1034,
-  "total_level_delta_since_stored_snapshot": 323,
+  "task_delta_since_stored_snapshot": 43,
+  "tasks_to_first_elective_region": 31,
+  "timestamp_utc": "2026-08-22T22:23:03.573Z",
+  "total_level": 1105,
+  "total_level_delta_since_stored_snapshot": 394,
   "unmapped_completed_task_ids": []
 }
