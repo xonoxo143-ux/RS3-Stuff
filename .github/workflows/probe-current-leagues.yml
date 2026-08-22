@@ -112,4 +112,4 @@ jobs:
           git commit -m 'Refresh live League fallback snapshot' || exit 0
           git push
 
-# manual refresh: 2026-08-21T23:28-04:00
+# manual refresh: 2026-08-22T01:08-04:00
