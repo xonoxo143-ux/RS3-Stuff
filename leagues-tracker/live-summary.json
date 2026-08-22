@@ -611,11 +611,11 @@
   "player": "112321",
   "points_to_iron_trophy": 360,
   "points_to_t4": 0,
-  "relic_tier": 3,
+  "relic_tier": 4,
   "source": "WikiSync + fresh ScapeLeagues task catalog fallback",
   "task_delta_since_stored_snapshot": 41,
   "tasks_to_first_elective_region": 33,
-  "timestamp_utc": "2026-08-22T17:38:49.872Z",
+  "timestamp_utc": "2026-08-22T19:47:08.563Z",
   "total_level": 1034,
   "total_level_delta_since_stored_snapshot": 323,
   "unmapped_completed_task_ids": []
