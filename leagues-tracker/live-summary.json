@@ -1,8 +1,8 @@
 {
   "blessing_tasks_completed": 2,
   "catalog_task_count": 1152,
-  "completed_tasks": 144,
-  "league_points": 3750,
+  "completed_tasks": 145,
+  "league_points": 3760,
   "level_ups_since_stored_snapshot": [
     {
       "from": 15,
@@ -37,12 +37,12 @@
     {
       "from": 33,
       "skill": "Magic",
-      "to": 54
+      "to": 56
     },
     {
       "from": 17,
       "skill": "Cooking",
-      "to": 19
+      "to": 49
     },
     {
       "from": 34,
@@ -67,7 +67,7 @@
     {
       "from": 27,
       "skill": "Crafting",
-      "to": 57
+      "to": 67
     },
     {
       "from": 37,
@@ -126,8 +126,8 @@
     "Attack": 36,
     "Constitution": 51,
     "Construction": 1,
-    "Cooking": 19,
-    "Crafting": 57,
+    "Cooking": 49,
+    "Crafting": 67,
     "Defence": 54,
     "Divination": 34,
     "Dungeoneering": 1,
@@ -138,7 +138,7 @@
     "Herblore": 28,
     "Hunter": 2,
     "Invention": 1,
-    "Magic": 54,
+    "Magic": 56,
     "Mining": 60,
     "Necromancy": 46,
     "Prayer": 92,
@@ -151,8 +151,8 @@
     "Thieving": 96,
     "Woodcutting": 42
   },
-  "lp_delta_since_stored_snapshot": 1560,
-  "mapped_completed_tasks": 144,
+  "lp_delta_since_stored_snapshot": 1570,
+  "mapped_completed_tasks": 145,
   "new_task_ids_since_stored_snapshot": [
     16,
     53,
@@ -196,7 +196,8 @@
     913,
     1103,
     1141,
-    1172
+    1172,
+    1179
   ],
   "new_tasks_since_stored_snapshot": [
     {
@@ -628,17 +629,27 @@
       "points": 10,
       "region": "Havenhythe",
       "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Pickpocket a ranger in Wendlewick.",
+      "id": 1179,
+      "issue": null,
+      "name": "Pickpocket a ranger in Wendlewick.",
+      "points": 10,
+      "region": "Havenhythe",
+      "tier": "easy"
     }
   ],
   "player": "112321",
-  "points_to_iron_trophy": 250,
+  "points_to_iron_trophy": 240,
   "points_to_t4": 0,
   "relic_tier": 4,
   "source": "WikiSync + fresh ScapeLeagues task catalog fallback",
-  "task_delta_since_stored_snapshot": 43,
-  "tasks_to_first_elective_region": 31,
-  "timestamp_utc": "2026-08-22T22:23:03.573Z",
-  "total_level": 1105,
-  "total_level_delta_since_stored_snapshot": 394,
+  "task_delta_since_stored_snapshot": 44,
+  "tasks_to_first_elective_region": 30,
+  "timestamp_utc": "2026-08-22T23:34:40.082Z",
+  "total_level": 1147,
+  "total_level_delta_since_stored_snapshot": 436,
   "unmapped_completed_task_ids": []
 }
