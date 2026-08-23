@@ -14,7 +14,7 @@ Use `live-summary.json` as the current account snapshot whenever it is newer tha
 - **T4 relic tier unlocked**; T4 relic choice is **not yet confirmed in the tracker**
 - **4 blessing tasks** completed
 - **1 blessing task** to the 5-task blessing threshold
-- **Total level 1,263**
+- **Total level 1,249**
 - Confirmed unlocked regions: **Misthalin, Havenhythe, Karamja**
 - Confirmed first elective region pick: **Asgarnia**
 - Later elective region choices: **unset until reconfirmed**
