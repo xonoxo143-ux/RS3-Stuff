@@ -1,8 +1,8 @@
 {
-  "blessing_tasks_completed": 2,
+  "blessing_tasks_completed": 4,
   "catalog_task_count": 1152,
-  "completed_tasks": 145,
-  "league_points": 3760,
+  "completed_tasks": 158,
+  "league_points": 4250,
   "level_ups_since_stored_snapshot": [
     {
       "from": 15,
@@ -12,7 +12,7 @@
     {
       "from": 31,
       "skill": "Defence",
-      "to": 54
+      "to": 66
     },
     {
       "from": 15,
@@ -22,7 +22,7 @@
     {
       "from": 29,
       "skill": "Constitution",
-      "to": 51
+      "to": 62
     },
     {
       "from": 6,
@@ -32,22 +32,22 @@
     {
       "from": 71,
       "skill": "Prayer",
-      "to": 92
+      "to": 96
     },
     {
       "from": 33,
       "skill": "Magic",
-      "to": 56
+      "to": 64
     },
     {
       "from": 17,
       "skill": "Cooking",
-      "to": 49
+      "to": 50
     },
     {
       "from": 34,
       "skill": "Woodcutting",
-      "to": 42
+      "to": 43
     },
     {
       "from": 20,
@@ -67,12 +67,12 @@
     {
       "from": 27,
       "skill": "Crafting",
-      "to": 67
+      "to": 70
     },
     {
       "from": 37,
       "skill": "Smithing",
-      "to": 45
+      "to": 48
     },
     {
       "from": 46,
@@ -82,12 +82,12 @@
     {
       "from": 14,
       "skill": "Herblore",
-      "to": 28
+      "to": 38
     },
     {
       "from": 84,
       "skill": "Thieving",
-      "to": 96
+      "to": 100
     },
     {
       "from": 1,
@@ -97,12 +97,12 @@
     {
       "from": 32,
       "skill": "Runecrafting",
-      "to": 33
+      "to": 51
     },
     {
       "from": 5,
       "skill": "Summoning",
-      "to": 37
+      "to": 39
     },
     {
       "from": 30,
@@ -117,51 +117,59 @@
     {
       "from": 1,
       "skill": "Necromancy",
-      "to": 46
+      "to": 71
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 19,
     "Attack": 36,
-    "Constitution": 51,
+    "Constitution": 62,
     "Construction": 1,
-    "Cooking": 49,
-    "Crafting": 67,
-    "Defence": 54,
+    "Cooking": 50,
+    "Crafting": 70,
+    "Defence": 66,
     "Divination": 34,
     "Dungeoneering": 1,
     "Farming": 2,
     "Firemaking": 29,
     "Fishing": 32,
     "Fletching": 52,
-    "Herblore": 28,
+    "Herblore": 38,
     "Hunter": 2,
     "Invention": 1,
-    "Magic": 56,
+    "Magic": 64,
     "Mining": 60,
-    "Necromancy": 46,
-    "Prayer": 92,
+    "Necromancy": 71,
+    "Prayer": 96,
     "Ranged": 28,
-    "Runecrafting": 33,
+    "Runecrafting": 51,
     "Slayer": 19,
-    "Smithing": 45,
+    "Smithing": 48,
     "Strength": 36,
-    "Summoning": 37,
-    "Thieving": 96,
-    "Woodcutting": 42
+    "Summoning": 39,
+    "Thieving": 100,
+    "Woodcutting": 43
   },
-  "lp_delta_since_stored_snapshot": 1570,
-  "mapped_completed_tasks": 145,
+  "lp_delta_since_stored_snapshot": 2060,
+  "mapped_completed_tasks": 158,
   "new_task_ids_since_stored_snapshot": [
+    8,
     16,
+    48,
     53,
     62,
+    63,
+    64,
     65,
+    72,
     73,
     79,
+    99,
     101,
+    108,
     115,
+    125,
     144,
     150,
     160,
@@ -183,23 +191,38 @@
     807,
     817,
     821,
+    828,
     831,
     846,
     847,
+    862,
     865,
     885,
     886,
     896,
     905,
+    907,
     911,
     912,
     913,
+    1087,
     1103,
     1141,
     1172,
-    1179
+    1179,
+    1203
   ],
   "new_tasks_since_stored_snapshot": [
+    {
+      "blessing_task": false,
+      "description": "Siphon from a nature esshound in the Runespan.",
+      "id": 8,
+      "issue": null,
+      "name": "Siphon from a nature esshound in the Runespan.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    },
     {
       "blessing_task": false,
       "description": "Mine some coal in the centre of Barbarian Village.",
@@ -209,6 +232,16 @@
       "points": 10,
       "region": "Misthalin",
       "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Cut the willow tree east of Lumbridge Castle, by the bridge across the River Lum.",
+      "id": 48,
+      "issue": null,
+      "name": "Cut a willow tree east of Lumbridge Castle.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
     },
     {
       "blessing_task": false,
@@ -232,6 +265,26 @@
     },
     {
       "blessing_task": false,
+      "description": "Upgrade a piece of death skull or deathwarden equipment to tier 20.",
+      "id": 63,
+      "issue": null,
+      "name": "Upgrade a piece of Death Skull or Deathwarden equipment to tier 20.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Craft some spirit or bone runes.",
+      "id": 64,
+      "issue": null,
+      "name": "Craft some spirit or bone runes.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
       "description": "Complete a Lesser Necroplasm ritual.",
       "id": 65,
       "issue": null,
@@ -239,6 +292,16 @@
       "points": 10,
       "region": "Misthalin",
       "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Upgrade a piece of Death Skull or Deathwarden equipment to tier 50.",
+      "id": 72,
+      "issue": null,
+      "name": "Upgrade a piece of Death Skull or Deathwarden equipment to tier 50.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
     },
     {
       "blessing_task": false,
@@ -262,10 +325,30 @@
     },
     {
       "blessing_task": false,
+      "description": "Enter the earth altar using an earth tiara or talisman.",
+      "id": 99,
+      "issue": null,
+      "name": "Enter the Earth Altar using an earth tiara or talisman.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
       "description": "Use some bones on one of Varrock's stray dogs (or to your pet stray dog if you have one).",
       "id": 101,
       "issue": null,
       "name": "Give a bone to one of Varrock's stray dogs (or to your pet stray dog if you have one).",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Pan for an uncut jade at the Digsite.",
+      "id": 108,
+      "issue": null,
+      "name": "Pan for an uncut jade at the Digsite.",
       "points": 10,
       "region": "Misthalin",
       "tier": "easy"
@@ -279,6 +362,16 @@
       "points": 30,
       "region": "Misthalin",
       "tier": "medium"
+    },
+    {
+      "blessing_task": true,
+      "description": "Defeat the Arch-Glacor.",
+      "id": 125,
+      "issue": null,
+      "name": "Defeat the Arch-Glacor.",
+      "points": 80,
+      "region": "Misthalin",
+      "tier": "hard"
     },
     {
       "blessing_task": false,
@@ -332,7 +425,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Chop any tree 200 times.",
+      "description": "Obtain 200 sets of logs from any tree.",
       "id": 166,
       "issue": null,
       "name": "Chop any tree 200 times.",
@@ -492,6 +585,16 @@
     },
     {
       "blessing_task": false,
+      "description": "Smith 25 of any metal weapon or armour piece.",
+      "id": 828,
+      "issue": null,
+      "name": "Smith 25 of any metal weapon or armour piece.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
       "description": "Open 30 sedimentary geodes. These are found randomly while mining.",
       "id": 831,
       "issue": null,
@@ -519,6 +622,16 @@
       "points": 30,
       "region": "Global",
       "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Surge a distance of one tile.",
+      "id": 862,
+      "issue": null,
+      "name": "Surge a distance of one tile.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
     },
     {
       "blessing_task": false,
@@ -572,6 +685,16 @@
     },
     {
       "blessing_task": false,
+      "description": "Craft 100 runes.",
+      "id": 907,
+      "issue": null,
+      "name": "Craft 100 runes.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
       "description": "Equip a steel full helm, steel platebody, steel platelegs/steel plateskirt, steel gauntlets, and steel armoured boots. Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Steel armour can be bought at Horvik's Armour Shop.",
       "id": 911,
       "issue": null,
@@ -599,6 +722,16 @@
       "points": 30,
       "region": "Global",
       "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Reach level 99 Thieving.",
+      "id": 1087,
+      "issue": null,
+      "name": "Reach level 99 in the Thieving skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
     },
     {
       "blessing_task": false,
@@ -639,17 +772,27 @@
       "points": 10,
       "region": "Havenhythe",
       "tier": "easy"
+    },
+    {
+      "blessing_task": true,
+      "description": "Defeat Ivar, King of Bones.",
+      "id": 1203,
+      "issue": null,
+      "name": "Defeat Ivar, King of Bones.",
+      "points": 10,
+      "region": "Havenhythe",
+      "tier": "easy"
     }
   ],
   "player": "112321",
-  "points_to_iron_trophy": 240,
+  "points_to_iron_trophy": 0,
   "points_to_t4": 0,
   "relic_tier": 4,
   "source": "WikiSync + fresh ScapeLeagues task catalog fallback",
-  "task_delta_since_stored_snapshot": 44,
-  "tasks_to_first_elective_region": 30,
-  "timestamp_utc": "2026-08-22T23:34:40.082Z",
-  "total_level": 1147,
-  "total_level_delta_since_stored_snapshot": 436,
+  "task_delta_since_stored_snapshot": 57,
+  "tasks_to_first_elective_region": 17,
+  "timestamp_utc": "2026-08-23T14:08:42.465Z",
+  "total_level": 1249,
+  "total_level_delta_since_stored_snapshot": 538,
   "unmapped_completed_task_ids": []
 }
