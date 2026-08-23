@@ -1,6 +1,6 @@
 # RS3 Equilibrium account state — 112321
 
-Updated from the live fallback tracker on **2026-08-22 around 23:34 UTC**.
+Refreshed from the live fallback tracker on **2026-08-23 at about 14:08 UTC**.
 
 ## Read this first
 
@@ -8,14 +8,15 @@ Use `live-summary.json` as the current account snapshot whenever it is newer tha
 
 ### Current concrete state
 
-- **3,760 LP**
-- **145 tasks** completed
+- **4,250 LP**
+- **158 tasks** completed
+- **17 tasks** to the first elective-region unlock at 175
 - **T4 relic tier unlocked**; T4 relic choice is **not yet confirmed in the tracker**
-- **2 blessing tasks** completed
-- **Total level 1,147**
+- **4 blessing tasks** completed
+- **1 blessing task** to the 5-task blessing threshold
+- **Total level 1,263**
 - Confirmed unlocked regions: **Misthalin, Havenhythe, Karamja**
 - Confirmed first elective region pick: **Asgarnia**
-- First elective region unlock threshold: **175 tasks**
 - Later elective region choices: **unset until reconfirmed**
 - Confirmed relic picks: **T1 Golden Touch, T2 Divine Druid, T3 Voidwalker**
 
@@ -23,27 +24,27 @@ Use `live-summary.json` as the current account snapshot whenever it is newer tha
 
 | Skill | Level |
 |---|---:|
+| Thieving | 100 |
 | Agility | 99 |
-| Thieving | 96 |
-| Prayer | 92 |
-| Crafting | 67 |
+| Prayer | 96 |
+| Necromancy | 71 |
+| Crafting | 70 |
+| Defence | 66 |
+| Magic | 64 |
+| Constitution | 62 |
 | Mining | 60 |
-| Magic | 56 |
-| Defence | 54 |
 | Fletching | 52 |
-| Constitution | 51 |
-| Cooking | 49 |
-| Necromancy | 46 |
-| Smithing | 45 |
-| Woodcutting | 42 |
-| Summoning | 37 |
+| Runecrafting | 51 |
+| Cooking | 50 |
+| Smithing | 48 |
+| Woodcutting | 43 |
+| Summoning | 39 |
+| Herblore | 38 |
 | Attack | 36 |
 | Strength | 36 |
 | Divination | 34 |
-| Runecrafting | 33 |
 | Fishing | 32 |
 | Firemaking | 29 |
-| Herblore | 28 |
 | Ranged | 28 |
 | Archaeology | 19 |
 | Slayer | 19 |
@@ -52,6 +53,19 @@ Use `live-summary.json` as the current account snapshot whenever it is newer tha
 | Construction | 1 |
 | Dungeoneering | 1 |
 | Invention | 1 |
+
+## Recent notable progress visible in the refreshed snapshot
+
+- Thieving reached **100**.
+- Necromancy reached **71**.
+- Prayer reached **96**.
+- Crafting reached **70**.
+- Defence reached **66**.
+- Magic reached **64**.
+- Runecrafting reached **51**.
+- Completed-task count rose to **158** and LP to **4,250**.
+- Blessing-task count rose to **4**.
+- New tracked completions include the **Arch-Glacor blessing task** and **Ivar, King of Bones blessing task**.
 
 ## Source discipline
 
