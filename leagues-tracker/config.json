@@ -22,7 +22,7 @@
   "excluded_recommendation_reasons": {
     "95": "User does not want to do Croesus.",
     "96": "User does not want to do Croesus.",
-    "131": "User crafted 1500 earth runes at once and received no new completion; treat this task as already completed, stale, or non-triggering and do not recommend it again unless reconfirmed.",
+    "131": "WikiSync still shows this incomplete after the user crafted 1500 earth runes at once. Current Equilibrium reports say essence sourced from Void Shards/League mechanics can fail to trigger this task; keep it excluded unless the user explicitly wants to retry with normal pure essence.",
     "988": "User explicitly asked to scrap the Cast a Wave spell task from recommendations."
   },
   "notes": [
