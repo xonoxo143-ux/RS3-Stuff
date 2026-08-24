@@ -9,13 +9,15 @@
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
-    "Karamja"
+    "Karamja",
+    "Desert"
   ],
   "planned_optional_regions": [],
   "notes": [
     "Tier 3 relic choice confirmed by the user as Voidwalker.",
     "Tier 4 relic choice confirmed by the user as Transmutation.",
-    "The previously discussed Asgarnia first-pick plan is no longer locked; the user is reconsidering the first elective region.",
+    "First elective region confirmed by the user as Desert.",
+    "Third blessing confirmed by the user as Eternal Sustenance.",
     "Later elective region choices are intentionally unset until reconfirmed.",
     "Update confirmed_unlocked_regions only after an elective region is actually unlocked/selected."
   ]
