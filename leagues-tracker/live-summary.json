@@ -1,167 +1,29 @@
 {
   "blessing_tasks_completed": 6,
   "catalog_task_count": 1152,
-  "completed_tasks": 181,
-  "league_points": 5370,
-  "level_ups_since_stored_snapshot": [
-    {
-      "from": 15,
-      "skill": "Attack",
-      "to": 58
-    },
-    {
-      "from": 31,
-      "skill": "Defence",
-      "to": 80
-    },
-    {
-      "from": 15,
-      "skill": "Strength",
-      "to": 58
-    },
-    {
-      "from": 29,
-      "skill": "Constitution",
-      "to": 77
-    },
-    {
-      "from": 6,
-      "skill": "Ranged",
-      "to": 28
-    },
-    {
-      "from": 71,
-      "skill": "Prayer",
-      "to": 99
-    },
-    {
-      "from": 33,
-      "skill": "Magic",
-      "to": 66
-    },
-    {
-      "from": 17,
-      "skill": "Cooking",
-      "to": 61
-    },
-    {
-      "from": 34,
-      "skill": "Woodcutting",
-      "to": 53
-    },
-    {
-      "from": 20,
-      "skill": "Fletching",
-      "to": 58
-    },
-    {
-      "from": 6,
-      "skill": "Fishing",
-      "to": 32
-    },
-    {
-      "from": 16,
-      "skill": "Firemaking",
-      "to": 45
-    },
-    {
-      "from": 27,
-      "skill": "Crafting",
-      "to": 75
-    },
-    {
-      "from": 37,
-      "skill": "Smithing",
-      "to": 54
-    },
-    {
-      "from": 46,
-      "skill": "Mining",
-      "to": 65
-    },
-    {
-      "from": 14,
-      "skill": "Herblore",
-      "to": 57
-    },
-    {
-      "from": 84,
-      "skill": "Thieving",
-      "to": 104
-    },
-    {
-      "from": 19,
-      "skill": "Slayer",
-      "to": 57
-    },
-    {
-      "from": 1,
-      "skill": "Farming",
-      "to": 2
-    },
-    {
-      "from": 32,
-      "skill": "Runecrafting",
-      "to": 51
-    },
-    {
-      "from": 5,
-      "skill": "Summoning",
-      "to": 45
-    },
-    {
-      "from": 30,
-      "skill": "Divination",
-      "to": 34
-    },
-    {
-      "from": 18,
-      "skill": "Archaeology",
-      "to": 41
-    },
-    {
-      "from": 1,
-      "skill": "Necromancy",
-      "to": 84
-    }
-  ],
-  "levels": {
-    "Agility": 99,
-    "Archaeology": 41,
-    "Attack": 58,
-    "Constitution": 77,
-    "Construction": 1,
-    "Cooking": 61,
-    "Crafting": 75,
-    "Defence": 80,
-    "Divination": 34,
-    "Dungeoneering": 1,
-    "Farming": 2,
-    "Firemaking": 45,
-    "Fishing": 32,
-    "Fletching": 58,
-    "Herblore": 57,
-    "Hunter": 2,
-    "Invention": 1,
-    "Magic": 66,
-    "Mining": 65,
-    "Necromancy": 84,
-    "Prayer": 99,
-    "Ranged": 28,
-    "Runecrafting": 51,
-    "Slayer": 57,
-    "Smithing": 54,
-    "Strength": 58,
-    "Summoning": 45,
-    "Thieving": 104,
-    "Woodcutting": 53
-  },
-  "lp_delta_since_stored_snapshot": 3180,
-  "mapped_completed_tasks": 181,
-  "new_task_ids_since_stored_snapshot": [
+  "completed_task_ids": [
+    0,
+    1,
+    2,
+    5,
     8,
     16,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    36,
+    37,
+    38,
+    39,
+    40,
+    44,
     48,
+    49,
+    50,
     53,
     62,
     63,
@@ -173,27 +35,87 @@
     73,
     76,
     79,
+    98,
     99,
     101,
+    102,
+    104,
+    106,
+    107,
     108,
+    111,
     115,
+    116,
+    117,
     125,
+    133,
+    134,
+    135,
+    136,
+    137,
+    142,
+    143,
     144,
     145,
+    147,
+    148,
+    149,
     150,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
     160,
     161,
+    162,
+    163,
     164,
+    165,
     166,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    176,
     177,
     178,
     179,
+    180,
+    181,
+    182,
+    183,
+    186,
+    187,
+    188,
     189,
+    190,
+    191,
+    192,
+    193,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
     202,
+    210,
     211,
     213,
+    214,
+    215,
+    216,
+    218,
     219,
+    220,
     221,
+    222,
     282,
     284,
     296,
@@ -202,16 +124,28 @@
     319,
     598,
     610,
+    612,
     614,
     664,
     807,
+    813,
+    814,
+    815,
+    816,
     817,
+    820,
     821,
+    827,
     828,
     831,
+    835,
     836,
+    839,
+    840,
+    843,
     846,
     847,
+    848,
     861,
     862,
     863,
@@ -220,10 +154,13 @@
     880,
     885,
     886,
+    888,
     889,
     896,
+    902,
     905,
     907,
+    908,
     911,
     912,
     913,
@@ -231,826 +168,142 @@
     964,
     981,
     1052,
+    1060,
     1080,
     1087,
     1103,
     1141,
+    1146,
+    1147,
+    1148,
+    1149,
+    1150,
+    1151,
+    1152,
     1172,
     1179,
     1203,
+    1205,
     1206
   ],
-  "new_tasks_since_stored_snapshot": [
+  "completed_tasks": 183,
+  "confirmed_relic_choices": {
+    "1": "Golden Touch",
+    "2": "Divine Druid",
+    "3": "Voidwalker",
+    "4": "Transmutation"
+  },
+  "confirmed_unlocked_regions": [
+    "Misthalin",
+    "Havenhythe",
+    "Karamja",
+    "Desert"
+  ],
+  "excluded_recommendation_task_ids": [
+    95,
+    96,
+    131,
+    988
+  ],
+  "league_points": 5480,
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 58,
+      "skill": "Attack",
+      "to": 60
+    },
+    {
+      "from": 58,
+      "skill": "Strength",
+      "to": 60
+    },
+    {
+      "from": 77,
+      "skill": "Constitution",
+      "to": 78
+    },
+    {
+      "from": 45,
+      "skill": "Firemaking",
+      "to": 51
+    },
+    {
+      "from": 51,
+      "skill": "Runecrafting",
+      "to": 55
+    },
+    {
+      "from": 41,
+      "skill": "Archaeology",
+      "to": 47
+    }
+  ],
+  "levels": {
+    "Agility": 99,
+    "Archaeology": 47,
+    "Attack": 60,
+    "Constitution": 78,
+    "Construction": 1,
+    "Cooking": 61,
+    "Crafting": 75,
+    "Defence": 80,
+    "Divination": 34,
+    "Dungeoneering": 1,
+    "Farming": 2,
+    "Firemaking": 51,
+    "Fishing": 32,
+    "Fletching": 58,
+    "Herblore": 57,
+    "Hunter": 2,
+    "Invention": 1,
+    "Magic": 66,
+    "Mining": 65,
+    "Necromancy": 84,
+    "Prayer": 99,
+    "Ranged": 28,
+    "Runecrafting": 55,
+    "Slayer": 57,
+    "Smithing": 54,
+    "Strength": 60,
+    "Summoning": 45,
+    "Thieving": 104,
+    "Woodcutting": 53
+  },
+  "mapped_completed_tasks": 183,
+  "new_task_ids_since_previous_live_sync": [
+    908,
+    1205
+  ],
+  "new_tasks_since_previous_live_sync": [
     {
       "blessing_task": false,
-      "description": "Siphon from a nature esshound in the Runespan.",
-      "id": 8,
+      "description": "Craft 1,000 runes.",
+      "id": 908,
       "issue": null,
-      "name": "Siphon from a nature esshound in the Runespan.",
+      "name": "Craft 1,000 runes.",
       "points": 30,
-      "region": "Misthalin",
+      "region": "Global",
       "tier": "medium"
     },
     {
       "blessing_task": false,
-      "description": "Mine some coal in the centre of Barbarian Village.",
-      "id": 16,
+      "description": "Defeat Ivar, King of Bones while wielding the Bonecrushing maul.",
+      "id": 1205,
       "issue": null,
-      "name": "Mine some coal in the centre of Barbarian village.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Cut the willow tree east of Lumbridge Castle, by the bridge across the River Lum.",
-      "id": 48,
-      "issue": null,
-      "name": "Cut a willow tree east of Lumbridge Castle.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Steal a lantern from a cave goblin (only the ones in Dorgesh-Kaan have the lantern as a possible loot from pickpocketting).",
-      "id": 53,
-      "issue": null,
-      "name": "Steal a lantern from a cave goblin.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete Necromancy!",
-      "id": 62,
-      "issue": null,
-      "name": "Complete the quest: Necromancy!",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Upgrade a piece of death skull or deathwarden equipment to tier 20.",
-      "id": 63,
-      "issue": null,
-      "name": "Upgrade a piece of Death Skull or Deathwarden equipment to tier 20.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Craft some spirit or bone runes.",
-      "id": 64,
-      "issue": null,
-      "name": "Craft some spirit or bone runes.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete a Lesser Necroplasm ritual.",
-      "id": 65,
-      "issue": null,
-      "name": "Complete a Lesser Necroplasm ritual.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Conjure a Skeleton Warrior at the Um ritual site.",
-      "id": 66,
-      "issue": null,
-      "name": "Conjure a skeleton at the City of Um ritual site.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Conjure a Vengeful Ghost at the Um ritual site.",
-      "id": 68,
-      "issue": null,
-      "name": "Conjure a ghost at the City of Um ritual site.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Upgrade a piece of Death Skull or Deathwarden equipment to tier 50.",
-      "id": 72,
-      "issue": null,
-      "name": "Upgrade a piece of Death Skull or Deathwarden equipment to tier 50.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete a communion ritual using a memento.",
-      "id": 73,
-      "issue": null,
-      "name": "Complete a communion ritual using a memento.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": true,
-      "description": "Defeat Hermod, the Spirit of War once.",
-      "id": 76,
-      "issue": null,
-      "name": "Defeat Hermod, the Spirit of War.",
+      "name": "Defeat Ivar, King of Bones while wielding the Bonecrushing maul.",
       "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete the Do You Like Jazz? achievement.",
-      "id": 79,
-      "issue": null,
-      "name": "Rest whilst listening to the Dead Beats in the City of Um.",
-      "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Enter the earth altar using an earth tiara or talisman.",
-      "id": 99,
-      "issue": null,
-      "name": "Enter the Earth Altar using an earth tiara or talisman.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Use some bones on one of Varrock's stray dogs (or to your pet stray dog if you have one).",
-      "id": 101,
-      "issue": null,
-      "name": "Give a bone to one of Varrock's stray dogs (or to your pet stray dog if you have one).",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Pan for an uncut jade at the Digsite.",
-      "id": 108,
-      "issue": null,
-      "name": "Pan for an uncut jade at the Digsite.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Mine 50 pure essence.",
-      "id": 115,
-      "issue": null,
-      "name": "Mine 50 pure essence.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": true,
-      "description": "Defeat the Arch-Glacor.",
-      "id": 125,
-      "issue": null,
-      "name": "Defeat the Arch-Glacor.",
-      "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach combat level 50.",
-      "id": 144,
-      "issue": null,
-      "name": "Reach combat level 50.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach combat level 100.",
-      "id": 145,
-      "issue": null,
-      "name": "Reach combat level 100.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach total level 1000.",
-      "id": 150,
-      "issue": null,
-      "name": "Reach total level 1000.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Mine clay.",
-      "id": 160,
-      "issue": null,
-      "name": "Mine clay.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Make soft clay by using clay on a water source or with a container of water.",
-      "id": 161,
-      "issue": null,
-      "name": "Make some soft clay.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Mine any ore 1000 times.",
-      "id": 164,
-      "issue": null,
-      "name": "Mine any ore 1000 times.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Obtain 200 sets of logs from any tree.",
-      "id": 166,
-      "issue": null,
-      "name": "Chop any tree 200 times.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Catch 10 raw shrimps.",
-      "id": 177,
-      "issue": null,
-      "name": "Catch 10 shrimp.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Catch raw anchovies by using the net option at a net/bait fishing spot.",
-      "id": 178,
-      "issue": null,
-      "name": "Catch an anchovy.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Catch a raw herring by using the bait option at a net/bait fishing spot",
-      "id": 179,
-      "issue": null,
-      "name": "Catch a herring.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Run out of Prayer points.",
-      "id": 189,
-      "issue": null,
-      "name": "Run out of prayer points.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Rake any farming patch.",
-      "id": 202,
-      "issue": null,
-      "name": "Rake any farming patch.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Eat a cabbage.",
-      "id": 211,
-      "issue": null,
-      "name": "Eat a cabbage.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Eat an onion.",
-      "id": 213,
-      "issue": null,
-      "name": "Eat an onion.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Listen to any musician.",
-      "id": 219,
-      "issue": null,
-      "name": "Listen to any musician.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Prospect any rock.",
-      "id": 221,
-      "issue": null,
-      "name": "Prospect any rock.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Enter Menaphos.",
-      "id": 282,
-      "issue": null,
-      "name": "Enter Menaphos.",
-      "points": 10,
-      "region": "Desert",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Clear the fort debris at the Kharid-et Dig Site.",
-      "id": 284,
-      "issue": null,
-      "name": "Clear the Fort debris at the Kharid-et Dig Site.",
-      "points": 30,
-      "region": "Desert",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete a lap of the Het's Oasis Agility Course.",
-      "id": 296,
-      "issue": null,
-      "name": "Complete a lap of the Het's Oasis agility course.",
-      "points": 30,
-      "region": "Desert",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Steal from the lamp stall in Menaphos.",
-      "id": 304,
-      "issue": null,
-      "name": "Steal from the lamp stall in Menaphos.",
-      "points": 30,
-      "region": "Desert",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete Desert Treasure.",
-      "id": 312,
-      "issue": null,
-      "name": "Complete the quest: Desert Treasure",
-      "points": 30,
-      "region": "Desert",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Deploy a dreadnip.",
-      "id": 319,
-      "issue": null,
-      "name": "Deploy a dreadnip.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Catch a raw karambwanji.",
-      "id": 598,
-      "issue": null,
-      "name": "Catch a karambwanji.",
-      "points": 10,
-      "region": "Karamja",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Mine a ruby from a gem rock in Shilo Village.",
-      "id": 610,
-      "issue": null,
-      "name": "Mine a ruby from a gem rock in Shilo Village.",
-      "points": 30,
-      "region": "Karamja",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": true,
-      "description": "Defeat a TzHaar.",
-      "id": 614,
-      "issue": null,
-      "name": "Defeat a TzHaar.",
-      "points": 30,
-      "region": "Karamja",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Make use of either an autoheater, gem bag, herbicide, bonecrusher or charming imp.",
-      "id": 664,
-      "issue": null,
-      "name": "Make use of either an autoheater, gem bag, herbicide, bonecrusher or charming imp.",
-      "points": 10,
-      "region": "Wilderness",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Make 5 potions of any kind.",
-      "id": 807,
-      "issue": null,
-      "name": "Make 5 potions of any kind.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Clean 200 of any herb.",
-      "id": 817,
-      "issue": null,
-      "name": "Clean 200 of any herb.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Fletch 1,000 arrow shafts.",
-      "id": 821,
-      "issue": null,
-      "name": "Fletch 1,000 arrow shafts.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Smith 25 of any metal weapon or armour piece.",
-      "id": 828,
-      "issue": null,
-      "name": "Smith 25 of any metal weapon or armour piece.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Open 30 sedimentary geodes. These are found randomly while mining.",
-      "id": 831,
-      "issue": null,
-      "name": "Open 30 sedimentary geodes.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Cook 200 fish.",
-      "id": 836,
-      "issue": null,
-      "name": "Cook 200 fish.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Restore 50 Prayer Points at an Altar at once.",
-      "id": 846,
-      "issue": null,
-      "name": "Restore 50 prayer points at an altar at once.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Restore 500 Prayer Points at an Altar at once.",
-      "id": 847,
-      "issue": null,
-      "name": "Restore 500 prayer points at an altar at once.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Spin 5 bowstrings by using flax on a spinning wheel.",
-      "id": 861,
-      "issue": null,
-      "name": "Spin 5 bowstring.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Surge a distance of one tile.",
-      "id": 862,
-      "issue": null,
-      "name": "Surge a distance of one tile.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Spin a ball of wool by using wool at a spinning wheel.",
-      "id": 863,
-      "issue": null,
-      "name": "Spin a ball of wool.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip a green dragonhide coif, green dragonhide body, green dragonhide chaps, green dragonhide vambraces, and green dragonhide boots. These can all be bought at Lowe's Archery Emporium.",
-      "id": 865,
-      "issue": null,
-      "name": "Equip a full set of green dragonhide armour.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete an easy clue scroll.",
-      "id": 869,
-      "issue": null,
-      "name": "Complete an easy clue scroll.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Clean 50 grimy avantoe.",
-      "id": 880,
-      "issue": null,
-      "name": "Clean 50 grimy avantoe.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Fletch 400 steel arrows.",
-      "id": 885,
-      "issue": null,
-      "name": "Fletch 400 steel arrows.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Fletch 100 iron bolts.",
-      "id": 886,
-      "issue": null,
-      "name": "Fletch 100 iron bolts.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Mine 30 adamantite ore.",
-      "id": 889,
-      "issue": null,
-      "name": "Mine 30 adamant ore.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Catch 10 pike.",
-      "id": 896,
-      "issue": null,
-      "name": "Catch 10 pike.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Teleport using law runes. The lowest level teleport spell is South Feldip Hills Teleport which also requires one air and one water rune",
-      "id": 905,
-      "issue": null,
-      "name": "Teleport using law runes.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Craft 100 runes.",
-      "id": 907,
-      "issue": null,
-      "name": "Craft 100 runes.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip a steel full helm, steel platebody, steel platelegs/steel plateskirt, steel gauntlets, and steel armoured boots. Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Steel armour can be bought at Horvik's Armour Shop.",
-      "id": 911,
-      "issue": null,
-      "name": "Equip a full set of steel armour.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip a mithril full helm, mithril platebody, mithril platelegs/mithril plateskirt, mithril gauntlets, and mithril armoured boots. Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Mithril armour can be bought at Horvik's Armour Shop.",
-      "id": 912,
-      "issue": null,
-      "name": "Equip a full set of mithril armour.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip an adamant full helm, adamant platebody, adamant platelegs/adamant plateskirt, adamant gauntlets, and adamant armoured boots. Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Adamant armour can be bought at Horvik's Armour Shop.",
-      "id": 913,
-      "issue": null,
-      "name": "Equip a full set of adamant armour.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Burn 25 willow logs.",
-      "id": 920,
-      "issue": null,
-      "name": "Burn 25 willow logs.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Fletch 35 or more arrow shafts from a single log.",
-      "id": 964,
-      "issue": null,
-      "name": "Fletch 35 or more arrow shafts from a single log.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete a Soul Reaper task.",
-      "id": 981,
-      "issue": null,
-      "name": "Complete a Soul Reaper task.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Activate Soul Split prayer.",
-      "id": 1052,
-      "issue": null,
-      "name": "Activate Soul Split prayer.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach level 99 Prayer.",
-      "id": 1080,
-      "issue": null,
-      "name": "Reach level 99 in the Prayer skill.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach level 99 Thieving.",
-      "id": 1087,
-      "issue": null,
-      "name": "Reach level 99 in the Thieving skill.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Obtain 50 million Agility XP.",
-      "id": 1103,
-      "issue": null,
-      "name": "Obtain 50 million Agility XP.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Donate 100,000,000 GP to Richie.",
-      "id": 1141,
-      "issue": null,
-      "name": "Unlock the Richie pet from helping Richie accumulate wealth at the Grand Exchange.",
-      "points": 400,
-      "region": "Global",
-      "tier": "master"
-    },
-    {
-      "blessing_task": false,
-      "description": "Use a fairy ring to travel to Amberfell forest. (fairy ring code DLP)",
-      "id": 1172,
-      "issue": null,
-      "name": "Use a fairy ring to travel to Amberfell forest.",
-      "points": 10,
       "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Pickpocket a ranger in Wendlewick.",
-      "id": 1179,
-      "issue": null,
-      "name": "Pickpocket a ranger in Wendlewick.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": true,
-      "description": "Defeat Ivar, King of Bones.",
-      "id": 1203,
-      "issue": null,
-      "name": "Defeat Ivar, King of Bones.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": true,
-      "description": "Defeat Silverquill, the Dreadhog.",
-      "id": 1206,
-      "issue": null,
-      "name": "Defeat Silverquill, the Dreadhog.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
+      "tier": "hard"
     }
   ],
   "player": "112321",
-  "points_to_iron_trophy": 0,
-  "points_to_t4": 0,
+  "points_to_t5": 520,
   "relic_tier": 4,
-  "source": "WikiSync + fresh ScapeLeagues task catalog fallback",
-  "task_delta_since_stored_snapshot": 80,
-  "tasks_to_first_elective_region": 0,
-  "timestamp_utc": "2026-08-24T22:13:36.152Z",
-  "total_level": 1488,
-  "total_level_delta_since_stored_snapshot": 777,
+  "source": "WikiSync + fresh ScapeLeagues task catalog",
+  "task_delta_since_previous_live_sync": 2,
+  "tasks_to_second_elective_region": 117,
+  "tasks_to_third_elective_region": 267,
+  "timestamp_utc": "2026-08-24T22:59:19.006Z",
+  "total_level": 1509,
   "unmapped_completed_task_ids": []
 }
