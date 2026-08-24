@@ -113,4 +113,4 @@ jobs:
           git commit -m 'Refresh live League fallback snapshot' || exit 0
           git push
 
-# manual refresh with hiscores capture: 2026-08-24T16:55-04:00
+# manual refresh with hiscores capture: 2026-08-24T18:13-04:00
