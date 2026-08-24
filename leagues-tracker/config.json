@@ -13,12 +13,25 @@
     "Desert"
   ],
   "planned_optional_regions": [],
+  "excluded_recommendation_task_ids": [
+    95,
+    96,
+    131,
+    988
+  ],
+  "excluded_recommendation_reasons": {
+    "95": "User does not want to do Croesus.",
+    "96": "User does not want to do Croesus.",
+    "131": "User crafted 1500 earth runes at once and received no new completion; treat this task as already completed, stale, or non-triggering and do not recommend it again unless reconfirmed.",
+    "988": "User explicitly asked to scrap the Cast a Wave spell task from recommendations."
+  },
   "notes": [
     "Tier 3 relic choice confirmed by the user as Voidwalker.",
     "Tier 4 relic choice confirmed by the user as Transmutation.",
     "First elective region confirmed by the user as Desert.",
     "Third blessing confirmed by the user as Eternal Sustenance.",
     "Later elective region choices are intentionally unset until reconfirmed.",
-    "Update confirmed_unlocked_regions only after an elective region is actually unlocked/selected."
+    "Update confirmed_unlocked_regions only after an elective region is actually unlocked/selected.",
+    "Recommendation exclusions are manual user-state/preferences and must be honored even if WikiSync is stale."
   ]
 }
