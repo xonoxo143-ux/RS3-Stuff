@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - '.github/workflows/probe-current-leagues.yml'
+      - 'leagues-tracker/config.json'
 
 permissions:
   contents: write
@@ -23,26 +24,14 @@ jobs:
             cp leagues-tracker/live-wikisync.json /tmp/previous-live-wikisync.json
           fi
 
-      - name: Fetch fresh League sources
+      - name: Build live League snapshot
         shell: bash
         run: |
           set -euo pipefail
-          UA='RS3-Stuff-Leagues-Probe/2.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
-          TS="$(date +%s)"
-          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' -H 'Pragma: no-cache' \
-            -o leagues-tracker/live-wikisync.json \
-            "https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2?tracker_ts=${TS}"
-          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
-            -o task-catalog.html \
-            "https://scapeleagues.com/rs3/equilibrium/tasks?tracker_ts=${TS}"
-          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
-            -o leagues-tracker/live-hiscores.html \
-            "https://rs.runescape.com/hiscores/leagues/player/112321?tracker_ts=${TS}"
-
-      - name: Build live tracker state
-        shell: bash
-        run: |
-          set -euo pipefail
+          UA='RS3-Stuff-Leagues-Probe/2.1 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
+          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' -o leagues-tracker/live-wikisync.json 'https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
+          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' -o task-catalog.html 'https://scapeleagues.com/rs3/equilibrium/tasks'
+          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' -o leagues-tracker/live-hiscores.html 'https://rs.runescape.com/hiscores/leagues/player/112321'
           python3 - <<'PY'
           import json,re
           from pathlib import Path
@@ -52,7 +41,6 @@ jobs:
           config=json.loads((root/'config.json').read_text()) if (root/'config.json').exists() else {}
           raw=Path('task-catalog.html').read_text(encoding='utf-8')
 
-          # Parse current ScapeLeagues task catalog from the Next.js payload.
           chunks=[]
           rx=re.compile(r'self\.__next_f\.push\(\[1,("(?:\\.|[^"\\])*")\]\)',re.S)
           for m in rx.finditer(raw):
@@ -91,7 +79,6 @@ jobs:
           blessings=sum(1 for x in completed if x['blessing_task'])
           total_level=sum(levels.values())
 
-          # Compare to the immediately previous LIVE WikiSync, not historical latest.json.
           prev={}
           prev_path=Path('/tmp/previous-live-wikisync.json')
           if prev_path.exists():
@@ -107,13 +94,18 @@ jobs:
               if level>oldlevel:
                   level_ups.append({'skill':skill,'from':oldlevel,'to':level})
 
-          regions=set(config.get('confirmed_unlocked_regions',[]))
-          regions.add('Global')
-          unfinished=[t for tid,t in found.items() if tid not in idset]
-          accessible=[t for t in unfinished if t['region'] in regions]
-          actionable=[t for t in accessible if not t.get('issue')]
-          actionable.sort(key=lambda t:(-t['points'], t['tier'], t['region'], t['id']))
-          unfinished.sort(key=lambda t:(-t['points'], t['region'], t['id']))
+          unlocked=set(config.get('confirmed_unlocked_regions',[])) | {'Global'}
+          excluded={int(x) for x in config.get('excluded_recommendation_task_ids',[])}
+          accessible=[]
+          all_unfinished=[]
+          for tid,t in found.items():
+              if tid in idset:
+                  continue
+              all_unfinished.append(t)
+              if t['region'] in unlocked and not t.get('issue') and tid not in excluded:
+                  accessible.append(t)
+          accessible.sort(key=lambda t:(-t['points'], t['region'], t['id']))
+          all_unfinished.sort(key=lambda t:(-t['points'], t['region'], t['id']))
 
           summary={
               'timestamp_utc':w.get('timestamp'),
@@ -138,48 +130,17 @@ jobs:
               'unmapped_completed_task_ids':missing,
               'confirmed_unlocked_regions':config.get('confirmed_unlocked_regions',[]),
               'confirmed_relic_choices':config.get('confirmed_relic_choices',{}),
+              'excluded_recommendation_task_ids':sorted(excluded),
           }
           (root/'live-summary.json').write_text(json.dumps(summary,indent=2,sort_keys=True)+'\n')
           (root/'live-unfinished.json').write_text(json.dumps({
               'timestamp_utc':w.get('timestamp'),
               'unlocked_regions':config.get('confirmed_unlocked_regions',[]),
-              'accessible_actionable_count':len(actionable),
-              'accessible_actionable_tasks':actionable,
-              'all_unfinished_tasks':unfinished,
+              'excluded_recommendation_task_ids':sorted(excluded),
+              'accessible_actionable_count':len(accessible),
+              'accessible_actionable_tasks':accessible,
+              'all_unfinished_tasks':all_unfinished,
           },indent=2,sort_keys=True)+'\n')
-
-          choices=config.get('confirmed_relic_choices',{})
-          relic_text=', '.join(f"T{k} {v}" for k,v in sorted(choices.items(), key=lambda kv:int(kv[0]))) or 'unset'
-          region_text=', '.join(config.get('confirmed_unlocked_regions',[])) or 'unset'
-          skill_rows='\n'.join(f"| {s} | {n} |" for s,n in sorted(levels.items(), key=lambda kv:(-kv[1],kv[0])))
-          md=f'''# RS3 Equilibrium account state — {w.get('username','112321')}
-
-Live WikiSync timestamp: **{w.get('timestamp')}**
-
-## Current concrete state
-
-- **{lp:,} LP**
-- **{len(ids)} tasks** completed
-- **{max(0,6000-lp):,} LP to T5**
-- **{blessings} blessing tasks** completed
-- **{total_level:,} total level**
-- Confirmed unlocked regions: **{region_text}**
-- Confirmed relics: **{relic_text}**
-
-## Current skill levels
-
-| Skill | Level |
-|---|---:|
-{skill_rows}
-
-## Tracker rules
-
-- `live-summary.json` is the authoritative current snapshot.
-- `live-unfinished.json` is the authoritative task shortlist source; never recommend an ID absent from that file's unfinished lists.
-- `config.json` is authoritative for manually confirmed relic/region choices.
-- `latest.json` is historical only and must not be used as a live completion baseline.
-'''
-          (root/'assistant-context.md').write_text(md)
           print(json.dumps(summary,indent=2))
           PY
 
@@ -189,11 +150,6 @@ Live WikiSync timestamp: **{w.get('timestamp')}**
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add \
-            leagues-tracker/live-wikisync.json \
-            leagues-tracker/live-summary.json \
-            leagues-tracker/live-unfinished.json \
-            leagues-tracker/live-hiscores.html \
-            leagues-tracker/assistant-context.md
+          git add leagues-tracker/live-wikisync.json leagues-tracker/live-summary.json leagues-tracker/live-unfinished.json leagues-tracker/live-hiscores.html
           git commit -m 'Refresh live League tracker state' || exit 0
           git push
