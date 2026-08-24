@@ -206,38 +206,7 @@
     988
   ],
   "league_points": 5480,
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 58,
-      "skill": "Attack",
-      "to": 60
-    },
-    {
-      "from": 58,
-      "skill": "Strength",
-      "to": 60
-    },
-    {
-      "from": 77,
-      "skill": "Constitution",
-      "to": 78
-    },
-    {
-      "from": 45,
-      "skill": "Firemaking",
-      "to": 51
-    },
-    {
-      "from": 51,
-      "skill": "Runecrafting",
-      "to": 55
-    },
-    {
-      "from": 41,
-      "skill": "Archaeology",
-      "to": 47
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 47,
@@ -270,40 +239,16 @@
     "Woodcutting": 53
   },
   "mapped_completed_tasks": 183,
-  "new_task_ids_since_previous_live_sync": [
-    908,
-    1205
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Craft 1,000 runes.",
-      "id": 908,
-      "issue": null,
-      "name": "Craft 1,000 runes.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat Ivar, King of Bones while wielding the Bonecrushing maul.",
-      "id": 1205,
-      "issue": null,
-      "name": "Defeat Ivar, King of Bones while wielding the Bonecrushing maul.",
-      "points": 80,
-      "region": "Havenhythe",
-      "tier": "hard"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "player": "112321",
   "points_to_t5": 520,
   "relic_tier": 4,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 2,
+  "task_delta_since_previous_live_sync": 0,
   "tasks_to_second_elective_region": 117,
   "tasks_to_third_elective_region": 267,
-  "timestamp_utc": "2026-08-24T22:59:19.006Z",
+  "timestamp_utc": "2026-08-24T23:00:21.669Z",
   "total_level": 1509,
   "unmapped_completed_task_ids": []
 }
