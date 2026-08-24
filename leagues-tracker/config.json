@@ -3,19 +3,19 @@
   "confirmed_relic_choices": {
     "1": "Golden Touch",
     "2": "Divine Druid",
-    "3": "Voidwalker"
+    "3": "Voidwalker",
+    "4": "Transmutation"
   },
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
     "Karamja"
   ],
-  "planned_optional_regions": [
-    "Asgarnia"
-  ],
+  "planned_optional_regions": [],
   "notes": [
     "Tier 3 relic choice confirmed by the user as Voidwalker.",
-    "The user's confirmed first elective region pick is Asgarnia.",
+    "Tier 4 relic choice confirmed by the user as Transmutation.",
+    "The previously discussed Asgarnia first-pick plan is no longer locked; the user is reconsidering the first elective region.",
     "Later elective region choices are intentionally unset until reconfirmed.",
     "Update confirmed_unlocked_regions only after an elective region is actually unlocked/selected."
   ]
