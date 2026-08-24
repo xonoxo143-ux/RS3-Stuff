@@ -1,28 +1,28 @@
 {
-  "blessing_tasks_completed": 4,
+  "blessing_tasks_completed": 6,
   "catalog_task_count": 1152,
-  "completed_tasks": 160,
-  "league_points": 4270,
+  "completed_tasks": 180,
+  "league_points": 5170,
   "level_ups_since_stored_snapshot": [
     {
       "from": 15,
       "skill": "Attack",
-      "to": 36
+      "to": 58
     },
     {
       "from": 31,
       "skill": "Defence",
-      "to": 67
+      "to": 80
     },
     {
       "from": 15,
       "skill": "Strength",
-      "to": 36
+      "to": 58
     },
     {
       "from": 29,
       "skill": "Constitution",
-      "to": 63
+      "to": 77
     },
     {
       "from": 6,
@@ -32,27 +32,27 @@
     {
       "from": 71,
       "skill": "Prayer",
-      "to": 97
+      "to": 98
     },
     {
       "from": 33,
       "skill": "Magic",
-      "to": 65
+      "to": 66
     },
     {
       "from": 17,
       "skill": "Cooking",
-      "to": 51
+      "to": 61
     },
     {
       "from": 34,
       "skill": "Woodcutting",
-      "to": 43
+      "to": 51
     },
     {
       "from": 20,
       "skill": "Fletching",
-      "to": 52
+      "to": 56
     },
     {
       "from": 6,
@@ -62,32 +62,37 @@
     {
       "from": 16,
       "skill": "Firemaking",
-      "to": 36
+      "to": 45
     },
     {
       "from": 27,
       "skill": "Crafting",
-      "to": 70
+      "to": 75
     },
     {
       "from": 37,
       "skill": "Smithing",
-      "to": 48
+      "to": 52
     },
     {
       "from": 46,
       "skill": "Mining",
-      "to": 60
+      "to": 64
     },
     {
       "from": 14,
       "skill": "Herblore",
-      "to": 38
+      "to": 57
     },
     {
       "from": 84,
       "skill": "Thieving",
-      "to": 100
+      "to": 101
+    },
+    {
+      "from": 19,
+      "skill": "Slayer",
+      "to": 57
     },
     {
       "from": 1,
@@ -102,7 +107,7 @@
     {
       "from": 5,
       "skill": "Summoning",
-      "to": 39
+      "to": 45
     },
     {
       "from": 30,
@@ -112,47 +117,47 @@
     {
       "from": 18,
       "skill": "Archaeology",
-      "to": 19
+      "to": 41
     },
     {
       "from": 1,
       "skill": "Necromancy",
-      "to": 75
+      "to": 84
     }
   ],
   "levels": {
     "Agility": 99,
-    "Archaeology": 19,
-    "Attack": 36,
-    "Constitution": 63,
+    "Archaeology": 41,
+    "Attack": 58,
+    "Constitution": 77,
     "Construction": 1,
-    "Cooking": 51,
-    "Crafting": 70,
-    "Defence": 67,
+    "Cooking": 61,
+    "Crafting": 75,
+    "Defence": 80,
     "Divination": 34,
     "Dungeoneering": 1,
     "Farming": 2,
-    "Firemaking": 36,
+    "Firemaking": 45,
     "Fishing": 32,
-    "Fletching": 52,
-    "Herblore": 38,
+    "Fletching": 56,
+    "Herblore": 57,
     "Hunter": 2,
     "Invention": 1,
-    "Magic": 65,
-    "Mining": 60,
-    "Necromancy": 75,
-    "Prayer": 97,
+    "Magic": 66,
+    "Mining": 64,
+    "Necromancy": 84,
+    "Prayer": 98,
     "Ranged": 28,
     "Runecrafting": 51,
-    "Slayer": 19,
-    "Smithing": 48,
-    "Strength": 36,
-    "Summoning": 39,
-    "Thieving": 100,
-    "Woodcutting": 43
+    "Slayer": 57,
+    "Smithing": 52,
+    "Strength": 58,
+    "Summoning": 45,
+    "Thieving": 101,
+    "Woodcutting": 51
   },
-  "lp_delta_since_stored_snapshot": 2080,
-  "mapped_completed_tasks": 160,
+  "lp_delta_since_stored_snapshot": 2980,
+  "mapped_completed_tasks": 180,
   "new_task_ids_since_stored_snapshot": [
     8,
     16,
@@ -166,6 +171,7 @@
     68,
     72,
     73,
+    76,
     79,
     99,
     101,
@@ -173,12 +179,14 @@
     115,
     125,
     144,
+    145,
     150,
     160,
     161,
     164,
     166,
     177,
+    178,
     179,
     189,
     202,
@@ -186,6 +194,12 @@
     213,
     219,
     221,
+    282,
+    284,
+    296,
+    304,
+    312,
+    319,
     598,
     610,
     614,
@@ -195,24 +209,35 @@
     821,
     828,
     831,
+    836,
     846,
     847,
+    861,
     862,
+    863,
     865,
+    869,
+    880,
     885,
     886,
+    889,
     896,
     905,
     907,
     911,
     912,
     913,
+    920,
+    964,
+    981,
+    1052,
     1087,
     1103,
     1141,
     1172,
     1179,
-    1203
+    1203,
+    1206
   ],
   "new_tasks_since_stored_snapshot": [
     {
@@ -336,6 +361,16 @@
       "tier": "medium"
     },
     {
+      "blessing_task": true,
+      "description": "Defeat Hermod, the Spirit of War once.",
+      "id": 76,
+      "issue": null,
+      "name": "Defeat Hermod, the Spirit of War.",
+      "points": 80,
+      "region": "Misthalin",
+      "tier": "hard"
+    },
+    {
       "blessing_task": false,
       "description": "Complete the Do You Like Jazz? achievement.",
       "id": 79,
@@ -407,6 +442,16 @@
     },
     {
       "blessing_task": false,
+      "description": "Reach combat level 100.",
+      "id": 145,
+      "issue": null,
+      "name": "Reach combat level 100.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
       "description": "Reach total level 1000.",
       "id": 150,
       "issue": null,
@@ -461,6 +506,16 @@
       "id": 177,
       "issue": null,
       "name": "Catch 10 shrimp.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Catch raw anchovies by using the net option at a net/bait fishing spot.",
+      "id": 178,
+      "issue": null,
+      "name": "Catch an anchovy.",
       "points": 10,
       "region": "Global",
       "tier": "easy"
@@ -534,6 +589,66 @@
       "points": 10,
       "region": "Global",
       "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Enter Menaphos.",
+      "id": 282,
+      "issue": null,
+      "name": "Enter Menaphos.",
+      "points": 10,
+      "region": "Desert",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Clear the fort debris at the Kharid-et Dig Site.",
+      "id": 284,
+      "issue": null,
+      "name": "Clear the Fort debris at the Kharid-et Dig Site.",
+      "points": 30,
+      "region": "Desert",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Complete a lap of the Het's Oasis Agility Course.",
+      "id": 296,
+      "issue": null,
+      "name": "Complete a lap of the Het's Oasis agility course.",
+      "points": 30,
+      "region": "Desert",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Steal from the lamp stall in Menaphos.",
+      "id": 304,
+      "issue": null,
+      "name": "Steal from the lamp stall in Menaphos.",
+      "points": 30,
+      "region": "Desert",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Complete Desert Treasure.",
+      "id": 312,
+      "issue": null,
+      "name": "Complete the quest: Desert Treasure",
+      "points": 30,
+      "region": "Desert",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Deploy a dreadnip.",
+      "id": 319,
+      "issue": null,
+      "name": "Deploy a dreadnip.",
+      "points": 80,
+      "region": "Desert",
+      "tier": "hard"
     },
     {
       "blessing_task": false,
@@ -627,6 +742,16 @@
     },
     {
       "blessing_task": false,
+      "description": "Cook 200 fish.",
+      "id": 836,
+      "issue": null,
+      "name": "Cook 200 fish.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
       "description": "Restore 50 Prayer Points at an Altar at once.",
       "id": 846,
       "issue": null,
@@ -647,10 +772,30 @@
     },
     {
       "blessing_task": false,
+      "description": "Spin 5 bowstrings by using flax on a spinning wheel.",
+      "id": 861,
+      "issue": null,
+      "name": "Spin 5 bowstring.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
       "description": "Surge a distance of one tile.",
       "id": 862,
       "issue": null,
       "name": "Surge a distance of one tile.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Spin a ball of wool by using wool at a spinning wheel.",
+      "id": 863,
+      "issue": null,
+      "name": "Spin a ball of wool.",
       "points": 10,
       "region": "Global",
       "tier": "easy"
@@ -664,6 +809,26 @@
       "points": 10,
       "region": "Global",
       "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Complete an easy clue scroll.",
+      "id": 869,
+      "issue": null,
+      "name": "Complete an easy clue scroll.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Clean 50 grimy avantoe.",
+      "id": 880,
+      "issue": null,
+      "name": "Clean 50 grimy avantoe.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
     },
     {
       "blessing_task": false,
@@ -681,6 +846,16 @@
       "id": 886,
       "issue": null,
       "name": "Fletch 100 iron bolts.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Mine 30 adamantite ore.",
+      "id": 889,
+      "issue": null,
+      "name": "Mine 30 adamant ore.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -747,6 +922,46 @@
     },
     {
       "blessing_task": false,
+      "description": "Burn 25 willow logs.",
+      "id": 920,
+      "issue": null,
+      "name": "Burn 25 willow logs.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Fletch 35 or more arrow shafts from a single log.",
+      "id": 964,
+      "issue": null,
+      "name": "Fletch 35 or more arrow shafts from a single log.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Complete a Soul Reaper task.",
+      "id": 981,
+      "issue": null,
+      "name": "Complete a Soul Reaper task.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Activate Soul Split prayer.",
+      "id": 1052,
+      "issue": null,
+      "name": "Activate Soul Split prayer.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
       "description": "Reach level 99 Thieving.",
       "id": 1087,
       "issue": null,
@@ -804,6 +1019,16 @@
       "points": 10,
       "region": "Havenhythe",
       "tier": "easy"
+    },
+    {
+      "blessing_task": true,
+      "description": "Defeat Silverquill, the Dreadhog.",
+      "id": 1206,
+      "issue": null,
+      "name": "Defeat Silverquill, the Dreadhog.",
+      "points": 10,
+      "region": "Havenhythe",
+      "tier": "easy"
     }
   ],
   "player": "112321",
@@ -811,10 +1036,10 @@
   "points_to_t4": 0,
   "relic_tier": 4,
   "source": "WikiSync + fresh ScapeLeagues task catalog fallback",
-  "task_delta_since_stored_snapshot": 59,
-  "tasks_to_first_elective_region": 15,
-  "timestamp_utc": "2026-08-24T05:18:05.582Z",
-  "total_level": 1265,
-  "total_level_delta_since_stored_snapshot": 554,
+  "task_delta_since_stored_snapshot": 79,
+  "tasks_to_first_elective_region": 0,
+  "timestamp_utc": "2026-08-24T20:55:42.447Z",
+  "total_level": 1477,
+  "total_level_delta_since_stored_snapshot": 766,
   "unmapped_completed_task_ids": []
 }
