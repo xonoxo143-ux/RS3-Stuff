@@ -1,8 +1,8 @@
 {
   "blessing_tasks_completed": 6,
   "catalog_task_count": 1152,
-  "completed_tasks": 180,
-  "league_points": 5170,
+  "completed_tasks": 181,
+  "league_points": 5370,
   "level_ups_since_stored_snapshot": [
     {
       "from": 15,
@@ -32,7 +32,7 @@
     {
       "from": 71,
       "skill": "Prayer",
-      "to": 98
+      "to": 99
     },
     {
       "from": 33,
@@ -47,12 +47,12 @@
     {
       "from": 34,
       "skill": "Woodcutting",
-      "to": 51
+      "to": 53
     },
     {
       "from": 20,
       "skill": "Fletching",
-      "to": 56
+      "to": 58
     },
     {
       "from": 6,
@@ -72,12 +72,12 @@
     {
       "from": 37,
       "skill": "Smithing",
-      "to": 52
+      "to": 54
     },
     {
       "from": 46,
       "skill": "Mining",
-      "to": 64
+      "to": 65
     },
     {
       "from": 14,
@@ -87,7 +87,7 @@
     {
       "from": 84,
       "skill": "Thieving",
-      "to": 101
+      "to": 104
     },
     {
       "from": 19,
@@ -139,25 +139,25 @@
     "Farming": 2,
     "Firemaking": 45,
     "Fishing": 32,
-    "Fletching": 56,
+    "Fletching": 58,
     "Herblore": 57,
     "Hunter": 2,
     "Invention": 1,
     "Magic": 66,
-    "Mining": 64,
+    "Mining": 65,
     "Necromancy": 84,
-    "Prayer": 98,
+    "Prayer": 99,
     "Ranged": 28,
     "Runecrafting": 51,
     "Slayer": 57,
-    "Smithing": 52,
+    "Smithing": 54,
     "Strength": 58,
     "Summoning": 45,
-    "Thieving": 101,
-    "Woodcutting": 51
+    "Thieving": 104,
+    "Woodcutting": 53
   },
-  "lp_delta_since_stored_snapshot": 2980,
-  "mapped_completed_tasks": 180,
+  "lp_delta_since_stored_snapshot": 3180,
+  "mapped_completed_tasks": 181,
   "new_task_ids_since_stored_snapshot": [
     8,
     16,
@@ -231,6 +231,7 @@
     964,
     981,
     1052,
+    1080,
     1087,
     1103,
     1141,
@@ -962,6 +963,16 @@
     },
     {
       "blessing_task": false,
+      "description": "Reach level 99 Prayer.",
+      "id": 1080,
+      "issue": null,
+      "name": "Reach level 99 in the Prayer skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
       "description": "Reach level 99 Thieving.",
       "id": 1087,
       "issue": null,
@@ -1036,10 +1047,10 @@
   "points_to_t4": 0,
   "relic_tier": 4,
   "source": "WikiSync + fresh ScapeLeagues task catalog fallback",
-  "task_delta_since_stored_snapshot": 79,
+  "task_delta_since_stored_snapshot": 80,
   "tasks_to_first_elective_region": 0,
-  "timestamp_utc": "2026-08-24T20:55:42.447Z",
-  "total_level": 1477,
-  "total_level_delta_since_stored_snapshot": 766,
+  "timestamp_utc": "2026-08-24T22:13:36.152Z",
+  "total_level": 1488,
+  "total_level_delta_since_stored_snapshot": 777,
   "unmapped_completed_task_ids": []
 }
