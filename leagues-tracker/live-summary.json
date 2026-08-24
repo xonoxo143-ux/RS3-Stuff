@@ -1,8 +1,8 @@
 {
   "blessing_tasks_completed": 4,
   "catalog_task_count": 1152,
-  "completed_tasks": 158,
-  "league_points": 4250,
+  "completed_tasks": 160,
+  "league_points": 4270,
   "level_ups_since_stored_snapshot": [
     {
       "from": 15,
@@ -12,7 +12,7 @@
     {
       "from": 31,
       "skill": "Defence",
-      "to": 66
+      "to": 67
     },
     {
       "from": 15,
@@ -22,7 +22,7 @@
     {
       "from": 29,
       "skill": "Constitution",
-      "to": 62
+      "to": 63
     },
     {
       "from": 6,
@@ -32,17 +32,17 @@
     {
       "from": 71,
       "skill": "Prayer",
-      "to": 96
+      "to": 97
     },
     {
       "from": 33,
       "skill": "Magic",
-      "to": 64
+      "to": 65
     },
     {
       "from": 17,
       "skill": "Cooking",
-      "to": 50
+      "to": 51
     },
     {
       "from": 34,
@@ -62,7 +62,7 @@
     {
       "from": 16,
       "skill": "Firemaking",
-      "to": 29
+      "to": 36
     },
     {
       "from": 27,
@@ -117,31 +117,31 @@
     {
       "from": 1,
       "skill": "Necromancy",
-      "to": 71
+      "to": 75
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 19,
     "Attack": 36,
-    "Constitution": 62,
+    "Constitution": 63,
     "Construction": 1,
-    "Cooking": 50,
+    "Cooking": 51,
     "Crafting": 70,
-    "Defence": 66,
+    "Defence": 67,
     "Divination": 34,
     "Dungeoneering": 1,
     "Farming": 2,
-    "Firemaking": 29,
+    "Firemaking": 36,
     "Fishing": 32,
     "Fletching": 52,
     "Herblore": 38,
     "Hunter": 2,
     "Invention": 1,
-    "Magic": 64,
+    "Magic": 65,
     "Mining": 60,
-    "Necromancy": 71,
-    "Prayer": 96,
+    "Necromancy": 75,
+    "Prayer": 97,
     "Ranged": 28,
     "Runecrafting": 51,
     "Slayer": 19,
@@ -151,8 +151,8 @@
     "Thieving": 100,
     "Woodcutting": 43
   },
-  "lp_delta_since_stored_snapshot": 2060,
-  "mapped_completed_tasks": 158,
+  "lp_delta_since_stored_snapshot": 2080,
+  "mapped_completed_tasks": 160,
   "new_task_ids_since_stored_snapshot": [
     8,
     16,
@@ -162,6 +162,8 @@
     63,
     64,
     65,
+    66,
+    68,
     72,
     73,
     79,
@@ -289,6 +291,26 @@
       "id": 65,
       "issue": null,
       "name": "Complete a Lesser Necroplasm ritual.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Conjure a Skeleton Warrior at the Um ritual site.",
+      "id": 66,
+      "issue": null,
+      "name": "Conjure a skeleton at the City of Um ritual site.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Conjure a Vengeful Ghost at the Um ritual site.",
+      "id": 68,
+      "issue": null,
+      "name": "Conjure a ghost at the City of Um ritual site.",
       "points": 10,
       "region": "Misthalin",
       "tier": "easy"
@@ -789,10 +811,10 @@
   "points_to_t4": 0,
   "relic_tier": 4,
   "source": "WikiSync + fresh ScapeLeagues task catalog fallback",
-  "task_delta_since_stored_snapshot": 57,
-  "tasks_to_first_elective_region": 17,
-  "timestamp_utc": "2026-08-23T14:08:42.465Z",
-  "total_level": 1249,
-  "total_level_delta_since_stored_snapshot": 538,
+  "task_delta_since_stored_snapshot": 59,
+  "tasks_to_first_elective_region": 15,
+  "timestamp_utc": "2026-08-24T05:18:05.582Z",
+  "total_level": 1265,
+  "total_level_delta_since_stored_snapshot": 554,
   "unmapped_completed_task_ids": []
 }
