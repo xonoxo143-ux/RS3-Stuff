@@ -1,5 +1,5 @@
 {
-  "accessible_actionable_count": 526,
+  "accessible_actionable_count": 525,
   "accessible_actionable_tasks": [
     {
       "blessing_task": false,
@@ -597,6 +597,16 @@
       "id": 1035,
       "issue": null,
       "name": "Smith 10,000 primal armour spikes.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "description": "Mine 70 banite ore.",
+      "id": 1037,
+      "issue": null,
+      "name": "Mine 70 banite ore.",
       "points": 200,
       "region": "Global",
       "tier": "elite"
@@ -2413,7 +2423,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Fletch a rune 2h crossbow.",
+      "description": "Fletch a rune crossbow.",
       "id": 963,
       "issue": null,
       "name": "Fletch a rune crossbow.",
@@ -3566,7 +3576,7 @@
       "description": "Equip a maple longbow.",
       "id": 883,
       "issue": null,
-      "name": "Equip a maple shieldbow.",
+      "name": "Equip a maple longbow.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -3576,7 +3586,7 @@
       "description": "Fletch 50 unstrung maple longbows.",
       "id": 884,
       "issue": null,
-      "name": "Fletch 50 maple shieldbow (unstrung).",
+      "name": "Fletch 50 maple longbow (unstrung).",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -3707,16 +3717,6 @@
       "id": 903,
       "issue": null,
       "name": "Catch a gourmet impling.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Light a bullseye lantern.",
-      "id": 904,
-      "issue": null,
-      "name": "Light a bullseye lantern.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -4187,16 +4187,6 @@
       "id": 608,
       "issue": null,
       "name": "Convert 100 gleaming memories in an energy rift.",
-      "points": 30,
-      "region": "Karamja",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Mine a drakolith rock in the Tai Bwo Wannai mine.",
-      "id": 609,
-      "issue": null,
-      "name": "Mine a drakolith rock in the Tai Bwo Wannai mine.",
       "points": 30,
       "region": "Karamja",
       "tier": "medium"
@@ -6265,16 +6255,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Mine 70 banite ore.",
-      "id": 1037,
-      "issue": null,
-      "name": "Mine 70 banite ore.",
-      "points": 200,
-      "region": "Fremennik",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
       "description": "Equip a full set of bane armour.",
       "id": 1055,
       "issue": null,
@@ -6529,6 +6509,16 @@
       "id": 1035,
       "issue": null,
       "name": "Smith 10,000 primal armour spikes.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "description": "Mine 70 banite ore.",
+      "id": 1037,
+      "issue": null,
+      "name": "Mine 70 banite ore.",
       "points": 200,
       "region": "Global",
       "tier": "elite"
@@ -9277,7 +9267,7 @@
       "blessing_task": false,
       "description": "Collect from Managing Miscellania with a 100% approval rating.",
       "id": 398,
-      "issue": null,
+      "issue": "Cannot be completed",
       "name": "Collect Miscellania resources at full approval.",
       "points": 80,
       "region": "Fremennik",
@@ -9367,7 +9357,7 @@
       "blessing_task": false,
       "description": "Complete the Hard Fremennik achievements.",
       "id": 412,
-      "issue": null,
+      "issue": "Cannot be completed",
       "name": "Complete the task set: Hard Fremennik.",
       "points": 80,
       "region": "Fremennik",
@@ -9775,7 +9765,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Fletch a rune 2h crossbow.",
+      "description": "Fletch a rune crossbow.",
       "id": 963,
       "issue": null,
       "name": "Fletch a rune crossbow.",
@@ -10227,7 +10217,7 @@
       "blessing_task": false,
       "description": "Catch 30 red chinchompas in Kandarin.",
       "id": 460,
-      "issue": "Cannot be completed",
+      "issue": null,
       "name": "Catch 30 red chinchompas in Kandarin.",
       "points": 80,
       "region": "Kandarin",
@@ -10267,7 +10257,7 @@
       "blessing_task": false,
       "description": "Complete the Hard Ardougne achievements.",
       "id": 466,
-      "issue": "Cannot be completed",
+      "issue": null,
       "name": "Complete the task set: Hard Ardougne.",
       "points": 80,
       "region": "Kandarin",
@@ -12068,7 +12058,7 @@
       "description": "Equip a maple longbow.",
       "id": 883,
       "issue": null,
-      "name": "Equip a maple shieldbow.",
+      "name": "Equip a maple longbow.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -12078,7 +12068,7 @@
       "description": "Fletch 50 unstrung maple longbows.",
       "id": 884,
       "issue": null,
-      "name": "Fletch 50 maple shieldbow (unstrung).",
+      "name": "Fletch 50 maple longbow (unstrung).",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -12209,16 +12199,6 @@
       "id": 903,
       "issue": null,
       "name": "Catch a gourmet impling.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Light a bullseye lantern.",
-      "id": 904,
-      "issue": null,
-      "name": "Light a bullseye lantern.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -12648,7 +12628,7 @@
       "description": "Fletch 50 unstrung maple longbows in Kandarin.",
       "id": 434,
       "issue": null,
-      "name": "Fletch 50 maple shieldbow (unstrung) in Kandarin.",
+      "name": "Fletch 50 maple longbow (unstrung) in Kandarin.",
       "points": 30,
       "region": "Kandarin",
       "tier": "medium"
@@ -12879,16 +12859,6 @@
       "id": 608,
       "issue": null,
       "name": "Convert 100 gleaming memories in an energy rift.",
-      "points": 30,
-      "region": "Karamja",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Mine a drakolith rock in the Tai Bwo Wannai mine.",
-      "id": 609,
-      "issue": null,
-      "name": "Mine a drakolith rock in the Tai Bwo Wannai mine.",
       "points": 30,
       "region": "Karamja",
       "tier": "medium"
@@ -13937,7 +13907,7 @@
       "blessing_task": false,
       "description": "Deposit an item with Peer the Seer.",
       "id": 361,
-      "issue": "Cannot be completed",
+      "issue": null,
       "name": "Deposit an item with Peer the Seer.",
       "points": 10,
       "region": "Fremennik",
@@ -14960,7 +14930,7 @@
     131,
     988
   ],
-  "timestamp_utc": "2026-08-24T23:00:21.669Z",
+  "timestamp_utc": "2026-08-25T03:50:04.564Z",
   "unlocked_regions": [
     "Misthalin",
     "Havenhythe",

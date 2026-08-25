@@ -123,6 +123,7 @@
     312,
     319,
     598,
+    609,
     610,
     612,
     614,
@@ -158,6 +159,7 @@
     889,
     896,
     902,
+    904,
     905,
     907,
     908,
@@ -186,7 +188,7 @@
     1205,
     1206
   ],
-  "completed_tasks": 183,
+  "completed_tasks": 185,
   "confirmed_relic_choices": {
     "1": "Golden Touch",
     "2": "Divine Druid",
@@ -205,8 +207,54 @@
     131,
     988
   ],
-  "league_points": 5480,
-  "level_ups_since_previous_live_sync": [],
+  "league_points": 5540,
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 66,
+      "skill": "Magic",
+      "to": 67
+    },
+    {
+      "from": 75,
+      "skill": "Crafting",
+      "to": 76
+    },
+    {
+      "from": 54,
+      "skill": "Smithing",
+      "to": 65
+    },
+    {
+      "from": 65,
+      "skill": "Mining",
+      "to": 69
+    },
+    {
+      "from": 104,
+      "skill": "Thieving",
+      "to": 105
+    },
+    {
+      "from": 55,
+      "skill": "Runecrafting",
+      "to": 56
+    },
+    {
+      "from": 45,
+      "skill": "Summoning",
+      "to": 46
+    },
+    {
+      "from": 34,
+      "skill": "Divination",
+      "to": 41
+    },
+    {
+      "from": 84,
+      "skill": "Necromancy",
+      "to": 85
+    }
+  ],
   "levels": {
     "Agility": 99,
     "Archaeology": 47,
@@ -214,9 +262,9 @@
     "Constitution": 78,
     "Construction": 1,
     "Cooking": 61,
-    "Crafting": 75,
+    "Crafting": 76,
     "Defence": 80,
-    "Divination": 34,
+    "Divination": 41,
     "Dungeoneering": 1,
     "Farming": 2,
     "Firemaking": 51,
@@ -225,30 +273,54 @@
     "Herblore": 57,
     "Hunter": 2,
     "Invention": 1,
-    "Magic": 66,
-    "Mining": 65,
-    "Necromancy": 84,
+    "Magic": 67,
+    "Mining": 69,
+    "Necromancy": 85,
     "Prayer": 99,
     "Ranged": 28,
-    "Runecrafting": 55,
+    "Runecrafting": 56,
     "Slayer": 57,
-    "Smithing": 54,
+    "Smithing": 65,
     "Strength": 60,
-    "Summoning": 45,
-    "Thieving": 104,
+    "Summoning": 46,
+    "Thieving": 105,
     "Woodcutting": 53
   },
-  "mapped_completed_tasks": 183,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 185,
+  "new_task_ids_since_previous_live_sync": [
+    609,
+    904
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Mine a drakolith rock in the Tai Bwo Wannai mine.",
+      "id": 609,
+      "issue": null,
+      "name": "Mine a drakolith rock in the Tai Bwo Wannai mine.",
+      "points": 30,
+      "region": "Karamja",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Light a bullseye lantern.",
+      "id": 904,
+      "issue": null,
+      "name": "Light a bullseye lantern.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    }
+  ],
   "player": "112321",
-  "points_to_t5": 520,
+  "points_to_t5": 460,
   "relic_tier": 4,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 0,
-  "tasks_to_second_elective_region": 117,
-  "tasks_to_third_elective_region": 267,
-  "timestamp_utc": "2026-08-24T23:00:21.669Z",
-  "total_level": 1509,
+  "task_delta_since_previous_live_sync": 2,
+  "tasks_to_second_elective_region": 115,
+  "tasks_to_third_elective_region": 265,
+  "timestamp_utc": "2026-08-25T03:50:04.564Z",
+  "total_level": 1537,
   "unmapped_completed_task_ids": []
 }
