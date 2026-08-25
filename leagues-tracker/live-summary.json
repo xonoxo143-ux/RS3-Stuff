@@ -1,10 +1,11 @@
 {
-  "blessing_tasks_completed": 8,
+  "blessing_tasks_completed": 9,
   "catalog_task_count": 1152,
   "completed_task_ids": [
     0,
     1,
     2,
+    3,
     5,
     8,
     16,
@@ -119,6 +120,7 @@
     282,
     284,
     296,
+    297,
     304,
     312,
     319,
@@ -127,6 +129,7 @@
     610,
     612,
     614,
+    623,
     664,
     807,
     813,
@@ -152,6 +155,7 @@
     863,
     865,
     869,
+    879,
     880,
     885,
     886,
@@ -168,6 +172,7 @@
     913,
     920,
     964,
+    972,
     981,
     1052,
     1060,
@@ -193,12 +198,13 @@
     1249,
     1250
   ],
-  "completed_tasks": 190,
+  "completed_tasks": 195,
   "confirmed_relic_choices": {
     "1": "Golden Touch",
     "2": "Divine Druid",
     "3": "Voidwalker",
-    "4": "Transmutation"
+    "4": "Transmutation",
+    "5": "Devout"
   },
   "confirmed_unlocked_regions": [
     "Misthalin",
@@ -212,42 +218,37 @@
     131,
     988
   ],
-  "league_points": 5790,
+  "league_points": 6020,
   "level_ups_since_previous_live_sync": [
     {
-      "from": 60,
-      "skill": "Attack",
-      "to": 71
-    },
-    {
-      "from": 80,
-      "skill": "Defence",
-      "to": 83
-    },
-    {
-      "from": 60,
-      "skill": "Strength",
-      "to": 71
-    },
-    {
-      "from": 78,
-      "skill": "Constitution",
-      "to": 81
-    },
-    {
-      "from": 53,
+      "from": 56,
       "skill": "Woodcutting",
-      "to": 56
+      "to": 60
     },
     {
-      "from": 32,
+      "from": 34,
       "skill": "Fishing",
-      "to": 34
+      "to": 35
     },
     {
-      "from": 85,
+      "from": 57,
+      "skill": "Herblore",
+      "to": 59
+    },
+    {
+      "from": 46,
+      "skill": "Summoning",
+      "to": 49
+    },
+    {
+      "from": 41,
+      "skill": "Divination",
+      "to": 42
+    },
+    {
+      "from": 86,
       "skill": "Necromancy",
-      "to": 86
+      "to": 87
     }
   ],
   "levels": {
@@ -259,96 +260,96 @@
     "Cooking": 61,
     "Crafting": 76,
     "Defence": 83,
-    "Divination": 41,
+    "Divination": 42,
     "Dungeoneering": 1,
     "Farming": 2,
     "Firemaking": 51,
-    "Fishing": 34,
+    "Fishing": 35,
     "Fletching": 58,
-    "Herblore": 57,
+    "Herblore": 59,
     "Hunter": 2,
     "Invention": 1,
     "Magic": 67,
     "Mining": 69,
-    "Necromancy": 86,
+    "Necromancy": 87,
     "Prayer": 99,
     "Ranged": 28,
     "Runecrafting": 56,
     "Slayer": 57,
     "Smithing": 65,
     "Strength": 71,
-    "Summoning": 46,
+    "Summoning": 49,
     "Thieving": 105,
-    "Woodcutting": 56
+    "Woodcutting": 60
   },
-  "mapped_completed_tasks": 190,
+  "mapped_completed_tasks": 195,
   "new_task_ids_since_previous_live_sync": [
-    1204,
-    1207,
-    1248,
-    1249,
-    1250
+    3,
+    297,
+    623,
+    879,
+    972
   ],
   "new_tasks_since_previous_live_sync": [
     {
       "blessing_task": false,
-      "description": "Defeat Ivar, King of Bones 25 times.",
-      "id": 1204,
+      "description": "Have Ned make you some rope from 4 balls of wool.",
+      "id": 3,
       "issue": null,
-      "name": "Defeat Ivar, King of Bones.",
+      "name": "Have Ned make you some rope from balls of wool.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": true,
+      "description": "Defeat the Kalphite Queen.",
+      "id": 297,
+      "issue": null,
+      "name": "Defeat the Kalphite Queen.",
       "points": 30,
-      "region": "Havenhythe",
+      "region": "Desert",
       "tier": "medium"
     },
     {
       "blessing_task": false,
-      "description": "Defeat Silverquill, the Dreadhog 25 times.",
-      "id": 1207,
+      "description": "Use the stepping stones Agility shortcut in Shilo Village.",
+      "id": 623,
       "issue": null,
-      "name": "Defeat Silverquill, the Dreadhog.",
-      "points": 30,
-      "region": "Havenhythe",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": true,
-      "description": "Complete the 'Hedge Your Bets' Combat Mastery achievement.",
-      "id": 1248,
-      "issue": null,
-      "name": "Defeat Silverquill, the Dreadhog, after using 'Resonance' or 'Divert' to mitigate all of her 'Blood Hog' attacks.",
-      "points": 30,
-      "region": "Havenhythe",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": true,
-      "description": "Complete all Combat Mastery achievements for Ivar, King of Bones.",
-      "id": 1249,
-      "issue": null,
-      "name": "Complete all Combat Mastery achievements for Ivar, King of Bones.",
+      "name": "Use the stepping stone across the river in Shilo village.",
       "points": 80,
-      "region": "Havenhythe",
+      "region": "Karamja",
       "tier": "hard"
     },
     {
       "blessing_task": false,
-      "description": "Complete all Combat Mastery achievements for Silverquill, the Dreadhog.",
-      "id": 1250,
+      "description": "Clean 50 grimy ranarr.",
+      "id": 879,
       "issue": null,
-      "name": "Complete all Combat Mastery achievements for Silverquill, the Dreadhog.",
+      "name": "Clean 50 grimy ranarr.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Mine 50 drakolith.",
+      "id": 972,
+      "issue": null,
+      "name": "Mine 50 drakolith.",
       "points": 80,
-      "region": "Havenhythe",
+      "region": "Global",
       "tier": "hard"
     }
   ],
   "player": "112321",
-  "points_to_t5": 210,
-  "relic_tier": 4,
+  "points_to_t5": 0,
+  "relic_tier": 5,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
   "task_delta_since_previous_live_sync": 5,
-  "tasks_to_second_elective_region": 110,
-  "tasks_to_third_elective_region": 260,
-  "timestamp_utc": "2026-08-25T06:10:02.507Z",
-  "total_level": 1571,
+  "tasks_to_second_elective_region": 105,
+  "tasks_to_third_elective_region": 255,
+  "timestamp_utc": "2026-08-25T07:11:08.427Z",
+  "total_level": 1583,
   "unmapped_completed_task_ids": []
 }

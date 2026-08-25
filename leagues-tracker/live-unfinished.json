@@ -1,5 +1,5 @@
 {
-  "accessible_actionable_count": 520,
+  "accessible_actionable_count": 515,
   "accessible_actionable_tasks": [
     {
       "blessing_task": false,
@@ -2473,16 +2473,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Mine 50 drakolith.",
-      "id": 972,
-      "issue": null,
-      "name": "Mine 50 drakolith.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Mine 60 necrite ore.",
       "id": 973,
       "issue": null,
@@ -2789,16 +2779,6 @@
       "name": "Uncover the depths of the Moonrise digsite.",
       "points": 80,
       "region": "Havenhythe",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Use the stepping stones Agility shortcut in Shilo Village.",
-      "id": 623,
-      "issue": null,
-      "name": "Use the stepping stone across the river in Shilo village.",
-      "points": 80,
-      "region": "Karamja",
       "tier": "hard"
     },
     {
@@ -3212,16 +3192,6 @@
       "tier": "medium"
     },
     {
-      "blessing_task": true,
-      "description": "Defeat the Kalphite Queen.",
-      "id": 297,
-      "issue": null,
-      "name": "Defeat the Kalphite Queen.",
-      "points": 30,
-      "region": "Desert",
-      "tier": "medium"
-    },
-    {
       "blessing_task": false,
       "description": "Defeat the Kalphite Queen 25 times.",
       "id": 298,
@@ -3517,16 +3487,6 @@
       "id": 878,
       "issue": null,
       "name": "Make 20 super attack potions.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Clean 50 grimy ranarr.",
-      "id": 879,
-      "issue": null,
-      "name": "Clean 50 grimy ranarr.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -5109,16 +5069,6 @@
       "name": "Cross the spiky pit using the stepping stones within Brimhaven Dungeon.",
       "points": 10,
       "region": "Karamja",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Have Ned make you some rope from 4 balls of wool.",
-      "id": 3,
-      "issue": null,
-      "name": "Have Ned make you some rope from balls of wool.",
-      "points": 10,
-      "region": "Misthalin",
       "tier": "easy"
     },
     {
@@ -9765,16 +9715,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Mine 50 drakolith.",
-      "id": 972,
-      "issue": null,
-      "name": "Mine 50 drakolith.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Mine 60 necrite ore.",
       "id": 973,
       "issue": null,
@@ -10251,16 +10191,6 @@
       "name": "Defeat any of the Ascension Legiones.",
       "points": 80,
       "region": "Kandarin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Use the stepping stones Agility shortcut in Shilo Village.",
-      "id": 623,
-      "issue": null,
-      "name": "Use the stepping stone across the river in Shilo village.",
-      "points": 80,
-      "region": "Karamja",
       "tier": "hard"
     },
     {
@@ -11404,16 +11334,6 @@
       "tier": "medium"
     },
     {
-      "blessing_task": true,
-      "description": "Defeat the Kalphite Queen.",
-      "id": 297,
-      "issue": null,
-      "name": "Defeat the Kalphite Queen.",
-      "points": 30,
-      "region": "Desert",
-      "tier": "medium"
-    },
-    {
       "blessing_task": false,
       "description": "Defeat the Kalphite Queen 25 times.",
       "id": 298,
@@ -11949,16 +11869,6 @@
       "id": 878,
       "issue": null,
       "name": "Make 20 super attack potions.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Clean 50 grimy ranarr.",
-      "id": 879,
-      "issue": null,
-      "name": "Clean 50 grimy ranarr.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -14455,16 +14365,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Have Ned make you some rope from 4 balls of wool.",
-      "id": 3,
-      "issue": null,
-      "name": "Have Ned make you some rope from balls of wool.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Siphon from a fire essling in the Runespan.",
       "id": 4,
       "issue": null,
@@ -14830,7 +14730,7 @@
     131,
     988
   ],
-  "timestamp_utc": "2026-08-25T06:10:02.507Z",
+  "timestamp_utc": "2026-08-25T07:11:08.427Z",
   "unlocked_regions": [
     "Misthalin",
     "Havenhythe",
