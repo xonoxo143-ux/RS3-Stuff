@@ -1,5 +1,5 @@
 {
-  "blessing_tasks_completed": 6,
+  "blessing_tasks_completed": 8,
   "catalog_task_count": 1152,
   "completed_task_ids": [
     0,
@@ -185,10 +185,15 @@
     1172,
     1179,
     1203,
+    1204,
     1205,
-    1206
+    1206,
+    1207,
+    1248,
+    1249,
+    1250
   ],
-  "completed_tasks": 185,
+  "completed_tasks": 190,
   "confirmed_relic_choices": {
     "1": "Golden Touch",
     "2": "Divine Druid",
@@ -207,120 +212,143 @@
     131,
     988
   ],
-  "league_points": 5540,
+  "league_points": 5790,
   "level_ups_since_previous_live_sync": [
     {
-      "from": 66,
-      "skill": "Magic",
-      "to": 67
+      "from": 60,
+      "skill": "Attack",
+      "to": 71
     },
     {
-      "from": 75,
-      "skill": "Crafting",
-      "to": 76
+      "from": 80,
+      "skill": "Defence",
+      "to": 83
     },
     {
-      "from": 54,
-      "skill": "Smithing",
-      "to": 65
+      "from": 60,
+      "skill": "Strength",
+      "to": 71
     },
     {
-      "from": 65,
-      "skill": "Mining",
-      "to": 69
+      "from": 78,
+      "skill": "Constitution",
+      "to": 81
     },
     {
-      "from": 104,
-      "skill": "Thieving",
-      "to": 105
-    },
-    {
-      "from": 55,
-      "skill": "Runecrafting",
+      "from": 53,
+      "skill": "Woodcutting",
       "to": 56
     },
     {
-      "from": 45,
-      "skill": "Summoning",
-      "to": 46
+      "from": 32,
+      "skill": "Fishing",
+      "to": 34
     },
     {
-      "from": 34,
-      "skill": "Divination",
-      "to": 41
-    },
-    {
-      "from": 84,
+      "from": 85,
       "skill": "Necromancy",
-      "to": 85
+      "to": 86
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 47,
-    "Attack": 60,
-    "Constitution": 78,
+    "Attack": 71,
+    "Constitution": 81,
     "Construction": 1,
     "Cooking": 61,
     "Crafting": 76,
-    "Defence": 80,
+    "Defence": 83,
     "Divination": 41,
     "Dungeoneering": 1,
     "Farming": 2,
     "Firemaking": 51,
-    "Fishing": 32,
+    "Fishing": 34,
     "Fletching": 58,
     "Herblore": 57,
     "Hunter": 2,
     "Invention": 1,
     "Magic": 67,
     "Mining": 69,
-    "Necromancy": 85,
+    "Necromancy": 86,
     "Prayer": 99,
     "Ranged": 28,
     "Runecrafting": 56,
     "Slayer": 57,
     "Smithing": 65,
-    "Strength": 60,
+    "Strength": 71,
     "Summoning": 46,
     "Thieving": 105,
-    "Woodcutting": 53
+    "Woodcutting": 56
   },
-  "mapped_completed_tasks": 185,
+  "mapped_completed_tasks": 190,
   "new_task_ids_since_previous_live_sync": [
-    609,
-    904
+    1204,
+    1207,
+    1248,
+    1249,
+    1250
   ],
   "new_tasks_since_previous_live_sync": [
     {
       "blessing_task": false,
-      "description": "Mine a drakolith rock in the Tai Bwo Wannai mine.",
-      "id": 609,
+      "description": "Defeat Ivar, King of Bones 25 times.",
+      "id": 1204,
       "issue": null,
-      "name": "Mine a drakolith rock in the Tai Bwo Wannai mine.",
+      "name": "Defeat Ivar, King of Bones.",
       "points": 30,
-      "region": "Karamja",
+      "region": "Havenhythe",
       "tier": "medium"
     },
     {
       "blessing_task": false,
-      "description": "Light a bullseye lantern.",
-      "id": 904,
+      "description": "Defeat Silverquill, the Dreadhog 25 times.",
+      "id": 1207,
       "issue": null,
-      "name": "Light a bullseye lantern.",
+      "name": "Defeat Silverquill, the Dreadhog.",
       "points": 30,
-      "region": "Global",
+      "region": "Havenhythe",
       "tier": "medium"
+    },
+    {
+      "blessing_task": true,
+      "description": "Complete the 'Hedge Your Bets' Combat Mastery achievement.",
+      "id": 1248,
+      "issue": null,
+      "name": "Defeat Silverquill, the Dreadhog, after using 'Resonance' or 'Divert' to mitigate all of her 'Blood Hog' attacks.",
+      "points": 30,
+      "region": "Havenhythe",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": true,
+      "description": "Complete all Combat Mastery achievements for Ivar, King of Bones.",
+      "id": 1249,
+      "issue": null,
+      "name": "Complete all Combat Mastery achievements for Ivar, King of Bones.",
+      "points": 80,
+      "region": "Havenhythe",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Complete all Combat Mastery achievements for Silverquill, the Dreadhog.",
+      "id": 1250,
+      "issue": null,
+      "name": "Complete all Combat Mastery achievements for Silverquill, the Dreadhog.",
+      "points": 80,
+      "region": "Havenhythe",
+      "tier": "hard"
     }
   ],
   "player": "112321",
-  "points_to_t5": 460,
+  "points_to_t5": 210,
   "relic_tier": 4,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 2,
-  "tasks_to_second_elective_region": 115,
-  "tasks_to_third_elective_region": 265,
-  "timestamp_utc": "2026-08-25T03:50:04.564Z",
-  "total_level": 1537,
+  "task_delta_since_previous_live_sync": 5,
+  "tasks_to_second_elective_region": 110,
+  "tasks_to_third_elective_region": 260,
+  "timestamp_utc": "2026-08-25T06:10:02.507Z",
+  "total_level": 1571,
   "unmapped_completed_task_ids": []
 }

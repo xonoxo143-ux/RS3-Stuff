@@ -1,5 +1,5 @@
 {
-  "accessible_actionable_count": 525,
+  "accessible_actionable_count": 520,
   "accessible_actionable_tasks": [
     {
       "blessing_task": false,
@@ -2792,26 +2792,6 @@
       "tier": "hard"
     },
     {
-      "blessing_task": true,
-      "description": "Complete all Combat Mastery achievements for Ivar, King of Bones.",
-      "id": 1249,
-      "issue": null,
-      "name": "Complete all Combat Mastery achievements for Ivar, King of Bones.",
-      "points": 80,
-      "region": "Havenhythe",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete all Combat Mastery achievements for Silverquill, the Dreadhog.",
-      "id": 1250,
-      "issue": null,
-      "name": "Complete all Combat Mastery achievements for Silverquill, the Dreadhog.",
-      "points": 80,
-      "region": "Havenhythe",
-      "tier": "hard"
-    },
-    {
       "blessing_task": false,
       "description": "Use the stepping stones Agility shortcut in Shilo Village.",
       "id": 623,
@@ -4083,26 +4063,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Defeat Ivar, King of Bones 25 times.",
-      "id": 1204,
-      "issue": null,
-      "name": "Defeat Ivar, King of Bones.",
-      "points": 30,
-      "region": "Havenhythe",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat Silverquill, the Dreadhog 25 times.",
-      "id": 1207,
-      "issue": null,
-      "name": "Defeat Silverquill, the Dreadhog.",
-      "points": 30,
-      "region": "Havenhythe",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Defeat Silverquill, the Dreadhog, solo, using only havensilver weapons.",
       "id": 1208,
       "issue": null,
@@ -4127,16 +4087,6 @@
       "id": 1213,
       "issue": null,
       "name": "Bring a restored bloodwine artefact to Anya.",
-      "points": 30,
-      "region": "Havenhythe",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": true,
-      "description": "Complete the 'Hedge Your Bets' Combat Mastery achievement.",
-      "id": 1248,
-      "issue": null,
-      "name": "Defeat Silverquill, the Dreadhog, after using 'Resonance' or 'Divert' to mitigate all of her 'Blood Hog' attacks.",
       "points": 30,
       "region": "Havenhythe",
       "tier": "medium"
@@ -10144,26 +10094,6 @@
       "tier": "hard"
     },
     {
-      "blessing_task": true,
-      "description": "Complete all Combat Mastery achievements for Ivar, King of Bones.",
-      "id": 1249,
-      "issue": null,
-      "name": "Complete all Combat Mastery achievements for Ivar, King of Bones.",
-      "points": 80,
-      "region": "Havenhythe",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete all Combat Mastery achievements for Silverquill, the Dreadhog.",
-      "id": 1250,
-      "issue": null,
-      "name": "Complete all Combat Mastery achievements for Silverquill, the Dreadhog.",
-      "points": 80,
-      "region": "Havenhythe",
-      "tier": "hard"
-    },
-    {
       "blessing_task": false,
       "description": "Talk to Romily Weaklax and give him a wild pie.",
       "id": 119,
@@ -12565,26 +12495,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Defeat Ivar, King of Bones 25 times.",
-      "id": 1204,
-      "issue": null,
-      "name": "Defeat Ivar, King of Bones.",
-      "points": 30,
-      "region": "Havenhythe",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat Silverquill, the Dreadhog 25 times.",
-      "id": 1207,
-      "issue": null,
-      "name": "Defeat Silverquill, the Dreadhog.",
-      "points": 30,
-      "region": "Havenhythe",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Defeat Silverquill, the Dreadhog, solo, using only havensilver weapons.",
       "id": 1208,
       "issue": null,
@@ -12609,16 +12519,6 @@
       "id": 1213,
       "issue": null,
       "name": "Bring a restored bloodwine artefact to Anya.",
-      "points": 30,
-      "region": "Havenhythe",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": true,
-      "description": "Complete the 'Hedge Your Bets' Combat Mastery achievement.",
-      "id": 1248,
-      "issue": null,
-      "name": "Defeat Silverquill, the Dreadhog, after using 'Resonance' or 'Divert' to mitigate all of her 'Blood Hog' attacks.",
       "points": 30,
       "region": "Havenhythe",
       "tier": "medium"
@@ -14930,7 +14830,7 @@
     131,
     988
   ],
-  "timestamp_utc": "2026-08-25T03:50:04.564Z",
+  "timestamp_utc": "2026-08-25T06:10:02.507Z",
   "unlocked_regions": [
     "Misthalin",
     "Havenhythe",
