@@ -25,13 +25,16 @@
     48,
     49,
     50,
+    52,
     53,
     62,
     63,
     64,
     65,
     66,
+    67,
     68,
+    70,
     72,
     73,
     76,
@@ -49,6 +52,7 @@
     116,
     117,
     125,
+    131,
     133,
     134,
     135,
@@ -146,6 +150,8 @@
     836,
     839,
     840,
+    841,
+    842,
     843,
     846,
     847,
@@ -171,6 +177,7 @@
     912,
     913,
     920,
+    922,
     964,
     972,
     981,
@@ -198,7 +205,7 @@
     1249,
     1250
   ],
-  "completed_tasks": 195,
+  "completed_tasks": 202,
   "confirmed_relic_choices": {
     "1": "Golden Touch",
     "2": "Divine Druid",
@@ -218,37 +225,32 @@
     131,
     988
   ],
-  "league_points": 6020,
+  "league_points": 6360,
   "level_ups_since_previous_live_sync": [
     {
+      "from": 67,
+      "skill": "Magic",
+      "to": 68
+    },
+    {
+      "from": 58,
+      "skill": "Fletching",
+      "to": 65
+    },
+    {
+      "from": 65,
+      "skill": "Smithing",
+      "to": 66
+    },
+    {
+      "from": 69,
+      "skill": "Mining",
+      "to": 70
+    },
+    {
       "from": 56,
-      "skill": "Woodcutting",
-      "to": 60
-    },
-    {
-      "from": 34,
-      "skill": "Fishing",
-      "to": 35
-    },
-    {
-      "from": 57,
-      "skill": "Herblore",
-      "to": 59
-    },
-    {
-      "from": 46,
-      "skill": "Summoning",
-      "to": 49
-    },
-    {
-      "from": 41,
-      "skill": "Divination",
-      "to": 42
-    },
-    {
-      "from": 86,
-      "skill": "Necromancy",
-      "to": 87
+      "skill": "Runecrafting",
+      "to": 66
     }
   ],
   "levels": {
@@ -265,91 +267,113 @@
     "Farming": 2,
     "Firemaking": 51,
     "Fishing": 35,
-    "Fletching": 58,
+    "Fletching": 65,
     "Herblore": 59,
     "Hunter": 2,
     "Invention": 1,
-    "Magic": 67,
-    "Mining": 69,
+    "Magic": 68,
+    "Mining": 70,
     "Necromancy": 87,
     "Prayer": 99,
     "Ranged": 28,
-    "Runecrafting": 56,
+    "Runecrafting": 66,
     "Slayer": 57,
-    "Smithing": 65,
+    "Smithing": 66,
     "Strength": 71,
     "Summoning": 49,
     "Thieving": 105,
     "Woodcutting": 60
   },
-  "mapped_completed_tasks": 195,
+  "mapped_completed_tasks": 202,
   "new_task_ids_since_previous_live_sync": [
-    3,
-    297,
-    623,
-    879,
-    972
+    52,
+    67,
+    70,
+    131,
+    841,
+    842,
+    922
   ],
   "new_tasks_since_previous_live_sync": [
     {
       "blessing_task": false,
-      "description": "Have Ned make you some rope from 4 balls of wool.",
-      "id": 3,
+      "description": "Craft 50 cosmic runes.",
+      "id": 52,
       "issue": null,
-      "name": "Have Ned make you some rope from balls of wool.",
+      "name": "Craft 50 cosmic runes.",
+      "points": 30,
+      "region": "Misthalin",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Conjure a Putrid Zombie at the Um ritual site.",
+      "id": 67,
+      "issue": null,
+      "name": "Conjure a zombie at the City of Um ritual site.",
       "points": 10,
       "region": "Misthalin",
       "tier": "easy"
     },
     {
-      "blessing_task": true,
-      "description": "Defeat the Kalphite Queen.",
-      "id": 297,
+      "blessing_task": false,
+      "description": "Complete the Mystical Moonstone achievement.",
+      "id": 70,
       "issue": null,
-      "name": "Defeat the Kalphite Queen.",
+      "name": "Learn how to craft moonstone jewellery.",
       "points": 30,
-      "region": "Desert",
+      "region": "Misthalin",
       "tier": "medium"
     },
     {
       "blessing_task": false,
-      "description": "Use the stepping stones Agility shortcut in Shilo Village.",
-      "id": 623,
+      "description": "Craft 100 earth runes simultaneously without aid from an explorer's ring, Runecrafting pouches or familiars.",
+      "id": 131,
       "issue": null,
-      "name": "Use the stepping stone across the river in Shilo village.",
-      "points": 80,
-      "region": "Karamja",
-      "tier": "hard"
+      "name": "Craft 100 earth runes simultaneously without aid from an explorer's ring, pouches or familiars.",
+      "points": 200,
+      "region": "Misthalin",
+      "tier": "elite"
     },
     {
       "blessing_task": false,
-      "description": "Clean 50 grimy ranarr.",
-      "id": 879,
+      "description": "Offer 25 bones (ashes also work) at an altar.",
+      "id": 841,
       "issue": null,
-      "name": "Clean 50 grimy ranarr.",
+      "name": "Offer 25 bones of any kind to an altar.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Offer 100 bones (ashes also work) at an altar.",
+      "id": 842,
+      "issue": null,
+      "name": "Offer 100 bones of any kind to an altar.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
     },
     {
       "blessing_task": false,
-      "description": "Mine 50 drakolith.",
-      "id": 972,
+      "description": "Equip any elemental battlestaff.",
+      "id": 922,
       "issue": null,
-      "name": "Mine 50 drakolith.",
-      "points": 80,
+      "name": "Equip any elemental battlestaff.",
+      "points": 30,
       "region": "Global",
-      "tier": "hard"
+      "tier": "medium"
     }
   ],
   "player": "112321",
   "points_to_t5": 0,
   "relic_tier": 5,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 5,
-  "tasks_to_second_elective_region": 105,
-  "tasks_to_third_elective_region": 255,
-  "timestamp_utc": "2026-08-25T07:11:08.427Z",
-  "total_level": 1583,
+  "task_delta_since_previous_live_sync": 7,
+  "tasks_to_second_elective_region": 98,
+  "tasks_to_third_elective_region": 248,
+  "timestamp_utc": "2026-08-27T05:22:30.538Z",
+  "total_level": 1603,
   "unmapped_completed_task_ids": []
 }

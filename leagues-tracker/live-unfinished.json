@@ -1,5 +1,5 @@
 {
-  "accessible_actionable_count": 515,
+  "accessible_actionable_count": 509,
   "accessible_actionable_tasks": [
     {
       "blessing_task": false,
@@ -363,7 +363,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Equip a Khopesh of the Kharidian.",
+      "description": "Equip a Khopesh of the Kharidian or an off-hand khopesh of the Kharidian.",
       "id": 1217,
       "issue": null,
       "name": "Equip a Khopesh of the Kharidian.",
@@ -3383,16 +3383,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Offer 100 bones (ashes also work) at an altar.",
-      "id": 842,
-      "issue": null,
-      "name": "Offer 100 bones of any kind to an altar.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Scatter 100 ashes of any kind.",
       "id": 845,
       "issue": null,
@@ -3737,16 +3727,6 @@
       "id": 921,
       "issue": null,
       "name": "Burn 50 maple logs.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip any elemental battlestaff.",
-      "id": 922,
-      "issue": null,
-      "name": "Equip any elemental battlestaff.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -4303,16 +4283,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Craft 50 cosmic runes.",
-      "id": 52,
-      "issue": null,
-      "name": "Craft 50 cosmic runes.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Use the range in Lumbridge Castle to bake a cake.",
       "id": 54,
       "issue": null,
@@ -4337,16 +4307,6 @@
       "id": 69,
       "issue": null,
       "name": "Have either a Putrid Zombie or Vengeful Ghost conjured while fighting the matching creature.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete the Mystical Moonstone achievement.",
-      "id": 70,
-      "issue": null,
-      "name": "Learn how to craft moonstone jewellery.",
       "points": 30,
       "region": "Misthalin",
       "tier": "medium"
@@ -4707,16 +4667,6 @@
       "id": 838,
       "issue": null,
       "name": "Make some bread.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Offer 25 bones (ashes also work) at an altar.",
-      "id": 841,
-      "issue": null,
-      "name": "Offer 25 bones of any kind to an altar.",
       "points": 10,
       "region": "Global",
       "tier": "easy"
@@ -5107,16 +5057,6 @@
       "id": 35,
       "issue": null,
       "name": "Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Conjure a Putrid Zombie at the Um ritual site.",
-      "id": 67,
-      "issue": null,
-      "name": "Conjure a zombie at the City of Um ritual site.",
       "points": 10,
       "region": "Misthalin",
       "tier": "easy"
@@ -6055,7 +5995,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Equip a Khopesh of the Kharidian.",
+      "description": "Equip a Khopesh of the Kharidian or an off-hand khopesh of the Kharidian.",
       "id": 1217,
       "issue": null,
       "name": "Equip a Khopesh of the Kharidian.",
@@ -7679,16 +7619,6 @@
       "id": 130,
       "issue": null,
       "name": "Equip either a Dark Shard of Leng or a Dark Sliver of Leng.",
-      "points": 200,
-      "region": "Misthalin",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Craft 100 earth runes simultaneously without aid from an explorer's ring, Runecrafting pouches or familiars.",
-      "id": 131,
-      "issue": null,
-      "name": "Craft 100 earth runes simultaneously without aid from an explorer's ring, pouches or familiars.",
       "points": 200,
       "region": "Misthalin",
       "tier": "elite"
@@ -11765,16 +11695,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Offer 100 bones (ashes also work) at an altar.",
-      "id": 842,
-      "issue": null,
-      "name": "Offer 100 bones of any kind to an altar.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Scatter 100 ashes of any kind.",
       "id": 845,
       "issue": null,
@@ -12119,16 +12039,6 @@
       "id": 921,
       "issue": null,
       "name": "Burn 50 maple logs.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip any elemental battlestaff.",
-      "id": 922,
-      "issue": null,
-      "name": "Equip any elemental battlestaff.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -12875,16 +12785,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Craft 50 cosmic runes.",
-      "id": 52,
-      "issue": null,
-      "name": "Craft 50 cosmic runes.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Use the range in Lumbridge Castle to bake a cake.",
       "id": 54,
       "issue": null,
@@ -12909,16 +12809,6 @@
       "id": 69,
       "issue": null,
       "name": "Have either a Putrid Zombie or Vengeful Ghost conjured while fighting the matching creature.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete the Mystical Moonstone achievement.",
-      "id": 70,
-      "issue": null,
-      "name": "Learn how to craft moonstone jewellery.",
       "points": 30,
       "region": "Misthalin",
       "tier": "medium"
@@ -13915,16 +13805,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Offer 25 bones (ashes also work) at an altar.",
-      "id": 841,
-      "issue": null,
-      "name": "Offer 25 bones of any kind to an altar.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Scatter 25 ashes of any kind.",
       "id": 844,
       "issue": null,
@@ -14405,16 +14285,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Conjure a Putrid Zombie at the Um ritual site.",
-      "id": 67,
-      "issue": null,
-      "name": "Conjure a zombie at the City of Um ritual site.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Have Elsie tell you a story, she is found upstairs in the church in Varrock. You must give her a cup of tea",
       "id": 100,
       "issue": null,
@@ -14730,7 +14600,7 @@
     131,
     988
   ],
-  "timestamp_utc": "2026-08-25T07:11:08.427Z",
+  "timestamp_utc": "2026-08-27T05:22:30.538Z",
   "unlocked_regions": [
     "Misthalin",
     "Havenhythe",
