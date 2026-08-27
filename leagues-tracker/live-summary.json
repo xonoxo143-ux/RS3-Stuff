@@ -236,53 +236,7 @@
     988
   ],
   "league_points": 7070,
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 85,
-      "skill": "Defence",
-      "to": 88
-    },
-    {
-      "from": 83,
-      "skill": "Constitution",
-      "to": 85
-    },
-    {
-      "from": 68,
-      "skill": "Magic",
-      "to": 69
-    },
-    {
-      "from": 71,
-      "skill": "Mining",
-      "to": 74
-    },
-    {
-      "from": 57,
-      "skill": "Slayer",
-      "to": 70
-    },
-    {
-      "from": 1,
-      "skill": "Construction",
-      "to": 53
-    },
-    {
-      "from": 50,
-      "skill": "Summoning",
-      "to": 51
-    },
-    {
-      "from": 65,
-      "skill": "Divination",
-      "to": 80
-    },
-    {
-      "from": 89,
-      "skill": "Necromancy",
-      "to": 91
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 48,
@@ -315,51 +269,16 @@
     "Woodcutting": 60
   },
   "mapped_completed_tasks": 213,
-  "new_task_ids_since_previous_live_sync": [
-    832,
-    982,
-    983
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Maintain nearly maximum stamina by re-clicking the rock everytime the stamina (yellow) bar decreases when mining for 60 seconds. See My Sick Four Tick Trick for more information.",
-      "id": 832,
-      "issue": null,
-      "name": "Maintain nearly maximum stamina when mining for 60 seconds.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete 5 Soul Reaper tasks.",
-      "id": 982,
-      "issue": null,
-      "name": "Complete 5 Soul Reaper tasks.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete 10 Soul Reaper tasks.",
-      "id": 983,
-      "issue": null,
-      "name": "Complete 10 Soul Reaper tasks.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "player": "112321",
   "points_to_t5": 0,
   "relic_tier": 5,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 3,
+  "task_delta_since_previous_live_sync": 0,
   "tasks_to_second_elective_region": 87,
   "tasks_to_third_elective_region": 237,
-  "timestamp_utc": "2026-08-27T22:32:09.976Z",
+  "timestamp_utc": "2026-08-27T22:33:41.195Z",
   "total_level": 1759,
   "unmapped_completed_task_ids": []
 }
