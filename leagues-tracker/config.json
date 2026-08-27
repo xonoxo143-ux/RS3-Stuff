@@ -27,13 +27,11 @@
   "excluded_recommendation_task_ids": [
     95,
     96,
-    131,
     988
   ],
   "excluded_recommendation_reasons": {
     "95": "User does not want to do Croesus.",
     "96": "User does not want to do Croesus.",
-    "131": "WikiSync still shows this incomplete after the user crafted 1500 earth runes at once. Current Equilibrium reports say essence sourced from Void Shards/League mechanics can fail to trigger this task; keep it excluded unless the user explicitly wants to retry with normal pure essence.",
     "988": "User explicitly asked to scrap the Cast a Wave spell task from recommendations."
   },
   "refresh_marker": "2026-08-27T01:14:00-04:00",
@@ -44,6 +42,7 @@
     "First elective region confirmed by the user as Desert.",
     "Third blessing confirmed by the user as Eternal Sustenance.",
     "Primary account goal is now unlocking Invention.",
+    "Task 131 (craft 100 earth runes simultaneously) is now completed and has been removed from recommendation exclusions.",
     "Later elective region choices are intentionally unset until reconfirmed.",
     "Update confirmed_unlocked_regions only after an elective region is actually unlocked/selected.",
     "Recommendation exclusions are manual user-state/preferences and must be honored even if WikiSync is stale."
