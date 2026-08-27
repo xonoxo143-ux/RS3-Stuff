@@ -1,5 +1,5 @@
 {
-  "blessing_tasks_completed": 9,
+  "blessing_tasks_completed": 10,
   "catalog_task_count": 1152,
   "completed_task_ids": [
     0,
@@ -8,6 +8,7 @@
     3,
     5,
     8,
+    15,
     16,
     27,
     28,
@@ -102,6 +103,7 @@
     191,
     192,
     193,
+    194,
     195,
     196,
     197,
@@ -129,13 +131,19 @@
     312,
     319,
     598,
+    605,
+    608,
     609,
     610,
     612,
     614,
     623,
+    627,
+    631,
+    641,
     664,
     807,
+    808,
     813,
     814,
     815,
@@ -205,7 +213,7 @@
     1249,
     1250
   ],
-  "completed_tasks": 202,
+  "completed_tasks": 210,
   "confirmed_relic_choices": {
     "1": "Golden Touch",
     "2": "Divine Druid",
@@ -224,50 +232,206 @@
     96,
     988
   ],
-  "league_points": 6360,
-  "level_ups_since_previous_live_sync": [],
+  "league_points": 6780,
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 83,
+      "skill": "Defence",
+      "to": 85
+    },
+    {
+      "from": 81,
+      "skill": "Constitution",
+      "to": 83
+    },
+    {
+      "from": 65,
+      "skill": "Fletching",
+      "to": 67
+    },
+    {
+      "from": 76,
+      "skill": "Crafting",
+      "to": 80
+    },
+    {
+      "from": 66,
+      "skill": "Smithing",
+      "to": 67
+    },
+    {
+      "from": 70,
+      "skill": "Mining",
+      "to": 71
+    },
+    {
+      "from": 59,
+      "skill": "Herblore",
+      "to": 66
+    },
+    {
+      "from": 66,
+      "skill": "Runecrafting",
+      "to": 73
+    },
+    {
+      "from": 2,
+      "skill": "Hunter",
+      "to": 13
+    },
+    {
+      "from": 49,
+      "skill": "Summoning",
+      "to": 50
+    },
+    {
+      "from": 42,
+      "skill": "Divination",
+      "to": 65
+    },
+    {
+      "from": 47,
+      "skill": "Archaeology",
+      "to": 48
+    },
+    {
+      "from": 87,
+      "skill": "Necromancy",
+      "to": 89
+    }
+  ],
   "levels": {
     "Agility": 99,
-    "Archaeology": 47,
+    "Archaeology": 48,
     "Attack": 71,
-    "Constitution": 81,
+    "Constitution": 83,
     "Construction": 1,
     "Cooking": 61,
-    "Crafting": 76,
-    "Defence": 83,
-    "Divination": 42,
+    "Crafting": 80,
+    "Defence": 85,
+    "Divination": 65,
     "Dungeoneering": 1,
     "Farming": 2,
     "Firemaking": 51,
     "Fishing": 35,
-    "Fletching": 65,
-    "Herblore": 59,
-    "Hunter": 2,
+    "Fletching": 67,
+    "Herblore": 66,
+    "Hunter": 13,
     "Invention": 1,
     "Magic": 68,
-    "Mining": 70,
-    "Necromancy": 87,
+    "Mining": 71,
+    "Necromancy": 89,
     "Prayer": 99,
     "Ranged": 28,
-    "Runecrafting": 66,
+    "Runecrafting": 73,
     "Slayer": 57,
-    "Smithing": 66,
+    "Smithing": 67,
     "Strength": 71,
-    "Summoning": 49,
+    "Summoning": 50,
     "Thieving": 105,
     "Woodcutting": 60
   },
-  "mapped_completed_tasks": 202,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 210,
+  "new_task_ids_since_previous_live_sync": [
+    15,
+    194,
+    605,
+    608,
+    627,
+    631,
+    641,
+    808
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Kill a mugger near the Edgeville lodestone.",
+      "id": 15,
+      "issue": null,
+      "name": "Kill a mugger near the Edgeville lodestone.",
+      "points": 10,
+      "region": "Misthalin",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Harvest any memory from a wisp 1000 times.",
+      "id": 194,
+      "issue": null,
+      "name": "Harvest any memory from a wisp 1000 times.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Craft 50 nature runes.",
+      "id": 605,
+      "issue": null,
+      "name": "Craft 50 nature runes.",
+      "points": 30,
+      "region": "Karamja",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Convert 100 gleaming memories in an energy rift.",
+      "id": 608,
+      "issue": null,
+      "name": "Convert 100 gleaming memories in an energy rift.",
+      "points": 30,
+      "region": "Karamja",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Defeat TzTok-Jad once.",
+      "id": 627,
+      "issue": null,
+      "name": "Defeat TzTok-Jad.",
+      "points": 80,
+      "region": "Karamja",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": true,
+      "description": "Equip a fire cape.",
+      "id": 631,
+      "issue": null,
+      "name": "Equip a fire cape.",
+      "points": 80,
+      "region": "Karamja",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Defeat TzTok-Jad without killing any Yt-HurKot.",
+      "id": 641,
+      "issue": null,
+      "name": "Defeat TzTok-Jad without killing any Yt-HurKot.",
+      "points": 80,
+      "region": "Karamja",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Make 200 potions of any kind.",
+      "id": 808,
+      "issue": null,
+      "name": "Make 200 potions of any kind.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    }
+  ],
   "player": "112321",
   "points_to_t5": 0,
   "relic_tier": 5,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 0,
-  "tasks_to_second_elective_region": 98,
-  "tasks_to_third_elective_region": 248,
-  "timestamp_utc": "2026-08-27T05:23:17.515Z",
-  "total_level": 1603,
+  "task_delta_since_previous_live_sync": 8,
+  "tasks_to_second_elective_region": 90,
+  "tasks_to_third_elective_region": 240,
+  "timestamp_utc": "2026-08-27T20:05:50.631Z",
+  "total_level": 1667,
   "unmapped_completed_task_ids": []
 }
