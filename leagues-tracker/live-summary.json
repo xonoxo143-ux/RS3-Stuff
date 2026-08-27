@@ -154,6 +154,7 @@
     827,
     828,
     831,
+    832,
     835,
     836,
     839,
@@ -189,6 +190,8 @@
     964,
     972,
     981,
+    982,
+    983,
     1052,
     1060,
     1080,
@@ -213,7 +216,7 @@
     1249,
     1250
   ],
-  "completed_tasks": 210,
+  "completed_tasks": 213,
   "confirmed_relic_choices": {
     "1": "Golden Touch",
     "2": "Divine Druid",
@@ -232,84 +235,64 @@
     96,
     988
   ],
-  "league_points": 6780,
+  "league_points": 7070,
   "level_ups_since_previous_live_sync": [
     {
-      "from": 83,
+      "from": 85,
       "skill": "Defence",
+      "to": 88
+    },
+    {
+      "from": 83,
+      "skill": "Constitution",
       "to": 85
     },
     {
-      "from": 81,
-      "skill": "Constitution",
-      "to": 83
+      "from": 68,
+      "skill": "Magic",
+      "to": 69
+    },
+    {
+      "from": 71,
+      "skill": "Mining",
+      "to": 74
+    },
+    {
+      "from": 57,
+      "skill": "Slayer",
+      "to": 70
+    },
+    {
+      "from": 1,
+      "skill": "Construction",
+      "to": 53
+    },
+    {
+      "from": 50,
+      "skill": "Summoning",
+      "to": 51
     },
     {
       "from": 65,
-      "skill": "Fletching",
-      "to": 67
-    },
-    {
-      "from": 76,
-      "skill": "Crafting",
+      "skill": "Divination",
       "to": 80
     },
     {
-      "from": 66,
-      "skill": "Smithing",
-      "to": 67
-    },
-    {
-      "from": 70,
-      "skill": "Mining",
-      "to": 71
-    },
-    {
-      "from": 59,
-      "skill": "Herblore",
-      "to": 66
-    },
-    {
-      "from": 66,
-      "skill": "Runecrafting",
-      "to": 73
-    },
-    {
-      "from": 2,
-      "skill": "Hunter",
-      "to": 13
-    },
-    {
-      "from": 49,
-      "skill": "Summoning",
-      "to": 50
-    },
-    {
-      "from": 42,
-      "skill": "Divination",
-      "to": 65
-    },
-    {
-      "from": 47,
-      "skill": "Archaeology",
-      "to": 48
-    },
-    {
-      "from": 87,
+      "from": 89,
       "skill": "Necromancy",
-      "to": 89
+      "to": 91
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 48,
     "Attack": 71,
-    "Constitution": 83,
-    "Construction": 1,
+    "Constitution": 85,
+    "Construction": 53,
     "Cooking": 61,
     "Crafting": 80,
-    "Defence": 85,
-    "Divination": 65,
+    "Defence": 88,
+    "Divination": 80,
     "Dungeoneering": 1,
     "Farming": 2,
     "Firemaking": 51,
@@ -318,120 +301,65 @@
     "Herblore": 66,
     "Hunter": 13,
     "Invention": 1,
-    "Magic": 68,
-    "Mining": 71,
-    "Necromancy": 89,
+    "Magic": 69,
+    "Mining": 74,
+    "Necromancy": 91,
     "Prayer": 99,
     "Ranged": 28,
     "Runecrafting": 73,
-    "Slayer": 57,
+    "Slayer": 70,
     "Smithing": 67,
     "Strength": 71,
-    "Summoning": 50,
+    "Summoning": 51,
     "Thieving": 105,
     "Woodcutting": 60
   },
-  "mapped_completed_tasks": 210,
+  "mapped_completed_tasks": 213,
   "new_task_ids_since_previous_live_sync": [
-    15,
-    194,
-    605,
-    608,
-    627,
-    631,
-    641,
-    808
+    832,
+    982,
+    983
   ],
   "new_tasks_since_previous_live_sync": [
     {
       "blessing_task": false,
-      "description": "Kill a mugger near the Edgeville lodestone.",
-      "id": 15,
+      "description": "Maintain nearly maximum stamina by re-clicking the rock everytime the stamina (yellow) bar decreases when mining for 60 seconds. See My Sick Four Tick Trick for more information.",
+      "id": 832,
       "issue": null,
-      "name": "Kill a mugger near the Edgeville lodestone.",
+      "name": "Maintain nearly maximum stamina when mining for 60 seconds.",
       "points": 10,
-      "region": "Misthalin",
+      "region": "Global",
       "tier": "easy"
     },
     {
       "blessing_task": false,
-      "description": "Harvest any memory from a wisp 1000 times.",
-      "id": 194,
+      "description": "Complete 5 Soul Reaper tasks.",
+      "id": 982,
       "issue": null,
-      "name": "Harvest any memory from a wisp 1000 times.",
+      "name": "Complete 5 Soul Reaper tasks.",
       "points": 80,
       "region": "Global",
       "tier": "hard"
     },
     {
       "blessing_task": false,
-      "description": "Craft 50 nature runes.",
-      "id": 605,
+      "description": "Complete 10 Soul Reaper tasks.",
+      "id": 983,
       "issue": null,
-      "name": "Craft 50 nature runes.",
-      "points": 30,
-      "region": "Karamja",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Convert 100 gleaming memories in an energy rift.",
-      "id": 608,
-      "issue": null,
-      "name": "Convert 100 gleaming memories in an energy rift.",
-      "points": 30,
-      "region": "Karamja",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat TzTok-Jad once.",
-      "id": 627,
-      "issue": null,
-      "name": "Defeat TzTok-Jad.",
-      "points": 80,
-      "region": "Karamja",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": true,
-      "description": "Equip a fire cape.",
-      "id": 631,
-      "issue": null,
-      "name": "Equip a fire cape.",
-      "points": 80,
-      "region": "Karamja",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat TzTok-Jad without killing any Yt-HurKot.",
-      "id": 641,
-      "issue": null,
-      "name": "Defeat TzTok-Jad without killing any Yt-HurKot.",
-      "points": 80,
-      "region": "Karamja",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Make 200 potions of any kind.",
-      "id": 808,
-      "issue": null,
-      "name": "Make 200 potions of any kind.",
-      "points": 30,
+      "name": "Complete 10 Soul Reaper tasks.",
+      "points": 200,
       "region": "Global",
-      "tier": "medium"
+      "tier": "elite"
     }
   ],
   "player": "112321",
   "points_to_t5": 0,
   "relic_tier": 5,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 8,
-  "tasks_to_second_elective_region": 90,
-  "tasks_to_third_elective_region": 240,
-  "timestamp_utc": "2026-08-27T20:05:50.631Z",
-  "total_level": 1667,
+  "task_delta_since_previous_live_sync": 3,
+  "tasks_to_second_elective_region": 87,
+  "tasks_to_third_elective_region": 237,
+  "timestamp_utc": "2026-08-27T22:32:09.976Z",
+  "total_level": 1759,
   "unmapped_completed_task_ids": []
 }

@@ -1,5 +1,5 @@
 {
-  "accessible_actionable_count": 501,
+  "accessible_actionable_count": 498,
   "accessible_actionable_tasks": [
     {
       "blessing_task": false,
@@ -457,16 +457,6 @@
       "id": 948,
       "issue": null,
       "name": "Collect 75 unique items for the hard clue rewards collection log.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete 10 Soul Reaper tasks.",
-      "id": 983,
-      "issue": null,
-      "name": "Complete 10 Soul Reaper tasks.",
       "points": 200,
       "region": "Global",
       "tier": "elite"
@@ -2513,16 +2503,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Complete 5 Soul Reaper tasks.",
-      "id": 982,
-      "issue": null,
-      "name": "Complete 5 Soul Reaper tasks.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Equip a full set of orikalkum armour.",
       "id": 984,
       "issue": null,
@@ -4563,16 +4543,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Maintain nearly maximum stamina by re-clicking the rock everytime the stamina (yellow) bar decreases when mining for 60 seconds. See My Sick Four Tick Trick for more information.",
-      "id": 832,
-      "issue": null,
-      "name": "Maintain nearly maximum stamina when mining for 60 seconds.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Harvest a grimy marrentill.",
       "id": 833,
       "issue": null,
@@ -6129,16 +6099,6 @@
       "id": 948,
       "issue": null,
       "name": "Collect 75 unique items for the hard clue rewards collection log.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete 10 Soul Reaper tasks.",
-      "id": 983,
-      "issue": null,
-      "name": "Complete 10 Soul Reaper tasks.",
       "points": 200,
       "region": "Global",
       "tier": "elite"
@@ -9599,16 +9559,6 @@
       "id": 978,
       "issue": null,
       "name": "Catch a spirit impling.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete 5 Soul Reaper tasks.",
-      "id": 982,
-      "issue": null,
-      "name": "Complete 5 Soul Reaper tasks.",
       "points": 80,
       "region": "Global",
       "tier": "hard"
@@ -13615,16 +13565,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Maintain nearly maximum stamina by re-clicking the rock everytime the stamina (yellow) bar decreases when mining for 60 seconds. See My Sick Four Tick Trick for more information.",
-      "id": 832,
-      "issue": null,
-      "name": "Maintain nearly maximum stamina when mining for 60 seconds.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Harvest a grimy marrentill.",
       "id": 833,
       "issue": null,
@@ -14439,7 +14379,7 @@
     96,
     988
   ],
-  "timestamp_utc": "2026-08-27T20:05:50.631Z",
+  "timestamp_utc": "2026-08-27T22:32:09.976Z",
   "unlocked_regions": [
     "Misthalin",
     "Havenhythe",
