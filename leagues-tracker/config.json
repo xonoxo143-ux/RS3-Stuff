@@ -24,6 +24,14 @@
     },
     "priority": "primary"
   },
+  "key_items": [
+    {
+      "name": "Incomplete hydrix",
+      "source": "Soul Reaper reward shop",
+      "status": "owned",
+      "note": "Reserved for future hydrix jewellery progression. Grace of the Elves uses an alchemical onyx, not a hydrix."
+    }
+  ],
   "excluded_recommendation_task_ids": [
     95,
     96,
@@ -43,6 +51,7 @@
     "Third blessing confirmed by the user as Eternal Sustenance.",
     "Primary account goal is now unlocking Invention.",
     "Task 131 (craft 100 earth runes simultaneously) is now completed and has been removed from recommendation exclusions.",
+    "User acquired an incomplete hydrix from Soul Reaper rewards.",
     "Later elective region choices are intentionally unset until reconfirmed.",
     "Update confirmed_unlocked_regions only after an elective region is actually unlocked/selected.",
     "Recommendation exclusions are manual user-state/preferences and must be honored even if WikiSync is stale."
