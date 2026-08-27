@@ -222,37 +222,10 @@
   "excluded_recommendation_task_ids": [
     95,
     96,
-    131,
     988
   ],
   "league_points": 6360,
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 67,
-      "skill": "Magic",
-      "to": 68
-    },
-    {
-      "from": 58,
-      "skill": "Fletching",
-      "to": 65
-    },
-    {
-      "from": 65,
-      "skill": "Smithing",
-      "to": 66
-    },
-    {
-      "from": 69,
-      "skill": "Mining",
-      "to": 70
-    },
-    {
-      "from": 56,
-      "skill": "Runecrafting",
-      "to": 66
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 47,
@@ -285,95 +258,16 @@
     "Woodcutting": 60
   },
   "mapped_completed_tasks": 202,
-  "new_task_ids_since_previous_live_sync": [
-    52,
-    67,
-    70,
-    131,
-    841,
-    842,
-    922
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Craft 50 cosmic runes.",
-      "id": 52,
-      "issue": null,
-      "name": "Craft 50 cosmic runes.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Conjure a Putrid Zombie at the Um ritual site.",
-      "id": 67,
-      "issue": null,
-      "name": "Conjure a zombie at the City of Um ritual site.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete the Mystical Moonstone achievement.",
-      "id": 70,
-      "issue": null,
-      "name": "Learn how to craft moonstone jewellery.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Craft 100 earth runes simultaneously without aid from an explorer's ring, Runecrafting pouches or familiars.",
-      "id": 131,
-      "issue": null,
-      "name": "Craft 100 earth runes simultaneously without aid from an explorer's ring, pouches or familiars.",
-      "points": 200,
-      "region": "Misthalin",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Offer 25 bones (ashes also work) at an altar.",
-      "id": 841,
-      "issue": null,
-      "name": "Offer 25 bones of any kind to an altar.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Offer 100 bones (ashes also work) at an altar.",
-      "id": 842,
-      "issue": null,
-      "name": "Offer 100 bones of any kind to an altar.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip any elemental battlestaff.",
-      "id": 922,
-      "issue": null,
-      "name": "Equip any elemental battlestaff.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "player": "112321",
   "points_to_t5": 0,
   "relic_tier": 5,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 7,
+  "task_delta_since_previous_live_sync": 0,
   "tasks_to_second_elective_region": 98,
   "tasks_to_third_elective_region": 248,
-  "timestamp_utc": "2026-08-27T05:22:30.538Z",
+  "timestamp_utc": "2026-08-27T05:23:17.515Z",
   "total_level": 1603,
   "unmapped_completed_task_ids": []
 }
