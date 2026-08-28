@@ -241,43 +241,7 @@
     988
   ],
   "league_points": 7230,
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 60,
-      "skill": "Woodcutting",
-      "to": 61
-    },
-    {
-      "from": 51,
-      "skill": "Firemaking",
-      "to": 54
-    },
-    {
-      "from": 67,
-      "skill": "Smithing",
-      "to": 80
-    },
-    {
-      "from": 74,
-      "skill": "Mining",
-      "to": 75
-    },
-    {
-      "from": 2,
-      "skill": "Farming",
-      "to": 13
-    },
-    {
-      "from": 1,
-      "skill": "Dungeoneering",
-      "to": 39
-    },
-    {
-      "from": 1,
-      "skill": "Invention",
-      "to": 14
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 48,
@@ -310,73 +274,16 @@
     "Woodcutting": 61
   },
   "mapped_completed_tasks": 218,
-  "new_task_ids_since_previous_live_sync": [
-    138,
-    139,
-    203,
-    206,
-    829
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Reach at least level 5 in all non-elite skills.",
-      "id": 138,
-      "issue": null,
-      "name": "Reach at least level 5 in all non-elite skills.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach at least level 10 in all non-elite skills.",
-      "id": 139,
-      "issue": null,
-      "name": "Reach at least level 10 in all non-elite skills.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Plant seeds in any farming patch.",
-      "id": 203,
-      "issue": null,
-      "name": "Plant seeds in any farming patch.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Add any compostable item to a compost bin.",
-      "id": 206,
-      "issue": null,
-      "name": "Add any compostable item to a compost bin.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Smith 50 of any metal weapon or armour piece.",
-      "id": 829,
-      "issue": null,
-      "name": "Smith 50 of any metal weapon or armour piece.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "player": "112321",
   "points_to_t5": 0,
   "relic_tier": 5,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 5,
+  "task_delta_since_previous_live_sync": 0,
   "tasks_to_second_elective_region": 57,
   "tasks_to_third_elective_region": 182,
-  "timestamp_utc": "2026-08-28T02:00:25.380Z",
+  "timestamp_utc": "2026-08-28T02:05:02.968Z",
   "total_level": 1839,
   "unmapped_completed_task_ids": []
 }
