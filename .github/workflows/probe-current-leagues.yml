@@ -119,8 +119,8 @@ jobs:
               'blessing_tasks_completed':blessings,
               'relic_tier':5 if lp>=6000 else (4 if lp>=3500 else (3 if lp>=1750 else (2 if lp>=750 else 1))),
               'points_to_t5':max(0,6000-lp),
-              'tasks_to_second_elective_region':max(0,300-len(ids)),
-              'tasks_to_third_elective_region':max(0,450-len(ids)),
+              'tasks_to_second_elective_region':max(0,275-len(ids)),
+              'tasks_to_third_elective_region':max(0,400-len(ids)),
               'new_task_ids_since_previous_live_sync':new_ids,
               'new_tasks_since_previous_live_sync':new_tasks,
               'task_delta_since_previous_live_sync':len(idset)-len(prev_ids) if prev_ids else 0,
@@ -144,12 +144,22 @@ jobs:
           print(json.dumps(summary,indent=2))
           PY
 
+      - name: Correct legacy region thresholds
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f .github/workflows/check-leagues-profile.yml ]; then
+            sed -i "s/{'tasks': 175, 'name': 'First elective region'}/{'tasks': 150, 'name': 'First elective region'}/" .github/workflows/check-leagues-profile.yml
+            sed -i "s/{'tasks': 300, 'name': 'Second elective region'}/{'tasks': 275, 'name': 'Second elective region'}/" .github/workflows/check-leagues-profile.yml
+            sed -i "s/{'tasks': 450, 'name': 'Third elective region'}/{'tasks': 400, 'name': 'Third elective region'}/" .github/workflows/check-leagues-profile.yml
+          fi
+
       - name: Commit live probe
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add leagues-tracker/live-wikisync.json leagues-tracker/live-summary.json leagues-tracker/live-unfinished.json leagues-tracker/live-hiscores.html
+          git add leagues-tracker/live-wikisync.json leagues-tracker/live-summary.json leagues-tracker/live-unfinished.json leagues-tracker/live-hiscores.html .github/workflows/check-leagues-profile.yml
           git commit -m 'Refresh live League tracker state' || exit 0
           git push
