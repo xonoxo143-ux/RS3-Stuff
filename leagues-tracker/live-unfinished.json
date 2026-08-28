@@ -1,5 +1,5 @@
 {
-  "accessible_actionable_count": 498,
+  "accessible_actionable_count": 493,
   "accessible_actionable_tasks": [
     {
       "blessing_task": false,
@@ -2153,16 +2153,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Smith 50 of any metal weapon or armour piece.",
-      "id": 829,
-      "issue": null,
-      "name": "Smith 50 of any metal weapon or armour piece.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Smith 100 of any metal weapon or armour piece.",
       "id": 830,
       "issue": null,
@@ -3219,26 +3209,6 @@
       "name": "Fully repair the statue of Het.",
       "points": 30,
       "region": "Desert",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach at least level 5 in all non-elite skills.",
-      "id": 138,
-      "issue": null,
-      "name": "Reach at least level 5 in all non-elite skills.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach at least level 10 in all non-elite skills.",
-      "id": 139,
-      "issue": null,
-      "name": "Reach at least level 10 in all non-elite skills.",
-      "points": 30,
-      "region": "Global",
       "tier": "medium"
     },
     {
@@ -4413,30 +4383,10 @@
     },
     {
       "blessing_task": false,
-      "description": "Plant seeds in any farming patch.",
-      "id": 203,
-      "issue": null,
-      "name": "Plant seeds in any farming patch.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Plant seeds in any farming patch 10 times.",
       "id": 204,
       "issue": null,
       "name": "Plant seeds in any farming patch 10 times.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Add any compostable item to a compost bin.",
-      "id": 206,
-      "issue": null,
-      "name": "Add any compostable item to a compost bin.",
       "points": 10,
       "region": "Global",
       "tier": "easy"
@@ -9215,16 +9165,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Smith 50 of any metal weapon or armour piece.",
-      "id": 829,
-      "issue": null,
-      "name": "Smith 50 of any metal weapon or armour piece.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Smith 100 of any metal weapon or armour piece.",
       "id": 830,
       "issue": null,
@@ -11425,26 +11365,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Reach at least level 5 in all non-elite skills.",
-      "id": 138,
-      "issue": null,
-      "name": "Reach at least level 5 in all non-elite skills.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach at least level 10 in all non-elite skills.",
-      "id": 139,
-      "issue": null,
-      "name": "Reach at least level 10 in all non-elite skills.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Reach at least level 20 in all non-elite skills.",
       "id": 140,
       "issue": null,
@@ -13435,30 +13355,10 @@
     },
     {
       "blessing_task": false,
-      "description": "Plant seeds in any farming patch.",
-      "id": 203,
-      "issue": null,
-      "name": "Plant seeds in any farming patch.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Plant seeds in any farming patch 10 times.",
       "id": 204,
       "issue": null,
       "name": "Plant seeds in any farming patch 10 times.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Add any compostable item to a compost bin.",
-      "id": 206,
-      "issue": null,
-      "name": "Add any compostable item to a compost bin.",
       "points": 10,
       "region": "Global",
       "tier": "easy"
@@ -14379,7 +14279,7 @@
     96,
     988
   ],
-  "timestamp_utc": "2026-08-27T22:33:41.195Z",
+  "timestamp_utc": "2026-08-28T02:00:25.380Z",
   "unlocked_regions": [
     "Misthalin",
     "Havenhythe",
