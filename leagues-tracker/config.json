@@ -14,24 +14,25 @@
     "Desert"
   ],
   "planned_optional_regions": [],
+  "completed_goals": [
+    {
+      "name": "Unlock Invention",
+      "status": "completed",
+      "requirements": {
+        "Crafting": 80,
+        "Divination": 80,
+        "Smithing": 80
+      },
+      "current_invention_level": 14
+    }
+  ],
   "current_goal": {
-    "name": "Invention",
-    "objective": "Unlock Invention as the next major account goal.",
-    "requirements": {
-      "Crafting": 80,
-      "Divination": 80,
-      "Smithing": 80
-    },
-    "current_status": {
-      "Crafting": 80,
-      "Divination": 80,
-      "Smithing": 67
-    },
-    "remaining": {
-      "Crafting_levels": 0,
-      "Divination_levels": 0,
-      "Smithing_levels": 13
-    },
+    "name": "Second elective region",
+    "objective": "Reach 275 completed tasks and unlock the next elective region.",
+    "current_completed_tasks": 218,
+    "target_completed_tasks": 275,
+    "remaining_tasks": 57,
+    "strategy": "Prioritize fast easy/medium completions and tasks that stack with useful progression.",
     "priority": "primary"
   },
   "next_milestones": {
@@ -39,23 +40,31 @@
       "current_blessing_tasks": 10,
       "target_blessing_tasks": 12,
       "remaining": 2,
-      "priority": "immediate_after_invention"
+      "priority": "immediate"
     },
     "second_elective_region": {
-      "current_completed_tasks": 213,
+      "current_completed_tasks": 218,
       "target_completed_tasks": 275,
-      "remaining": 62,
-      "priority": "immediate_after_blessing_tier_4",
+      "remaining": 57,
+      "priority": "primary",
       "strategy": "Prioritize fast easy/medium task completions over point value."
+    },
+    "third_elective_region": {
+      "current_completed_tasks": 218,
+      "target_completed_tasks": 400,
+      "remaining": 182,
+      "priority": "later"
     }
   },
   "priority_task_ids": [
     1200,
+    643,
     1271
   ],
   "priority_task_notes": {
     "1200": "Defeat a Sanguine crawler in Havenhythe for blessing task 11.",
-    "1271": "Equip a TokHaar-Kal Ket, Xil, Mej, or Mor cape for blessing task 12; pair with Fight Kiln completion task 643."
+    "643": "Complete the Fight Kiln; this stacks with the TokHaar-Kal blessing route.",
+    "1271": "Equip a TokHaar-Kal Ket, Xil, Mej, or Mor cape for blessing task 12."
   },
   "key_items": [
     {
@@ -75,15 +84,15 @@
     "96": "User does not want to do Croesus.",
     "988": "User explicitly asked to scrap the Cast a Wave spell task from recommendations."
   },
-  "refresh_marker": "2026-08-27T21:58:30-04:00",
+  "refresh_marker": "2026-08-27T21:58:45-04:00",
   "notes": [
     "Tier 3 relic choice confirmed by the user as Voidwalker.",
     "Tier 4 relic choice confirmed by the user as Transmutation.",
     "Tier 5 relic choice confirmed by the user as Devout.",
     "First elective region confirmed by the user as Desert.",
     "Third blessing confirmed by the user as Eternal Sustenance.",
-    "Primary account goal is unlocking Invention; Crafting and Divination are now 80, leaving Smithing as the only remaining unlock requirement.",
-    "After Invention, prioritize two blessing tasks to reach 12 blessings, then rush task count to the 275-task second elective-region unlock.",
+    "Invention is now unlocked; live level is 14 after reaching 80 Crafting, 80 Divination, and 80 Smithing.",
+    "Immediate plan is two more blessing tasks to reach 12 blessings, then rush task count to the 275-task second elective-region unlock.",
     "Equilibrium elective region thresholds are 150, 275, and 400 completed tasks; older 175/300/450 values are incorrect.",
     "Task 131 (craft 100 earth runes simultaneously) is completed and has been removed from recommendation exclusions.",
     "User acquired an incomplete hydrix from Soul Reaper rewards.",
