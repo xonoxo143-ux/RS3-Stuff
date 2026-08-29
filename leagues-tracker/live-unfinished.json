@@ -1,5 +1,5 @@
 {
-  "accessible_actionable_count": 493,
+  "accessible_actionable_count": 490,
   "accessible_actionable_tasks": [
     {
       "blessing_task": false,
@@ -3013,30 +3013,10 @@
     },
     {
       "blessing_task": false,
-      "description": "Complete the Passing the Test achievement.",
-      "id": 81,
-      "issue": null,
-      "name": "Create a passing bracelet, performing each step in the City of Um.",
-      "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Upgrade a set of Death Skull equipment to tier 70.",
       "id": 83,
       "issue": null,
       "name": "Upgrade a set of Death Skull equipment to tier 70.",
-      "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete a powerful communion ritual.",
-      "id": 84,
-      "issue": null,
-      "name": "Complete a Powerful Communion ritual.",
       "points": 80,
       "region": "Misthalin",
       "tier": "hard"
@@ -4767,16 +4747,6 @@
       "id": 1198,
       "issue": null,
       "name": "Smith a havensilver weapon.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": true,
-      "description": "Defeat a Sanguine crawler.",
-      "id": 1200,
-      "issue": null,
-      "name": "Defeat a Sanguine crawler.",
       "points": 10,
       "region": "Havenhythe",
       "tier": "easy"
@@ -10195,30 +10165,10 @@
     },
     {
       "blessing_task": false,
-      "description": "Complete the Passing the Test achievement.",
-      "id": 81,
-      "issue": null,
-      "name": "Create a passing bracelet, performing each step in the City of Um.",
-      "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Upgrade a set of Death Skull equipment to tier 70.",
       "id": 83,
       "issue": null,
       "name": "Upgrade a set of Death Skull equipment to tier 70.",
-      "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete a powerful communion ritual.",
-      "id": 84,
-      "issue": null,
-      "name": "Complete a Powerful Communion ritual.",
       "points": 80,
       "region": "Misthalin",
       "tier": "hard"
@@ -13744,16 +13694,6 @@
       "tier": "easy"
     },
     {
-      "blessing_task": true,
-      "description": "Defeat a Sanguine crawler.",
-      "id": 1200,
-      "issue": null,
-      "name": "Defeat a Sanguine crawler.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
       "blessing_task": false,
       "description": "Complete the Gnome Stronghold Agility Course.",
       "id": 422,
@@ -14279,7 +14219,7 @@
     96,
     988
   ],
-  "timestamp_utc": "2026-08-28T02:05:02.968Z",
+  "timestamp_utc": "2026-08-29T19:23:58.270Z",
   "unlocked_regions": [
     "Misthalin",
     "Havenhythe",

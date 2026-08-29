@@ -1,5 +1,5 @@
 {
-  "blessing_tasks_completed": 10,
+  "blessing_tasks_completed": 11,
   "catalog_task_count": 1152,
   "completed_task_ids": [
     0,
@@ -40,6 +40,8 @@
     73,
     76,
     79,
+    81,
+    84,
     98,
     99,
     101,
@@ -212,6 +214,7 @@
     1152,
     1172,
     1179,
+    1200,
     1203,
     1204,
     1205,
@@ -221,7 +224,7 @@
     1249,
     1250
   ],
-  "completed_tasks": 218,
+  "completed_tasks": 221,
   "confirmed_relic_choices": {
     "1": "Golden Touch",
     "2": "Divine Druid",
@@ -240,29 +243,70 @@
     96,
     988
   ],
-  "league_points": 7230,
-  "level_ups_since_previous_live_sync": [],
+  "league_points": 7400,
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 69,
+      "skill": "Magic",
+      "to": 70
+    },
+    {
+      "from": 61,
+      "skill": "Cooking",
+      "to": 63
+    },
+    {
+      "from": 35,
+      "skill": "Fishing",
+      "to": 39
+    },
+    {
+      "from": 75,
+      "skill": "Mining",
+      "to": 76
+    },
+    {
+      "from": 105,
+      "skill": "Thieving",
+      "to": 111
+    },
+    {
+      "from": 14,
+      "skill": "Invention",
+      "to": 15
+    },
+    {
+      "from": 48,
+      "skill": "Archaeology",
+      "to": 55
+    },
+    {
+      "from": 91,
+      "skill": "Necromancy",
+      "to": 92
+    }
+  ],
   "levels": {
     "Agility": 99,
-    "Archaeology": 48,
+    "Archaeology": 55,
     "Attack": 71,
     "Constitution": 85,
     "Construction": 53,
-    "Cooking": 61,
+    "Cooking": 63,
     "Crafting": 80,
     "Defence": 88,
     "Divination": 80,
     "Dungeoneering": 39,
     "Farming": 13,
     "Firemaking": 54,
-    "Fishing": 35,
+    "Fishing": 39,
     "Fletching": 67,
     "Herblore": 66,
     "Hunter": 13,
-    "Invention": 14,
-    "Magic": 69,
-    "Mining": 75,
-    "Necromancy": 91,
+    "Invention": 15,
+    "Magic": 70,
+    "Mining": 76,
+    "Necromancy": 92,
     "Prayer": 99,
     "Ranged": 28,
     "Runecrafting": 73,
@@ -270,20 +314,55 @@
     "Smithing": 80,
     "Strength": 71,
     "Summoning": 51,
-    "Thieving": 105,
+    "Thieving": 111,
     "Woodcutting": 61
   },
-  "mapped_completed_tasks": 218,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 221,
+  "new_task_ids_since_previous_live_sync": [
+    81,
+    84,
+    1200
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Complete the Passing the Test achievement.",
+      "id": 81,
+      "issue": null,
+      "name": "Create a passing bracelet, performing each step in the City of Um.",
+      "points": 80,
+      "region": "Misthalin",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Complete a powerful communion ritual.",
+      "id": 84,
+      "issue": null,
+      "name": "Complete a Powerful Communion ritual.",
+      "points": 80,
+      "region": "Misthalin",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": true,
+      "description": "Defeat a Sanguine crawler.",
+      "id": 1200,
+      "issue": null,
+      "name": "Defeat a Sanguine crawler.",
+      "points": 10,
+      "region": "Havenhythe",
+      "tier": "easy"
+    }
+  ],
   "player": "112321",
   "points_to_t5": 0,
   "relic_tier": 5,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 0,
-  "tasks_to_second_elective_region": 57,
-  "tasks_to_third_elective_region": 182,
-  "timestamp_utc": "2026-08-28T02:05:02.968Z",
-  "total_level": 1839,
+  "task_delta_since_previous_live_sync": 3,
+  "tasks_to_second_elective_region": 54,
+  "tasks_to_third_elective_region": 179,
+  "timestamp_utc": "2026-08-29T19:23:58.270Z",
+  "total_level": 1862,
   "unmapped_completed_task_ids": []
 }
