@@ -245,28 +245,7 @@
     988
   ],
   "league_points": 7600,
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 70,
-      "skill": "Magic",
-      "to": 71
-    },
-    {
-      "from": 111,
-      "skill": "Thieving",
-      "to": 115
-    },
-    {
-      "from": 13,
-      "skill": "Farming",
-      "to": 14
-    },
-    {
-      "from": 15,
-      "skill": "Invention",
-      "to": 32
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 55,
@@ -299,29 +278,16 @@
     "Woodcutting": 61
   },
   "mapped_completed_tasks": 222,
-  "new_task_ids_since_previous_live_sync": [
-    1118
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Obtain 50 million Thieving XP.",
-      "id": 1118,
-      "issue": null,
-      "name": "Obtain 50 million Thieving XP.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "player": "112321",
   "points_to_t5": 0,
   "relic_tier": 5,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 1,
+  "task_delta_since_previous_live_sync": 0,
   "tasks_to_second_elective_region": 53,
   "tasks_to_third_elective_region": 178,
-  "timestamp_utc": "2026-08-29T23:12:10.667Z",
+  "timestamp_utc": "2026-08-29T23:13:03.510Z",
   "total_level": 1885,
   "unmapped_completed_task_ids": []
 }
