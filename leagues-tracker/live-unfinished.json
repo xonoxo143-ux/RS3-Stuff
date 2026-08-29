@@ -1,5 +1,5 @@
 {
-  "accessible_actionable_count": 490,
+  "accessible_actionable_count": 489,
   "accessible_actionable_tasks": [
     {
       "blessing_task": false,
@@ -1267,16 +1267,6 @@
       "id": 1117,
       "issue": null,
       "name": "Obtain 50 million Smithing XP.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Obtain 50 million Thieving XP.",
-      "id": 1118,
-      "issue": null,
-      "name": "Obtain 50 million Thieving XP.",
       "points": 200,
       "region": "Global",
       "tier": "elite"
@@ -6829,16 +6819,6 @@
       "id": 1117,
       "issue": null,
       "name": "Obtain 50 million Smithing XP.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Obtain 50 million Thieving XP.",
-      "id": 1118,
-      "issue": null,
-      "name": "Obtain 50 million Thieving XP.",
       "points": 200,
       "region": "Global",
       "tier": "elite"
@@ -14219,7 +14199,7 @@
     96,
     988
   ],
-  "timestamp_utc": "2026-08-29T19:25:08.698Z",
+  "timestamp_utc": "2026-08-29T23:12:10.667Z",
   "unlocked_regions": [
     "Misthalin",
     "Havenhythe",

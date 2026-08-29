@@ -204,6 +204,7 @@
     1080,
     1087,
     1103,
+    1118,
     1141,
     1146,
     1147,
@@ -224,7 +225,7 @@
     1249,
     1250
   ],
-  "completed_tasks": 221,
+  "completed_tasks": 222,
   "confirmed_relic_choices": {
     "1": "Golden Touch",
     "2": "Divine Druid",
@@ -243,8 +244,29 @@
     96,
     988
   ],
-  "league_points": 7400,
-  "level_ups_since_previous_live_sync": [],
+  "league_points": 7600,
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 70,
+      "skill": "Magic",
+      "to": 71
+    },
+    {
+      "from": 111,
+      "skill": "Thieving",
+      "to": 115
+    },
+    {
+      "from": 13,
+      "skill": "Farming",
+      "to": 14
+    },
+    {
+      "from": 15,
+      "skill": "Invention",
+      "to": 32
+    }
+  ],
   "levels": {
     "Agility": 99,
     "Archaeology": 55,
@@ -256,14 +278,14 @@
     "Defence": 88,
     "Divination": 80,
     "Dungeoneering": 39,
-    "Farming": 13,
+    "Farming": 14,
     "Firemaking": 54,
     "Fishing": 39,
     "Fletching": 67,
     "Herblore": 66,
     "Hunter": 13,
-    "Invention": 15,
-    "Magic": 70,
+    "Invention": 32,
+    "Magic": 71,
     "Mining": 76,
     "Necromancy": 92,
     "Prayer": 99,
@@ -273,20 +295,33 @@
     "Smithing": 80,
     "Strength": 71,
     "Summoning": 51,
-    "Thieving": 111,
+    "Thieving": 115,
     "Woodcutting": 61
   },
-  "mapped_completed_tasks": 221,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 222,
+  "new_task_ids_since_previous_live_sync": [
+    1118
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Obtain 50 million Thieving XP.",
+      "id": 1118,
+      "issue": null,
+      "name": "Obtain 50 million Thieving XP.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    }
+  ],
   "player": "112321",
   "points_to_t5": 0,
   "relic_tier": 5,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 0,
-  "tasks_to_second_elective_region": 54,
-  "tasks_to_third_elective_region": 179,
-  "timestamp_utc": "2026-08-29T19:25:08.698Z",
-  "total_level": 1862,
+  "task_delta_since_previous_live_sync": 1,
+  "tasks_to_second_elective_region": 53,
+  "tasks_to_third_elective_region": 178,
+  "timestamp_utc": "2026-08-29T23:12:10.667Z",
+  "total_level": 1885,
   "unmapped_completed_task_ids": []
 }
