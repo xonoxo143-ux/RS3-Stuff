@@ -70,6 +70,20 @@
       "source": "Soul Reaper reward shop",
       "status": "owned",
       "note": "Reserved for future hydrix jewellery progression. Grace of the Elves uses an alchemical onyx, not a hydrix."
+    },
+    {
+      "name": "Uncut onyx",
+      "quantity": 3,
+      "source": "TzHaar-Hur pickpocketing with Golden Touch",
+      "status": "owned",
+      "note": "One can complete the incomplete hydrix; remaining onyxes can be reserved for jewellery or an eventual alchemical onyx."
+    },
+    {
+      "name": "Jal-tok-yt",
+      "quantity": 1,
+      "source": "TzHaar-Hur pickpocketing",
+      "status": "owned",
+      "note": "Rare future melee jewellery component; do not alch or disassemble."
     }
   ],
   "excluded_recommendation_task_ids": [
@@ -82,7 +96,7 @@
     "96": "User does not want to do Croesus.",
     "988": "User explicitly asked to scrap the Cast a Wave spell task from recommendations."
   },
-  "refresh_marker": "2026-08-29T15:23:00-04:00",
+  "refresh_marker": "2026-08-29T19:11:00-04:00",
   "notes": [
     "Tier 3 relic choice confirmed by the user as Voidwalker.",
     "Tier 4 relic choice confirmed by the user as Transmutation.",
@@ -95,6 +109,7 @@
     "Equilibrium elective region thresholds are 150, 275, and 400 completed tasks; older 175/300/450 values are incorrect.",
     "Task 131 (craft 100 earth runes simultaneously) is completed and has been removed from recommendation exclusions.",
     "User acquired an incomplete hydrix from Soul Reaper rewards.",
+    "User acquired 3 uncut onyxes and 1 Jal-tok-yt from TzHaar-Hur pickpocketing.",
     "Later elective region choices are intentionally unset until reconfirmed.",
     "Update confirmed_unlocked_regions only after an elective region is actually unlocked/selected.",
     "Recommendation exclusions are manual user-state/preferences and must be honored even if WikiSync is stale."
