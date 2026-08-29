@@ -23,46 +23,44 @@
         "Divination": 80,
         "Smithing": 80
       },
-      "current_invention_level": 14
+      "current_invention_level": 15
     }
   ],
   "current_goal": {
     "name": "Second elective region",
     "objective": "Reach 275 completed tasks and unlock the next elective region.",
-    "current_completed_tasks": 218,
+    "current_completed_tasks": 221,
     "target_completed_tasks": 275,
-    "remaining_tasks": 57,
+    "remaining_tasks": 54,
     "strategy": "Prioritize fast easy/medium completions and tasks that stack with useful progression.",
     "priority": "primary"
   },
   "next_milestones": {
     "blessing_tier_4": {
-      "current_blessing_tasks": 10,
+      "current_blessing_tasks": 11,
       "target_blessing_tasks": 12,
-      "remaining": 2,
+      "remaining": 1,
       "priority": "immediate"
     },
     "second_elective_region": {
-      "current_completed_tasks": 218,
+      "current_completed_tasks": 221,
       "target_completed_tasks": 275,
-      "remaining": 57,
+      "remaining": 54,
       "priority": "primary",
       "strategy": "Prioritize fast easy/medium task completions over point value."
     },
     "third_elective_region": {
-      "current_completed_tasks": 218,
+      "current_completed_tasks": 221,
       "target_completed_tasks": 400,
-      "remaining": 182,
+      "remaining": 179,
       "priority": "later"
     }
   },
   "priority_task_ids": [
-    1200,
     643,
     1271
   ],
   "priority_task_notes": {
-    "1200": "Defeat a Sanguine crawler in Havenhythe for blessing task 11.",
     "643": "Complete the Fight Kiln; this stacks with the TokHaar-Kal blessing route.",
     "1271": "Equip a TokHaar-Kal Ket, Xil, Mej, or Mor cape for blessing task 12."
   },
@@ -91,8 +89,9 @@
     "Tier 5 relic choice confirmed by the user as Devout.",
     "First elective region confirmed by the user as Desert.",
     "Third blessing confirmed by the user as Eternal Sustenance.",
-    "Invention is now unlocked; live level is 14 after reaching 80 Crafting, 80 Divination, and 80 Smithing.",
-    "Immediate plan is two more blessing tasks to reach 12 blessings, then rush task count to the 275-task second elective-region unlock.",
+    "Invention is unlocked; fresh live level is 15.",
+    "Sanguine crawler blessing task 1200 is completed, bringing the blessing count to 11 of 12 for Tier 4.",
+    "Immediate plan is one more blessing task to reach 12 blessings, then rush task count to the 275-task second elective-region unlock.",
     "Equilibrium elective region thresholds are 150, 275, and 400 completed tasks; older 175/300/450 values are incorrect.",
     "Task 131 (craft 100 earth runes simultaneously) is completed and has been removed from recommendation exclusions.",
     "User acquired an incomplete hydrix from Soul Reaper rewards.",
