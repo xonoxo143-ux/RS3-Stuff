@@ -1,5 +1,5 @@
 {
-  "blessing_tasks_completed": 11,
+  "blessing_tasks_completed": 12,
   "catalog_task_count": 1152,
   "completed_task_ids": [
     0,
@@ -40,7 +40,9 @@
     73,
     76,
     79,
+    80,
     81,
+    83,
     84,
     98,
     99,
@@ -145,8 +147,10 @@
     614,
     623,
     627,
+    628,
     631,
     641,
+    643,
     664,
     807,
     808,
@@ -155,6 +159,7 @@
     815,
     816,
     817,
+    818,
     820,
     821,
     827,
@@ -215,6 +220,7 @@
     1152,
     1172,
     1179,
+    1188,
     1200,
     1203,
     1204,
@@ -223,9 +229,10 @@
     1207,
     1248,
     1249,
-    1250
+    1250,
+    1271
   ],
-  "completed_tasks": 222,
+  "completed_tasks": 229,
   "confirmed_relic_choices": {
     "1": "Golden Touch",
     "2": "Divine Druid",
@@ -244,50 +251,190 @@
     96,
     988
   ],
-  "league_points": 7600,
-  "level_ups_since_previous_live_sync": [],
+  "league_points": 8210,
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 88,
+      "skill": "Defence",
+      "to": 89
+    },
+    {
+      "from": 85,
+      "skill": "Constitution",
+      "to": 86
+    },
+    {
+      "from": 71,
+      "skill": "Magic",
+      "to": 72
+    },
+    {
+      "from": 63,
+      "skill": "Cooking",
+      "to": 67
+    },
+    {
+      "from": 61,
+      "skill": "Woodcutting",
+      "to": 62
+    },
+    {
+      "from": 80,
+      "skill": "Crafting",
+      "to": 86
+    },
+    {
+      "from": 76,
+      "skill": "Mining",
+      "to": 77
+    },
+    {
+      "from": 66,
+      "skill": "Herblore",
+      "to": 68
+    },
+    {
+      "from": 115,
+      "skill": "Thieving",
+      "to": 116
+    },
+    {
+      "from": 13,
+      "skill": "Hunter",
+      "to": 21
+    },
+    {
+      "from": 51,
+      "skill": "Summoning",
+      "to": 52
+    },
+    {
+      "from": 92,
+      "skill": "Necromancy",
+      "to": 94
+    }
+  ],
   "levels": {
     "Agility": 99,
     "Archaeology": 55,
     "Attack": 71,
-    "Constitution": 85,
+    "Constitution": 86,
     "Construction": 53,
-    "Cooking": 63,
-    "Crafting": 80,
-    "Defence": 88,
+    "Cooking": 67,
+    "Crafting": 86,
+    "Defence": 89,
     "Divination": 80,
     "Dungeoneering": 39,
     "Farming": 14,
     "Firemaking": 54,
     "Fishing": 39,
     "Fletching": 67,
-    "Herblore": 66,
-    "Hunter": 13,
+    "Herblore": 68,
+    "Hunter": 21,
     "Invention": 32,
-    "Magic": 71,
-    "Mining": 76,
-    "Necromancy": 92,
+    "Magic": 72,
+    "Mining": 77,
+    "Necromancy": 94,
     "Prayer": 99,
     "Ranged": 28,
     "Runecrafting": 73,
     "Slayer": 70,
     "Smithing": 80,
     "Strength": 71,
-    "Summoning": 51,
-    "Thieving": 115,
-    "Woodcutting": 61
+    "Summoning": 52,
+    "Thieving": 116,
+    "Woodcutting": 62
   },
-  "mapped_completed_tasks": 222,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 229,
+  "new_task_ids_since_previous_live_sync": [
+    80,
+    83,
+    628,
+    643,
+    818,
+    1188,
+    1271
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Smith a necronium bar at the smithy in the City of Um.",
+      "id": 80,
+      "issue": null,
+      "name": "Smelt a necronium bar at the smithy in the City of Um.",
+      "points": 80,
+      "region": "Misthalin",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Upgrade a set of Death Skull equipment to tier 70.",
+      "id": 83,
+      "issue": null,
+      "name": "Upgrade a set of Death Skull equipment to tier 70.",
+      "points": 80,
+      "region": "Misthalin",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Defeat TzTok-Jad five times.",
+      "id": 628,
+      "issue": null,
+      "name": "Defeat TzTok-Jad.",
+      "points": 80,
+      "region": "Karamja",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Complete the Fight Kiln.",
+      "id": 643,
+      "issue": null,
+      "name": "Complete the Fight Kiln.",
+      "points": 80,
+      "region": "Karamja",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Clean 1,000 of any herb.",
+      "id": 818,
+      "issue": null,
+      "name": "Clean 1,000 of any herb.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Construct a birdhouse.",
+      "id": 1188,
+      "issue": null,
+      "name": "Construct a birdhouse.",
+      "points": 10,
+      "region": "Havenhythe",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": true,
+      "description": "Equip a TokHaar-Kal-Ket, Xil, Mej, or Mor cape.",
+      "id": 1271,
+      "issue": null,
+      "name": "Equip a TokHaar-Kal Ket, Xil, Mej, or Mor cape.",
+      "points": 200,
+      "region": "Karamja",
+      "tier": "elite"
+    }
+  ],
   "player": "112321",
   "points_to_t5": 0,
   "relic_tier": 5,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 0,
-  "tasks_to_second_elective_region": 53,
-  "tasks_to_third_elective_region": 178,
-  "timestamp_utc": "2026-08-29T23:13:03.510Z",
-  "total_level": 1885,
+  "task_delta_since_previous_live_sync": 7,
+  "tasks_to_second_elective_region": 46,
+  "tasks_to_third_elective_region": 171,
+  "timestamp_utc": "2026-08-31T01:24:14.801Z",
+  "total_level": 1914,
   "unmapped_completed_task_ids": []
 }

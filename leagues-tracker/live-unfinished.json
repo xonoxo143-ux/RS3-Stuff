@@ -1,5 +1,5 @@
 {
-  "accessible_actionable_count": 489,
+  "accessible_actionable_count": 481,
   "accessible_actionable_tasks": [
     {
       "blessing_task": false,
@@ -1522,16 +1522,6 @@
       "tier": "elite"
     },
     {
-      "blessing_task": true,
-      "description": "Equip a TokHaar-Kal-Ket, Xil, Mej, or Mor cape.",
-      "id": 1271,
-      "issue": null,
-      "name": "Equip a TokHaar-Kal Ket, Xil, Mej, or Mor cape.",
-      "points": 200,
-      "region": "Karamja",
-      "tier": "elite"
-    },
-    {
       "blessing_task": false,
       "description": "Navigate the Runespan using a greater conjuration platform.",
       "id": 11,
@@ -2063,16 +2053,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Equip one piece of the fishing outfit.",
-      "id": 457,
-      "issue": null,
-      "name": "Equip one piece of the Fishing outfit.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Equip a pair of steadfast boots. Can only be obtained as a drop from glacors.",
       "id": 694,
       "issue": null,
@@ -2107,16 +2087,6 @@
       "id": 809,
       "issue": null,
       "name": "Make 1,000 potions of any kind.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Clean 1,000 of any herb.",
-      "id": 818,
-      "issue": null,
-      "name": "Clean 1,000 of any herb.",
       "points": 80,
       "region": "Global",
       "tier": "hard"
@@ -2763,16 +2733,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Defeat TzTok-Jad five times.",
-      "id": 628,
-      "issue": null,
-      "name": "Defeat TzTok-Jad.",
-      "points": 80,
-      "region": "Karamja",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Complete the Seeing Lava achievement.",
       "id": 630,
       "issue": null,
@@ -2847,16 +2807,6 @@
       "id": 638,
       "issue": null,
       "name": "Collect 10 Agility Arena tickets from the Brimhaven Agility Arena.",
-      "points": 80,
-      "region": "Karamja",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete the Fight Kiln.",
-      "id": 643,
-      "issue": null,
-      "name": "Complete the Fight Kiln.",
       "points": 80,
       "region": "Karamja",
       "tier": "hard"
@@ -2987,26 +2937,6 @@
       "id": 77,
       "issue": null,
       "name": "Defeat Hermod, the Spirit of War.",
-      "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Smith a necronium bar at the smithy in the City of Um.",
-      "id": 80,
-      "issue": null,
-      "name": "Smelt a necronium bar at the smithy in the City of Um.",
-      "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Upgrade a set of Death Skull equipment to tier 70.",
-      "id": 83,
-      "issue": null,
-      "name": "Upgrade a set of Death Skull equipment to tier 70.",
       "points": 80,
       "region": "Misthalin",
       "tier": "hard"
@@ -4707,16 +4637,6 @@
       "id": 1184,
       "issue": null,
       "name": "Use the spirit plane connection bonus at the Shrine of Inanna to create a summoning pouch for free.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Construct a birdhouse.",
-      "id": 1188,
-      "issue": null,
-      "name": "Construct a birdhouse.",
       "points": 10,
       "region": "Havenhythe",
       "tier": "easy"
@@ -7254,16 +7174,6 @@
       "tier": "elite"
     },
     {
-      "blessing_task": true,
-      "description": "Equip a TokHaar-Kal-Ket, Xil, Mej, or Mor cape.",
-      "id": 1271,
-      "issue": null,
-      "name": "Equip a TokHaar-Kal Ket, Xil, Mej, or Mor cape.",
-      "points": 200,
-      "region": "Karamja",
-      "tier": "elite"
-    },
-    {
       "blessing_task": false,
       "description": "Navigate the Runespan using a greater conjuration platform.",
       "id": 11,
@@ -9035,16 +8945,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Equip one piece of the fishing outfit.",
-      "id": 457,
-      "issue": null,
-      "name": "Equip one piece of the Fishing outfit.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Equip a pair of steadfast boots. Can only be obtained as a drop from glacors.",
       "id": 694,
       "issue": null,
@@ -9079,16 +8979,6 @@
       "id": 809,
       "issue": null,
       "name": "Make 1,000 potions of any kind.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Clean 1,000 of any herb.",
-      "id": 818,
-      "issue": null,
-      "name": "Clean 1,000 of any herb.",
       "points": 80,
       "region": "Global",
       "tier": "hard"
@@ -9755,6 +9645,16 @@
     },
     {
       "blessing_task": false,
+      "description": "Equip one piece of the fishing outfit.",
+      "id": 457,
+      "issue": null,
+      "name": "Equip one piece of the Fishing outfit.",
+      "points": 80,
+      "region": "Kandarin",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
       "description": "Pickpocket a hero.",
       "id": 459,
       "issue": null,
@@ -9905,16 +9805,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Defeat TzTok-Jad five times.",
-      "id": 628,
-      "issue": null,
-      "name": "Defeat TzTok-Jad.",
-      "points": 80,
-      "region": "Karamja",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Complete the Seeing Lava achievement.",
       "id": 630,
       "issue": null,
@@ -9989,16 +9879,6 @@
       "id": 638,
       "issue": null,
       "name": "Collect 10 Agility Arena tickets from the Brimhaven Agility Arena.",
-      "points": 80,
-      "region": "Karamja",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Complete the Fight Kiln.",
-      "id": 643,
-      "issue": null,
-      "name": "Complete the Fight Kiln.",
       "points": 80,
       "region": "Karamja",
       "tier": "hard"
@@ -10129,26 +10009,6 @@
       "id": 77,
       "issue": null,
       "name": "Defeat Hermod, the Spirit of War.",
-      "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Smith a necronium bar at the smithy in the City of Um.",
-      "id": 80,
-      "issue": null,
-      "name": "Smelt a necronium bar at the smithy in the City of Um.",
-      "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Upgrade a set of Death Skull equipment to tier 70.",
-      "id": 83,
-      "issue": null,
-      "name": "Upgrade a set of Death Skull equipment to tier 70.",
       "points": 80,
       "region": "Misthalin",
       "tier": "hard"
@@ -13645,16 +13505,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Construct a birdhouse.",
-      "id": 1188,
-      "issue": null,
-      "name": "Construct a birdhouse.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Mine 20 havensilver ore.",
       "id": 1197,
       "issue": null,
@@ -13675,7 +13525,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Complete the Gnome Stronghold Agility Course.",
+      "description": "Complete the Gnome Stronghold Agility Course. Must follow the basic course; advanced won't count.",
       "id": 422,
       "issue": null,
       "name": "Complete the Gnome Stronghold Agility Course.",
@@ -14199,7 +14049,7 @@
     96,
     988
   ],
-  "timestamp_utc": "2026-08-29T23:13:03.510Z",
+  "timestamp_utc": "2026-08-31T01:24:14.801Z",
   "unlocked_regions": [
     "Misthalin",
     "Havenhythe",
