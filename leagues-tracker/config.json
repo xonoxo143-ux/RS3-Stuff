@@ -37,9 +37,9 @@
   "current_goal": {
     "name": "Second elective region",
     "objective": "Reach 275 completed tasks and unlock the next elective region.",
-    "current_completed_tasks": 222,
+    "current_completed_tasks": 229,
     "target_completed_tasks": 275,
-    "remaining_tasks": 53,
+    "remaining_tasks": 46,
     "strategy": "Prioritize fast easy/medium completions and tasks that stack with useful progression.",
     "priority": "primary"
   },
@@ -51,16 +51,16 @@
       "priority": "completed_pending_choice"
     },
     "second_elective_region": {
-      "current_completed_tasks": 222,
+      "current_completed_tasks": 229,
       "target_completed_tasks": 275,
-      "remaining": 53,
+      "remaining": 46,
       "priority": "primary",
       "strategy": "Prioritize fast easy/medium task completions over point value."
     },
     "third_elective_region": {
-      "current_completed_tasks": 222,
+      "current_completed_tasks": 229,
       "target_completed_tasks": 400,
-      "remaining": 178,
+      "remaining": 171,
       "priority": "later"
     }
   },
@@ -112,11 +112,11 @@
     "Tier 5 relic choice confirmed by the user as Devout.",
     "First elective region confirmed by the user as Desert.",
     "Third blessing confirmed by the user as Eternal Sustenance.",
-    "Fresh live Invention level was 32 before the Kiln refresh.",
-    "Fresh live Thieving level was 115 before the Kiln refresh.",
-    "Fight Kiln task 643 is manually confirmed completed from the user's successful run.",
-    "TokHaar-Kal blessing task 1271 is manually confirmed completed from the user's screenshot.",
-    "Tier 4 blessing is unlocked at 12 blessing tasks; exact Tier 4 blessing choice remains unconfirmed.",
+    "Fresh post-Kiln live snapshot: 229 completed tasks, 8,210 LP, 12 blessing tasks, 46 tasks to the 275-region unlock.",
+    "Fresh notable levels: Necromancy 94, Crafting 86, Thieving 116, Invention 32, Magic 72, Defence 89, Constitution 86.",
+    "Fight Kiln task 643 and TokHaar-Kal blessing task 1271 are completed.",
+    "The same refresh also completed tasks 80, 83, 628, 818, and 1188.",
+    "Tier 4 blessing is unlocked; exact Tier 4 blessing choice remains unconfirmed.",
     "Primary goal is now the 275-task second elective-region unlock.",
     "Equilibrium elective region thresholds are 150, 275, and 400 completed tasks; older 175/300/450 values are incorrect.",
     "Task 131 (craft 100 earth runes simultaneously) is completed and has been removed from recommendation exclusions.",
