@@ -105,7 +105,7 @@
     "96": "User does not want to do Croesus.",
     "988": "User explicitly asked to scrap the Cast a Wave spell task from recommendations."
   },
-  "refresh_marker": "2026-08-30T21:23:48-04:00",
+  "refresh_marker": "2026-08-31T10:27:44-04:00",
   "notes": [
     "Tier 3 relic choice confirmed by the user as Voidwalker.",
     "Tier 4 relic choice confirmed by the user as Transmutation.",
@@ -122,6 +122,7 @@
     "Task 131 (craft 100 earth runes simultaneously) is completed and has been removed from recommendation exclusions.",
     "User acquired an incomplete hydrix from Soul Reaper rewards.",
     "User acquired 3 uncut onyxes and 1 Jal-tok-yt from TzHaar-Hur pickpocketing.",
+    "Route planning preference: compare direct walking from the user's current position against lodestone and Abyssal Conduit teleports, account for terrain and chain nearby tasks, and cross-check online screenshots/maps against the user's map when possible.",
     "Later elective region choices are intentionally unset until reconfirmed.",
     "Update confirmed_unlocked_regions only after an elective region is actually unlocked/selected.",
     "Recommendation exclusions are manual user-state/preferences and must be honored even if WikiSync is stale."
