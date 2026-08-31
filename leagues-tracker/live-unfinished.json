@@ -1,5 +1,5 @@
 {
-  "accessible_actionable_count": 481,
+  "accessible_actionable_count": 475,
   "accessible_actionable_tasks": [
     {
       "blessing_task": false,
@@ -3113,16 +3113,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Reach at least level 20 in all non-elite skills.",
-      "id": 140,
-      "issue": null,
-      "name": "Reach at least level 20 in all non-elite skills.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Burn any logs 200 times.",
       "id": 174,
       "issue": null,
@@ -4293,16 +4283,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Have a tool leprechaun note any produce.",
-      "id": 207,
-      "issue": null,
-      "name": "Have a tool leprechaun note any produce.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Eat a baked potato. You will need to get a raw potato and cook it at a range.",
       "id": 212,
       "issue": null,
@@ -4533,26 +4513,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Bring marigolds to Anya at her campsite.",
-      "id": 1167,
-      "issue": null,
-      "name": "Bring marigolds to Anya at her campsite.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Use the outhouse on the cliffs north of Wendlewick.",
-      "id": 1168,
-      "issue": null,
-      "name": "Use the outhouse on the cliffs north of Wendlewick.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Attempt to eat a burnt lobster while inside the Burnt Lobster Tavern.",
       "id": 1169,
       "issue": null,
@@ -4577,26 +4537,6 @@
       "id": 1171,
       "issue": null,
       "name": "Find and speak to the drunken villager.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Climb to the top of the Wendlewick lighthouse.",
-      "id": 1173,
-      "issue": null,
-      "name": "Climb to the top of the Wendlewick lighthouse.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat a juvenile boulder crab.",
-      "id": 1178,
-      "issue": null,
-      "name": "Defeat a juvenile boulder crab.",
       "points": 10,
       "region": "Havenhythe",
       "tier": "easy"
@@ -11155,16 +11095,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Reach at least level 20 in all non-elite skills.",
-      "id": 140,
-      "issue": null,
-      "name": "Reach at least level 20 in all non-elite skills.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Burn any logs 200 times.",
       "id": 174,
       "issue": null,
@@ -13155,16 +13085,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Have a tool leprechaun note any produce.",
-      "id": 207,
-      "issue": null,
-      "name": "Have a tool leprechaun note any produce.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Eat a baked potato. You will need to get a raw potato and cook it at a range.",
       "id": 212,
       "issue": null,
@@ -13395,26 +13315,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Bring marigolds to Anya at her campsite.",
-      "id": 1167,
-      "issue": null,
-      "name": "Bring marigolds to Anya at her campsite.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Use the outhouse on the cliffs north of Wendlewick.",
-      "id": 1168,
-      "issue": null,
-      "name": "Use the outhouse on the cliffs north of Wendlewick.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Attempt to eat a burnt lobster while inside the Burnt Lobster Tavern.",
       "id": 1169,
       "issue": null,
@@ -13439,26 +13339,6 @@
       "id": 1171,
       "issue": null,
       "name": "Find and speak to the drunken villager.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Climb to the top of the Wendlewick lighthouse.",
-      "id": 1173,
-      "issue": null,
-      "name": "Climb to the top of the Wendlewick lighthouse.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat a juvenile boulder crab.",
-      "id": 1178,
-      "issue": null,
-      "name": "Defeat a juvenile boulder crab.",
       "points": 10,
       "region": "Havenhythe",
       "tier": "easy"
@@ -14049,7 +13929,7 @@
     96,
     988
   ],
-  "timestamp_utc": "2026-08-31T01:25:23.343Z",
+  "timestamp_utc": "2026-08-31T14:28:27.864Z",
   "unlocked_regions": [
     "Misthalin",
     "Havenhythe",
