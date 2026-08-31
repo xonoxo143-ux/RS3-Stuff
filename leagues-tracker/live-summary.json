@@ -258,28 +258,7 @@
     988
   ],
   "league_points": 8290,
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 86,
-      "skill": "Constitution",
-      "to": 87
-    },
-    {
-      "from": 70,
-      "skill": "Slayer",
-      "to": 72
-    },
-    {
-      "from": 14,
-      "skill": "Farming",
-      "to": 22
-    },
-    {
-      "from": 52,
-      "skill": "Summoning",
-      "to": 54
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 55,
@@ -312,84 +291,16 @@
     "Woodcutting": 62
   },
   "mapped_completed_tasks": 235,
-  "new_task_ids_since_previous_live_sync": [
-    140,
-    207,
-    1167,
-    1168,
-    1173,
-    1178
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Reach at least level 20 in all non-elite skills.",
-      "id": 140,
-      "issue": null,
-      "name": "Reach at least level 20 in all non-elite skills.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Have a tool leprechaun note any produce.",
-      "id": 207,
-      "issue": null,
-      "name": "Have a tool leprechaun note any produce.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Bring marigolds to Anya at her campsite.",
-      "id": 1167,
-      "issue": null,
-      "name": "Bring marigolds to Anya at her campsite.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Use the outhouse on the cliffs north of Wendlewick.",
-      "id": 1168,
-      "issue": null,
-      "name": "Use the outhouse on the cliffs north of Wendlewick.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Climb to the top of the Wendlewick lighthouse.",
-      "id": 1173,
-      "issue": null,
-      "name": "Climb to the top of the Wendlewick lighthouse.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat a juvenile boulder crab.",
-      "id": 1178,
-      "issue": null,
-      "name": "Defeat a juvenile boulder crab.",
-      "points": 10,
-      "region": "Havenhythe",
-      "tier": "easy"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "player": "112321",
   "points_to_t5": 0,
   "relic_tier": 5,
   "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 6,
+  "task_delta_since_previous_live_sync": 0,
   "tasks_to_second_elective_region": 40,
   "tasks_to_third_elective_region": 165,
-  "timestamp_utc": "2026-08-31T14:28:27.864Z",
+  "timestamp_utc": "2026-08-31T14:29:31.034Z",
   "total_level": 1927,
   "unmapped_completed_task_ids": []
 }
