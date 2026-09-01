@@ -10,11 +10,11 @@
   "confirmed_blessing_choices": {
     "1": "Adrenaline Junkie",
     "2": "Abyssal Cinders",
-    "3": "Avernic Rampage",
+    "3": "Eternal Sustenance",
     "god_1": "Demon's Mark",
-    "4": "Higher Power"
+    "4": "True Equilibrium"
   },
-  "blessing_resets_remaining": 2,
+  "blessing_resets_remaining": 1,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -39,7 +39,7 @@
       "requirements": {
         "blessing_tasks": 12
       },
-      "note": "Fight Kiln completed and TokHaar-Kal equipped; Tier 4 blessing choice is confirmed as Higher Power."
+      "note": "Fight Kiln completed and TokHaar-Kal equipped; current Tier 4 blessing choice is True Equilibrium."
     }
   ],
   "current_goal": {
@@ -120,17 +120,17 @@
     "96": "User does not want to do Croesus.",
     "988": "User explicitly asked to scrap the Cast a Wave spell task from recommendations."
   },
-  "refresh_marker": "2026-09-01T17:45:24-04:00",
+  "refresh_marker": "2026-09-01T17:47:37-04:00",
   "notes": [
     "Tier 3 relic choice confirmed by the user as Voidwalker.",
     "Tier 4 relic choice confirmed by the user as Transmutation.",
     "Tier 5 relic choice confirmed by the user as Devout.",
     "First elective region confirmed by the user as Desert.",
-    "Current blessing setup confirmed from screenshot: T1 Adrenaline Junkie, T2 Abyssal Cinders, T3 Avernic Rampage, God T1 Demon's Mark, T4 Higher Power.",
-    "Blessing reset counter shown as 2 of 4 remaining.",
-    "Fresh live snapshot: 253 completed tasks, 8,870 LP, 12 blessing tasks, 22 tasks to the 275-region unlock.",
+    "Current blessing setup confirmed from screenshot: T1 Adrenaline Junkie, T2 Abyssal Cinders, T3 Eternal Sustenance, God T1 Demon's Mark, T4 True Equilibrium.",
+    "Blessing reset counter shown as 1 of 4 remaining.",
+    "Fresh live snapshot before this refresh: 253 completed tasks, 8,870 LP, 12 blessing tasks, 22 tasks to the 275-region unlock.",
     "Fresh notable levels: Necromancy 97, Defence 93, Constitution 91, Attack 78, Strength 78, Magic 74, Thieving 119, Slayer 73, Hunter 45, Summoning 67, Invention 35, Archaeology 60.",
-    "Latest refresh added 18 completed tasks, including total level 2000, One Piercing Note, restored Pontifex signet ring, first Gregorovic kill, multiple Hunter/impling tasks, and several easy equipment tasks.",
+    "Latest prior refresh added 18 completed tasks, including total level 2000, One Piercing Note, restored Pontifex signet ring, first Gregorovic kill, multiple Hunter/impling tasks, and several easy equipment tasks.",
     "Fight Kiln task 643 and TokHaar-Kal blessing task 1271 are completed.",
     "User completed a first confirmed Gregorovic kill in 1:53.4 and received a Shadow glaive drop; task 322 is confirmed complete by WikiSync.",
     "Primary goal is the 275-task second elective-region unlock.",
