@@ -31,7 +31,7 @@
         "Divination": 80,
         "Smithing": 80
       },
-      "current_invention_level": 32
+      "current_invention_level": 35
     },
     {
       "name": "Unlock Tier 4 blessing",
@@ -45,9 +45,9 @@
   "current_goal": {
     "name": "Second elective region",
     "objective": "Reach 275 completed tasks and unlock the next elective region.",
-    "current_completed_tasks": 235,
+    "current_completed_tasks": 253,
     "target_completed_tasks": 275,
-    "remaining_tasks": 40,
+    "remaining_tasks": 22,
     "strategy": "Prioritize fast easy/medium completions and tasks that stack with useful progression.",
     "priority": "primary"
   },
@@ -59,16 +59,16 @@
       "priority": "completed"
     },
     "second_elective_region": {
-      "current_completed_tasks": 235,
+      "current_completed_tasks": 253,
       "target_completed_tasks": 275,
-      "remaining": 40,
+      "remaining": 22,
       "priority": "primary",
       "strategy": "Prioritize fast easy/medium task completions over point value."
     },
     "third_elective_region": {
-      "current_completed_tasks": 235,
+      "current_completed_tasks": 253,
       "target_completed_tasks": 400,
-      "remaining": 165,
+      "remaining": 147,
       "priority": "later"
     }
   },
@@ -128,11 +128,11 @@
     "First elective region confirmed by the user as Desert.",
     "Current blessing setup confirmed from screenshot: T1 Adrenaline Junkie, T2 Abyssal Cinders, T3 Avernic Rampage, God T1 Demon's Mark, T4 Higher Power.",
     "Blessing reset counter shown as 2 of 4 remaining.",
-    "Fresh live snapshot before this refresh: 235 completed tasks, 8,290 LP, 12 blessing tasks, 40 tasks to the 275-region unlock.",
-    "Fresh notable levels before this refresh: Necromancy 94, Crafting 86, Thieving 116, Invention 32, Magic 72, Defence 89, Constitution 87, Slayer 72, Farming 22, Summoning 54.",
-    "Latest previous refresh completed tasks 140, 207, 1167, 1168, 1173, and 1178.",
+    "Fresh live snapshot: 253 completed tasks, 8,870 LP, 12 blessing tasks, 22 tasks to the 275-region unlock.",
+    "Fresh notable levels: Necromancy 97, Defence 93, Constitution 91, Attack 78, Strength 78, Magic 74, Thieving 119, Slayer 73, Hunter 45, Summoning 67, Invention 35, Archaeology 60.",
+    "Latest refresh added 18 completed tasks, including total level 2000, One Piercing Note, restored Pontifex signet ring, first Gregorovic kill, multiple Hunter/impling tasks, and several easy equipment tasks.",
     "Fight Kiln task 643 and TokHaar-Kal blessing task 1271 are completed.",
-    "User completed a first confirmed Gregorovic kill in 1:53.4 and received a Shadow glaive drop.",
+    "User completed a first confirmed Gregorovic kill in 1:53.4 and received a Shadow glaive drop; task 322 is confirmed complete by WikiSync.",
     "Primary goal is the 275-task second elective-region unlock.",
     "Equilibrium elective region thresholds are 150, 275, and 400 completed tasks; older 175/300/450 values are incorrect.",
     "Task 131 (craft 100 earth runes simultaneously) is completed and has been removed from recommendation exclusions.",
