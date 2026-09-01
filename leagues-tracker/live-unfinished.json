@@ -1,5 +1,5 @@
 {
-  "accessible_actionable_count": 475,
+  "accessible_actionable_count": 457,
   "accessible_actionable_tasks": [
     {
       "blessing_task": false,
@@ -387,16 +387,6 @@
       "id": 146,
       "issue": null,
       "name": "Reach maximum combat level.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach total level 2000.",
-      "id": 151,
-      "issue": null,
-      "name": "Reach total level 2000.",
       "points": 200,
       "region": "Global",
       "tier": "elite"
@@ -1853,16 +1843,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Defeat Gregorovic.",
-      "id": 322,
-      "issue": null,
-      "name": "Defeat Gregorovic.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Defeat Vindicta.",
       "id": 323,
       "issue": null,
@@ -3013,16 +2993,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Complete One Piercing Note.",
-      "id": 289,
-      "issue": null,
-      "name": "Complete the quest: One Piercing Note.",
-      "points": 30,
-      "region": "Desert",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Defeat the Kalphite Queen 25 times.",
       "id": 298,
       "issue": null,
@@ -3057,16 +3027,6 @@
       "id": 306,
       "issue": null,
       "name": "Catch a catfish.",
-      "points": 30,
-      "region": "Desert",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Restore a pontifex signet ring.",
-      "id": 307,
-      "issue": null,
-      "name": "Restore a Pontifex signet ring.",
       "points": 30,
       "region": "Desert",
       "tier": "medium"
@@ -3433,16 +3393,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch a gourmet impling.",
-      "id": 903,
-      "issue": null,
-      "name": "Catch a gourmet impling.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Craft some combination runes: mist runes have the lowest level requirement. They can made by using a pure essence and 1 water rune and a water talisman at the air altar or 1 air rune and an air talisman at the water altar",
       "id": 906,
       "issue": null,
@@ -3477,16 +3427,6 @@
       "id": 916,
       "issue": null,
       "name": "Equip a full set of red dragonhide armour.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip a batwing hood, batwing torso, batwing legs, batwing gloves, and batwing boots. Batwing armour can be bought at Zaff's Superior Spellcasting.",
-      "id": 917,
-      "issue": null,
-      "name": "Equip a full set of batwing robes.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -3923,16 +3863,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Equip a Toktz-xil-ak.",
-      "id": 620,
-      "issue": null,
-      "name": "Equip a Toktz-Xil-Ak.",
-      "points": 30,
-      "region": "Karamja",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Equip a Toktz-xil-ek.",
       "id": 621,
       "issue": null,
@@ -4023,16 +3953,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch 20 implings in Puro-Puro.",
-      "id": 46,
-      "issue": null,
-      "name": "Catch 20 implings in Puro-Puro.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Complete Sheep Shearer.",
       "id": 47,
       "issue": null,
@@ -4067,16 +3987,6 @@
       "id": 57,
       "issue": null,
       "name": "Smith a mithril platebody on the anvil in the jailhouse sewers.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Have either a Putrid Zombie or Vengeful Ghost conjured while fighting the matching creature.",
-      "id": 69,
-      "issue": null,
-      "name": "Have either a Putrid Zombie or Vengeful Ghost conjured while fighting the matching creature.",
       "points": 30,
       "region": "Misthalin",
       "tier": "medium"
@@ -4163,16 +4073,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch a whirligig at Het's Oasis.",
-      "id": 283,
-      "issue": null,
-      "name": "Catch a whirligig at Het's Oasis.",
-      "points": 10,
-      "region": "Desert",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Search the grand gold chest in room 1 of Pyramid Plunder in Sophanem.",
       "id": 285,
       "issue": null,
@@ -4207,16 +4107,6 @@
       "id": 288,
       "issue": null,
       "name": "Mine a gem rock at the Al Kharid mine.",
-      "points": 10,
-      "region": "Desert",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Kill a crocodile.",
-      "id": 290,
-      "issue": null,
-      "name": "Kill a crocodile.",
       "points": 10,
       "region": "Desert",
       "tier": "easy"
@@ -4413,36 +4303,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch a baby impling. Cannot be completed in Puro-Puro.",
-      "id": 849,
-      "issue": null,
-      "name": "Catch a baby impling.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Catch 10 implings. Cannot be completed in Puro-Puro.",
-      "id": 850,
-      "issue": null,
-      "name": "Catch 10 implings of any kind.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Catch 5 Hunter creatures.",
-      "id": 853,
-      "issue": null,
-      "name": "Catch 5 Hunter creatures.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Complete 5 Slayer assignments.",
       "id": 856,
       "issue": null,
@@ -4457,36 +4317,6 @@
       "id": 860,
       "issue": null,
       "name": "Pick 5 flax.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip an iron full helm, iron platebody, iron platelegs/iron plateskirt, iron gauntlets, and iron armoured boots. Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Iron armour can be bought at Horvik's Armour Shop.",
-      "id": 864,
-      "issue": null,
-      "name": "Equip a full set of iron armour without any upgrades.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip an imphide hood, imphide robe top, imphide robe bottom, imphide gloves, and imphide boots. Imphide armour can be bought at Zaff's Superior Spellcasting.",
-      "id": 866,
-      "issue": null,
-      "name": "Equip a full set of imphide robes.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip a spider silk hood, spider silk robe top, spider silk robe bottom, spider silk gloves, and spider silk boots. Spider silk armour can be bought at Zaff's Superior Spellcasting.",
-      "id": 867,
-      "issue": null,
-      "name": "Equip a full set of spider silk robes.",
       "points": 10,
       "region": "Global",
       "tier": "easy"
@@ -4627,16 +4457,6 @@
       "id": 596,
       "issue": null,
       "name": "Claim a ticket from Brimhaven Agility Arena.",
-      "points": 10,
-      "region": "Karamja",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Kill a snake.",
-      "id": 597,
-      "issue": null,
-      "name": "Kill a snake.",
       "points": 10,
       "region": "Karamja",
       "tier": "easy"
@@ -5799,16 +5619,6 @@
       "id": 146,
       "issue": null,
       "name": "Reach maximum combat level.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach total level 2000.",
-      "id": 151,
-      "issue": null,
-      "name": "Reach total level 2000.",
       "points": 200,
       "region": "Global",
       "tier": "elite"
@@ -8505,16 +8315,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Defeat Gregorovic.",
-      "id": 322,
-      "issue": null,
-      "name": "Defeat Gregorovic.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
       "description": "Defeat Vindicta.",
       "id": 323,
       "issue": null,
@@ -10755,16 +10555,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Complete One Piercing Note.",
-      "id": 289,
-      "issue": null,
-      "name": "Complete the quest: One Piercing Note.",
-      "points": 30,
-      "region": "Desert",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Defeat the Kalphite Queen 25 times.",
       "id": 298,
       "issue": null,
@@ -10809,16 +10599,6 @@
       "id": 306,
       "issue": null,
       "name": "Catch a catfish.",
-      "points": 30,
-      "region": "Desert",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Restore a pontifex signet ring.",
-      "id": 307,
-      "issue": null,
-      "name": "Restore a Pontifex signet ring.",
       "points": 30,
       "region": "Desert",
       "tier": "medium"
@@ -11415,16 +11195,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch a gourmet impling.",
-      "id": 903,
-      "issue": null,
-      "name": "Catch a gourmet impling.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Craft some combination runes: mist runes have the lowest level requirement. They can made by using a pure essence and 1 water rune and a water talisman at the air altar or 1 air rune and an air talisman at the water altar",
       "id": 906,
       "issue": null,
@@ -11459,16 +11229,6 @@
       "id": 916,
       "issue": null,
       "name": "Equip a full set of red dragonhide armour.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip a batwing hood, batwing torso, batwing legs, batwing gloves, and batwing boots. Batwing armour can be bought at Zaff's Superior Spellcasting.",
-      "id": 917,
-      "issue": null,
-      "name": "Equip a full set of batwing robes.",
       "points": 30,
       "region": "Global",
       "tier": "medium"
@@ -12095,16 +11855,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Equip a Toktz-xil-ak.",
-      "id": 620,
-      "issue": null,
-      "name": "Equip a Toktz-Xil-Ak.",
-      "points": 30,
-      "region": "Karamja",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Equip a Toktz-xil-ek.",
       "id": 621,
       "issue": null,
@@ -12195,16 +11945,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch 20 implings in Puro-Puro.",
-      "id": 46,
-      "issue": null,
-      "name": "Catch 20 implings in Puro-Puro.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
       "description": "Complete Sheep Shearer.",
       "id": 47,
       "issue": null,
@@ -12239,16 +11979,6 @@
       "id": 57,
       "issue": null,
       "name": "Smith a mithril platebody on the anvil in the jailhouse sewers.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Have either a Putrid Zombie or Vengeful Ghost conjured while fighting the matching creature.",
-      "id": 69,
-      "issue": null,
-      "name": "Have either a Putrid Zombie or Vengeful Ghost conjured while fighting the matching creature.",
       "points": 30,
       "region": "Misthalin",
       "tier": "medium"
@@ -12895,16 +12625,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch a whirligig at Het's Oasis.",
-      "id": 283,
-      "issue": null,
-      "name": "Catch a whirligig at Het's Oasis.",
-      "points": 10,
-      "region": "Desert",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Search the grand gold chest in room 1 of Pyramid Plunder in Sophanem.",
       "id": 285,
       "issue": null,
@@ -12939,16 +12659,6 @@
       "id": 288,
       "issue": null,
       "name": "Mine a gem rock at the Al Kharid mine.",
-      "points": 10,
-      "region": "Desert",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Kill a crocodile.",
-      "id": 290,
-      "issue": null,
-      "name": "Kill a crocodile.",
       "points": 10,
       "region": "Desert",
       "tier": "easy"
@@ -13215,36 +12925,6 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch a baby impling. Cannot be completed in Puro-Puro.",
-      "id": 849,
-      "issue": null,
-      "name": "Catch a baby impling.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Catch 10 implings. Cannot be completed in Puro-Puro.",
-      "id": 850,
-      "issue": null,
-      "name": "Catch 10 implings of any kind.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Catch 5 Hunter creatures.",
-      "id": 853,
-      "issue": null,
-      "name": "Catch 5 Hunter creatures.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
       "description": "Complete 5 Slayer assignments.",
       "id": 856,
       "issue": null,
@@ -13259,36 +12939,6 @@
       "id": 860,
       "issue": null,
       "name": "Pick 5 flax.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip an iron full helm, iron platebody, iron platelegs/iron plateskirt, iron gauntlets, and iron armoured boots. Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Iron armour can be bought at Horvik's Armour Shop.",
-      "id": 864,
-      "issue": null,
-      "name": "Equip a full set of iron armour without any upgrades.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip an imphide hood, imphide robe top, imphide robe bottom, imphide gloves, and imphide boots. Imphide armour can be bought at Zaff's Superior Spellcasting.",
-      "id": 866,
-      "issue": null,
-      "name": "Equip a full set of imphide robes.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip a spider silk hood, spider silk robe top, spider silk robe bottom, spider silk gloves, and spider silk boots. Spider silk armour can be bought at Zaff's Superior Spellcasting.",
-      "id": 867,
-      "issue": null,
-      "name": "Equip a full set of spider silk robes.",
       "points": 10,
       "region": "Global",
       "tier": "easy"
@@ -13519,16 +13169,6 @@
       "id": 596,
       "issue": null,
       "name": "Claim a ticket from Brimhaven Agility Arena.",
-      "points": 10,
-      "region": "Karamja",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Kill a snake.",
-      "id": 597,
-      "issue": null,
-      "name": "Kill a snake.",
       "points": 10,
       "region": "Karamja",
       "tier": "easy"
@@ -13929,7 +13569,7 @@
     96,
     988
   ],
-  "timestamp_utc": "2026-08-31T14:29:31.034Z",
+  "timestamp_utc": "2026-09-01T21:45:56.067Z",
   "unlocked_regions": [
     "Misthalin",
     "Havenhythe",
