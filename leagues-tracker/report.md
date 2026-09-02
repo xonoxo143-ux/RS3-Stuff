@@ -1,6 +1,6 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-02T03:19:47.529Z**
+Updated: **2026-09-02T03:54:01.086Z**
 
 ## Current
 
@@ -9,14 +9,14 @@ Updated: **2026-09-02T03:19:47.529Z**
 - **Total level 2,081**
 - **Relic T5**
 - **12 blessing tasks**
-- Regions: Misthalin, Havenhythe, Karamja, Desert
+- Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
 - **125 tasks** to the next region slot
 - **2,490 LP** to T6
 - **4 blessing tasks** to t5
 
 ## Suggested sprint
 
-Tracker selected **93** of the **125** tasks currently needed.
+Tracker selected **106** of the **125** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
@@ -38,7 +38,13 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [128] Equip an Ek-ZekKil. — Grade B, ~20s, unclustered, 400 LP
 - [129] Equip a Fractured Staff of Armadyl. — Grade B, ~20s, unclustered, 400 LP
 - [130] Equip either a Dark Shard of Leng or a Dark Sliver of Leng. — Grade B, ~20s, unclustered, 200 LP
+- [225] Equip a defender. — Grade B, ~20s, unclustered, 30 LP
+- [250] Equip a seismic wand or seismic singularity. — Grade B, ~20s, unclustered, 200 LP
 - [253] Equip a piece of masterwork melee armour. — Grade B, ~20s, unclustered, 200 LP
+- [264] Equip a full set of Bandos armour. — Grade B, ~20s, unclustered, 200 LP
+- [265] Equip a full set of Armadyl armour. — Grade B, ~20s, unclustered, 200 LP
+- [266] Equip a full set of Subjugation armour. — Grade B, ~20s, unclustered, 200 LP
+- [267] Equip a piece of Torva, Pernix or Virtus armour. — Grade B, ~20s, unclustered, 200 LP
 - [317] Equip a drygore weapon. — Grade B, ~20s, unclustered, 80 LP
 - [377] Equip a full set of graahk, larupia or kyatt hunter gear. — Grade B, ~20s, unclustered, 30 LP
 - [615] Equip an obsidian cape. — Grade B, ~20s, unclustered, 30 LP
@@ -61,8 +67,11 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [951] Equip any dragon mask. — Grade B, ~20s, unclustered, 80 LP
 - [958] Equip a yew shortbow. — Grade B, ~20s, unclustered, 80 LP
 - [959] Equip a magic shortbow. — Grade B, ~20s, unclustered, 80 LP
+- [968] Equip a rune ceremonial sword. — Grade B, ~20s, unclustered, 80 LP
+- [969] Equip a full set of the Blacksmith's outfit. — Grade B, ~20s, unclustered, 80 LP
 - [984] Equip a full set of orikalkum armour. — Grade B, ~20s, unclustered, 80 LP
 - [985] Equip a full set of necronium armour. — Grade B, ~20s, unclustered, 80 LP
+- [1015] Equip a dragon defender. — Grade B, ~20s, unclustered, 80 LP
 - [1056] Equip a full set of elder rune armour. — Grade B, ~20s, unclustered, 200 LP
 - [1140] Equip a full set of masterwork armour. — Grade B, ~20s, unclustered, 400 LP
 - [1142] Equip a full set of primal armour. — Grade B, ~20s, unclustered, 200 LP
@@ -74,6 +83,9 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [1234] Equip a Bow of the Last Guardian. — Grade B, ~20s, unclustered, 400 LP
 - [1243] Equip a weapon from the Heart of Gielinor. — Grade B, ~20s, unclustered, 200 LP
 - [1254] Equip an igneous Kal-Ket, Xil, Mej, or Mor cape. — Grade B, ~20s, unclustered, 200 LP
+- [224] Enter the Warriors' Guild. — Grade B, ~30s, unclustered, 30 LP
+- [232] Enter the Crafting Guild. — Grade B, ~30s, unclustered, 30 LP
+- [238] Use the Telekinetic Grab spell to steal some wine of Zamorak from the captured temple south of Goblin Village. — Grade B, ~30s, unclustered, 30 LP
 - [611] Enter the Hardwood Grove in Tai Bwo Wannai. — Grade B, ~30s, unclustered, 30 LP
 - [1175] Use an oaken key to open Raz's stash in her hut north of Wendlewick. — Grade B, ~30s, unclustered, 30 LP
 - [1183] Use an empowered obelisk to create a jackalope pouch at the Shrine of Inanna. — Grade B, ~30s, unclustered, 10 LP
@@ -86,6 +98,7 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [306] Catch a catfish. — Grade B, ~45s, unclustered, 30 LP
 - [635] Catch a draconic jadinko at Herblore Habitat. — Grade B, ~45s, unclustered, 80 LP
 - [978] Catch a spirit impling. — Grade B, ~45s, unclustered, 80 LP
+- [1049] Catch a cavefish. — Grade B, ~45s, unclustered, 200 LP
 - [1053] Catch a dragon impling. — Grade B, ~45s, unclustered, 200 LP
 - [1054] Catch a kingly impling. — Grade B, ~45s, unclustered, 200 LP
 - [1182] Catch a jackalope. — Grade B, ~45s, unclustered, 10 LP
@@ -132,8 +145,7 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 
 ## Health
 
-- **warning**
-- Warning: 2 elective region slot(s) are unlocked but only 1 are recorded.
+- **healthy**
 
 Grade A = explicit task metadata. Grade B = conservative automatic inference; verify before relying on it.
 

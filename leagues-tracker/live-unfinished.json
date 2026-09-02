@@ -4,16 +4,16 @@
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
   "status_counts": {
-    "accessible_requirements_unknown": 269,
+    "accessible_requirements_unknown": 321,
     "blocked": 39,
     "excluded": 3,
-    "inferred_candidate": 120,
+    "inferred_candidate": 133,
     "known_issue": 1,
-    "locked_region": 436,
+    "locked_region": 371,
     "manual_check": 3,
     "verified_ready": 6
   },
-  "timestamp_utc": "2026-09-02T03:19:47.529Z",
+  "timestamp_utc": "2026-09-02T03:54:01.086Z",
   "unfinished_task_count": 877,
   "unfinished_tasks": [
     {
@@ -467,12 +467,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Reach world 25 in Shattered Worlds.",
@@ -486,7 +481,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
@@ -597,12 +592,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Unlock the Bladed Dive ability from Shattered Worlds.",
@@ -616,7 +606,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -1690,12 +1680,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete a lap of the Burthorpe Agility Course.",
@@ -1709,7 +1694,7 @@
       "points": 10,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "easy",
@@ -1717,66 +1702,57 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Enter the Warriors' Guild.",
-      "estimated_seconds": null,
+      "estimated_seconds": 30,
       "id": 224,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 60.0,
+      "metadata_source": "text_inference",
       "name": "Enter the Warriors' Guild.",
       "points": 30,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "travel"
+      ],
+      "task_count_efficiency": 80,
       "tier": "medium",
       "unknown_checks": []
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Equip a defender.",
-      "estimated_seconds": null,
+      "estimated_seconds": 20,
       "id": 225,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 90.0,
+      "metadata_source": "text_inference",
       "name": "Equip a defender.",
       "points": 30,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "equip"
+      ],
+      "task_count_efficiency": 70,
       "tier": "medium",
       "unknown_checks": []
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Charge an amulet of glory in the Heroes' Guild.",
@@ -1790,7 +1766,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
@@ -1798,12 +1774,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Kill 15 goblins in the Goblin Village to spawn a goblin raider boss.",
@@ -1817,7 +1788,7 @@
       "points": 10,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "easy",
@@ -1825,12 +1796,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete Witch's House.",
@@ -1844,7 +1810,7 @@
       "points": 10,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "easy",
@@ -1852,12 +1818,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Sit on the bench with Sir Tiffy Cashien in Falador Park.",
@@ -1871,7 +1832,7 @@
       "points": 10,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "easy",
@@ -1879,12 +1840,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Pray to Bandos's remains (just south-east of Goblin Village).",
@@ -1898,7 +1854,7 @@
       "points": 10,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "easy",
@@ -1906,12 +1862,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Dance in the Falador party room.",
@@ -1925,7 +1876,7 @@
       "points": 10,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "easy",
@@ -1933,39 +1884,33 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Enter the Crafting Guild.",
-      "estimated_seconds": null,
+      "estimated_seconds": 30,
       "id": 232,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 60.0,
+      "metadata_source": "text_inference",
       "name": "Enter the Crafting Guild.",
       "points": 30,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "travel",
+        "crafting"
+      ],
+      "task_count_efficiency": 80,
       "tier": "medium",
       "unknown_checks": []
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete the Easy Falador achievements.",
@@ -1979,7 +1924,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
@@ -1987,12 +1932,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete the Medium Falador achievements.",
@@ -2006,7 +1946,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
@@ -2014,12 +1954,7 @@
     },
     {
       "blessing_task": true,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Kill the giant mole.",
@@ -2033,7 +1968,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
@@ -2041,12 +1976,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Kill the giant mole 25 times.",
@@ -2060,7 +1990,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
@@ -2068,39 +1998,32 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Use the Telekinetic Grab spell to steal some wine of Zamorak from the captured temple south of Goblin Village.",
-      "estimated_seconds": null,
+      "estimated_seconds": 30,
       "id": 238,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 60.0,
+      "metadata_source": "text_inference",
       "name": "Use the Telekinetic Grab spell to steal some wine of Zamorak from the captured temple south of Goblin Village.",
       "points": 30,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "use"
+      ],
+      "task_count_efficiency": 80,
       "tier": "medium",
       "unknown_checks": []
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Set up a dwarf multicannon.",
@@ -2114,7 +2037,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
@@ -2122,12 +2045,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete a ceremonial sword at the Artisans' Workshop.",
@@ -2141,7 +2059,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
@@ -2149,12 +2067,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Mine some orichalcite ore in the Mining Guild.",
@@ -2168,7 +2081,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
@@ -2176,12 +2089,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Harvest a herb from the troll stronghold herb patch.",
@@ -2195,7 +2103,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
@@ -2203,12 +2111,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Reach 100% respect at the Artisans' Workshop.",
@@ -2222,7 +2125,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2230,12 +2133,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete the Hard Falador achievements.",
@@ -2249,7 +2147,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2257,12 +2155,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete the Elite Falador achievements.",
@@ -2276,7 +2169,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -2284,12 +2177,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat Vorago.",
@@ -2303,7 +2191,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -2311,12 +2199,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat Vorago 10 times.",
@@ -2330,7 +2213,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -2338,39 +2221,32 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Equip a seismic wand or singularity.",
-      "estimated_seconds": null,
+      "estimated_seconds": 20,
       "id": 250,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 600.0,
+      "metadata_source": "text_inference",
       "name": "Equip a seismic wand or seismic singularity.",
       "points": 200,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "equip"
+      ],
+      "task_count_efficiency": 70,
       "tier": "elite",
       "unknown_checks": []
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Harvest some starbloom flowers from the flower patch south of Falador.",
@@ -2384,7 +2260,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -2392,12 +2268,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Unlock the royale dwarf multicannon from the Artisans' Workshop Reward Shop.",
@@ -2411,7 +2282,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -2444,12 +2315,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat any God Wars Dungeon boss 100 times.",
@@ -2463,7 +2329,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2471,12 +2337,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat any God Wars Dungeon boss 250 times.",
@@ -2490,7 +2351,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2498,12 +2359,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat Commander Zilyana",
@@ -2517,7 +2373,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2525,12 +2381,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat General Graardor",
@@ -2544,7 +2395,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2552,12 +2403,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat K'ril Tsutsaroth",
@@ -2571,7 +2417,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2579,12 +2425,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat Kree'arra.",
@@ -2598,7 +2439,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2606,12 +2447,7 @@
     },
     {
       "blessing_task": true,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat Nex",
@@ -2625,7 +2461,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2633,12 +2469,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat Nex 50 times.",
@@ -2652,7 +2483,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2660,12 +2491,7 @@
     },
     {
       "blessing_task": true,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Assemble any godsword from the God Wars Dungeon.",
@@ -2679,7 +2505,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2687,120 +2513,107 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Equip a full set of Bandos armour.",
-      "estimated_seconds": null,
+      "estimated_seconds": 20,
       "id": 264,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 600.0,
+      "metadata_source": "text_inference",
       "name": "Equip a full set of Bandos armour.",
       "points": 200,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "equip"
+      ],
+      "task_count_efficiency": 70,
       "tier": "elite",
       "unknown_checks": []
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Equip a full set of Armadyl armour.",
-      "estimated_seconds": null,
+      "estimated_seconds": 20,
       "id": 265,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 600.0,
+      "metadata_source": "text_inference",
       "name": "Equip a full set of Armadyl armour.",
       "points": 200,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "equip"
+      ],
+      "task_count_efficiency": 70,
       "tier": "elite",
       "unknown_checks": []
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Equip a full set of subjugation armour.",
-      "estimated_seconds": null,
+      "estimated_seconds": 20,
       "id": 266,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 600.0,
+      "metadata_source": "text_inference",
       "name": "Equip a full set of Subjugation armour.",
       "points": 200,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "equip"
+      ],
+      "task_count_efficiency": 70,
       "tier": "elite",
       "unknown_checks": []
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Equip a piece of Torva, Pernix or Virtus armour.",
-      "estimated_seconds": null,
+      "estimated_seconds": 20,
       "id": 267,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 600.0,
+      "metadata_source": "text_inference",
       "name": "Equip a piece of Torva, Pernix or Virtus armour.",
       "points": 200,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "equip"
+      ],
+      "task_count_efficiency": 70,
       "tier": "elite",
       "unknown_checks": []
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Kill Nex: Angel of Death.",
@@ -2814,7 +2627,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -2822,12 +2635,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Kill Nex: Angel of Death 10 times.",
@@ -2841,7 +2649,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -2849,12 +2657,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Unlock all the prayers from the Praesul codex.",
@@ -2868,7 +2671,7 @@
       "points": 400,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "master",
@@ -2876,12 +2679,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Give Thurgo a redberry pie.",
@@ -2895,7 +2693,7 @@
       "points": 10,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "easy",
@@ -2903,12 +2701,7 @@
     },
     {
       "blessing_task": true,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat the Queen Black Dragon.",
@@ -2922,7 +2715,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2930,12 +2723,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat the Queen Black Dragon 50 times.",
@@ -2949,7 +2737,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2957,12 +2745,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Bury some frost dragon bones.",
@@ -2976,7 +2759,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -2984,12 +2767,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Kill a wyvern.",
@@ -3003,7 +2781,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -3011,12 +2789,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Build a God statue in Taverley.",
@@ -3030,7 +2803,7 @@
       "points": 10,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "easy",
@@ -3038,12 +2811,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Kill a blue dragon in Taverley Dungeon.",
@@ -3057,7 +2825,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
@@ -3065,12 +2833,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Open the crystal chest in Taverley.",
@@ -3084,7 +2847,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
@@ -15934,66 +15697,57 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Equip a rune ceremonial sword.",
-      "estimated_seconds": null,
+      "estimated_seconds": 20,
       "id": 968,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 240.0,
+      "metadata_source": "text_inference",
       "name": "Equip a rune ceremonial sword.",
       "points": 80,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "equip"
+      ],
+      "task_count_efficiency": 70,
       "tier": "hard",
       "unknown_checks": []
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Equip a full set of the blacksmith's outfit. Does not require the head add-on.",
-      "estimated_seconds": null,
+      "estimated_seconds": 20,
       "id": 969,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 240.0,
+      "metadata_source": "text_inference",
       "name": "Equip a full set of the Blacksmith's outfit.",
       "points": 80,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "equip"
+      ],
+      "task_count_efficiency": 70,
       "tier": "hard",
       "unknown_checks": []
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Power up the Artisans' Workshop with a luminite injector.",
@@ -16007,7 +15761,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -16791,39 +16545,32 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Equip a dragon defender.",
-      "estimated_seconds": null,
+      "estimated_seconds": 20,
       "id": 1015,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 240.0,
+      "metadata_source": "text_inference",
       "name": "Equip a dragon defender.",
       "points": 80,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "equip"
+      ],
+      "task_count_efficiency": 70,
       "tier": "hard",
       "unknown_checks": []
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat Seiryu the Azure Serpent.",
@@ -16837,7 +16584,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -16845,12 +16592,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Defeat Seiryu the Azure Serpent 5 times.",
@@ -16864,7 +16606,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -16872,12 +16614,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete the Asgarnia & Misthalin slayer collection log.",
@@ -16891,7 +16628,7 @@
       "points": 400,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "master",
@@ -16899,12 +16636,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete all combat mastery achievements for the Giant Mole.",
@@ -16918,7 +16650,7 @@
       "points": 80,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
@@ -16926,12 +16658,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete all Combat Mastery achievements for the Queen Black Dragon.",
@@ -16945,7 +16672,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -17513,12 +17240,7 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Catch 150 raw rocktails.",
@@ -17532,7 +17254,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -17621,28 +17343,26 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
+      "confidence": 0.72,
       "description": "Catch a raw cavefish.",
-      "estimated_seconds": null,
+      "estimated_seconds": 45,
       "id": 1049,
       "issue": null,
       "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
+      "lp_per_minute": 266.67,
+      "metadata_source": "text_inference",
       "name": "Catch a cavefish.",
       "points": 200,
-      "recommendation_grade": "U",
+      "recommendation_grade": "B",
       "region": "Asgarnia",
-      "status": "locked_region",
-      "tags": [],
-      "task_count_efficiency": null,
+      "status": "inferred_candidate",
+      "tags": [
+        "inferred",
+        "fishing_or_hunter"
+      ],
+      "task_count_efficiency": 95,
       "tier": "elite",
       "unknown_checks": []
     },
@@ -21638,12 +21358,7 @@
     },
     {
       "blessing_task": true,
-      "blockers": [
-        {
-          "required": "Asgarnia",
-          "type": "region"
-        }
-      ],
+      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete the 'Hold on Tight' Combat Mastery achievement.",
@@ -21657,7 +21372,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Asgarnia",
-      "status": "locked_region",
+      "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
       "tier": "elite",
@@ -22346,6 +22061,7 @@
     "Misthalin",
     "Havenhythe",
     "Karamja",
-    "Desert"
+    "Desert",
+    "Asgarnia"
   ]
 }

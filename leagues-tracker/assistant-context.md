@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-02T03:19:47.529Z**
+Updated: **2026-09-02T03:54:01.086Z**
 
 ## Tracker discipline
 
@@ -17,7 +17,7 @@ Updated: **2026-09-02T03:19:47.529Z**
 
 - **9,510 LP** · **275 tasks** · total level **2,081**
 - **12 blessing tasks** · relic **T5**
-- Regions: **Misthalin, Havenhythe, Karamja, Desert**
+- Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
 - Next region: **125 tasks** to 400
 - Next relic: **2,490 LP** to T6
 - Next blessing step: **4** to t5
@@ -162,20 +162,13 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+6** · LP: **+100**
-- [35] Catch some shrimp in the fishing spot to the east of Lumbridge Swamp. — easy, Misthalin, 10 LP
-- [112] Enter the Cooks' Guild. — medium, Misthalin, 30 LP
-- [217] Return a free item to any store. — easy, Global, 10 LP
-- [819] Fletch an oak shortbow (unstrung). — easy, Global, 10 LP
-- [844] Scatter 25 ashes of any kind. — easy, Global, 10 LP
-- [980] Perform a special attack. — medium, Global, 30 LP
-- Level-ups: Fishing 39→40
+- Tasks: **+0** · LP: **+0**
 
 ## Current task sprint
 
 - Need: **125 tasks**
-- Precomputed sprint: **93 tasks** (6 Grade A, 87 Grade B)
-- Action-time estimate excluding travel: **3280 sec**
+- Precomputed sprint: **106 tasks** (6 Grade A, 100 Grade B)
+- Action-time estimate excluding travel: **3595 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -196,31 +189,30 @@ Passive step effects:
 - [128] **Equip an Ek-ZekKil.** — Grade B · ~20s · unclustered
 - [129] **Equip a Fractured Staff of Armadyl.** — Grade B · ~20s · unclustered
 - [130] **Equip either a Dark Shard of Leng or a Dark Sliver of Leng.** — Grade B · ~20s · unclustered
+- [225] **Equip a defender.** — Grade B · ~20s · unclustered
+- [250] **Equip a seismic wand or seismic singularity.** — Grade B · ~20s · unclustered
 - [253] **Equip a piece of masterwork melee armour.** — Grade B · ~20s · unclustered
+- [264] **Equip a full set of Bandos armour.** — Grade B · ~20s · unclustered
+- [265] **Equip a full set of Armadyl armour.** — Grade B · ~20s · unclustered
+- [266] **Equip a full set of Subjugation armour.** — Grade B · ~20s · unclustered
+- [267] **Equip a piece of Torva, Pernix or Virtus armour.** — Grade B · ~20s · unclustered
 - [317] **Equip a drygore weapon.** — Grade B · ~20s · unclustered
 - [377] **Equip a full set of graahk, larupia or kyatt hunter gear.** — Grade B · ~20s · unclustered
 - [615] **Equip an obsidian cape.** — Grade B · ~20s · unclustered
 - [618] **Equip a Toktz-Ket-Xil.** — Grade B · ~20s · unclustered
-- [619] **Equip a Tzhaar-Ket-Om.** — Grade B · ~20s · unclustered
-- [621] **Equip a Toktz-Xil-Ek.** — Grade B · ~20s · unclustered
-- [624] **Equip a full set of obsidian armour.** — Grade B · ~20s · unclustered
-- [625] **Equip a red topaz machete.** — Grade B · ~20s · unclustered
-- [652] **Equip a piece of gemstone armour.** — Grade B · ~20s · unclustered
-- [694] **Equip a pair of Steadfast boots.** — Grade B · ~20s · unclustered
 
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **6**
-- Timed Grade-B inferred candidates: **87**
-- Metadata sources: `{'manual_override': 9, 'none': 709, 'text_inference': 159}`
+- Timed Grade-B inferred candidates: **100**
+- Metadata sources: `{'manual_override': 9, 'none': 696, 'text_inference': 172}`
 
 ## Data health
 
-- Overall: **warning**
-- WikiSync: **fresh** · 2026-09-02T03:19:47.529Z
+- Overall: **healthy**
+- WikiSync: **fresh** · 2026-09-02T03:54:01.086Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
-- WARNING `elective_region_selection_due`: 2 elective region slot(s) are unlocked but only 1 are recorded.
 
 > Always apply the active League effects above before normal RS3 mechanics.
 

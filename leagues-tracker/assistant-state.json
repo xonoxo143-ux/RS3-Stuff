@@ -314,7 +314,7 @@
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-02T03:19:47.529Z",
+    "timestamp_utc": "2026-09-02T03:54:01.086Z",
     "total_level": 2081
   },
   "blessings": {
@@ -488,85 +488,11 @@
     ]
   },
   "changes": {
-    "league_points_delta": 100,
-    "level_ups": [
-      {
-        "from": 39,
-        "skill": "Fishing",
-        "to": 40
-      }
-    ],
-    "new_task_ids": [
-      35,
-      112,
-      217,
-      819,
-      844,
-      980
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Catch some shrimp by using the net option on the net/bait fishing spot to the east of Lumbridge Swamp.",
-        "id": 35,
-        "issue": null,
-        "name": "Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.",
-        "points": 10,
-        "region": "Misthalin",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Enter the Cooks' Guild.",
-        "id": 112,
-        "issue": null,
-        "name": "Enter the Cooks' Guild.",
-        "points": 30,
-        "region": "Misthalin",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": false,
-        "description": "Return a free item to any store e.g. a tinderbox from Lumbridge General Store",
-        "id": 217,
-        "issue": null,
-        "name": "Return a free item to any store.",
-        "points": 10,
-        "region": "Global",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Fletch an unstrung oak shortbow.",
-        "id": 819,
-        "issue": null,
-        "name": "Fletch an oak shortbow (unstrung).",
-        "points": 10,
-        "region": "Global",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Scatter 25 ashes of any kind.",
-        "id": 844,
-        "issue": null,
-        "name": "Scatter 25 ashes of any kind.",
-        "points": 10,
-        "region": "Global",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Perform a special attack.",
-        "id": 980,
-        "issue": null,
-        "name": "Perform a special attack.",
-        "points": 30,
-        "region": "Global",
-        "tier": "medium"
-      }
-    ],
-    "task_delta": 6
+    "league_points_delta": 0,
+    "level_ups": [],
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "forgotten_finish_opportunities": {
     "count": 7,
@@ -739,7 +665,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-02T03:19:47.529Z",
+    "generated_at_utc": "2026-09-02T03:54:01.086Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -748,36 +674,31 @@
     "overall": {
       "errors": [],
       "expected_elective_slots": 2,
-      "recorded_elective_regions": 1,
-      "status": "warning",
-      "warnings": [
-        {
-          "code": "elective_region_selection_due",
-          "detail": "2 elective region slot(s) are unlocked but only 1 are recorded."
-        }
-      ]
+      "recorded_elective_regions": 2,
+      "status": "healthy",
+      "warnings": []
     },
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 9,
-        "none": 709,
-        "text_inference": 159
+        "none": 696,
+        "text_inference": 172
       },
       "status_counts": {
-        "accessible_requirements_unknown": 269,
+        "accessible_requirements_unknown": 321,
         "blocked": 39,
         "excluded": 3,
-        "inferred_candidate": 120,
+        "inferred_candidate": 133,
         "known_issue": 1,
-        "locked_region": 436,
+        "locked_region": 371,
         "manual_check": 3,
         "verified_ready": 6
       },
-      "timed_inferred_candidates": 87,
+      "timed_inferred_candidates": 100,
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 10499,
+      "age_seconds_at_generation": 12552,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -799,13 +720,13 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-02T03:19:47.529Z"
+      "timestamp": "2026-09-02T03:54:01.086Z"
     }
   },
   "manual": {
     "goal": {
-      "strategy": "Prioritize fast task-count completions and stack them with useful progression.",
-      "threshold_id": "elective_2",
+      "strategy": "Prioritize high-point tasks and blessing progress, stacking them with useful progression such as Necromancy gear upgrades.",
+      "threshold_id": "elective_3",
       "type": "task_threshold"
     },
     "key_items": [
@@ -883,7 +804,8 @@
       "Karamja"
     ],
     "elective": [
-      "Desert"
+      "Desert",
+      "Asgarnia"
     ],
     "starting": [
       "Misthalin",
@@ -893,7 +815,8 @@
       "Misthalin",
       "Havenhythe",
       "Karamja",
-      "Desert"
+      "Desert",
+      "Asgarnia"
     ]
   },
   "relics": {
@@ -1080,18 +1003,18 @@
   },
   "schema_version": 2,
   "tasks": {
-    "inferred_candidate_count": 120,
+    "inferred_candidate_count": 133,
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 269,
+    "requirements_unknown_count": 321,
     "status_counts": {
-      "accessible_requirements_unknown": 269,
+      "accessible_requirements_unknown": 321,
       "blocked": 39,
       "excluded": 3,
-      "inferred_candidate": 120,
+      "inferred_candidate": 133,
       "known_issue": 1,
-      "locked_region": 436,
+      "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },

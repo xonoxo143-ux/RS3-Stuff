@@ -291,7 +291,8 @@
     "Misthalin",
     "Havenhythe",
     "Karamja",
-    "Desert"
+    "Desert",
+    "Asgarnia"
   ],
   "excluded_recommendation_task_ids": [
     95,
@@ -300,13 +301,7 @@
   ],
   "league_points": 9510,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 39,
-      "skill": "Fishing",
-      "to": 40
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -339,76 +334,8 @@
     "Woodcutting": 62
   },
   "mapped_completed_tasks": 275,
-  "new_task_ids_since_previous_live_sync": [
-    35,
-    112,
-    217,
-    819,
-    844,
-    980
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Catch some shrimp by using the net option on the net/bait fishing spot to the east of Lumbridge Swamp.",
-      "id": 35,
-      "issue": null,
-      "name": "Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.",
-      "points": 10,
-      "region": "Misthalin",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Enter the Cooks' Guild.",
-      "id": 112,
-      "issue": null,
-      "name": "Enter the Cooks' Guild.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Return a free item to any store e.g. a tinderbox from Lumbridge General Store",
-      "id": 217,
-      "issue": null,
-      "name": "Return a free item to any store.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Fletch an unstrung oak shortbow.",
-      "id": 819,
-      "issue": null,
-      "name": "Fletch an oak shortbow (unstrung).",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Scatter 25 ashes of any kind.",
-      "id": 844,
-      "issue": null,
-      "name": "Scatter 25 ashes of any kind.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Perform a special attack.",
-      "id": 980,
-      "issue": null,
-      "name": "Perform a special attack.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "next_blessing": {
     "remaining_tasks": 4,
     "step": "t5",
@@ -437,9 +364,9 @@
   ],
   "relic_tier": 5,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 6,
-  "timestamp_utc": "2026-09-02T03:19:47.529Z",
+  "task_delta_since_previous_live_sync": 0,
+  "timestamp_utc": "2026-09-02T03:54:01.086Z",
   "total_level": 2081,
-  "tracker_health": "warning",
+  "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

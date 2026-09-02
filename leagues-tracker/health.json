@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T03:19:47.529Z",
+  "generated_at_utc": "2026-09-02T03:54:01.086Z",
   "hiscores": {
     "note": "HiScores parsing is not a dependency.",
     "required": false,
@@ -8,36 +8,31 @@
   "overall": {
     "errors": [],
     "expected_elective_slots": 2,
-    "recorded_elective_regions": 1,
-    "status": "warning",
-    "warnings": [
-      {
-        "code": "elective_region_selection_due",
-        "detail": "2 elective region slot(s) are unlocked but only 1 are recorded."
-      }
-    ]
+    "recorded_elective_regions": 2,
+    "status": "healthy",
+    "warnings": []
   },
   "recommendation_coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
-      "none": 709,
-      "text_inference": 159
+      "none": 696,
+      "text_inference": 172
     },
     "status_counts": {
-      "accessible_requirements_unknown": 269,
+      "accessible_requirements_unknown": 321,
       "blocked": 39,
       "excluded": 3,
-      "inferred_candidate": 120,
+      "inferred_candidate": 133,
       "known_issue": 1,
-      "locked_region": 436,
+      "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "timed_inferred_candidates": 87,
+    "timed_inferred_candidates": 100,
     "timed_verified_tasks": 6
   },
   "task_catalog": {
-    "age_seconds_at_generation": 10499,
+    "age_seconds_at_generation": 12552,
     "fetched_at_utc": "2026-09-02T00:24:49+00:00",
     "latest_change_check": {
       "added_task_ids": [],
@@ -59,6 +54,6 @@
       "skill_levels"
     ],
     "status": "fresh",
-    "timestamp": "2026-09-02T03:19:47.529Z"
+    "timestamp": "2026-09-02T03:54:01.086Z"
   }
 }
