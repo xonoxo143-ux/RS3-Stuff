@@ -9,8 +9,9 @@ This does not invent hidden in-game counters. Instead it looks for observable ev
 - the task is in an activity/location cluster the account has already cleared heavily,
 - the only known blocker is a tiny skill gap.
 
-The output is deliberately separate from the normal speed ranking. It answers:
-"What did I probably almost finish or forget to trigger?"
+Crucially, family and direct-completion signals use the task TITLE, not prerequisite text
+buried in descriptions. Meeting a prerequisite is not the same thing as nearly finishing
+a task.
 """
 from __future__ import annotations
 
@@ -36,16 +37,16 @@ def dump(name, obj):
     )
 
 
+def task_title(task):
+    return str(task.get("name", "")).strip()
+
+
 def task_text(task):
     return f"{task.get('name', '')} {task.get('description', '')}".strip()
 
 
 def number_signature(text):
-    """Return a conservative numeric family template and explicit numbers.
-
-    We only use numeric families when the surrounding wording is essentially identical.
-    This is useful for room 1/2/3, kill 10/25/50, level 80/90/99, etc.
-    """
+    """Return a conservative numeric family template and explicit numbers."""
     low = re.sub(r"\s+", " ", text.lower()).strip()
     nums = [int(x) for x in re.findall(r"(?<![a-z])\d{1,4}(?![a-z])", low)]
     if not nums:
@@ -59,8 +60,11 @@ def number_signature(text):
     return templ, nums
 
 
-def explicit_level_requirement(text):
-    """Parse common 'reach level N in Skill' wording without assuming every number is a level."""
+def explicit_level_requirement(title):
+    """Parse direct level-achievement task titles, not incidental prerequisite text."""
+    low = title.lower().strip()
+    if not re.match(r"^(reach|attain|get|have)\b", low):
+        return None
     skills = [
         "Attack", "Defence", "Strength", "Constitution", "Ranged", "Prayer", "Magic",
         "Cooking", "Woodcutting", "Fletching", "Fishing", "Firemaking", "Crafting",
@@ -68,13 +72,11 @@ def explicit_level_requirement(text):
         "Runecrafting", "Hunter", "Construction", "Summoning", "Dungeoneering",
         "Divination", "Invention", "Archaeology", "Necromancy",
     ]
-    low = text.lower()
     for skill in skills:
         s = re.escape(skill.lower())
         patterns = [
-            rf"(?:reach|attain|get|have)\s+(?:level\s+)?(\d{{1,3}})\s+(?:(?:in|of)\s+(?:the\s+)?)?{s}\b",
-            rf"(?:level|at least)\s+(\d{{1,3}})\s+(?:(?:in|of)\s+(?:the\s+)?)?{s}\b",
-            rf"\b{s}\s+(?:skill\s+)?(?:level\s+)?(\d{{1,3}})\b",
+            rf"(?:reach|attain|get|have)\s+(?:at least\s+)?(?:level\s+)?(\d{{1,3}})\s+(?:(?:in|of)\s+(?:the\s+)?)?{s}\b",
+            rf"(?:reach|attain|get|have)\s+{s}\s+(?:skill\s+)?(?:level\s+)?(\d{{1,3}})\b",
         ]
         vals = []
         for pattern in patterns:
@@ -85,9 +87,7 @@ def explicit_level_requirement(text):
 
 
 def accessible(task):
-    return task.get("status") not in {
-        "locked_region", "excluded", "known_issue"
-    }
+    return task.get("status") not in {"locked_region", "excluded", "known_issue"}
 
 
 def effort_label(score, reasons, task):
@@ -122,11 +122,13 @@ def main():
     by_id = {int(t["id"]): t for t in catalog if isinstance(t, dict) and "id" in t}
     unfinished_by_id = {int(t["id"]): t for t in unfinished if isinstance(t, dict) and "id" in t}
 
+    # Numeric families are based on titles only. Descriptions often contain unrelated
+    # requirements and would create false families.
     families = collections.defaultdict(list)
     family_meta = {}
     for task in catalog:
         tid = int(task["id"])
-        template, nums = number_signature(task_text(task))
+        template, nums = number_signature(task_title(task))
         if template:
             families[template].append(tid)
             family_meta[tid] = (template, nums)
@@ -165,9 +167,11 @@ def main():
         reasons = []
         score = 0
         confidence = 0.0
-        text = task_text(task)
+        title = task_title(task)
 
-        req = explicit_level_requirement(text)
+        # Direct achievement already satisfied. Only titles like "Reach level 99..."
+        # qualify; prerequisite descriptions never do.
+        req = explicit_level_requirement(title)
         if req:
             skill, required = req
             current = levels.get(skill, 0)
@@ -176,7 +180,7 @@ def main():
                 confidence = max(confidence, 0.98)
                 reasons.append({
                     "code": "stated_requirement_already_met",
-                    "detail": f"Current {skill} is {current}, already above the stated {required} requirement.",
+                    "detail": f"Current {skill} is {current}, already above the task's stated {required} target.",
                     "skill": skill,
                     "current": current,
                     "required": required,
@@ -216,7 +220,7 @@ def main():
                 confidence = max(confidence, 0.78)
                 reasons.append({
                     "code": "same_task_family_progress",
-                    "detail": f"{len(completed_sibs)} related task(s) in this numeric family are already complete.",
+                    "detail": f"{len(completed_sibs)} related numbered task(s) are already complete.",
                     "completed_sibling_ids": completed_sibs[:20],
                 })
 
@@ -335,7 +339,7 @@ def main():
     )
 
     result = {
-        "schema_version": 1,
+        "schema_version": 2,
         "purpose": "Surface forgotten or suspiciously near-complete unfinished tasks from observable account evidence.",
         "limitation": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. Exact states such as 19/20 are only knowable if another live source exposes that counter.",
         "count": len(opportunities),
