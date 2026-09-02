@@ -11,20 +11,22 @@ def load(name):
     return json.loads((ROOT / name).read_text(encoding="utf-8"))
 
 
-# Family parsing should group numbered task ladders without grouping trivial one-word text.
+# Family parsing should group numbered task ladders without grouping trivial text.
 t1, n1 = number_signature("Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.")
 t2, n2 = number_signature("Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.")
 assert t1 == t2 and n1 == [1] and n2 == [2]
 assert number_signature("Kill 10 rats")[0] is None
 
-# Explicit level parsing is conservative and should recognize common League wording.
+# Direct level tasks should parse, ordinary action tasks should not become level tasks.
 assert explicit_level_requirement("Reach level 99 in the Necromancy skill.") == ("Necromancy", 99)
+assert explicit_level_requirement("Open 10 metamorphic geodes.") is None
+assert explicit_level_requirement("Equip a full set of graahk hunter gear.") is None
 
 summary = load("live-summary.json")
 opps = load("opportunities.json")
 completed = {int(x) for x in summary.get("completed_task_ids", [])}
 
-assert opps.get("schema_version") == 1
+assert opps.get("schema_version") == 2
 assert isinstance(opps.get("top"), list)
 for task in opps["top"]:
     assert int(task["id"]) not in completed, f"Completed task leaked into opportunities: {task['id']}"
