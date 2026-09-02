@@ -72,9 +72,9 @@ def explicit_level_requirement(text):
     for skill in skills:
         s = re.escape(skill.lower())
         patterns = [
-            rf"(?:reach|attain|get|have)\s+(?:level\s+)?(\d{{1,3}})\s+(?:in\s+)?{s}\b",
-            rf"(?:level|at least)\s+(\d{{1,3}})\s+(?:in\s+)?{s}\b",
-            rf"\b{s}\s+(?:level\s+)?(\d{{1,3}})\b",
+            rf"(?:reach|attain|get|have)\s+(?:level\s+)?(\d{{1,3}})\s+(?:(?:in|of)\s+(?:the\s+)?)?{s}\b",
+            rf"(?:level|at least)\s+(\d{{1,3}})\s+(?:(?:in|of)\s+(?:the\s+)?)?{s}\b",
+            rf"\b{s}\s+(?:skill\s+)?(?:level\s+)?(\d{{1,3}})\b",
         ]
         vals = []
         for pattern in patterns:
