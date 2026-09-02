@@ -1,7 +1,84 @@
 {
-  "league_points_delta": 0,
-  "level_ups": [],
-  "new_task_ids": [],
-  "new_tasks": [],
-  "task_delta": 0
+  "league_points_delta": 370,
+  "level_ups": [
+    {
+      "from": 94,
+      "skill": "Defence",
+      "to": 95
+    },
+    {
+      "from": 92,
+      "skill": "Constitution",
+      "to": 93
+    },
+    {
+      "from": 74,
+      "skill": "Slayer",
+      "to": 75
+    },
+    {
+      "from": 22,
+      "skill": "Farming",
+      "to": 26
+    },
+    {
+      "from": 74,
+      "skill": "Invention",
+      "to": 78
+    },
+    {
+      "from": 97,
+      "skill": "Necromancy",
+      "to": 99
+    }
+  ],
+  "new_task_ids": [
+    257,
+    258,
+    860,
+    1079
+  ],
+  "new_tasks": [
+    {
+      "blessing_task": false,
+      "description": "Defeat General Graardor",
+      "id": 257,
+      "issue": null,
+      "name": "Defeat General Graardor.",
+      "points": 80,
+      "region": "Asgarnia",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Defeat K'ril Tsutsaroth",
+      "id": 258,
+      "issue": null,
+      "name": "Defeat K'ril Tsutsaroth.",
+      "points": 80,
+      "region": "Asgarnia",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Pick 5 flax from flax fields.",
+      "id": 860,
+      "issue": null,
+      "name": "Pick 5 flax.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Reach level 99 Necromancy.",
+      "id": 1079,
+      "issue": null,
+      "name": "Reach level 99 in the Necromancy skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    }
+  ],
+  "task_delta": 4
 }

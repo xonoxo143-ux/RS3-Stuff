@@ -139,6 +139,8 @@
       220,
       221,
       222,
+      257,
+      258,
       282,
       283,
       284,
@@ -209,6 +211,7 @@
       849,
       850,
       853,
+      860,
       861,
       862,
       863,
@@ -248,6 +251,7 @@
       987,
       1052,
       1060,
+      1079,
       1080,
       1087,
       1103,
@@ -278,35 +282,35 @@
       1250,
       1271
     ],
-    "completed_tasks": 275,
+    "completed_tasks": 279,
     "league": "Leagues II: Equilibrium",
-    "league_points": 9510,
+    "league_points": 9880,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
       "Archaeology": 60,
       "Attack": 78,
-      "Constitution": 92,
+      "Constitution": 93,
       "Construction": 53,
       "Cooking": 72,
       "Crafting": 88,
-      "Defence": 94,
+      "Defence": 95,
       "Divination": 80,
       "Dungeoneering": 39,
-      "Farming": 22,
+      "Farming": 26,
       "Firemaking": 54,
       "Fishing": 40,
       "Fletching": 69,
       "Herblore": 68,
       "Hunter": 45,
-      "Invention": 74,
+      "Invention": 78,
       "Magic": 76,
       "Mining": 77,
-      "Necromancy": 97,
+      "Necromancy": 99,
       "Prayer": 99,
       "Ranged": 52,
       "Runecrafting": 73,
-      "Slayer": 74,
+      "Slayer": 75,
       "Smithing": 80,
       "Strength": 78,
       "Summoning": 67,
@@ -314,8 +318,8 @@
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-02T03:54:12.745Z",
-    "total_level": 2081
+    "timestamp_utc": "2026-09-02T05:52:50.826Z",
+    "total_level": 2094
   },
   "blessings": {
     "derived_god_choices": {
@@ -488,38 +492,94 @@
     ]
   },
   "changes": {
-    "league_points_delta": 0,
-    "level_ups": [],
-    "new_task_ids": [],
-    "new_tasks": [],
-    "task_delta": 0
+    "league_points_delta": 370,
+    "level_ups": [
+      {
+        "from": 94,
+        "skill": "Defence",
+        "to": 95
+      },
+      {
+        "from": 92,
+        "skill": "Constitution",
+        "to": 93
+      },
+      {
+        "from": 74,
+        "skill": "Slayer",
+        "to": 75
+      },
+      {
+        "from": 22,
+        "skill": "Farming",
+        "to": 26
+      },
+      {
+        "from": 74,
+        "skill": "Invention",
+        "to": 78
+      },
+      {
+        "from": 97,
+        "skill": "Necromancy",
+        "to": 99
+      }
+    ],
+    "new_task_ids": [
+      257,
+      258,
+      860,
+      1079
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "description": "Defeat General Graardor",
+        "id": 257,
+        "issue": null,
+        "name": "Defeat General Graardor.",
+        "points": 80,
+        "region": "Asgarnia",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Defeat K'ril Tsutsaroth",
+        "id": 258,
+        "issue": null,
+        "name": "Defeat K'ril Tsutsaroth.",
+        "points": 80,
+        "region": "Asgarnia",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Pick 5 flax from flax fields.",
+        "id": 860,
+        "issue": null,
+        "name": "Pick 5 flax.",
+        "points": 10,
+        "region": "Global",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "description": "Reach level 99 Necromancy.",
+        "id": 1079,
+        "issue": null,
+        "name": "Reach level 99 in the Necromancy skill.",
+        "points": 200,
+        "region": "Global",
+        "tier": "elite"
+      }
+    ],
+    "task_delta": 4
   },
   "forgotten_finish_opportunities": {
     "count": 7,
     "note": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. For cumulative families, completed milestones provide only a guaranteed lower bound; exact states such as 19/20 require a source that exposes that counter.",
     "source": "opportunities.json",
     "top": [
-      {
-        "cluster": null,
-        "confidence": 0.95,
-        "estimated_seconds_if_known": null,
-        "id": 1079,
-        "name": "Reach level 99 in the Necromancy skill.",
-        "opportunity_score": 45,
-        "points": 200,
-        "reasons": [
-          {
-            "code": "tiny_skill_gap",
-            "detail": "Only 2 Necromancy level(s) remain to the task target.",
-            "gap": 2,
-            "skill": "Necromancy"
-          }
-        ],
-        "region": "Global",
-        "status": "blocked",
-        "suspected_remaining_effort": "2_skill_levels_or_less",
-        "tier": "elite"
-      },
       {
         "cluster": null,
         "confidence": 0.9,
@@ -583,8 +643,8 @@
         "reasons": [
           {
             "code": "small_skill_gap",
-            "detail": "Only 5 Defence levels remain to the task target.",
-            "gap": 5,
+            "detail": "Only 4 Defence levels remain to the task target.",
+            "gap": 4,
             "skill": "Defence"
           }
         ],
@@ -592,6 +652,30 @@
         "status": "blocked",
         "suspected_remaining_effort": "unknown_check_progress",
         "tier": "elite"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.9,
+        "estimated_seconds_if_known": null,
+        "id": 1153,
+        "name": "Reach at least level 30 in all non-elite skills.",
+        "opportunity_score": 25,
+        "points": 30,
+        "reasons": [
+          {
+            "code": "all_skills_small_gap",
+            "detail": "Lowest relevant skill is Farming 26; 4 levels from the all-skills target.",
+            "gap": 4,
+            "lowest_level": 26,
+            "lowest_skill": "Farming",
+            "non_elite": true,
+            "required": 30
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown_check_progress",
+        "tier": "medium"
       },
       {
         "cluster": null,
@@ -665,7 +749,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-02T03:54:12.745Z",
+    "generated_at_utc": "2026-09-02T05:52:50.826Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -681,24 +765,24 @@
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 9,
-        "none": 696,
-        "text_inference": 172
+        "none": 694,
+        "text_inference": 170
       },
       "status_counts": {
-        "accessible_requirements_unknown": 321,
-        "blocked": 39,
+        "accessible_requirements_unknown": 319,
+        "blocked": 38,
         "excluded": 3,
-        "inferred_candidate": 133,
+        "inferred_candidate": 132,
         "known_issue": 1,
         "locked_region": 371,
         "manual_check": 3,
         "verified_ready": 6
       },
-      "timed_inferred_candidates": 100,
+      "timed_inferred_candidates": 99,
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 12564,
+      "age_seconds_at_generation": 19682,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -708,7 +792,7 @@
         "removed_task_ids": [],
         "status": "unchanged"
       },
-      "mapped_completed_tasks": 275,
+      "mapped_completed_tasks": 279,
       "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
@@ -720,7 +804,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-02T03:54:12.745Z"
+      "timestamp": "2026-09-02T05:52:50.826Z"
     }
   },
   "manual": {
@@ -789,11 +873,11 @@
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 125,
+      "remaining_tasks": 121,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 2490,
+      "remaining_points": 2120,
       "threshold": 12000,
       "tier": 6
     },
@@ -1003,22 +1087,22 @@
   },
   "schema_version": 2,
   "tasks": {
-    "inferred_candidate_count": 133,
+    "inferred_candidate_count": 132,
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 321,
+    "requirements_unknown_count": 319,
     "status_counts": {
-      "accessible_requirements_unknown": 321,
-      "blocked": 39,
+      "accessible_requirements_unknown": 319,
+      "blocked": 38,
       "excluded": 3,
-      "inferred_candidate": 133,
+      "inferred_candidate": 132,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "unfinished_count": 877,
+    "unfinished_count": 873,
     "verified_ready_count": 6
   }
 }

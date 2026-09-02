@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-02T03:54:12.745Z**
+Updated: **2026-09-02T05:52:50.826Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-02T03:54:12.745Z**
 
 ## Current snapshot
 
-- **9,510 LP** · **275 tasks** · total level **2,081**
+- **9,880 LP** · **279 tasks** · total level **2,094**
 - **12 blessing tasks** · relic **T5**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **125 tasks** to 400
-- Next relic: **2,490 LP** to T6
+- Next region: **121 tasks** to 400
+- Next relic: **2,120 LP** to T6
 - Next blessing step: **4** to t5
 
 ## Active relics
@@ -162,13 +162,18 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
+- Tasks: **+4** · LP: **+370**
+- [257] Defeat General Graardor. — hard, Asgarnia, 80 LP
+- [258] Defeat K'ril Tsutsaroth. — hard, Asgarnia, 80 LP
+- [860] Pick 5 flax. — easy, Global, 10 LP
+- [1079] Reach level 99 in the Necromancy skill. — elite, Global, 200 LP
+- Level-ups: Defence 94→95; Constitution 92→93; Slayer 74→75; Farming 22→26; Invention 74→78; Necromancy 97→99
 
 ## Current task sprint
 
-- Need: **125 tasks**
-- Precomputed sprint: **106 tasks** (6 Grade A, 100 Grade B)
-- Action-time estimate excluding travel: **3595 sec**
+- Need: **121 tasks**
+- Precomputed sprint: **105 tasks** (6 Grade A, 99 Grade B)
+- Action-time estimate excluding travel: **3520 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -204,13 +209,13 @@ Passive step effects:
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **6**
-- Timed Grade-B inferred candidates: **100**
-- Metadata sources: `{'manual_override': 9, 'none': 696, 'text_inference': 172}`
+- Timed Grade-B inferred candidates: **99**
+- Metadata sources: `{'manual_override': 9, 'none': 694, 'text_inference': 170}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-02T03:54:12.745Z
+- WikiSync: **fresh** · 2026-09-02T05:52:50.826Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
@@ -218,10 +223,10 @@ Passive step effects:
 
 ## Forgotten-finish opportunities
 
-- [1079] **Reach level 99 in the Necromancy skill.** — score 45, 2_skill_levels_or_less; Only 2 Necromancy level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
-- [1066] **Reach level 99 in the Defence skill.** — score 25, unknown_check_progress; Only 5 Defence levels remain to the task target.
+- [1066] **Reach level 99 in the Defence skill.** — score 25, unknown_check_progress; Only 4 Defence levels remain to the task target.
+- [1153] **Reach at least level 30 in all non-elite skills.** — score 25, unknown_check_progress; Lowest relevant skill is Farming 26; 4 levels from the all-skills target.
 - [845] **Scatter 100 ashes of any kind.** — score 8, unknown_check_progress; Completed related milestone 25 proves at least 25% of the 100 cumulative target was reached.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
 - [852] **Catch 35 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.

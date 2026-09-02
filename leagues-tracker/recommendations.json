@@ -341,20 +341,20 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
-      "none": 696,
-      "text_inference": 172
+      "none": 694,
+      "text_inference": 170
     },
     "status_counts": {
-      "accessible_requirements_unknown": 321,
-      "blocked": 39,
+      "accessible_requirements_unknown": 319,
+      "blocked": 38,
       "excluded": 3,
-      "inferred_candidate": 133,
+      "inferred_candidate": 132,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "timed_inferred_candidates": 100,
+    "timed_inferred_candidates": 99,
     "timed_verified_tasks": 6
   },
   "fastest_inferred_backups": [
@@ -1273,8 +1273,8 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 3595,
-    "inferred_count": 100,
+    "estimated_action_seconds_excluding_travel": 3520,
+    "inferred_count": 99,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [
       "bronze bolts/materials",
@@ -1283,7 +1283,7 @@
       "milk",
       "cake ingredients"
     ],
-    "selected_count": 106,
+    "selected_count": 105,
     "tasks": [
       {
         "blockers": [],
@@ -2974,25 +2974,9 @@
         "status": "inferred_candidate",
         "tier": "easy",
         "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 75,
-        "id": 860,
-        "items_to_prepare": [],
-        "lp_per_minute": 8.0,
-        "name": "Pick 5 flax.",
-        "points": 10,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "easy",
-        "unknown_checks": []
       }
     ],
-    "tasks_needed": 125,
+    "tasks_needed": 121,
     "verified_count": 6
   },
   "highest_lp_per_minute": [
@@ -3883,39 +3867,8 @@
     {
       "blockers": [
         {
-          "current": 97,
-          "gap": 2,
-          "required": 99,
-          "skill": "Necromancy",
-          "type": "skill"
-        }
-      ],
-      "cluster": null,
-      "confidence": 0.55,
-      "estimated_seconds": null,
-      "id": 1079,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "name": "Reach level 99 in the Necromancy skill.",
-      "points": 200,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "blocked",
-      "tier": "elite",
-      "unknown_checks": [],
-      "unlock": {
-        "current": 97,
-        "gap": 2,
-        "required": 99,
-        "skill": "Necromancy",
-        "type": "skill"
-      }
-    },
-    {
-      "blockers": [
-        {
-          "current": 94,
-          "gap": 5,
+          "current": 95,
+          "gap": 4,
           "required": 99,
           "skill": "Defence",
           "type": "skill"
@@ -3935,8 +3888,8 @@
       "tier": "elite",
       "unknown_checks": [],
       "unlock": {
-        "current": 94,
-        "gap": 5,
+        "current": 95,
+        "gap": 4,
         "required": 99,
         "skill": "Defence",
         "type": "skill"
@@ -3946,7 +3899,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 125,
+    "remaining_tasks": 121,
     "tasks": 400
   },
   "schema_version": 1
