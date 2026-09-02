@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+import json
+from pathlib import Path
+
+from opportunity_detector import explicit_level_requirement, number_signature
+
+ROOT = Path(__file__).resolve().parent
+
+
+def load(name):
+    return json.loads((ROOT / name).read_text(encoding="utf-8"))
+
+
+# Family parsing should group numbered task ladders without grouping trivial one-word text.
+t1, n1 = number_signature("Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.")
+t2, n2 = number_signature("Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.")
+assert t1 == t2 and n1 == [1] and n2 == [2]
+assert number_signature("Kill 10 rats")[0] is None
+
+# Explicit level parsing is conservative and should recognize common League wording.
+assert explicit_level_requirement("Reach level 99 in the Necromancy skill.") == ("Necromancy", 99)
+
+summary = load("live-summary.json")
+opps = load("opportunities.json")
+completed = {int(x) for x in summary.get("completed_task_ids", [])}
+
+assert opps.get("schema_version") == 1
+assert isinstance(opps.get("top"), list)
+for task in opps["top"]:
+    assert int(task["id"]) not in completed, f"Completed task leaked into opportunities: {task['id']}"
+    assert task["reasons"], f"Opportunity has no evidence: {task['id']}"
+    assert task["opportunity_score"] > 0
+    assert 0 <= task["confidence"] <= 1
+
+assistant = load("assistant-state.json")
+assert "forgotten_finish_opportunities" in assistant
+assert assistant["forgotten_finish_opportunities"]["count"] == opps["count"]
+
+print(f"Opportunity detector OK: {opps['count']} suspects, {len(opps['top'])} surfaced")
