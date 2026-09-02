@@ -148,10 +148,19 @@ excluded = tracker.evaluate(
 )
 assert excluded["status"] == "excluded"
 
-# State validator knows that 260 tasks implies exactly one elective region slot.
-health = tracker.validate_state(rules, state, 260, 5, 12, [])
+# State-validator fixtures must not depend on the user's current live region choices.
+one_slot_state = json.loads(json.dumps(state))
+one_slot_state["regions"]["elective"] = ["Desert"]
+health = tracker.validate_state(rules, one_slot_state, 260, 5, 12, [])
 assert health["status"] == "healthy"
 assert health["expected_elective_slots"] == 1
 assert health["recorded_elective_regions"] == 1
+
+two_slot_state = json.loads(json.dumps(state))
+two_slot_state["regions"]["elective"] = ["Desert", "Asgarnia"]
+health = tracker.validate_state(rules, two_slot_state, 275, 5, 12, [])
+assert health["status"] == "healthy"
+assert health["expected_elective_slots"] == 2
+assert health["recorded_elective_regions"] == 2
 
 print("tracker tests passed")
