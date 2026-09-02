@@ -1,4 +1,12 @@
 {
+  "blessing_path_vector": {
+    "t1": 3,
+    "t2": 3,
+    "t3": 2,
+    "t4": 2,
+    "t5": null,
+    "t6": null
+  },
   "blessing_tasks_completed": 12,
   "catalog_task_count": 1152,
   "completed_task_ids": [
@@ -166,6 +174,9 @@
     664,
     807,
     808,
+    810,
+    811,
+    812,
     813,
     814,
     815,
@@ -216,6 +227,8 @@
     911,
     912,
     913,
+    915,
+    916,
     917,
     920,
     922,
@@ -224,6 +237,8 @@
     981,
     982,
     983,
+    986,
+    987,
     1052,
     1060,
     1080,
@@ -256,14 +271,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 253,
-  "confirmed_relic_choices": {
-    "1": "Golden Touch",
-    "2": "Divine Druid",
-    "3": "Voidwalker",
-    "4": "Transmutation",
-    "5": "Devout"
-  },
+  "completed_tasks": 260,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -275,8 +283,25 @@
     96,
     988
   ],
-  "league_points": 8870,
-  "level_ups_since_previous_live_sync": [],
+  "league_points": 9120,
+  "league_points_source": "mapped completed-task point sum",
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 28,
+      "skill": "Ranged",
+      "to": 52
+    },
+    {
+      "from": 74,
+      "skill": "Magic",
+      "to": 76
+    },
+    {
+      "from": 67,
+      "skill": "Fletching",
+      "to": 69
+    }
+  ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -291,15 +316,15 @@
     "Farming": 22,
     "Firemaking": 54,
     "Fishing": 39,
-    "Fletching": 67,
+    "Fletching": 69,
     "Herblore": 68,
     "Hunter": 45,
     "Invention": 35,
-    "Magic": 74,
+    "Magic": 76,
     "Mining": 77,
     "Necromancy": 97,
     "Prayer": 99,
-    "Ranged": 28,
+    "Ranged": 52,
     "Runecrafting": 73,
     "Slayer": 73,
     "Smithing": 80,
@@ -308,17 +333,118 @@
     "Thieving": 119,
     "Woodcutting": 62
   },
-  "mapped_completed_tasks": 253,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 260,
+  "new_task_ids_since_previous_live_sync": [
+    810,
+    811,
+    812,
+    915,
+    916,
+    986,
+    987
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Drink a strength potion.",
+      "id": 810,
+      "issue": null,
+      "name": "Drink a strength potion.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Make an attack potion.",
+      "id": 811,
+      "issue": null,
+      "name": "Make an attack potion.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Make a necromancy potion.",
+      "id": 812,
+      "issue": null,
+      "name": "Make a necromancy potion.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Equip a full set of blue dragonhide armour.",
+      "id": 915,
+      "issue": null,
+      "name": "Equip a full set of blue dragonhide armour.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Equip a full set of red dragonhide armour.",
+      "id": 916,
+      "issue": null,
+      "name": "Equip a full set of red dragonhide armour.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Equip a full set of black dragonhide armour.",
+      "id": 986,
+      "issue": null,
+      "name": "Equip a full set of black dragonhide armour.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Equip a full set of royal dragonhide armour.",
+      "id": 987,
+      "issue": null,
+      "name": "Equip a full set of royal dragonhide armour.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    }
+  ],
+  "next_blessing": {
+    "remaining_tasks": 4,
+    "step": "t5",
+    "threshold": 16
+  },
+  "next_region": {
+    "id": "elective_2",
+    "region": null,
+    "remaining_tasks": 15,
+    "tasks": 275
+  },
+  "next_relic": {
+    "remaining_points": 2880,
+    "threshold": 12000,
+    "tier": 6
+  },
   "player": "112321",
-  "points_to_t5": 0,
+  "relic_choice_vector": [
+    2,
+    3,
+    3,
+    2,
+    3,
+    null,
+    null
+  ],
   "relic_tier": 5,
-  "source": "WikiSync + fresh ScapeLeagues task catalog",
-  "task_delta_since_previous_live_sync": 0,
-  "tasks_to_second_elective_region": 22,
-  "tasks_to_third_elective_region": 147,
-  "timestamp_utc": "2026-09-01T21:48:20.477Z",
-  "total_level": 2003,
+  "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
+  "task_delta_since_previous_live_sync": 7,
+  "timestamp_utc": "2026-09-02T00:24:47.677Z",
+  "total_level": 2031,
   "unmapped_completed_task_ids": []
 }

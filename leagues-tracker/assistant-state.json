@@ -1,0 +1,1471 @@
+{
+  "account": {
+    "blessing_tasks_completed": 12,
+    "completed_task_ids": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      8,
+      15,
+      16,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      36,
+      37,
+      38,
+      39,
+      40,
+      44,
+      46,
+      48,
+      49,
+      50,
+      52,
+      53,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      72,
+      73,
+      76,
+      79,
+      80,
+      81,
+      83,
+      84,
+      98,
+      99,
+      101,
+      102,
+      104,
+      106,
+      107,
+      108,
+      111,
+      115,
+      116,
+      117,
+      125,
+      131,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      142,
+      143,
+      144,
+      145,
+      147,
+      148,
+      149,
+      150,
+      151,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      206,
+      207,
+      210,
+      211,
+      213,
+      214,
+      215,
+      216,
+      218,
+      219,
+      220,
+      221,
+      222,
+      282,
+      283,
+      284,
+      289,
+      290,
+      296,
+      297,
+      304,
+      307,
+      312,
+      319,
+      322,
+      597,
+      598,
+      605,
+      608,
+      609,
+      610,
+      612,
+      614,
+      620,
+      623,
+      627,
+      628,
+      631,
+      641,
+      643,
+      664,
+      807,
+      808,
+      810,
+      811,
+      812,
+      813,
+      814,
+      815,
+      816,
+      817,
+      818,
+      820,
+      821,
+      827,
+      828,
+      829,
+      831,
+      832,
+      835,
+      836,
+      839,
+      840,
+      841,
+      842,
+      843,
+      846,
+      847,
+      848,
+      849,
+      850,
+      853,
+      861,
+      862,
+      863,
+      864,
+      865,
+      866,
+      867,
+      869,
+      879,
+      880,
+      885,
+      886,
+      888,
+      889,
+      896,
+      902,
+      903,
+      904,
+      905,
+      907,
+      908,
+      911,
+      912,
+      913,
+      915,
+      916,
+      917,
+      920,
+      922,
+      964,
+      972,
+      981,
+      982,
+      983,
+      986,
+      987,
+      1052,
+      1060,
+      1080,
+      1087,
+      1103,
+      1118,
+      1141,
+      1146,
+      1147,
+      1148,
+      1149,
+      1150,
+      1151,
+      1152,
+      1167,
+      1168,
+      1172,
+      1173,
+      1178,
+      1179,
+      1188,
+      1200,
+      1203,
+      1204,
+      1205,
+      1206,
+      1207,
+      1248,
+      1249,
+      1250,
+      1271
+    ],
+    "completed_tasks": 260,
+    "league": "Leagues II: Equilibrium",
+    "league_points": 9120,
+    "league_points_source": "sum of mapped completed task points",
+    "levels": {
+      "Agility": 99,
+      "Archaeology": 60,
+      "Attack": 78,
+      "Constitution": 91,
+      "Construction": 53,
+      "Cooking": 67,
+      "Crafting": 86,
+      "Defence": 93,
+      "Divination": 80,
+      "Dungeoneering": 39,
+      "Farming": 22,
+      "Firemaking": 54,
+      "Fishing": 39,
+      "Fletching": 69,
+      "Herblore": 68,
+      "Hunter": 45,
+      "Invention": 35,
+      "Magic": 76,
+      "Mining": 77,
+      "Necromancy": 97,
+      "Prayer": 99,
+      "Ranged": 52,
+      "Runecrafting": 73,
+      "Slayer": 73,
+      "Smithing": 80,
+      "Strength": 78,
+      "Summoning": 67,
+      "Thieving": 119,
+      "Woodcutting": 62
+    },
+    "player": "112321",
+    "timestamp_utc": "2026-09-02T00:24:47.677Z",
+    "total_level": 2031
+  },
+  "blessings": {
+    "derived_god_choices": {
+      "god1": 3,
+      "god2": null
+    },
+    "dynamic_effects": [
+      {
+        "current_bonus": {
+          "armour": 100,
+          "base_ability_damage": 150,
+          "critical_strike_chance_percent": 10,
+          "critical_strike_damage_percent": 15.0,
+          "life_points": 1000,
+          "prayer_bonus": 10
+        },
+        "source": "True Equilibrium",
+        "unique_paths_currently_chosen": 2
+      }
+    ],
+    "passive_by_step": [
+      {
+        "effects": [
+          "50% chance to save combat runes, rolled separately per rune type.",
+          "50% chance to save ammunition in combat.",
+          "50% chance to save ectoplasm and necrotic runes used by abilities/incantations.",
+          "Activating a tier-1 blessing grants one blessing reset."
+        ],
+        "step": "t1"
+      },
+      {
+        "effects": [
+          "Dive is automatically unlocked.",
+          "Attack range is increased by one game square, capped at 10 squares."
+        ],
+        "step": "t2"
+      },
+      {
+        "effects": [
+          "75% chance to save combat runes, ammunition, ectoplasm, and necrotic runes.",
+          "Movement-ability cooldowns are reduced to 4.2 seconds except Barge and Greater Barge.",
+          "Nature's rune pouch is granted and can hold four rune types."
+        ],
+        "step": "t3"
+      },
+      {
+        "effects": [
+          "Activating the first God-tier blessing grants one blessing reset.",
+          "Araxxi, Rise of the Six, and Vorago rotations can be chosen."
+        ],
+        "step": "god1"
+      },
+      {
+        "effects": [
+          "All War's Wares rewards are unlocked.",
+          "Maximum adrenaline is increased by 25%."
+        ],
+        "step": "t4"
+      }
+    ],
+    "path_encoding": {
+      "1": "Order",
+      "2": "Balance",
+      "3": "Chaos"
+    },
+    "path_vector": {
+      "t1": 3,
+      "t2": 3,
+      "t3": 2,
+      "t4": 2,
+      "t5": null,
+      "t6": null
+    },
+    "resets_remaining": 1,
+    "resolved": [
+      {
+        "choice_number": 3,
+        "derived": false,
+        "effects": [
+          "Maximum adrenaline is increased by 50%.",
+          "Adrenaline generation is increased by 50%."
+        ],
+        "name": "Adrenaline Junkie",
+        "path": "Chaos",
+        "step": "t1",
+        "threshold_tasks": 1,
+        "unlocked": true
+      },
+      {
+        "choice_number": 3,
+        "derived": false,
+        "effects": [
+          "Attacks deal 15% ability damage as bonus damage on hit.",
+          "Hits have a 5% chance to trigger Inferno of Zamorak for additional single-target damage."
+        ],
+        "name": "Abyssal Cinders",
+        "path": "Chaos",
+        "step": "t2",
+        "threshold_tasks": 3,
+        "unlocked": true
+      },
+      {
+        "choice_number": 2,
+        "derived": false,
+        "effects": [
+          "Food is not consumed when eaten.",
+          "Eating food costs no adrenaline."
+        ],
+        "name": "Eternal Sustenance",
+        "path": "Balance",
+        "step": "t3",
+        "threshold_tasks": 5,
+        "unlocked": true
+      },
+      {
+        "choice_number": 3,
+        "derived": true,
+        "effects": [
+          "Accuracy is always calculated using the target's weakness."
+        ],
+        "name": "Demon's Mark",
+        "path": "Chaos",
+        "step": "god1",
+        "threshold_tasks": 9,
+        "unlocked": true
+      },
+      {
+        "choice_number": 2,
+        "derived": false,
+        "effects": [
+          "For each distinct blessing path represented across tiers 1-6, gain a stack of offensive and defensive stats.",
+          "Each stack grants base ability damage, armour, life points, critical chance, critical damage, and Prayer bonus; one/two/three unique paths grant one/two/three stacks."
+        ],
+        "name": "True Equilibrium",
+        "path": "Balance",
+        "step": "t4",
+        "threshold_tasks": 12,
+        "unlocked": true
+      },
+      {
+        "choice_number": null,
+        "derived": false,
+        "effects": [],
+        "name": null,
+        "path": null,
+        "step": "t5",
+        "threshold_tasks": 16,
+        "unlocked": false
+      },
+      {
+        "choice_number": null,
+        "derived": false,
+        "effects": [],
+        "name": null,
+        "path": null,
+        "step": "t6",
+        "threshold_tasks": 20,
+        "unlocked": false
+      },
+      {
+        "choice_number": null,
+        "derived": true,
+        "effects": [],
+        "name": null,
+        "path": null,
+        "step": "god2",
+        "threshold_tasks": 26,
+        "unlocked": false
+      }
+    ]
+  },
+  "changes": {
+    "league_points_delta": 250,
+    "level_ups": [
+      {
+        "from": 28,
+        "skill": "Ranged",
+        "to": 52
+      },
+      {
+        "from": 74,
+        "skill": "Magic",
+        "to": 76
+      },
+      {
+        "from": 67,
+        "skill": "Fletching",
+        "to": 69
+      }
+    ],
+    "new_task_ids": [
+      810,
+      811,
+      812,
+      915,
+      916,
+      986,
+      987
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "description": "Drink a strength potion.",
+        "id": 810,
+        "issue": null,
+        "name": "Drink a strength potion.",
+        "points": 10,
+        "region": "Global",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "description": "Make an attack potion.",
+        "id": 811,
+        "issue": null,
+        "name": "Make an attack potion.",
+        "points": 10,
+        "region": "Global",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "description": "Make a necromancy potion.",
+        "id": 812,
+        "issue": null,
+        "name": "Make a necromancy potion.",
+        "points": 10,
+        "region": "Global",
+        "tier": "easy"
+      },
+      {
+        "blessing_task": false,
+        "description": "Equip a full set of blue dragonhide armour.",
+        "id": 915,
+        "issue": null,
+        "name": "Equip a full set of blue dragonhide armour.",
+        "points": 30,
+        "region": "Global",
+        "tier": "medium"
+      },
+      {
+        "blessing_task": false,
+        "description": "Equip a full set of red dragonhide armour.",
+        "id": 916,
+        "issue": null,
+        "name": "Equip a full set of red dragonhide armour.",
+        "points": 30,
+        "region": "Global",
+        "tier": "medium"
+      },
+      {
+        "blessing_task": false,
+        "description": "Equip a full set of black dragonhide armour.",
+        "id": 986,
+        "issue": null,
+        "name": "Equip a full set of black dragonhide armour.",
+        "points": 80,
+        "region": "Global",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Equip a full set of royal dragonhide armour.",
+        "id": 987,
+        "issue": null,
+        "name": "Equip a full set of royal dragonhide armour.",
+        "points": 80,
+        "region": "Global",
+        "tier": "hard"
+      }
+    ],
+    "task_delta": 7
+  },
+  "health": {
+    "generated_at_utc": "2026-09-02T00:24:47.677Z",
+    "hiscores": {
+      "note": "HiScores parsing is not a dependency.",
+      "required": false,
+      "status": "fetched_optional"
+    },
+    "task_catalog": {
+      "fetched_at_utc": "2026-09-02T00:24:49+00:00",
+      "mapped_completed_tasks": 260,
+      "status": "fresh_updated",
+      "task_count": 1152,
+      "unmapped_completed_task_ids": []
+    },
+    "wikisync": {
+      "authoritative_for": [
+        "completed_task_ids",
+        "skill_levels"
+      ],
+      "status": "fresh",
+      "timestamp": "2026-09-02T00:24:47.677Z"
+    }
+  },
+  "manual": {
+    "goal": {
+      "strategy": "Prioritize fast task-count completions and stack them with useful progression.",
+      "threshold_id": "elective_2",
+      "type": "task_threshold"
+    },
+    "key_items": [
+      {
+        "name": "Incomplete hydrix",
+        "note": "Reserved for future hydrix jewellery progression.",
+        "quantity": 1,
+        "status": "owned"
+      },
+      {
+        "name": "Uncut onyx",
+        "note": "One can complete the incomplete hydrix; reserve the others for jewellery/alchemical onyx progression.",
+        "quantity": 3,
+        "status": "owned"
+      },
+      {
+        "name": "Jal-tok-yt",
+        "note": "Rare future melee jewellery component; do not alch or disassemble.",
+        "quantity": 1,
+        "status": "owned"
+      },
+      {
+        "name": "TokHaar-Kal",
+        "note": "Fight Kiln reward; equipping it completed blessing task 1271.",
+        "quantity": 1,
+        "status": "owned_and_equipped"
+      },
+      {
+        "name": "Shadow glaive",
+        "note": "First confirmed Gregorovic kill drop.",
+        "quantity": 1,
+        "status": "owned"
+      }
+    ],
+    "manual_flags": {
+      "fort_workshop_unlocked": null
+    },
+    "route_preferences": {
+      "chain_nearby_tasks": true,
+      "compare_direct_walk_vs_teleports": true,
+      "cross_check_maps_when_directions_are_uncertain": true,
+      "preferred_teleport_systems": [
+        "lodestones",
+        "Abyssal Conduit"
+      ]
+    },
+    "task_exclusions": {
+      "95": "Do not recommend Croesus unless the user explicitly reopens it.",
+      "96": "Do not recommend Croesus unless the user explicitly reopens it.",
+      "988": "User explicitly scrapped the Cast a Wave spell recommendation."
+    }
+  },
+  "progression": {
+    "current_blessing_step": "t4",
+    "next_blessing": {
+      "remaining_tasks": 4,
+      "step": "t5",
+      "threshold": 16
+    },
+    "next_region": {
+      "id": "elective_2",
+      "region": null,
+      "remaining_tasks": 15,
+      "tasks": 275
+    },
+    "next_relic": {
+      "remaining_points": 2880,
+      "threshold": 12000,
+      "tier": 6
+    },
+    "relic_tier": 5
+  },
+  "regions": {
+    "automatic": [
+      "Karamja"
+    ],
+    "elective": [
+      "Desert"
+    ],
+    "starting": [
+      "Misthalin",
+      "Havenhythe"
+    ],
+    "unlocked": [
+      "Misthalin",
+      "Havenhythe",
+      "Karamja",
+      "Desert"
+    ]
+  },
+  "relics": {
+    "choice_vector": [
+      2,
+      3,
+      3,
+      2,
+      3,
+      null,
+      null
+    ],
+    "passive_by_tier": [
+      {
+        "effects": [
+          "League XP multiplier is 5x.",
+          "Farming crops grow 5x faster.",
+          "Run energy rapidly restores to 100%.",
+          "The Archaeology Guild Shop is fully available without qualification requirements.",
+          "Chronotes from artefacts and collections are multiplied by 5.",
+          "Necromancy ritual souls are increased to 5x normal.",
+          "Standard boss instance spawn times are greatly reduced.",
+          "The Invention tutorial is treated as complete once Invention is unlocked; Invention starts at level 5 and tutorial tools/blueprints are available."
+        ],
+        "tier": 1
+      },
+      {
+        "effects": [
+          "League XP multiplier is 8x.",
+          "Thaler gain is multiplied by 10.",
+          "Selected region drops are 2x as common.",
+          "Slayer points and Reaper points from completed assignments are multiplied by 5.",
+          "Heart of Gielinor, Menaphos, and Farming reputation gains are multiplied by 5.",
+          "Archaeology lore pages are 30% more common."
+        ],
+        "tier": 2
+      },
+      {
+        "effects": [
+          "Applicable skillcape and master-skillcape perks become passive at level 99, except Defence; master perks apply even without level 120.",
+          "Monster kills have a 10% chance to award 8 common or uncommon Invention materials.",
+          "Dungeoneering token gain is multiplied by 3, including Elite Dungeons."
+        ],
+        "tier": 3
+      },
+      {
+        "effects": [
+          "League XP multiplier is 12x.",
+          "Selected region drops are 4x as common.",
+          "All toolbelt items are unlocked.",
+          "Monster kills have a 20% chance to award 12 common or uncommon Invention materials.",
+          "God Wars Dungeon and Heart of Gielinor encounters require no killcount.",
+          "Ascension Keystones are not required to fight the Legiones.",
+          "Keys to the Crossing are not required to fight the Magister."
+        ],
+        "tier": 4
+      },
+      {
+        "effects": [
+          "Selected region drops are 6x as common.",
+          "The Sage can swap between already-unlocked spellbooks and prayer books.",
+          "Soul Reaper assignments can be chosen.",
+          "Monster kills have a 20% chance to award 20 common or uncommon Invention materials.",
+          "Augmented items gain item XP 4x faster.",
+          "Dungeoneering token gain is multiplied by 5, including Elite Dungeons."
+        ],
+        "tier": 5
+      }
+    ],
+    "resolved": [
+      {
+        "choice_number": 2,
+        "effects": [
+          "Goldenhawk boots grant passive Agility XP while moving, skilling, or using ultimate abilities.",
+          "Agility and Thieving can award goldenhawk feathers, which can be converted to Prayer XP or alchemised.",
+          "Agility course base XP and completion coins are doubled.",
+          "Agility obstacles and shortcuts cannot fail.",
+          "Pickpocketing always succeeds; non-coin loot is tripled and noted.",
+          "Stalls do not deplete and safes have no cooldown.",
+          "Repeated Thieving actions continue automatically.",
+          "Coins from Thieving are multiplied by 100.",
+          "Chests and safes can award extra banked herb and potion-ingredient bundles."
+        ],
+        "name": "Golden Touch",
+        "threshold_points": 10,
+        "tier": 1,
+        "unlocked": true,
+        "xp_multiplier": 5
+      },
+      {
+        "choice_number": 3,
+        "effects": [
+          "Thera's Summoning pouch stores grimy herbs and charms.",
+          "Summoning pouches require no spirit shards or empty pouches.",
+          "Thera can teleport to large Summoning obelisks in unlocked regions.",
+          "Grimy herbs can be toggled to become unfinished potions as they are cleaned.",
+          "Cleaning one grimy herb cleans all matching grimy herbs in the inventory.",
+          "Herbs and charms can be obtained while Mining, Fishing, Woodcutting, siphoning Divination springs, and excavating Archaeology hotspots.",
+          "Monster charm drops are multiplied by 5.",
+          "Potion making has a 75% chance to save the secondary ingredient.",
+          "All Meilyr combination potion recipes are unlocked.",
+          "Skill-boosting familiars give triple their normal skill boost.",
+          "Summoning has a 50% chance to create an extra banked pouch and always banks 10 matching scrolls; extras give no XP.",
+          "Divination springs always yield enriched memories.",
+          "Memory conversion and divine-energy conversion use half the normal energy, rounded down.",
+          "Converting memories has a 10% chance to bank a porter or divine charge.",
+          "Crafting from divine energy uses half the usual energy.",
+          "Memory strands are gained at 10x the normal rate.",
+          "Chronicle fragments give double Hunter XP before League multipliers."
+        ],
+        "name": "Divine Druid",
+        "threshold_points": 750,
+        "tier": 2,
+        "unlocked": true,
+        "xp_multiplier": 8
+      },
+      {
+        "choice_number": 3,
+        "effects": [
+          "The abyssal conduit gives unlimited teleports to destinations covered by many common teleport jewellery items in unlocked regions.",
+          "Skilling can produce void shards.",
+          "Each void shard contains a clue scroll plus one additional reward roll from its League reward pool."
+        ],
+        "name": "Voidwalker",
+        "threshold_points": 1750,
+        "tier": 3,
+        "unlocked": true,
+        "xp_multiplier": 8
+      },
+      {
+        "choice_number": 2,
+        "effects": [
+          "The Deities' Transmuter enables two transmutation spells while carried.",
+          "Alchemical Divergence converts up to 10 resources to a lower tier.",
+          "Alchemical Convergence converts up to 10 resources to a higher tier.",
+          "The transmutation spells have no level requirement.",
+          "Each transmuted item awards 10 base Magic XP before League multipliers.",
+          "The spells automatically recast over time on a stack of noted resources.",
+          "A toggle can bank the noted transmutation products.",
+          "Using a resource on the Transmuter shows its conversion result."
+        ],
+        "name": "Transmutation",
+        "threshold_points": 3500,
+        "tier": 4,
+        "unlocked": true,
+        "xp_multiplier": 12
+      },
+      {
+        "choice_number": 3,
+        "effects": [
+          "The Devout Yak familiar has 32 inventory slots.",
+          "The familiar can note/unnote items and open the bank from anywhere.",
+          "Ethereal storage scrolls repeat the previous unnote action.",
+          "Stat-boosting familiars award 10 base XP in their matching skill when you gain XP in it, at most once every 6 seconds.",
+          "Summoning scrolls are not consumed.",
+          "Familiar spell-point costs are reduced to 10% of normal.",
+          "Combat familiar damage scales with Summoning level, reaching up to 500% bonus damage at level 99."
+        ],
+        "name": "Devout",
+        "threshold_points": 6000,
+        "tier": 5,
+        "unlocked": true,
+        "xp_multiplier": 12
+      },
+      {
+        "choice_number": null,
+        "effects": [],
+        "name": null,
+        "threshold_points": 12000,
+        "tier": 6,
+        "unlocked": false,
+        "xp_multiplier": 16
+      },
+      {
+        "choice_number": null,
+        "effects": [],
+        "name": null,
+        "threshold_points": 20000,
+        "tier": 7,
+        "unlocked": false,
+        "xp_multiplier": 16
+      }
+    ]
+  },
+  "schema_version": 1,
+  "tasks": {
+    "clusters": {
+      "al_kharid": [
+        {
+          "estimated_seconds": 45,
+          "id": 288,
+          "name": "Mine a gem rock at the Al Kharid mine.",
+          "points": 10,
+          "status": "skill_region_ready"
+        }
+      ],
+      "anywhere": [
+        {
+          "estimated_seconds": 10,
+          "id": 980,
+          "name": "Perform a special attack.",
+          "points": 30,
+          "status": "skill_region_ready"
+        },
+        {
+          "estimated_seconds": 25,
+          "id": 844,
+          "name": "Scatter 25 ashes of any kind.",
+          "points": 10,
+          "status": "skill_region_ready"
+        }
+      ],
+      "bank": [
+        {
+          "estimated_seconds": 15,
+          "id": 819,
+          "name": "Fletch an oak shortbow (unstrung).",
+          "points": 10,
+          "status": "skill_region_ready"
+        },
+        {
+          "estimated_seconds": 30,
+          "id": 822,
+          "name": "Fletch 50 bronze bolts.",
+          "points": 10,
+          "status": "skill_region_ready"
+        }
+      ],
+      "bank_or_range": [
+        {
+          "estimated_seconds": 30,
+          "id": 212,
+          "name": "Eat a baked potato.",
+          "points": 10,
+          "status": "skill_region_ready"
+        },
+        {
+          "estimated_seconds": 45,
+          "id": 838,
+          "name": "Make some bread.",
+          "points": 10,
+          "status": "skill_region_ready"
+        }
+      ],
+      "desert": [
+        {
+          "estimated_seconds": 60,
+          "id": 294,
+          "name": "Use any of the magic carpets in the desert.",
+          "points": 10,
+          "status": "skill_region_ready"
+        }
+      ],
+      "fort_forinthry": [
+        {
+          "estimated_seconds": 10,
+          "id": 22,
+          "name": "Use the bank in the workshop at Fort Forinthry.",
+          "points": 10,
+          "status": "manual_check"
+        },
+        {
+          "estimated_seconds": 30,
+          "id": 103,
+          "name": "Give Bill a beer in Fort Forinthry.",
+          "points": 10,
+          "status": "manual_check"
+        },
+        {
+          "estimated_seconds": 30,
+          "id": 105,
+          "name": "Make a plank yourself on the sawmill in Fort Forinthry.",
+          "points": 10,
+          "status": "manual_check"
+        }
+      ],
+      "lumbridge": [
+        {
+          "estimated_seconds": 30,
+          "id": 35,
+          "name": "Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.",
+          "points": 10,
+          "status": "skill_region_ready"
+        },
+        {
+          "estimated_seconds": 45,
+          "id": 51,
+          "name": "Churn some butter.",
+          "points": 30,
+          "status": "skill_region_ready"
+        },
+        {
+          "estimated_seconds": 60,
+          "id": 54,
+          "name": "Use the range in Lumbridge Castle to bake a cake.",
+          "points": 30,
+          "status": "skill_region_ready"
+        }
+      ],
+      "shop": [
+        {
+          "estimated_seconds": 20,
+          "id": 217,
+          "name": "Return a free item to any store.",
+          "points": 10,
+          "status": "skill_region_ready"
+        }
+      ],
+      "sophanem_pyramid_plunder": [
+        {
+          "estimated_seconds": 45,
+          "id": 285,
+          "name": "Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.",
+          "points": 10,
+          "status": "skill_region_ready"
+        },
+        {
+          "estimated_seconds": 60,
+          "id": 286,
+          "name": "Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.",
+          "points": 10,
+          "status": "skill_region_ready"
+        },
+        {
+          "estimated_seconds": 75,
+          "id": 287,
+          "name": "Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem.",
+          "points": 10,
+          "status": "skill_region_ready"
+        }
+      ],
+      "varrock": [
+        {
+          "estimated_seconds": 30,
+          "id": 112,
+          "name": "Enter the Cooks' Guild.",
+          "points": 30,
+          "status": "skill_region_ready"
+        }
+      ]
+    },
+    "fastest_enriched": [
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "anywhere",
+        "description": "Perform a special attack.",
+        "estimated_seconds": 10,
+        "id": 980,
+        "issue": null,
+        "items_to_prepare": [
+          "weapon with a special attack"
+        ],
+        "name": "Perform a special attack.",
+        "points": 30,
+        "region": "Global",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "combat",
+          "one_action"
+        ],
+        "tier": "medium",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "bank",
+        "description": "Fletch an unstrung oak shortbow.",
+        "estimated_seconds": 15,
+        "id": 819,
+        "issue": null,
+        "items_to_prepare": [
+          "oak log",
+          "knife"
+        ],
+        "name": "Fletch an oak shortbow (unstrung).",
+        "points": 10,
+        "region": "Global",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "fletching"
+        ],
+        "tier": "easy",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "shop",
+        "description": "Return a free item to any store e.g. a tinderbox from Lumbridge General Store",
+        "estimated_seconds": 20,
+        "id": 217,
+        "issue": null,
+        "items_to_prepare": [],
+        "name": "Return a free item to any store.",
+        "points": 10,
+        "region": "Global",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "one_action"
+        ],
+        "tier": "easy",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "anywhere",
+        "description": "Scatter 25 ashes of any kind.",
+        "estimated_seconds": 25,
+        "id": 844,
+        "issue": null,
+        "items_to_prepare": [
+          "25 ashes"
+        ],
+        "name": "Scatter 25 ashes of any kind.",
+        "points": 10,
+        "region": "Global",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "prayer"
+        ],
+        "tier": "easy",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "varrock",
+        "description": "Enter the Cooks' Guild.",
+        "estimated_seconds": 30,
+        "id": 112,
+        "issue": null,
+        "items_to_prepare": [],
+        "name": "Enter the Cooks' Guild.",
+        "points": 30,
+        "region": "Misthalin",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "access"
+        ],
+        "tier": "medium",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "lumbridge",
+        "description": "Catch some shrimp by using the net option on the net/bait fishing spot to the east of Lumbridge Swamp.",
+        "estimated_seconds": 30,
+        "id": 35,
+        "issue": null,
+        "items_to_prepare": [],
+        "name": "Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.",
+        "points": 10,
+        "region": "Misthalin",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "fishing"
+        ],
+        "tier": "easy",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "bank_or_range",
+        "description": "Eat a baked potato. You will need to get a raw potato and cook it at a range.",
+        "estimated_seconds": 30,
+        "id": 212,
+        "issue": null,
+        "items_to_prepare": [
+          "potato"
+        ],
+        "name": "Eat a baked potato.",
+        "points": 10,
+        "region": "Global",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "cooking"
+        ],
+        "tier": "easy",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "bank",
+        "description": "Fletch 50 bronze bolts.",
+        "estimated_seconds": 30,
+        "id": 822,
+        "issue": null,
+        "items_to_prepare": [
+          "bronze bolts/materials"
+        ],
+        "name": "Fletch 50 bronze bolts.",
+        "points": 10,
+        "region": "Global",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "fletching"
+        ],
+        "tier": "easy",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "lumbridge",
+        "description": "Make a pat of butter by using a bucket of milk at a dairy churn",
+        "estimated_seconds": 45,
+        "id": 51,
+        "issue": null,
+        "items_to_prepare": [
+          "milk"
+        ],
+        "name": "Churn some butter.",
+        "points": 30,
+        "region": "Misthalin",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "cooking"
+        ],
+        "tier": "medium",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "sophanem_pyramid_plunder",
+        "description": "Search the grand gold chest in room 1 of Pyramid Plunder in Sophanem.",
+        "estimated_seconds": 45,
+        "id": 285,
+        "issue": null,
+        "items_to_prepare": [],
+        "name": "Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.",
+        "points": 10,
+        "region": "Desert",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "thieving"
+        ],
+        "tier": "easy",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "al_kharid",
+        "description": "Mine a gem rock at the Al Kharid mine. Common gem rocks can be mined with level 1 Mining.",
+        "estimated_seconds": 45,
+        "id": 288,
+        "issue": null,
+        "items_to_prepare": [],
+        "name": "Mine a gem rock at the Al Kharid mine.",
+        "points": 10,
+        "region": "Desert",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "mining"
+        ],
+        "tier": "easy",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "bank_or_range",
+        "description": "Make some bread. Bread dough can be created by using a pot of flour with water, it must be cooked at a range.",
+        "estimated_seconds": 45,
+        "id": 838,
+        "issue": null,
+        "items_to_prepare": [
+          "bread ingredients"
+        ],
+        "name": "Make some bread.",
+        "points": 10,
+        "region": "Global",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "cooking"
+        ],
+        "tier": "easy",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "lumbridge",
+        "description": "Use the range in Lumbridge Castle to bake a cake.",
+        "estimated_seconds": 60,
+        "id": 54,
+        "issue": null,
+        "items_to_prepare": [
+          "cake ingredients"
+        ],
+        "name": "Use the range in Lumbridge Castle to bake a cake.",
+        "points": 30,
+        "region": "Misthalin",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "cooking"
+        ],
+        "tier": "medium",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "sophanem_pyramid_plunder",
+        "description": "Search the grand gold chest in room 2 of Pyramid Plunder in Sophanem.",
+        "estimated_seconds": 60,
+        "id": 286,
+        "issue": null,
+        "items_to_prepare": [],
+        "name": "Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.",
+        "points": 10,
+        "region": "Desert",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "thieving"
+        ],
+        "tier": "easy",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "desert",
+        "description": "Use any of the magic carpets in the desert.",
+        "estimated_seconds": 60,
+        "id": 294,
+        "issue": null,
+        "items_to_prepare": [],
+        "name": "Use any of the magic carpets in the desert.",
+        "points": 10,
+        "region": "Desert",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "travel"
+        ],
+        "tier": "easy",
+        "unknown_checks": []
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "sophanem_pyramid_plunder",
+        "description": "Search the grand gold chest in room 3 of Pyramid Plunder in Sophanem.",
+        "estimated_seconds": 75,
+        "id": 287,
+        "issue": null,
+        "items_to_prepare": [],
+        "name": "Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem.",
+        "points": 10,
+        "region": "Desert",
+        "status": "skill_region_ready",
+        "tags": [
+          "fast",
+          "thieving"
+        ],
+        "tier": "easy",
+        "unknown_checks": []
+      }
+    ],
+    "manual_check_count": 3,
+    "manual_check_fastest": [
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "fort_forinthry",
+        "description": "Use the bank in the workshop at Fort Forinthry.",
+        "estimated_seconds": 10,
+        "id": 22,
+        "issue": null,
+        "items_to_prepare": [],
+        "name": "Use the bank in the workshop at Fort Forinthry.",
+        "points": 10,
+        "region": "Misthalin",
+        "status": "manual_check",
+        "tags": [
+          "fast",
+          "fort"
+        ],
+        "tier": "easy",
+        "unknown_checks": [
+          {
+            "current": null,
+            "flag": "fort_workshop_unlocked",
+            "type": "manual_flag"
+          }
+        ]
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "fort_forinthry",
+        "description": "Give Bill a beer in Fort Forinthry.",
+        "estimated_seconds": 30,
+        "id": 103,
+        "issue": null,
+        "items_to_prepare": [
+          "beer"
+        ],
+        "name": "Give Bill a beer in Fort Forinthry.",
+        "points": 10,
+        "region": "Misthalin",
+        "status": "manual_check",
+        "tags": [
+          "fast",
+          "fort"
+        ],
+        "tier": "easy",
+        "unknown_checks": [
+          {
+            "current": null,
+            "flag": "fort_workshop_unlocked",
+            "type": "manual_flag"
+          }
+        ]
+      },
+      {
+        "blessing_task": false,
+        "blockers": [],
+        "cluster": "fort_forinthry",
+        "description": "Make a plank yourself on the sawmill in Fort Forinthry. Must be a regular plank made from logs",
+        "estimated_seconds": 30,
+        "id": 105,
+        "issue": null,
+        "items_to_prepare": [
+          "log"
+        ],
+        "name": "Make a plank yourself on the sawmill in Fort Forinthry.",
+        "points": 10,
+        "region": "Misthalin",
+        "status": "manual_check",
+        "tags": [
+          "fast",
+          "fort"
+        ],
+        "tier": "easy",
+        "unknown_checks": [
+          {
+            "current": null,
+            "flag": "fort_workshop_unlocked",
+            "type": "manual_flag"
+          }
+        ]
+      }
+    ],
+    "master_task_count": 1152,
+    "requirements_unknown_count": 433,
+    "skill_region_ready_count": 16,
+    "status_counts": {
+      "excluded": 3,
+      "known_issue": 1,
+      "locked_region": 436,
+      "manual_check": 3,
+      "region_accessible_requirements_unknown": 433,
+      "skill_region_ready": 16
+    },
+    "unfinished_count": 892
+  }
+}

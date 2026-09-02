@@ -1,0 +1,23 @@
+{
+  "generated_at_utc": "2026-09-02T00:24:47.677Z",
+  "hiscores": {
+    "note": "HiScores parsing is not a dependency.",
+    "required": false,
+    "status": "fetched_optional"
+  },
+  "task_catalog": {
+    "fetched_at_utc": "2026-09-02T00:24:49+00:00",
+    "mapped_completed_tasks": 260,
+    "status": "fresh_updated",
+    "task_count": 1152,
+    "unmapped_completed_task_ids": []
+  },
+  "wikisync": {
+    "authoritative_for": [
+      "completed_task_ids",
+      "skill_levels"
+    ],
+    "status": "fresh",
+    "timestamp": "2026-09-02T00:24:47.677Z"
+  }
+}
