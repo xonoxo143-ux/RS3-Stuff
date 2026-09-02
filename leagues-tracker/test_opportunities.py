@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-from opportunity_detector import explicit_level_requirement, number_signature
+from opportunity_detector import all_skills_requirement, explicit_level_requirement, number_signature
 
 ROOT = Path(__file__).resolve().parent
 
@@ -22,11 +22,20 @@ assert explicit_level_requirement("Reach level 99 in the Necromancy skill.") == 
 assert explicit_level_requirement("Open 10 metamorphic geodes.") is None
 assert explicit_level_requirement("Equip a full set of graahk hunter gear.") is None
 
+# All-skill ladders must use the actual lowest relevant skill, not prior milestone tasks.
+all_req = all_skills_requirement(
+    "Reach at least level 50 in all non-elite skills.",
+    {"Attack": 70, "Farming": 22, "Invention": 5},
+)
+assert all_req["lowest_skill"] == "Farming"
+assert all_req["lowest_level"] == 22
+assert all_req["gap"] == 28
+
 summary = load("live-summary.json")
 opps = load("opportunities.json")
 completed = {int(x) for x in summary.get("completed_task_ids", [])}
 
-assert opps.get("schema_version") == 2
+assert opps.get("schema_version") == 3
 assert isinstance(opps.get("top"), list)
 for task in opps["top"]:
     assert int(task["id"]) not in completed, f"Completed task leaked into opportunities: {task['id']}"
