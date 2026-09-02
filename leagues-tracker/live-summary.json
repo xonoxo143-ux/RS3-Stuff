@@ -305,38 +305,7 @@
   ],
   "league_points": 9880,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 94,
-      "skill": "Defence",
-      "to": 95
-    },
-    {
-      "from": 92,
-      "skill": "Constitution",
-      "to": 93
-    },
-    {
-      "from": 74,
-      "skill": "Slayer",
-      "to": 75
-    },
-    {
-      "from": 22,
-      "skill": "Farming",
-      "to": 26
-    },
-    {
-      "from": 74,
-      "skill": "Invention",
-      "to": 78
-    },
-    {
-      "from": 97,
-      "skill": "Necromancy",
-      "to": 99
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -369,54 +338,8 @@
     "Woodcutting": 62
   },
   "mapped_completed_tasks": 279,
-  "new_task_ids_since_previous_live_sync": [
-    257,
-    258,
-    860,
-    1079
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Defeat General Graardor",
-      "id": 257,
-      "issue": null,
-      "name": "Defeat General Graardor.",
-      "points": 80,
-      "region": "Asgarnia",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat K'ril Tsutsaroth",
-      "id": 258,
-      "issue": null,
-      "name": "Defeat K'ril Tsutsaroth.",
-      "points": 80,
-      "region": "Asgarnia",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Pick 5 flax from flax fields.",
-      "id": 860,
-      "issue": null,
-      "name": "Pick 5 flax.",
-      "points": 10,
-      "region": "Global",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach level 99 Necromancy.",
-      "id": 1079,
-      "issue": null,
-      "name": "Reach level 99 in the Necromancy skill.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "next_blessing": {
     "remaining_tasks": 4,
     "step": "t5",
@@ -445,8 +368,8 @@
   ],
   "relic_tier": 5,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 4,
-  "timestamp_utc": "2026-09-02T05:52:50.826Z",
+  "task_delta_since_previous_live_sync": 0,
+  "timestamp_utc": "2026-09-02T11:25:21.277Z",
   "total_level": 2094,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []

@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-02T05:52:50.826Z**
+Updated: **2026-09-02T11:25:21.277Z**
 
 ## Tracker discipline
 
@@ -162,12 +162,7 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+4** · LP: **+370**
-- [257] Defeat General Graardor. — hard, Asgarnia, 80 LP
-- [258] Defeat K'ril Tsutsaroth. — hard, Asgarnia, 80 LP
-- [860] Pick 5 flax. — easy, Global, 10 LP
-- [1079] Reach level 99 in the Necromancy skill. — elite, Global, 200 LP
-- Level-ups: Defence 94→95; Constitution 92→93; Slayer 74→75; Farming 22→26; Invention 74→78; Necromancy 97→99
+- Tasks: **+0** · LP: **+0**
 
 ## Current task sprint
 
@@ -215,7 +210,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-02T05:52:50.826Z
+- WikiSync: **fresh** · 2026-09-02T11:25:21.277Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
