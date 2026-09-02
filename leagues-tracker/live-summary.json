@@ -147,6 +147,7 @@
     220,
     221,
     222,
+    254,
     257,
     258,
     282,
@@ -213,6 +214,7 @@
     842,
     843,
     844,
+    845,
     846,
     847,
     848,
@@ -290,7 +292,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 279,
+  "completed_tasks": 281,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -303,18 +305,34 @@
     96,
     988
   ],
-  "league_points": 9880,
+  "league_points": 9990,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [],
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 95,
+      "skill": "Defence",
+      "to": 96
+    },
+    {
+      "from": 93,
+      "skill": "Constitution",
+      "to": 94
+    },
+    {
+      "from": 75,
+      "skill": "Slayer",
+      "to": 77
+    }
+  ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
     "Attack": 78,
-    "Constitution": 93,
+    "Constitution": 94,
     "Construction": 53,
     "Cooking": 72,
     "Crafting": 88,
-    "Defence": 95,
+    "Defence": 96,
     "Divination": 80,
     "Dungeoneering": 39,
     "Farming": 26,
@@ -330,16 +348,40 @@
     "Prayer": 99,
     "Ranged": 52,
     "Runecrafting": 73,
-    "Slayer": 75,
+    "Slayer": 77,
     "Smithing": 80,
     "Strength": 78,
     "Summoning": 67,
     "Thieving": 119,
     "Woodcutting": 62
   },
-  "mapped_completed_tasks": 279,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 281,
+  "new_task_ids_since_previous_live_sync": [
+    254,
+    845
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Defeat any God Wars Dungeon boss 100 times.",
+      "id": 254,
+      "issue": null,
+      "name": "Defeat any God Wars Dungeon boss 100 times.",
+      "points": 80,
+      "region": "Asgarnia",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Scatter 100 ashes of any kind.",
+      "id": 845,
+      "issue": null,
+      "name": "Scatter 100 ashes of any kind.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    }
+  ],
   "next_blessing": {
     "remaining_tasks": 4,
     "step": "t5",
@@ -348,11 +390,11 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 121,
+    "remaining_tasks": 119,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 2120,
+    "remaining_points": 2010,
     "threshold": 12000,
     "tier": 6
   },
@@ -368,9 +410,9 @@
   ],
   "relic_tier": 5,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-02T22:41:15.411Z",
-  "total_level": 2094,
+  "task_delta_since_previous_live_sync": 2,
+  "timestamp_utc": "2026-09-02T23:42:28.911Z",
+  "total_level": 2098,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

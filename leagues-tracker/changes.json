@@ -1,7 +1,47 @@
 {
-  "league_points_delta": 0,
-  "level_ups": [],
-  "new_task_ids": [],
-  "new_tasks": [],
-  "task_delta": 0
+  "league_points_delta": 110,
+  "level_ups": [
+    {
+      "from": 95,
+      "skill": "Defence",
+      "to": 96
+    },
+    {
+      "from": 93,
+      "skill": "Constitution",
+      "to": 94
+    },
+    {
+      "from": 75,
+      "skill": "Slayer",
+      "to": 77
+    }
+  ],
+  "new_task_ids": [
+    254,
+    845
+  ],
+  "new_tasks": [
+    {
+      "blessing_task": false,
+      "description": "Defeat any God Wars Dungeon boss 100 times.",
+      "id": 254,
+      "issue": null,
+      "name": "Defeat any God Wars Dungeon boss 100 times.",
+      "points": 80,
+      "region": "Asgarnia",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Scatter 100 ashes of any kind.",
+      "id": 845,
+      "issue": null,
+      "name": "Scatter 100 ashes of any kind.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    }
+  ],
+  "task_delta": 2
 }

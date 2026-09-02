@@ -341,11 +341,11 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
-      "none": 694,
+      "none": 692,
       "text_inference": 170
     },
     "status_counts": {
-      "accessible_requirements_unknown": 319,
+      "accessible_requirements_unknown": 317,
       "blocked": 38,
       "excluded": 3,
       "inferred_candidate": 132,
@@ -2976,7 +2976,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 121,
+    "tasks_needed": 119,
     "verified_count": 6
   },
   "highest_lp_per_minute": [
@@ -3867,8 +3867,8 @@
     {
       "blockers": [
         {
-          "current": 95,
-          "gap": 4,
+          "current": 96,
+          "gap": 3,
           "required": 99,
           "skill": "Defence",
           "type": "skill"
@@ -3888,10 +3888,41 @@
       "tier": "elite",
       "unknown_checks": [],
       "unlock": {
-        "current": 95,
-        "gap": 4,
+        "current": 96,
+        "gap": 3,
         "required": 99,
         "skill": "Defence",
+        "type": "skill"
+      }
+    },
+    {
+      "blockers": [
+        {
+          "current": 94,
+          "gap": 5,
+          "required": 99,
+          "skill": "Constitution",
+          "type": "skill"
+        }
+      ],
+      "cluster": null,
+      "confidence": 0.55,
+      "estimated_seconds": null,
+      "id": 1074,
+      "items_to_prepare": [],
+      "lp_per_minute": null,
+      "name": "Reach level 99 in the Constitution skill.",
+      "points": 200,
+      "recommendation_grade": "U",
+      "region": "Global",
+      "status": "blocked",
+      "tier": "elite",
+      "unknown_checks": [],
+      "unlock": {
+        "current": 94,
+        "gap": 5,
+        "required": 99,
+        "skill": "Constitution",
         "type": "skill"
       }
     }
@@ -3899,7 +3930,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 121,
+    "remaining_tasks": 119,
     "tasks": 400
   },
   "schema_version": 1

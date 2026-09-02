@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T22:41:15.411Z",
+  "generated_at_utc": "2026-09-02T23:42:28.911Z",
   "hiscores": {
     "note": "HiScores parsing is not a dependency.",
     "required": false,
@@ -15,11 +15,11 @@
   "recommendation_coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
-      "none": 694,
+      "none": 692,
       "text_inference": 170
     },
     "status_counts": {
-      "accessible_requirements_unknown": 319,
+      "accessible_requirements_unknown": 317,
       "blocked": 38,
       "excluded": 3,
       "inferred_candidate": 132,
@@ -32,7 +32,7 @@
     "timed_verified_tasks": 6
   },
   "task_catalog": {
-    "age_seconds_at_generation": 80187,
+    "age_seconds_at_generation": 83861,
     "fetched_at_utc": "2026-09-02T00:24:49+00:00",
     "latest_change_check": {
       "added_task_ids": [],
@@ -42,18 +42,18 @@
       "removed_task_ids": [],
       "status": "unchanged"
     },
-    "mapped_completed_tasks": 279,
+    "mapped_completed_tasks": 281,
     "status": "fresh_unchanged",
     "task_count": 1152,
     "unmapped_completed_task_ids": []
   },
   "wikisync": {
-    "age_seconds_at_generation": 0,
+    "age_seconds_at_generation": 1,
     "authoritative_for": [
       "completed_task_ids",
       "skill_levels"
     ],
     "status": "fresh",
-    "timestamp": "2026-09-02T22:41:15.411Z"
+    "timestamp": "2026-09-02T23:42:28.911Z"
   }
 }

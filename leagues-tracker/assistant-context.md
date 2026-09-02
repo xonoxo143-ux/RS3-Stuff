@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-02T22:41:15.411Z**
+Updated: **2026-09-02T23:42:28.911Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-02T22:41:15.411Z**
 
 ## Current snapshot
 
-- **9,880 LP** · **279 tasks** · total level **2,094**
+- **9,990 LP** · **281 tasks** · total level **2,098**
 - **12 blessing tasks** · relic **T5**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **121 tasks** to 400
-- Next relic: **2,120 LP** to T6
+- Next region: **119 tasks** to 400
+- Next relic: **2,010 LP** to T6
 - Next blessing step: **4** to t5
 
 ## Active relics
@@ -162,11 +162,14 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
+- Tasks: **+2** · LP: **+110**
+- [254] Defeat any God Wars Dungeon boss 100 times. — hard, Asgarnia, 80 LP
+- [845] Scatter 100 ashes of any kind. — medium, Global, 30 LP
+- Level-ups: Defence 95→96; Constitution 93→94; Slayer 75→77
 
 ## Current task sprint
 
-- Need: **121 tasks**
+- Need: **119 tasks**
 - Precomputed sprint: **105 tasks** (6 Grade A, 99 Grade B)
 - Action-time estimate excluding travel: **3520 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
@@ -205,12 +208,12 @@ Passive step effects:
 
 - Timed Grade-A tasks: **6**
 - Timed Grade-B inferred candidates: **99**
-- Metadata sources: `{'manual_override': 9, 'none': 694, 'text_inference': 170}`
+- Metadata sources: `{'manual_override': 9, 'none': 692, 'text_inference': 170}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-02T22:41:15.411Z
+- WikiSync: **fresh** · 2026-09-02T23:42:28.911Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
@@ -220,9 +223,10 @@ Passive step effects:
 
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
-- [1066] **Reach level 99 in the Defence skill.** — score 25, unknown_check_progress; Only 4 Defence levels remain to the task target.
+- [1066] **Reach level 99 in the Defence skill.** — score 25, unknown_check_progress; Only 3 Defence levels remain to the task target.
+- [1074] **Reach level 99 in the Constitution skill.** — score 25, unknown_check_progress; Only 5 Constitution levels remain to the task target.
 - [1153] **Reach at least level 30 in all non-elite skills.** — score 25, unknown_check_progress; Lowest relevant skill is Farming 26; 4 levels from the all-skills target.
-- [845] **Scatter 100 ashes of any kind.** — score 8, unknown_check_progress; Completed related milestone 25 proves at least 25% of the 100 cumulative target was reached.
+- [255] **Defeat any God Wars Dungeon boss 250 times.** — score 8, unknown_check_progress; Completed related milestone 100 proves at least 40% of the 250 cumulative target was reached.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
 - [852] **Catch 35 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.
 
