@@ -1,15 +1,17 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-02T00:24:47.677Z**
+Updated: **2026-09-02T00:33:12.994Z**
 
 ## Tracker discipline
 
 - `assistant-state.json` is the canonical assistant briefing.
+- `recommendations.json` is the canonical precomputed routing/sprint file.
 - `task-catalog.json` is the master 1,152-task database.
 - `player-state.json` contains only manual facts and choices.
 - `live-wikisync.json` is authoritative for completed task IDs and skill levels.
 - HiScores is optional and can never block task/skill refreshes.
-- Milestones come only from `league-rules.json`; do not copy generated totals into manual state.
+- Milestones come only from `league-rules.json`; never copy generated totals into manual state.
+- Recommendation grades: **A = explicit metadata**, **B = conservative inference**, **U = unknown**.
 
 ## Current snapshot
 
@@ -160,43 +162,41 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+7** · LP: **+250**
-- [810] Drink a strength potion. — easy, Global, 10 LP
-- [811] Make an attack potion. — easy, Global, 10 LP
-- [812] Make a necromancy potion. — easy, Global, 10 LP
-- [915] Equip a full set of blue dragonhide armour. — medium, Global, 30 LP
-- [916] Equip a full set of red dragonhide armour. — medium, Global, 30 LP
-- [986] Equip a full set of black dragonhide armour. — hard, Global, 80 LP
-- [987] Equip a full set of royal dragonhide armour. — hard, Global, 80 LP
-- Level-ups: Ranged 28→52; Magic 74→76; Fletching 67→69
+- Tasks: **+0** · LP: **+0**
 
-## Fast task routing
+## Current task sprint
 
-- Enriched skill/region-ready: **16**
-- Manual-check: **3**
-- Accessible but requirements not yet mapped: **433**
+- Need: **15 tasks**
+- Precomputed sprint: **15 tasks** (15 Grade A, 0 Grade B)
+- Action-time estimate excluding travel: **550 sec**
+- Prep: oak log, knife, bronze bolts/materials, weapon with a special attack, 25 ashes, potato, bread ingredients, milk, cake ingredients
+- [819] **Fletch an oak shortbow (unstrung).** — Grade A · ~15s · bank
+- [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
+- [980] **Perform a special attack.** — Grade A · ~10s · anywhere
+- [844] **Scatter 25 ashes of any kind.** — Grade A · ~25s · anywhere
+- [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
+- [838] **Make some bread.** — Grade A · ~45s · bank_or_range
+- [288] **Mine a gem rock at the Al Kharid mine.** — Grade A · ~45s · al_kharid
+- [294] **Use any of the magic carpets in the desert.** — Grade A · ~60s · desert
+- [35] **Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.** — Grade A · ~30s · lumbridge
+- [51] **Churn some butter.** — Grade A · ~45s · lumbridge
+- [54] **Use the range in Lumbridge Castle to bake a cake.** — Grade A · ~60s · lumbridge
+- [217] **Return a free item to any store.** — Grade A · ~20s · shop
+- [285] **Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.** — Grade A · ~45s · sophanem_pyramid_plunder
+- [286] **Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.** — Grade A · ~60s · sophanem_pyramid_plunder
+- [112] **Enter the Cooks' Guild.** — Grade A · ~30s · varrock
 
-- [980] **Perform a special attack.** — ~10s · anywhere · prep: weapon with a special attack
-- [819] **Fletch an oak shortbow (unstrung).** — ~15s · bank · prep: oak log, knife
-- [217] **Return a free item to any store.** — ~20s · shop
-- [844] **Scatter 25 ashes of any kind.** — ~25s · anywhere · prep: 25 ashes
-- [112] **Enter the Cooks' Guild.** — ~30s · varrock
-- [35] **Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.** — ~30s · lumbridge
-- [212] **Eat a baked potato.** — ~30s · bank_or_range · prep: potato
-- [822] **Fletch 50 bronze bolts.** — ~30s · bank · prep: bronze bolts/materials
-- [51] **Churn some butter.** — ~45s · lumbridge · prep: milk
-- [285] **Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.** — ~45s · sophanem_pyramid_plunder
-- [288] **Mine a gem rock at the Al Kharid mine.** — ~45s · al_kharid
-- [838] **Make some bread.** — ~45s · bank_or_range · prep: bread ingredients
-- [54] **Use the range in Lumbridge Castle to bake a cake.** — ~60s · lumbridge · prep: cake ingredients
-- [286] **Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.** — ~60s · sophanem_pyramid_plunder
-- [294] **Use any of the magic carpets in the desert.** — ~60s · desert
-- [287] **Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem.** — ~75s · sophanem_pyramid_plunder
+## Recommendation coverage
+
+- Timed Grade-A tasks: **16**
+- Timed Grade-B inferred candidates: **92**
+- Metadata sources: `{'manual_override': 19, 'none': 709, 'text_inference': 164}`
 
 ## Data health
 
-- WikiSync: **fresh** · 2026-09-02T00:24:47.677Z
-- Task catalog: **fresh_updated** · 1152 tasks
+- Overall: **healthy**
+- WikiSync: **fresh** · 2026-09-02T00:33:12.994Z
+- Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **fetched_optional** (optional)
 
 > Always apply the active League effects above before normal RS3 mechanics.

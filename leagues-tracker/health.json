@@ -1,23 +1,59 @@
 {
-  "generated_at_utc": "2026-09-02T00:24:47.677Z",
+  "generated_at_utc": "2026-09-02T00:33:12.994Z",
   "hiscores": {
     "note": "HiScores parsing is not a dependency.",
     "required": false,
     "status": "fetched_optional"
   },
+  "overall": {
+    "errors": [],
+    "expected_elective_slots": 1,
+    "recorded_elective_regions": 1,
+    "status": "healthy",
+    "warnings": []
+  },
+  "recommendation_coverage": {
+    "metadata_source_counts": {
+      "manual_override": 19,
+      "none": 709,
+      "text_inference": 164
+    },
+    "status_counts": {
+      "accessible_requirements_unknown": 269,
+      "blocked": 39,
+      "excluded": 3,
+      "inferred_candidate": 125,
+      "known_issue": 1,
+      "locked_region": 436,
+      "manual_check": 3,
+      "verified_ready": 16
+    },
+    "timed_inferred_candidates": 92,
+    "timed_verified_tasks": 16
+  },
   "task_catalog": {
+    "age_seconds_at_generation": 506,
     "fetched_at_utc": "2026-09-02T00:24:49+00:00",
+    "latest_change_check": {
+      "added_task_ids": [],
+      "changed_task_ids": [],
+      "current_task_count": 1152,
+      "previous_task_count": 1152,
+      "removed_task_ids": [],
+      "status": "unchanged"
+    },
     "mapped_completed_tasks": 260,
-    "status": "fresh_updated",
+    "status": "fresh_unchanged",
     "task_count": 1152,
     "unmapped_completed_task_ids": []
   },
   "wikisync": {
+    "age_seconds_at_generation": 2,
     "authoritative_for": [
       "completed_task_ids",
       "skill_levels"
     ],
     "status": "fresh",
-    "timestamp": "2026-09-02T00:24:47.677Z"
+    "timestamp": "2026-09-02T00:33:12.994Z"
   }
 }

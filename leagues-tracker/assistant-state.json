@@ -299,7 +299,7 @@
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-02T00:24:47.677Z",
+    "timestamp_utc": "2026-09-02T00:33:12.994Z",
     "total_level": 2031
   },
   "blessings": {
@@ -473,128 +473,69 @@
     ]
   },
   "changes": {
-    "league_points_delta": 250,
-    "level_ups": [
-      {
-        "from": 28,
-        "skill": "Ranged",
-        "to": 52
-      },
-      {
-        "from": 74,
-        "skill": "Magic",
-        "to": 76
-      },
-      {
-        "from": 67,
-        "skill": "Fletching",
-        "to": 69
-      }
-    ],
-    "new_task_ids": [
-      810,
-      811,
-      812,
-      915,
-      916,
-      986,
-      987
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Drink a strength potion.",
-        "id": 810,
-        "issue": null,
-        "name": "Drink a strength potion.",
-        "points": 10,
-        "region": "Global",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Make an attack potion.",
-        "id": 811,
-        "issue": null,
-        "name": "Make an attack potion.",
-        "points": 10,
-        "region": "Global",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Make a necromancy potion.",
-        "id": 812,
-        "issue": null,
-        "name": "Make a necromancy potion.",
-        "points": 10,
-        "region": "Global",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Equip a full set of blue dragonhide armour.",
-        "id": 915,
-        "issue": null,
-        "name": "Equip a full set of blue dragonhide armour.",
-        "points": 30,
-        "region": "Global",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": false,
-        "description": "Equip a full set of red dragonhide armour.",
-        "id": 916,
-        "issue": null,
-        "name": "Equip a full set of red dragonhide armour.",
-        "points": 30,
-        "region": "Global",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": false,
-        "description": "Equip a full set of black dragonhide armour.",
-        "id": 986,
-        "issue": null,
-        "name": "Equip a full set of black dragonhide armour.",
-        "points": 80,
-        "region": "Global",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Equip a full set of royal dragonhide armour.",
-        "id": 987,
-        "issue": null,
-        "name": "Equip a full set of royal dragonhide armour.",
-        "points": 80,
-        "region": "Global",
-        "tier": "hard"
-      }
-    ],
-    "task_delta": 7
+    "league_points_delta": 0,
+    "level_ups": [],
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "health": {
-    "generated_at_utc": "2026-09-02T00:24:47.677Z",
+    "generated_at_utc": "2026-09-02T00:33:12.994Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
       "status": "fetched_optional"
     },
+    "overall": {
+      "errors": [],
+      "expected_elective_slots": 1,
+      "recorded_elective_regions": 1,
+      "status": "healthy",
+      "warnings": []
+    },
+    "recommendation_coverage": {
+      "metadata_source_counts": {
+        "manual_override": 19,
+        "none": 709,
+        "text_inference": 164
+      },
+      "status_counts": {
+        "accessible_requirements_unknown": 269,
+        "blocked": 39,
+        "excluded": 3,
+        "inferred_candidate": 125,
+        "known_issue": 1,
+        "locked_region": 436,
+        "manual_check": 3,
+        "verified_ready": 16
+      },
+      "timed_inferred_candidates": 92,
+      "timed_verified_tasks": 16
+    },
     "task_catalog": {
+      "age_seconds_at_generation": 506,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
+      "latest_change_check": {
+        "added_task_ids": [],
+        "changed_task_ids": [],
+        "current_task_count": 1152,
+        "previous_task_count": 1152,
+        "removed_task_ids": [],
+        "status": "unchanged"
+      },
       "mapped_completed_tasks": 260,
-      "status": "fresh_updated",
+      "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
     },
     "wikisync": {
+      "age_seconds_at_generation": 2,
       "authoritative_for": [
         "completed_task_ids",
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-02T00:24:47.677Z"
+      "timestamp": "2026-09-02T00:33:12.994Z"
     }
   },
   "manual": {
@@ -873,599 +814,24 @@
       }
     ]
   },
-  "schema_version": 1,
+  "schema_version": 2,
   "tasks": {
-    "clusters": {
-      "al_kharid": [
-        {
-          "estimated_seconds": 45,
-          "id": 288,
-          "name": "Mine a gem rock at the Al Kharid mine.",
-          "points": 10,
-          "status": "skill_region_ready"
-        }
-      ],
-      "anywhere": [
-        {
-          "estimated_seconds": 10,
-          "id": 980,
-          "name": "Perform a special attack.",
-          "points": 30,
-          "status": "skill_region_ready"
-        },
-        {
-          "estimated_seconds": 25,
-          "id": 844,
-          "name": "Scatter 25 ashes of any kind.",
-          "points": 10,
-          "status": "skill_region_ready"
-        }
-      ],
-      "bank": [
-        {
-          "estimated_seconds": 15,
-          "id": 819,
-          "name": "Fletch an oak shortbow (unstrung).",
-          "points": 10,
-          "status": "skill_region_ready"
-        },
-        {
-          "estimated_seconds": 30,
-          "id": 822,
-          "name": "Fletch 50 bronze bolts.",
-          "points": 10,
-          "status": "skill_region_ready"
-        }
-      ],
-      "bank_or_range": [
-        {
-          "estimated_seconds": 30,
-          "id": 212,
-          "name": "Eat a baked potato.",
-          "points": 10,
-          "status": "skill_region_ready"
-        },
-        {
-          "estimated_seconds": 45,
-          "id": 838,
-          "name": "Make some bread.",
-          "points": 10,
-          "status": "skill_region_ready"
-        }
-      ],
-      "desert": [
-        {
-          "estimated_seconds": 60,
-          "id": 294,
-          "name": "Use any of the magic carpets in the desert.",
-          "points": 10,
-          "status": "skill_region_ready"
-        }
-      ],
-      "fort_forinthry": [
-        {
-          "estimated_seconds": 10,
-          "id": 22,
-          "name": "Use the bank in the workshop at Fort Forinthry.",
-          "points": 10,
-          "status": "manual_check"
-        },
-        {
-          "estimated_seconds": 30,
-          "id": 103,
-          "name": "Give Bill a beer in Fort Forinthry.",
-          "points": 10,
-          "status": "manual_check"
-        },
-        {
-          "estimated_seconds": 30,
-          "id": 105,
-          "name": "Make a plank yourself on the sawmill in Fort Forinthry.",
-          "points": 10,
-          "status": "manual_check"
-        }
-      ],
-      "lumbridge": [
-        {
-          "estimated_seconds": 30,
-          "id": 35,
-          "name": "Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.",
-          "points": 10,
-          "status": "skill_region_ready"
-        },
-        {
-          "estimated_seconds": 45,
-          "id": 51,
-          "name": "Churn some butter.",
-          "points": 30,
-          "status": "skill_region_ready"
-        },
-        {
-          "estimated_seconds": 60,
-          "id": 54,
-          "name": "Use the range in Lumbridge Castle to bake a cake.",
-          "points": 30,
-          "status": "skill_region_ready"
-        }
-      ],
-      "shop": [
-        {
-          "estimated_seconds": 20,
-          "id": 217,
-          "name": "Return a free item to any store.",
-          "points": 10,
-          "status": "skill_region_ready"
-        }
-      ],
-      "sophanem_pyramid_plunder": [
-        {
-          "estimated_seconds": 45,
-          "id": 285,
-          "name": "Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.",
-          "points": 10,
-          "status": "skill_region_ready"
-        },
-        {
-          "estimated_seconds": 60,
-          "id": 286,
-          "name": "Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.",
-          "points": 10,
-          "status": "skill_region_ready"
-        },
-        {
-          "estimated_seconds": 75,
-          "id": 287,
-          "name": "Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem.",
-          "points": 10,
-          "status": "skill_region_ready"
-        }
-      ],
-      "varrock": [
-        {
-          "estimated_seconds": 30,
-          "id": 112,
-          "name": "Enter the Cooks' Guild.",
-          "points": 30,
-          "status": "skill_region_ready"
-        }
-      ]
-    },
-    "fastest_enriched": [
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "anywhere",
-        "description": "Perform a special attack.",
-        "estimated_seconds": 10,
-        "id": 980,
-        "issue": null,
-        "items_to_prepare": [
-          "weapon with a special attack"
-        ],
-        "name": "Perform a special attack.",
-        "points": 30,
-        "region": "Global",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "combat",
-          "one_action"
-        ],
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "bank",
-        "description": "Fletch an unstrung oak shortbow.",
-        "estimated_seconds": 15,
-        "id": 819,
-        "issue": null,
-        "items_to_prepare": [
-          "oak log",
-          "knife"
-        ],
-        "name": "Fletch an oak shortbow (unstrung).",
-        "points": 10,
-        "region": "Global",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "fletching"
-        ],
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "shop",
-        "description": "Return a free item to any store e.g. a tinderbox from Lumbridge General Store",
-        "estimated_seconds": 20,
-        "id": 217,
-        "issue": null,
-        "items_to_prepare": [],
-        "name": "Return a free item to any store.",
-        "points": 10,
-        "region": "Global",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "one_action"
-        ],
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "anywhere",
-        "description": "Scatter 25 ashes of any kind.",
-        "estimated_seconds": 25,
-        "id": 844,
-        "issue": null,
-        "items_to_prepare": [
-          "25 ashes"
-        ],
-        "name": "Scatter 25 ashes of any kind.",
-        "points": 10,
-        "region": "Global",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "prayer"
-        ],
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "varrock",
-        "description": "Enter the Cooks' Guild.",
-        "estimated_seconds": 30,
-        "id": 112,
-        "issue": null,
-        "items_to_prepare": [],
-        "name": "Enter the Cooks' Guild.",
-        "points": 30,
-        "region": "Misthalin",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "access"
-        ],
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "lumbridge",
-        "description": "Catch some shrimp by using the net option on the net/bait fishing spot to the east of Lumbridge Swamp.",
-        "estimated_seconds": 30,
-        "id": 35,
-        "issue": null,
-        "items_to_prepare": [],
-        "name": "Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.",
-        "points": 10,
-        "region": "Misthalin",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "fishing"
-        ],
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "bank_or_range",
-        "description": "Eat a baked potato. You will need to get a raw potato and cook it at a range.",
-        "estimated_seconds": 30,
-        "id": 212,
-        "issue": null,
-        "items_to_prepare": [
-          "potato"
-        ],
-        "name": "Eat a baked potato.",
-        "points": 10,
-        "region": "Global",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "cooking"
-        ],
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "bank",
-        "description": "Fletch 50 bronze bolts.",
-        "estimated_seconds": 30,
-        "id": 822,
-        "issue": null,
-        "items_to_prepare": [
-          "bronze bolts/materials"
-        ],
-        "name": "Fletch 50 bronze bolts.",
-        "points": 10,
-        "region": "Global",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "fletching"
-        ],
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "lumbridge",
-        "description": "Make a pat of butter by using a bucket of milk at a dairy churn",
-        "estimated_seconds": 45,
-        "id": 51,
-        "issue": null,
-        "items_to_prepare": [
-          "milk"
-        ],
-        "name": "Churn some butter.",
-        "points": 30,
-        "region": "Misthalin",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "cooking"
-        ],
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "sophanem_pyramid_plunder",
-        "description": "Search the grand gold chest in room 1 of Pyramid Plunder in Sophanem.",
-        "estimated_seconds": 45,
-        "id": 285,
-        "issue": null,
-        "items_to_prepare": [],
-        "name": "Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.",
-        "points": 10,
-        "region": "Desert",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "thieving"
-        ],
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "al_kharid",
-        "description": "Mine a gem rock at the Al Kharid mine. Common gem rocks can be mined with level 1 Mining.",
-        "estimated_seconds": 45,
-        "id": 288,
-        "issue": null,
-        "items_to_prepare": [],
-        "name": "Mine a gem rock at the Al Kharid mine.",
-        "points": 10,
-        "region": "Desert",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "mining"
-        ],
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "bank_or_range",
-        "description": "Make some bread. Bread dough can be created by using a pot of flour with water, it must be cooked at a range.",
-        "estimated_seconds": 45,
-        "id": 838,
-        "issue": null,
-        "items_to_prepare": [
-          "bread ingredients"
-        ],
-        "name": "Make some bread.",
-        "points": 10,
-        "region": "Global",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "cooking"
-        ],
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "lumbridge",
-        "description": "Use the range in Lumbridge Castle to bake a cake.",
-        "estimated_seconds": 60,
-        "id": 54,
-        "issue": null,
-        "items_to_prepare": [
-          "cake ingredients"
-        ],
-        "name": "Use the range in Lumbridge Castle to bake a cake.",
-        "points": 30,
-        "region": "Misthalin",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "cooking"
-        ],
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "sophanem_pyramid_plunder",
-        "description": "Search the grand gold chest in room 2 of Pyramid Plunder in Sophanem.",
-        "estimated_seconds": 60,
-        "id": 286,
-        "issue": null,
-        "items_to_prepare": [],
-        "name": "Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.",
-        "points": 10,
-        "region": "Desert",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "thieving"
-        ],
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "desert",
-        "description": "Use any of the magic carpets in the desert.",
-        "estimated_seconds": 60,
-        "id": 294,
-        "issue": null,
-        "items_to_prepare": [],
-        "name": "Use any of the magic carpets in the desert.",
-        "points": 10,
-        "region": "Desert",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "travel"
-        ],
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "sophanem_pyramid_plunder",
-        "description": "Search the grand gold chest in room 3 of Pyramid Plunder in Sophanem.",
-        "estimated_seconds": 75,
-        "id": 287,
-        "issue": null,
-        "items_to_prepare": [],
-        "name": "Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem.",
-        "points": 10,
-        "region": "Desert",
-        "status": "skill_region_ready",
-        "tags": [
-          "fast",
-          "thieving"
-        ],
-        "tier": "easy",
-        "unknown_checks": []
-      }
-    ],
+    "inferred_candidate_count": 125,
     "manual_check_count": 3,
-    "manual_check_fastest": [
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "fort_forinthry",
-        "description": "Use the bank in the workshop at Fort Forinthry.",
-        "estimated_seconds": 10,
-        "id": 22,
-        "issue": null,
-        "items_to_prepare": [],
-        "name": "Use the bank in the workshop at Fort Forinthry.",
-        "points": 10,
-        "region": "Misthalin",
-        "status": "manual_check",
-        "tags": [
-          "fast",
-          "fort"
-        ],
-        "tier": "easy",
-        "unknown_checks": [
-          {
-            "current": null,
-            "flag": "fort_workshop_unlocked",
-            "type": "manual_flag"
-          }
-        ]
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "fort_forinthry",
-        "description": "Give Bill a beer in Fort Forinthry.",
-        "estimated_seconds": 30,
-        "id": 103,
-        "issue": null,
-        "items_to_prepare": [
-          "beer"
-        ],
-        "name": "Give Bill a beer in Fort Forinthry.",
-        "points": 10,
-        "region": "Misthalin",
-        "status": "manual_check",
-        "tags": [
-          "fast",
-          "fort"
-        ],
-        "tier": "easy",
-        "unknown_checks": [
-          {
-            "current": null,
-            "flag": "fort_workshop_unlocked",
-            "type": "manual_flag"
-          }
-        ]
-      },
-      {
-        "blessing_task": false,
-        "blockers": [],
-        "cluster": "fort_forinthry",
-        "description": "Make a plank yourself on the sawmill in Fort Forinthry. Must be a regular plank made from logs",
-        "estimated_seconds": 30,
-        "id": 105,
-        "issue": null,
-        "items_to_prepare": [
-          "log"
-        ],
-        "name": "Make a plank yourself on the sawmill in Fort Forinthry.",
-        "points": 10,
-        "region": "Misthalin",
-        "status": "manual_check",
-        "tags": [
-          "fast",
-          "fort"
-        ],
-        "tier": "easy",
-        "unknown_checks": [
-          {
-            "current": null,
-            "flag": "fort_workshop_unlocked",
-            "type": "manual_flag"
-          }
-        ]
-      }
-    ],
     "master_task_count": 1152,
-    "requirements_unknown_count": 433,
-    "skill_region_ready_count": 16,
+    "recommendations_file": "recommendations.json",
+    "requirements_unknown_count": 269,
     "status_counts": {
+      "accessible_requirements_unknown": 269,
+      "blocked": 39,
       "excluded": 3,
+      "inferred_candidate": 125,
       "known_issue": 1,
       "locked_region": 436,
       "manual_check": 3,
-      "region_accessible_requirements_unknown": 433,
-      "skill_region_ready": 16
+      "verified_ready": 16
     },
-    "unfinished_count": 892
+    "unfinished_count": 892,
+    "verified_ready_count": 16
   }
 }
