@@ -1,155 +1,68 @@
-name: Probe Current RS3 Leagues Sources
+name: Refresh Equilibrium Tracker
 
 on:
+  schedule:
+    - cron: '17 * * * *'
   workflow_dispatch:
   push:
     paths:
       - '.github/workflows/probe-current-leagues.yml'
-      - 'leagues-tracker/config.json'
+      - 'leagues-tracker/tracker.py'
+      - 'leagues-tracker/test_tracker.py'
+      - 'leagues-tracker/league-rules.json'
+      - 'leagues-tracker/player-state.json'
+      - 'leagues-tracker/task-overrides.json'
 
 permissions:
   contents: write
 
+concurrency:
+  group: equilibrium-tracker
+  cancel-in-progress: false
+
 jobs:
-  probe:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Preserve previous live snapshot
+      - name: Fetch authoritative WikiSync state
         shell: bash
         run: |
           set -euo pipefail
-          if [ -f leagues-tracker/live-wikisync.json ]; then
-            cp leagues-tracker/live-wikisync.json /tmp/previous-live-wikisync.json
-          fi
+          UA='RS3-Stuff-Equilibrium-Tracker/4.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
+          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
+            -o leagues-tracker/live-wikisync.json \
+            'https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
 
-      - name: Build live League snapshot
+      - name: Fetch optional enrichment sources
         shell: bash
         run: |
-          set -euo pipefail
-          UA='RS3-Stuff-Leagues-Probe/2.1 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
-          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' -o leagues-tracker/live-wikisync.json 'https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
-          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' -o task-catalog.html 'https://scapeleagues.com/rs3/equilibrium/tasks'
-          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' -o leagues-tracker/live-hiscores.html 'https://rs.runescape.com/hiscores/leagues/player/112321'
-          python3 - <<'PY'
-          import json,re
-          from pathlib import Path
+          set -u
+          UA='RS3-Stuff-Equilibrium-Tracker/4.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
 
-          root=Path('leagues-tracker')
-          w=json.loads((root/'live-wikisync.json').read_text())
-          config=json.loads((root/'config.json').read_text()) if (root/'config.json').exists() else {}
-          raw=Path('task-catalog.html').read_text(encoding='utf-8')
+          rm -f task-catalog.html
+          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
+            -o task-catalog.html \
+            'https://scapeleagues.com/rs3/equilibrium/tasks' || rm -f task-catalog.html
 
-          chunks=[]
-          rx=re.compile(r'self\.__next_f\.push\(\[1,("(?:\\.|[^"\\])*")\]\)',re.S)
-          for m in rx.finditer(raw):
-              try: chunks.append(json.loads(m.group(1)))
-              except Exception: pass
-          decoded='\n'.join(chunks)
-          dec=json.JSONDecoder(); pos=0; found={}
-          while True:
-              pos=decoded.find('{"id":"',pos)
-              if pos<0: break
-              try: obj,end=dec.raw_decode(decoded[pos:])
-              except Exception:
-                  pos+=1; continue
-              pos+=max(end,1)
-              if isinstance(obj,dict) and {'id','name','tier','region','points'} <= set(obj):
-                  try:
-                      tid=int(obj['id'])
-                      found[tid]={
-                          'id':tid,
-                          'name':str(obj.get('name','')).strip(),
-                          'description':str(obj.get('description','')).strip(),
-                          'tier':str(obj.get('tier','')).lower(),
-                          'region':str(obj.get('region','')).strip(),
-                          'points':int(obj.get('points',0)),
-                          'blessing_task':bool(obj.get('blessingTask',False)),
-                          'issue':obj.get('issue') or None,
-                      }
-                  except Exception: pass
+          rm -f leagues-tracker/live-hiscores.html
+          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
+            -o leagues-tracker/live-hiscores.html \
+            'https://rs.runescape.com/hiscores/leagues/player/112321' || rm -f leagues-tracker/live-hiscores.html
 
-          ids=sorted({int(x) for x in w.get('league_tasks',[])})
-          idset=set(ids)
-          levels={k:int(v) for k,v in w.get('levels',{}).items()}
-          completed=[found[x] for x in ids if x in found]
-          missing=[x for x in ids if x not in found]
-          lp=sum(x['points'] for x in completed)
-          blessings=sum(1 for x in completed if x['blessing_task'])
-          total_level=sum(levels.values())
+      - name: Build tracker intelligence
+        run: python3 leagues-tracker/tracker.py
 
-          prev={}
-          prev_path=Path('/tmp/previous-live-wikisync.json')
-          if prev_path.exists():
-              try: prev=json.loads(prev_path.read_text())
-              except Exception: prev={}
-          prev_ids={int(x) for x in prev.get('league_tasks',[])}
-          prev_levels={k:int(v) for k,v in prev.get('levels',{}).items()}
-          new_ids=sorted(idset-prev_ids)
-          new_tasks=[found[x] for x in new_ids if x in found]
-          level_ups=[]
-          for skill,level in levels.items():
-              oldlevel=prev_levels.get(skill,level)
-              if level>oldlevel:
-                  level_ups.append({'skill':skill,'from':oldlevel,'to':level})
+      - name: Validate tracker invariants
+        run: python3 leagues-tracker/test_tracker.py
 
-          unlocked=set(config.get('confirmed_unlocked_regions',[])) | {'Global'}
-          excluded={int(x) for x in config.get('excluded_recommendation_task_ids',[])}
-          accessible=[]
-          all_unfinished=[]
-          for tid,t in found.items():
-              if tid in idset:
-                  continue
-              all_unfinished.append(t)
-              if t['region'] in unlocked and not t.get('issue') and tid not in excluded:
-                  accessible.append(t)
-          accessible.sort(key=lambda t:(-t['points'], t['region'], t['id']))
-          all_unfinished.sort(key=lambda t:(-t['points'], t['region'], t['id']))
-
-          summary={
-              'timestamp_utc':w.get('timestamp'),
-              'player':w.get('username','112321'),
-              'source':'WikiSync + fresh ScapeLeagues task catalog',
-              'league_points':lp,
-              'completed_tasks':len(ids),
-              'completed_task_ids':ids,
-              'total_level':total_level,
-              'levels':levels,
-              'blessing_tasks_completed':blessings,
-              'relic_tier':5 if lp>=6000 else (4 if lp>=3500 else (3 if lp>=1750 else (2 if lp>=750 else 1))),
-              'points_to_t5':max(0,6000-lp),
-              'tasks_to_second_elective_region':max(0,275-len(ids)),
-              'tasks_to_third_elective_region':max(0,400-len(ids)),
-              'new_task_ids_since_previous_live_sync':new_ids,
-              'new_tasks_since_previous_live_sync':new_tasks,
-              'task_delta_since_previous_live_sync':len(idset)-len(prev_ids) if prev_ids else 0,
-              'level_ups_since_previous_live_sync':level_ups,
-              'catalog_task_count':len(found),
-              'mapped_completed_tasks':len(completed),
-              'unmapped_completed_task_ids':missing,
-              'confirmed_unlocked_regions':config.get('confirmed_unlocked_regions',[]),
-              'confirmed_relic_choices':config.get('confirmed_relic_choices',{}),
-              'excluded_recommendation_task_ids':sorted(excluded),
-          }
-          (root/'live-summary.json').write_text(json.dumps(summary,indent=2,sort_keys=True)+'\n')
-          (root/'live-unfinished.json').write_text(json.dumps({
-              'timestamp_utc':w.get('timestamp'),
-              'unlocked_regions':config.get('confirmed_unlocked_regions',[]),
-              'excluded_recommendation_task_ids':sorted(excluded),
-              'accessible_actionable_count':len(accessible),
-              'accessible_actionable_tasks':accessible,
-              'all_unfinished_tasks':all_unfinished,
-          },indent=2,sort_keys=True)+'\n')
-          print(json.dumps(summary,indent=2))
-          PY
-
-      - name: Commit live probe
+      - name: Commit refreshed state
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add leagues-tracker/live-wikisync.json leagues-tracker/live-summary.json leagues-tracker/live-unfinished.json leagues-tracker/live-hiscores.html
-          git commit -m 'Refresh live League tracker state' || exit 0
+          git add -A leagues-tracker
+          git commit -m 'Refresh Equilibrium tracker state' || exit 0
           git push
