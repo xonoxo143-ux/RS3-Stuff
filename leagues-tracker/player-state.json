@@ -15,7 +15,7 @@
   "regions": {
     "starting": ["Misthalin", "Havenhythe"],
     "automatic": ["Karamja"],
-    "elective": ["Desert"]
+    "elective": ["Desert", "Asgarnia"]
   },
   "task_exclusions": {
     "95": "Do not recommend Croesus unless the user explicitly reopens it.",
@@ -34,8 +34,8 @@
   },
   "goal": {
     "type": "task_threshold",
-    "threshold_id": "elective_2",
-    "strategy": "Prioritize fast task-count completions and stack them with useful progression."
+    "threshold_id": "elective_3",
+    "strategy": "Prioritize high-point tasks and blessing progress, stacking them with useful progression such as Necromancy gear upgrades."
   },
   "route_preferences": {
     "compare_direct_walk_vs_teleports": true,
@@ -44,7 +44,7 @@
     "cross_check_maps_when_directions_are_uncertain": true
   },
   "notes": [
-    "Later elective region choices are intentionally unset until explicitly confirmed.",
+    "The final elective region choice at 400 tasks remains intentionally unset until explicitly confirmed.",
     "Manual player-state should contain only facts that external sources cannot reliably infer. Do not store generated LP/task/level totals here."
   ]
 }
