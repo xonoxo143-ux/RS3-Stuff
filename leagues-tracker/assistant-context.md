@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-02T00:33:53.104Z**
+Updated: **2026-09-02T00:37:07.153Z**
 
 ## Tracker discipline
 
@@ -195,8 +195,8 @@ Passive step effects:
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-02T00:33:53.104Z
+- WikiSync: **fresh** · 2026-09-02T00:37:07.153Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
-- HiScores: **fetched_optional** (optional)
+- HiScores: **unavailable_optional** (optional)
 
 > Always apply the active League effects above before normal RS3 mechanics.
