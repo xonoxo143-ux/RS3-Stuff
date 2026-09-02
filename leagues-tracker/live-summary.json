@@ -147,15 +147,24 @@
     282,
     283,
     284,
+    285,
+    286,
+    287,
     289,
     290,
+    294,
     296,
     297,
     304,
     307,
+    308,
+    309,
+    310,
     312,
     319,
     322,
+    341,
+    342,
     597,
     598,
     605,
@@ -271,7 +280,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 260,
+  "completed_tasks": 269,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -283,34 +292,39 @@
     96,
     988
   ],
-  "league_points": 9120,
+  "league_points": 9410,
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 71,
-      "skill": "Cooking",
-      "to": 72
+      "from": 93,
+      "skill": "Defence",
+      "to": 94
     },
     {
-      "from": 86,
-      "skill": "Crafting",
-      "to": 88
+      "from": 91,
+      "skill": "Constitution",
+      "to": 92
     },
     {
-      "from": 35,
+      "from": 73,
+      "skill": "Slayer",
+      "to": 74
+    },
+    {
+      "from": 68,
       "skill": "Invention",
-      "to": 68
+      "to": 74
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
     "Attack": 78,
-    "Constitution": 91,
+    "Constitution": 92,
     "Construction": 53,
     "Cooking": 72,
     "Crafting": 88,
-    "Defence": 93,
+    "Defence": 94,
     "Divination": 80,
     "Dungeoneering": 39,
     "Farming": 22,
@@ -319,23 +333,124 @@
     "Fletching": 69,
     "Herblore": 68,
     "Hunter": 45,
-    "Invention": 68,
+    "Invention": 74,
     "Magic": 76,
     "Mining": 77,
     "Necromancy": 97,
     "Prayer": 99,
     "Ranged": 52,
     "Runecrafting": 73,
-    "Slayer": 73,
+    "Slayer": 74,
     "Smithing": 80,
     "Strength": 78,
     "Summoning": 67,
     "Thieving": 119,
     "Woodcutting": 62
   },
-  "mapped_completed_tasks": 260,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 269,
+  "new_task_ids_since_previous_live_sync": [
+    285,
+    286,
+    287,
+    294,
+    308,
+    309,
+    310,
+    341,
+    342
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Search the grand gold chest in room 1 of Pyramid Plunder in Sophanem.",
+      "id": 285,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.",
+      "points": 10,
+      "region": "Desert",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the grand gold chest in room 2 of Pyramid Plunder in Sophanem.",
+      "id": 286,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.",
+      "points": 10,
+      "region": "Desert",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the grand gold chest in room 3 of Pyramid Plunder in Sophanem.",
+      "id": 287,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem.",
+      "points": 10,
+      "region": "Desert",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Use any of the magic carpets in the desert.",
+      "id": 294,
+      "issue": null,
+      "name": "Use any of the magic carpets in the desert.",
+      "points": 10,
+      "region": "Desert",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the Grand gold chest in room 4 of Pyramid Plunder in Sophanem.",
+      "id": 308,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 4 of Pyramid Plunder in Sophanem.",
+      "points": 30,
+      "region": "Desert",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the Grand gold chest in room 5 of Pyramid Plunder in Sophanem.",
+      "id": 309,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 5 of Pyramid Plunder in Sophanem.",
+      "points": 30,
+      "region": "Desert",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the Grand gold chest in room 6 of Pyramid Plunder in Sophanem.",
+      "id": 310,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 6 of Pyramid Plunder in Sophanem.",
+      "points": 30,
+      "region": "Desert",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the Grand gold chest in room 7 of Pyramid Plunder in Sophanem.",
+      "id": 341,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 7 of Pyramid Plunder in Sophanem.",
+      "points": 80,
+      "region": "Desert",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the Grand gold chest in room 8 of Pyramid Plunder in Sophanem.",
+      "id": 342,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 8 of Pyramid Plunder in Sophanem.",
+      "points": 80,
+      "region": "Desert",
+      "tier": "hard"
+    }
+  ],
   "next_blessing": {
     "remaining_tasks": 4,
     "step": "t5",
@@ -344,11 +459,11 @@
   "next_region": {
     "id": "elective_2",
     "region": null,
-    "remaining_tasks": 15,
+    "remaining_tasks": 6,
     "tasks": 275
   },
   "next_relic": {
-    "remaining_points": 2880,
+    "remaining_points": 2590,
     "threshold": 12000,
     "tier": 6
   },
@@ -364,9 +479,9 @@
   ],
   "relic_tier": 5,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-02T01:25:31.807Z",
-  "total_level": 2071,
+  "task_delta_since_previous_live_sync": 9,
+  "timestamp_utc": "2026-09-02T03:05:39.415Z",
+  "total_level": 2080,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

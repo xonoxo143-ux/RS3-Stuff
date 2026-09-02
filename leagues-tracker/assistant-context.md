@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-02T01:25:31.807Z**
+Updated: **2026-09-02T03:05:39.415Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-02T01:25:31.807Z**
 
 ## Current snapshot
 
-- **9,120 LP** · **260 tasks** · total level **2,071**
+- **9,410 LP** · **269 tasks** · total level **2,080**
 - **12 blessing tasks** · relic **T5**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert**
-- Next region: **15 tasks** to 275
-- Next relic: **2,880 LP** to T6
+- Next region: **6 tasks** to 275
+- Next relic: **2,590 LP** to T6
 - Next blessing step: **4** to t5
 
 ## Active relics
@@ -162,41 +162,41 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
-- Level-ups: Cooking 71→72; Crafting 86→88; Invention 35→68
+- Tasks: **+9** · LP: **+290**
+- [285] Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem. — easy, Desert, 10 LP
+- [286] Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem. — easy, Desert, 10 LP
+- [287] Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem. — easy, Desert, 10 LP
+- [294] Use any of the magic carpets in the desert. — easy, Desert, 10 LP
+- [308] Search the Grand Gold Chest in room 4 of Pyramid Plunder in Sophanem. — medium, Desert, 30 LP
+- [309] Search the Grand Gold Chest in room 5 of Pyramid Plunder in Sophanem. — medium, Desert, 30 LP
+- [310] Search the Grand Gold Chest in room 6 of Pyramid Plunder in Sophanem. — medium, Desert, 30 LP
+- [341] Search the Grand Gold Chest in room 7 of Pyramid Plunder in Sophanem. — hard, Desert, 80 LP
+- [342] Search the Grand Gold Chest in room 8 of Pyramid Plunder in Sophanem. — hard, Desert, 80 LP
+- Level-ups: Defence 93→94; Constitution 91→92; Slayer 73→74; Invention 68→74
 
 ## Current task sprint
 
-- Need: **15 tasks**
-- Precomputed sprint: **15 tasks** (15 Grade A, 0 Grade B)
-- Action-time estimate excluding travel: **550 sec**
-- Prep: oak log, knife, bronze bolts/materials, weapon with a special attack, 25 ashes, potato, bread ingredients, milk, cake ingredients
+- Need: **6 tasks**
+- Precomputed sprint: **6 tasks** (6 Grade A, 0 Grade B)
+- Action-time estimate excluding travel: **130 sec**
+- Prep: oak log, knife, weapon with a special attack, 25 ashes
 - [819] **Fletch an oak shortbow (unstrung).** — Grade A · ~15s · bank
-- [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [980] **Perform a special attack.** — Grade A · ~10s · anywhere
 - [844] **Scatter 25 ashes of any kind.** — Grade A · ~25s · anywhere
-- [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
-- [838] **Make some bread.** — Grade A · ~45s · bank_or_range
-- [288] **Mine a gem rock at the Al Kharid mine.** — Grade A · ~45s · al_kharid
-- [294] **Use any of the magic carpets in the desert.** — Grade A · ~60s · desert
 - [35] **Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.** — Grade A · ~30s · lumbridge
-- [51] **Churn some butter.** — Grade A · ~45s · lumbridge
-- [54] **Use the range in Lumbridge Castle to bake a cake.** — Grade A · ~60s · lumbridge
 - [217] **Return a free item to any store.** — Grade A · ~20s · shop
-- [285] **Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.** — Grade A · ~45s · sophanem_pyramid_plunder
-- [286] **Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.** — Grade A · ~60s · sophanem_pyramid_plunder
 - [112] **Enter the Cooks' Guild.** — Grade A · ~30s · varrock
 
 ## Recommendation coverage
 
-- Timed Grade-A tasks: **16**
-- Timed Grade-B inferred candidates: **92**
-- Metadata sources: `{'manual_override': 19, 'none': 709, 'text_inference': 164}`
+- Timed Grade-A tasks: **12**
+- Timed Grade-B inferred candidates: **87**
+- Metadata sources: `{'manual_override': 15, 'none': 709, 'text_inference': 159}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-02T01:25:31.807Z
+- WikiSync: **fresh** · 2026-09-02T03:05:39.415Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
@@ -207,6 +207,7 @@ Passive step effects:
 - [1079] **Reach level 99 in the Necromancy skill.** — score 45, 2_skill_levels_or_less; Only 2 Necromancy level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
+- [1066] **Reach level 99 in the Defence skill.** — score 25, unknown_check_progress; Only 5 Defence levels remain to the task target.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
 - [852] **Catch 35 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.
 

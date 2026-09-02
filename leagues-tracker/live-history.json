@@ -185,5 +185,50 @@
     "relic_tier": 5,
     "timestamp_utc": "2026-09-02T01:25:31.807Z",
     "total_level": 2071
+  },
+  {
+    "blessing_tasks_completed": 12,
+    "completed_tasks": 269,
+    "league_points": 9410,
+    "levels": {
+      "Agility": 99,
+      "Archaeology": 60,
+      "Attack": 78,
+      "Constitution": 92,
+      "Construction": 53,
+      "Cooking": 72,
+      "Crafting": 88,
+      "Defence": 94,
+      "Divination": 80,
+      "Dungeoneering": 39,
+      "Farming": 22,
+      "Firemaking": 54,
+      "Fishing": 39,
+      "Fletching": 69,
+      "Herblore": 68,
+      "Hunter": 45,
+      "Invention": 74,
+      "Magic": 76,
+      "Mining": 77,
+      "Necromancy": 97,
+      "Prayer": 99,
+      "Ranged": 52,
+      "Runecrafting": 73,
+      "Slayer": 74,
+      "Smithing": 80,
+      "Strength": 78,
+      "Summoning": 67,
+      "Thieving": 119,
+      "Woodcutting": 62
+    },
+    "regions": [
+      "Misthalin",
+      "Havenhythe",
+      "Karamja",
+      "Desert"
+    ],
+    "relic_tier": 5,
+    "timestamp_utc": "2026-09-02T03:05:39.415Z",
+    "total_level": 2080
   }
 ]

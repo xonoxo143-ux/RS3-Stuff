@@ -1,5 +1,5 @@
 {
-  "completed_task_count": 260,
+  "completed_task_count": 269,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
@@ -7,14 +7,14 @@
     "accessible_requirements_unknown": 269,
     "blocked": 39,
     "excluded": 3,
-    "inferred_candidate": 125,
+    "inferred_candidate": 120,
     "known_issue": 1,
     "locked_region": 436,
     "manual_check": 3,
-    "verified_ready": 16
+    "verified_ready": 12
   },
-  "timestamp_utc": "2026-09-02T01:25:31.807Z",
-  "unfinished_task_count": 892,
+  "timestamp_utc": "2026-09-02T03:05:39.415Z",
+  "unfinished_task_count": 883,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -3172,87 +3172,6 @@
     {
       "blessing_task": false,
       "blockers": [],
-      "cluster": "sophanem_pyramid_plunder",
-      "confidence": 1.0,
-      "description": "Search the grand gold chest in room 1 of Pyramid Plunder in Sophanem.",
-      "estimated_seconds": 45,
-      "id": 285,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 13.33,
-      "metadata_source": "manual_override",
-      "name": "Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Desert",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "search",
-        "fast",
-        "thieving"
-      ],
-      "task_count_efficiency": 45,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "sophanem_pyramid_plunder",
-      "confidence": 1.0,
-      "description": "Search the grand gold chest in room 2 of Pyramid Plunder in Sophanem.",
-      "estimated_seconds": 60,
-      "id": 286,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 10.0,
-      "metadata_source": "manual_override",
-      "name": "Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Desert",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "search",
-        "fast",
-        "thieving"
-      ],
-      "task_count_efficiency": 60,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "sophanem_pyramid_plunder",
-      "confidence": 1.0,
-      "description": "Search the grand gold chest in room 3 of Pyramid Plunder in Sophanem.",
-      "estimated_seconds": 75,
-      "id": 287,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 8.0,
-      "metadata_source": "manual_override",
-      "name": "Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Desert",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "search",
-        "fast",
-        "thieving"
-      ],
-      "task_count_efficiency": 75,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
       "cluster": "al_kharid",
       "confidence": 1.0,
       "description": "Mine a gem rock at the Al Kharid mine. Common gem rocks can be mined with level 1 Mining.",
@@ -3343,34 +3262,6 @@
         "agility"
       ],
       "task_count_efficiency": 95,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "desert",
-      "confidence": 1.0,
-      "description": "Use any of the magic carpets in the desert.",
-      "estimated_seconds": 60,
-      "id": 294,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 10.0,
-      "metadata_source": "manual_override",
-      "name": "Use any of the magic carpets in the desert.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Desert",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "use",
-        "magic",
-        "fast",
-        "travel"
-      ],
-      "task_count_efficiency": 60,
       "tier": "easy",
       "unknown_checks": []
     },
@@ -3508,81 +3399,6 @@
         "fishing_or_hunter"
       ],
       "task_count_efficiency": 95,
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "sophanem_pyramid_plunder",
-      "confidence": 0.72,
-      "description": "Search the Grand gold chest in room 4 of Pyramid Plunder in Sophanem.",
-      "estimated_seconds": 30,
-      "id": 308,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 60.0,
-      "metadata_source": "text_inference",
-      "name": "Search the Grand Gold Chest in room 4 of Pyramid Plunder in Sophanem.",
-      "points": 30,
-      "recommendation_grade": "B",
-      "region": "Desert",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "search"
-      ],
-      "task_count_efficiency": 80,
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "sophanem_pyramid_plunder",
-      "confidence": 0.72,
-      "description": "Search the Grand gold chest in room 5 of Pyramid Plunder in Sophanem.",
-      "estimated_seconds": 30,
-      "id": 309,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 60.0,
-      "metadata_source": "text_inference",
-      "name": "Search the Grand Gold Chest in room 5 of Pyramid Plunder in Sophanem.",
-      "points": 30,
-      "recommendation_grade": "B",
-      "region": "Desert",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "search"
-      ],
-      "task_count_efficiency": 80,
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "sophanem_pyramid_plunder",
-      "confidence": 0.72,
-      "description": "Search the Grand gold chest in room 6 of Pyramid Plunder in Sophanem.",
-      "estimated_seconds": 30,
-      "id": 310,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 60.0,
-      "metadata_source": "text_inference",
-      "name": "Search the Grand Gold Chest in room 6 of Pyramid Plunder in Sophanem.",
-      "points": 30,
-      "recommendation_grade": "B",
-      "region": "Desert",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "search"
-      ],
-      "task_count_efficiency": 80,
       "tier": "medium",
       "unknown_checks": []
     },
@@ -3962,56 +3778,6 @@
       "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "sophanem_pyramid_plunder",
-      "confidence": 0.72,
-      "description": "Search the Grand gold chest in room 7 of Pyramid Plunder in Sophanem.",
-      "estimated_seconds": 30,
-      "id": 341,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 160.0,
-      "metadata_source": "text_inference",
-      "name": "Search the Grand Gold Chest in room 7 of Pyramid Plunder in Sophanem.",
-      "points": 80,
-      "recommendation_grade": "B",
-      "region": "Desert",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "search"
-      ],
-      "task_count_efficiency": 80,
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "sophanem_pyramid_plunder",
-      "confidence": 0.72,
-      "description": "Search the Grand gold chest in room 8 of Pyramid Plunder in Sophanem.",
-      "estimated_seconds": 30,
-      "id": 342,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 160.0,
-      "metadata_source": "text_inference",
-      "name": "Search the Grand Gold Chest in room 8 of Pyramid Plunder in Sophanem.",
-      "points": 80,
-      "recommendation_grade": "B",
-      "region": "Desert",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "search"
-      ],
-      "task_count_efficiency": 80,
       "tier": "hard",
       "unknown_checks": []
     },
@@ -18412,8 +18178,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 93,
-          "gap": 6,
+          "current": 94,
+          "gap": 5,
           "required": 99,
           "skill": "Defence",
           "type": "skill"
@@ -18676,8 +18442,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 91,
-          "gap": 8,
+          "current": 92,
+          "gap": 7,
           "required": 99,
           "skill": "Constitution",
           "type": "skill"
@@ -18742,8 +18508,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 68,
-          "gap": 31,
+          "current": 74,
+          "gap": 25,
           "required": 99,
           "skill": "Invention",
           "type": "skill"
@@ -18929,8 +18695,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 73,
-          "gap": 26,
+          "current": 74,
+          "gap": 25,
           "required": 99,
           "skill": "Slayer",
           "type": "skill"
@@ -19425,8 +19191,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 73,
-          "gap": 47,
+          "current": 74,
+          "gap": 46,
           "required": 120,
           "skill": "Slayer",
           "type": "skill"
@@ -19458,8 +19224,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 68,
-          "gap": 52,
+          "current": 74,
+          "gap": 46,
           "required": 120,
           "skill": "Invention",
           "type": "skill"

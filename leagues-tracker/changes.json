@@ -1,23 +1,129 @@
 {
-  "league_points_delta": 0,
+  "league_points_delta": 290,
   "level_ups": [
     {
-      "from": 71,
-      "skill": "Cooking",
-      "to": 72
+      "from": 93,
+      "skill": "Defence",
+      "to": 94
     },
     {
-      "from": 86,
-      "skill": "Crafting",
-      "to": 88
+      "from": 91,
+      "skill": "Constitution",
+      "to": 92
     },
     {
-      "from": 35,
+      "from": 73,
+      "skill": "Slayer",
+      "to": 74
+    },
+    {
+      "from": 68,
       "skill": "Invention",
-      "to": 68
+      "to": 74
     }
   ],
-  "new_task_ids": [],
-  "new_tasks": [],
-  "task_delta": 0
+  "new_task_ids": [
+    285,
+    286,
+    287,
+    294,
+    308,
+    309,
+    310,
+    341,
+    342
+  ],
+  "new_tasks": [
+    {
+      "blessing_task": false,
+      "description": "Search the grand gold chest in room 1 of Pyramid Plunder in Sophanem.",
+      "id": 285,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.",
+      "points": 10,
+      "region": "Desert",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the grand gold chest in room 2 of Pyramid Plunder in Sophanem.",
+      "id": 286,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.",
+      "points": 10,
+      "region": "Desert",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the grand gold chest in room 3 of Pyramid Plunder in Sophanem.",
+      "id": 287,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem.",
+      "points": 10,
+      "region": "Desert",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Use any of the magic carpets in the desert.",
+      "id": 294,
+      "issue": null,
+      "name": "Use any of the magic carpets in the desert.",
+      "points": 10,
+      "region": "Desert",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the Grand gold chest in room 4 of Pyramid Plunder in Sophanem.",
+      "id": 308,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 4 of Pyramid Plunder in Sophanem.",
+      "points": 30,
+      "region": "Desert",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the Grand gold chest in room 5 of Pyramid Plunder in Sophanem.",
+      "id": 309,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 5 of Pyramid Plunder in Sophanem.",
+      "points": 30,
+      "region": "Desert",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the Grand gold chest in room 6 of Pyramid Plunder in Sophanem.",
+      "id": 310,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 6 of Pyramid Plunder in Sophanem.",
+      "points": 30,
+      "region": "Desert",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the Grand gold chest in room 7 of Pyramid Plunder in Sophanem.",
+      "id": 341,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 7 of Pyramid Plunder in Sophanem.",
+      "points": 80,
+      "region": "Desert",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Search the Grand gold chest in room 8 of Pyramid Plunder in Sophanem.",
+      "id": 342,
+      "issue": null,
+      "name": "Search the Grand Gold Chest in room 8 of Pyramid Plunder in Sophanem.",
+      "points": 80,
+      "region": "Desert",
+      "tier": "hard"
+    }
+  ],
+  "task_delta": 9
 }

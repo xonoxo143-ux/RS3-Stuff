@@ -1,11 +1,12 @@
 {
-  "count": 5,
+  "count": 6,
   "limitation": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. For cumulative families, completed milestones provide only a guaranteed lower bound; exact states such as 19/20 require a source that exposes that counter.",
   "purpose": "Surface forgotten or suspiciously near-complete unfinished tasks from observable account evidence.",
   "schema_version": 3,
   "signal_counts": {
     "family_mostly_complete": 1,
     "family_progress_lower_bound": 4,
+    "small_skill_gap": 1,
     "tiny_skill_gap": 1
   },
   "top": [
@@ -81,6 +82,27 @@
       "status": "accessible_requirements_unknown",
       "suspected_remaining_effort": "unknown_check_progress",
       "tier": "hard"
+    },
+    {
+      "cluster": null,
+      "confidence": 0.9,
+      "estimated_seconds_if_known": null,
+      "id": 1066,
+      "name": "Reach level 99 in the Defence skill.",
+      "opportunity_score": 25,
+      "points": 200,
+      "reasons": [
+        {
+          "code": "small_skill_gap",
+          "detail": "Only 5 Defence levels remain to the task target.",
+          "gap": 5,
+          "skill": "Defence"
+        }
+      ],
+      "region": "Global",
+      "status": "blocked",
+      "suspected_remaining_effort": "unknown_check_progress",
+      "tier": "elite"
     },
     {
       "cluster": null,
