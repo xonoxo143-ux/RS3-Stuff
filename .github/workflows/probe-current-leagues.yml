@@ -8,6 +8,7 @@ on:
     paths:
       - '.github/workflows/probe-current-leagues.yml'
       - 'leagues-tracker/tracker.py'
+      - 'leagues-tracker/task_intelligence.py'
       - 'leagues-tracker/test_tracker.py'
       - 'leagues-tracker/league-rules.json'
       - 'leagues-tracker/player-state.json'
@@ -23,6 +24,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
 
@@ -30,20 +32,23 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          UA='RS3-Stuff-Equilibrium-Tracker/4.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
+          UA='RS3-Stuff-Equilibrium-Tracker/5.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
           curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
             -o leagues-tracker/live-wikisync.json \
             'https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
 
-      - name: Fetch optional enrichment sources
+      - name: Fetch optional task catalog refresh
         shell: bash
         run: |
           set -u
-          UA='RS3-Stuff-Equilibrium-Tracker/4.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
+          UA='RS3-Stuff-Equilibrium-Tracker/5.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
           rm -f task-catalog.html
-          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' -o task-catalog.html 'https://scapeleagues.com/rs3/equilibrium/tasks' || rm -f task-catalog.html
-          rm -f leagues-tracker/live-hiscores.html
-          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' -o leagues-tracker/live-hiscores.html 'https://rs.runescape.com/hiscores/leagues/player/112321' || rm -f leagues-tracker/live-hiscores.html
+          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
+            -o task-catalog.html \
+            'https://scapeleagues.com/rs3/equilibrium/tasks' || rm -f task-catalog.html
+
+      - name: Compile tracker code
+        run: python3 -m py_compile leagues-tracker/tracker.py leagues-tracker/task_intelligence.py leagues-tracker/test_tracker.py
 
       - name: Build tracker intelligence
         run: python3 leagues-tracker/tracker.py
