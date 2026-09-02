@@ -53,7 +53,6 @@ def number_signature(text):
     templ = re.sub(r"(?<![a-z])\d{1,4}(?![a-z])", "#", low)
     templ = re.sub(r"[^a-z#]+", " ", templ)
     templ = re.sub(r"\s+", " ", templ).strip()
-    # Very generic templates are dangerous: require enough lexical context.
     words = [w for w in templ.split() if w != "#"]
     if len(words) < 4:
         return None, nums
@@ -110,15 +109,19 @@ def effort_label(score, reasons, task):
 def main():
     catalog = load("task-catalog.json", {}).get("tasks", [])
     summary = load("live-summary.json", {})
-    unfinished = load("live-unfinished.json", [])
-    recommendations = load("recommendations.json", {})
+    unfinished_payload = load("live-unfinished.json", {})
+    if isinstance(unfinished_payload, dict):
+        unfinished = unfinished_payload.get("unfinished_tasks", [])
+    elif isinstance(unfinished_payload, list):
+        unfinished = unfinished_payload
+    else:
+        unfinished = []
 
     completed_ids = {int(x) for x in summary.get("completed_task_ids", [])}
     levels = {str(k): int(v) for k, v in summary.get("levels", {}).items()}
     by_id = {int(t["id"]): t for t in catalog if isinstance(t, dict) and "id" in t}
     unfinished_by_id = {int(t["id"]): t for t in unfinished if isinstance(t, dict) and "id" in t}
 
-    # Numeric families across the entire catalog.
     families = collections.defaultdict(list)
     family_meta = {}
     for task in catalog:
@@ -128,15 +131,11 @@ def main():
             families[template].append(tid)
             family_meta[tid] = (template, nums)
 
-    # Cluster evidence from currently evaluated tasks. We do not claim exact progress;
-    # cluster saturation is only supporting evidence.
     cluster_unfinished = collections.Counter()
     for task in unfinished:
-        if accessible(task) and task.get("cluster"):
+        if isinstance(task, dict) and accessible(task) and task.get("cluster"):
             cluster_unfinished[str(task["cluster"])] += 1
 
-    # Infer completed cluster membership only where task wording clearly contains one of
-    # the same cluster labels/locations already present in recommendation bundles.
     cluster_patterns = {
         "sophanem_pyramid_plunder": r"pyramid plunder|sophanem",
         "lumbridge": r"lumbridge",
@@ -168,7 +167,6 @@ def main():
         confidence = 0.0
         text = task_text(task)
 
-        # 1) Explicit skill threshold is already satisfied but task remains unfinished.
         req = explicit_level_requirement(text)
         if req:
             skill, required = req
@@ -184,7 +182,6 @@ def main():
                     "required": required,
                 })
 
-        # 2) Existing evaluator knows the only blocker is a tiny skill gap.
         blockers = task.get("blockers", []) or []
         skill_blockers = [b for b in blockers if b.get("type") == "skill"]
         other_blockers = [b for b in blockers if b.get("type") != "skill"]
@@ -209,14 +206,11 @@ def main():
                     "skill": skill_blockers[0]["skill"],
                 })
 
-        # 3) Numeric family relationships: harder sibling done, sequence gap, adjacency,
-        # family saturation. This is the core 'you were already doing this' signal.
         fam = family_meta.get(tid)
         if fam:
             template, nums = fam
             siblings = families.get(template, [])
             completed_sibs = [x for x in siblings if x in completed_ids]
-            unfinished_sibs = [x for x in siblings if x not in completed_ids]
             if completed_sibs:
                 score += min(30, 8 * len(completed_sibs))
                 confidence = max(confidence, 0.78)
@@ -278,8 +272,6 @@ def main():
                         "total": len(siblings),
                     })
 
-        # 4) Cluster saturation: supporting evidence that the player has already spent
-        # time in this content. Never enough on its own to call something near-complete.
         cluster = task.get("cluster")
         if cluster and cluster_completed.get(cluster, 0) >= 3:
             done = cluster_completed[cluster]
@@ -294,9 +286,6 @@ def main():
                 "known_unfinished_cluster_tasks": remain,
             })
 
-        # 5) If the ordinary evaluator already thinks the action itself is short, that
-        # makes a suspected forgotten finish much more attractive, but it does not create
-        # the suspicion by itself.
         seconds = task.get("estimated_seconds")
         if reasons and seconds is not None:
             seconds = int(seconds)
@@ -307,7 +296,6 @@ def main():
             elif seconds <= 120:
                 score += 5
 
-        # Require at least one substantive proximity signal. Cluster-only evidence is too weak.
         substantive = {
             "stated_requirement_already_met",
             "tiny_skill_gap",
@@ -358,8 +346,6 @@ def main():
     }
     dump("opportunities.json", result)
 
-    # Put the strongest opportunities directly into assistant-state.json so a future chat
-    # sees them without knowing this sidecar exists.
     assistant = load("assistant-state.json", {})
     assistant["forgotten_finish_opportunities"] = {
         "count": len(opportunities),
@@ -369,7 +355,6 @@ def main():
     }
     dump("assistant-state.json", assistant)
 
-    # Append a compact human/assistant-readable section to the generated markdown files.
     section = ["", "## Forgotten-finish opportunities", ""]
     if opportunities:
         for o in opportunities[:12]:
