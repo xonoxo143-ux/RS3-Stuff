@@ -1,6 +1,6 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-02T00:52:29.027Z**
+Updated: **2026-09-02T00:53:52.283Z**
 
 ## Current
 
@@ -62,17 +62,17 @@ Grade A = explicit task metadata. Grade B = conservative automatic inference; ve
 
 ## Forgotten-finish opportunities
 
-- [377] **Equip a full set of graahk, larupia or kyatt hunter gear.** — score 120, very_low_or_trigger_only; Current Hunter is 45, already above the stated 31 requirement.
-- [288] **Mine a gem rock at the Al Kharid mine.** — score 112, very_low_or_trigger_only; Current Mining is 77, already above the stated 1 requirement.
-- [1039] **Open 10 metamorphic geodes.** — score 100, very_low_or_trigger_only; Current Mining is 77, already above the stated 60 requirement.
-- [891] **Open 20 igneous geodes.** — score 100, very_low_or_trigger_only; Current Mining is 77, already above the stated 60 requirement.
 - [1079] **Reach level 99 in the Necromancy skill.** — score 45, 2_skill_levels_or_less; Only known blocker is 2 Necromancy level(s).
-- [830] **Smith 100 of any metal weapon or armour piece.** — score 43, unknown; 3 related task(s) in this numeric family are already complete.
-- [1159] **Reach at least level 95 in all non-elite skills.** — score 24, unknown; 3 related task(s) in this numeric family are already complete.
-- [1157] **Reach at least level 80 in all non-elite skills.** — score 24, unknown; 3 related task(s) in this numeric family are already complete.
-- [1158] **Reach at least level 90 in all non-elite skills.** — score 24, unknown; 3 related task(s) in this numeric family are already complete.
-- [141] **Reach at least level 50 in all non-elite skills.** — score 24, unknown; 3 related task(s) in this numeric family are already complete.
-- [1154] **Reach at least level 40 in all non-elite skills.** — score 24, unknown; 3 related task(s) in this numeric family are already complete.
-- [1155] **Reach at least level 60 in all non-elite skills.** — score 24, unknown; 3 related task(s) in this numeric family are already complete.
+- [830] **Smith 100 of any metal weapon or armour piece.** — score 43, unknown; 3 related numbered task(s) are already complete.
+- [167] **Chop any tree 1000 times.** — score 33, unknown; 2 related numbered task(s) are already complete.
+- [1159] **Reach at least level 95 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
+- [1157] **Reach at least level 80 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
+- [1158] **Reach at least level 90 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
+- [141] **Reach at least level 50 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
+- [1154] **Reach at least level 40 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
+- [1155] **Reach at least level 60 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
+- [1156] **Reach at least level 70 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
+- [1153] **Reach at least level 30 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
+- [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 8, unknown; 1 related numbered task(s) are already complete.
 
 > These are evidence-based suspects, not invented hidden counters. Exact 19/20-style progress requires a source that exposes that counter.
