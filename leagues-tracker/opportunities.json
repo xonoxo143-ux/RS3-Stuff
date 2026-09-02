@@ -1,11 +1,11 @@
 {
-  "count": 18,
-  "limitation": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. Exact states such as 19/20 are only knowable if another live source exposes that counter.",
+  "count": 5,
+  "limitation": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. For cumulative families, completed milestones provide only a guaranteed lower bound; exact states such as 19/20 require a source that exposes that counter.",
   "purpose": "Surface forgotten or suspiciously near-complete unfinished tasks from observable account evidence.",
-  "schema_version": 2,
+  "schema_version": 3,
   "signal_counts": {
-    "family_mostly_complete": 2,
-    "same_task_family_progress": 17,
+    "family_mostly_complete": 1,
+    "family_progress_lower_bound": 4,
     "tiny_skill_gap": 1
   },
   "top": [
@@ -20,7 +20,7 @@
       "reasons": [
         {
           "code": "tiny_skill_gap",
-          "detail": "Only known blocker is 2 Necromancy level(s).",
+          "detail": "Only 2 Necromancy level(s) remain to the task target.",
           "gap": 2,
           "skill": "Necromancy"
         }
@@ -32,21 +32,43 @@
     },
     {
       "cluster": null,
-      "confidence": 0.85,
+      "confidence": 0.9,
+      "estimated_seconds_if_known": null,
+      "id": 796,
+      "name": "Upgrade a set of Death Skull equipment to tier 90.",
+      "opportunity_score": 35,
+      "points": 200,
+      "reasons": [
+        {
+          "code": "family_progress_lower_bound",
+          "completed_task_id": 83,
+          "completed_value": 70,
+          "detail": "Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.",
+          "minimum_progress_fraction": 0.778,
+          "target_value": 90
+        }
+      ],
+      "region": "Misthalin",
+      "status": "accessible_requirements_unknown",
+      "suspected_remaining_effort": "unknown_check_progress",
+      "tier": "elite"
+    },
+    {
+      "cluster": null,
+      "confidence": 0.82,
       "estimated_seconds_if_known": null,
       "id": 830,
       "name": "Smith 100 of any metal weapon or armour piece.",
-      "opportunity_score": 43,
+      "opportunity_score": 27,
       "points": 80,
       "reasons": [
         {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            827,
-            828,
-            829
-          ],
-          "detail": "3 related numbered task(s) are already complete."
+          "code": "family_progress_lower_bound",
+          "completed_task_id": 829,
+          "completed_value": 50,
+          "detail": "Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.",
+          "minimum_progress_fraction": 0.5,
+          "target_value": 100
         },
         {
           "code": "family_mostly_complete",
@@ -57,343 +79,12 @@
       ],
       "region": "Global",
       "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
+      "suspected_remaining_effort": "unknown_check_progress",
       "tier": "hard"
     },
     {
       "cluster": null,
-      "confidence": 0.85,
-      "estimated_seconds_if_known": null,
-      "id": 167,
-      "name": "Chop any tree 1000 times.",
-      "opportunity_score": 33,
-      "points": 80,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            165,
-            166
-          ],
-          "detail": "2 related numbered task(s) are already complete."
-        },
-        {
-          "code": "family_mostly_complete",
-          "completed": 2,
-          "detail": "2/3 tasks in this family are already complete.",
-          "total": 3
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "hard"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 1159,
-      "name": "Reach at least level 95 in all non-elite skills.",
-      "opportunity_score": 24,
-      "points": 400,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            138,
-            139,
-            140
-          ],
-          "detail": "3 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "master"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 1157,
-      "name": "Reach at least level 80 in all non-elite skills.",
-      "opportunity_score": 24,
-      "points": 200,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            138,
-            139,
-            140
-          ],
-          "detail": "3 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "elite"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 1158,
-      "name": "Reach at least level 90 in all non-elite skills.",
-      "opportunity_score": 24,
-      "points": 200,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            138,
-            139,
-            140
-          ],
-          "detail": "3 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "elite"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 141,
-      "name": "Reach at least level 50 in all non-elite skills.",
-      "opportunity_score": 24,
-      "points": 80,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            138,
-            139,
-            140
-          ],
-          "detail": "3 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "hard"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 1154,
-      "name": "Reach at least level 40 in all non-elite skills.",
-      "opportunity_score": 24,
-      "points": 80,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            138,
-            139,
-            140
-          ],
-          "detail": "3 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "hard"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 1155,
-      "name": "Reach at least level 60 in all non-elite skills.",
-      "opportunity_score": 24,
-      "points": 80,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            138,
-            139,
-            140
-          ],
-          "detail": "3 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "hard"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 1156,
-      "name": "Reach at least level 70 in all non-elite skills.",
-      "opportunity_score": 24,
-      "points": 80,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            138,
-            139,
-            140
-          ],
-          "detail": "3 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "hard"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 1153,
-      "name": "Reach at least level 30 in all non-elite skills.",
-      "opportunity_score": 24,
-      "points": 30,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            138,
-            139,
-            140
-          ],
-          "detail": "3 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "medium"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 796,
-      "name": "Upgrade a set of Death Skull equipment to tier 90.",
-      "opportunity_score": 8,
-      "points": 200,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            83
-          ],
-          "detail": "1 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Misthalin",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "elite"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 175,
-      "name": "Burn any logs 1000 times.",
-      "opportunity_score": 8,
-      "points": 80,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            173
-          ],
-          "detail": "1 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "hard"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 185,
-      "name": "Catch any fish 1000 times.",
-      "opportunity_score": 8,
-      "points": 80,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            183
-          ],
-          "detail": "1 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "hard"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 174,
-      "name": "Burn any logs 200 times.",
-      "opportunity_score": 8,
-      "points": 30,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            173
-          ],
-          "detail": "1 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "medium"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
-      "estimated_seconds_if_known": null,
-      "id": 184,
-      "name": "Catch any fish 200 times.",
-      "opportunity_score": 8,
-      "points": 30,
-      "reasons": [
-        {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            183
-          ],
-          "detail": "1 related numbered task(s) are already complete."
-        }
-      ],
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
-      "tier": "medium"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.78,
+      "confidence": 0.72,
       "estimated_seconds_if_known": null,
       "id": 851,
       "name": "Catch 25 implings of any kind.",
@@ -401,21 +92,22 @@
       "points": 30,
       "reasons": [
         {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            850
-          ],
-          "detail": "1 related numbered task(s) are already complete."
+          "code": "family_progress_lower_bound",
+          "completed_task_id": 850,
+          "completed_value": 10,
+          "detail": "Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.",
+          "minimum_progress_fraction": 0.4,
+          "target_value": 25
         }
       ],
       "region": "Global",
       "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
+      "suspected_remaining_effort": "unknown_check_progress",
       "tier": "medium"
     },
     {
       "cluster": null,
-      "confidence": 0.78,
+      "confidence": 0.72,
       "estimated_seconds_if_known": null,
       "id": 852,
       "name": "Catch 35 implings of any kind.",
@@ -423,16 +115,17 @@
       "points": 30,
       "reasons": [
         {
-          "code": "same_task_family_progress",
-          "completed_sibling_ids": [
-            850
-          ],
-          "detail": "1 related numbered task(s) are already complete."
+          "code": "family_progress_lower_bound",
+          "completed_task_id": 850,
+          "completed_value": 10,
+          "detail": "Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.",
+          "minimum_progress_fraction": 0.286,
+          "target_value": 35
         }
       ],
       "region": "Global",
       "status": "accessible_requirements_unknown",
-      "suspected_remaining_effort": "unknown",
+      "suspected_remaining_effort": "unknown_check_progress",
       "tier": "medium"
     }
   ]

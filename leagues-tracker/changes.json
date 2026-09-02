@@ -1,6 +1,12 @@
 {
   "league_points_delta": 0,
-  "level_ups": [],
+  "level_ups": [
+    {
+      "from": 69,
+      "skill": "Cooking",
+      "to": 71
+    }
+  ],
   "new_task_ids": [],
   "new_tasks": [],
   "task_delta": 0

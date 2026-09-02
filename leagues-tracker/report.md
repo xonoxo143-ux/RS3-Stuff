@@ -1,12 +1,12 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-02T00:53:52.283Z**
+Updated: **2026-09-02T00:55:56.503Z**
 
 ## Current
 
 - **260 tasks**
 - **9,120 LP**
-- **Total level 2,033**
+- **Total level 2,035**
 - **Relic T5**
 - **12 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert
@@ -62,17 +62,10 @@ Grade A = explicit task metadata. Grade B = conservative automatic inference; ve
 
 ## Forgotten-finish opportunities
 
-- [1079] **Reach level 99 in the Necromancy skill.** — score 45, 2_skill_levels_or_less; Only known blocker is 2 Necromancy level(s).
-- [830] **Smith 100 of any metal weapon or armour piece.** — score 43, unknown; 3 related numbered task(s) are already complete.
-- [167] **Chop any tree 1000 times.** — score 33, unknown; 2 related numbered task(s) are already complete.
-- [1159] **Reach at least level 95 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
-- [1157] **Reach at least level 80 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
-- [1158] **Reach at least level 90 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
-- [141] **Reach at least level 50 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
-- [1154] **Reach at least level 40 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
-- [1155] **Reach at least level 60 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
-- [1156] **Reach at least level 70 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
-- [1153] **Reach at least level 30 in all non-elite skills.** — score 24, unknown; 3 related numbered task(s) are already complete.
-- [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 8, unknown; 1 related numbered task(s) are already complete.
+- [1079] **Reach level 99 in the Necromancy skill.** — score 45, 2_skill_levels_or_less; Only 2 Necromancy level(s) remain to the task target.
+- [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
+- [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
+- [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
+- [852] **Catch 35 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.
 
-> These are evidence-based suspects, not invented hidden counters. Exact 19/20-style progress requires a source that exposes that counter.
+> These are evidence-based suspects. Cumulative task families can establish a minimum progress floor, but exact hidden counters are not invented.
