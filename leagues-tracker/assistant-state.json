@@ -273,7 +273,7 @@
       "Attack": 78,
       "Constitution": 91,
       "Construction": 53,
-      "Cooking": 67,
+      "Cooking": 69,
       "Crafting": 86,
       "Defence": 93,
       "Divination": 80,
@@ -299,8 +299,8 @@
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-02T00:37:07.153Z",
-    "total_level": 2031
+    "timestamp_utc": "2026-09-02T00:52:29.027Z",
+    "total_level": 2033
   },
   "blessings": {
     "derived_god_choices": {
@@ -474,13 +474,489 @@
   },
   "changes": {
     "league_points_delta": 0,
-    "level_ups": [],
+    "level_ups": [
+      {
+        "from": 67,
+        "skill": "Cooking",
+        "to": 69
+      }
+    ],
     "new_task_ids": [],
     "new_tasks": [],
     "task_delta": 0
   },
+  "forgotten_finish_opportunities": {
+    "count": 20,
+    "note": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. Exact states such as 19/20 are only knowable if another live source exposes that counter.",
+    "source": "opportunities.json",
+    "top": [
+      {
+        "cluster": null,
+        "confidence": 0.98,
+        "estimated_seconds_if_known": 20,
+        "id": 377,
+        "name": "Equip a full set of graahk, larupia or kyatt hunter gear.",
+        "opportunity_score": 120,
+        "points": 30,
+        "reasons": [
+          {
+            "code": "stated_requirement_already_met",
+            "current": 45,
+            "detail": "Current Hunter is 45, already above the stated 31 requirement.",
+            "required": 31,
+            "skill": "Hunter"
+          }
+        ],
+        "region": "Global",
+        "status": "inferred_candidate",
+        "suspected_remaining_effort": "very_low_or_trigger_only",
+        "tier": "medium"
+      },
+      {
+        "cluster": "al_kharid",
+        "confidence": 0.98,
+        "estimated_seconds_if_known": 45,
+        "id": 288,
+        "name": "Mine a gem rock at the Al Kharid mine.",
+        "opportunity_score": 112,
+        "points": 10,
+        "reasons": [
+          {
+            "code": "stated_requirement_already_met",
+            "current": 77,
+            "detail": "Current Mining is 77, already above the stated 1 requirement.",
+            "required": 1,
+            "skill": "Mining"
+          }
+        ],
+        "region": "Desert",
+        "status": "verified_ready",
+        "suspected_remaining_effort": "very_low_or_trigger_only",
+        "tier": "easy"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.98,
+        "estimated_seconds_if_known": null,
+        "id": 1039,
+        "name": "Open 10 metamorphic geodes.",
+        "opportunity_score": 100,
+        "points": 200,
+        "reasons": [
+          {
+            "code": "stated_requirement_already_met",
+            "current": 77,
+            "detail": "Current Mining is 77, already above the stated 60 requirement.",
+            "required": 60,
+            "skill": "Mining"
+          }
+        ],
+        "region": "Global",
+        "status": "inferred_candidate",
+        "suspected_remaining_effort": "very_low_or_trigger_only",
+        "tier": "elite"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.98,
+        "estimated_seconds_if_known": null,
+        "id": 891,
+        "name": "Open 20 igneous geodes.",
+        "opportunity_score": 100,
+        "points": 30,
+        "reasons": [
+          {
+            "code": "stated_requirement_already_met",
+            "current": 77,
+            "detail": "Current Mining is 77, already above the stated 60 requirement.",
+            "required": 60,
+            "skill": "Mining"
+          }
+        ],
+        "region": "Global",
+        "status": "inferred_candidate",
+        "suspected_remaining_effort": "very_low_or_trigger_only",
+        "tier": "medium"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.95,
+        "estimated_seconds_if_known": null,
+        "id": 1079,
+        "name": "Reach level 99 in the Necromancy skill.",
+        "opportunity_score": 45,
+        "points": 200,
+        "reasons": [
+          {
+            "code": "tiny_skill_gap",
+            "detail": "Only known blocker is 2 Necromancy level(s).",
+            "gap": 2,
+            "skill": "Necromancy"
+          }
+        ],
+        "region": "Global",
+        "status": "blocked",
+        "suspected_remaining_effort": "2_skill_levels_or_less",
+        "tier": "elite"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.85,
+        "estimated_seconds_if_known": null,
+        "id": 830,
+        "name": "Smith 100 of any metal weapon or armour piece.",
+        "opportunity_score": 43,
+        "points": 80,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              827,
+              828,
+              829
+            ],
+            "detail": "3 related task(s) in this numeric family are already complete."
+          },
+          {
+            "code": "family_mostly_complete",
+            "completed": 3,
+            "detail": "3/4 tasks in this family are already complete.",
+            "total": 4
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "hard"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 1159,
+        "name": "Reach at least level 95 in all non-elite skills.",
+        "opportunity_score": 24,
+        "points": 400,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              138,
+              139,
+              140
+            ],
+            "detail": "3 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "master"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 1157,
+        "name": "Reach at least level 80 in all non-elite skills.",
+        "opportunity_score": 24,
+        "points": 200,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              138,
+              139,
+              140
+            ],
+            "detail": "3 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "elite"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 1158,
+        "name": "Reach at least level 90 in all non-elite skills.",
+        "opportunity_score": 24,
+        "points": 200,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              138,
+              139,
+              140
+            ],
+            "detail": "3 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "elite"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 141,
+        "name": "Reach at least level 50 in all non-elite skills.",
+        "opportunity_score": 24,
+        "points": 80,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              138,
+              139,
+              140
+            ],
+            "detail": "3 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "hard"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 1154,
+        "name": "Reach at least level 40 in all non-elite skills.",
+        "opportunity_score": 24,
+        "points": 80,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              138,
+              139,
+              140
+            ],
+            "detail": "3 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "hard"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 1155,
+        "name": "Reach at least level 60 in all non-elite skills.",
+        "opportunity_score": 24,
+        "points": 80,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              138,
+              139,
+              140
+            ],
+            "detail": "3 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "hard"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 1156,
+        "name": "Reach at least level 70 in all non-elite skills.",
+        "opportunity_score": 24,
+        "points": 80,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              138,
+              139,
+              140
+            ],
+            "detail": "3 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "hard"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 1153,
+        "name": "Reach at least level 30 in all non-elite skills.",
+        "opportunity_score": 24,
+        "points": 30,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              138,
+              139,
+              140
+            ],
+            "detail": "3 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "medium"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": 60,
+        "id": 909,
+        "name": "Craft 10,000 runes.",
+        "opportunity_score": 20,
+        "points": 80,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              908
+            ],
+            "detail": "1 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "inferred_candidate",
+        "suspected_remaining_effort": "low",
+        "tier": "hard"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 796,
+        "name": "Upgrade a set of Death Skull equipment to tier 90.",
+        "opportunity_score": 8,
+        "points": 200,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              83
+            ],
+            "detail": "1 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Misthalin",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "elite"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 175,
+        "name": "Burn any logs 1000 times.",
+        "opportunity_score": 8,
+        "points": 80,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              173
+            ],
+            "detail": "1 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "hard"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 174,
+        "name": "Burn any logs 200 times.",
+        "opportunity_score": 8,
+        "points": 30,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              173
+            ],
+            "detail": "1 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "medium"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 184,
+        "name": "Catch any fish 200 times.",
+        "opportunity_score": 8,
+        "points": 30,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              183
+            ],
+            "detail": "1 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "medium"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.78,
+        "estimated_seconds_if_known": null,
+        "id": 854,
+        "name": "Catch 200 Hunter creatures.",
+        "opportunity_score": 8,
+        "points": 30,
+        "reasons": [
+          {
+            "code": "same_task_family_progress",
+            "completed_sibling_ids": [
+              853
+            ],
+            "detail": "1 related task(s) in this numeric family are already complete."
+          }
+        ],
+        "region": "Global",
+        "status": "accessible_requirements_unknown",
+        "suspected_remaining_effort": "unknown",
+        "tier": "medium"
+      }
+    ]
+  },
   "health": {
-    "generated_at_utc": "2026-09-02T00:37:07.153Z",
+    "generated_at_utc": "2026-09-02T00:52:29.027Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -513,7 +989,7 @@
       "timed_verified_tasks": 16
     },
     "task_catalog": {
-      "age_seconds_at_generation": 738,
+      "age_seconds_at_generation": 1660,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -535,7 +1011,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-02T00:37:07.153Z"
+      "timestamp": "2026-09-02T00:52:29.027Z"
     }
   },
   "manual": {
