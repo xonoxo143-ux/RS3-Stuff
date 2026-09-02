@@ -273,8 +273,8 @@
       "Attack": 78,
       "Constitution": 91,
       "Construction": 53,
-      "Cooking": 71,
-      "Crafting": 86,
+      "Cooking": 72,
+      "Crafting": 88,
       "Defence": 93,
       "Divination": 80,
       "Dungeoneering": 39,
@@ -284,7 +284,7 @@
       "Fletching": 69,
       "Herblore": 68,
       "Hunter": 45,
-      "Invention": 35,
+      "Invention": 68,
       "Magic": 76,
       "Mining": 77,
       "Necromancy": 97,
@@ -299,8 +299,8 @@
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-02T00:55:56.503Z",
-    "total_level": 2035
+    "timestamp_utc": "2026-09-02T01:25:31.807Z",
+    "total_level": 2071
   },
   "blessings": {
     "derived_god_choices": {
@@ -476,9 +476,19 @@
     "league_points_delta": 0,
     "level_ups": [
       {
-        "from": 69,
+        "from": 71,
         "skill": "Cooking",
-        "to": 71
+        "to": 72
+      },
+      {
+        "from": 86,
+        "skill": "Crafting",
+        "to": 88
+      },
+      {
+        "from": 35,
+        "skill": "Invention",
+        "to": 68
       }
     ],
     "new_task_ids": [],
@@ -612,7 +622,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-02T00:55:56.503Z",
+    "generated_at_utc": "2026-09-02T01:25:31.807Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -645,7 +655,7 @@
       "timed_verified_tasks": 16
     },
     "task_catalog": {
-      "age_seconds_at_generation": 1868,
+      "age_seconds_at_generation": 3643,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -667,7 +677,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-02T00:55:56.503Z"
+      "timestamp": "2026-09-02T01:25:31.807Z"
     }
   },
   "manual": {

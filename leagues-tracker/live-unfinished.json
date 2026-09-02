@@ -13,7 +13,7 @@
     "manual_check": 3,
     "verified_ready": 16
   },
-  "timestamp_utc": "2026-09-02T00:55:56.503Z",
+  "timestamp_utc": "2026-09-02T01:25:31.807Z",
   "unfinished_task_count": 892,
   "unfinished_tasks": [
     {
@@ -18346,8 +18346,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 71,
-          "gap": 28,
+          "current": 72,
+          "gap": 27,
           "required": 99,
           "skill": "Cooking",
           "type": "skill"
@@ -18379,8 +18379,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 86,
-          "gap": 13,
+          "current": 88,
+          "gap": 11,
           "required": 99,
           "skill": "Crafting",
           "type": "skill"
@@ -18742,8 +18742,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 35,
-          "gap": 64,
+          "current": 68,
+          "gap": 31,
           "required": 99,
           "skill": "Invention",
           "type": "skill"
@@ -19160,8 +19160,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 86,
-          "gap": 24,
+          "current": 88,
+          "gap": 22,
           "required": 110,
           "skill": "Crafting",
           "type": "skill"
@@ -19458,8 +19458,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 35,
-          "gap": 85,
+          "current": 68,
+          "gap": 52,
           "required": 120,
           "skill": "Invention",
           "type": "skill"

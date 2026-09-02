@@ -2,9 +2,19 @@
   "league_points_delta": 0,
   "level_ups": [
     {
-      "from": 69,
+      "from": 71,
       "skill": "Cooking",
-      "to": 71
+      "to": 72
+    },
+    {
+      "from": 86,
+      "skill": "Crafting",
+      "to": 88
+    },
+    {
+      "from": 35,
+      "skill": "Invention",
+      "to": 68
     }
   ],
   "new_task_ids": [],

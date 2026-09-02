@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-02T00:55:56.503Z**
+Updated: **2026-09-02T01:25:31.807Z**
 
 ## Tracker discipline
 
@@ -15,7 +15,7 @@ Updated: **2026-09-02T00:55:56.503Z**
 
 ## Current snapshot
 
-- **9,120 LP** · **260 tasks** · total level **2,035**
+- **9,120 LP** · **260 tasks** · total level **2,071**
 - **12 blessing tasks** · relic **T5**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert**
 - Next region: **15 tasks** to 275
@@ -163,7 +163,7 @@ Passive step effects:
 ## Changes
 
 - Tasks: **+0** · LP: **+0**
-- Level-ups: Cooking 69→71
+- Level-ups: Cooking 71→72; Crafting 86→88; Invention 35→68
 
 ## Current task sprint
 
@@ -196,7 +196,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-02T00:55:56.503Z
+- WikiSync: **fresh** · 2026-09-02T01:25:31.807Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
