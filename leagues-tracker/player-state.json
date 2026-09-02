@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "player": "112321",
+  "league": "Leagues II: Equilibrium",
+  "relic_choice_vector": [2, 3, 3, 2, 3, null, null],
+  "blessing_path_vector": {
+    "t1": 3,
+    "t2": 3,
+    "t3": 2,
+    "t4": 2,
+    "t5": null,
+    "t6": null
+  },
+  "blessing_resets_remaining": 1,
+  "regions": {
+    "starting": ["Misthalin", "Havenhythe"],
+    "automatic": ["Karamja"],
+    "elective": ["Desert"]
+  },
+  "task_exclusions": {
+    "95": "Do not recommend Croesus unless the user explicitly reopens it.",
+    "96": "Do not recommend Croesus unless the user explicitly reopens it.",
+    "988": "User explicitly scrapped the Cast a Wave spell recommendation."
+  },
+  "key_items": [
+    {"name": "Incomplete hydrix", "quantity": 1, "status": "owned", "note": "Reserved for future hydrix jewellery progression."},
+    {"name": "Uncut onyx", "quantity": 3, "status": "owned", "note": "One can complete the incomplete hydrix; reserve the others for jewellery/alchemical onyx progression."},
+    {"name": "Jal-tok-yt", "quantity": 1, "status": "owned", "note": "Rare future melee jewellery component; do not alch or disassemble."},
+    {"name": "TokHaar-Kal", "quantity": 1, "status": "owned_and_equipped", "note": "Fight Kiln reward; equipping it completed blessing task 1271."},
+    {"name": "Shadow glaive", "quantity": 1, "status": "owned", "note": "First confirmed Gregorovic kill drop."}
+  ],
+  "manual_flags": {
+    "fort_workshop_unlocked": null
+  },
+  "goal": {
+    "type": "task_threshold",
+    "threshold_id": "elective_2",
+    "strategy": "Prioritize fast task-count completions and stack them with useful progression."
+  },
+  "route_preferences": {
+    "compare_direct_walk_vs_teleports": true,
+    "preferred_teleport_systems": ["lodestones", "Abyssal Conduit"],
+    "chain_nearby_tasks": true,
+    "cross_check_maps_when_directions_are_uncertain": true
+  },
+  "notes": [
+    "Later elective region choices are intentionally unset until explicitly confirmed.",
+    "Manual player-state should contain only facts that external sources cannot reliably infer. Do not store generated LP/task/level totals here."
+  ]
+}
