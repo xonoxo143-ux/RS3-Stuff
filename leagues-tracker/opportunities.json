@@ -1,11 +1,11 @@
 {
-  "count": 6,
+  "count": 7,
   "limitation": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. For cumulative families, completed milestones provide only a guaranteed lower bound; exact states such as 19/20 require a source that exposes that counter.",
   "purpose": "Surface forgotten or suspiciously near-complete unfinished tasks from observable account evidence.",
   "schema_version": 3,
   "signal_counts": {
     "family_mostly_complete": 1,
-    "family_progress_lower_bound": 4,
+    "family_progress_lower_bound": 5,
     "small_skill_gap": 1,
     "tiny_skill_gap": 1
   },
@@ -103,6 +103,29 @@
       "status": "blocked",
       "suspected_remaining_effort": "unknown_check_progress",
       "tier": "elite"
+    },
+    {
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds_if_known": null,
+      "id": 845,
+      "name": "Scatter 100 ashes of any kind.",
+      "opportunity_score": 8,
+      "points": 30,
+      "reasons": [
+        {
+          "code": "family_progress_lower_bound",
+          "completed_task_id": 844,
+          "completed_value": 25,
+          "detail": "Completed related milestone 25 proves at least 25% of the 100 cumulative target was reached.",
+          "minimum_progress_fraction": 0.25,
+          "target_value": 100
+        }
+      ],
+      "region": "Global",
+      "status": "accessible_requirements_unknown",
+      "suspected_remaining_effort": "unknown_check_progress",
+      "tier": "medium"
     },
     {
       "cluster": null,

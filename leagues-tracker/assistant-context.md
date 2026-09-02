@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-02T03:05:39.415Z**
+Updated: **2026-09-02T03:19:47.529Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-02T03:05:39.415Z**
 
 ## Current snapshot
 
-- **9,410 LP** · **269 tasks** · total level **2,080**
+- **9,510 LP** · **275 tasks** · total level **2,081**
 - **12 blessing tasks** · relic **T5**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert**
-- Next region: **6 tasks** to 275
-- Next relic: **2,590 LP** to T6
+- Next region: **125 tasks** to 400
+- Next relic: **2,490 LP** to T6
 - Next blessing step: **4** to t5
 
 ## Active relics
@@ -162,43 +162,65 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+9** · LP: **+290**
-- [285] Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem. — easy, Desert, 10 LP
-- [286] Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem. — easy, Desert, 10 LP
-- [287] Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem. — easy, Desert, 10 LP
-- [294] Use any of the magic carpets in the desert. — easy, Desert, 10 LP
-- [308] Search the Grand Gold Chest in room 4 of Pyramid Plunder in Sophanem. — medium, Desert, 30 LP
-- [309] Search the Grand Gold Chest in room 5 of Pyramid Plunder in Sophanem. — medium, Desert, 30 LP
-- [310] Search the Grand Gold Chest in room 6 of Pyramid Plunder in Sophanem. — medium, Desert, 30 LP
-- [341] Search the Grand Gold Chest in room 7 of Pyramid Plunder in Sophanem. — hard, Desert, 80 LP
-- [342] Search the Grand Gold Chest in room 8 of Pyramid Plunder in Sophanem. — hard, Desert, 80 LP
-- Level-ups: Defence 93→94; Constitution 91→92; Slayer 73→74; Invention 68→74
+- Tasks: **+6** · LP: **+100**
+- [35] Catch some shrimp in the fishing spot to the east of Lumbridge Swamp. — easy, Misthalin, 10 LP
+- [112] Enter the Cooks' Guild. — medium, Misthalin, 30 LP
+- [217] Return a free item to any store. — easy, Global, 10 LP
+- [819] Fletch an oak shortbow (unstrung). — easy, Global, 10 LP
+- [844] Scatter 25 ashes of any kind. — easy, Global, 10 LP
+- [980] Perform a special attack. — medium, Global, 30 LP
+- Level-ups: Fishing 39→40
 
 ## Current task sprint
 
-- Need: **6 tasks**
-- Precomputed sprint: **6 tasks** (6 Grade A, 0 Grade B)
-- Action-time estimate excluding travel: **130 sec**
-- Prep: oak log, knife, weapon with a special attack, 25 ashes
-- [819] **Fletch an oak shortbow (unstrung).** — Grade A · ~15s · bank
-- [980] **Perform a special attack.** — Grade A · ~10s · anywhere
-- [844] **Scatter 25 ashes of any kind.** — Grade A · ~25s · anywhere
-- [35] **Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.** — Grade A · ~30s · lumbridge
-- [217] **Return a free item to any store.** — Grade A · ~20s · shop
-- [112] **Enter the Cooks' Guild.** — Grade A · ~30s · varrock
+- Need: **125 tasks**
+- Precomputed sprint: **93 tasks** (6 Grade A, 87 Grade B)
+- Action-time estimate excluding travel: **3280 sec**
+- Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
+- [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
+- [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
+- [838] **Make some bread.** — Grade A · ~45s · bank_or_range
+- [288] **Mine a gem rock at the Al Kharid mine.** — Grade A · ~45s · al_kharid
+- [596] **Claim a ticket from Brimhaven Agility Arena.** — Grade B · ~30s · brimhaven
+- [602] **Enter the Brimhaven Dungeon.** — Grade B · ~30s · brimhaven_dungeon
+- [57] **Smith a mithril platebody on the anvil in the jailhouse sewers.** — Grade B · ~60s · draynor
+- [601] **Pick a pineapple on Karamja.** — Grade B · ~30s · karamja
+- [606] **Catch a salmon on Karamja.** — Grade B · ~45s · karamja
+- [51] **Churn some butter.** — Grade A · ~45s · lumbridge
+- [54] **Use the range in Lumbridge Castle to bake a cake.** — Grade A · ~60s · lumbridge
+- [14] **Equip the full master runecrafter skilling outfit.** — Grade B · ~20s · unclustered
+- [61] **Equip a dragon crossbow.** — Grade B · ~20s · unclustered
+- [90] **Equip an Omni guard.** — Grade B · ~20s · unclustered
+- [91] **Equip a Soulbound lantern.** — Grade B · ~20s · unclustered
+- [92] **Equip a full set of Robes of the First Necromancer.** — Grade B · ~20s · unclustered
+- [128] **Equip an Ek-ZekKil.** — Grade B · ~20s · unclustered
+- [129] **Equip a Fractured Staff of Armadyl.** — Grade B · ~20s · unclustered
+- [130] **Equip either a Dark Shard of Leng or a Dark Sliver of Leng.** — Grade B · ~20s · unclustered
+- [253] **Equip a piece of masterwork melee armour.** — Grade B · ~20s · unclustered
+- [317] **Equip a drygore weapon.** — Grade B · ~20s · unclustered
+- [377] **Equip a full set of graahk, larupia or kyatt hunter gear.** — Grade B · ~20s · unclustered
+- [615] **Equip an obsidian cape.** — Grade B · ~20s · unclustered
+- [618] **Equip a Toktz-Ket-Xil.** — Grade B · ~20s · unclustered
+- [619] **Equip a Tzhaar-Ket-Om.** — Grade B · ~20s · unclustered
+- [621] **Equip a Toktz-Xil-Ek.** — Grade B · ~20s · unclustered
+- [624] **Equip a full set of obsidian armour.** — Grade B · ~20s · unclustered
+- [625] **Equip a red topaz machete.** — Grade B · ~20s · unclustered
+- [652] **Equip a piece of gemstone armour.** — Grade B · ~20s · unclustered
+- [694] **Equip a pair of Steadfast boots.** — Grade B · ~20s · unclustered
 
 ## Recommendation coverage
 
-- Timed Grade-A tasks: **12**
+- Timed Grade-A tasks: **6**
 - Timed Grade-B inferred candidates: **87**
-- Metadata sources: `{'manual_override': 15, 'none': 709, 'text_inference': 159}`
+- Metadata sources: `{'manual_override': 9, 'none': 709, 'text_inference': 159}`
 
 ## Data health
 
-- Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-02T03:05:39.415Z
+- Overall: **warning**
+- WikiSync: **fresh** · 2026-09-02T03:19:47.529Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
+- WARNING `elective_region_selection_due`: 2 elective region slot(s) are unlocked but only 1 are recorded.
 
 > Always apply the active League effects above before normal RS3 mechanics.
 
@@ -208,6 +230,7 @@ Passive step effects:
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
 - [1066] **Reach level 99 in the Defence skill.** — score 25, unknown_check_progress; Only 5 Defence levels remain to the task target.
+- [845] **Scatter 100 ashes of any kind.** — score 8, unknown_check_progress; Completed related milestone 25 proves at least 25% of the 100 cumulative target was reached.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
 - [852] **Catch 35 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.
 

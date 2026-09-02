@@ -1,5 +1,5 @@
 {
-  "completed_task_count": 269,
+  "completed_task_count": 275,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
@@ -11,10 +11,10 @@
     "known_issue": 1,
     "locked_region": 436,
     "manual_check": 3,
-    "verified_ready": 12
+    "verified_ready": 6
   },
-  "timestamp_utc": "2026-09-02T03:05:39.415Z",
-  "unfinished_task_count": 883,
+  "timestamp_utc": "2026-09-02T03:19:47.529Z",
+  "unfinished_task_count": 877,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -415,32 +415,6 @@
       ],
       "task_count_efficiency": null,
       "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "lumbridge",
-      "confidence": 1.0,
-      "description": "Catch some shrimp by using the net option on the net/bait fishing spot to the east of Lumbridge Swamp.",
-      "estimated_seconds": 30,
-      "id": 35,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 20.0,
-      "metadata_source": "manual_override",
-      "name": "Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Misthalin",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "fishing",
-        "fast"
-      ],
-      "task_count_efficiency": 30,
-      "tier": "easy",
       "unknown_checks": []
     },
     {
@@ -1168,33 +1142,6 @@
     {
       "blessing_task": false,
       "blockers": [],
-      "cluster": "varrock",
-      "confidence": 1.0,
-      "description": "Enter the Cooks' Guild.",
-      "estimated_seconds": 30,
-      "id": 112,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 60.0,
-      "metadata_source": "manual_override",
-      "name": "Enter the Cooks' Guild.",
-      "points": 30,
-      "recommendation_grade": "A",
-      "region": "Misthalin",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "travel",
-        "fast",
-        "access"
-      ],
-      "task_count_efficiency": 30,
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete Demon Slayer.",
@@ -1738,32 +1685,6 @@
         "cooking"
       ],
       "task_count_efficiency": 30,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "shop",
-      "confidence": 1.0,
-      "description": "Return a free item to any store e.g. a tinderbox from Lumbridge General Store",
-      "estimated_seconds": 20,
-      "id": 217,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 30.0,
-      "metadata_source": "manual_override",
-      "name": "Return a free item to any store.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "fast",
-        "one_action"
-      ],
-      "task_count_efficiency": 20,
       "tier": "easy",
       "unknown_checks": []
     },
@@ -13970,36 +13891,6 @@
       "blockers": [],
       "cluster": "bank",
       "confidence": 1.0,
-      "description": "Fletch an unstrung oak shortbow.",
-      "estimated_seconds": 15,
-      "id": 819,
-      "issue": null,
-      "items_to_prepare": [
-        "oak log",
-        "knife"
-      ],
-      "lp_per_minute": 40.0,
-      "metadata_source": "manual_override",
-      "name": "Fletch an oak shortbow (unstrung).",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "production",
-        "fast",
-        "fletching"
-      ],
-      "task_count_efficiency": 15,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "bank",
-      "confidence": 1.0,
       "description": "Fletch 50 bronze bolts.",
       "estimated_seconds": 30,
       "id": 822,
@@ -14227,34 +14118,6 @@
         "cooking"
       ],
       "task_count_efficiency": 45,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "anywhere",
-      "confidence": 1.0,
-      "description": "Scatter 25 ashes of any kind.",
-      "estimated_seconds": 25,
-      "id": 844,
-      "issue": null,
-      "items_to_prepare": [
-        "25 ashes"
-      ],
-      "lp_per_minute": 24.0,
-      "metadata_source": "manual_override",
-      "name": "Scatter 25 ashes of any kind.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "prayer",
-        "fast"
-      ],
-      "task_count_efficiency": 25,
       "tier": "easy",
       "unknown_checks": []
     },
@@ -16342,37 +16205,6 @@
     {
       "blessing_task": false,
       "blockers": [],
-      "cluster": "anywhere",
-      "confidence": 1.0,
-      "description": "Perform a special attack.",
-      "estimated_seconds": 10,
-      "id": 980,
-      "issue": null,
-      "items_to_prepare": [
-        "weapon with a special attack"
-      ],
-      "lp_per_minute": 180.0,
-      "metadata_source": "manual_override",
-      "name": "Perform a special attack.",
-      "points": 30,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "combat_action",
-        "attack",
-        "fast",
-        "combat",
-        "one_action"
-      ],
-      "task_count_efficiency": 10,
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
       "cluster": null,
       "confidence": 0.72,
       "description": "Equip a full set of orikalkum armour.",
@@ -18343,8 +18175,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 39,
-          "gap": 60,
+          "current": 40,
+          "gap": 59,
           "required": 99,
           "skill": "Fishing",
           "type": "skill"

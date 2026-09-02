@@ -25,6 +25,7 @@
     31,
     32,
     33,
+    35,
     36,
     37,
     38,
@@ -63,6 +64,7 @@
     107,
     108,
     111,
+    112,
     115,
     116,
     117,
@@ -139,6 +141,7 @@
     214,
     215,
     216,
+    217,
     218,
     219,
     220,
@@ -192,6 +195,7 @@
     816,
     817,
     818,
+    819,
     820,
     821,
     827,
@@ -206,6 +210,7 @@
     841,
     842,
     843,
+    844,
     846,
     847,
     848,
@@ -243,6 +248,7 @@
     922,
     964,
     972,
+    980,
     981,
     982,
     983,
@@ -280,7 +286,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 269,
+  "completed_tasks": 275,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -292,28 +298,13 @@
     96,
     988
   ],
-  "league_points": 9410,
+  "league_points": 9510,
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 93,
-      "skill": "Defence",
-      "to": 94
-    },
-    {
-      "from": 91,
-      "skill": "Constitution",
-      "to": 92
-    },
-    {
-      "from": 73,
-      "skill": "Slayer",
-      "to": 74
-    },
-    {
-      "from": 68,
-      "skill": "Invention",
-      "to": 74
+      "from": 39,
+      "skill": "Fishing",
+      "to": 40
     }
   ],
   "levels": {
@@ -329,7 +320,7 @@
     "Dungeoneering": 39,
     "Farming": 22,
     "Firemaking": 54,
-    "Fishing": 39,
+    "Fishing": 40,
     "Fletching": 69,
     "Herblore": 68,
     "Hunter": 45,
@@ -347,108 +338,75 @@
     "Thieving": 119,
     "Woodcutting": 62
   },
-  "mapped_completed_tasks": 269,
+  "mapped_completed_tasks": 275,
   "new_task_ids_since_previous_live_sync": [
-    285,
-    286,
-    287,
-    294,
-    308,
-    309,
-    310,
-    341,
-    342
+    35,
+    112,
+    217,
+    819,
+    844,
+    980
   ],
   "new_tasks_since_previous_live_sync": [
     {
       "blessing_task": false,
-      "description": "Search the grand gold chest in room 1 of Pyramid Plunder in Sophanem.",
-      "id": 285,
+      "description": "Catch some shrimp by using the net option on the net/bait fishing spot to the east of Lumbridge Swamp.",
+      "id": 35,
       "issue": null,
-      "name": "Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.",
+      "name": "Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.",
       "points": 10,
-      "region": "Desert",
+      "region": "Misthalin",
       "tier": "easy"
     },
     {
       "blessing_task": false,
-      "description": "Search the grand gold chest in room 2 of Pyramid Plunder in Sophanem.",
-      "id": 286,
+      "description": "Enter the Cooks' Guild.",
+      "id": 112,
       "issue": null,
-      "name": "Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.",
-      "points": 10,
-      "region": "Desert",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Search the grand gold chest in room 3 of Pyramid Plunder in Sophanem.",
-      "id": 287,
-      "issue": null,
-      "name": "Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem.",
-      "points": 10,
-      "region": "Desert",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Use any of the magic carpets in the desert.",
-      "id": 294,
-      "issue": null,
-      "name": "Use any of the magic carpets in the desert.",
-      "points": 10,
-      "region": "Desert",
-      "tier": "easy"
-    },
-    {
-      "blessing_task": false,
-      "description": "Search the Grand gold chest in room 4 of Pyramid Plunder in Sophanem.",
-      "id": 308,
-      "issue": null,
-      "name": "Search the Grand Gold Chest in room 4 of Pyramid Plunder in Sophanem.",
+      "name": "Enter the Cooks' Guild.",
       "points": 30,
-      "region": "Desert",
+      "region": "Misthalin",
       "tier": "medium"
     },
     {
       "blessing_task": false,
-      "description": "Search the Grand gold chest in room 5 of Pyramid Plunder in Sophanem.",
-      "id": 309,
+      "description": "Return a free item to any store e.g. a tinderbox from Lumbridge General Store",
+      "id": 217,
       "issue": null,
-      "name": "Search the Grand Gold Chest in room 5 of Pyramid Plunder in Sophanem.",
+      "name": "Return a free item to any store.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Fletch an unstrung oak shortbow.",
+      "id": 819,
+      "issue": null,
+      "name": "Fletch an oak shortbow (unstrung).",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Scatter 25 ashes of any kind.",
+      "id": 844,
+      "issue": null,
+      "name": "Scatter 25 ashes of any kind.",
+      "points": 10,
+      "region": "Global",
+      "tier": "easy"
+    },
+    {
+      "blessing_task": false,
+      "description": "Perform a special attack.",
+      "id": 980,
+      "issue": null,
+      "name": "Perform a special attack.",
       "points": 30,
-      "region": "Desert",
+      "region": "Global",
       "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Search the Grand gold chest in room 6 of Pyramid Plunder in Sophanem.",
-      "id": 310,
-      "issue": null,
-      "name": "Search the Grand Gold Chest in room 6 of Pyramid Plunder in Sophanem.",
-      "points": 30,
-      "region": "Desert",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Search the Grand gold chest in room 7 of Pyramid Plunder in Sophanem.",
-      "id": 341,
-      "issue": null,
-      "name": "Search the Grand Gold Chest in room 7 of Pyramid Plunder in Sophanem.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Search the Grand gold chest in room 8 of Pyramid Plunder in Sophanem.",
-      "id": 342,
-      "issue": null,
-      "name": "Search the Grand Gold Chest in room 8 of Pyramid Plunder in Sophanem.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
     }
   ],
   "next_blessing": {
@@ -457,13 +415,13 @@
     "threshold": 16
   },
   "next_region": {
-    "id": "elective_2",
+    "id": "elective_3",
     "region": null,
-    "remaining_tasks": 6,
-    "tasks": 275
+    "remaining_tasks": 125,
+    "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 2590,
+    "remaining_points": 2490,
     "threshold": 12000,
     "tier": 6
   },
@@ -479,9 +437,9 @@
   ],
   "relic_tier": 5,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 9,
-  "timestamp_utc": "2026-09-02T03:05:39.415Z",
-  "total_level": 2080,
-  "tracker_health": "healthy",
+  "task_delta_since_previous_live_sync": 6,
+  "timestamp_utc": "2026-09-02T03:19:47.529Z",
+  "total_level": 2081,
+  "tracker_health": "warning",
   "unmapped_completed_task_ids": []
 }
