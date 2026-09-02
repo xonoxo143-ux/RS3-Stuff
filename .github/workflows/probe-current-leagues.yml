@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - '.github/workflows/probe-current-leagues.yml'
+      - 'leagues-tracker/refresh-token.txt'
       - 'leagues-tracker/tracker.py'
       - 'leagues-tracker/task_intelligence.py'
       - 'leagues-tracker/opportunity_detector.py'
@@ -30,11 +31,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Snap checkout to current main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: Fetch authoritative WikiSync state
         shell: bash
         run: |
           set -euo pipefail
-          UA='RS3-Stuff-Equilibrium-Tracker/5.2 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
+          UA='RS3-Stuff-Equilibrium-Tracker/5.3 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
           curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
             -o leagues-tracker/live-wikisync.json \
             'https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
@@ -43,7 +51,7 @@ jobs:
         shell: bash
         run: |
           set -u
-          UA='RS3-Stuff-Equilibrium-Tracker/5.2 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
+          UA='RS3-Stuff-Equilibrium-Tracker/5.3 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
           rm -f task-catalog.html
           curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
             -o task-catalog.html \
