@@ -32,7 +32,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          UA='RS3-Stuff-Equilibrium-Tracker/5.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
+          UA='RS3-Stuff-Equilibrium-Tracker/5.1 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
           curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
             -o leagues-tracker/live-wikisync.json \
             'https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
@@ -41,7 +41,7 @@ jobs:
         shell: bash
         run: |
           set -u
-          UA='RS3-Stuff-Equilibrium-Tracker/5.0 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
+          UA='RS3-Stuff-Equilibrium-Tracker/5.1 (GitHub Actions; github.com/xonoxo143-ux/RS3-Stuff)'
           rm -f task-catalog.html
           curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
             -o task-catalog.html \
