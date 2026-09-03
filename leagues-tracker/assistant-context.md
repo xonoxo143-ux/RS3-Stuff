@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-03T11:21:45.357Z**
+Updated: **2026-09-03T14:05:20.614Z**
 
 ## Tracker discipline
 
@@ -162,15 +162,7 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+7** · LP: **+680**
-- [255] Defeat any God Wars Dungeon boss 250 times. — hard, Asgarnia, 80 LP
-- [256] Defeat Commander Zilyana. — hard, Asgarnia, 80 LP
-- [953] Make 15 antifire potions. — hard, Global, 80 LP
-- [954] Clean 50 grimy cadantine. — hard, Global, 80 LP
-- [955] Clean 100 grimy lantadyme. — hard, Global, 80 LP
-- [956] Clean 100 dwarf weed. — hard, Global, 80 LP
-- [1066] Reach level 99 in the Defence skill. — elite, Global, 200 LP
-- Level-ups: Attack 78→79; Defence 98→99; Strength 78→79; Constitution 96→97; Magic 82→87; Herblore 68→74; Thieving 119→120
+- Tasks: **+0** · LP: **+0**
 
 ## Current task sprint
 
@@ -218,7 +210,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-03T11:21:45.357Z
+- WikiSync: **fresh** · 2026-09-03T14:05:20.614Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 

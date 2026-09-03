@@ -321,43 +321,7 @@
   ],
   "league_points": 11490,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 78,
-      "skill": "Attack",
-      "to": 79
-    },
-    {
-      "from": 98,
-      "skill": "Defence",
-      "to": 99
-    },
-    {
-      "from": 78,
-      "skill": "Strength",
-      "to": 79
-    },
-    {
-      "from": 96,
-      "skill": "Constitution",
-      "to": 97
-    },
-    {
-      "from": 82,
-      "skill": "Magic",
-      "to": 87
-    },
-    {
-      "from": 68,
-      "skill": "Herblore",
-      "to": 74
-    },
-    {
-      "from": 119,
-      "skill": "Thieving",
-      "to": 120
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -390,87 +354,8 @@
     "Woodcutting": 62
   },
   "mapped_completed_tasks": 295,
-  "new_task_ids_since_previous_live_sync": [
-    255,
-    256,
-    953,
-    954,
-    955,
-    956,
-    1066
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Defeat any God Wars Dungeon boss 250 times.",
-      "id": 255,
-      "issue": null,
-      "name": "Defeat any God Wars Dungeon boss 250 times.",
-      "points": 80,
-      "region": "Asgarnia",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat Commander Zilyana",
-      "id": 256,
-      "issue": null,
-      "name": "Defeat Commander Zilyana.",
-      "points": 80,
-      "region": "Asgarnia",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Make 15 antifire potions.",
-      "id": 953,
-      "issue": null,
-      "name": "Make 15 antifire potions.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Clean 50 grimy cadantine.",
-      "id": 954,
-      "issue": null,
-      "name": "Clean 50 grimy cadantine.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Clean 100 grimy lantadyme.",
-      "id": 955,
-      "issue": null,
-      "name": "Clean 100 grimy lantadyme.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Clean 100 grimy dwarf weed.",
-      "id": 956,
-      "issue": null,
-      "name": "Clean 100 dwarf weed.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach level 99 Defence.",
-      "id": 1066,
-      "issue": null,
-      "name": "Reach level 99 in the Defence skill.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "next_blessing": {
     "remaining_tasks": 3,
     "step": "t5",
@@ -499,8 +384,8 @@
   ],
   "relic_tier": 5,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 7,
-  "timestamp_utc": "2026-09-03T11:21:45.357Z",
+  "task_delta_since_previous_live_sync": 0,
+  "timestamp_utc": "2026-09-03T14:05:20.614Z",
   "total_level": 2172,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []

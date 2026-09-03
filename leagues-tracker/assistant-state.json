@@ -334,7 +334,7 @@
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-03T11:21:45.357Z",
+    "timestamp_utc": "2026-09-03T14:05:20.614Z",
     "total_level": 2172
   },
   "blessings": {
@@ -508,126 +508,11 @@
     ]
   },
   "changes": {
-    "league_points_delta": 680,
-    "level_ups": [
-      {
-        "from": 78,
-        "skill": "Attack",
-        "to": 79
-      },
-      {
-        "from": 98,
-        "skill": "Defence",
-        "to": 99
-      },
-      {
-        "from": 78,
-        "skill": "Strength",
-        "to": 79
-      },
-      {
-        "from": 96,
-        "skill": "Constitution",
-        "to": 97
-      },
-      {
-        "from": 82,
-        "skill": "Magic",
-        "to": 87
-      },
-      {
-        "from": 68,
-        "skill": "Herblore",
-        "to": 74
-      },
-      {
-        "from": 119,
-        "skill": "Thieving",
-        "to": 120
-      }
-    ],
-    "new_task_ids": [
-      255,
-      256,
-      953,
-      954,
-      955,
-      956,
-      1066
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Defeat any God Wars Dungeon boss 250 times.",
-        "id": 255,
-        "issue": null,
-        "name": "Defeat any God Wars Dungeon boss 250 times.",
-        "points": 80,
-        "region": "Asgarnia",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Defeat Commander Zilyana",
-        "id": 256,
-        "issue": null,
-        "name": "Defeat Commander Zilyana.",
-        "points": 80,
-        "region": "Asgarnia",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Make 15 antifire potions.",
-        "id": 953,
-        "issue": null,
-        "name": "Make 15 antifire potions.",
-        "points": 80,
-        "region": "Global",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Clean 50 grimy cadantine.",
-        "id": 954,
-        "issue": null,
-        "name": "Clean 50 grimy cadantine.",
-        "points": 80,
-        "region": "Global",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Clean 100 grimy lantadyme.",
-        "id": 955,
-        "issue": null,
-        "name": "Clean 100 grimy lantadyme.",
-        "points": 80,
-        "region": "Global",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Clean 100 grimy dwarf weed.",
-        "id": 956,
-        "issue": null,
-        "name": "Clean 100 dwarf weed.",
-        "points": 80,
-        "region": "Global",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Reach level 99 Defence.",
-        "id": 1066,
-        "issue": null,
-        "name": "Reach level 99 in the Defence skill.",
-        "points": 200,
-        "region": "Global",
-        "tier": "elite"
-      }
-    ],
-    "task_delta": 7
+    "league_points_delta": 0,
+    "level_ups": [],
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "forgotten_finish_opportunities": {
     "count": 6,
@@ -780,7 +665,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-03T11:21:45.357Z",
+    "generated_at_utc": "2026-09-03T14:05:20.614Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -813,7 +698,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 125817,
+      "age_seconds_at_generation": 135632,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -835,7 +720,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-03T11:21:45.357Z"
+      "timestamp": "2026-09-03T14:05:20.614Z"
     }
   },
   "manual": {
