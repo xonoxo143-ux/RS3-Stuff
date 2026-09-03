@@ -48,16 +48,23 @@
     "Transmutation already substitutes resource tiers; gathering relic value must be scored against that existing option."
   ],
   "unresolved_before_numeric_scoring": [
-    "Survivalist double-resource task-counter semantics.",
-    "Animal Wrangler extra-fish task-counter semantics.",
-    "Nature's Network seed-as-ten generic planting-counter semantics.",
-    "Combat-task Slayer-assignment eligibility for Assassin's Insight.",
-    "Realistic incremental combat DPS from Perkfection with the user's gear/perks.",
-    "Production Master edge-recipe support such as bolas.",
-    "Superheated interaction with special Masterwork stages.",
-    "Best Antiquarian three-relic-power loadout per task family."
+    "Nature's Network: no public evidence found that one herb seed counting as ten advances generic League planting-action counters tenfold; numeric model should give this zero counter acceleration until observed.",
+    "Perkfection: exact incremental combat DPS remains gear/perk/loadout dependent; model as sensitivity rather than a fixed mechanic.",
+    "Assassin's Insight: obscure monsters/bosses not on the confirmed whitelist should receive zero combat-throughput credit until individually verified.",
+    "Antiquarian Archaeology-specific third-slot optimization can be refined if Archaeology becomes part of the chosen 48k LP route."
   ],
   "summary": {
+    "Perkfection": {
+      "accessible_tasks": 92,
+      "accessible_lp": 16550,
+      "all_unfinished_tasks": 178,
+      "all_unfinished_lp": 26950,
+      "accessible_effect_mentions": {
+        "throughput": 79,
+        "prerequisite": 12,
+        "optional": 1
+      }
+    },
     "Endless Harvest": {
       "accessible_tasks": 52,
       "accessible_lp": 6180,
@@ -76,10 +83,9 @@
       "all_unfinished_lp": 8840,
       "accessible_effect_mentions": {
         "throughput": 30,
-        "uncertain": 14,
+        "direct": 15,
         "prerequisite": 12,
-        "optional": 1,
-        "direct": 1
+        "optional": 1
       }
     },
     "Animal Wrangler": {
@@ -90,8 +96,7 @@
       "accessible_effect_mentions": {
         "prerequisite": 5,
         "throughput": 25,
-        "uncertain": 7,
-        "direct": 9,
+        "direct": 16,
         "optional": 1
       }
     },
@@ -101,8 +106,8 @@
       "all_unfinished_tasks": 32,
       "all_unfinished_lp": 4980,
       "accessible_effect_mentions": {
-        "direct": 16,
-        "prerequisite": 9,
+        "direct": 14,
+        "prerequisite": 11,
         "synergy": 1,
         "optional": 1
       }
@@ -121,12 +126,12 @@
       }
     },
     "Assassin's Insight": {
-      "accessible_tasks": 90,
-      "accessible_lp": 16050,
-      "all_unfinished_tasks": 177,
-      "all_unfinished_lp": 26650,
+      "accessible_tasks": 15,
+      "accessible_lp": 3060,
+      "all_unfinished_tasks": 19,
+      "all_unfinished_lp": 3400,
       "accessible_effect_mentions": {
-        "uncertain": 79,
+        "throughput": 4,
         "prerequisite": 4,
         "direct": 9,
         "optional": 1
@@ -145,11 +150,12 @@
       }
     },
     "Antiquarian": {
-      "accessible_tasks": 22,
-      "accessible_lp": 3110,
-      "all_unfinished_tasks": 30,
-      "all_unfinished_lp": 4240,
+      "accessible_tasks": 40,
+      "accessible_lp": 4730,
+      "all_unfinished_tasks": 61,
+      "all_unfinished_lp": 7690,
       "accessible_effect_mentions": {
+        "synergy": 18,
         "direct": 7,
         "prerequisite": 4,
         "optional": 14
@@ -165,25 +171,14 @@
       }
     },
     "Production Master": {
-      "accessible_tasks": 46,
-      "accessible_lp": 6380,
-      "all_unfinished_tasks": 60,
-      "all_unfinished_lp": 8510,
+      "accessible_tasks": 45,
+      "accessible_lp": 6300,
+      "all_unfinished_tasks": 59,
+      "all_unfinished_lp": 8430,
       "accessible_effect_mentions": {
-        "direct": 30,
+        "direct": 29,
         "prerequisite": 14,
         "overlap": 1,
-        "optional": 1
-      }
-    },
-    "Perkfection": {
-      "accessible_tasks": 92,
-      "accessible_lp": 16550,
-      "all_unfinished_tasks": 178,
-      "all_unfinished_lp": 26950,
-      "accessible_effect_mentions": {
-        "throughput": 79,
-        "prerequisite": 12,
         "optional": 1
       }
     }
@@ -345,6 +340,14 @@
             "code": "woodcutting_top_tool",
             "kind": "throughput",
             "confidence": "medium"
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
           }
         ]
       }
@@ -593,13 +596,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -668,13 +664,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -730,13 +719,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -758,13 +740,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -825,13 +800,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -853,13 +821,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -1028,9 +989,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -1049,9 +1011,9 @@
       "relic_effects": {
         "Assassin's Insight": [
           {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
+            "code": "slayer_helmet_valid_nodon_assignment",
+            "kind": "throughput",
+            "confidence": "high"
           }
         ],
         "Perkfection": [
@@ -1077,9 +1039,9 @@
       "relic_effects": {
         "Assassin's Insight": [
           {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
+            "code": "slayer_helmet_valid_nodon_assignment",
+            "kind": "throughput",
+            "confidence": "high"
           }
         ],
         "Perkfection": [
@@ -1103,13 +1065,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -1323,6 +1278,14 @@
             "kind": "throughput",
             "confidence": "medium"
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
+          }
         ]
       }
     },
@@ -1414,6 +1377,14 @@
             "kind": "throughput",
             "confidence": "high"
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
+          }
         ]
       }
     },
@@ -1449,6 +1420,14 @@
             "kind": "throughput",
             "confidence": "high"
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
+          }
         ]
       }
     },
@@ -1473,7 +1452,8 @@
           {
             "code": "one_herb_seed_treated_as_ten_counter_uncertain",
             "kind": "uncertain",
-            "confidence": "low"
+            "confidence": "low",
+            "note": "No public Equilibrium test found proving ten League counter increments. Numeric model should assign zero counter acceleration until observed."
           }
         ]
       }
@@ -1499,7 +1479,8 @@
           {
             "code": "one_herb_seed_treated_as_ten_counter_uncertain",
             "kind": "uncertain",
-            "confidence": "low"
+            "confidence": "low",
+            "note": "No public Equilibrium test found proving ten League counter increments. Numeric model should assign zero counter acceleration until observed."
           }
         ]
       }
@@ -1594,13 +1575,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -1713,13 +1687,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -1741,13 +1708,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -1883,13 +1843,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -1911,13 +1864,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -1996,9 +1942,10 @@
       "relic_effects": {
         "Superheated": [
           {
-            "code": "smithing_progress_x3_max_heat",
-            "kind": "direct",
-            "confidence": "high"
+            "code": "masterwork_material_chain_only",
+            "kind": "prerequisite",
+            "confidence": "high",
+            "note": "Superheated helps ore/bar prep but not special Masterwork folding/assembly; Production Master one-actions those stages."
           }
         ],
         "Production Master": [
@@ -2022,13 +1969,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2050,13 +1990,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2104,13 +2037,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2132,13 +2058,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2186,13 +2105,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2214,13 +2126,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2270,13 +2175,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2311,13 +2209,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2447,13 +2338,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2475,13 +2359,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2549,6 +2426,14 @@
             "kind": "throughput",
             "confidence": "high"
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
+          }
         ]
       }
     },
@@ -2577,13 +2462,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2605,13 +2483,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2672,13 +2543,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2700,13 +2564,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2728,13 +2585,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2756,13 +2606,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2784,13 +2627,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2812,13 +2648,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2840,13 +2669,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2868,13 +2690,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2896,13 +2711,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2924,13 +2732,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2952,13 +2753,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -2993,13 +2787,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3021,13 +2808,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3049,13 +2829,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3098,13 +2871,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3139,13 +2905,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3188,13 +2947,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3229,13 +2981,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3270,13 +3015,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3298,13 +3036,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3326,13 +3057,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3487,13 +3211,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3515,13 +3232,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3556,13 +3266,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3623,13 +3326,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3651,13 +3347,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3793,6 +3482,14 @@
             "kind": "throughput",
             "confidence": "medium"
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
+          }
         ]
       }
     },
@@ -3808,13 +3505,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3896,13 +3586,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -3950,13 +3633,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -4078,9 +3754,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -4178,13 +3855,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -4287,13 +3957,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -4350,13 +4013,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -4417,13 +4073,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -4656,13 +4305,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -4697,13 +4339,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -4978,6 +4613,14 @@
             "kind": "throughput",
             "confidence": "high"
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
+          }
         ]
       }
     },
@@ -5071,6 +4714,14 @@
             "kind": "throughput",
             "confidence": "medium"
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
+          }
         ]
       }
     },
@@ -5146,13 +4797,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -5201,9 +4845,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -5232,6 +4877,14 @@
             "code": "woodcutting_top_tool",
             "kind": "throughput",
             "confidence": "medium"
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
           }
         ]
       }
@@ -5546,13 +5199,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -5574,13 +5220,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -5757,13 +5396,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -5785,13 +5417,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -5839,13 +5464,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -5867,13 +5485,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -6340,9 +5951,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -6406,13 +6018,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -6543,13 +6148,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -6636,13 +6234,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -6676,6 +6267,14 @@
             "code": "woodcutting_top_tool",
             "kind": "throughput",
             "confidence": "medium"
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
           }
         ]
       }
@@ -6796,6 +6395,14 @@
             "kind": "throughput",
             "confidence": "medium"
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
+          }
         ]
       }
     },
@@ -6872,9 +6479,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -6903,6 +6511,14 @@
             "code": "woodcutting_top_tool",
             "kind": "throughput",
             "confidence": "medium"
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
           }
         ]
       }
@@ -7044,13 +6660,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -7144,6 +6753,14 @@
             "kind": "throughput",
             "confidence": "high"
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
+          }
         ]
       }
     },
@@ -7219,13 +6836,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -7261,9 +6871,10 @@
             "confidence": "medium"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ],
         "Animal Wrangler": [
@@ -7273,9 +6884,18 @@
             "confidence": "high"
           },
           {
-            "code": "extra_fish_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "extra_fish_counts_for_fish_quantity_task",
+            "kind": "direct",
+            "confidence": "medium",
+            "note": "Current Equilibrium player report describes extra fish as doubling fish for tasks; do not apply to generic action-count wording."
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
           }
         ]
       }
@@ -7396,13 +7016,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -7475,15 +7088,7 @@
         "crafting"
       ],
       "parsed_skill_target": null,
-      "relic_effects": {
-        "Production Master": [
-          {
-            "code": "crafting_batch_if_supported_recipe",
-            "kind": "direct",
-            "confidence": "medium"
-          }
-        ]
-      }
+      "relic_effects": {}
     },
     {
       "id": 637,
@@ -7536,13 +7141,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -7577,13 +7175,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -7631,13 +7222,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -7661,9 +7245,9 @@
       "relic_effects": {
         "Assassin's Insight": [
           {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
+            "code": "slayer_helmet_valid_volcanic_assignment_conditional",
+            "kind": "throughput",
+            "confidence": "medium"
           }
         ],
         "Perkfection": [
@@ -7700,13 +7284,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -7728,13 +7305,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -7821,13 +7391,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -7864,9 +7427,9 @@
       "relic_effects": {
         "Assassin's Insight": [
           {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
+            "code": "slayer_helmet_valid_black_dragon_assignment",
+            "kind": "throughput",
+            "confidence": "high"
           }
         ],
         "Perkfection": [
@@ -7892,9 +7455,9 @@
       "relic_effects": {
         "Assassin's Insight": [
           {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
+            "code": "slayer_helmet_valid_black_dragon_assignment",
+            "kind": "throughput",
+            "confidence": "high"
           }
         ],
         "Perkfection": [
@@ -7944,13 +7507,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8011,13 +7567,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8039,13 +7588,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8067,13 +7609,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8095,13 +7630,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8136,13 +7664,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8180,9 +7701,9 @@
       "relic_effects": {
         "Assassin's Insight": [
           {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
+            "code": "slayer_helmet_valid_black_dragon_assignment",
+            "kind": "throughput",
+            "confidence": "high"
           }
         ],
         "Perkfection": [
@@ -8206,13 +7727,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8314,13 +7828,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8342,13 +7849,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8370,13 +7870,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8510,6 +8003,14 @@
             "kind": "throughput",
             "confidence": "medium"
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
+          }
         ]
       }
     },
@@ -8551,13 +8052,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8579,13 +8073,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8608,13 +8095,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8649,13 +8129,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8677,13 +8150,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8705,13 +8171,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8746,13 +8205,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8774,13 +8226,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8816,9 +8261,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -8856,13 +8302,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8897,13 +8336,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -8925,13 +8357,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9000,13 +8425,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9054,13 +8472,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9095,13 +8506,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9214,13 +8618,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9242,13 +8639,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9416,9 +8806,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -9435,13 +8826,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9463,13 +8847,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9624,9 +9001,10 @@
             "confidence": "medium"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ],
         "Animal Wrangler": [
@@ -9636,9 +9014,18 @@
             "confidence": "high"
           },
           {
-            "code": "extra_fish_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "extra_fish_counts_for_fish_quantity_task",
+            "kind": "direct",
+            "confidence": "medium",
+            "note": "Current Equilibrium player report describes extra fish as doubling fish for tasks; do not apply to generic action-count wording."
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
           }
         ]
       }
@@ -9668,13 +9055,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9724,13 +9104,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9752,13 +9125,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9780,13 +9146,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9808,13 +9167,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9836,13 +9188,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -9994,13 +9339,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -10048,13 +9386,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -10076,13 +9407,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -10117,13 +9441,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -10145,13 +9462,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -10212,13 +9522,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -10240,13 +9543,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -11037,9 +10333,10 @@
             "confidence": "medium"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ],
         "Animal Wrangler": [
@@ -11049,9 +10346,18 @@
             "confidence": "high"
           },
           {
-            "code": "extra_fish_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "extra_fish_counts_for_fish_quantity_task",
+            "kind": "direct",
+            "confidence": "medium",
+            "note": "Current Equilibrium player report describes extra fish as doubling fish for tasks; do not apply to generic action-count wording."
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
           }
         ]
       }
@@ -11082,9 +10388,10 @@
             "confidence": "medium"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ],
         "Animal Wrangler": [
@@ -11094,9 +10401,18 @@
             "confidence": "high"
           },
           {
-            "code": "extra_fish_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "extra_fish_counts_for_fish_quantity_task",
+            "kind": "direct",
+            "confidence": "medium",
+            "note": "Current Equilibrium player report describes extra fish as doubling fish for tasks; do not apply to generic action-count wording."
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
           }
         ]
       }
@@ -11127,9 +10443,10 @@
             "confidence": "medium"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ],
         "Animal Wrangler": [
@@ -11139,9 +10456,18 @@
             "confidence": "high"
           },
           {
-            "code": "extra_fish_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "extra_fish_counts_for_fish_quantity_task",
+            "kind": "direct",
+            "confidence": "medium",
+            "note": "Current Equilibrium player report describes extra fish as doubling fish for tasks; do not apply to generic action-count wording."
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
           }
         ]
       }
@@ -12114,9 +11440,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -12147,9 +11474,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -12180,9 +11508,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -12241,9 +11570,10 @@
             "confidence": "medium"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ],
         "Animal Wrangler": [
@@ -12253,9 +11583,18 @@
             "confidence": "high"
           },
           {
-            "code": "extra_fish_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "extra_fish_counts_for_fish_quantity_task",
+            "kind": "direct",
+            "confidence": "medium",
+            "note": "Current Equilibrium player report describes extra fish as doubling fish for tasks; do not apply to generic action-count wording."
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
           }
         ]
       }
@@ -12286,9 +11625,10 @@
             "confidence": "medium"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ],
         "Animal Wrangler": [
@@ -12298,9 +11638,18 @@
             "confidence": "high"
           },
           {
-            "code": "extra_fish_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "extra_fish_counts_for_fish_quantity_task",
+            "kind": "direct",
+            "confidence": "medium",
+            "note": "Current Equilibrium player report describes extra fish as doubling fish for tasks; do not apply to generic action-count wording."
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
           }
         ]
       }
@@ -12829,13 +12178,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -12857,13 +12199,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -12898,13 +12233,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -12926,13 +12254,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -12975,13 +12296,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -13003,13 +12317,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -13368,9 +12675,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -13401,9 +12709,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -13580,9 +12889,10 @@
             "confidence": "medium"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ],
         "Animal Wrangler": [
@@ -13592,9 +12902,18 @@
             "confidence": "high"
           },
           {
-            "code": "extra_fish_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "extra_fish_counts_for_fish_quantity_task",
+            "kind": "direct",
+            "confidence": "medium",
+            "note": "Current Equilibrium player report describes extra fish as doubling fish for tasks; do not apply to generic action-count wording."
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
           }
         ]
       }
@@ -13625,9 +12944,10 @@
             "confidence": "medium"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ],
         "Animal Wrangler": [
@@ -13637,9 +12957,18 @@
             "confidence": "high"
           },
           {
-            "code": "extra_fish_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "extra_fish_counts_for_fish_quantity_task",
+            "kind": "direct",
+            "confidence": "medium",
+            "note": "Current Equilibrium player report describes extra fish as doubling fish for tasks; do not apply to generic action-count wording."
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
           }
         ]
       }
@@ -13670,9 +12999,10 @@
             "confidence": "medium"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ],
         "Animal Wrangler": [
@@ -13682,9 +13012,18 @@
             "confidence": "high"
           },
           {
-            "code": "extra_fish_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "extra_fish_counts_for_fish_quantity_task",
+            "kind": "direct",
+            "confidence": "medium",
+            "note": "Current Equilibrium player report describes extra fish as doubling fish for tasks; do not apply to generic action-count wording."
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
           }
         ]
       }
@@ -13734,6 +13073,14 @@
             "kind": "throughput",
             "confidence": "high"
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
+          }
         ]
       }
     },
@@ -13768,6 +13115,14 @@
             "code": "extra_fish_autobank_no_bait",
             "kind": "throughput",
             "confidence": "high"
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
           }
         ]
       }
@@ -14510,6 +13865,14 @@
             "confidence": "medium",
             "note": "Bonus resources do not award bonus XP."
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
+          }
         ]
       }
     },
@@ -14670,6 +14033,14 @@
             "kind": "prerequisite",
             "confidence": "medium",
             "note": "Bonus resources do not award bonus XP."
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
           }
         ]
       }
@@ -15283,6 +14654,14 @@
             "confidence": "medium",
             "note": "Bonus resources do not award bonus XP."
           }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
+          }
         ]
       }
     },
@@ -15616,9 +14995,10 @@
       "relic_effects": {
         "Superheated": [
           {
-            "code": "smithing_progress_x3_max_heat",
-            "kind": "direct",
-            "confidence": "high"
+            "code": "masterwork_material_chain_only",
+            "kind": "prerequisite",
+            "confidence": "high",
+            "note": "Superheated helps ore/bar prep but not special Masterwork folding/assembly; Production Master one-actions those stages."
           }
         ],
         "Production Master": [
@@ -15907,13 +15287,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -15935,13 +15308,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -15963,13 +15329,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -15991,13 +15350,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -16156,6 +15508,14 @@
             "code": "woodcutting_top_tool",
             "kind": "throughput",
             "confidence": "medium"
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "always_adze_burns_logs_while_woodcutting",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Woodcutting task progress is paired with Firemaking XP/tasks."
           }
         ]
       }
@@ -16403,9 +15763,10 @@
             "confidence": "medium"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ],
         "Animal Wrangler": [
@@ -16415,9 +15776,18 @@
             "confidence": "high"
           },
           {
-            "code": "extra_fish_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "extra_fish_counts_for_fish_quantity_task",
+            "kind": "direct",
+            "confidence": "medium",
+            "note": "Current Equilibrium player report describes extra fish as doubling fish for tasks; do not apply to generic action-count wording."
+          }
+        ],
+        "Antiquarian": [
+          {
+            "code": "bait_and_switch_cooks_fish_while_fishing",
+            "kind": "synergy",
+            "confidence": "high",
+            "note": "Useful when Fishing task progress is paired with Cooking XP/tasks."
           }
         ]
       }
@@ -16461,9 +15831,10 @@
             "confidence": "high"
           },
           {
-            "code": "double_resource_task_counter_uncertain",
-            "kind": "uncertain",
-            "confidence": "medium"
+            "code": "double_resource_counts_for_quantity_task",
+            "kind": "direct",
+            "confidence": "high",
+            "note": "Current Equilibrium player reports say gather-X quantity tasks are effectively halved. Do not apply to action-count wording."
           }
         ]
       }
@@ -16548,13 +15919,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -16712,13 +16076,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -16740,13 +16097,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -16820,13 +16170,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -16848,13 +16191,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -16889,13 +16225,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -16977,13 +16306,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17066,13 +16388,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17094,13 +16409,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17148,13 +16456,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17176,13 +16477,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17238,13 +16532,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17280,13 +16567,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17321,13 +16601,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17349,13 +16622,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17377,13 +16643,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17405,13 +16664,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17433,13 +16685,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17461,13 +16706,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17491,9 +16729,9 @@
       "relic_effects": {
         "Assassin's Insight": [
           {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
+            "code": "slayer_helmet_valid_nodon_assignment",
+            "kind": "throughput",
+            "confidence": "high"
           }
         ],
         "Perkfection": [
@@ -17530,13 +16768,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17558,13 +16789,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17586,13 +16810,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17614,13 +16831,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17694,13 +16904,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17722,13 +16925,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17750,13 +16946,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17778,13 +16967,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17806,13 +16988,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17847,13 +17022,6 @@
       ],
       "parsed_skill_target": null,
       "relic_effects": {
-        "Assassin's Insight": [
-          {
-            "code": "assignment_eligible_combat_bonus_requires_target_check",
-            "kind": "uncertain",
-            "confidence": "low"
-          }
-        ],
         "Perkfection": [
           {
             "code": "extra_gizmo_slots_and_20pct_helpful_perk_rate",
@@ -17889,5 +17057,81 @@
       "parsed_skill_target": null,
       "relic_effects": {}
     }
-  ]
+  ],
+  "internet_resolution_2026_09_03": {
+    "1_survivalist_resource_task_counters": {
+      "status": "resolved_for_quantity_tasks",
+      "rule": "Bonus resources count toward tasks worded as obtaining/mining/catching a quantity of resources. Do not assume they double tasks explicitly worded as performing an action N times.",
+      "confidence": "high_current_player_reports"
+    },
+    "2_animal_wrangler_extra_fish_task_counters": {
+      "status": "resolved_for_fish_quantity_tasks",
+      "rule": "The extra fish is useful toward fish-quantity tasks. Do not automatically double generic fishing-action counters without a direct test.",
+      "confidence": "medium_high_current_player_report"
+    },
+    "3_natures_network_seed_as_ten_generic_plant_counter": {
+      "status": "unresolved_publicly",
+      "rule": "Assign zero numeric acceleration to generic 'Plant seeds ... N times' counters until observed in-game; retain growth/yield/teleport benefits normally.",
+      "confidence": "conservative"
+    },
+    "4_assassins_insight_boss_whitelist": {
+      "status": "partially_resolved_whitelist",
+      "confirmed_yes": [
+        "King Black Dragon (black dragon/dragon assignment)",
+        "K'ril Tsutsaroth (greater demon assignment)",
+        "Kerapac (Nodon dragonkin assignment)",
+        "TzTok-Jad when on the relevant volcanic-creature assignment/challenge",
+        "Arch-Glacor only in normal mode via glacor assignment"
+      ],
+      "confirmed_no": [
+        "Nex",
+        "General Graardor as an ordinary Slayer assignment",
+        "The Magister for Slayer-helmet damage/accuracy despite counting toward Soul Devourer tasks",
+        "Arch-Glacor hard mode/enrage"
+      ],
+      "rule": "No blanket combat credit. Only whitelist confirmed assignment-compatible targets."
+    },
+    "5_perkfection_combat_dps": {
+      "status": "loadout_dependent",
+      "rule": "Do not translate the relic's 20% helpful-perk proc modifier into +20% DPS. For optimization use a sensitivity parameter for incremental general-combat time saving rather than a fixed mechanic; community discussion characterizes the generic gain as only a few percent. Specialist perk space can be more valuable on matching targets.",
+      "suggested_model_range_percent": [
+        0,
+        5
+      ],
+      "central_model_percent": 3,
+      "note": "3% is a modeling assumption, not an official fixed DPS value."
+    },
+    "6_production_master_bolas": {
+      "status": "resolved_no_meaningful_task_speed_credit",
+      "rule": "Bolas are not evidenced in the supported Production Master batch whitelist, and the League task only requires one bolas. Score no batch time saving. The +6 Fletching boost only matters for access if base Fletching is within six levels of the requirement."
+    },
+    "7_superheated_masterwork": {
+      "status": "resolved",
+      "rule": "Superheated helps ore/bar acquisition and ordinary Smithing, but does not accelerate the special Masterwork folding/assembly grind. Production Master is the relic that reduces Masterwork processing stages to one action.",
+      "confidence": "high_current_equilibrium_testing"
+    },
+    "8_antiquarian_best_three_powers": {
+      "status": "family_specific",
+      "rule": "There is no single best static trio. Swap powers by activity family.",
+      "loadouts": {
+        "fishing_plus_cooking": [
+          "Bait and Switch",
+          "Inspire Effort",
+          "Inspire Genius"
+        ],
+        "woodcutting_plus_firemaking": [
+          "Always Adze",
+          "Inspire Effort",
+          "Inspire Genius"
+        ],
+        "general_pvm": [
+          "Conservation of Energy",
+          "Berserker's Fury",
+          "Font of Life"
+        ],
+        "archaeology": "Prioritize Archaeology throughput/XP relics; exact third slot should be selected for the activity rather than treated as a universal constant."
+      },
+      "league_overlap_note": "The user's Adrenaline Junkie / high-adrenaline blessing setup reduces the incremental value of adrenaline relic powers compared with a normal account; Shadow's Grace is largely redundant with the league movement-cooldown passive."
+    }
+  }
 }
