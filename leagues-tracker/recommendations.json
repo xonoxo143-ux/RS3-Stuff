@@ -342,19 +342,19 @@
     "metadata_source_counts": {
       "manual_override": 9,
       "none": 681,
-      "text_inference": 164
+      "text_inference": 163
     },
     "status_counts": {
       "accessible_requirements_unknown": 307,
       "blocked": 34,
       "excluded": 2,
-      "inferred_candidate": 130,
+      "inferred_candidate": 129,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "timed_inferred_candidates": 97,
+    "timed_inferred_candidates": 96,
     "timed_verified_tasks": 6
   },
   "fastest_inferred_backups": [
@@ -575,22 +575,6 @@
       "items_to_prepare": [],
       "lp_per_minute": 600.0,
       "name": "Equip a full set of Bandos armour.",
-      "points": 200,
-      "recommendation_grade": "B",
-      "region": "Asgarnia",
-      "status": "inferred_candidate",
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
-      "id": 265,
-      "items_to_prepare": [],
-      "lp_per_minute": 600.0,
-      "name": "Equip a full set of Armadyl armour.",
       "points": 200,
       "recommendation_grade": "B",
       "region": "Asgarnia",
@@ -1157,6 +1141,22 @@
       "status": "inferred_candidate",
       "tier": "medium",
       "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 20,
+      "id": 949,
+      "items_to_prepare": [],
+      "lp_per_minute": 90.0,
+      "name": "Equip any 2 pieces of an elegant outfit.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Global",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
     }
   ],
   "fastest_verified": [
@@ -1273,8 +1273,8 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 3380,
-    "inferred_count": 96,
+    "estimated_action_seconds_excluding_travel": 3360,
+    "inferred_count": 95,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [
       "bronze bolts/materials",
@@ -1283,7 +1283,7 @@
       "milk",
       "cake ingredients"
     ],
-    "selected_count": 102,
+    "selected_count": 101,
     "tasks": [
       {
         "blockers": [],
@@ -1656,22 +1656,6 @@
         "items_to_prepare": [],
         "lp_per_minute": 600.0,
         "name": "Equip a full set of Bandos armour.",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Asgarnia",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 20,
-        "id": 265,
-        "items_to_prepare": [],
-        "lp_per_minute": 600.0,
-        "name": "Equip a full set of Armadyl armour.",
         "points": 200,
         "recommendation_grade": "B",
         "region": "Asgarnia",
@@ -2928,7 +2912,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 102,
+    "tasks_needed": 101,
     "verified_count": 6
   },
   "highest_lp_per_minute": [
@@ -3255,22 +3239,6 @@
       "items_to_prepare": [],
       "lp_per_minute": 600.0,
       "name": "Equip a full set of Bandos armour.",
-      "points": 200,
-      "recommendation_grade": "B",
-      "region": "Asgarnia",
-      "status": "inferred_candidate",
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
-      "id": 265,
-      "items_to_prepare": [],
-      "lp_per_minute": 600.0,
-      "name": "Equip a full set of Armadyl armour.",
       "points": 200,
       "recommendation_grade": "B",
       "region": "Asgarnia",
@@ -3741,6 +3709,22 @@
       "status": "inferred_candidate",
       "tier": "elite",
       "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 60,
+      "id": 355,
+      "items_to_prepare": [],
+      "lp_per_minute": 200.0,
+      "name": "Craft a Zaros godsword, Seren godbow or staff of Sliske.",
+      "points": 200,
+      "recommendation_grade": "B",
+      "region": "Desert",
+      "status": "inferred_candidate",
+      "tier": "elite",
+      "unknown_checks": []
     }
   ],
   "manual_checks": [
@@ -3819,7 +3803,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 102,
+    "remaining_tasks": 101,
     "tasks": 400
   },
   "schema_version": 1

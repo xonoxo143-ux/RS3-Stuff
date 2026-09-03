@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-03T18:08:01.631Z",
+  "generated_at_utc": "2026-09-03T19:53:41.379Z",
   "hiscores": {
     "note": "HiScores parsing is not a dependency.",
     "required": false,
@@ -9,30 +9,35 @@
     "errors": [],
     "expected_elective_slots": 2,
     "recorded_elective_regions": 2,
-    "status": "healthy",
-    "warnings": []
+    "status": "warning",
+    "warnings": [
+      {
+        "code": "unrecorded_relic_choice",
+        "detail": "Relic tier 6 is unlocked but no choice is recorded."
+      }
+    ]
   },
   "recommendation_coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
       "none": 681,
-      "text_inference": 164
+      "text_inference": 163
     },
     "status_counts": {
       "accessible_requirements_unknown": 307,
       "blocked": 34,
       "excluded": 2,
-      "inferred_candidate": 130,
+      "inferred_candidate": 129,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "timed_inferred_candidates": 97,
+    "timed_inferred_candidates": 96,
     "timed_verified_tasks": 6
   },
   "task_catalog": {
-    "age_seconds_at_generation": 150193,
+    "age_seconds_at_generation": 156533,
     "fetched_at_utc": "2026-09-02T00:24:49+00:00",
     "latest_change_check": {
       "added_task_ids": [],
@@ -42,7 +47,7 @@
       "removed_task_ids": [],
       "status": "unchanged"
     },
-    "mapped_completed_tasks": 298,
+    "mapped_completed_tasks": 299,
     "status": "fresh_unchanged",
     "task_count": 1152,
     "unmapped_completed_task_ids": []
@@ -54,6 +59,6 @@
       "skill_levels"
     ],
     "status": "fresh",
-    "timestamp": "2026-09-03T18:08:01.631Z"
+    "timestamp": "2026-09-03T19:53:41.379Z"
   }
 }

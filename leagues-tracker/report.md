@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-03T18:08:01.631Z**
+Updated: **2026-09-03T19:53:41.379Z**
 
 ## Current
 
-- **298 tasks**
-- **11,970 LP**
-- **Total level 2,199**
-- **Relic T5**
+- **299 tasks**
+- **12,170 LP**
+- **Total level 2,200**
+- **Relic T6**
 - **13 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **102 tasks** to the next region slot
-- **30 LP** to T6
+- **101 tasks** to the next region slot
+- **7,830 LP** to T7
 - **3 blessing tasks** to t5
 
 ## Suggested sprint
 
-Tracker selected **102** of the **102** tasks currently needed.
+Tracker selected **101** of the **101** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
@@ -42,7 +42,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [250] Equip a seismic wand or seismic singularity. — Grade B, ~20s, unclustered, 200 LP
 - [253] Equip a piece of masterwork melee armour. — Grade B, ~20s, unclustered, 200 LP
 - [264] Equip a full set of Bandos armour. — Grade B, ~20s, unclustered, 200 LP
-- [265] Equip a full set of Armadyl armour. — Grade B, ~20s, unclustered, 200 LP
 - [267] Equip a piece of Torva, Pernix or Virtus armour. — Grade B, ~20s, unclustered, 200 LP
 - [317] Equip a drygore weapon. — Grade B, ~20s, unclustered, 80 LP
 - [377] Equip a full set of graahk, larupia or kyatt hunter gear. — Grade B, ~20s, unclustered, 30 LP
@@ -140,7 +139,8 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 
 ## Health
 
-- **healthy**
+- **warning**
+- Warning: Relic tier 6 is unlocked but no choice is recorded.
 
 Grade A = explicit task metadata. Grade B = conservative automatic inference; verify before relying on it.
 

@@ -155,6 +155,7 @@
     258,
     259,
     263,
+    265,
     266,
     282,
     283,
@@ -309,7 +310,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 298,
+  "completed_tasks": 299,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -322,23 +323,13 @@
     96,
     988
   ],
-  "league_points": 11970,
+  "league_points": 12170,
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 98,
-      "skill": "Constitution",
-      "to": 99
-    },
-    {
-      "from": 68,
-      "skill": "Summoning",
-      "to": 69
-    },
-    {
-      "from": 102,
+      "from": 104,
       "skill": "Necromancy",
-      "to": 104
+      "to": 105
     }
   ],
   "levels": {
@@ -361,7 +352,7 @@
     "Invention": 120,
     "Magic": 87,
     "Mining": 77,
-    "Necromancy": 104,
+    "Necromancy": 105,
     "Prayer": 99,
     "Ranged": 72,
     "Runecrafting": 73,
@@ -372,41 +363,19 @@
     "Thieving": 120,
     "Woodcutting": 62
   },
-  "mapped_completed_tasks": 298,
+  "mapped_completed_tasks": 299,
   "new_task_ids_since_previous_live_sync": [
-    259,
-    266,
-    1074
+    265
   ],
   "new_tasks_since_previous_live_sync": [
     {
       "blessing_task": false,
-      "description": "Defeat Kree'arra.",
-      "id": 259,
+      "description": "Equip a full set of Armadyl armour.",
+      "id": 265,
       "issue": null,
-      "name": "Defeat Kree'arra.",
-      "points": 80,
-      "region": "Asgarnia",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip a full set of subjugation armour.",
-      "id": 266,
-      "issue": null,
-      "name": "Equip a full set of Subjugation armour.",
+      "name": "Equip a full set of Armadyl armour.",
       "points": 200,
       "region": "Asgarnia",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach level 99 Constitution.",
-      "id": 1074,
-      "issue": null,
-      "name": "Reach level 99 in the Constitution skill.",
-      "points": 200,
-      "region": "Global",
       "tier": "elite"
     }
   ],
@@ -418,13 +387,13 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 102,
+    "remaining_tasks": 101,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 30,
-    "threshold": 12000,
-    "tier": 6
+    "remaining_points": 7830,
+    "threshold": 20000,
+    "tier": 7
   },
   "player": "112321",
   "relic_choice_vector": [
@@ -436,11 +405,11 @@
     null,
     null
   ],
-  "relic_tier": 5,
+  "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 3,
-  "timestamp_utc": "2026-09-03T18:08:01.631Z",
-  "total_level": 2199,
-  "tracker_health": "healthy",
+  "task_delta_since_previous_live_sync": 1,
+  "timestamp_utc": "2026-09-03T19:53:41.379Z",
+  "total_level": 2200,
+  "tracker_health": "warning",
   "unmapped_completed_task_ids": []
 }

@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-03T18:08:01.631Z**
+Updated: **2026-09-03T19:53:41.379Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-03T18:08:01.631Z**
 
 ## Current snapshot
 
-- **11,970 LP** · **298 tasks** · total level **2,199**
-- **13 blessing tasks** · relic **T5**
+- **12,170 LP** · **299 tasks** · total level **2,200**
+- **13 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **102 tasks** to 400
-- Next relic: **30 LP** to T6
+- Next region: **101 tasks** to 400
+- Next relic: **7,830 LP** to T7
 - Next blessing step: **3** to t5
 
 ## Active relics
@@ -115,6 +115,12 @@ Passive tier effects:
 - Augmented items gain item XP 4x faster.
 - Dungeoneering token gain is multiplied by 5, including Elite Dungeons.
 
+### T6 — choice not recorded
+Passive tier effects:
+- League XP multiplier is 16x.
+- Selected region drops are 8x as common.
+- All Seren spells and Seren prayers are unlocked, though their prerequisite spell/prayer books still need to be unlocked.
+
 ## Active blessings
 
 Path encoding: `1=Order, 2=Balance, 3=Chaos`
@@ -162,17 +168,15 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+3** · LP: **+480**
-- [259] Defeat Kree'arra. — hard, Asgarnia, 80 LP
-- [266] Equip a full set of Subjugation armour. — elite, Asgarnia, 200 LP
-- [1074] Reach level 99 in the Constitution skill. — elite, Global, 200 LP
-- Level-ups: Constitution 98→99; Summoning 68→69; Necromancy 102→104
+- Tasks: **+1** · LP: **+200**
+- [265] Equip a full set of Armadyl armour. — elite, Asgarnia, 200 LP
+- Level-ups: Necromancy 104→105
 
 ## Current task sprint
 
-- Need: **102 tasks**
-- Precomputed sprint: **102 tasks** (6 Grade A, 96 Grade B)
-- Action-time estimate excluding travel: **3380 sec**
+- Need: **101 tasks**
+- Precomputed sprint: **101 tasks** (6 Grade A, 95 Grade B)
+- Action-time estimate excluding travel: **3360 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -197,26 +201,27 @@ Passive step effects:
 - [250] **Equip a seismic wand or seismic singularity.** — Grade B · ~20s · unclustered
 - [253] **Equip a piece of masterwork melee armour.** — Grade B · ~20s · unclustered
 - [264] **Equip a full set of Bandos armour.** — Grade B · ~20s · unclustered
-- [265] **Equip a full set of Armadyl armour.** — Grade B · ~20s · unclustered
 - [267] **Equip a piece of Torva, Pernix or Virtus armour.** — Grade B · ~20s · unclustered
 - [317] **Equip a drygore weapon.** — Grade B · ~20s · unclustered
 - [377] **Equip a full set of graahk, larupia or kyatt hunter gear.** — Grade B · ~20s · unclustered
 - [615] **Equip an obsidian cape.** — Grade B · ~20s · unclustered
 - [618] **Equip a Toktz-Ket-Xil.** — Grade B · ~20s · unclustered
 - [619] **Equip a Tzhaar-Ket-Om.** — Grade B · ~20s · unclustered
+- [621] **Equip a Toktz-Xil-Ek.** — Grade B · ~20s · unclustered
 
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **6**
-- Timed Grade-B inferred candidates: **97**
-- Metadata sources: `{'manual_override': 9, 'none': 681, 'text_inference': 164}`
+- Timed Grade-B inferred candidates: **96**
+- Metadata sources: `{'manual_override': 9, 'none': 681, 'text_inference': 163}`
 
 ## Data health
 
-- Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-03T18:08:01.631Z
+- Overall: **warning**
+- WikiSync: **fresh** · 2026-09-03T19:53:41.379Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
+- WARNING `unrecorded_relic_choice`: Relic tier 6 is unlocked but no choice is recorded.
 
 > Always apply the active League effects above before normal RS3 mechanics.
 

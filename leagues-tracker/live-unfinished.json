@@ -1,5 +1,5 @@
 {
-  "completed_task_count": 298,
+  "completed_task_count": 299,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
@@ -7,14 +7,14 @@
     "accessible_requirements_unknown": 307,
     "blocked": 34,
     "excluded": 2,
-    "inferred_candidate": 130,
+    "inferred_candidate": 129,
     "known_issue": 1,
     "locked_region": 371,
     "manual_check": 3,
     "verified_ready": 6
   },
-  "timestamp_utc": "2026-09-03T18:08:01.631Z",
-  "unfinished_task_count": 854,
+  "timestamp_utc": "2026-09-03T19:53:41.379Z",
+  "unfinished_task_count": 853,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -2348,31 +2348,6 @@
       "lp_per_minute": 600.0,
       "metadata_source": "text_inference",
       "name": "Equip a full set of Bandos armour.",
-      "points": 200,
-      "recommendation_grade": "B",
-      "region": "Asgarnia",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "equip"
-      ],
-      "task_count_efficiency": 70,
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "description": "Equip a full set of Armadyl armour.",
-      "estimated_seconds": 20,
-      "id": 265,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 600.0,
-      "metadata_source": "text_inference",
-      "name": "Equip a full set of Armadyl armour.",
       "points": 200,
       "recommendation_grade": "B",
       "region": "Asgarnia",
@@ -18293,8 +18268,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 104,
-          "gap": 16,
+          "current": 105,
+          "gap": 15,
           "required": 120,
           "skill": "Necromancy",
           "type": "skill"

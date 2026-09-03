@@ -147,6 +147,7 @@
       258,
       259,
       263,
+      265,
       266,
       282,
       283,
@@ -301,9 +302,9 @@
       1250,
       1271
     ],
-    "completed_tasks": 298,
+    "completed_tasks": 299,
     "league": "Leagues II: Equilibrium",
-    "league_points": 11970,
+    "league_points": 12170,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
@@ -325,7 +326,7 @@
       "Invention": 120,
       "Magic": 87,
       "Mining": 77,
-      "Necromancy": 104,
+      "Necromancy": 105,
       "Prayer": 99,
       "Ranged": 72,
       "Runecrafting": 73,
@@ -337,8 +338,8 @@
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-03T18:08:01.631Z",
-    "total_level": 2199
+    "timestamp_utc": "2026-09-03T19:53:41.379Z",
+    "total_level": 2200
   },
   "blessings": {
     "derived_god_choices": {
@@ -511,62 +512,30 @@
     ]
   },
   "changes": {
-    "league_points_delta": 480,
+    "league_points_delta": 200,
     "level_ups": [
       {
-        "from": 98,
-        "skill": "Constitution",
-        "to": 99
-      },
-      {
-        "from": 68,
-        "skill": "Summoning",
-        "to": 69
-      },
-      {
-        "from": 102,
+        "from": 104,
         "skill": "Necromancy",
-        "to": 104
+        "to": 105
       }
     ],
     "new_task_ids": [
-      259,
-      266,
-      1074
+      265
     ],
     "new_tasks": [
       {
         "blessing_task": false,
-        "description": "Defeat Kree'arra.",
-        "id": 259,
+        "description": "Equip a full set of Armadyl armour.",
+        "id": 265,
         "issue": null,
-        "name": "Defeat Kree'arra.",
-        "points": 80,
-        "region": "Asgarnia",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Equip a full set of subjugation armour.",
-        "id": 266,
-        "issue": null,
-        "name": "Equip a full set of Subjugation armour.",
+        "name": "Equip a full set of Armadyl armour.",
         "points": 200,
         "region": "Asgarnia",
-        "tier": "elite"
-      },
-      {
-        "blessing_task": false,
-        "description": "Reach level 99 Constitution.",
-        "id": 1074,
-        "issue": null,
-        "name": "Reach level 99 in the Constitution skill.",
-        "points": 200,
-        "region": "Global",
         "tier": "elite"
       }
     ],
-    "task_delta": 3
+    "task_delta": 1
   },
   "forgotten_finish_opportunities": {
     "count": 5,
@@ -698,7 +667,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-03T18:08:01.631Z",
+    "generated_at_utc": "2026-09-03T19:53:41.379Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -708,30 +677,35 @@
       "errors": [],
       "expected_elective_slots": 2,
       "recorded_elective_regions": 2,
-      "status": "healthy",
-      "warnings": []
+      "status": "warning",
+      "warnings": [
+        {
+          "code": "unrecorded_relic_choice",
+          "detail": "Relic tier 6 is unlocked but no choice is recorded."
+        }
+      ]
     },
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 9,
         "none": 681,
-        "text_inference": 164
+        "text_inference": 163
       },
       "status_counts": {
         "accessible_requirements_unknown": 307,
         "blocked": 34,
         "excluded": 2,
-        "inferred_candidate": 130,
+        "inferred_candidate": 129,
         "known_issue": 1,
         "locked_region": 371,
         "manual_check": 3,
         "verified_ready": 6
       },
-      "timed_inferred_candidates": 97,
+      "timed_inferred_candidates": 96,
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 150193,
+      "age_seconds_at_generation": 156533,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -741,7 +715,7 @@
         "removed_task_ids": [],
         "status": "unchanged"
       },
-      "mapped_completed_tasks": 298,
+      "mapped_completed_tasks": 299,
       "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
@@ -753,7 +727,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-03T18:08:01.631Z"
+      "timestamp": "2026-09-03T19:53:41.379Z"
     }
   },
   "manual": {
@@ -822,15 +796,15 @@
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 102,
+      "remaining_tasks": 101,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 30,
-      "threshold": 12000,
-      "tier": 6
+      "remaining_points": 7830,
+      "threshold": 20000,
+      "tier": 7
     },
-    "relic_tier": 5
+    "relic_tier": 6
   },
   "regions": {
     "automatic": [
@@ -917,6 +891,14 @@
           "Dungeoneering token gain is multiplied by 5, including Elite Dungeons."
         ],
         "tier": 5
+      },
+      {
+        "effects": [
+          "League XP multiplier is 16x.",
+          "Selected region drops are 8x as common.",
+          "All Seren spells and Seren prayers are unlocked, though their prerequisite spell/prayer books still need to be unlocked."
+        ],
+        "tier": 6
       }
     ],
     "resolved": [
@@ -1020,7 +1002,7 @@
         "name": null,
         "threshold_points": 12000,
         "tier": 6,
-        "unlocked": false,
+        "unlocked": true,
         "xp_multiplier": 16
       },
       {
@@ -1036,7 +1018,7 @@
   },
   "schema_version": 2,
   "tasks": {
-    "inferred_candidate_count": 130,
+    "inferred_candidate_count": 129,
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
@@ -1045,13 +1027,13 @@
       "accessible_requirements_unknown": 307,
       "blocked": 34,
       "excluded": 2,
-      "inferred_candidate": 130,
+      "inferred_candidate": 129,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "unfinished_count": 854,
+    "unfinished_count": 853,
     "verified_ready_count": 6
   }
 }
