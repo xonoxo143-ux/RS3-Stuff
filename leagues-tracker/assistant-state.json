@@ -292,11 +292,11 @@
       "Agility": 99,
       "Archaeology": 60,
       "Attack": 78,
-      "Constitution": 94,
+      "Constitution": 95,
       "Construction": 53,
       "Cooking": 72,
       "Crafting": 88,
-      "Defence": 96,
+      "Defence": 98,
       "Divination": 80,
       "Dungeoneering": 39,
       "Farming": 26,
@@ -308,20 +308,20 @@
       "Invention": 78,
       "Magic": 76,
       "Mining": 77,
-      "Necromancy": 99,
+      "Necromancy": 101,
       "Prayer": 99,
       "Ranged": 52,
       "Runecrafting": 73,
-      "Slayer": 77,
+      "Slayer": 78,
       "Smithing": 80,
       "Strength": 78,
-      "Summoning": 67,
+      "Summoning": 68,
       "Thieving": 119,
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-02T23:42:28.911Z",
-    "total_level": 2098
+    "timestamp_utc": "2026-09-03T01:04:21.665Z",
+    "total_level": 2105
   },
   "blessings": {
     "derived_god_choices": {
@@ -494,57 +494,64 @@
     ]
   },
   "changes": {
-    "league_points_delta": 110,
+    "league_points_delta": 0,
     "level_ups": [
       {
-        "from": 95,
+        "from": 96,
         "skill": "Defence",
-        "to": 96
+        "to": 98
       },
       {
-        "from": 93,
+        "from": 94,
         "skill": "Constitution",
-        "to": 94
+        "to": 95
       },
       {
-        "from": 75,
+        "from": 77,
         "skill": "Slayer",
-        "to": 77
-      }
-    ],
-    "new_task_ids": [
-      254,
-      845
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Defeat any God Wars Dungeon boss 100 times.",
-        "id": 254,
-        "issue": null,
-        "name": "Defeat any God Wars Dungeon boss 100 times.",
-        "points": 80,
-        "region": "Asgarnia",
-        "tier": "hard"
+        "to": 78
       },
       {
-        "blessing_task": false,
-        "description": "Scatter 100 ashes of any kind.",
-        "id": 845,
-        "issue": null,
-        "name": "Scatter 100 ashes of any kind.",
-        "points": 30,
-        "region": "Global",
-        "tier": "medium"
+        "from": 67,
+        "skill": "Summoning",
+        "to": 68
+      },
+      {
+        "from": 99,
+        "skill": "Necromancy",
+        "to": 101
       }
     ],
-    "task_delta": 2
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "forgotten_finish_opportunities": {
     "count": 8,
     "note": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. For cumulative families, completed milestones provide only a guaranteed lower bound; exact states such as 19/20 require a source that exposes that counter.",
     "source": "opportunities.json",
     "top": [
+      {
+        "cluster": null,
+        "confidence": 0.95,
+        "estimated_seconds_if_known": null,
+        "id": 1066,
+        "name": "Reach level 99 in the Defence skill.",
+        "opportunity_score": 45,
+        "points": 200,
+        "reasons": [
+          {
+            "code": "tiny_skill_gap",
+            "detail": "Only 1 Defence level(s) remain to the task target.",
+            "gap": 1,
+            "skill": "Defence"
+          }
+        ],
+        "region": "Global",
+        "status": "blocked",
+        "suspected_remaining_effort": "1_skill_level_or_less",
+        "tier": "elite"
+      },
       {
         "cluster": null,
         "confidence": 0.9,
@@ -601,27 +608,6 @@
         "cluster": null,
         "confidence": 0.9,
         "estimated_seconds_if_known": null,
-        "id": 1066,
-        "name": "Reach level 99 in the Defence skill.",
-        "opportunity_score": 25,
-        "points": 200,
-        "reasons": [
-          {
-            "code": "small_skill_gap",
-            "detail": "Only 3 Defence levels remain to the task target.",
-            "gap": 3,
-            "skill": "Defence"
-          }
-        ],
-        "region": "Global",
-        "status": "blocked",
-        "suspected_remaining_effort": "unknown_check_progress",
-        "tier": "elite"
-      },
-      {
-        "cluster": null,
-        "confidence": 0.9,
-        "estimated_seconds_if_known": null,
         "id": 1074,
         "name": "Reach level 99 in the Constitution skill.",
         "opportunity_score": 25,
@@ -629,8 +615,8 @@
         "reasons": [
           {
             "code": "small_skill_gap",
-            "detail": "Only 5 Constitution levels remain to the task target.",
-            "gap": 5,
+            "detail": "Only 4 Constitution levels remain to the task target.",
+            "gap": 4,
             "skill": "Constitution"
           }
         ],
@@ -735,7 +721,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-02T23:42:28.911Z",
+    "generated_at_utc": "2026-09-03T01:04:21.665Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -768,7 +754,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 83861,
+      "age_seconds_at_generation": 88773,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -784,13 +770,13 @@
       "unmapped_completed_task_ids": []
     },
     "wikisync": {
-      "age_seconds_at_generation": 1,
+      "age_seconds_at_generation": 0,
       "authoritative_for": [
         "completed_task_ids",
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-02T23:42:28.911Z"
+      "timestamp": "2026-09-03T01:04:21.665Z"
     }
   },
   "manual": {

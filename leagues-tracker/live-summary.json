@@ -309,30 +309,40 @@
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 95,
+      "from": 96,
       "skill": "Defence",
-      "to": 96
+      "to": 98
     },
     {
-      "from": 93,
+      "from": 94,
       "skill": "Constitution",
-      "to": 94
+      "to": 95
     },
     {
-      "from": 75,
+      "from": 77,
       "skill": "Slayer",
-      "to": 77
+      "to": 78
+    },
+    {
+      "from": 67,
+      "skill": "Summoning",
+      "to": 68
+    },
+    {
+      "from": 99,
+      "skill": "Necromancy",
+      "to": 101
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
     "Attack": 78,
-    "Constitution": 94,
+    "Constitution": 95,
     "Construction": 53,
     "Cooking": 72,
     "Crafting": 88,
-    "Defence": 96,
+    "Defence": 98,
     "Divination": 80,
     "Dungeoneering": 39,
     "Farming": 26,
@@ -344,44 +354,20 @@
     "Invention": 78,
     "Magic": 76,
     "Mining": 77,
-    "Necromancy": 99,
+    "Necromancy": 101,
     "Prayer": 99,
     "Ranged": 52,
     "Runecrafting": 73,
-    "Slayer": 77,
+    "Slayer": 78,
     "Smithing": 80,
     "Strength": 78,
-    "Summoning": 67,
+    "Summoning": 68,
     "Thieving": 119,
     "Woodcutting": 62
   },
   "mapped_completed_tasks": 281,
-  "new_task_ids_since_previous_live_sync": [
-    254,
-    845
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Defeat any God Wars Dungeon boss 100 times.",
-      "id": 254,
-      "issue": null,
-      "name": "Defeat any God Wars Dungeon boss 100 times.",
-      "points": 80,
-      "region": "Asgarnia",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Scatter 100 ashes of any kind.",
-      "id": 845,
-      "issue": null,
-      "name": "Scatter 100 ashes of any kind.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "next_blessing": {
     "remaining_tasks": 4,
     "step": "t5",
@@ -410,9 +396,9 @@
   ],
   "relic_tier": 5,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 2,
-  "timestamp_utc": "2026-09-02T23:42:28.911Z",
-  "total_level": 2098,
+  "task_delta_since_previous_live_sync": 0,
+  "timestamp_utc": "2026-09-03T01:04:21.665Z",
+  "total_level": 2105,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

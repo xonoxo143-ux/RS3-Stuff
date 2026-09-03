@@ -1,12 +1,12 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-02T23:42:28.911Z**
+Updated: **2026-09-03T01:04:21.665Z**
 
 ## Current
 
 - **281 tasks**
 - **9,990 LP**
-- **Total level 2,098**
+- **Total level 2,105**
 - **Relic T5**
 - **12 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
@@ -139,8 +139,8 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 
 ## Nearly unlocked
 
-- [1066] Reach level 99 in the Defence skill. — Defence 96→99
-- [1074] Reach level 99 in the Constitution skill. — Constitution 94→99
+- [1066] Reach level 99 in the Defence skill. — Defence 98→99
+- [1074] Reach level 99 in the Constitution skill. — Constitution 95→99
 
 ## Health
 
@@ -150,10 +150,10 @@ Grade A = explicit task metadata. Grade B = conservative automatic inference; ve
 
 ## Forgotten-finish opportunities
 
+- [1066] **Reach level 99 in the Defence skill.** — score 45, 1_skill_level_or_less; Only 1 Defence level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
-- [1066] **Reach level 99 in the Defence skill.** — score 25, unknown_check_progress; Only 3 Defence levels remain to the task target.
-- [1074] **Reach level 99 in the Constitution skill.** — score 25, unknown_check_progress; Only 5 Constitution levels remain to the task target.
+- [1074] **Reach level 99 in the Constitution skill.** — score 25, unknown_check_progress; Only 4 Constitution levels remain to the task target.
 - [1153] **Reach at least level 30 in all non-elite skills.** — score 25, unknown_check_progress; Lowest relevant skill is Farming 26; 4 levels from the all-skills target.
 - [255] **Defeat any God Wars Dungeon boss 250 times.** — score 8, unknown_check_progress; Completed related milestone 100 proves at least 40% of the 250 cumulative target was reached.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.

@@ -7,9 +7,31 @@
     "all_skills_small_gap": 1,
     "family_mostly_complete": 1,
     "family_progress_lower_bound": 5,
-    "small_skill_gap": 2
+    "small_skill_gap": 1,
+    "tiny_skill_gap": 1
   },
   "top": [
+    {
+      "cluster": null,
+      "confidence": 0.95,
+      "estimated_seconds_if_known": null,
+      "id": 1066,
+      "name": "Reach level 99 in the Defence skill.",
+      "opportunity_score": 45,
+      "points": 200,
+      "reasons": [
+        {
+          "code": "tiny_skill_gap",
+          "detail": "Only 1 Defence level(s) remain to the task target.",
+          "gap": 1,
+          "skill": "Defence"
+        }
+      ],
+      "region": "Global",
+      "status": "blocked",
+      "suspected_remaining_effort": "1_skill_level_or_less",
+      "tier": "elite"
+    },
     {
       "cluster": null,
       "confidence": 0.9,
@@ -66,27 +88,6 @@
       "cluster": null,
       "confidence": 0.9,
       "estimated_seconds_if_known": null,
-      "id": 1066,
-      "name": "Reach level 99 in the Defence skill.",
-      "opportunity_score": 25,
-      "points": 200,
-      "reasons": [
-        {
-          "code": "small_skill_gap",
-          "detail": "Only 3 Defence levels remain to the task target.",
-          "gap": 3,
-          "skill": "Defence"
-        }
-      ],
-      "region": "Global",
-      "status": "blocked",
-      "suspected_remaining_effort": "unknown_check_progress",
-      "tier": "elite"
-    },
-    {
-      "cluster": null,
-      "confidence": 0.9,
-      "estimated_seconds_if_known": null,
       "id": 1074,
       "name": "Reach level 99 in the Constitution skill.",
       "opportunity_score": 25,
@@ -94,8 +95,8 @@
       "reasons": [
         {
           "code": "small_skill_gap",
-          "detail": "Only 5 Constitution levels remain to the task target.",
-          "gap": 5,
+          "detail": "Only 4 Constitution levels remain to the task target.",
+          "gap": 4,
           "skill": "Constitution"
         }
       ],

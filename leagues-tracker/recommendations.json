@@ -3867,8 +3867,8 @@
     {
       "blockers": [
         {
-          "current": 96,
-          "gap": 3,
+          "current": 98,
+          "gap": 1,
           "required": 99,
           "skill": "Defence",
           "type": "skill"
@@ -3888,8 +3888,8 @@
       "tier": "elite",
       "unknown_checks": [],
       "unlock": {
-        "current": 96,
-        "gap": 3,
+        "current": 98,
+        "gap": 1,
         "required": 99,
         "skill": "Defence",
         "type": "skill"
@@ -3898,8 +3898,8 @@
     {
       "blockers": [
         {
-          "current": 94,
-          "gap": 5,
+          "current": 95,
+          "gap": 4,
           "required": 99,
           "skill": "Constitution",
           "type": "skill"
@@ -3919,8 +3919,8 @@
       "tier": "elite",
       "unknown_checks": [],
       "unlock": {
-        "current": 94,
-        "gap": 5,
+        "current": 95,
+        "gap": 4,
         "required": 99,
         "skill": "Constitution",
         "type": "skill"

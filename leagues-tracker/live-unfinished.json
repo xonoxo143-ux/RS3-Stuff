@@ -13,7 +13,7 @@
     "manual_check": 3,
     "verified_ready": 6
   },
-  "timestamp_utc": "2026-09-02T23:42:28.911Z",
+  "timestamp_utc": "2026-09-03T01:04:21.665Z",
   "unfinished_task_count": 871,
   "unfinished_tasks": [
     {
@@ -17617,8 +17617,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 96,
-          "gap": 3,
+          "current": 98,
+          "gap": 1,
           "required": 99,
           "skill": "Defence",
           "type": "skill"
@@ -17881,8 +17881,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 94,
-          "gap": 5,
+          "current": 95,
+          "gap": 4,
           "required": 99,
           "skill": "Constitution",
           "type": "skill"
@@ -18101,8 +18101,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 77,
-          "gap": 22,
+          "current": 78,
+          "gap": 21,
           "required": 99,
           "skill": "Slayer",
           "type": "skill"
@@ -18200,8 +18200,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 67,
-          "gap": 32,
+          "current": 68,
+          "gap": 31,
           "required": 99,
           "skill": "Summoning",
           "type": "skill"
@@ -18597,8 +18597,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 77,
-          "gap": 43,
+          "current": 78,
+          "gap": 42,
           "required": 120,
           "skill": "Slayer",
           "type": "skill"
@@ -18696,8 +18696,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 99,
-          "gap": 21,
+          "current": 101,
+          "gap": 19,
           "required": 120,
           "skill": "Necromancy",
           "type": "skill"

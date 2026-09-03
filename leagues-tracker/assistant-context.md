@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-02T23:42:28.911Z**
+Updated: **2026-09-03T01:04:21.665Z**
 
 ## Tracker discipline
 
@@ -15,7 +15,7 @@ Updated: **2026-09-02T23:42:28.911Z**
 
 ## Current snapshot
 
-- **9,990 LP** · **281 tasks** · total level **2,098**
+- **9,990 LP** · **281 tasks** · total level **2,105**
 - **12 blessing tasks** · relic **T5**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
 - Next region: **119 tasks** to 400
@@ -162,10 +162,8 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+2** · LP: **+110**
-- [254] Defeat any God Wars Dungeon boss 100 times. — hard, Asgarnia, 80 LP
-- [845] Scatter 100 ashes of any kind. — medium, Global, 30 LP
-- Level-ups: Defence 95→96; Constitution 93→94; Slayer 75→77
+- Tasks: **+0** · LP: **+0**
+- Level-ups: Defence 96→98; Constitution 94→95; Slayer 77→78; Summoning 67→68; Necromancy 99→101
 
 ## Current task sprint
 
@@ -213,7 +211,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-02T23:42:28.911Z
+- WikiSync: **fresh** · 2026-09-03T01:04:21.665Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
@@ -221,10 +219,10 @@ Passive step effects:
 
 ## Forgotten-finish opportunities
 
+- [1066] **Reach level 99 in the Defence skill.** — score 45, 1_skill_level_or_less; Only 1 Defence level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
-- [1066] **Reach level 99 in the Defence skill.** — score 25, unknown_check_progress; Only 3 Defence levels remain to the task target.
-- [1074] **Reach level 99 in the Constitution skill.** — score 25, unknown_check_progress; Only 5 Constitution levels remain to the task target.
+- [1074] **Reach level 99 in the Constitution skill.** — score 25, unknown_check_progress; Only 4 Constitution levels remain to the task target.
 - [1153] **Reach at least level 30 in all non-elite skills.** — score 25, unknown_check_progress; Lowest relevant skill is Farming 26; 4 levels from the all-skills target.
 - [255] **Defeat any God Wars Dungeon boss 250 times.** — score 8, unknown_check_progress; Completed related milestone 100 proves at least 40% of the 250 cumulative target was reached.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
