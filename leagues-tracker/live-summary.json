@@ -149,6 +149,8 @@
     222,
     241,
     254,
+    255,
+    256,
     257,
     258,
     263,
@@ -254,6 +256,10 @@
     917,
     920,
     922,
+    953,
+    954,
+    955,
+    956,
     964,
     972,
     980,
@@ -265,6 +271,7 @@
     988,
     1052,
     1060,
+    1066,
     1076,
     1079,
     1080,
@@ -299,7 +306,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 288,
+  "completed_tasks": 295,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -312,44 +319,64 @@
     96,
     988
   ],
-  "league_points": 10810,
+  "league_points": 11490,
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 95,
+      "from": 78,
+      "skill": "Attack",
+      "to": 79
+    },
+    {
+      "from": 98,
+      "skill": "Defence",
+      "to": 99
+    },
+    {
+      "from": 78,
+      "skill": "Strength",
+      "to": 79
+    },
+    {
+      "from": 96,
       "skill": "Constitution",
-      "to": 96
+      "to": 97
     },
     {
-      "from": 76,
+      "from": 82,
       "skill": "Magic",
-      "to": 82
+      "to": 87
     },
     {
-      "from": 80,
-      "skill": "Smithing",
-      "to": 82
+      "from": 68,
+      "skill": "Herblore",
+      "to": 74
+    },
+    {
+      "from": 119,
+      "skill": "Thieving",
+      "to": 120
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
-    "Attack": 78,
-    "Constitution": 96,
+    "Attack": 79,
+    "Constitution": 97,
     "Construction": 53,
     "Cooking": 72,
     "Crafting": 88,
-    "Defence": 98,
+    "Defence": 99,
     "Divination": 80,
     "Dungeoneering": 39,
     "Farming": 26,
     "Firemaking": 54,
     "Fishing": 40,
     "Fletching": 69,
-    "Herblore": 68,
+    "Herblore": 74,
     "Hunter": 45,
     "Invention": 120,
-    "Magic": 82,
+    "Magic": 87,
     "Mining": 77,
     "Necromancy": 101,
     "Prayer": 99,
@@ -357,58 +384,91 @@
     "Runecrafting": 73,
     "Slayer": 78,
     "Smithing": 82,
-    "Strength": 78,
+    "Strength": 79,
     "Summoning": 68,
-    "Thieving": 119,
+    "Thieving": 120,
     "Woodcutting": 62
   },
-  "mapped_completed_tasks": 288,
+  "mapped_completed_tasks": 295,
   "new_task_ids_since_previous_live_sync": [
-    241,
-    263,
-    890,
-    988
+    255,
+    256,
+    953,
+    954,
+    955,
+    956,
+    1066
   ],
   "new_tasks_since_previous_live_sync": [
     {
       "blessing_task": false,
-      "description": "Mine some orichalcite ore in the Mining Guild.",
-      "id": 241,
+      "description": "Defeat any God Wars Dungeon boss 250 times.",
+      "id": 255,
       "issue": null,
-      "name": "Mine some orichalcite in the Mining Guild.",
-      "points": 30,
-      "region": "Asgarnia",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": true,
-      "description": "Assemble any godsword from the God Wars Dungeon.",
-      "id": 263,
-      "issue": null,
-      "name": "Assemble any godsword from the God Wars Dungeon.",
+      "name": "Defeat any God Wars Dungeon boss 250 times.",
       "points": 80,
       "region": "Asgarnia",
       "tier": "hard"
     },
     {
       "blessing_task": false,
-      "description": "Mine 40 runite ore.",
-      "id": 890,
+      "description": "Defeat Commander Zilyana",
+      "id": 256,
       "issue": null,
-      "name": "Mine 40 runite ore.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
+      "name": "Defeat Commander Zilyana.",
+      "points": 80,
+      "region": "Asgarnia",
+      "tier": "hard"
     },
     {
       "blessing_task": false,
-      "description": "Cast a wave spell.",
-      "id": 988,
+      "description": "Make 15 antifire potions.",
+      "id": 953,
       "issue": null,
-      "name": "Cast a Wave spell (Classic combat mode recommended).",
+      "name": "Make 15 antifire potions.",
       "points": 80,
       "region": "Global",
       "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Clean 50 grimy cadantine.",
+      "id": 954,
+      "issue": null,
+      "name": "Clean 50 grimy cadantine.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Clean 100 grimy lantadyme.",
+      "id": 955,
+      "issue": null,
+      "name": "Clean 100 grimy lantadyme.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Clean 100 grimy dwarf weed.",
+      "id": 956,
+      "issue": null,
+      "name": "Clean 100 dwarf weed.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Reach level 99 Defence.",
+      "id": 1066,
+      "issue": null,
+      "name": "Reach level 99 in the Defence skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
     }
   ],
   "next_blessing": {
@@ -419,11 +479,11 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 112,
+    "remaining_tasks": 105,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 1190,
+    "remaining_points": 510,
     "threshold": 12000,
     "tier": 6
   },
@@ -439,9 +499,9 @@
   ],
   "relic_tier": 5,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 4,
-  "timestamp_utc": "2026-09-03T05:52:45.531Z",
-  "total_level": 2156,
+  "task_delta_since_previous_live_sync": 7,
+  "timestamp_utc": "2026-09-03T11:21:45.357Z",
+  "total_level": 2172,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

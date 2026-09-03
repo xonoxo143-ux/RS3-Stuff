@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-03T05:52:45.531Z**
+Updated: **2026-09-03T11:21:45.357Z**
 
 ## Current
 
-- **288 tasks**
-- **10,810 LP**
-- **Total level 2,156**
+- **295 tasks**
+- **11,490 LP**
+- **Total level 2,172**
 - **Relic T5**
 - **13 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **112 tasks** to the next region slot
-- **1,190 LP** to T6
+- **105 tasks** to the next region slot
+- **510 LP** to T6
 - **3 blessing tasks** to t5
 
 ## Suggested sprint
 
-Tracker selected **105** of the **112** tasks currently needed.
+Tracker selected **104** of the **105** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
@@ -115,7 +115,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [899] Make a chocolate cake. — Grade B, ~60s, unclustered, 30 LP
 - [906] Craft some combination runes. — Grade B, ~60s, unclustered, 30 LP
 - [909] Craft 10,000 runes. — Grade B, ~60s, unclustered, 80 LP
-- [953] Make 15 antifire potions. — Grade B, ~60s, unclustered, 80 LP
 - [960] Fletch some broad arrows or bolts. — Grade B, ~60s, unclustered, 80 LP
 - [963] Fletch a rune crossbow. — Grade B, ~60s, unclustered, 80 LP
 - [1027] Fletch 20 elder shortbows (unstrung). — Grade B, ~60s, unclustered, 200 LP
@@ -139,8 +138,7 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 
 ## Nearly unlocked
 
-- [1066] Reach level 99 in the Defence skill. — Defence 98→99
-- [1074] Reach level 99 in the Constitution skill. — Constitution 96→99
+- [1074] Reach level 99 in the Constitution skill. — Constitution 97→99
 
 ## Health
 
@@ -150,12 +148,10 @@ Grade A = explicit task metadata. Grade B = conservative automatic inference; ve
 
 ## Forgotten-finish opportunities
 
-- [1066] **Reach level 99 in the Defence skill.** — score 45, 1_skill_level_or_less; Only 1 Defence level(s) remain to the task target.
+- [1074] **Reach level 99 in the Constitution skill.** — score 45, 2_skill_levels_or_less; Only 2 Constitution level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
-- [1074] **Reach level 99 in the Constitution skill.** — score 25, unknown_check_progress; Only 3 Constitution levels remain to the task target.
 - [1153] **Reach at least level 30 in all non-elite skills.** — score 25, unknown_check_progress; Lowest relevant skill is Farming 26; 4 levels from the all-skills target.
-- [255] **Defeat any God Wars Dungeon boss 250 times.** — score 8, unknown_check_progress; Completed related milestone 100 proves at least 40% of the 250 cumulative target was reached.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
 - [852] **Catch 35 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.
 

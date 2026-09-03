@@ -341,20 +341,20 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
-      "none": 687,
-      "text_inference": 168
+      "none": 682,
+      "text_inference": 166
     },
     "status_counts": {
-      "accessible_requirements_unknown": 313,
-      "blocked": 36,
+      "accessible_requirements_unknown": 308,
+      "blocked": 35,
       "excluded": 2,
-      "inferred_candidate": 132,
+      "inferred_candidate": 131,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "timed_inferred_candidates": 99,
+    "timed_inferred_candidates": 98,
     "timed_verified_tasks": 6
   },
   "fastest_inferred_backups": [
@@ -1273,8 +1273,8 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 3520,
-    "inferred_count": 99,
+    "estimated_action_seconds_excluding_travel": 3460,
+    "inferred_count": 98,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [
       "bronze bolts/materials",
@@ -1283,7 +1283,7 @@
       "milk",
       "cake ingredients"
     ],
-    "selected_count": 105,
+    "selected_count": 104,
     "tasks": [
       {
         "blockers": [],
@@ -2836,22 +2836,6 @@
         "cluster": null,
         "confidence": 0.72,
         "estimated_seconds": 60,
-        "id": 953,
-        "items_to_prepare": [],
-        "lp_per_minute": 80.0,
-        "name": "Make 15 antifire potions.",
-        "points": 80,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "hard",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
         "id": 960,
         "items_to_prepare": [],
         "lp_per_minute": 80.0,
@@ -2976,7 +2960,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 112,
+    "tasks_needed": 105,
     "verified_count": 6
   },
   "highest_lp_per_minute": [
@@ -3867,39 +3851,8 @@
     {
       "blockers": [
         {
-          "current": 98,
-          "gap": 1,
-          "required": 99,
-          "skill": "Defence",
-          "type": "skill"
-        }
-      ],
-      "cluster": null,
-      "confidence": 0.55,
-      "estimated_seconds": null,
-      "id": 1066,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "name": "Reach level 99 in the Defence skill.",
-      "points": 200,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "blocked",
-      "tier": "elite",
-      "unknown_checks": [],
-      "unlock": {
-        "current": 98,
-        "gap": 1,
-        "required": 99,
-        "skill": "Defence",
-        "type": "skill"
-      }
-    },
-    {
-      "blockers": [
-        {
-          "current": 96,
-          "gap": 3,
+          "current": 97,
+          "gap": 2,
           "required": 99,
           "skill": "Constitution",
           "type": "skill"
@@ -3919,8 +3872,8 @@
       "tier": "elite",
       "unknown_checks": [],
       "unlock": {
-        "current": 96,
-        "gap": 3,
+        "current": 97,
+        "gap": 2,
         "required": 99,
         "skill": "Constitution",
         "type": "skill"
@@ -3930,7 +3883,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 112,
+    "remaining_tasks": 105,
     "tasks": 400
   },
   "schema_version": 1

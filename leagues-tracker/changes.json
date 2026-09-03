@@ -1,69 +1,122 @@
 {
-  "league_points_delta": 220,
+  "league_points_delta": 680,
   "level_ups": [
     {
-      "from": 95,
+      "from": 78,
+      "skill": "Attack",
+      "to": 79
+    },
+    {
+      "from": 98,
+      "skill": "Defence",
+      "to": 99
+    },
+    {
+      "from": 78,
+      "skill": "Strength",
+      "to": 79
+    },
+    {
+      "from": 96,
       "skill": "Constitution",
-      "to": 96
+      "to": 97
     },
     {
-      "from": 76,
+      "from": 82,
       "skill": "Magic",
-      "to": 82
+      "to": 87
     },
     {
-      "from": 80,
-      "skill": "Smithing",
-      "to": 82
+      "from": 68,
+      "skill": "Herblore",
+      "to": 74
+    },
+    {
+      "from": 119,
+      "skill": "Thieving",
+      "to": 120
     }
   ],
   "new_task_ids": [
-    241,
-    263,
-    890,
-    988
+    255,
+    256,
+    953,
+    954,
+    955,
+    956,
+    1066
   ],
   "new_tasks": [
     {
       "blessing_task": false,
-      "description": "Mine some orichalcite ore in the Mining Guild.",
-      "id": 241,
+      "description": "Defeat any God Wars Dungeon boss 250 times.",
+      "id": 255,
       "issue": null,
-      "name": "Mine some orichalcite in the Mining Guild.",
-      "points": 30,
-      "region": "Asgarnia",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": true,
-      "description": "Assemble any godsword from the God Wars Dungeon.",
-      "id": 263,
-      "issue": null,
-      "name": "Assemble any godsword from the God Wars Dungeon.",
+      "name": "Defeat any God Wars Dungeon boss 250 times.",
       "points": 80,
       "region": "Asgarnia",
       "tier": "hard"
     },
     {
       "blessing_task": false,
-      "description": "Mine 40 runite ore.",
-      "id": 890,
+      "description": "Defeat Commander Zilyana",
+      "id": 256,
       "issue": null,
-      "name": "Mine 40 runite ore.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
+      "name": "Defeat Commander Zilyana.",
+      "points": 80,
+      "region": "Asgarnia",
+      "tier": "hard"
     },
     {
       "blessing_task": false,
-      "description": "Cast a wave spell.",
-      "id": 988,
+      "description": "Make 15 antifire potions.",
+      "id": 953,
       "issue": null,
-      "name": "Cast a Wave spell (Classic combat mode recommended).",
+      "name": "Make 15 antifire potions.",
       "points": 80,
       "region": "Global",
       "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Clean 50 grimy cadantine.",
+      "id": 954,
+      "issue": null,
+      "name": "Clean 50 grimy cadantine.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Clean 100 grimy lantadyme.",
+      "id": 955,
+      "issue": null,
+      "name": "Clean 100 grimy lantadyme.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Clean 100 grimy dwarf weed.",
+      "id": 956,
+      "issue": null,
+      "name": "Clean 100 dwarf weed.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Reach level 99 Defence.",
+      "id": 1066,
+      "issue": null,
+      "name": "Reach level 99 in the Defence skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
     }
   ],
-  "task_delta": 4
+  "task_delta": 7
 }

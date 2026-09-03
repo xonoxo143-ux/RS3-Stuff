@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-03T05:52:45.531Z**
+Updated: **2026-09-03T11:21:45.357Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-03T05:52:45.531Z**
 
 ## Current snapshot
 
-- **10,810 LP** · **288 tasks** · total level **2,156**
+- **11,490 LP** · **295 tasks** · total level **2,172**
 - **13 blessing tasks** · relic **T5**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **112 tasks** to 400
-- Next relic: **1,190 LP** to T6
+- Next region: **105 tasks** to 400
+- Next relic: **510 LP** to T6
 - Next blessing step: **3** to t5
 
 ## Active relics
@@ -162,18 +162,21 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+4** · LP: **+220**
-- [241] Mine some orichalcite in the Mining Guild. — medium, Asgarnia, 30 LP
-- [263] Assemble any godsword from the God Wars Dungeon. — hard, Asgarnia, 80 LP
-- [890] Mine 40 runite ore. — medium, Global, 30 LP
-- [988] Cast a Wave spell (Classic combat mode recommended). — hard, Global, 80 LP
-- Level-ups: Constitution 95→96; Magic 76→82; Smithing 80→82
+- Tasks: **+7** · LP: **+680**
+- [255] Defeat any God Wars Dungeon boss 250 times. — hard, Asgarnia, 80 LP
+- [256] Defeat Commander Zilyana. — hard, Asgarnia, 80 LP
+- [953] Make 15 antifire potions. — hard, Global, 80 LP
+- [954] Clean 50 grimy cadantine. — hard, Global, 80 LP
+- [955] Clean 100 grimy lantadyme. — hard, Global, 80 LP
+- [956] Clean 100 dwarf weed. — hard, Global, 80 LP
+- [1066] Reach level 99 in the Defence skill. — elite, Global, 200 LP
+- Level-ups: Attack 78→79; Defence 98→99; Strength 78→79; Constitution 96→97; Magic 82→87; Herblore 68→74; Thieving 119→120
 
 ## Current task sprint
 
-- Need: **112 tasks**
-- Precomputed sprint: **105 tasks** (6 Grade A, 99 Grade B)
-- Action-time estimate excluding travel: **3520 sec**
+- Need: **105 tasks**
+- Precomputed sprint: **104 tasks** (6 Grade A, 98 Grade B)
+- Action-time estimate excluding travel: **3460 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -209,13 +212,13 @@ Passive step effects:
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **6**
-- Timed Grade-B inferred candidates: **99**
-- Metadata sources: `{'manual_override': 9, 'none': 687, 'text_inference': 168}`
+- Timed Grade-B inferred candidates: **98**
+- Metadata sources: `{'manual_override': 9, 'none': 682, 'text_inference': 166}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-03T05:52:45.531Z
+- WikiSync: **fresh** · 2026-09-03T11:21:45.357Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
@@ -223,12 +226,10 @@ Passive step effects:
 
 ## Forgotten-finish opportunities
 
-- [1066] **Reach level 99 in the Defence skill.** — score 45, 1_skill_level_or_less; Only 1 Defence level(s) remain to the task target.
+- [1074] **Reach level 99 in the Constitution skill.** — score 45, 2_skill_levels_or_less; Only 2 Constitution level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
-- [1074] **Reach level 99 in the Constitution skill.** — score 25, unknown_check_progress; Only 3 Constitution levels remain to the task target.
 - [1153] **Reach at least level 30 in all non-elite skills.** — score 25, unknown_check_progress; Lowest relevant skill is Farming 26; 4 levels from the all-skills target.
-- [255] **Defeat any God Wars Dungeon boss 250 times.** — score 8, unknown_check_progress; Completed related milestone 100 proves at least 40% of the 250 cumulative target was reached.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
 - [852] **Catch 35 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.
 
