@@ -2,29 +2,9 @@
   "league_points_delta": 0,
   "level_ups": [
     {
-      "from": 96,
-      "skill": "Defence",
-      "to": 98
-    },
-    {
-      "from": 94,
-      "skill": "Constitution",
-      "to": 95
-    },
-    {
-      "from": 77,
-      "skill": "Slayer",
-      "to": 78
-    },
-    {
-      "from": 67,
-      "skill": "Summoning",
-      "to": 68
-    },
-    {
-      "from": 99,
-      "skill": "Necromancy",
-      "to": 101
+      "from": 78,
+      "skill": "Invention",
+      "to": 84
     }
   ],
   "new_task_ids": [],

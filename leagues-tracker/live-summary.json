@@ -309,29 +309,9 @@
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 96,
-      "skill": "Defence",
-      "to": 98
-    },
-    {
-      "from": 94,
-      "skill": "Constitution",
-      "to": 95
-    },
-    {
-      "from": 77,
-      "skill": "Slayer",
-      "to": 78
-    },
-    {
-      "from": 67,
-      "skill": "Summoning",
-      "to": 68
-    },
-    {
-      "from": 99,
-      "skill": "Necromancy",
-      "to": 101
+      "from": 78,
+      "skill": "Invention",
+      "to": 84
     }
   ],
   "levels": {
@@ -351,7 +331,7 @@
     "Fletching": 69,
     "Herblore": 68,
     "Hunter": 45,
-    "Invention": 78,
+    "Invention": 84,
     "Magic": 76,
     "Mining": 77,
     "Necromancy": 101,
@@ -397,8 +377,8 @@
   "relic_tier": 5,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
   "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-03T01:04:21.665Z",
-  "total_level": 2105,
+  "timestamp_utc": "2026-09-03T01:09:37.020Z",
+  "total_level": 2111,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }
