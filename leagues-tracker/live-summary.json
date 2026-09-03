@@ -261,11 +261,14 @@
     987,
     1052,
     1060,
+    1076,
     1079,
     1080,
     1087,
+    1100,
     1103,
     1118,
+    1121,
     1141,
     1146,
     1147,
@@ -292,7 +295,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 281,
+  "completed_tasks": 284,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -305,13 +308,13 @@
     96,
     988
   ],
-  "league_points": 9990,
+  "league_points": 10590,
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 78,
+      "from": 84,
       "skill": "Invention",
-      "to": 84
+      "to": 120
     }
   ],
   "levels": {
@@ -331,7 +334,7 @@
     "Fletching": 69,
     "Herblore": 68,
     "Hunter": 45,
-    "Invention": 84,
+    "Invention": 120,
     "Magic": 76,
     "Mining": 77,
     "Necromancy": 101,
@@ -345,9 +348,44 @@
     "Thieving": 119,
     "Woodcutting": 62
   },
-  "mapped_completed_tasks": 281,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 284,
+  "new_task_ids_since_previous_live_sync": [
+    1076,
+    1100,
+    1121
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Reach level 99 Invention.",
+      "id": 1076,
+      "issue": null,
+      "name": "Reach level 99 in the Invention skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "description": "Reach level 120 Invention.",
+      "id": 1100,
+      "issue": null,
+      "name": "Reach level 120 in the Invention skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "description": "Obtain 50 million Invention XP.",
+      "id": 1121,
+      "issue": null,
+      "name": "Obtain 50 million Invention XP.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    }
+  ],
   "next_blessing": {
     "remaining_tasks": 4,
     "step": "t5",
@@ -356,11 +394,11 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 119,
+    "remaining_tasks": 116,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 2010,
+    "remaining_points": 1410,
     "threshold": 12000,
     "tier": 6
   },
@@ -376,9 +414,9 @@
   ],
   "relic_tier": 5,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-03T01:09:37.020Z",
-  "total_level": 2111,
+  "task_delta_since_previous_live_sync": 3,
+  "timestamp_utc": "2026-09-03T01:33:09.682Z",
+  "total_level": 2147,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

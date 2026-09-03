@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-03T01:09:37.020Z**
+Updated: **2026-09-03T01:33:09.682Z**
 
 ## Current
 
-- **281 tasks**
-- **9,990 LP**
-- **Total level 2,111**
+- **284 tasks**
+- **10,590 LP**
+- **Total level 2,147**
 - **Relic T5**
 - **12 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **119 tasks** to the next region slot
-- **2,010 LP** to T6
+- **116 tasks** to the next region slot
+- **1,410 LP** to T6
 - **4 blessing tasks** to t5
 
 ## Suggested sprint
 
-Tracker selected **105** of the **119** tasks currently needed.
+Tracker selected **105** of the **116** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP

@@ -341,12 +341,12 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
-      "none": 692,
-      "text_inference": 170
+      "none": 691,
+      "text_inference": 168
     },
     "status_counts": {
-      "accessible_requirements_unknown": 317,
-      "blocked": 38,
+      "accessible_requirements_unknown": 316,
+      "blocked": 36,
       "excluded": 3,
       "inferred_candidate": 132,
       "known_issue": 1,
@@ -2976,7 +2976,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 119,
+    "tasks_needed": 116,
     "verified_count": 6
   },
   "highest_lp_per_minute": [
@@ -3930,7 +3930,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 119,
+    "remaining_tasks": 116,
     "tasks": 400
   },
   "schema_version": 1

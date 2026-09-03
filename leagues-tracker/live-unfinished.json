@@ -1,11 +1,11 @@
 {
-  "completed_task_count": 281,
+  "completed_task_count": 284,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
   "status_counts": {
-    "accessible_requirements_unknown": 317,
-    "blocked": 38,
+    "accessible_requirements_unknown": 316,
+    "blocked": 36,
     "excluded": 3,
     "inferred_candidate": 132,
     "known_issue": 1,
@@ -13,8 +13,8 @@
     "manual_check": 3,
     "verified_ready": 6
   },
-  "timestamp_utc": "2026-09-03T01:09:37.020Z",
-  "unfinished_task_count": 871,
+  "timestamp_utc": "2026-09-03T01:33:09.682Z",
+  "unfinished_task_count": 868,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -17947,39 +17947,6 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 84,
-          "gap": 15,
-          "required": 99,
-          "skill": "Invention",
-          "type": "skill"
-        }
-      ],
-      "cluster": null,
-      "confidence": 0.55,
-      "description": "Reach level 99 Invention.",
-      "estimated_seconds": null,
-      "id": 1076,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "text_inference",
-      "name": "Reach level 99 in the Invention skill.",
-      "points": 200,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "blocked",
-      "tags": [
-        "inferred",
-        "invention"
-      ],
-      "task_count_efficiency": null,
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [
-        {
           "current": 76,
           "gap": 23,
           "required": 99,
@@ -18630,39 +18597,6 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 84,
-          "gap": 36,
-          "required": 120,
-          "skill": "Invention",
-          "type": "skill"
-        }
-      ],
-      "cluster": null,
-      "confidence": 0.55,
-      "description": "Reach level 120 Invention.",
-      "estimated_seconds": null,
-      "id": 1100,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "text_inference",
-      "name": "Reach level 120 in the Invention skill.",
-      "points": 200,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "blocked",
-      "tags": [
-        "inferred",
-        "invention"
-      ],
-      "task_count_efficiency": null,
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [
-        {
           "current": 60,
           "gap": 60,
           "required": 120,
@@ -19068,28 +19002,6 @@
       "lp_per_minute": null,
       "metadata_source": "none",
       "name": "Obtain 50 million Dungeoneering XP.",
-      "points": 200,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Obtain 50 million Invention XP.",
-      "estimated_seconds": null,
-      "id": 1121,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Obtain 50 million Invention XP.",
       "points": 200,
       "recommendation_grade": "U",
       "region": "Global",

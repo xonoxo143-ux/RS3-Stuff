@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-03T01:09:37.020Z**
+Updated: **2026-09-03T01:33:09.682Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-03T01:09:37.020Z**
 
 ## Current snapshot
 
-- **9,990 LP** · **281 tasks** · total level **2,111**
+- **10,590 LP** · **284 tasks** · total level **2,147**
 - **12 blessing tasks** · relic **T5**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **119 tasks** to 400
-- Next relic: **2,010 LP** to T6
+- Next region: **116 tasks** to 400
+- Next relic: **1,410 LP** to T6
 - Next blessing step: **4** to t5
 
 ## Active relics
@@ -162,12 +162,15 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
-- Level-ups: Invention 78→84
+- Tasks: **+3** · LP: **+600**
+- [1076] Reach level 99 in the Invention skill. — elite, Global, 200 LP
+- [1100] Reach level 120 in the Invention skill. — elite, Global, 200 LP
+- [1121] Obtain 50 million Invention XP. — elite, Global, 200 LP
+- Level-ups: Invention 84→120
 
 ## Current task sprint
 
-- Need: **119 tasks**
+- Need: **116 tasks**
 - Precomputed sprint: **105 tasks** (6 Grade A, 99 Grade B)
 - Action-time estimate excluding travel: **3520 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
@@ -206,12 +209,12 @@ Passive step effects:
 
 - Timed Grade-A tasks: **6**
 - Timed Grade-B inferred candidates: **99**
-- Metadata sources: `{'manual_override': 9, 'none': 692, 'text_inference': 170}`
+- Metadata sources: `{'manual_override': 9, 'none': 691, 'text_inference': 168}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-03T01:09:37.020Z
+- WikiSync: **fresh** · 2026-09-03T01:33:09.682Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 

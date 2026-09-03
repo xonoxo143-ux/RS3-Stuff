@@ -1,13 +1,48 @@
 {
-  "league_points_delta": 0,
+  "league_points_delta": 600,
   "level_ups": [
     {
-      "from": 78,
+      "from": 84,
       "skill": "Invention",
-      "to": 84
+      "to": 120
     }
   ],
-  "new_task_ids": [],
-  "new_tasks": [],
-  "task_delta": 0
+  "new_task_ids": [
+    1076,
+    1100,
+    1121
+  ],
+  "new_tasks": [
+    {
+      "blessing_task": false,
+      "description": "Reach level 99 Invention.",
+      "id": 1076,
+      "issue": null,
+      "name": "Reach level 99 in the Invention skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "description": "Reach level 120 Invention.",
+      "id": 1100,
+      "issue": null,
+      "name": "Reach level 120 in the Invention skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "description": "Obtain 50 million Invention XP.",
+      "id": 1121,
+      "issue": null,
+      "name": "Obtain 50 million Invention XP.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    }
+  ],
+  "task_delta": 3
 }

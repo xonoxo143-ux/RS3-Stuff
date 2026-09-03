@@ -253,11 +253,14 @@
       987,
       1052,
       1060,
+      1076,
       1079,
       1080,
       1087,
+      1100,
       1103,
       1118,
+      1121,
       1141,
       1146,
       1147,
@@ -284,9 +287,9 @@
       1250,
       1271
     ],
-    "completed_tasks": 281,
+    "completed_tasks": 284,
     "league": "Leagues II: Equilibrium",
-    "league_points": 9990,
+    "league_points": 10590,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
@@ -305,7 +308,7 @@
       "Fletching": 69,
       "Herblore": 68,
       "Hunter": 45,
-      "Invention": 84,
+      "Invention": 120,
       "Magic": 76,
       "Mining": 77,
       "Necromancy": 101,
@@ -320,8 +323,8 @@
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-03T01:09:37.020Z",
-    "total_level": 2111
+    "timestamp_utc": "2026-09-03T01:33:09.682Z",
+    "total_level": 2147
   },
   "blessings": {
     "derived_god_choices": {
@@ -494,17 +497,52 @@
     ]
   },
   "changes": {
-    "league_points_delta": 0,
+    "league_points_delta": 600,
     "level_ups": [
       {
-        "from": 78,
+        "from": 84,
         "skill": "Invention",
-        "to": 84
+        "to": 120
       }
     ],
-    "new_task_ids": [],
-    "new_tasks": [],
-    "task_delta": 0
+    "new_task_ids": [
+      1076,
+      1100,
+      1121
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "description": "Reach level 99 Invention.",
+        "id": 1076,
+        "issue": null,
+        "name": "Reach level 99 in the Invention skill.",
+        "points": 200,
+        "region": "Global",
+        "tier": "elite"
+      },
+      {
+        "blessing_task": false,
+        "description": "Reach level 120 Invention.",
+        "id": 1100,
+        "issue": null,
+        "name": "Reach level 120 in the Invention skill.",
+        "points": 200,
+        "region": "Global",
+        "tier": "elite"
+      },
+      {
+        "blessing_task": false,
+        "description": "Obtain 50 million Invention XP.",
+        "id": 1121,
+        "issue": null,
+        "name": "Obtain 50 million Invention XP.",
+        "points": 200,
+        "region": "Global",
+        "tier": "elite"
+      }
+    ],
+    "task_delta": 3
   },
   "forgotten_finish_opportunities": {
     "count": 8,
@@ -701,7 +739,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-03T01:09:37.020Z",
+    "generated_at_utc": "2026-09-03T01:33:09.682Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -717,12 +755,12 @@
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 9,
-        "none": 692,
-        "text_inference": 170
+        "none": 691,
+        "text_inference": 168
       },
       "status_counts": {
-        "accessible_requirements_unknown": 317,
-        "blocked": 38,
+        "accessible_requirements_unknown": 316,
+        "blocked": 36,
         "excluded": 3,
         "inferred_candidate": 132,
         "known_issue": 1,
@@ -734,7 +772,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 89088,
+      "age_seconds_at_generation": 90501,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -744,7 +782,7 @@
         "removed_task_ids": [],
         "status": "unchanged"
       },
-      "mapped_completed_tasks": 281,
+      "mapped_completed_tasks": 284,
       "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
@@ -756,7 +794,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-03T01:09:37.020Z"
+      "timestamp": "2026-09-03T01:33:09.682Z"
     }
   },
   "manual": {
@@ -825,11 +863,11 @@
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 119,
+      "remaining_tasks": 116,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 2010,
+      "remaining_points": 1410,
       "threshold": 12000,
       "tier": 6
     },
@@ -1043,10 +1081,10 @@
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 317,
+    "requirements_unknown_count": 316,
     "status_counts": {
-      "accessible_requirements_unknown": 317,
-      "blocked": 38,
+      "accessible_requirements_unknown": 316,
+      "blocked": 36,
       "excluded": 3,
       "inferred_candidate": 132,
       "known_issue": 1,
@@ -1054,7 +1092,7 @@
       "manual_check": 3,
       "verified_ready": 6
     },
-    "unfinished_count": 871,
+    "unfinished_count": 868,
     "verified_ready_count": 6
   }
 }
