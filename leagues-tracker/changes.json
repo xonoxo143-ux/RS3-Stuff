@@ -1,48 +1,69 @@
 {
-  "league_points_delta": 600,
+  "league_points_delta": 220,
   "level_ups": [
     {
-      "from": 84,
-      "skill": "Invention",
-      "to": 120
+      "from": 95,
+      "skill": "Constitution",
+      "to": 96
+    },
+    {
+      "from": 76,
+      "skill": "Magic",
+      "to": 82
+    },
+    {
+      "from": 80,
+      "skill": "Smithing",
+      "to": 82
     }
   ],
   "new_task_ids": [
-    1076,
-    1100,
-    1121
+    241,
+    263,
+    890,
+    988
   ],
   "new_tasks": [
     {
       "blessing_task": false,
-      "description": "Reach level 99 Invention.",
-      "id": 1076,
+      "description": "Mine some orichalcite ore in the Mining Guild.",
+      "id": 241,
       "issue": null,
-      "name": "Reach level 99 in the Invention skill.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
+      "name": "Mine some orichalcite in the Mining Guild.",
+      "points": 30,
+      "region": "Asgarnia",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": true,
+      "description": "Assemble any godsword from the God Wars Dungeon.",
+      "id": 263,
+      "issue": null,
+      "name": "Assemble any godsword from the God Wars Dungeon.",
+      "points": 80,
+      "region": "Asgarnia",
+      "tier": "hard"
     },
     {
       "blessing_task": false,
-      "description": "Reach level 120 Invention.",
-      "id": 1100,
+      "description": "Mine 40 runite ore.",
+      "id": 890,
       "issue": null,
-      "name": "Reach level 120 in the Invention skill.",
-      "points": 200,
+      "name": "Mine 40 runite ore.",
+      "points": 30,
       "region": "Global",
-      "tier": "elite"
+      "tier": "medium"
     },
     {
       "blessing_task": false,
-      "description": "Obtain 50 million Invention XP.",
-      "id": 1121,
+      "description": "Cast a wave spell.",
+      "id": 988,
       "issue": null,
-      "name": "Obtain 50 million Invention XP.",
-      "points": 200,
+      "name": "Cast a Wave spell (Classic combat mode recommended).",
+      "points": 80,
       "region": "Global",
-      "tier": "elite"
+      "tier": "hard"
     }
   ],
-  "task_delta": 3
+  "task_delta": 4
 }

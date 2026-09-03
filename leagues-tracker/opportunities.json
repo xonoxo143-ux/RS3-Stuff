@@ -95,8 +95,8 @@
       "reasons": [
         {
           "code": "small_skill_gap",
-          "detail": "Only 4 Constitution levels remain to the task target.",
-          "gap": 4,
+          "detail": "Only 3 Constitution levels remain to the task target.",
+          "gap": 3,
           "skill": "Constitution"
         }
       ],

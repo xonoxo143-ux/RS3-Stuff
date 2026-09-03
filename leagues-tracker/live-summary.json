@@ -7,7 +7,7 @@
     "t5": null,
     "t6": null
   },
-  "blessing_tasks_completed": 12,
+  "blessing_tasks_completed": 13,
   "catalog_task_count": 1152,
   "completed_task_ids": [
     0,
@@ -147,9 +147,11 @@
     220,
     221,
     222,
+    241,
     254,
     257,
     258,
+    263,
     282,
     283,
     284,
@@ -236,6 +238,7 @@
     886,
     888,
     889,
+    890,
     896,
     902,
     903,
@@ -259,6 +262,7 @@
     983,
     986,
     987,
+    988,
     1052,
     1060,
     1076,
@@ -295,7 +299,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 284,
+  "completed_tasks": 288,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -308,20 +312,30 @@
     96,
     988
   ],
-  "league_points": 10590,
+  "league_points": 10810,
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 84,
-      "skill": "Invention",
-      "to": 120
+      "from": 95,
+      "skill": "Constitution",
+      "to": 96
+    },
+    {
+      "from": 76,
+      "skill": "Magic",
+      "to": 82
+    },
+    {
+      "from": 80,
+      "skill": "Smithing",
+      "to": 82
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
     "Attack": 78,
-    "Constitution": 95,
+    "Constitution": 96,
     "Construction": 53,
     "Cooking": 72,
     "Crafting": 88,
@@ -335,70 +349,81 @@
     "Herblore": 68,
     "Hunter": 45,
     "Invention": 120,
-    "Magic": 76,
+    "Magic": 82,
     "Mining": 77,
     "Necromancy": 101,
     "Prayer": 99,
     "Ranged": 52,
     "Runecrafting": 73,
     "Slayer": 78,
-    "Smithing": 80,
+    "Smithing": 82,
     "Strength": 78,
     "Summoning": 68,
     "Thieving": 119,
     "Woodcutting": 62
   },
-  "mapped_completed_tasks": 284,
+  "mapped_completed_tasks": 288,
   "new_task_ids_since_previous_live_sync": [
-    1076,
-    1100,
-    1121
+    241,
+    263,
+    890,
+    988
   ],
   "new_tasks_since_previous_live_sync": [
     {
       "blessing_task": false,
-      "description": "Reach level 99 Invention.",
-      "id": 1076,
+      "description": "Mine some orichalcite ore in the Mining Guild.",
+      "id": 241,
       "issue": null,
-      "name": "Reach level 99 in the Invention skill.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
+      "name": "Mine some orichalcite in the Mining Guild.",
+      "points": 30,
+      "region": "Asgarnia",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": true,
+      "description": "Assemble any godsword from the God Wars Dungeon.",
+      "id": 263,
+      "issue": null,
+      "name": "Assemble any godsword from the God Wars Dungeon.",
+      "points": 80,
+      "region": "Asgarnia",
+      "tier": "hard"
     },
     {
       "blessing_task": false,
-      "description": "Reach level 120 Invention.",
-      "id": 1100,
+      "description": "Mine 40 runite ore.",
+      "id": 890,
       "issue": null,
-      "name": "Reach level 120 in the Invention skill.",
-      "points": 200,
+      "name": "Mine 40 runite ore.",
+      "points": 30,
       "region": "Global",
-      "tier": "elite"
+      "tier": "medium"
     },
     {
       "blessing_task": false,
-      "description": "Obtain 50 million Invention XP.",
-      "id": 1121,
+      "description": "Cast a wave spell.",
+      "id": 988,
       "issue": null,
-      "name": "Obtain 50 million Invention XP.",
-      "points": 200,
+      "name": "Cast a Wave spell (Classic combat mode recommended).",
+      "points": 80,
       "region": "Global",
-      "tier": "elite"
+      "tier": "hard"
     }
   ],
   "next_blessing": {
-    "remaining_tasks": 4,
+    "remaining_tasks": 3,
     "step": "t5",
     "threshold": 16
   },
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 116,
+    "remaining_tasks": 112,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 1410,
+    "remaining_points": 1190,
     "threshold": 12000,
     "tier": 6
   },
@@ -414,9 +439,9 @@
   ],
   "relic_tier": 5,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 3,
-  "timestamp_utc": "2026-09-03T01:33:09.682Z",
-  "total_level": 2147,
+  "task_delta_since_previous_live_sync": 4,
+  "timestamp_utc": "2026-09-03T05:52:45.531Z",
+  "total_level": 2156,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

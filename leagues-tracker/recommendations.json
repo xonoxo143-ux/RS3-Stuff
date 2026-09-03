@@ -341,13 +341,13 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
-      "none": 691,
+      "none": 687,
       "text_inference": 168
     },
     "status_counts": {
-      "accessible_requirements_unknown": 316,
+      "accessible_requirements_unknown": 313,
       "blocked": 36,
-      "excluded": 3,
+      "excluded": 2,
       "inferred_candidate": 132,
       "known_issue": 1,
       "locked_region": 371,
@@ -2976,7 +2976,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 116,
+    "tasks_needed": 112,
     "verified_count": 6
   },
   "highest_lp_per_minute": [
@@ -3898,8 +3898,8 @@
     {
       "blockers": [
         {
-          "current": 95,
-          "gap": 4,
+          "current": 96,
+          "gap": 3,
           "required": 99,
           "skill": "Constitution",
           "type": "skill"
@@ -3919,8 +3919,8 @@
       "tier": "elite",
       "unknown_checks": [],
       "unlock": {
-        "current": 95,
-        "gap": 4,
+        "current": 96,
+        "gap": 3,
         "required": 99,
         "skill": "Constitution",
         "type": "skill"
@@ -3930,7 +3930,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 116,
+    "remaining_tasks": 112,
     "tasks": 400
   },
   "schema_version": 1

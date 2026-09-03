@@ -1,6 +1,6 @@
 {
   "account": {
-    "blessing_tasks_completed": 12,
+    "blessing_tasks_completed": 13,
     "completed_task_ids": [
       0,
       1,
@@ -139,9 +139,11 @@
       220,
       221,
       222,
+      241,
       254,
       257,
       258,
+      263,
       282,
       283,
       284,
@@ -228,6 +230,7 @@
       886,
       888,
       889,
+      890,
       896,
       902,
       903,
@@ -251,6 +254,7 @@
       983,
       986,
       987,
+      988,
       1052,
       1060,
       1076,
@@ -287,15 +291,15 @@
       1250,
       1271
     ],
-    "completed_tasks": 284,
+    "completed_tasks": 288,
     "league": "Leagues II: Equilibrium",
-    "league_points": 10590,
+    "league_points": 10810,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
       "Archaeology": 60,
       "Attack": 78,
-      "Constitution": 95,
+      "Constitution": 96,
       "Construction": 53,
       "Cooking": 72,
       "Crafting": 88,
@@ -309,22 +313,22 @@
       "Herblore": 68,
       "Hunter": 45,
       "Invention": 120,
-      "Magic": 76,
+      "Magic": 82,
       "Mining": 77,
       "Necromancy": 101,
       "Prayer": 99,
       "Ranged": 52,
       "Runecrafting": 73,
       "Slayer": 78,
-      "Smithing": 80,
+      "Smithing": 82,
       "Strength": 78,
       "Summoning": 68,
       "Thieving": 119,
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-03T01:33:09.682Z",
-    "total_level": 2147
+    "timestamp_utc": "2026-09-03T05:52:45.531Z",
+    "total_level": 2156
   },
   "blessings": {
     "derived_god_choices": {
@@ -497,52 +501,73 @@
     ]
   },
   "changes": {
-    "league_points_delta": 600,
+    "league_points_delta": 220,
     "level_ups": [
       {
-        "from": 84,
-        "skill": "Invention",
-        "to": 120
+        "from": 95,
+        "skill": "Constitution",
+        "to": 96
+      },
+      {
+        "from": 76,
+        "skill": "Magic",
+        "to": 82
+      },
+      {
+        "from": 80,
+        "skill": "Smithing",
+        "to": 82
       }
     ],
     "new_task_ids": [
-      1076,
-      1100,
-      1121
+      241,
+      263,
+      890,
+      988
     ],
     "new_tasks": [
       {
         "blessing_task": false,
-        "description": "Reach level 99 Invention.",
-        "id": 1076,
+        "description": "Mine some orichalcite ore in the Mining Guild.",
+        "id": 241,
         "issue": null,
-        "name": "Reach level 99 in the Invention skill.",
-        "points": 200,
-        "region": "Global",
-        "tier": "elite"
+        "name": "Mine some orichalcite in the Mining Guild.",
+        "points": 30,
+        "region": "Asgarnia",
+        "tier": "medium"
+      },
+      {
+        "blessing_task": true,
+        "description": "Assemble any godsword from the God Wars Dungeon.",
+        "id": 263,
+        "issue": null,
+        "name": "Assemble any godsword from the God Wars Dungeon.",
+        "points": 80,
+        "region": "Asgarnia",
+        "tier": "hard"
       },
       {
         "blessing_task": false,
-        "description": "Reach level 120 Invention.",
-        "id": 1100,
+        "description": "Mine 40 runite ore.",
+        "id": 890,
         "issue": null,
-        "name": "Reach level 120 in the Invention skill.",
-        "points": 200,
+        "name": "Mine 40 runite ore.",
+        "points": 30,
         "region": "Global",
-        "tier": "elite"
+        "tier": "medium"
       },
       {
         "blessing_task": false,
-        "description": "Obtain 50 million Invention XP.",
-        "id": 1121,
+        "description": "Cast a wave spell.",
+        "id": 988,
         "issue": null,
-        "name": "Obtain 50 million Invention XP.",
-        "points": 200,
+        "name": "Cast a Wave spell (Classic combat mode recommended).",
+        "points": 80,
         "region": "Global",
-        "tier": "elite"
+        "tier": "hard"
       }
     ],
-    "task_delta": 3
+    "task_delta": 4
   },
   "forgotten_finish_opportunities": {
     "count": 8,
@@ -633,8 +658,8 @@
         "reasons": [
           {
             "code": "small_skill_gap",
-            "detail": "Only 4 Constitution levels remain to the task target.",
-            "gap": 4,
+            "detail": "Only 3 Constitution levels remain to the task target.",
+            "gap": 3,
             "skill": "Constitution"
           }
         ],
@@ -739,7 +764,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-03T01:33:09.682Z",
+    "generated_at_utc": "2026-09-03T05:52:45.531Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -755,13 +780,13 @@
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 9,
-        "none": 691,
+        "none": 687,
         "text_inference": 168
       },
       "status_counts": {
-        "accessible_requirements_unknown": 316,
+        "accessible_requirements_unknown": 313,
         "blocked": 36,
-        "excluded": 3,
+        "excluded": 2,
         "inferred_candidate": 132,
         "known_issue": 1,
         "locked_region": 371,
@@ -772,7 +797,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 90501,
+      "age_seconds_at_generation": 106077,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -782,7 +807,7 @@
         "removed_task_ids": [],
         "status": "unchanged"
       },
-      "mapped_completed_tasks": 284,
+      "mapped_completed_tasks": 288,
       "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
@@ -794,7 +819,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-03T01:33:09.682Z"
+      "timestamp": "2026-09-03T05:52:45.531Z"
     }
   },
   "manual": {
@@ -856,18 +881,18 @@
   "progression": {
     "current_blessing_step": "t4",
     "next_blessing": {
-      "remaining_tasks": 4,
+      "remaining_tasks": 3,
       "step": "t5",
       "threshold": 16
     },
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 116,
+      "remaining_tasks": 112,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 1410,
+      "remaining_points": 1190,
       "threshold": 12000,
       "tier": 6
     },
@@ -1081,18 +1106,18 @@
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 316,
+    "requirements_unknown_count": 313,
     "status_counts": {
-      "accessible_requirements_unknown": 316,
+      "accessible_requirements_unknown": 313,
       "blocked": 36,
-      "excluded": 3,
+      "excluded": 2,
       "inferred_candidate": 132,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "unfinished_count": 868,
+    "unfinished_count": 864,
     "verified_ready_count": 6
   }
 }
