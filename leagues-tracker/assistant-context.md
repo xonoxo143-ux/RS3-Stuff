@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-03T16:30:17.920Z**
+Updated: **2026-09-03T18:08:01.631Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-03T16:30:17.920Z**
 
 ## Current snapshot
 
-- **11,490 LP** · **295 tasks** · total level **2,195**
+- **11,970 LP** · **298 tasks** · total level **2,199**
 - **13 blessing tasks** · relic **T5**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **105 tasks** to 400
-- Next relic: **510 LP** to T6
+- Next region: **102 tasks** to 400
+- Next relic: **30 LP** to T6
 - Next blessing step: **3** to t5
 
 ## Active relics
@@ -162,14 +162,17 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
-- Level-ups: Constitution 97→98; Ranged 52→72; Slayer 78→79; Necromancy 101→102
+- Tasks: **+3** · LP: **+480**
+- [259] Defeat Kree'arra. — hard, Asgarnia, 80 LP
+- [266] Equip a full set of Subjugation armour. — elite, Asgarnia, 200 LP
+- [1074] Reach level 99 in the Constitution skill. — elite, Global, 200 LP
+- Level-ups: Constitution 98→99; Summoning 68→69; Necromancy 102→104
 
 ## Current task sprint
 
-- Need: **105 tasks**
-- Precomputed sprint: **104 tasks** (6 Grade A, 98 Grade B)
-- Action-time estimate excluding travel: **3460 sec**
+- Need: **102 tasks**
+- Precomputed sprint: **102 tasks** (6 Grade A, 96 Grade B)
+- Action-time estimate excluding travel: **3380 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -195,23 +198,23 @@ Passive step effects:
 - [253] **Equip a piece of masterwork melee armour.** — Grade B · ~20s · unclustered
 - [264] **Equip a full set of Bandos armour.** — Grade B · ~20s · unclustered
 - [265] **Equip a full set of Armadyl armour.** — Grade B · ~20s · unclustered
-- [266] **Equip a full set of Subjugation armour.** — Grade B · ~20s · unclustered
 - [267] **Equip a piece of Torva, Pernix or Virtus armour.** — Grade B · ~20s · unclustered
 - [317] **Equip a drygore weapon.** — Grade B · ~20s · unclustered
 - [377] **Equip a full set of graahk, larupia or kyatt hunter gear.** — Grade B · ~20s · unclustered
 - [615] **Equip an obsidian cape.** — Grade B · ~20s · unclustered
 - [618] **Equip a Toktz-Ket-Xil.** — Grade B · ~20s · unclustered
+- [619] **Equip a Tzhaar-Ket-Om.** — Grade B · ~20s · unclustered
 
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **6**
-- Timed Grade-B inferred candidates: **98**
-- Metadata sources: `{'manual_override': 9, 'none': 682, 'text_inference': 166}`
+- Timed Grade-B inferred candidates: **97**
+- Metadata sources: `{'manual_override': 9, 'none': 681, 'text_inference': 164}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-03T16:30:17.920Z
+- WikiSync: **fresh** · 2026-09-03T18:08:01.631Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
@@ -219,7 +222,6 @@ Passive step effects:
 
 ## Forgotten-finish opportunities
 
-- [1074] **Reach level 99 in the Constitution skill.** — score 45, 1_skill_level_or_less; Only 1 Constitution level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
 - [1153] **Reach at least level 30 in all non-elite skills.** — score 25, unknown_check_progress; Lowest relevant skill is Farming 26; 4 levels from the all-skills target.

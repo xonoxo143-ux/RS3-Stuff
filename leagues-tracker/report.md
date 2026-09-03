@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-03T16:30:17.920Z**
+Updated: **2026-09-03T18:08:01.631Z**
 
 ## Current
 
-- **295 tasks**
-- **11,490 LP**
-- **Total level 2,195**
+- **298 tasks**
+- **11,970 LP**
+- **Total level 2,199**
 - **Relic T5**
 - **13 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **105 tasks** to the next region slot
-- **510 LP** to T6
+- **102 tasks** to the next region slot
+- **30 LP** to T6
 - **3 blessing tasks** to t5
 
 ## Suggested sprint
 
-Tracker selected **104** of the **105** tasks currently needed.
+Tracker selected **102** of the **102** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
@@ -43,7 +43,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [253] Equip a piece of masterwork melee armour. — Grade B, ~20s, unclustered, 200 LP
 - [264] Equip a full set of Bandos armour. — Grade B, ~20s, unclustered, 200 LP
 - [265] Equip a full set of Armadyl armour. — Grade B, ~20s, unclustered, 200 LP
-- [266] Equip a full set of Subjugation armour. — Grade B, ~20s, unclustered, 200 LP
 - [267] Equip a piece of Torva, Pernix or Virtus armour. — Grade B, ~20s, unclustered, 200 LP
 - [317] Equip a drygore weapon. — Grade B, ~20s, unclustered, 80 LP
 - [377] Equip a full set of graahk, larupia or kyatt hunter gear. — Grade B, ~20s, unclustered, 30 LP
@@ -122,7 +121,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [1033] Smith a primal ore box. — Grade B, ~60s, unclustered, 200 LP
 - [1034] Smith 10,000 armour spikes. — Grade B, ~60s, unclustered, 200 LP
 - [1035] Smith 10,000 primal armour spikes. — Grade B, ~60s, unclustered, 200 LP
-- [1198] Smith a havensilver weapon. — Grade B, ~60s, unclustered, 10 LP
 
 ## Best clusters
 
@@ -138,7 +136,7 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 
 ## Nearly unlocked
 
-- [1074] Reach level 99 in the Constitution skill. — Constitution 98→99
+- None currently identified within 5 skill levels.
 
 ## Health
 
@@ -148,7 +146,6 @@ Grade A = explicit task metadata. Grade B = conservative automatic inference; ve
 
 ## Forgotten-finish opportunities
 
-- [1074] **Reach level 99 in the Constitution skill.** — score 45, 1_skill_level_or_less; Only 1 Constitution level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
 - [1153] **Reach at least level 30 in all non-elite skills.** — score 25, unknown_check_progress; Lowest relevant skill is Farming 26; 4 levels from the all-skills target.

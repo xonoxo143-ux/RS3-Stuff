@@ -341,20 +341,20 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
-      "none": 682,
-      "text_inference": 166
+      "none": 681,
+      "text_inference": 164
     },
     "status_counts": {
-      "accessible_requirements_unknown": 308,
-      "blocked": 35,
+      "accessible_requirements_unknown": 307,
+      "blocked": 34,
       "excluded": 2,
-      "inferred_candidate": 131,
+      "inferred_candidate": 130,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "timed_inferred_candidates": 98,
+    "timed_inferred_candidates": 97,
     "timed_verified_tasks": 6
   },
   "fastest_inferred_backups": [
@@ -591,22 +591,6 @@
       "items_to_prepare": [],
       "lp_per_minute": 600.0,
       "name": "Equip a full set of Armadyl armour.",
-      "points": 200,
-      "recommendation_grade": "B",
-      "region": "Asgarnia",
-      "status": "inferred_candidate",
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
-      "id": 266,
-      "items_to_prepare": [],
-      "lp_per_minute": 600.0,
-      "name": "Equip a full set of Subjugation armour.",
       "points": 200,
       "recommendation_grade": "B",
       "region": "Asgarnia",
@@ -1157,6 +1141,22 @@
       "status": "inferred_candidate",
       "tier": "medium",
       "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 20,
+      "id": 923,
+      "items_to_prepare": [],
+      "lp_per_minute": 90.0,
+      "name": "Equip a mystic staff.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Global",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
     }
   ],
   "fastest_verified": [
@@ -1273,8 +1273,8 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 3460,
-    "inferred_count": 98,
+    "estimated_action_seconds_excluding_travel": 3380,
+    "inferred_count": 96,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [
       "bronze bolts/materials",
@@ -1283,7 +1283,7 @@
       "milk",
       "cake ingredients"
     ],
-    "selected_count": 104,
+    "selected_count": 102,
     "tasks": [
       {
         "blockers": [],
@@ -1672,22 +1672,6 @@
         "items_to_prepare": [],
         "lp_per_minute": 600.0,
         "name": "Equip a full set of Armadyl armour.",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Asgarnia",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 20,
-        "id": 266,
-        "items_to_prepare": [],
-        "lp_per_minute": 600.0,
-        "name": "Equip a full set of Subjugation armour.",
         "points": 200,
         "recommendation_grade": "B",
         "region": "Asgarnia",
@@ -2942,25 +2926,9 @@
         "status": "inferred_candidate",
         "tier": "elite",
         "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 1198,
-        "items_to_prepare": [],
-        "lp_per_minute": 10.0,
-        "name": "Smith a havensilver weapon.",
-        "points": 10,
-        "recommendation_grade": "B",
-        "region": "Havenhythe",
-        "status": "inferred_candidate",
-        "tier": "easy",
-        "unknown_checks": []
       }
     ],
-    "tasks_needed": 105,
+    "tasks_needed": 102,
     "verified_count": 6
   },
   "highest_lp_per_minute": [
@@ -3303,22 +3271,6 @@
       "items_to_prepare": [],
       "lp_per_minute": 600.0,
       "name": "Equip a full set of Armadyl armour.",
-      "points": 200,
-      "recommendation_grade": "B",
-      "region": "Asgarnia",
-      "status": "inferred_candidate",
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
-      "id": 266,
-      "items_to_prepare": [],
-      "lp_per_minute": 600.0,
-      "name": "Equip a full set of Subjugation armour.",
       "points": 200,
       "recommendation_grade": "B",
       "region": "Asgarnia",
@@ -3773,6 +3725,22 @@
       "status": "inferred_candidate",
       "tier": "hard",
       "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 60,
+      "id": 349,
+      "items_to_prepare": [],
+      "lp_per_minute": 200.0,
+      "name": "Craft some soul runes.",
+      "points": 200,
+      "recommendation_grade": "B",
+      "region": "Desert",
+      "status": "inferred_candidate",
+      "tier": "elite",
+      "unknown_checks": []
     }
   ],
   "manual_checks": [
@@ -3847,43 +3815,11 @@
       ]
     }
   ],
-  "nearly_unblocked": [
-    {
-      "blockers": [
-        {
-          "current": 98,
-          "gap": 1,
-          "required": 99,
-          "skill": "Constitution",
-          "type": "skill"
-        }
-      ],
-      "cluster": null,
-      "confidence": 0.55,
-      "estimated_seconds": null,
-      "id": 1074,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "name": "Reach level 99 in the Constitution skill.",
-      "points": 200,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "blocked",
-      "tier": "elite",
-      "unknown_checks": [],
-      "unlock": {
-        "current": 98,
-        "gap": 1,
-        "required": 99,
-        "skill": "Constitution",
-        "type": "skill"
-      }
-    }
-  ],
+  "nearly_unblocked": [],
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 105,
+    "remaining_tasks": 102,
     "tasks": 400
   },
   "schema_version": 1

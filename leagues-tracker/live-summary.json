@@ -153,7 +153,9 @@
     256,
     257,
     258,
+    259,
     263,
+    266,
     282,
     283,
     284,
@@ -272,6 +274,7 @@
     1052,
     1060,
     1066,
+    1074,
     1076,
     1079,
     1080,
@@ -306,7 +309,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 295,
+  "completed_tasks": 298,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -319,35 +322,30 @@
     96,
     988
   ],
-  "league_points": 11490,
+  "league_points": 11970,
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 97,
+      "from": 98,
       "skill": "Constitution",
-      "to": 98
+      "to": 99
     },
     {
-      "from": 52,
-      "skill": "Ranged",
-      "to": 72
+      "from": 68,
+      "skill": "Summoning",
+      "to": 69
     },
     {
-      "from": 78,
-      "skill": "Slayer",
-      "to": 79
-    },
-    {
-      "from": 101,
+      "from": 102,
       "skill": "Necromancy",
-      "to": 102
+      "to": 104
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
     "Attack": 79,
-    "Constitution": 98,
+    "Constitution": 99,
     "Construction": 53,
     "Cooking": 72,
     "Crafting": 88,
@@ -363,20 +361,55 @@
     "Invention": 120,
     "Magic": 87,
     "Mining": 77,
-    "Necromancy": 102,
+    "Necromancy": 104,
     "Prayer": 99,
     "Ranged": 72,
     "Runecrafting": 73,
     "Slayer": 79,
     "Smithing": 82,
     "Strength": 79,
-    "Summoning": 68,
+    "Summoning": 69,
     "Thieving": 120,
     "Woodcutting": 62
   },
-  "mapped_completed_tasks": 295,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 298,
+  "new_task_ids_since_previous_live_sync": [
+    259,
+    266,
+    1074
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Defeat Kree'arra.",
+      "id": 259,
+      "issue": null,
+      "name": "Defeat Kree'arra.",
+      "points": 80,
+      "region": "Asgarnia",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Equip a full set of subjugation armour.",
+      "id": 266,
+      "issue": null,
+      "name": "Equip a full set of Subjugation armour.",
+      "points": 200,
+      "region": "Asgarnia",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "description": "Reach level 99 Constitution.",
+      "id": 1074,
+      "issue": null,
+      "name": "Reach level 99 in the Constitution skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    }
+  ],
   "next_blessing": {
     "remaining_tasks": 3,
     "step": "t5",
@@ -385,11 +418,11 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 105,
+    "remaining_tasks": 102,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 510,
+    "remaining_points": 30,
     "threshold": 12000,
     "tier": 6
   },
@@ -405,9 +438,9 @@
   ],
   "relic_tier": 5,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-03T16:30:17.920Z",
-  "total_level": 2195,
+  "task_delta_since_previous_live_sync": 3,
+  "timestamp_utc": "2026-09-03T18:08:01.631Z",
+  "total_level": 2199,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }
