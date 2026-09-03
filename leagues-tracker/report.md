@@ -1,12 +1,12 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-03T14:05:20.614Z**
+Updated: **2026-09-03T16:30:17.920Z**
 
 ## Current
 
 - **295 tasks**
 - **11,490 LP**
-- **Total level 2,172**
+- **Total level 2,195**
 - **Relic T5**
 - **13 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
@@ -138,7 +138,7 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 
 ## Nearly unlocked
 
-- [1074] Reach level 99 in the Constitution skill. — Constitution 97→99
+- [1074] Reach level 99 in the Constitution skill. — Constitution 98→99
 
 ## Health
 
@@ -148,7 +148,7 @@ Grade A = explicit task metadata. Grade B = conservative automatic inference; ve
 
 ## Forgotten-finish opportunities
 
-- [1074] **Reach level 99 in the Constitution skill.** — score 45, 2_skill_levels_or_less; Only 2 Constitution level(s) remain to the task target.
+- [1074] **Reach level 99 in the Constitution skill.** — score 45, 1_skill_level_or_less; Only 1 Constitution level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
 - [1153] **Reach at least level 30 in all non-elite skills.** — score 25, unknown_check_progress; Lowest relevant skill is Farming 26; 4 levels from the all-skills target.

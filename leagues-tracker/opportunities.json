@@ -21,14 +21,14 @@
       "reasons": [
         {
           "code": "tiny_skill_gap",
-          "detail": "Only 2 Constitution level(s) remain to the task target.",
-          "gap": 2,
+          "detail": "Only 1 Constitution level(s) remain to the task target.",
+          "gap": 1,
           "skill": "Constitution"
         }
       ],
       "region": "Global",
       "status": "blocked",
-      "suspected_remaining_effort": "2_skill_levels_or_less",
+      "suspected_remaining_effort": "1_skill_level_or_less",
       "tier": "elite"
     },
     {

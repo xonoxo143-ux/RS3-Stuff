@@ -1,6 +1,27 @@
 {
   "league_points_delta": 0,
-  "level_ups": [],
+  "level_ups": [
+    {
+      "from": 97,
+      "skill": "Constitution",
+      "to": 98
+    },
+    {
+      "from": 52,
+      "skill": "Ranged",
+      "to": 72
+    },
+    {
+      "from": 78,
+      "skill": "Slayer",
+      "to": 79
+    },
+    {
+      "from": 101,
+      "skill": "Necromancy",
+      "to": 102
+    }
+  ],
   "new_task_ids": [],
   "new_tasks": [],
   "task_delta": 0

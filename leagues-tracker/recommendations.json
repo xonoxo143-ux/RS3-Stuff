@@ -3851,8 +3851,8 @@
     {
       "blockers": [
         {
-          "current": 97,
-          "gap": 2,
+          "current": 98,
+          "gap": 1,
           "required": 99,
           "skill": "Constitution",
           "type": "skill"
@@ -3872,8 +3872,8 @@
       "tier": "elite",
       "unknown_checks": [],
       "unlock": {
-        "current": 97,
-        "gap": 2,
+        "current": 98,
+        "gap": 1,
         "required": 99,
         "skill": "Constitution",
         "type": "skill"
