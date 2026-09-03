@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-03T19:53:41.379Z**
+Updated: **2026-09-03T22:37:56.340Z**
 
 ## Tracker discipline
 
@@ -168,9 +168,7 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+1** · LP: **+200**
-- [265] Equip a full set of Armadyl armour. — elite, Asgarnia, 200 LP
-- Level-ups: Necromancy 104→105
+- Tasks: **+0** · LP: **+0**
 
 ## Current task sprint
 
@@ -218,7 +216,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **warning**
-- WikiSync: **fresh** · 2026-09-03T19:53:41.379Z
+- WikiSync: **fresh** · 2026-09-03T22:37:56.340Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 - WARNING `unrecorded_relic_choice`: Relic tier 6 is unlocked but no choice is recorded.

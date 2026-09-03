@@ -325,13 +325,7 @@
   ],
   "league_points": 12170,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 104,
-      "skill": "Necromancy",
-      "to": 105
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -364,21 +358,8 @@
     "Woodcutting": 62
   },
   "mapped_completed_tasks": 299,
-  "new_task_ids_since_previous_live_sync": [
-    265
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Equip a full set of Armadyl armour.",
-      "id": 265,
-      "issue": null,
-      "name": "Equip a full set of Armadyl armour.",
-      "points": 200,
-      "region": "Asgarnia",
-      "tier": "elite"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "next_blessing": {
     "remaining_tasks": 3,
     "step": "t5",
@@ -407,8 +388,8 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 1,
-  "timestamp_utc": "2026-09-03T19:53:41.379Z",
+  "task_delta_since_previous_live_sync": 0,
+  "timestamp_utc": "2026-09-03T22:37:56.340Z",
   "total_level": 2200,
   "tracker_health": "warning",
   "unmapped_completed_task_ids": []

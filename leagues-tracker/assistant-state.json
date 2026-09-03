@@ -338,7 +338,7 @@
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-03T19:53:41.379Z",
+    "timestamp_utc": "2026-09-03T22:37:56.340Z",
     "total_level": 2200
   },
   "blessings": {
@@ -512,30 +512,11 @@
     ]
   },
   "changes": {
-    "league_points_delta": 200,
-    "level_ups": [
-      {
-        "from": 104,
-        "skill": "Necromancy",
-        "to": 105
-      }
-    ],
-    "new_task_ids": [
-      265
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Equip a full set of Armadyl armour.",
-        "id": 265,
-        "issue": null,
-        "name": "Equip a full set of Armadyl armour.",
-        "points": 200,
-        "region": "Asgarnia",
-        "tier": "elite"
-      }
-    ],
-    "task_delta": 1
+    "league_points_delta": 0,
+    "level_ups": [],
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "forgotten_finish_opportunities": {
     "count": 5,
@@ -667,7 +648,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-03T19:53:41.379Z",
+    "generated_at_utc": "2026-09-03T22:37:56.340Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -705,7 +686,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 156533,
+      "age_seconds_at_generation": 166387,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -727,7 +708,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-03T19:53:41.379Z"
+      "timestamp": "2026-09-03T22:37:56.340Z"
     }
   },
   "manual": {
