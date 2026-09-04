@@ -92,6 +92,12 @@
       "quantity": 1,
       "status": "owned",
       "note": "Obtained from Gregorovic. Reserve for conversion with a Crest of Zamorak into T80 ranged Anima Core of Zamorak."
+    },
+    {
+      "name": "TokHaar-Kal-Xil",
+      "quantity": 1,
+      "status": "owned_and_equipped",
+      "note": "Ranged Fight Kiln cape. Obtained 2026-09-04 after a 33-minute all-Ranged Kiln run."
     }
   ],
   "manual_flags": {
