@@ -335,7 +335,7 @@
       "Mining": 84,
       "Necromancy": 107,
       "Prayer": 99,
-      "Ranged": 85,
+      "Ranged": 87,
       "Runecrafting": 73,
       "Slayer": 79,
       "Smithing": 82,
@@ -345,8 +345,8 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-04T16:04:10.950Z",
-    "total_level": 2280
+    "timestamp_utc": "2026-09-04T16:26:13.763Z",
+    "total_level": 2282
   },
   "blessings": {
     "derived_god_choices": {
@@ -520,7 +520,13 @@
   },
   "changes": {
     "league_points_delta": 0,
-    "level_ups": [],
+    "level_ups": [
+      {
+        "from": 85,
+        "skill": "Ranged",
+        "to": 87
+      }
+    ],
     "new_task_ids": [],
     "new_tasks": [],
     "task_delta": 0
@@ -676,7 +682,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-04T16:04:10.950Z",
+    "generated_at_utc": "2026-09-04T16:26:13.763Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -709,7 +715,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 229163,
+      "age_seconds_at_generation": 230485,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -725,13 +731,13 @@
       "unmapped_completed_task_ids": []
     },
     "wikisync": {
-      "age_seconds_at_generation": 1,
+      "age_seconds_at_generation": 0,
       "authoritative_for": [
         "completed_task_ids",
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-04T16:04:10.950Z"
+      "timestamp": "2026-09-04T16:26:13.763Z"
     }
   },
   "manual": {

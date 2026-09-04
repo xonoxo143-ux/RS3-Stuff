@@ -1,6 +1,12 @@
 {
   "league_points_delta": 0,
-  "level_ups": [],
+  "level_ups": [
+    {
+      "from": 85,
+      "skill": "Ranged",
+      "to": 87
+    }
+  ],
   "new_task_ids": [],
   "new_tasks": [],
   "task_delta": 0
