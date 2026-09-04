@@ -72,7 +72,33 @@
   ],
   "manual_flags": {
     "fort_workshop_unlocked": null,
-    "t6_rejuvenated_relic": "Production Master"
+    "t6_rejuvenated_relic": "Production Master",
+    "bossing_resume_point": {
+      "boss": "Rasial",
+      "status": "ready_to_attempt",
+      "necromancy_level": 105,
+      "weapons": "T80 Death Guard + T80 Skull Lantern",
+      "armour_plan": "Use Necromancy armour if available; otherwise hybrid/GWD1 off-style as temporary bootstrap gear.",
+      "platform": "mobile",
+      "combat_mode": "Revolution++ full auto",
+      "bar": [
+        "Conjure Undead Army",
+        "Death Skulls",
+        "Living Death",
+        "Command Vengeful Ghost",
+        "Command Skeleton Warrior",
+        "Touch of Death",
+        "Soul Sap",
+        "Volley of Souls",
+        "Finger of Death"
+      ],
+      "manual_focus": [
+        "Protect/Deflect Necromancy",
+        "eat freely with Eternal Sustenance",
+        "move during final phase"
+      ],
+      "objective": "Get first Rasial kills and snowball into First Necromancer armour, Omni Guard, and Soulbound Lantern."
+    }
   },
   "goal": {
     "type": "task_threshold",
