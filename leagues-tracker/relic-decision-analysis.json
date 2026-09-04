@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-03",
+  "purpose": "Decision record for the user's Equilibrium T6 relic, optimized for fastest practical progress toward Dragon trophy rather than general fun.",
+  "baseline": {
+    "league_points": 12170,
+    "completed_tasks": 299,
+    "current_relics": [
+      "Golden Touch",
+      "Divine Druid",
+      "Voidwalker",
+      "Transmutation",
+      "Devout"
+    ],
+    "t6_choice_unrecorded": true,
+    "t6_options": [
+      "Perkfection",
+      "Rejuvenated"
+    ],
+    "rejuvenated_candidates": [
+      "Endless Harvest",
+      "Survivalist",
+      "Animal Wrangler",
+      "Superheated",
+      "Nature's Network",
+      "Assassin's Insight",
+      "Crystal Grace",
+      "Antiquarian",
+      "Clue Connoisseur",
+      "Production Master"
+    ]
+  },
+  "recommendation": {
+    "choice": "Rejuvenated",
+    "relic": "Production Master",
+    "confidence": "high",
+    "runner_up": "Superheated",
+    "third": "Nature's Network",
+    "reason_summary": [
+      "Production Master attacks more independent remaining bottlenecks than the other candidates: Fletching, Herblore, Cooking, Crafting, Construction-material chains, and Masterwork special processing.",
+      "It synergizes unusually well with the user's existing Transmutation (resource-tier substitution), Devout Yak (banking/note/unnote), Golden Touch (cash) and Divine Druid (Herblore supply/secondary saving).",
+      "The user's current levels leave five PM-supported skills below 99: Construction 53, Cooking 72, Crafting 88, Fletching 69 and Herblore 74.",
+      "Current Equilibrium player testing reports Production Master broad-arrow Fletching near 100m XP/hour at 16x and very fast 50m Fletching; Fort planks -> refined planks -> frames are batch-instant.",
+      "Production Master is the direct solution to special Masterwork folding/processing, while Superheated only helps the upstream ore/bar/ordinary-Smithing side.",
+      "Clue Connoisseur is currently impaired by out-of-region/quest-gated clue bugs and has an anti-synergy with the general clue-reward collection table.",
+      "Perkfection has low incremental value because the user is already 120 Invention and League combat blessings/relic passives already make combat extremely strong."
+    ]
+  },
+  "direct_accessible_anchor_surface": {
+    "production_master": {
+      "fletching_bulk": {
+        "tasks": 11,
+        "lp": 1240
+      },
+      "herblore_bulk": {
+        "tasks": 4,
+        "lp": 220,
+        "note": "Clean-100-arbuck is largely overlapped by Divine Druid."
+      },
+      "cooking_bulk": {
+        "tasks": 1,
+        "lp": 80
+      },
+      "masterwork_equipment": {
+        "tasks": 2,
+        "lp": 600
+      },
+      "supported_progression_lp": {
+        "Construction": 400,
+        "Cooking": 400,
+        "Crafting": 600,
+        "Fletching": 600,
+        "Herblore": 600,
+        "total": 2600
+      }
+    },
+    "superheated": {
+      "normal_smithing_bulk": {
+        "tasks": 3,
+        "lp": 480
+      },
+      "firemaking": {
+        "tasks": 6,
+        "lp": 620
+      },
+      "smithing_progression_lp": 600,
+      "firemaking_progression_lp": 600,
+      "note": "10,000 normal armour spikes are 10 elder rune bars / 10,000 Smithing progress, not 10,000 separate finished-item actions."
+    },
+    "natures_network": {
+      "farming_growth_check": {
+        "tasks": 3,
+        "lp": 140
+      },
+      "farming_harvesting": {
+        "tasks": 12,
+        "lp": 1200
+      },
+      "farming_progression_lp": 600,
+      "note": "Also removes Farming as a cross-skill milestone bottleneck, but other low skills become the next bottlenecks."
+    },
+    "clue_connoisseur": {
+      "clue_completion_counts": {
+        "tasks": 16,
+        "lp": 1240
+      },
+      "clue_reward_logs": {
+        "tasks": 23,
+        "lp": 2070
+      },
+      "rare_reward": {
+        "tasks": 1,
+        "lp": 400
+      },
+      "note": "Large LP surface but current bugs and general-log anti-synergy materially reduce practical efficiency."
+    }
+  },
+  "robustness_tests": {
+    "first_model": {
+      "cases": 108,
+      "dimensions": [
+        "6 baseline difficulty models",
+        "low/mid/high relic effect strengths",
+        "6 possible final elective regions"
+      ],
+      "wins": {
+        "Production Master": 95,
+        "Superheated": 6,
+        "Nature's Network": 7
+      },
+      "note": "No other relic won a case."
+    },
+    "hostile_followup": {
+      "base_all_tasks": "Production Master won 18/18 combinations of 3 difficulty models x 6 final regions.",
+      "base_no_post99": "Production Master won 18/18.",
+      "base_no_progression": "Production Master won 18/18.",
+      "pm_conservative_all": "Production Master 9/18; Superheated 9/18.",
+      "pm_conservative_no_post99": "Production Master 16/18; Superheated 2/18.",
+      "pm_conservative_no_progression": "Production Master 16/18; Clue Connoisseur 2/18.",
+      "superheated_optimistic": "Production Master still won 18/18 with progression, 18/18 without post-99, and 18/18 with all progression excluded.",
+      "nature_optimistic": "Production Master still won 18/18 across each of those three filters.",
+      "clue_optimistic": "Production Master won 18/18 with progression and 18/18 without post-99; split 9/9 with Clue Connoisseur only when all progression tasks were removed.",
+      "perkfection_optimistic": "Production Master won 18/18 with progression and 18/18 without post-99; won 13/18 versus Perkfection 5/18 when all progression was removed.",
+      "deliberately_hostile_all": "Can make Production Master lose by simultaneously halving its supported-skill progression, deleting its Construction value, weakening Masterwork, and granting optimistic ceilings to Superheated/Nature/Clues/Perkfection. Current external evidence indicates those PM penalties are too severe to be the realistic central model."
+    }
+  },
+  "critical_mechanics": {
+    "production_master": [
+      "Processes supported production batches at once.",
+      "Official inherited whitelist includes Construction flatpacks, limestone bricks, planks, refined planks and wooden frames; extensive Crafting/Fletching/Herblore/Cooking activities.",
+      "Does not accelerate ordinary Smithing or smelting.",
+      "Equilibrium adds one-action Masterwork items.",
+      "Current broad-bolt client instability exists, but broad arrows/fletching bench alternatives are reported to work."
+    ],
+    "superheated": [
+      "3x ordinary Smithing base progress at max heat.",
+      "2x bars plus 3% 50-bar proc.",
+      "Very fast Firemaking and auto-burn/auto-cook synergies.",
+      "Does not accelerate special Masterwork folding/assembly."
+    ],
+    "clue_connoisseur": [
+      "Minimum clue steps, extra casket, max rolls and clue infrastructure.",
+      "Extra casket is not an extra clue completion.",
+      "As of Sep 2 2026, current players still report incompletable/out-of-region clue steps.",
+      "Max rolls can reduce eligibility for the shared table used by general clue-reward collection tasks."
+    ],
+    "perkfection": [
+      "20% more frequent helpful perk triggers is not +20% DPS.",
+      "Extra gizmo capacity is loadout-dependent.",
+      "User has already completed 120/50m Invention progression.",
+      "Recent public pick-rate discussion reports 97.7% chose Rejuvenated."
+    ]
+  },
+  "sources": [
+    "https://scapeleagues.com/rs3/equilibrium/relics",
+    "https://runescape.wiki/w/Update%3ALeagues%3A_CATALYST_Relic_Reveals_-_Releasing_September_15",
+    "https://www.reddit.com/r/runescape/comments/1vrgqc4/production_master_bestunknown_uses/",
+    "https://www.reddit.com/r/runescape/comments/1vnza9r/production_master_uses/",
+    "https://www.reddit.com/r/runescape/comments/1vm3y2k/psa_production_master_does_nothing_for_normal/",
+    "https://www.reddit.com/r/runescape/comments/1vm33g5/psa_masterwork_melee_superheated/",
+    "https://www.reddit.com/r/runescape/comments/1vsznpj/suggestion_either_superheated_relic_should/",
+    "https://www.reddit.com/r/runescape/comments/1w5520b/clues_in_this_league_are_awful_and_need_a_rethink/",
+    "https://www.reddit.com/r/runescape/comments/1vyuaz2/clue_connoisseur_makes_it_harder_to_complete_the/",
+    "https://www.reddit.com/r/runescape/comments/1vwk4bz/977_of_the_players_chose_rejuvenated_can_we/",
+    "https://www.reddit.com/r/runescape/comments/1vuh3qi/rejuvenate_into_superheat_production_master_or/"
+  ]
+}
