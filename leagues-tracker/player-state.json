@@ -72,8 +72,26 @@
     {
       "name": "Shadow glaive",
       "quantity": 1,
+      "status": "owned_augmented",
+      "note": "Main-hand Shadow glaive. Weapon gizmo perk: Precise 5."
+    },
+    {
+      "name": "Off-hand Shadow glaive",
+      "quantity": 1,
+      "status": "owned_augmented",
+      "note": "Obtained from Gregorovic. Weapon gizmo perk: Eruptive 2."
+    },
+    {
+      "name": "Dormant anima core helm",
+      "quantity": 1,
       "status": "owned",
-      "note": "First confirmed Gregorovic kill drop."
+      "note": "Obtained from Gregorovic. Reserve for conversion with a Crest of Zamorak into T80 ranged Anima Core of Zamorak."
+    },
+    {
+      "name": "Dormant anima core body",
+      "quantity": 1,
+      "status": "owned",
+      "note": "Obtained from Gregorovic. Reserve for conversion with a Crest of Zamorak into T80 ranged Anima Core of Zamorak."
     }
   ],
   "manual_flags": {
