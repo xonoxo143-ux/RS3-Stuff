@@ -13,7 +13,7 @@
     "manual_check": 3,
     "verified_ready": 6
   },
-  "timestamp_utc": "2026-09-04T06:16:33.141Z",
+  "timestamp_utc": "2026-09-04T11:25:01.657Z",
   "unfinished_task_count": 846,
   "unfinished_tasks": [
     {
@@ -17182,8 +17182,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 80,
-          "gap": 19,
+          "current": 82,
+          "gap": 17,
           "required": 99,
           "skill": "Divination",
           "type": "skill"
@@ -17413,8 +17413,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 45,
-          "gap": 54,
+          "current": 50,
+          "gap": 49,
           "required": 99,
           "skill": "Hunter",
           "type": "skill"
@@ -17479,8 +17479,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 77,
-          "gap": 22,
+          "current": 84,
+          "gap": 15,
           "required": 99,
           "skill": "Mining",
           "type": "skill"
@@ -17666,8 +17666,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 70,
-          "gap": 29,
+          "current": 71,
+          "gap": 28,
           "required": 99,
           "skill": "Summoning",
           "type": "skill"
@@ -17732,8 +17732,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 77,
-          "gap": 33,
+          "current": 84,
+          "gap": 26,
           "required": 110,
           "skill": "Mining",
           "type": "skill"

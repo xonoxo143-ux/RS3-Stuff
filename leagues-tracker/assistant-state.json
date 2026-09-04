@@ -322,17 +322,17 @@
       "Cooking": 72,
       "Crafting": 97,
       "Defence": 99,
-      "Divination": 80,
+      "Divination": 82,
       "Dungeoneering": 39,
       "Farming": 26,
       "Firemaking": 70,
       "Fishing": 40,
       "Fletching": 78,
       "Herblore": 79,
-      "Hunter": 45,
+      "Hunter": 50,
       "Invention": 120,
       "Magic": 87,
-      "Mining": 77,
+      "Mining": 84,
       "Necromancy": 107,
       "Prayer": 99,
       "Ranged": 85,
@@ -340,13 +340,13 @@
       "Slayer": 79,
       "Smithing": 82,
       "Strength": 79,
-      "Summoning": 70,
+      "Summoning": 71,
       "Thieving": 120,
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-04T06:16:33.141Z",
-    "total_level": 2265
+    "timestamp_utc": "2026-09-04T11:25:01.657Z",
+    "total_level": 2280
   },
   "blessings": {
     "derived_god_choices": {
@@ -520,7 +520,28 @@
   },
   "changes": {
     "league_points_delta": 0,
-    "level_ups": [],
+    "level_ups": [
+      {
+        "from": 77,
+        "skill": "Mining",
+        "to": 84
+      },
+      {
+        "from": 45,
+        "skill": "Hunter",
+        "to": 50
+      },
+      {
+        "from": 70,
+        "skill": "Summoning",
+        "to": 71
+      },
+      {
+        "from": 80,
+        "skill": "Divination",
+        "to": 82
+      }
+    ],
     "new_task_ids": [],
     "new_tasks": [],
     "task_delta": 0
@@ -676,7 +697,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-04T06:16:33.141Z",
+    "generated_at_utc": "2026-09-04T11:25:01.657Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -709,7 +730,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 193904,
+      "age_seconds_at_generation": 212413,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -731,7 +752,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-04T06:16:33.141Z"
+      "timestamp": "2026-09-04T11:25:01.657Z"
     }
   },
   "manual": {

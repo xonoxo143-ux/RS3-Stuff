@@ -1,6 +1,27 @@
 {
   "league_points_delta": 0,
-  "level_ups": [],
+  "level_ups": [
+    {
+      "from": 77,
+      "skill": "Mining",
+      "to": 84
+    },
+    {
+      "from": 45,
+      "skill": "Hunter",
+      "to": 50
+    },
+    {
+      "from": 70,
+      "skill": "Summoning",
+      "to": 71
+    },
+    {
+      "from": 80,
+      "skill": "Divination",
+      "to": 82
+    }
+  ],
   "new_task_ids": [],
   "new_tasks": [],
   "task_delta": 0

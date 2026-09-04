@@ -338,7 +338,28 @@
   ],
   "league_points": 12870,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [],
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 77,
+      "skill": "Mining",
+      "to": 84
+    },
+    {
+      "from": 45,
+      "skill": "Hunter",
+      "to": 50
+    },
+    {
+      "from": 70,
+      "skill": "Summoning",
+      "to": 71
+    },
+    {
+      "from": 80,
+      "skill": "Divination",
+      "to": 82
+    }
+  ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -348,17 +369,17 @@
     "Cooking": 72,
     "Crafting": 97,
     "Defence": 99,
-    "Divination": 80,
+    "Divination": 82,
     "Dungeoneering": 39,
     "Farming": 26,
     "Firemaking": 70,
     "Fishing": 40,
     "Fletching": 78,
     "Herblore": 79,
-    "Hunter": 45,
+    "Hunter": 50,
     "Invention": 120,
     "Magic": 87,
-    "Mining": 77,
+    "Mining": 84,
     "Necromancy": 107,
     "Prayer": 99,
     "Ranged": 85,
@@ -366,7 +387,7 @@
     "Slayer": 79,
     "Smithing": 82,
     "Strength": 79,
-    "Summoning": 70,
+    "Summoning": 71,
     "Thieving": 120,
     "Woodcutting": 72
   },
@@ -402,8 +423,8 @@
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
   "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-04T06:16:33.141Z",
-  "total_level": 2265,
+  "timestamp_utc": "2026-09-04T11:25:01.657Z",
+  "total_level": 2280,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }
