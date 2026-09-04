@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-04T11:25:01.657Z**
+Updated: **2026-09-04T16:04:10.950Z**
 
 ## Tracker discipline
 
@@ -170,7 +170,6 @@ Passive step effects:
 ## Changes
 
 - Tasks: **+0** · LP: **+0**
-- Level-ups: Mining 77→84; Hunter 45→50; Summoning 70→71; Divination 80→82
 
 ## Current task sprint
 
@@ -218,7 +217,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-04T11:25:01.657Z
+- WikiSync: **fresh** · 2026-09-04T16:04:10.950Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 

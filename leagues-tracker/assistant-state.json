@@ -345,7 +345,7 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-04T11:25:01.657Z",
+    "timestamp_utc": "2026-09-04T16:04:10.950Z",
     "total_level": 2280
   },
   "blessings": {
@@ -520,28 +520,7 @@
   },
   "changes": {
     "league_points_delta": 0,
-    "level_ups": [
-      {
-        "from": 77,
-        "skill": "Mining",
-        "to": 84
-      },
-      {
-        "from": 45,
-        "skill": "Hunter",
-        "to": 50
-      },
-      {
-        "from": 70,
-        "skill": "Summoning",
-        "to": 71
-      },
-      {
-        "from": 80,
-        "skill": "Divination",
-        "to": 82
-      }
-    ],
+    "level_ups": [],
     "new_task_ids": [],
     "new_tasks": [],
     "task_delta": 0
@@ -697,7 +676,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-04T11:25:01.657Z",
+    "generated_at_utc": "2026-09-04T16:04:10.950Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -730,7 +709,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 212413,
+      "age_seconds_at_generation": 229163,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -746,13 +725,13 @@
       "unmapped_completed_task_ids": []
     },
     "wikisync": {
-      "age_seconds_at_generation": 0,
+      "age_seconds_at_generation": 1,
       "authoritative_for": [
         "completed_task_ids",
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-04T11:25:01.657Z"
+      "timestamp": "2026-09-04T16:04:10.950Z"
     }
   },
   "manual": {
@@ -788,7 +767,25 @@
       },
       {
         "name": "Shadow glaive",
-        "note": "First confirmed Gregorovic kill drop.",
+        "note": "Main-hand Shadow glaive. Weapon gizmo perk: Precise 5.",
+        "quantity": 1,
+        "status": "owned_augmented"
+      },
+      {
+        "name": "Off-hand Shadow glaive",
+        "note": "Obtained from Gregorovic. Weapon gizmo perk: Eruptive 2.",
+        "quantity": 1,
+        "status": "owned_augmented"
+      },
+      {
+        "name": "Dormant anima core helm",
+        "note": "Obtained from Gregorovic. Reserve for conversion with a Crest of Zamorak into T80 ranged Anima Core of Zamorak.",
+        "quantity": 1,
+        "status": "owned"
+      },
+      {
+        "name": "Dormant anima core body",
+        "note": "Obtained from Gregorovic. Reserve for conversion with a Crest of Zamorak into T80 ranged Anima Core of Zamorak.",
         "quantity": 1,
         "status": "owned"
       }

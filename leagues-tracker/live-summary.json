@@ -338,28 +338,7 @@
   ],
   "league_points": 12870,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 77,
-      "skill": "Mining",
-      "to": 84
-    },
-    {
-      "from": 45,
-      "skill": "Hunter",
-      "to": 50
-    },
-    {
-      "from": 70,
-      "skill": "Summoning",
-      "to": 71
-    },
-    {
-      "from": 80,
-      "skill": "Divination",
-      "to": 82
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -423,7 +402,7 @@
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
   "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-04T11:25:01.657Z",
+  "timestamp_utc": "2026-09-04T16:04:10.950Z",
   "total_level": 2280,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
