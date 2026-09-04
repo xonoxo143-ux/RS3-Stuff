@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-03T22:37:56.340Z**
+Updated: **2026-09-04T00:39:03.349Z**
 
 ## Tracker discipline
 
@@ -24,7 +24,7 @@ Updated: **2026-09-03T22:37:56.340Z**
 
 ## Active relics
 
-Choice vector: `2 3 3 2 3 - -`
+Choice vector: `2 3 3 2 3 2 -`
 
 ### T1 — Golden Touch
 - Goldenhawk boots grant passive Agility XP while moving, skilling, or using ultimate abilities.
@@ -115,7 +115,8 @@ Passive tier effects:
 - Augmented items gain item XP 4x faster.
 - Dungeoneering token gain is multiplied by 5, including Elite Dungeons.
 
-### T6 — choice not recorded
+### T6 — Rejuvenated
+- Choose one additional relic from any previous tier.
 Passive tier effects:
 - League XP multiplier is 16x.
 - Selected region drops are 8x as common.
@@ -215,11 +216,10 @@ Passive step effects:
 
 ## Data health
 
-- Overall: **warning**
-- WikiSync: **fresh** · 2026-09-03T22:37:56.340Z
+- Overall: **healthy**
+- WikiSync: **fresh** · 2026-09-04T00:39:03.349Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
-- WARNING `unrecorded_relic_choice`: Relic tier 6 is unlocked but no choice is recorded.
 
 > Always apply the active League effects above before normal RS3 mechanics.
 

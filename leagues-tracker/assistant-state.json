@@ -338,7 +338,7 @@
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-03T22:37:56.340Z",
+    "timestamp_utc": "2026-09-04T00:39:03.349Z",
     "total_level": 2200
   },
   "blessings": {
@@ -648,7 +648,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-03T22:37:56.340Z",
+    "generated_at_utc": "2026-09-04T00:39:03.349Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -658,13 +658,8 @@
       "errors": [],
       "expected_elective_slots": 2,
       "recorded_elective_regions": 2,
-      "status": "warning",
-      "warnings": [
-        {
-          "code": "unrecorded_relic_choice",
-          "detail": "Relic tier 6 is unlocked but no choice is recorded."
-        }
-      ]
+      "status": "healthy",
+      "warnings": []
     },
     "recommendation_coverage": {
       "metadata_source_counts": {
@@ -686,7 +681,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 166387,
+      "age_seconds_at_generation": 173655,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -708,7 +703,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-03T22:37:56.340Z"
+      "timestamp": "2026-09-04T00:39:03.349Z"
     }
   },
   "manual": {
@@ -750,7 +745,8 @@
       }
     ],
     "manual_flags": {
-      "fort_workshop_unlocked": null
+      "fort_workshop_unlocked": null,
+      "t6_rejuvenated_relic": "Production Master"
     },
     "route_preferences": {
       "chain_nearby_tasks": true,
@@ -814,7 +810,7 @@
       3,
       2,
       3,
-      null,
+      2,
       null
     ],
     "passive_by_tier": [
@@ -978,9 +974,11 @@
         "xp_multiplier": 12
       },
       {
-        "choice_number": null,
-        "effects": [],
-        "name": null,
+        "choice_number": 2,
+        "effects": [
+          "Choose one additional relic from any previous tier."
+        ],
+        "name": "Rejuvenated",
         "threshold_points": 12000,
         "tier": 6,
         "unlocked": true,

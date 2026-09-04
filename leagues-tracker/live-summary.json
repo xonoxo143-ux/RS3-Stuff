@@ -383,14 +383,14 @@
     3,
     2,
     3,
-    null,
+    2,
     null
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
   "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-03T22:37:56.340Z",
+  "timestamp_utc": "2026-09-04T00:39:03.349Z",
   "total_level": 2200,
-  "tracker_health": "warning",
+  "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

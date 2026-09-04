@@ -1,6 +1,6 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-03T22:37:56.340Z**
+Updated: **2026-09-04T00:39:03.349Z**
 
 ## Current
 
@@ -139,8 +139,7 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 
 ## Health
 
-- **warning**
-- Warning: Relic tier 6 is unlocked but no choice is recorded.
+- **healthy**
 
 Grade A = explicit task metadata. Grade B = conservative automatic inference; verify before relying on it.
 
