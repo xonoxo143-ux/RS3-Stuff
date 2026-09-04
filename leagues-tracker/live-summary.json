@@ -7,7 +7,7 @@
     "t5": null,
     "t6": null
   },
-  "blessing_tasks_completed": 13,
+  "blessing_tasks_completed": 14,
   "catalog_task_count": 1152,
   "completed_task_ids": [
     0,
@@ -55,6 +55,7 @@
     81,
     83,
     84,
+    87,
     98,
     99,
     101,
@@ -310,12 +311,13 @@
     1205,
     1206,
     1207,
+    1243,
     1248,
     1249,
     1250,
     1271
   ],
-  "completed_tasks": 304,
+  "completed_tasks": 306,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -328,33 +330,23 @@
     96,
     988
   ],
-  "league_points": 12470,
+  "league_points": 12870,
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 62,
+      "from": 72,
+      "skill": "Ranged",
+      "to": 85
+    },
+    {
+      "from": 71,
       "skill": "Woodcutting",
-      "to": 71
+      "to": 72
     },
     {
-      "from": 69,
-      "skill": "Fletching",
-      "to": 78
-    },
-    {
-      "from": 62,
-      "skill": "Firemaking",
-      "to": 70
-    },
-    {
-      "from": 74,
-      "skill": "Herblore",
-      "to": 79
-    },
-    {
-      "from": 69,
-      "skill": "Summoning",
-      "to": 70
+      "from": 105,
+      "skill": "Necromancy",
+      "to": 107
     }
   ],
   "levels": {
@@ -377,90 +369,57 @@
     "Invention": 120,
     "Magic": 87,
     "Mining": 77,
-    "Necromancy": 105,
+    "Necromancy": 107,
     "Prayer": 99,
-    "Ranged": 72,
+    "Ranged": 85,
     "Runecrafting": 73,
     "Slayer": 79,
     "Smithing": 82,
     "Strength": 79,
     "Summoning": 70,
     "Thieving": 120,
-    "Woodcutting": 71
+    "Woodcutting": 72
   },
-  "mapped_completed_tasks": 304,
+  "mapped_completed_tasks": 306,
   "new_task_ids_since_previous_live_sync": [
-    174,
-    611,
-    966,
-    967,
-    989
+    87,
+    1243
   ],
   "new_tasks_since_previous_live_sync": [
     {
       "blessing_task": false,
-      "description": "Burn any logs 200 times.",
-      "id": 174,
+      "description": "Defeat Rasial, the First Necromancer once.",
+      "id": 87,
       "issue": null,
-      "name": "Burn any logs 200 times.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
+      "name": "Defeat Rasial, the First Necromancer.",
+      "points": 200,
+      "region": "Misthalin",
+      "tier": "elite"
     },
     {
-      "blessing_task": false,
-      "description": "Enter the hardwood grove in Tai Bwo Wannai.",
-      "id": 611,
+      "blessing_task": true,
+      "description": "Equip a weapon from the Heart of Gielinor.",
+      "id": 1243,
       "issue": null,
-      "name": "Enter the Hardwood Grove in Tai Bwo Wannai.",
-      "points": 30,
-      "region": "Karamja",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Fletch 750 rune arrows.",
-      "id": 966,
-      "issue": null,
-      "name": "Fletch 750 rune arrows.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Fletch 75 onyx bolts.",
-      "id": 967,
-      "issue": null,
-      "name": "Fletch 75 onyx bolts.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Burn 75 yew logs.",
-      "id": 989,
-      "issue": null,
-      "name": "Burn 75 yew logs.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
+      "name": "Equip a weapon from the Heart of Gielinor.",
+      "points": 200,
+      "region": "Desert",
+      "tier": "elite"
     }
   ],
   "next_blessing": {
-    "remaining_tasks": 3,
+    "remaining_tasks": 2,
     "step": "t5",
     "threshold": 16
   },
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 96,
+    "remaining_tasks": 94,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 7530,
+    "remaining_points": 7130,
     "threshold": 20000,
     "tier": 7
   },
@@ -476,9 +435,9 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 5,
-  "timestamp_utc": "2026-09-04T02:21:53.414Z",
-  "total_level": 2249,
+  "task_delta_since_previous_live_sync": 2,
+  "timestamp_utc": "2026-09-04T05:58:17.824Z",
+  "total_level": 2265,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

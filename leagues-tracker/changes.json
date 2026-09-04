@@ -1,90 +1,47 @@
 {
-  "league_points_delta": 300,
+  "league_points_delta": 400,
   "level_ups": [
     {
-      "from": 62,
+      "from": 72,
+      "skill": "Ranged",
+      "to": 85
+    },
+    {
+      "from": 71,
       "skill": "Woodcutting",
-      "to": 71
+      "to": 72
     },
     {
-      "from": 69,
-      "skill": "Fletching",
-      "to": 78
-    },
-    {
-      "from": 62,
-      "skill": "Firemaking",
-      "to": 70
-    },
-    {
-      "from": 74,
-      "skill": "Herblore",
-      "to": 79
-    },
-    {
-      "from": 69,
-      "skill": "Summoning",
-      "to": 70
+      "from": 105,
+      "skill": "Necromancy",
+      "to": 107
     }
   ],
   "new_task_ids": [
-    174,
-    611,
-    966,
-    967,
-    989
+    87,
+    1243
   ],
   "new_tasks": [
     {
       "blessing_task": false,
-      "description": "Burn any logs 200 times.",
-      "id": 174,
+      "description": "Defeat Rasial, the First Necromancer once.",
+      "id": 87,
       "issue": null,
-      "name": "Burn any logs 200 times.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
+      "name": "Defeat Rasial, the First Necromancer.",
+      "points": 200,
+      "region": "Misthalin",
+      "tier": "elite"
     },
     {
-      "blessing_task": false,
-      "description": "Enter the hardwood grove in Tai Bwo Wannai.",
-      "id": 611,
+      "blessing_task": true,
+      "description": "Equip a weapon from the Heart of Gielinor.",
+      "id": 1243,
       "issue": null,
-      "name": "Enter the Hardwood Grove in Tai Bwo Wannai.",
-      "points": 30,
-      "region": "Karamja",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Fletch 750 rune arrows.",
-      "id": 966,
-      "issue": null,
-      "name": "Fletch 750 rune arrows.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Fletch 75 onyx bolts.",
-      "id": 967,
-      "issue": null,
-      "name": "Fletch 75 onyx bolts.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Burn 75 yew logs.",
-      "id": 989,
-      "issue": null,
-      "name": "Burn 75 yew logs.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
+      "name": "Equip a weapon from the Heart of Gielinor.",
+      "points": 200,
+      "region": "Desert",
+      "tier": "elite"
     }
   ],
-  "task_delta": 5
+  "task_delta": 2
 }

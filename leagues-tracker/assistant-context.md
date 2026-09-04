@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-04T02:21:53.414Z**
+Updated: **2026-09-04T05:58:17.824Z**
 
 ## Tracker discipline
 
@@ -15,12 +15,12 @@ Updated: **2026-09-04T02:21:53.414Z**
 
 ## Current snapshot
 
-- **12,470 LP** · **304 tasks** · total level **2,249**
-- **13 blessing tasks** · relic **T6**
+- **12,870 LP** · **306 tasks** · total level **2,265**
+- **14 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **96 tasks** to 400
-- Next relic: **7,530 LP** to T7
-- Next blessing step: **3** to t5
+- Next region: **94 tasks** to 400
+- Next relic: **7,130 LP** to T7
+- Next blessing step: **2** to t5
 
 ## Active relics
 
@@ -169,19 +169,16 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+5** · LP: **+300**
-- [174] Burn any logs 200 times. — medium, Global, 30 LP
-- [611] Enter the Hardwood Grove in Tai Bwo Wannai. — medium, Karamja, 30 LP
-- [966] Fletch 750 rune arrows. — hard, Global, 80 LP
-- [967] Fletch 75 onyx bolts. — hard, Global, 80 LP
-- [989] Burn 75 yew logs. — hard, Global, 80 LP
-- Level-ups: Woodcutting 62→71; Fletching 69→78; Firemaking 62→70; Herblore 74→79; Summoning 69→70
+- Tasks: **+2** · LP: **+400**
+- [87] Defeat Rasial, the First Necromancer. — elite, Misthalin, 200 LP
+- [1243] Equip a weapon from the Heart of Gielinor. — elite, Desert, 200 LP
+- Level-ups: Ranged 72→85; Woodcutting 71→72; Necromancy 105→107
 
 ## Current task sprint
 
-- Need: **96 tasks**
-- Precomputed sprint: **96 tasks** (6 Grade A, 90 Grade B)
-- Action-time estimate excluding travel: **3090 sec**
+- Need: **94 tasks**
+- Precomputed sprint: **94 tasks** (6 Grade A, 88 Grade B)
+- Action-time estimate excluding travel: **3010 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -217,13 +214,13 @@ Passive step effects:
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **6**
-- Timed Grade-B inferred candidates: **95**
-- Metadata sources: `{'manual_override': 9, 'none': 677, 'text_inference': 162}`
+- Timed Grade-B inferred candidates: **94**
+- Metadata sources: `{'manual_override': 9, 'none': 676, 'text_inference': 161}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-04T02:21:53.414Z
+- WikiSync: **fresh** · 2026-09-04T05:58:17.824Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 

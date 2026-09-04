@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-04T02:21:53.414Z**
+Updated: **2026-09-04T05:58:17.824Z**
 
 ## Current
 
-- **304 tasks**
-- **12,470 LP**
-- **Total level 2,249**
+- **306 tasks**
+- **12,870 LP**
+- **Total level 2,265**
 - **Relic T6**
-- **13 blessing tasks**
+- **14 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **96 tasks** to the next region slot
-- **7,530 LP** to T7
-- **3 blessing tasks** to t5
+- **94 tasks** to the next region slot
+- **7,130 LP** to T7
+- **2 blessing tasks** to t5
 
 ## Suggested sprint
 
-Tracker selected **96** of the **96** tasks currently needed.
+Tracker selected **94** of the **94** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
@@ -79,7 +79,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [1217] Equip a Khopesh of the Kharidian. — Grade B, ~20s, unclustered, 200 LP
 - [1218] Equip a Khopesh of Tumeken or Khopesh of Elidinis. — Grade B, ~20s, unclustered, 400 LP
 - [1234] Equip a Bow of the Last Guardian. — Grade B, ~20s, unclustered, 400 LP
-- [1243] Equip a weapon from the Heart of Gielinor. — Grade B, ~20s, unclustered, 200 LP
 - [1254] Equip an igneous Kal-Ket, Xil, Mej, or Mor cape. — Grade B, ~20s, unclustered, 200 LP
 - [224] Enter the Warriors' Guild. — Grade B, ~30s, unclustered, 30 LP
 - [232] Enter the Crafting Guild. — Grade B, ~30s, unclustered, 30 LP
@@ -106,7 +105,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [809] Make 1,000 potions of any kind. — Grade B, ~60s, unclustered, 80 LP
 - [837] Cook 1,000 fish. — Grade B, ~60s, unclustered, 80 LP
 - [877] Make a 4-dose potion. — Grade B, ~60s, unclustered, 30 LP
-- [878] Make 20 super attack potions. — Grade B, ~60s, unclustered, 30 LP
 - [909] Craft 10,000 runes. — Grade B, ~60s, unclustered, 80 LP
 - [960] Fletch some broad arrows or bolts. — Grade B, ~60s, unclustered, 80 LP
 - [963] Fletch a rune crossbow. — Grade B, ~60s, unclustered, 80 LP

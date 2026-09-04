@@ -341,20 +341,20 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
-      "none": 677,
-      "text_inference": 162
+      "none": 676,
+      "text_inference": 161
     },
     "status_counts": {
-      "accessible_requirements_unknown": 303,
+      "accessible_requirements_unknown": 302,
       "blocked": 34,
       "excluded": 2,
-      "inferred_candidate": 128,
+      "inferred_candidate": 127,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "timed_inferred_candidates": 95,
+    "timed_inferred_candidates": 94,
     "timed_verified_tasks": 6
   },
   "fastest_inferred_backups": [
@@ -655,22 +655,6 @@
       "items_to_prepare": [],
       "lp_per_minute": 600.0,
       "name": "Equip a Khopesh of the Kharidian.",
-      "points": 200,
-      "recommendation_grade": "B",
-      "region": "Desert",
-      "status": "inferred_candidate",
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
-      "id": 1243,
-      "items_to_prepare": [],
-      "lp_per_minute": 600.0,
-      "name": "Equip a weapon from the Heart of Gielinor.",
       "points": 200,
       "recommendation_grade": "B",
       "region": "Desert",
@@ -1157,6 +1141,22 @@
       "status": "inferred_candidate",
       "tier": "medium",
       "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 20,
+      "id": 950,
+      "items_to_prepare": [],
+      "lp_per_minute": 90.0,
+      "name": "Equip a composite bow of any kind.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Global",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
     }
   ],
   "fastest_verified": [
@@ -1273,8 +1273,8 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 3090,
-    "inferred_count": 90,
+    "estimated_action_seconds_excluding_travel": 3010,
+    "inferred_count": 88,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [
       "bronze bolts/materials",
@@ -1283,7 +1283,7 @@
       "milk",
       "cake ingredients"
     ],
-    "selected_count": 96,
+    "selected_count": 94,
     "tasks": [
       {
         "blockers": [],
@@ -2260,22 +2260,6 @@
         "cluster": null,
         "confidence": 0.72,
         "estimated_seconds": 20,
-        "id": 1243,
-        "items_to_prepare": [],
-        "lp_per_minute": 600.0,
-        "name": "Equip a weapon from the Heart of Gielinor.",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Desert",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 20,
         "id": 1254,
         "items_to_prepare": [],
         "lp_per_minute": 600.0,
@@ -2692,22 +2676,6 @@
         "cluster": null,
         "confidence": 0.72,
         "estimated_seconds": 60,
-        "id": 878,
-        "items_to_prepare": [],
-        "lp_per_minute": 30.0,
-        "name": "Make 20 super attack potions.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
         "id": 909,
         "items_to_prepare": [],
         "lp_per_minute": 80.0,
@@ -2832,7 +2800,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 96,
+    "tasks_needed": 94,
     "verified_count": 6
   },
   "highest_lp_per_minute": [
@@ -3251,22 +3219,6 @@
       "cluster": null,
       "confidence": 0.72,
       "estimated_seconds": 20,
-      "id": 1243,
-      "items_to_prepare": [],
-      "lp_per_minute": 600.0,
-      "name": "Equip a weapon from the Heart of Gielinor.",
-      "points": 200,
-      "recommendation_grade": "B",
-      "region": "Desert",
-      "status": "inferred_candidate",
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
       "id": 1254,
       "items_to_prepare": [],
       "lp_per_minute": 600.0,
@@ -3645,6 +3597,22 @@
       "status": "inferred_candidate",
       "tier": "elite",
       "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 60,
+      "id": 1027,
+      "items_to_prepare": [],
+      "lp_per_minute": 200.0,
+      "name": "Fletch 20 elder shortbows (unstrung).",
+      "points": 200,
+      "recommendation_grade": "B",
+      "region": "Global",
+      "status": "inferred_candidate",
+      "tier": "elite",
+      "unknown_checks": []
     }
   ],
   "manual_checks": [
@@ -3755,7 +3723,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 96,
+    "remaining_tasks": 94,
     "tasks": 400
   },
   "schema_version": 1
