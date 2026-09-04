@@ -1,6 +1,6 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-04T05:58:17.824Z**
+Updated: **2026-09-04T06:16:33.141Z**
 
 ## Current
 
@@ -32,9 +32,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [54] Use the range in Lumbridge Castle to bake a cake. — Grade A, ~60s, lumbridge, 30 LP
 - [14] Equip the full master runecrafter skilling outfit. — Grade B, ~20s, unclustered, 80 LP
 - [61] Equip a dragon crossbow. — Grade B, ~20s, unclustered, 200 LP
-- [90] Equip an Omni guard. — Grade B, ~20s, unclustered, 200 LP
-- [91] Equip a Soulbound lantern. — Grade B, ~20s, unclustered, 200 LP
-- [92] Equip a full set of Robes of the First Necromancer. — Grade B, ~20s, unclustered, 200 LP
 - [128] Equip an Ek-ZekKil. — Grade B, ~20s, unclustered, 400 LP
 - [129] Equip a Fractured Staff of Armadyl. — Grade B, ~20s, unclustered, 400 LP
 - [130] Equip either a Dark Shard of Leng or a Dark Sliver of Leng. — Grade B, ~20s, unclustered, 200 LP
@@ -105,6 +102,9 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [809] Make 1,000 potions of any kind. — Grade B, ~60s, unclustered, 80 LP
 - [837] Cook 1,000 fish. — Grade B, ~60s, unclustered, 80 LP
 - [877] Make a 4-dose potion. — Grade B, ~60s, unclustered, 30 LP
+- [878] Make 20 super attack potions. — Grade B, ~60s, unclustered, 30 LP
+- [897] Make a Pineapple pizza. — Grade B, ~60s, unclustered, 30 LP
+- [898] Make a stew. — Grade B, ~60s, unclustered, 30 LP
 - [909] Craft 10,000 runes. — Grade B, ~60s, unclustered, 80 LP
 - [960] Fletch some broad arrows or bolts. — Grade B, ~60s, unclustered, 80 LP
 - [963] Fletch a rune crossbow. — Grade B, ~60s, unclustered, 80 LP

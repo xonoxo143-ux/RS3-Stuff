@@ -326,29 +326,19 @@
     "Asgarnia"
   ],
   "excluded_recommendation_task_ids": [
+    87,
+    88,
+    90,
+    91,
+    92,
     95,
     96,
+    805,
     988
   ],
   "league_points": 12870,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 72,
-      "skill": "Ranged",
-      "to": 85
-    },
-    {
-      "from": 71,
-      "skill": "Woodcutting",
-      "to": 72
-    },
-    {
-      "from": 105,
-      "skill": "Necromancy",
-      "to": 107
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -381,32 +371,8 @@
     "Woodcutting": 72
   },
   "mapped_completed_tasks": 306,
-  "new_task_ids_since_previous_live_sync": [
-    87,
-    1243
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Defeat Rasial, the First Necromancer once.",
-      "id": 87,
-      "issue": null,
-      "name": "Defeat Rasial, the First Necromancer.",
-      "points": 200,
-      "region": "Misthalin",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": true,
-      "description": "Equip a weapon from the Heart of Gielinor.",
-      "id": 1243,
-      "issue": null,
-      "name": "Equip a weapon from the Heart of Gielinor.",
-      "points": 200,
-      "region": "Desert",
-      "tier": "elite"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "next_blessing": {
     "remaining_tasks": 2,
     "step": "t5",
@@ -435,8 +401,8 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 2,
-  "timestamp_utc": "2026-09-04T05:58:17.824Z",
+  "task_delta_since_previous_live_sync": 0,
+  "timestamp_utc": "2026-09-04T06:16:33.141Z",
   "total_level": 2265,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []

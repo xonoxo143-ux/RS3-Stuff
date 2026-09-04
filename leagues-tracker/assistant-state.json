@@ -345,7 +345,7 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-04T05:58:17.824Z",
+    "timestamp_utc": "2026-09-04T06:16:33.141Z",
     "total_level": 2265
   },
   "blessings": {
@@ -519,51 +519,11 @@
     ]
   },
   "changes": {
-    "league_points_delta": 400,
-    "level_ups": [
-      {
-        "from": 72,
-        "skill": "Ranged",
-        "to": 85
-      },
-      {
-        "from": 71,
-        "skill": "Woodcutting",
-        "to": 72
-      },
-      {
-        "from": 105,
-        "skill": "Necromancy",
-        "to": 107
-      }
-    ],
-    "new_task_ids": [
-      87,
-      1243
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Defeat Rasial, the First Necromancer once.",
-        "id": 87,
-        "issue": null,
-        "name": "Defeat Rasial, the First Necromancer.",
-        "points": 200,
-        "region": "Misthalin",
-        "tier": "elite"
-      },
-      {
-        "blessing_task": true,
-        "description": "Equip a weapon from the Heart of Gielinor.",
-        "id": 1243,
-        "issue": null,
-        "name": "Equip a weapon from the Heart of Gielinor.",
-        "points": 200,
-        "region": "Desert",
-        "tier": "elite"
-      }
-    ],
-    "task_delta": 2
+    "league_points_delta": 0,
+    "level_ups": [],
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "forgotten_finish_opportunities": {
     "count": 6,
@@ -716,7 +676,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-04T05:58:17.824Z",
+    "generated_at_utc": "2026-09-04T06:16:33.141Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -732,24 +692,24 @@
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 9,
-        "none": 676,
-        "text_inference": 161
+        "none": 679,
+        "text_inference": 158
       },
       "status_counts": {
-        "accessible_requirements_unknown": 302,
+        "accessible_requirements_unknown": 300,
         "blocked": 34,
-        "excluded": 2,
-        "inferred_candidate": 127,
+        "excluded": 7,
+        "inferred_candidate": 124,
         "known_issue": 1,
         "locked_region": 371,
         "manual_check": 3,
         "verified_ready": 6
       },
-      "timed_inferred_candidates": 94,
+      "timed_inferred_candidates": 91,
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 192810,
+      "age_seconds_at_generation": 193904,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -765,13 +725,13 @@
       "unmapped_completed_task_ids": []
     },
     "wikisync": {
-      "age_seconds_at_generation": 1,
+      "age_seconds_at_generation": 0,
       "authoritative_for": [
         "completed_task_ids",
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-04T05:58:17.824Z"
+      "timestamp": "2026-09-04T06:16:33.141Z"
     }
   },
   "manual": {
@@ -814,30 +774,9 @@
     ],
     "manual_flags": {
       "bossing_resume_point": {
-        "armour_plan": "Use Necromancy armour if available; otherwise hybrid/GWD1 off-style as temporary bootstrap gear.",
-        "bar": [
-          "Conjure Undead Army",
-          "Death Skulls",
-          "Living Death",
-          "Command Vengeful Ghost",
-          "Command Skeleton Warrior",
-          "Touch of Death",
-          "Soul Sap",
-          "Volley of Souls",
-          "Finger of Death"
-        ],
         "boss": "Rasial",
-        "combat_mode": "Revolution++ full auto",
-        "manual_focus": [
-          "Protect/Deflect Necromancy",
-          "eat freely with Eternal Sustenance",
-          "move during final phase"
-        ],
-        "necromancy_level": 105,
-        "objective": "Get first Rasial kills and snowball into First Necromancer armour, Omni Guard, and Soulbound Lantern.",
-        "platform": "mobile",
-        "status": "ready_to_attempt",
-        "weapons": "T80 Death Guard + T80 Skull Lantern"
+        "note": "User completed 2 kills at roughly 10 minutes each on mobile with T80 Necromancy weapons and does not want Rasial recommended unless explicitly reopened.",
+        "status": "deferred_by_user"
       },
       "fort_workshop_unlocked": null,
       "t6_rejuvenated_relic": "Production Master"
@@ -852,6 +791,12 @@
       ]
     },
     "task_exclusions": {
+      "805": "Do not recommend Rasial Combat Mastery unless the user explicitly reopens Rasial.",
+      "87": "Do not recommend Rasial unless the user explicitly reopens it.",
+      "88": "Do not recommend Rasial unless the user explicitly reopens it.",
+      "90": "Do not recommend Rasial-drop gear progression (Omni Guard) unless the user explicitly reopens Rasial.",
+      "91": "Do not recommend Rasial-drop gear progression (Soulbound Lantern) unless the user explicitly reopens Rasial.",
+      "92": "Do not recommend Rasial-drop gear progression (First Necromancer set) unless the user explicitly reopens Rasial.",
       "95": "Do not recommend Croesus unless the user explicitly reopens it.",
       "96": "Do not recommend Croesus unless the user explicitly reopens it.",
       "988": "User explicitly scrapped the Cast a Wave spell recommendation."
@@ -1091,16 +1036,16 @@
   },
   "schema_version": 2,
   "tasks": {
-    "inferred_candidate_count": 127,
+    "inferred_candidate_count": 124,
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 302,
+    "requirements_unknown_count": 300,
     "status_counts": {
-      "accessible_requirements_unknown": 302,
+      "accessible_requirements_unknown": 300,
       "blocked": 34,
-      "excluded": 2,
-      "inferred_candidate": 127,
+      "excluded": 7,
+      "inferred_candidate": 124,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,

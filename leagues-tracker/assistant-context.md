@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-04T05:58:17.824Z**
+Updated: **2026-09-04T06:16:33.141Z**
 
 ## Tracker discipline
 
@@ -169,16 +169,13 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+2** · LP: **+400**
-- [87] Defeat Rasial, the First Necromancer. — elite, Misthalin, 200 LP
-- [1243] Equip a weapon from the Heart of Gielinor. — elite, Desert, 200 LP
-- Level-ups: Ranged 72→85; Woodcutting 71→72; Necromancy 105→107
+- Tasks: **+0** · LP: **+0**
 
 ## Current task sprint
 
 - Need: **94 tasks**
 - Precomputed sprint: **94 tasks** (6 Grade A, 88 Grade B)
-- Action-time estimate excluding travel: **3010 sec**
+- Action-time estimate excluding travel: **3130 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -193,9 +190,6 @@ Passive step effects:
 - [54] **Use the range in Lumbridge Castle to bake a cake.** — Grade A · ~60s · lumbridge
 - [14] **Equip the full master runecrafter skilling outfit.** — Grade B · ~20s · unclustered
 - [61] **Equip a dragon crossbow.** — Grade B · ~20s · unclustered
-- [90] **Equip an Omni guard.** — Grade B · ~20s · unclustered
-- [91] **Equip a Soulbound lantern.** — Grade B · ~20s · unclustered
-- [92] **Equip a full set of Robes of the First Necromancer.** — Grade B · ~20s · unclustered
 - [128] **Equip an Ek-ZekKil.** — Grade B · ~20s · unclustered
 - [129] **Equip a Fractured Staff of Armadyl.** — Grade B · ~20s · unclustered
 - [130] **Equip either a Dark Shard of Leng or a Dark Sliver of Leng.** — Grade B · ~20s · unclustered
@@ -210,17 +204,20 @@ Passive step effects:
 - [618] **Equip a Toktz-Ket-Xil.** — Grade B · ~20s · unclustered
 - [619] **Equip a Tzhaar-Ket-Om.** — Grade B · ~20s · unclustered
 - [621] **Equip a Toktz-Xil-Ek.** — Grade B · ~20s · unclustered
+- [624] **Equip a full set of obsidian armour.** — Grade B · ~20s · unclustered
+- [625] **Equip a red topaz machete.** — Grade B · ~20s · unclustered
+- [652] **Equip a piece of gemstone armour.** — Grade B · ~20s · unclustered
 
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **6**
-- Timed Grade-B inferred candidates: **94**
-- Metadata sources: `{'manual_override': 9, 'none': 676, 'text_inference': 161}`
+- Timed Grade-B inferred candidates: **91**
+- Metadata sources: `{'manual_override': 9, 'none': 679, 'text_inference': 158}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-04T05:58:17.824Z
+- WikiSync: **fresh** · 2026-09-04T06:16:33.141Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 

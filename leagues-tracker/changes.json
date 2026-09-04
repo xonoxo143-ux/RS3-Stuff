@@ -1,47 +1,7 @@
 {
-  "league_points_delta": 400,
-  "level_ups": [
-    {
-      "from": 72,
-      "skill": "Ranged",
-      "to": 85
-    },
-    {
-      "from": 71,
-      "skill": "Woodcutting",
-      "to": 72
-    },
-    {
-      "from": 105,
-      "skill": "Necromancy",
-      "to": 107
-    }
-  ],
-  "new_task_ids": [
-    87,
-    1243
-  ],
-  "new_tasks": [
-    {
-      "blessing_task": false,
-      "description": "Defeat Rasial, the First Necromancer once.",
-      "id": 87,
-      "issue": null,
-      "name": "Defeat Rasial, the First Necromancer.",
-      "points": 200,
-      "region": "Misthalin",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": true,
-      "description": "Equip a weapon from the Heart of Gielinor.",
-      "id": 1243,
-      "issue": null,
-      "name": "Equip a weapon from the Heart of Gielinor.",
-      "points": 200,
-      "region": "Desert",
-      "tier": "elite"
-    }
-  ],
-  "task_delta": 2
+  "league_points_delta": 0,
+  "level_ups": [],
+  "new_task_ids": [],
+  "new_tasks": [],
+  "task_delta": 0
 }
