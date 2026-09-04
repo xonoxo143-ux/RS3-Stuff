@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-04T01:02:05.091Z**
+Updated: **2026-09-04T02:21:53.414Z**
 
 ## Current
 
-- **299 tasks**
-- **12,170 LP**
-- **Total level 2,217**
+- **304 tasks**
+- **12,470 LP**
+- **Total level 2,249**
 - **Relic T6**
 - **13 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **101 tasks** to the next region slot
-- **7,830 LP** to T7
+- **96 tasks** to the next region slot
+- **7,530 LP** to T7
 - **3 blessing tasks** to t5
 
 ## Suggested sprint
 
-Tracker selected **101** of the **101** tasks currently needed.
+Tracker selected **96** of the **96** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
@@ -84,7 +84,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [224] Enter the Warriors' Guild. — Grade B, ~30s, unclustered, 30 LP
 - [232] Enter the Crafting Guild. — Grade B, ~30s, unclustered, 30 LP
 - [238] Use the Telekinetic Grab spell to steal some wine of Zamorak from the captured temple south of Goblin Village. — Grade B, ~30s, unclustered, 30 LP
-- [611] Enter the Hardwood Grove in Tai Bwo Wannai. — Grade B, ~30s, unclustered, 30 LP
 - [1175] Use an oaken key to open Raz's stash in her hut north of Wendlewick. — Grade B, ~30s, unclustered, 30 LP
 - [1183] Use an empowered obelisk to create a jackalope pouch at the Shrine of Inanna. — Grade B, ~30s, unclustered, 10 LP
 - [1184] Use the spirit plane connection bonus at the Shrine of Inanna to create a summoning pouch for free. — Grade B, ~30s, unclustered, 10 LP
@@ -108,10 +107,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [837] Cook 1,000 fish. — Grade B, ~60s, unclustered, 80 LP
 - [877] Make a 4-dose potion. — Grade B, ~60s, unclustered, 30 LP
 - [878] Make 20 super attack potions. — Grade B, ~60s, unclustered, 30 LP
-- [897] Make a Pineapple pizza. — Grade B, ~60s, unclustered, 30 LP
-- [898] Make a stew. — Grade B, ~60s, unclustered, 30 LP
-- [899] Make a chocolate cake. — Grade B, ~60s, unclustered, 30 LP
-- [906] Craft some combination runes. — Grade B, ~60s, unclustered, 30 LP
 - [909] Craft 10,000 runes. — Grade B, ~60s, unclustered, 80 LP
 - [960] Fletch some broad arrows or bolts. — Grade B, ~60s, unclustered, 80 LP
 - [963] Fletch a rune crossbow. — Grade B, ~60s, unclustered, 80 LP

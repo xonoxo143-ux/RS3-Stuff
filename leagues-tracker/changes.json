@@ -1,18 +1,90 @@
 {
-  "league_points_delta": 0,
+  "league_points_delta": 300,
   "level_ups": [
     {
-      "from": 54,
-      "skill": "Firemaking",
-      "to": 62
+      "from": 62,
+      "skill": "Woodcutting",
+      "to": 71
     },
     {
-      "from": 88,
-      "skill": "Crafting",
-      "to": 97
+      "from": 69,
+      "skill": "Fletching",
+      "to": 78
+    },
+    {
+      "from": 62,
+      "skill": "Firemaking",
+      "to": 70
+    },
+    {
+      "from": 74,
+      "skill": "Herblore",
+      "to": 79
+    },
+    {
+      "from": 69,
+      "skill": "Summoning",
+      "to": 70
     }
   ],
-  "new_task_ids": [],
-  "new_tasks": [],
-  "task_delta": 0
+  "new_task_ids": [
+    174,
+    611,
+    966,
+    967,
+    989
+  ],
+  "new_tasks": [
+    {
+      "blessing_task": false,
+      "description": "Burn any logs 200 times.",
+      "id": 174,
+      "issue": null,
+      "name": "Burn any logs 200 times.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Enter the hardwood grove in Tai Bwo Wannai.",
+      "id": 611,
+      "issue": null,
+      "name": "Enter the Hardwood Grove in Tai Bwo Wannai.",
+      "points": 30,
+      "region": "Karamja",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Fletch 750 rune arrows.",
+      "id": 966,
+      "issue": null,
+      "name": "Fletch 750 rune arrows.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Fletch 75 onyx bolts.",
+      "id": 967,
+      "issue": null,
+      "name": "Fletch 75 onyx bolts.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Burn 75 yew logs.",
+      "id": 989,
+      "issue": null,
+      "name": "Burn 75 yew logs.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    }
+  ],
+  "task_delta": 5
 }

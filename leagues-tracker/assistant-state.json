@@ -99,6 +99,7 @@
       171,
       172,
       173,
+      174,
       176,
       177,
       178,
@@ -176,6 +177,7 @@
       608,
       609,
       610,
+      611,
       612,
       614,
       620,
@@ -256,6 +258,8 @@
       955,
       956,
       964,
+      966,
+      967,
       972,
       980,
       981,
@@ -264,6 +268,7 @@
       986,
       987,
       988,
+      989,
       1052,
       1060,
       1066,
@@ -302,9 +307,9 @@
       1250,
       1271
     ],
-    "completed_tasks": 299,
+    "completed_tasks": 304,
     "league": "Leagues II: Equilibrium",
-    "league_points": 12170,
+    "league_points": 12470,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
@@ -318,10 +323,10 @@
       "Divination": 80,
       "Dungeoneering": 39,
       "Farming": 26,
-      "Firemaking": 62,
+      "Firemaking": 70,
       "Fishing": 40,
-      "Fletching": 69,
-      "Herblore": 74,
+      "Fletching": 78,
+      "Herblore": 79,
       "Hunter": 45,
       "Invention": 120,
       "Magic": 87,
@@ -333,13 +338,13 @@
       "Slayer": 79,
       "Smithing": 82,
       "Strength": 79,
-      "Summoning": 69,
+      "Summoning": 70,
       "Thieving": 120,
-      "Woodcutting": 62
+      "Woodcutting": 71
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-04T01:02:05.091Z",
-    "total_level": 2217
+    "timestamp_utc": "2026-09-04T02:21:53.414Z",
+    "total_level": 2249
   },
   "blessings": {
     "derived_god_choices": {
@@ -512,22 +517,94 @@
     ]
   },
   "changes": {
-    "league_points_delta": 0,
+    "league_points_delta": 300,
     "level_ups": [
       {
-        "from": 54,
-        "skill": "Firemaking",
-        "to": 62
+        "from": 62,
+        "skill": "Woodcutting",
+        "to": 71
       },
       {
-        "from": 88,
-        "skill": "Crafting",
-        "to": 97
+        "from": 69,
+        "skill": "Fletching",
+        "to": 78
+      },
+      {
+        "from": 62,
+        "skill": "Firemaking",
+        "to": 70
+      },
+      {
+        "from": 74,
+        "skill": "Herblore",
+        "to": 79
+      },
+      {
+        "from": 69,
+        "skill": "Summoning",
+        "to": 70
       }
     ],
-    "new_task_ids": [],
-    "new_tasks": [],
-    "task_delta": 0
+    "new_task_ids": [
+      174,
+      611,
+      966,
+      967,
+      989
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "description": "Burn any logs 200 times.",
+        "id": 174,
+        "issue": null,
+        "name": "Burn any logs 200 times.",
+        "points": 30,
+        "region": "Global",
+        "tier": "medium"
+      },
+      {
+        "blessing_task": false,
+        "description": "Enter the hardwood grove in Tai Bwo Wannai.",
+        "id": 611,
+        "issue": null,
+        "name": "Enter the Hardwood Grove in Tai Bwo Wannai.",
+        "points": 30,
+        "region": "Karamja",
+        "tier": "medium"
+      },
+      {
+        "blessing_task": false,
+        "description": "Fletch 750 rune arrows.",
+        "id": 966,
+        "issue": null,
+        "name": "Fletch 750 rune arrows.",
+        "points": 80,
+        "region": "Global",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Fletch 75 onyx bolts.",
+        "id": 967,
+        "issue": null,
+        "name": "Fletch 75 onyx bolts.",
+        "points": 80,
+        "region": "Global",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Burn 75 yew logs.",
+        "id": 989,
+        "issue": null,
+        "name": "Burn 75 yew logs.",
+        "points": 80,
+        "region": "Global",
+        "tier": "hard"
+      }
+    ],
+    "task_delta": 5
   },
   "forgotten_finish_opportunities": {
     "count": 6,
@@ -680,7 +757,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-04T01:02:05.091Z",
+    "generated_at_utc": "2026-09-04T02:21:53.414Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -696,24 +773,24 @@
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 9,
-        "none": 681,
-        "text_inference": 163
+        "none": 677,
+        "text_inference": 162
       },
       "status_counts": {
-        "accessible_requirements_unknown": 307,
+        "accessible_requirements_unknown": 303,
         "blocked": 34,
         "excluded": 2,
-        "inferred_candidate": 129,
+        "inferred_candidate": 128,
         "known_issue": 1,
         "locked_region": 371,
         "manual_check": 3,
         "verified_ready": 6
       },
-      "timed_inferred_candidates": 96,
+      "timed_inferred_candidates": 95,
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 175037,
+      "age_seconds_at_generation": 179825,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -723,7 +800,7 @@
         "removed_task_ids": [],
         "status": "unchanged"
       },
-      "mapped_completed_tasks": 299,
+      "mapped_completed_tasks": 304,
       "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
@@ -735,7 +812,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-04T01:02:05.091Z"
+      "timestamp": "2026-09-04T02:21:53.414Z"
     }
   },
   "manual": {
@@ -777,6 +854,32 @@
       }
     ],
     "manual_flags": {
+      "bossing_resume_point": {
+        "armour_plan": "Use Necromancy armour if available; otherwise hybrid/GWD1 off-style as temporary bootstrap gear.",
+        "bar": [
+          "Conjure Undead Army",
+          "Death Skulls",
+          "Living Death",
+          "Command Vengeful Ghost",
+          "Command Skeleton Warrior",
+          "Touch of Death",
+          "Soul Sap",
+          "Volley of Souls",
+          "Finger of Death"
+        ],
+        "boss": "Rasial",
+        "combat_mode": "Revolution++ full auto",
+        "manual_focus": [
+          "Protect/Deflect Necromancy",
+          "eat freely with Eternal Sustenance",
+          "move during final phase"
+        ],
+        "necromancy_level": 105,
+        "objective": "Get first Rasial kills and snowball into First Necromancer armour, Omni Guard, and Soulbound Lantern.",
+        "platform": "mobile",
+        "status": "ready_to_attempt",
+        "weapons": "T80 Death Guard + T80 Skull Lantern"
+      },
       "fort_workshop_unlocked": null,
       "t6_rejuvenated_relic": "Production Master"
     },
@@ -805,11 +908,11 @@
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 101,
+      "remaining_tasks": 96,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 7830,
+      "remaining_points": 7530,
       "threshold": 20000,
       "tier": 7
     },
@@ -1029,22 +1132,22 @@
   },
   "schema_version": 2,
   "tasks": {
-    "inferred_candidate_count": 129,
+    "inferred_candidate_count": 128,
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 307,
+    "requirements_unknown_count": 303,
     "status_counts": {
-      "accessible_requirements_unknown": 307,
+      "accessible_requirements_unknown": 303,
       "blocked": 34,
       "excluded": 2,
-      "inferred_candidate": 129,
+      "inferred_candidate": 128,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "unfinished_count": 853,
+    "unfinished_count": 848,
     "verified_ready_count": 6
   }
 }

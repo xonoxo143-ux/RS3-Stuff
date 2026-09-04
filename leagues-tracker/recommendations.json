@@ -341,20 +341,20 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
-      "none": 681,
-      "text_inference": 163
+      "none": 677,
+      "text_inference": 162
     },
     "status_counts": {
-      "accessible_requirements_unknown": 307,
+      "accessible_requirements_unknown": 303,
       "blocked": 34,
       "excluded": 2,
-      "inferred_candidate": 129,
+      "inferred_candidate": 128,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "timed_inferred_candidates": 96,
+    "timed_inferred_candidates": 95,
     "timed_verified_tasks": 6
   },
   "fastest_inferred_backups": [
@@ -1273,8 +1273,8 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 3360,
-    "inferred_count": 95,
+    "estimated_action_seconds_excluding_travel": 3090,
+    "inferred_count": 90,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [
       "bronze bolts/materials",
@@ -1283,7 +1283,7 @@
       "milk",
       "cake ingredients"
     ],
-    "selected_count": 101,
+    "selected_count": 96,
     "tasks": [
       {
         "blockers": [],
@@ -2340,22 +2340,6 @@
         "cluster": null,
         "confidence": 0.72,
         "estimated_seconds": 30,
-        "id": 611,
-        "items_to_prepare": [],
-        "lp_per_minute": 60.0,
-        "name": "Enter the Hardwood Grove in Tai Bwo Wannai.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Karamja",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 30,
         "id": 1175,
         "items_to_prepare": [],
         "lp_per_minute": 60.0,
@@ -2724,70 +2708,6 @@
         "cluster": null,
         "confidence": 0.72,
         "estimated_seconds": 60,
-        "id": 897,
-        "items_to_prepare": [],
-        "lp_per_minute": 30.0,
-        "name": "Make a Pineapple pizza.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 898,
-        "items_to_prepare": [],
-        "lp_per_minute": 30.0,
-        "name": "Make a stew.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 899,
-        "items_to_prepare": [],
-        "lp_per_minute": 30.0,
-        "name": "Make a chocolate cake.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 906,
-        "items_to_prepare": [],
-        "lp_per_minute": 30.0,
-        "name": "Craft some combination runes.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
         "id": 909,
         "items_to_prepare": [],
         "lp_per_minute": 80.0,
@@ -2912,7 +2832,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 101,
+    "tasks_needed": 96,
     "verified_count": 6
   },
   "highest_lp_per_minute": [
@@ -3835,7 +3755,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 101,
+    "remaining_tasks": 96,
     "tasks": 400
   },
   "schema_version": 1

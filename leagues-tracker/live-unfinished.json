@@ -1,20 +1,20 @@
 {
-  "completed_task_count": 299,
+  "completed_task_count": 304,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
   "status_counts": {
-    "accessible_requirements_unknown": 307,
+    "accessible_requirements_unknown": 303,
     "blocked": 34,
     "excluded": 2,
-    "inferred_candidate": 129,
+    "inferred_candidate": 128,
     "known_issue": 1,
     "locked_region": 371,
     "manual_check": 3,
     "verified_ready": 6
   },
-  "timestamp_utc": "2026-09-04T01:02:05.091Z",
-  "unfinished_task_count": 853,
+  "timestamp_utc": "2026-09-04T02:21:53.414Z",
+  "unfinished_task_count": 848,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -1493,28 +1493,6 @@
       "tags": [],
       "task_count_efficiency": null,
       "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Burn any logs 200 times.",
-      "estimated_seconds": null,
-      "id": 174,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Burn any logs 200 times.",
-      "points": 30,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "medium",
       "unknown_checks": []
     },
     {
@@ -9314,31 +9292,6 @@
     {
       "blessing_task": false,
       "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "description": "Enter the hardwood grove in Tai Bwo Wannai.",
-      "estimated_seconds": 30,
-      "id": 611,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 60.0,
-      "metadata_source": "text_inference",
-      "name": "Enter the Hardwood Grove in Tai Bwo Wannai.",
-      "points": 30,
-      "recommendation_grade": "B",
-      "region": "Karamja",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "travel"
-      ],
-      "task_count_efficiency": 80,
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
       "cluster": "karamja",
       "confidence": 0.55,
       "description": "Check a grown banana tree on Karamja.",
@@ -15269,50 +15222,6 @@
       "blessing_task": false,
       "blockers": [],
       "cluster": null,
-      "confidence": 0.0,
-      "description": "Fletch 750 rune arrows.",
-      "estimated_seconds": null,
-      "id": 966,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Fletch 750 rune arrows.",
-      "points": 80,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Fletch 75 onyx bolts.",
-      "estimated_seconds": null,
-      "id": 967,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Fletch 75 onyx bolts.",
-      "points": 80,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
       "confidence": 0.72,
       "description": "Equip a rune ceremonial sword.",
       "estimated_seconds": 20,
@@ -15617,28 +15526,6 @@
         "equip"
       ],
       "task_count_efficiency": 70,
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Burn 75 yew logs.",
-      "estimated_seconds": null,
-      "id": 989,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Burn 75 yew logs.",
-      "points": 80,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
       "tier": "hard",
       "unknown_checks": []
     },
@@ -17420,8 +17307,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 62,
-          "gap": 37,
+          "current": 70,
+          "gap": 29,
           "required": 99,
           "skill": "Firemaking",
           "type": "skill"
@@ -17486,8 +17373,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 69,
-          "gap": 30,
+          "current": 78,
+          "gap": 21,
           "required": 99,
           "skill": "Fletching",
           "type": "skill"
@@ -17519,8 +17406,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 74,
-          "gap": 25,
+          "current": 79,
+          "gap": 20,
           "required": 99,
           "skill": "Herblore",
           "type": "skill"
@@ -17805,8 +17692,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 69,
-          "gap": 30,
+          "current": 70,
+          "gap": 29,
           "required": 99,
           "skill": "Summoning",
           "type": "skill"
@@ -17838,8 +17725,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 62,
-          "gap": 37,
+          "current": 71,
+          "gap": 28,
           "required": 99,
           "skill": "Woodcutting",
           "type": "skill"
@@ -17970,8 +17857,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 62,
-          "gap": 48,
+          "current": 70,
+          "gap": 40,
           "required": 110,
           "skill": "Firemaking",
           "type": "skill"
@@ -18003,8 +17890,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 69,
-          "gap": 41,
+          "current": 78,
+          "gap": 32,
           "required": 110,
           "skill": "Fletching",
           "type": "skill"
@@ -18036,8 +17923,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 62,
-          "gap": 48,
+          "current": 71,
+          "gap": 39,
           "required": 110,
           "skill": "Woodcutting",
           "type": "skill"
@@ -18169,8 +18056,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 74,
-          "gap": 46,
+          "current": 79,
+          "gap": 41,
           "required": 120,
           "skill": "Herblore",
           "type": "skill"

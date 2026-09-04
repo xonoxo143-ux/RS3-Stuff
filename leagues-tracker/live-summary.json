@@ -107,6 +107,7 @@
     171,
     172,
     173,
+    174,
     176,
     177,
     178,
@@ -184,6 +185,7 @@
     608,
     609,
     610,
+    611,
     612,
     614,
     620,
@@ -264,6 +266,8 @@
     955,
     956,
     964,
+    966,
+    967,
     972,
     980,
     981,
@@ -272,6 +276,7 @@
     986,
     987,
     988,
+    989,
     1052,
     1060,
     1066,
@@ -310,7 +315,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 299,
+  "completed_tasks": 304,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -323,18 +328,33 @@
     96,
     988
   ],
-  "league_points": 12170,
+  "league_points": 12470,
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 54,
-      "skill": "Firemaking",
-      "to": 62
+      "from": 62,
+      "skill": "Woodcutting",
+      "to": 71
     },
     {
-      "from": 88,
-      "skill": "Crafting",
-      "to": 97
+      "from": 69,
+      "skill": "Fletching",
+      "to": 78
+    },
+    {
+      "from": 62,
+      "skill": "Firemaking",
+      "to": 70
+    },
+    {
+      "from": 74,
+      "skill": "Herblore",
+      "to": 79
+    },
+    {
+      "from": 69,
+      "skill": "Summoning",
+      "to": 70
     }
   ],
   "levels": {
@@ -349,10 +369,10 @@
     "Divination": 80,
     "Dungeoneering": 39,
     "Farming": 26,
-    "Firemaking": 62,
+    "Firemaking": 70,
     "Fishing": 40,
-    "Fletching": 69,
-    "Herblore": 74,
+    "Fletching": 78,
+    "Herblore": 79,
     "Hunter": 45,
     "Invention": 120,
     "Magic": 87,
@@ -364,13 +384,70 @@
     "Slayer": 79,
     "Smithing": 82,
     "Strength": 79,
-    "Summoning": 69,
+    "Summoning": 70,
     "Thieving": 120,
-    "Woodcutting": 62
+    "Woodcutting": 71
   },
-  "mapped_completed_tasks": 299,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 304,
+  "new_task_ids_since_previous_live_sync": [
+    174,
+    611,
+    966,
+    967,
+    989
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Burn any logs 200 times.",
+      "id": 174,
+      "issue": null,
+      "name": "Burn any logs 200 times.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Enter the hardwood grove in Tai Bwo Wannai.",
+      "id": 611,
+      "issue": null,
+      "name": "Enter the Hardwood Grove in Tai Bwo Wannai.",
+      "points": 30,
+      "region": "Karamja",
+      "tier": "medium"
+    },
+    {
+      "blessing_task": false,
+      "description": "Fletch 750 rune arrows.",
+      "id": 966,
+      "issue": null,
+      "name": "Fletch 750 rune arrows.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Fletch 75 onyx bolts.",
+      "id": 967,
+      "issue": null,
+      "name": "Fletch 75 onyx bolts.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Burn 75 yew logs.",
+      "id": 989,
+      "issue": null,
+      "name": "Burn 75 yew logs.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    }
+  ],
   "next_blessing": {
     "remaining_tasks": 3,
     "step": "t5",
@@ -379,11 +456,11 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 101,
+    "remaining_tasks": 96,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 7830,
+    "remaining_points": 7530,
     "threshold": 20000,
     "tier": 7
   },
@@ -399,9 +476,9 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-04T01:02:05.091Z",
-  "total_level": 2217,
+  "task_delta_since_previous_live_sync": 5,
+  "timestamp_utc": "2026-09-04T02:21:53.414Z",
+  "total_level": 2249,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

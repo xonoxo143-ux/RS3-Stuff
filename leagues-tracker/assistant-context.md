@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-04T01:02:05.091Z**
+Updated: **2026-09-04T02:21:53.414Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-04T01:02:05.091Z**
 
 ## Current snapshot
 
-- **12,170 LP** · **299 tasks** · total level **2,217**
+- **12,470 LP** · **304 tasks** · total level **2,249**
 - **13 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **101 tasks** to 400
-- Next relic: **7,830 LP** to T7
+- Next region: **96 tasks** to 400
+- Next relic: **7,530 LP** to T7
 - Next blessing step: **3** to t5
 
 ## Active relics
@@ -169,14 +169,19 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
-- Level-ups: Firemaking 54→62; Crafting 88→97
+- Tasks: **+5** · LP: **+300**
+- [174] Burn any logs 200 times. — medium, Global, 30 LP
+- [611] Enter the Hardwood Grove in Tai Bwo Wannai. — medium, Karamja, 30 LP
+- [966] Fletch 750 rune arrows. — hard, Global, 80 LP
+- [967] Fletch 75 onyx bolts. — hard, Global, 80 LP
+- [989] Burn 75 yew logs. — hard, Global, 80 LP
+- Level-ups: Woodcutting 62→71; Fletching 69→78; Firemaking 62→70; Herblore 74→79; Summoning 69→70
 
 ## Current task sprint
 
-- Need: **101 tasks**
-- Precomputed sprint: **101 tasks** (6 Grade A, 95 Grade B)
-- Action-time estimate excluding travel: **3360 sec**
+- Need: **96 tasks**
+- Precomputed sprint: **96 tasks** (6 Grade A, 90 Grade B)
+- Action-time estimate excluding travel: **3090 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -212,13 +217,13 @@ Passive step effects:
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **6**
-- Timed Grade-B inferred candidates: **96**
-- Metadata sources: `{'manual_override': 9, 'none': 681, 'text_inference': 163}`
+- Timed Grade-B inferred candidates: **95**
+- Metadata sources: `{'manual_override': 9, 'none': 677, 'text_inference': 162}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-04T01:02:05.091Z
+- WikiSync: **fresh** · 2026-09-04T02:21:53.414Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
