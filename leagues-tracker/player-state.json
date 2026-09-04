@@ -34,8 +34,14 @@
     ]
   },
   "task_exclusions": {
+    "87": "Do not recommend Rasial unless the user explicitly reopens it.",
+    "88": "Do not recommend Rasial unless the user explicitly reopens it.",
+    "90": "Do not recommend Rasial-drop gear progression (Omni Guard) unless the user explicitly reopens Rasial.",
+    "91": "Do not recommend Rasial-drop gear progression (Soulbound Lantern) unless the user explicitly reopens Rasial.",
+    "92": "Do not recommend Rasial-drop gear progression (First Necromancer set) unless the user explicitly reopens Rasial.",
     "95": "Do not recommend Croesus unless the user explicitly reopens it.",
     "96": "Do not recommend Croesus unless the user explicitly reopens it.",
+    "805": "Do not recommend Rasial Combat Mastery unless the user explicitly reopens Rasial.",
     "988": "User explicitly scrapped the Cast a Wave spell recommendation."
   },
   "key_items": [
@@ -75,29 +81,8 @@
     "t6_rejuvenated_relic": "Production Master",
     "bossing_resume_point": {
       "boss": "Rasial",
-      "status": "ready_to_attempt",
-      "necromancy_level": 105,
-      "weapons": "T80 Death Guard + T80 Skull Lantern",
-      "armour_plan": "Use Necromancy armour if available; otherwise hybrid/GWD1 off-style as temporary bootstrap gear.",
-      "platform": "mobile",
-      "combat_mode": "Revolution++ full auto",
-      "bar": [
-        "Conjure Undead Army",
-        "Death Skulls",
-        "Living Death",
-        "Command Vengeful Ghost",
-        "Command Skeleton Warrior",
-        "Touch of Death",
-        "Soul Sap",
-        "Volley of Souls",
-        "Finger of Death"
-      ],
-      "manual_focus": [
-        "Protect/Deflect Necromancy",
-        "eat freely with Eternal Sustenance",
-        "move during final phase"
-      ],
-      "objective": "Get first Rasial kills and snowball into First Necromancer armour, Omni Guard, and Soulbound Lantern."
+      "status": "deferred_by_user",
+      "note": "User completed 2 kills at roughly 10 minutes each on mobile with T80 Necromancy weapons and does not want Rasial recommended unless explicitly reopened."
     }
   },
   "goal": {
