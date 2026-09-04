@@ -340,9 +340,9 @@
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 85,
+      "from": 87,
       "skill": "Ranged",
-      "to": 87
+      "to": 88
     }
   ],
   "levels": {
@@ -367,7 +367,7 @@
     "Mining": 84,
     "Necromancy": 107,
     "Prayer": 99,
-    "Ranged": 87,
+    "Ranged": 88,
     "Runecrafting": 73,
     "Slayer": 79,
     "Smithing": 82,
@@ -408,8 +408,8 @@
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
   "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-04T16:26:13.763Z",
-  "total_level": 2282,
+  "timestamp_utc": "2026-09-04T16:39:34.282Z",
+  "total_level": 2283,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

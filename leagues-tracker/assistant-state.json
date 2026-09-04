@@ -335,7 +335,7 @@
       "Mining": 84,
       "Necromancy": 107,
       "Prayer": 99,
-      "Ranged": 87,
+      "Ranged": 88,
       "Runecrafting": 73,
       "Slayer": 79,
       "Smithing": 82,
@@ -345,8 +345,8 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-04T16:26:13.763Z",
-    "total_level": 2282
+    "timestamp_utc": "2026-09-04T16:39:34.282Z",
+    "total_level": 2283
   },
   "blessings": {
     "derived_god_choices": {
@@ -522,9 +522,9 @@
     "league_points_delta": 0,
     "level_ups": [
       {
-        "from": 85,
+        "from": 87,
         "skill": "Ranged",
-        "to": 87
+        "to": 88
       }
     ],
     "new_task_ids": [],
@@ -682,7 +682,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-04T16:26:13.763Z",
+    "generated_at_utc": "2026-09-04T16:39:34.282Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -715,7 +715,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 230485,
+      "age_seconds_at_generation": 231286,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -737,7 +737,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-04T16:26:13.763Z"
+      "timestamp": "2026-09-04T16:39:34.282Z"
     }
   },
   "manual": {
@@ -794,6 +794,12 @@
         "note": "Obtained from Gregorovic. Reserve for conversion with a Crest of Zamorak into T80 ranged Anima Core of Zamorak.",
         "quantity": 1,
         "status": "owned"
+      },
+      {
+        "name": "TokHaar-Kal-Xil",
+        "note": "Ranged Fight Kiln cape. Obtained 2026-09-04 after a 33-minute all-Ranged Kiln run.",
+        "quantity": 1,
+        "status": "owned_and_equipped"
       }
     ],
     "manual_flags": {

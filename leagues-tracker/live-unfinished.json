@@ -13,7 +13,7 @@
     "manual_check": 3,
     "verified_ready": 6
   },
-  "timestamp_utc": "2026-09-04T16:26:13.763Z",
+  "timestamp_utc": "2026-09-04T16:39:34.282Z",
   "unfinished_task_count": 846,
   "unfinished_tasks": [
     {
@@ -17512,8 +17512,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 87,
-          "gap": 12,
+          "current": 88,
+          "gap": 11,
           "required": 99,
           "skill": "Ranged",
           "type": "skill"
