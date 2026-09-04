@@ -343,38 +343,7 @@
   ],
   "league_points": 13510,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 79,
-      "skill": "Attack",
-      "to": 80
-    },
-    {
-      "from": 79,
-      "skill": "Strength",
-      "to": 80
-    },
-    {
-      "from": 88,
-      "skill": "Ranged",
-      "to": 106
-    },
-    {
-      "from": 72,
-      "skill": "Cooking",
-      "to": 88
-    },
-    {
-      "from": 78,
-      "skill": "Fletching",
-      "to": 79
-    },
-    {
-      "from": 70,
-      "skill": "Firemaking",
-      "to": 75
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -407,65 +376,8 @@
     "Woodcutting": 72
   },
   "mapped_completed_tasks": 311,
-  "new_task_ids_since_previous_live_sync": [
-    321,
-    325,
-    837,
-    1081,
-    1114
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Defeat the Twin Furies.",
-      "id": 321,
-      "issue": null,
-      "name": "Defeat Avaryss and Nymora.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat the Twin Furies 50 times.",
-      "id": 325,
-      "issue": null,
-      "name": "Defeat Avaryss and Nymora.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Cook 1,000 fish.",
-      "id": 837,
-      "issue": null,
-      "name": "Cook 1,000 fish.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach level 99 Ranged.",
-      "id": 1081,
-      "issue": null,
-      "name": "Reach level 99 in the Ranged skill.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Obtain 50 million Prayer XP.",
-      "id": 1114,
-      "issue": null,
-      "name": "Obtain 50 million Prayer XP.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "next_blessing": {
     "remaining_tasks": 2,
     "step": "t5",
@@ -494,8 +406,8 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 5,
-  "timestamp_utc": "2026-09-04T19:39:39.013Z",
+  "task_delta_since_previous_live_sync": 0,
+  "timestamp_utc": "2026-09-04T20:02:06.791Z",
   "total_level": 2325,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []

@@ -350,7 +350,7 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-04T19:39:39.013Z",
+    "timestamp_utc": "2026-09-04T20:02:06.791Z",
     "total_level": 2325
   },
   "blessings": {
@@ -524,99 +524,11 @@
     ]
   },
   "changes": {
-    "league_points_delta": 640,
-    "level_ups": [
-      {
-        "from": 79,
-        "skill": "Attack",
-        "to": 80
-      },
-      {
-        "from": 79,
-        "skill": "Strength",
-        "to": 80
-      },
-      {
-        "from": 88,
-        "skill": "Ranged",
-        "to": 106
-      },
-      {
-        "from": 72,
-        "skill": "Cooking",
-        "to": 88
-      },
-      {
-        "from": 78,
-        "skill": "Fletching",
-        "to": 79
-      },
-      {
-        "from": 70,
-        "skill": "Firemaking",
-        "to": 75
-      }
-    ],
-    "new_task_ids": [
-      321,
-      325,
-      837,
-      1081,
-      1114
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Defeat the Twin Furies.",
-        "id": 321,
-        "issue": null,
-        "name": "Defeat Avaryss and Nymora.",
-        "points": 80,
-        "region": "Desert",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Defeat the Twin Furies 50 times.",
-        "id": 325,
-        "issue": null,
-        "name": "Defeat Avaryss and Nymora.",
-        "points": 80,
-        "region": "Desert",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Cook 1,000 fish.",
-        "id": 837,
-        "issue": null,
-        "name": "Cook 1,000 fish.",
-        "points": 80,
-        "region": "Global",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Reach level 99 Ranged.",
-        "id": 1081,
-        "issue": null,
-        "name": "Reach level 99 in the Ranged skill.",
-        "points": 200,
-        "region": "Global",
-        "tier": "elite"
-      },
-      {
-        "blessing_task": false,
-        "description": "Obtain 50 million Prayer XP.",
-        "id": 1114,
-        "issue": null,
-        "name": "Obtain 50 million Prayer XP.",
-        "points": 200,
-        "region": "Global",
-        "tier": "elite"
-      }
-    ],
-    "task_delta": 5
+    "league_points_delta": 0,
+    "level_ups": [],
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "forgotten_finish_opportunities": {
     "count": 6,
@@ -769,7 +681,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-04T19:39:39.013Z",
+    "generated_at_utc": "2026-09-04T20:02:06.791Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -802,7 +714,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 242091,
+      "age_seconds_at_generation": 243438,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -824,7 +736,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-04T19:39:39.013Z"
+      "timestamp": "2026-09-04T20:02:06.791Z"
     }
   },
   "manual": {
@@ -887,6 +799,12 @@
         "note": "Ranged Fight Kiln cape. Obtained 2026-09-04 after a 33-minute all-Ranged Kiln run.",
         "quantity": 1,
         "status": "owned_and_equipped"
+      },
+      {
+        "name": "Crest of Zamorak",
+        "note": "Obtained while farming Twin Furies. Goal is 3 total crests for full T80 Anima Core of Zamorak conversion; 2 more needed.",
+        "quantity": 1,
+        "status": "owned"
       }
     ],
     "manual_flags": {
@@ -896,7 +814,11 @@
         "status": "deferred_by_user"
       },
       "fort_workshop_unlocked": null,
-      "t6_rejuvenated_relic": "Production Master"
+      "t6_rejuvenated_relic": "Production Master",
+      "twin_furies_progress": {
+        "note": "User got sick of farming Twin Furies after completing substantial kills. Has 1 Crest of Zamorak toward a 3-crest goal, and obtained 9 dormant anima core armour drops during the farm (exact piece split not specified). Also accumulated a large stock of magic logs; exact quantity not specified.",
+        "status": "paused_farming"
+      }
     },
     "route_preferences": {
       "chain_nearby_tasks": true,

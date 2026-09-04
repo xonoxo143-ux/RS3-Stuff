@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-04T19:39:39.013Z**
+Updated: **2026-09-04T20:02:06.791Z**
 
 ## Tracker discipline
 
@@ -169,13 +169,7 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+5** · LP: **+640**
-- [321] Defeat Avaryss and Nymora. — hard, Desert, 80 LP
-- [325] Defeat Avaryss and Nymora. — hard, Desert, 80 LP
-- [837] Cook 1,000 fish. — hard, Global, 80 LP
-- [1081] Reach level 99 in the Ranged skill. — elite, Global, 200 LP
-- [1114] Obtain 50 million Prayer XP. — elite, Global, 200 LP
-- Level-ups: Attack 79→80; Strength 79→80; Ranged 88→106; Cooking 72→88; Fletching 78→79; Firemaking 70→75
+- Tasks: **+0** · LP: **+0**
 
 ## Current task sprint
 
@@ -223,7 +217,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-04T19:39:39.013Z
+- WikiSync: **fresh** · 2026-09-04T20:02:06.791Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
