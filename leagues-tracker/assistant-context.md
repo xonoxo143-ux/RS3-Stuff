@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-04T00:39:03.349Z**
+Updated: **2026-09-04T01:02:05.091Z**
 
 ## Tracker discipline
 
@@ -15,7 +15,7 @@ Updated: **2026-09-04T00:39:03.349Z**
 
 ## Current snapshot
 
-- **12,170 LP** · **299 tasks** · total level **2,200**
+- **12,170 LP** · **299 tasks** · total level **2,217**
 - **13 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
 - Next region: **101 tasks** to 400
@@ -170,6 +170,7 @@ Passive step effects:
 ## Changes
 
 - Tasks: **+0** · LP: **+0**
+- Level-ups: Firemaking 54→62; Crafting 88→97
 
 ## Current task sprint
 
@@ -217,7 +218,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-04T00:39:03.349Z
+- WikiSync: **fresh** · 2026-09-04T01:02:05.091Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
@@ -225,6 +226,7 @@ Passive step effects:
 
 ## Forgotten-finish opportunities
 
+- [1065] **Reach level 99 in the Crafting skill.** — score 45, 2_skill_levels_or_less; Only 2 Crafting level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
 - [1153] **Reach at least level 30 in all non-elite skills.** — score 25, unknown_check_progress; Lowest relevant skill is Farming 26; 4 levels from the all-skills target.

@@ -3799,7 +3799,39 @@
       ]
     }
   ],
-  "nearly_unblocked": [],
+  "nearly_unblocked": [
+    {
+      "blockers": [
+        {
+          "current": 97,
+          "gap": 2,
+          "required": 99,
+          "skill": "Crafting",
+          "type": "skill"
+        }
+      ],
+      "cluster": null,
+      "confidence": 0.55,
+      "estimated_seconds": null,
+      "id": 1065,
+      "items_to_prepare": [],
+      "lp_per_minute": null,
+      "name": "Reach level 99 in the Crafting skill.",
+      "points": 200,
+      "recommendation_grade": "U",
+      "region": "Global",
+      "status": "blocked",
+      "tier": "elite",
+      "unknown_checks": [],
+      "unlock": {
+        "current": 97,
+        "gap": 2,
+        "required": 99,
+        "skill": "Crafting",
+        "type": "skill"
+      }
+    }
+  ],
   "next_region_target": {
     "id": "elective_3",
     "region": null,

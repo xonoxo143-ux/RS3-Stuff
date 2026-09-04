@@ -13,7 +13,7 @@
     "manual_check": 3,
     "verified_ready": 6
   },
-  "timestamp_utc": "2026-09-04T00:39:03.349Z",
+  "timestamp_utc": "2026-09-04T01:02:05.091Z",
   "unfinished_task_count": 853,
   "unfinished_tasks": [
     {
@@ -17288,8 +17288,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 88,
-          "gap": 11,
+          "current": 97,
+          "gap": 2,
           "required": 99,
           "skill": "Crafting",
           "type": "skill"
@@ -17420,8 +17420,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 54,
-          "gap": 45,
+          "current": 62,
+          "gap": 37,
           "required": 99,
           "skill": "Firemaking",
           "type": "skill"
@@ -17937,8 +17937,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 88,
-          "gap": 22,
+          "current": 97,
+          "gap": 13,
           "required": 110,
           "skill": "Crafting",
           "type": "skill"
@@ -17970,8 +17970,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 54,
-          "gap": 56,
+          "current": 62,
+          "gap": 48,
           "required": 110,
           "skill": "Firemaking",
           "type": "skill"

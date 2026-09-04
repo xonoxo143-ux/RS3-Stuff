@@ -325,7 +325,18 @@
   ],
   "league_points": 12170,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [],
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 54,
+      "skill": "Firemaking",
+      "to": 62
+    },
+    {
+      "from": 88,
+      "skill": "Crafting",
+      "to": 97
+    }
+  ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -333,12 +344,12 @@
     "Constitution": 99,
     "Construction": 53,
     "Cooking": 72,
-    "Crafting": 88,
+    "Crafting": 97,
     "Defence": 99,
     "Divination": 80,
     "Dungeoneering": 39,
     "Farming": 26,
-    "Firemaking": 54,
+    "Firemaking": 62,
     "Fishing": 40,
     "Fletching": 69,
     "Herblore": 74,
@@ -389,8 +400,8 @@
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
   "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-04T00:39:03.349Z",
-  "total_level": 2200,
+  "timestamp_utc": "2026-09-04T01:02:05.091Z",
+  "total_level": 2217,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

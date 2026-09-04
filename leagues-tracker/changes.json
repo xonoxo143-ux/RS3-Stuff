@@ -1,6 +1,17 @@
 {
   "league_points_delta": 0,
-  "level_ups": [],
+  "level_ups": [
+    {
+      "from": 54,
+      "skill": "Firemaking",
+      "to": 62
+    },
+    {
+      "from": 88,
+      "skill": "Crafting",
+      "to": 97
+    }
+  ],
   "new_task_ids": [],
   "new_tasks": [],
   "task_delta": 0

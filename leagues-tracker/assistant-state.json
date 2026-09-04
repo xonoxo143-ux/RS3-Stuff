@@ -313,12 +313,12 @@
       "Constitution": 99,
       "Construction": 53,
       "Cooking": 72,
-      "Crafting": 88,
+      "Crafting": 97,
       "Defence": 99,
       "Divination": 80,
       "Dungeoneering": 39,
       "Farming": 26,
-      "Firemaking": 54,
+      "Firemaking": 62,
       "Fishing": 40,
       "Fletching": 69,
       "Herblore": 74,
@@ -338,8 +338,8 @@
       "Woodcutting": 62
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-04T00:39:03.349Z",
-    "total_level": 2200
+    "timestamp_utc": "2026-09-04T01:02:05.091Z",
+    "total_level": 2217
   },
   "blessings": {
     "derived_god_choices": {
@@ -513,16 +513,48 @@
   },
   "changes": {
     "league_points_delta": 0,
-    "level_ups": [],
+    "level_ups": [
+      {
+        "from": 54,
+        "skill": "Firemaking",
+        "to": 62
+      },
+      {
+        "from": 88,
+        "skill": "Crafting",
+        "to": 97
+      }
+    ],
     "new_task_ids": [],
     "new_tasks": [],
     "task_delta": 0
   },
   "forgotten_finish_opportunities": {
-    "count": 5,
+    "count": 6,
     "note": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. For cumulative families, completed milestones provide only a guaranteed lower bound; exact states such as 19/20 require a source that exposes that counter.",
     "source": "opportunities.json",
     "top": [
+      {
+        "cluster": null,
+        "confidence": 0.95,
+        "estimated_seconds_if_known": null,
+        "id": 1065,
+        "name": "Reach level 99 in the Crafting skill.",
+        "opportunity_score": 45,
+        "points": 200,
+        "reasons": [
+          {
+            "code": "tiny_skill_gap",
+            "detail": "Only 2 Crafting level(s) remain to the task target.",
+            "gap": 2,
+            "skill": "Crafting"
+          }
+        ],
+        "region": "Global",
+        "status": "blocked",
+        "suspected_remaining_effort": "2_skill_levels_or_less",
+        "tier": "elite"
+      },
       {
         "cluster": null,
         "confidence": 0.9,
@@ -648,7 +680,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-04T00:39:03.349Z",
+    "generated_at_utc": "2026-09-04T01:02:05.091Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -681,7 +713,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 173655,
+      "age_seconds_at_generation": 175037,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -703,7 +735,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-04T00:39:03.349Z"
+      "timestamp": "2026-09-04T01:02:05.091Z"
     }
   },
   "manual": {
