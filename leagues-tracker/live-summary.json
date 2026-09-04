@@ -177,7 +177,9 @@
     310,
     312,
     319,
+    321,
     322,
+    325,
     341,
     342,
     597,
@@ -218,6 +220,7 @@
     832,
     835,
     836,
+    837,
     839,
     840,
     841,
@@ -285,9 +288,11 @@
     1076,
     1079,
     1080,
+    1081,
     1087,
     1100,
     1103,
+    1114,
     1118,
     1121,
     1141,
@@ -317,7 +322,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 306,
+  "completed_tasks": 311,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -336,30 +341,55 @@
     805,
     988
   ],
-  "league_points": 12870,
+  "league_points": 13510,
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 87,
+      "from": 79,
+      "skill": "Attack",
+      "to": 80
+    },
+    {
+      "from": 79,
+      "skill": "Strength",
+      "to": 80
+    },
+    {
+      "from": 88,
       "skill": "Ranged",
+      "to": 106
+    },
+    {
+      "from": 72,
+      "skill": "Cooking",
       "to": 88
+    },
+    {
+      "from": 78,
+      "skill": "Fletching",
+      "to": 79
+    },
+    {
+      "from": 70,
+      "skill": "Firemaking",
+      "to": 75
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
-    "Attack": 79,
+    "Attack": 80,
     "Constitution": 99,
     "Construction": 53,
-    "Cooking": 72,
+    "Cooking": 88,
     "Crafting": 97,
     "Defence": 99,
     "Divination": 82,
     "Dungeoneering": 39,
     "Farming": 26,
-    "Firemaking": 70,
+    "Firemaking": 75,
     "Fishing": 40,
-    "Fletching": 78,
+    "Fletching": 79,
     "Herblore": 79,
     "Hunter": 50,
     "Invention": 120,
@@ -367,18 +397,75 @@
     "Mining": 84,
     "Necromancy": 107,
     "Prayer": 99,
-    "Ranged": 88,
+    "Ranged": 106,
     "Runecrafting": 73,
     "Slayer": 79,
     "Smithing": 82,
-    "Strength": 79,
+    "Strength": 80,
     "Summoning": 71,
     "Thieving": 120,
     "Woodcutting": 72
   },
-  "mapped_completed_tasks": 306,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 311,
+  "new_task_ids_since_previous_live_sync": [
+    321,
+    325,
+    837,
+    1081,
+    1114
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Defeat the Twin Furies.",
+      "id": 321,
+      "issue": null,
+      "name": "Defeat Avaryss and Nymora.",
+      "points": 80,
+      "region": "Desert",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Defeat the Twin Furies 50 times.",
+      "id": 325,
+      "issue": null,
+      "name": "Defeat Avaryss and Nymora.",
+      "points": 80,
+      "region": "Desert",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Cook 1,000 fish.",
+      "id": 837,
+      "issue": null,
+      "name": "Cook 1,000 fish.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Reach level 99 Ranged.",
+      "id": 1081,
+      "issue": null,
+      "name": "Reach level 99 in the Ranged skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "description": "Obtain 50 million Prayer XP.",
+      "id": 1114,
+      "issue": null,
+      "name": "Obtain 50 million Prayer XP.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    }
+  ],
   "next_blessing": {
     "remaining_tasks": 2,
     "step": "t5",
@@ -387,11 +474,11 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 94,
+    "remaining_tasks": 89,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 7130,
+    "remaining_points": 6490,
     "threshold": 20000,
     "tier": 7
   },
@@ -407,9 +494,9 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-04T16:39:34.282Z",
-  "total_level": 2283,
+  "task_delta_since_previous_live_sync": 5,
+  "timestamp_utc": "2026-09-04T19:39:39.013Z",
+  "total_level": 2325,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

@@ -341,20 +341,20 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
-      "none": 679,
-      "text_inference": 158
+      "none": 676,
+      "text_inference": 156
     },
     "status_counts": {
-      "accessible_requirements_unknown": 300,
-      "blocked": 34,
+      "accessible_requirements_unknown": 297,
+      "blocked": 33,
       "excluded": 7,
-      "inferred_candidate": 124,
+      "inferred_candidate": 123,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3,
       "verified_ready": 6
     },
-    "timed_inferred_candidates": 91,
+    "timed_inferred_candidates": 90,
     "timed_verified_tasks": 6
   },
   "fastest_inferred_backups": [
@@ -1273,8 +1273,8 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 3130,
-    "inferred_count": 88,
+    "estimated_action_seconds_excluding_travel": 2830,
+    "inferred_count": 83,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [
       "bronze bolts/materials",
@@ -1283,7 +1283,7 @@
       "milk",
       "cake ingredients"
     ],
-    "selected_count": 94,
+    "selected_count": 89,
     "tasks": [
       {
         "blockers": [],
@@ -2596,86 +2596,6 @@
         "cluster": null,
         "confidence": 0.72,
         "estimated_seconds": 60,
-        "id": 837,
-        "items_to_prepare": [],
-        "lp_per_minute": 80.0,
-        "name": "Cook 1,000 fish.",
-        "points": 80,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "hard",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 877,
-        "items_to_prepare": [],
-        "lp_per_minute": 30.0,
-        "name": "Make a 4-dose potion.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 878,
-        "items_to_prepare": [],
-        "lp_per_minute": 30.0,
-        "name": "Make 20 super attack potions.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 897,
-        "items_to_prepare": [],
-        "lp_per_minute": 30.0,
-        "name": "Make a Pineapple pizza.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 898,
-        "items_to_prepare": [],
-        "lp_per_minute": 30.0,
-        "name": "Make a stew.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
         "id": 909,
         "items_to_prepare": [],
         "lp_per_minute": 80.0,
@@ -2800,7 +2720,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 94,
+    "tasks_needed": 89,
     "verified_count": 6
   },
   "highest_lp_per_minute": [
@@ -3723,7 +3643,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 94,
+    "remaining_tasks": 89,
     "tasks": 400
   },
   "schema_version": 1

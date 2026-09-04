@@ -1,13 +1,95 @@
 {
-  "league_points_delta": 0,
+  "league_points_delta": 640,
   "level_ups": [
     {
-      "from": 87,
+      "from": 79,
+      "skill": "Attack",
+      "to": 80
+    },
+    {
+      "from": 79,
+      "skill": "Strength",
+      "to": 80
+    },
+    {
+      "from": 88,
       "skill": "Ranged",
+      "to": 106
+    },
+    {
+      "from": 72,
+      "skill": "Cooking",
       "to": 88
+    },
+    {
+      "from": 78,
+      "skill": "Fletching",
+      "to": 79
+    },
+    {
+      "from": 70,
+      "skill": "Firemaking",
+      "to": 75
     }
   ],
-  "new_task_ids": [],
-  "new_tasks": [],
-  "task_delta": 0
+  "new_task_ids": [
+    321,
+    325,
+    837,
+    1081,
+    1114
+  ],
+  "new_tasks": [
+    {
+      "blessing_task": false,
+      "description": "Defeat the Twin Furies.",
+      "id": 321,
+      "issue": null,
+      "name": "Defeat Avaryss and Nymora.",
+      "points": 80,
+      "region": "Desert",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Defeat the Twin Furies 50 times.",
+      "id": 325,
+      "issue": null,
+      "name": "Defeat Avaryss and Nymora.",
+      "points": 80,
+      "region": "Desert",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Cook 1,000 fish.",
+      "id": 837,
+      "issue": null,
+      "name": "Cook 1,000 fish.",
+      "points": 80,
+      "region": "Global",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Reach level 99 Ranged.",
+      "id": 1081,
+      "issue": null,
+      "name": "Reach level 99 in the Ranged skill.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "description": "Obtain 50 million Prayer XP.",
+      "id": 1114,
+      "issue": null,
+      "name": "Obtain 50 million Prayer XP.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    }
+  ],
+  "task_delta": 5
 }

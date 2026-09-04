@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-04T16:39:34.282Z**
+Updated: **2026-09-04T19:39:39.013Z**
 
 ## Current
 
-- **306 tasks**
-- **12,870 LP**
-- **Total level 2,283**
+- **311 tasks**
+- **13,510 LP**
+- **Total level 2,325**
 - **Relic T6**
 - **14 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **94 tasks** to the next region slot
-- **7,130 LP** to T7
+- **89 tasks** to the next region slot
+- **6,490 LP** to T7
 - **2 blessing tasks** to t5
 
 ## Suggested sprint
 
-Tracker selected **94** of the **94** tasks currently needed.
+Tracker selected **89** of the **89** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
@@ -100,11 +100,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [355] Craft a Zaros godsword, Seren godbow or staff of Sliske. — Grade B, ~60s, unclustered, 200 LP
 - [636] Craft a bolas. — Grade B, ~60s, unclustered, 80 LP
 - [809] Make 1,000 potions of any kind. — Grade B, ~60s, unclustered, 80 LP
-- [837] Cook 1,000 fish. — Grade B, ~60s, unclustered, 80 LP
-- [877] Make a 4-dose potion. — Grade B, ~60s, unclustered, 30 LP
-- [878] Make 20 super attack potions. — Grade B, ~60s, unclustered, 30 LP
-- [897] Make a Pineapple pizza. — Grade B, ~60s, unclustered, 30 LP
-- [898] Make a stew. — Grade B, ~60s, unclustered, 30 LP
 - [909] Craft 10,000 runes. — Grade B, ~60s, unclustered, 80 LP
 - [960] Fletch some broad arrows or bolts. — Grade B, ~60s, unclustered, 80 LP
 - [963] Fletch a rune crossbow. — Grade B, ~60s, unclustered, 80 LP

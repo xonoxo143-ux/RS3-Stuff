@@ -1,20 +1,20 @@
 {
-  "completed_task_count": 306,
+  "completed_task_count": 311,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
   "status_counts": {
-    "accessible_requirements_unknown": 300,
-    "blocked": 34,
+    "accessible_requirements_unknown": 297,
+    "blocked": 33,
     "excluded": 7,
-    "inferred_candidate": 124,
+    "inferred_candidate": 123,
     "known_issue": 1,
     "locked_region": 371,
     "manual_check": 3,
     "verified_ready": 6
   },
-  "timestamp_utc": "2026-09-04T16:39:34.282Z",
-  "unfinished_task_count": 846,
+  "timestamp_utc": "2026-09-04T19:39:39.013Z",
+  "unfinished_task_count": 841,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -2953,28 +2953,6 @@
       "blockers": [],
       "cluster": null,
       "confidence": 0.0,
-      "description": "Defeat the Twin Furies.",
-      "estimated_seconds": null,
-      "id": 321,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Defeat Avaryss and Nymora.",
-      "points": 80,
-      "recommendation_grade": "U",
-      "region": "Desert",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
       "description": "Defeat Vindicta.",
       "estimated_seconds": null,
       "id": 323,
@@ -3005,28 +2983,6 @@
       "lp_per_minute": null,
       "metadata_source": "none",
       "name": "Defeat Helwyr.",
-      "points": 80,
-      "recommendation_grade": "U",
-      "region": "Desert",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Defeat the Twin Furies 50 times.",
-      "estimated_seconds": null,
-      "id": 325,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Defeat Avaryss and Nymora.",
       "points": 80,
       "recommendation_grade": "U",
       "region": "Desert",
@@ -13534,31 +13490,6 @@
     {
       "blessing_task": false,
       "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "description": "Cook 1,000 fish.",
-      "estimated_seconds": 60,
-      "id": 837,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 80.0,
-      "metadata_source": "text_inference",
-      "name": "Cook 1,000 fish.",
-      "points": 80,
-      "recommendation_grade": "B",
-      "region": "Global",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "cooking"
-      ],
-      "task_count_efficiency": 110,
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
       "cluster": "bank_or_range",
       "confidence": 1.0,
       "description": "Make some bread. Bread dough can be created by using a pot of flour with water, it must be cooked at a range.",
@@ -17050,8 +16981,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 79,
-          "gap": 20,
+          "current": 80,
+          "gap": 19,
           "required": 99,
           "skill": "Attack",
           "type": "skill"
@@ -17116,8 +17047,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 72,
-          "gap": 27,
+          "current": 88,
+          "gap": 11,
           "required": 99,
           "skill": "Cooking",
           "type": "skill"
@@ -17281,8 +17212,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 70,
-          "gap": 29,
+          "current": 75,
+          "gap": 24,
           "required": 99,
           "skill": "Firemaking",
           "type": "skill"
@@ -17347,8 +17278,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 78,
-          "gap": 21,
+          "current": 79,
+          "gap": 20,
           "required": 99,
           "skill": "Fletching",
           "type": "skill"
@@ -17510,39 +17441,6 @@
     },
     {
       "blessing_task": false,
-      "blockers": [
-        {
-          "current": 88,
-          "gap": 11,
-          "required": 99,
-          "skill": "Ranged",
-          "type": "skill"
-        }
-      ],
-      "cluster": null,
-      "confidence": 0.55,
-      "description": "Reach level 99 Ranged.",
-      "estimated_seconds": null,
-      "id": 1081,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "text_inference",
-      "name": "Reach level 99 in the Ranged skill.",
-      "points": 200,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "blocked",
-      "tags": [
-        "inferred",
-        "ranged"
-      ],
-      "task_count_efficiency": null,
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
       "blockers": [],
       "cluster": null,
       "confidence": 0.0,
@@ -17633,8 +17531,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 79,
-          "gap": 20,
+          "current": 80,
+          "gap": 19,
           "required": 99,
           "skill": "Strength",
           "type": "skill"
@@ -17831,8 +17729,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 70,
-          "gap": 40,
+          "current": 75,
+          "gap": 35,
           "required": 110,
           "skill": "Firemaking",
           "type": "skill"
@@ -17864,8 +17762,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 78,
-          "gap": 32,
+          "current": 79,
+          "gap": 31,
           "required": 110,
           "skill": "Fletching",
           "type": "skill"
@@ -18369,28 +18267,6 @@
       "lp_per_minute": null,
       "metadata_source": "none",
       "name": "Obtain 50 million Mining XP.",
-      "points": 200,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Obtain 50 million Prayer XP.",
-      "estimated_seconds": null,
-      "id": 1114,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Obtain 50 million Prayer XP.",
       "points": 200,
       "recommendation_grade": "U",
       "region": "Global",

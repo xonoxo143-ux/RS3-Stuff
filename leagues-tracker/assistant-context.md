@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-04T16:39:34.282Z**
+Updated: **2026-09-04T19:39:39.013Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-04T16:39:34.282Z**
 
 ## Current snapshot
 
-- **12,870 LP** · **306 tasks** · total level **2,283**
+- **13,510 LP** · **311 tasks** · total level **2,325**
 - **14 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **94 tasks** to 400
-- Next relic: **7,130 LP** to T7
+- Next region: **89 tasks** to 400
+- Next relic: **6,490 LP** to T7
 - Next blessing step: **2** to t5
 
 ## Active relics
@@ -169,14 +169,19 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
-- Level-ups: Ranged 87→88
+- Tasks: **+5** · LP: **+640**
+- [321] Defeat Avaryss and Nymora. — hard, Desert, 80 LP
+- [325] Defeat Avaryss and Nymora. — hard, Desert, 80 LP
+- [837] Cook 1,000 fish. — hard, Global, 80 LP
+- [1081] Reach level 99 in the Ranged skill. — elite, Global, 200 LP
+- [1114] Obtain 50 million Prayer XP. — elite, Global, 200 LP
+- Level-ups: Attack 79→80; Strength 79→80; Ranged 88→106; Cooking 72→88; Fletching 78→79; Firemaking 70→75
 
 ## Current task sprint
 
-- Need: **94 tasks**
-- Precomputed sprint: **94 tasks** (6 Grade A, 88 Grade B)
-- Action-time estimate excluding travel: **3130 sec**
+- Need: **89 tasks**
+- Precomputed sprint: **89 tasks** (6 Grade A, 83 Grade B)
+- Action-time estimate excluding travel: **2830 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -212,13 +217,13 @@ Passive step effects:
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **6**
-- Timed Grade-B inferred candidates: **91**
-- Metadata sources: `{'manual_override': 9, 'none': 679, 'text_inference': 158}`
+- Timed Grade-B inferred candidates: **90**
+- Metadata sources: `{'manual_override': 9, 'none': 676, 'text_inference': 156}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-04T16:39:34.282Z
+- WikiSync: **fresh** · 2026-09-04T19:39:39.013Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
