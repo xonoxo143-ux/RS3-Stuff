@@ -351,7 +351,7 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-05T21:18:41.754Z",
+    "timestamp_utc": "2026-09-05T23:56:44.492Z",
     "total_level": 2331
   },
   "blessings": {
@@ -525,30 +525,11 @@
     ]
   },
   "changes": {
-    "league_points_delta": 30,
-    "level_ups": [
-      {
-        "from": 26,
-        "skill": "Farming",
-        "to": 32
-      }
-    ],
-    "new_task_ids": [
-      1153
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Reach at least level 30 in all non-elite skills.",
-        "id": 1153,
-        "issue": null,
-        "name": "Reach at least level 30 in all non-elite skills.",
-        "points": 30,
-        "region": "Global",
-        "tier": "medium"
-      }
-    ],
-    "task_delta": 1
+    "league_points_delta": 0,
+    "level_ups": [],
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "forgotten_finish_opportunities": {
     "count": 5,
@@ -677,7 +658,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-05T21:18:41.754Z",
+    "generated_at_utc": "2026-09-05T23:56:44.492Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -710,7 +691,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 334433,
+      "age_seconds_at_generation": 343916,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -732,7 +713,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-05T21:18:41.754Z"
+      "timestamp": "2026-09-05T23:56:44.492Z"
     }
   },
   "manual": {

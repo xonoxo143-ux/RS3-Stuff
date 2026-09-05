@@ -344,13 +344,7 @@
   ],
   "league_points": 13540,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 26,
-      "skill": "Farming",
-      "to": 32
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -383,21 +377,8 @@
     "Woodcutting": 72
   },
   "mapped_completed_tasks": 312,
-  "new_task_ids_since_previous_live_sync": [
-    1153
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Reach at least level 30 in all non-elite skills.",
-      "id": 1153,
-      "issue": null,
-      "name": "Reach at least level 30 in all non-elite skills.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "next_blessing": {
     "remaining_tasks": 2,
     "step": "t5",
@@ -426,8 +407,8 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 1,
-  "timestamp_utc": "2026-09-05T21:18:41.754Z",
+  "task_delta_since_previous_live_sync": 0,
+  "timestamp_utc": "2026-09-05T23:56:44.492Z",
   "total_level": 2331,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
