@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-05T19:04:49.915Z**
+Updated: **2026-09-05T21:18:41.754Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-05T19:04:49.915Z**
 
 ## Current snapshot
 
-- **13,510 LP** · **311 tasks** · total level **2,325**
+- **13,540 LP** · **312 tasks** · total level **2,331**
 - **14 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **89 tasks** to 400
-- Next relic: **6,490 LP** to T7
+- Next region: **88 tasks** to 400
+- Next relic: **6,460 LP** to T7
 - Next blessing step: **2** to t5
 
 ## Active relics
@@ -169,13 +169,15 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
+- Tasks: **+1** · LP: **+30**
+- [1153] Reach at least level 30 in all non-elite skills. — medium, Global, 30 LP
+- Level-ups: Farming 26→32
 
 ## Current task sprint
 
-- Need: **89 tasks**
-- Precomputed sprint: **89 tasks** (6 Grade A, 83 Grade B)
-- Action-time estimate excluding travel: **2830 sec**
+- Need: **88 tasks**
+- Precomputed sprint: **88 tasks** (6 Grade A, 82 Grade B)
+- Action-time estimate excluding travel: **2770 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -183,7 +185,6 @@ Passive step effects:
 - [288] **Mine a gem rock at the Al Kharid mine.** — Grade A · ~45s · al_kharid
 - [596] **Claim a ticket from Brimhaven Agility Arena.** — Grade B · ~30s · brimhaven
 - [602] **Enter the Brimhaven Dungeon.** — Grade B · ~30s · brimhaven_dungeon
-- [57] **Smith a mithril platebody on the anvil in the jailhouse sewers.** — Grade B · ~60s · draynor
 - [601] **Pick a pineapple on Karamja.** — Grade B · ~30s · karamja
 - [606] **Catch a salmon on Karamja.** — Grade B · ~45s · karamja
 - [51] **Churn some butter.** — Grade A · ~45s · lumbridge
@@ -207,17 +208,18 @@ Passive step effects:
 - [624] **Equip a full set of obsidian armour.** — Grade B · ~20s · unclustered
 - [625] **Equip a red topaz machete.** — Grade B · ~20s · unclustered
 - [652] **Equip a piece of gemstone armour.** — Grade B · ~20s · unclustered
+- [694] **Equip a pair of Steadfast boots.** — Grade B · ~20s · unclustered
 
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **6**
 - Timed Grade-B inferred candidates: **90**
-- Metadata sources: `{'manual_override': 9, 'none': 676, 'text_inference': 156}`
+- Metadata sources: `{'manual_override': 9, 'none': 675, 'text_inference': 156}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-05T19:04:49.915Z
+- WikiSync: **fresh** · 2026-09-05T21:18:41.754Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
@@ -228,7 +230,6 @@ Passive step effects:
 - [1065] **Reach level 99 in the Crafting skill.** — score 45, 2_skill_levels_or_less; Only 2 Crafting level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
-- [1153] **Reach at least level 30 in all non-elite skills.** — score 25, unknown_check_progress; Lowest relevant skill is Farming 26; 4 levels from the all-skills target.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
 - [852] **Catch 35 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.
 

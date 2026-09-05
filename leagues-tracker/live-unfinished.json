@@ -1,10 +1,10 @@
 {
-  "completed_task_count": 311,
+  "completed_task_count": 312,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
   "status_counts": {
-    "accessible_requirements_unknown": 297,
+    "accessible_requirements_unknown": 296,
     "blocked": 33,
     "excluded": 7,
     "inferred_candidate": 123,
@@ -13,8 +13,8 @@
     "manual_check": 3,
     "verified_ready": 6
   },
-  "timestamp_utc": "2026-09-05T19:04:49.915Z",
-  "unfinished_task_count": 841,
+  "timestamp_utc": "2026-09-05T21:18:41.754Z",
+  "unfinished_task_count": 840,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -17179,8 +17179,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 26,
-          "gap": 73,
+          "current": 32,
+          "gap": 67,
           "required": 99,
           "skill": "Farming",
           "type": "skill"
@@ -17895,8 +17895,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 26,
-          "gap": 94,
+          "current": 32,
+          "gap": 88,
           "required": 120,
           "skill": "Farming",
           "type": "skill"
@@ -18752,28 +18752,6 @@
       "tags": [],
       "task_count_efficiency": null,
       "tier": "master",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Reach at least level 30 in all non-elite skills.",
-      "estimated_seconds": null,
-      "id": 1153,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Reach at least level 30 in all non-elite skills.",
-      "points": 30,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "medium",
       "unknown_checks": []
     },
     {

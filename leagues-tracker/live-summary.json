@@ -303,6 +303,7 @@
     1150,
     1151,
     1152,
+    1153,
     1167,
     1168,
     1172,
@@ -322,7 +323,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 311,
+  "completed_tasks": 312,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -341,9 +342,15 @@
     805,
     988
   ],
-  "league_points": 13510,
+  "league_points": 13540,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [],
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 26,
+      "skill": "Farming",
+      "to": 32
+    }
+  ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -355,7 +362,7 @@
     "Defence": 99,
     "Divination": 82,
     "Dungeoneering": 39,
-    "Farming": 26,
+    "Farming": 32,
     "Firemaking": 75,
     "Fishing": 40,
     "Fletching": 79,
@@ -375,9 +382,22 @@
     "Thieving": 120,
     "Woodcutting": 72
   },
-  "mapped_completed_tasks": 311,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 312,
+  "new_task_ids_since_previous_live_sync": [
+    1153
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Reach at least level 30 in all non-elite skills.",
+      "id": 1153,
+      "issue": null,
+      "name": "Reach at least level 30 in all non-elite skills.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    }
+  ],
   "next_blessing": {
     "remaining_tasks": 2,
     "step": "t5",
@@ -386,11 +406,11 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 89,
+    "remaining_tasks": 88,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 6490,
+    "remaining_points": 6460,
     "threshold": 20000,
     "tier": 7
   },
@@ -406,9 +426,9 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-05T19:04:49.915Z",
-  "total_level": 2325,
+  "task_delta_since_previous_live_sync": 1,
+  "timestamp_utc": "2026-09-05T21:18:41.754Z",
+  "total_level": 2331,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

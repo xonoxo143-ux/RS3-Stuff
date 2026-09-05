@@ -341,11 +341,11 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 9,
-      "none": 676,
+      "none": 675,
       "text_inference": 156
     },
     "status_counts": {
-      "accessible_requirements_unknown": 297,
+      "accessible_requirements_unknown": 296,
       "blocked": 33,
       "excluded": 7,
       "inferred_candidate": 123,
@@ -1273,8 +1273,8 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 2830,
-    "inferred_count": 83,
+    "estimated_action_seconds_excluding_travel": 2770,
+    "inferred_count": 82,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [
       "bronze bolts/materials",
@@ -1283,7 +1283,7 @@
       "milk",
       "cake ingredients"
     ],
-    "selected_count": 89,
+    "selected_count": 88,
     "tasks": [
       {
         "blockers": [],
@@ -1385,22 +1385,6 @@
         "region": "Karamja",
         "status": "inferred_candidate",
         "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": "draynor",
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 57,
-        "items_to_prepare": [],
-        "lp_per_minute": 30.0,
-        "name": "Smith a mithril platebody on the anvil in the jailhouse sewers.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Misthalin",
-        "status": "inferred_candidate",
-        "tier": "medium",
         "unknown_checks": []
       },
       {
@@ -2720,7 +2704,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 89,
+    "tasks_needed": 88,
     "verified_count": 6
   },
   "highest_lp_per_minute": [
@@ -3643,7 +3627,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 89,
+    "remaining_tasks": 88,
     "tasks": 400
   },
   "schema_version": 1

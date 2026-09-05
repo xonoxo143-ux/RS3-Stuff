@@ -295,6 +295,7 @@
       1150,
       1151,
       1152,
+      1153,
       1167,
       1168,
       1172,
@@ -314,9 +315,9 @@
       1250,
       1271
     ],
-    "completed_tasks": 311,
+    "completed_tasks": 312,
     "league": "Leagues II: Equilibrium",
-    "league_points": 13510,
+    "league_points": 13540,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
@@ -329,7 +330,7 @@
       "Defence": 99,
       "Divination": 82,
       "Dungeoneering": 39,
-      "Farming": 26,
+      "Farming": 32,
       "Firemaking": 75,
       "Fishing": 40,
       "Fletching": 79,
@@ -350,8 +351,8 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-05T19:04:49.915Z",
-    "total_level": 2325
+    "timestamp_utc": "2026-09-05T21:18:41.754Z",
+    "total_level": 2331
   },
   "blessings": {
     "derived_god_choices": {
@@ -524,14 +525,33 @@
     ]
   },
   "changes": {
-    "league_points_delta": 0,
-    "level_ups": [],
-    "new_task_ids": [],
-    "new_tasks": [],
-    "task_delta": 0
+    "league_points_delta": 30,
+    "level_ups": [
+      {
+        "from": 26,
+        "skill": "Farming",
+        "to": 32
+      }
+    ],
+    "new_task_ids": [
+      1153
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "description": "Reach at least level 30 in all non-elite skills.",
+        "id": 1153,
+        "issue": null,
+        "name": "Reach at least level 30 in all non-elite skills.",
+        "points": 30,
+        "region": "Global",
+        "tier": "medium"
+      }
+    ],
+    "task_delta": 1
   },
   "forgotten_finish_opportunities": {
-    "count": 6,
+    "count": 5,
     "note": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. For cumulative families, completed milestones provide only a guaranteed lower bound; exact states such as 19/20 require a source that exposes that counter.",
     "source": "opportunities.json",
     "top": [
@@ -610,30 +630,6 @@
       },
       {
         "cluster": null,
-        "confidence": 0.9,
-        "estimated_seconds_if_known": null,
-        "id": 1153,
-        "name": "Reach at least level 30 in all non-elite skills.",
-        "opportunity_score": 25,
-        "points": 30,
-        "reasons": [
-          {
-            "code": "all_skills_small_gap",
-            "detail": "Lowest relevant skill is Farming 26; 4 levels from the all-skills target.",
-            "gap": 4,
-            "lowest_level": 26,
-            "lowest_skill": "Farming",
-            "non_elite": true,
-            "required": 30
-          }
-        ],
-        "region": "Global",
-        "status": "accessible_requirements_unknown",
-        "suspected_remaining_effort": "unknown_check_progress",
-        "tier": "medium"
-      },
-      {
-        "cluster": null,
         "confidence": 0.72,
         "estimated_seconds_if_known": null,
         "id": 851,
@@ -681,7 +677,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-05T19:04:49.915Z",
+    "generated_at_utc": "2026-09-05T21:18:41.754Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -697,11 +693,11 @@
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 9,
-        "none": 676,
+        "none": 675,
         "text_inference": 156
       },
       "status_counts": {
-        "accessible_requirements_unknown": 297,
+        "accessible_requirements_unknown": 296,
         "blocked": 33,
         "excluded": 7,
         "inferred_candidate": 123,
@@ -714,7 +710,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 326402,
+      "age_seconds_at_generation": 334433,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -724,19 +720,19 @@
         "removed_task_ids": [],
         "status": "unchanged"
       },
-      "mapped_completed_tasks": 311,
+      "mapped_completed_tasks": 312,
       "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
     },
     "wikisync": {
-      "age_seconds_at_generation": 1,
+      "age_seconds_at_generation": 0,
       "authoritative_for": [
         "completed_task_ids",
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-05T19:04:49.915Z"
+      "timestamp": "2026-09-05T21:18:41.754Z"
     }
   },
   "manual": {
@@ -851,11 +847,11 @@
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 89,
+      "remaining_tasks": 88,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 6490,
+      "remaining_points": 6460,
       "threshold": 20000,
       "tier": 7
     },
@@ -1079,9 +1075,9 @@
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 297,
+    "requirements_unknown_count": 296,
     "status_counts": {
-      "accessible_requirements_unknown": 297,
+      "accessible_requirements_unknown": 296,
       "blocked": 33,
       "excluded": 7,
       "inferred_candidate": 123,
@@ -1090,7 +1086,7 @@
       "manual_check": 3,
       "verified_ready": 6
     },
-    "unfinished_count": 841,
+    "unfinished_count": 840,
     "verified_ready_count": 6
   }
 }

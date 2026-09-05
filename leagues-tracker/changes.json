@@ -1,7 +1,26 @@
 {
-  "league_points_delta": 0,
-  "level_ups": [],
-  "new_task_ids": [],
-  "new_tasks": [],
-  "task_delta": 0
+  "league_points_delta": 30,
+  "level_ups": [
+    {
+      "from": 26,
+      "skill": "Farming",
+      "to": 32
+    }
+  ],
+  "new_task_ids": [
+    1153
+  ],
+  "new_tasks": [
+    {
+      "blessing_task": false,
+      "description": "Reach at least level 30 in all non-elite skills.",
+      "id": 1153,
+      "issue": null,
+      "name": "Reach at least level 30 in all non-elite skills.",
+      "points": 30,
+      "region": "Global",
+      "tier": "medium"
+    }
+  ],
+  "task_delta": 1
 }

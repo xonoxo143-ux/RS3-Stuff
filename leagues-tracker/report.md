@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-05T19:04:49.915Z**
+Updated: **2026-09-05T21:18:41.754Z**
 
 ## Current
 
-- **311 tasks**
-- **13,510 LP**
-- **Total level 2,325**
+- **312 tasks**
+- **13,540 LP**
+- **Total level 2,331**
 - **Relic T6**
 - **14 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **89 tasks** to the next region slot
-- **6,490 LP** to T7
+- **88 tasks** to the next region slot
+- **6,460 LP** to T7
 - **2 blessing tasks** to t5
 
 ## Suggested sprint
 
-Tracker selected **89** of the **89** tasks currently needed.
+Tracker selected **88** of the **88** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
@@ -25,7 +25,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [288] Mine a gem rock at the Al Kharid mine. — Grade A, ~45s, al_kharid, 10 LP
 - [596] Claim a ticket from Brimhaven Agility Arena. — Grade B, ~30s, brimhaven, 10 LP
 - [602] Enter the Brimhaven Dungeon. — Grade B, ~30s, brimhaven_dungeon, 10 LP
-- [57] Smith a mithril platebody on the anvil in the jailhouse sewers. — Grade B, ~60s, draynor, 30 LP
 - [601] Pick a pineapple on Karamja. — Grade B, ~30s, karamja, 10 LP
 - [606] Catch a salmon on Karamja. — Grade B, ~45s, karamja, 30 LP
 - [51] Churn some butter. — Grade A, ~45s, lumbridge, 30 LP
@@ -136,7 +135,6 @@ Grade A = explicit task metadata. Grade B = conservative automatic inference; ve
 - [1065] **Reach level 99 in the Crafting skill.** — score 45, 2_skill_levels_or_less; Only 2 Crafting level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
-- [1153] **Reach at least level 30 in all non-elite skills.** — score 25, unknown_check_progress; Lowest relevant skill is Farming 26; 4 levels from the all-skills target.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
 - [852] **Catch 35 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.
 
