@@ -351,7 +351,7 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-05T23:56:44.492Z",
+    "timestamp_utc": "2026-09-06T04:46:22.023Z",
     "total_level": 2331
   },
   "blessings": {
@@ -658,7 +658,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-05T23:56:44.492Z",
+    "generated_at_utc": "2026-09-06T04:46:22.023Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -691,7 +691,7 @@
       "timed_verified_tasks": 6
     },
     "task_catalog": {
-      "age_seconds_at_generation": 343916,
+      "age_seconds_at_generation": 361294,
       "fetched_at_utc": "2026-09-02T00:24:49+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -713,7 +713,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-05T23:56:44.492Z"
+      "timestamp": "2026-09-06T04:46:22.023Z"
     }
   },
   "manual": {
