@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "note": "Optional enrichment for the 1,152-task master catalog. Unknown requirements remain candidates, not guaranteed-ready tasks.",
+  "tasks": {
+    "810": {"estimated_seconds": 10, "cluster": "bank", "tags": ["fast", "one_action", "potion"], "items": ["strength potion"]},
+    "811": {"estimated_seconds": 20, "cluster": "bank", "tags": ["fast", "one_action", "herblore"], "skills": {"Herblore": 1}, "items": ["vial of water", "clean guam", "eye of newt"]},
+    "812": {"estimated_seconds": 20, "cluster": "bank", "tags": ["fast", "one_action", "herblore"], "skills": {"Herblore": 11}, "items": ["vial of water", "clean marrentill", "cadava berries"]},
+    "819": {"estimated_seconds": 15, "cluster": "bank", "tags": ["fast", "fletching"], "skills": {"Fletching": 20}, "items": ["oak log", "knife"]},
+    "822": {"estimated_seconds": 30, "cluster": "bank", "tags": ["fast", "fletching"], "items": ["bronze bolts/materials"]},
+    "838": {"estimated_seconds": 45, "cluster": "bank_or_range", "tags": ["fast", "cooking"], "items": ["bread ingredients"]},
+    "212": {"estimated_seconds": 30, "cluster": "bank_or_range", "tags": ["fast", "cooking"], "items": ["potato"]},
+    "844": {"estimated_seconds": 25, "cluster": "anywhere", "tags": ["fast", "prayer"], "items": ["25 ashes"]},
+    "217": {"estimated_seconds": 20, "cluster": "shop", "tags": ["fast", "one_action"]},
+    "980": {"estimated_seconds": 10, "cluster": "anywhere", "tags": ["fast", "combat", "one_action"], "items": ["weapon with a special attack"]},
+    "22": {"estimated_seconds": 10, "cluster": "fort_forinthry", "tags": ["fast", "fort"], "manual_requirements": ["fort_workshop_unlocked"], "region": "Misthalin"},
+    "103": {"estimated_seconds": 30, "cluster": "fort_forinthry", "tags": ["fast", "fort"], "manual_requirements": ["fort_workshop_unlocked"], "region": "Misthalin", "items": ["beer"]},
+    "105": {"estimated_seconds": 30, "cluster": "fort_forinthry", "tags": ["fast", "fort"], "manual_requirements": ["fort_workshop_unlocked"], "region": "Misthalin", "items": ["log"]},
+    "35": {"estimated_seconds": 30, "cluster": "lumbridge", "tags": ["fast", "fishing"], "region": "Misthalin", "skills": {"Fishing": 1}},
+    "51": {"estimated_seconds": 45, "cluster": "lumbridge", "tags": ["fast", "cooking"], "region": "Misthalin", "items": ["milk"]},
+    "54": {"estimated_seconds": 60, "cluster": "lumbridge", "tags": ["fast", "cooking"], "region": "Misthalin", "skills": {"Cooking": 40}, "items": ["cake ingredients"]},
+    "112": {"estimated_seconds": 30, "cluster": "varrock", "tags": ["fast", "access"], "region": "Misthalin", "skills": {"Cooking": 32}},
+    "288": {"estimated_seconds": 45, "cluster": "al_kharid", "tags": ["fast", "mining"], "region": "Desert", "skills": {"Mining": 40}},
+    "294": {"estimated_seconds": 60, "cluster": "desert", "tags": ["fast", "travel"], "region": "Desert"},
+    "285": {"estimated_seconds": 45, "cluster": "sophanem_pyramid_plunder", "tags": ["fast", "thieving"], "region": "Desert", "skills": {"Thieving": 21}},
+    "286": {"estimated_seconds": 60, "cluster": "sophanem_pyramid_plunder", "tags": ["fast", "thieving"], "region": "Desert", "skills": {"Thieving": 31}},
+    "287": {"estimated_seconds": 75, "cluster": "sophanem_pyramid_plunder", "tags": ["fast", "thieving"], "region": "Desert", "skills": {"Thieving": 41}}
+  }
+}

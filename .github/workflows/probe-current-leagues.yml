@@ -16,6 +16,7 @@ on:
       - 'leagues-tracker/league-rules.json'
       - 'leagues-tracker/player-state.json'
       - 'leagues-tracker/task-overrides.json'
+      - 'leagues-tracker-112321-2/**'
 
 permissions:
   contents: write
@@ -46,6 +47,9 @@ jobs:
           curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
             -o leagues-tracker/live-wikisync.json \
             'https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
+          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
+            -o leagues-tracker-112321-2/live-wikisync.json \
+            'https://sync.runescape.wiki/runescape/player/112321-2/LEAGUE_2'
 
       - name: Fetch optional task catalog refresh
         shell: bash
@@ -67,15 +71,20 @@ jobs:
           leagues-tracker/test_opportunities.py
 
       - name: Build tracker intelligence
-        run: python3 leagues-tracker/tracker.py
+        run: |
+          python3 leagues-tracker/tracker.py
+          python3 leagues-tracker-112321-2/tracker.py
 
       - name: Detect forgotten finishes
-        run: python3 leagues-tracker/opportunity_detector.py
+        run: |
+          python3 leagues-tracker/opportunity_detector.py
+          python3 leagues-tracker-112321-2/opportunity_detector.py
 
       - name: Validate tracker invariants
         run: |
           python3 leagues-tracker/test_tracker.py
           python3 leagues-tracker/test_opportunities.py
+          python3 -m py_compile leagues-tracker-112321-2/tracker.py leagues-tracker-112321-2/task_intelligence.py leagues-tracker-112321-2/opportunity_detector.py
 
       - name: Commit refreshed state
         shell: bash
@@ -83,7 +92,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A leagues-tracker
+          git add -A leagues-tracker leagues-tracker-112321-2
           git commit -m 'Refresh Equilibrium tracker state' || exit 0
           git pull --rebase origin main
           git push origin main

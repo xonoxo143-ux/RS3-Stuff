@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "player": "112321-2",
+  "league": "Leagues II: Equilibrium",
+  "access_mode": "free_to_play",
+  "relic_choice_vector": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "blessing_path_vector": {
+    "t1": null,
+    "t2": null,
+    "t3": null,
+    "t4": null,
+    "t5": null,
+    "t6": null
+  },
+  "blessing_resets_remaining": 1,
+  "regions": {
+    "starting": [
+      "Misthalin",
+      "Havenhythe"
+    ],
+    "automatic": [],
+    "elective": []
+  },
+  "task_exclusions": {
+    "141": "F2P-known impossible: level 50 in all non-elite skills includes member-only skills.",
+    "208": "F2P-known impossible: all F2P lodestones requires multiple elective regions, but a free League character gets only one.",
+    "280": "F2P-known impossible: Taverley dungeon blue dragon is not accessible on the free League account.",
+    "606": "F2P-known impossible: the Karamja salmon spot is in members-only Shilo Village.",
+    "897": "F2P-known impossible: pineapple pizza cannot currently be completed on a free League account.",
+    "916": "F2P-known impossible: full red dragonhide armour cannot currently be completed on a free League account.",
+    "922": "F2P-known impossible: elemental battlestaff cannot currently be completed on a free League account.",
+    "958": "F2P-known impossible: yew shortbow cannot currently be completed on a free League account.",
+    "959": "F2P-known impossible: magic shortbow cannot currently be completed on a free League account.",
+    "961": "F2P-known impossible: fletching 100 unstrung yew shortbows cannot currently be completed on a free League account.",
+    "962": "F2P-known impossible: fletching 100 yew stocks cannot currently be completed on a free League account.",
+    "1025": "F2P-known impossible: fletching 200 magic stocks cannot currently be completed on a free League account.",
+    "1032": "F2P-known impossible: 350 rune darts requires members-only quest access."
+  },
+  "key_items": [],
+  "manual_flags": {
+    "account_access": "free_to_play",
+    "free_progression_caps": {
+      "regions_total": 4,
+      "relic_tier": 3,
+      "blessing_tier": 2
+    }
+  },
+  "goal": {
+    "type": "task_threshold",
+    "threshold_id": "elective_1",
+    "strategy": "Low-fatigue alt: prioritize quick, low-RNG tasks and useful unlocks until 150 tasks, then choose the single F2P elective region based on what sounds most useful or fun."
+  },
+  "route_preferences": {
+    "compare_direct_walk_vs_teleports": true,
+    "preferred_teleport_systems": [
+      "lodestones"
+    ],
+    "chain_nearby_tasks": true,
+    "cross_check_maps_when_directions_are_uncertain": true
+  },
+  "notes": [
+    "Created 2026-09-06 as a free-to-play Equilibrium League alt to reduce fatigue on the main 112321 character.",
+    "No fixed endgame goal yet; optimize for variety, low-friction progression, and learning the free League route.",
+    "F2P progression caps: four total regions, relic tier 3, blessing tier 2.",
+    "The only elective region pick is at 150 completed tasks.",
+    "Known F2P-impossible task mismatches are excluded from recommendations based on current community mapping."
+  ]
+}
