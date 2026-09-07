@@ -82,18 +82,6 @@
       "note": "Obtained from Gregorovic. Weapon gizmo perk: Eruptive 2."
     },
     {
-      "name": "Dormant anima core helm",
-      "quantity": 1,
-      "status": "owned",
-      "note": "Obtained from Gregorovic. Reserve for conversion with a Crest of Zamorak into T80 ranged Anima Core of Zamorak."
-    },
-    {
-      "name": "Dormant anima core body",
-      "quantity": 1,
-      "status": "owned",
-      "note": "Obtained from Gregorovic. Reserve for conversion with a Crest of Zamorak into T80 ranged Anima Core of Zamorak."
-    },
-    {
       "name": "TokHaar-Kal-Xil",
       "quantity": 1,
       "status": "owned_and_equipped",
@@ -101,9 +89,21 @@
     },
     {
       "name": "Crest of Zamorak",
-      "quantity": 1,
+      "quantity": null,
+      "status": "target_completed",
+      "note": "At least 3 Crests of Zamorak were obtained; 3 were used to create the full Anima Core of Zamorak helm/body/legs. Any spare crest count is unknown."
+    },
+    {
+      "name": "Anima Core of Zamorak set",
+      "quantity": 3,
       "status": "owned",
-      "note": "Obtained while farming Twin Furies. Goal is 3 total crests for full T80 Anima Core of Zamorak conversion; 2 more needed."
+      "note": "Full T80 ranged power armour set owned: helm, body, and legs. Created from dormant anima core pieces using Crests of Zamorak."
+    },
+    {
+      "name": "Dormant anima core armour pieces",
+      "quantity": 9,
+      "status": "obtained_total",
+      "note": "Nine dormant anima core armour drops were obtained while farming Gregorovic/Twin Furies progression. Exact piece split and current duplicate remainder are not tracked; at least one helm, body, and legs were used for the finished Zamorak set."
     }
   ],
   "manual_flags": {
@@ -115,8 +115,12 @@
       "note": "User completed 2 kills at roughly 10 minutes each on mobile with T80 Necromancy weapons and does not want Rasial recommended unless explicitly reopened."
     },
     "twin_furies_progress": {
-      "status": "paused_farming",
-      "note": "User got sick of farming Twin Furies after completing substantial kills. Has 1 Crest of Zamorak toward a 3-crest goal, and obtained 9 dormant anima core armour drops during the farm (exact piece split not specified). Also accumulated a large stock of magic logs; exact quantity not specified."
+      "status": "armour_target_completed",
+      "note": "Full T80 Anima Core of Zamorak helm/body/legs completed. Earlier farm yielded 9 dormant anima core armour drops and a large stock of magic logs. At least 3 Crests of Zamorak were obtained; 3 were used for the set."
+    },
+    "cheesecake_unlock": {
+      "status": "unlocked",
+      "note": "Cook's Assistant and Chef's Assistant progression completed far enough to unlock cheesecake making; user confirmed cheesecake is unlocked."
     }
   },
   "goal": {
@@ -137,6 +141,7 @@
     "The final elective region choice at 400 tasks remains intentionally unset until explicitly confirmed.",
     "Manual player-state should contain only facts that external sources cannot reliably infer. Do not store generated LP/task/level totals here.",
     "T6 choice confirmed by player on 2026-09-03: Rejuvenated, selecting Production Master as the additional previous-tier relic.",
-    "2026-09-04 Twin Furies farm update: 1/3 Crest of Zamorak goal, 9 dormant anima core armour drops during the farm, and a large magic-log haul. Farming paused due to fatigue."
+    "2026-09-07 ranged armour update: full T80 Anima Core of Zamorak set (helm, body, legs) completed; the 3-crest target is finished.",
+    "2026-09-07 cooking update: cheesecake making is unlocked for prayer-food use."
   ]
 }
