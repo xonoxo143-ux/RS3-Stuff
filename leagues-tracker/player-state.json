@@ -12,14 +12,14 @@
     null
   ],
   "blessing_path_vector": {
-    "t1": 3,
-    "t2": 3,
+    "t1": null,
+    "t2": null,
     "t3": 2,
-    "t4": 2,
+    "t4": 1,
     "t5": null,
     "t6": null
   },
-  "blessing_resets_remaining": 1,
+  "blessing_resets_remaining": 0,
   "regions": {
     "starting": [
       "Misthalin",
@@ -116,6 +116,12 @@
       "quantity": 1,
       "status": "owned",
       "note": "Twin Furies unique melee weapon drop; one of the paired blades."
+    },
+    {
+      "name": "Royal sight",
+      "quantity": 1,
+      "status": "owned",
+      "note": "Queen Black Dragon drop; Royal crossbow component."
     }
   ],
   "manual_flags": {
@@ -133,6 +139,14 @@
     "cheesecake_unlock": {
       "status": "unlocked",
       "note": "Cook's Assistant and Chef's Assistant progression completed far enough to unlock cheesecake making; user confirmed cheesecake is unlocked."
+    },
+    "blessing_t5_unlock": {
+      "status": "unlocked",
+      "note": "User confirmed reaching the 16-blessing-task threshold on 2026-09-07 after the Queen Black Dragon kill. Exact T5 choice not yet explicitly confirmed."
+    },
+    "queen_black_dragon": {
+      "status": "defeated",
+      "note": "Queen Black Dragon defeated on 2026-09-07; this was part of the push that unlocked T5 blessing."
     }
   },
   "goal": {
@@ -155,6 +169,9 @@
     "T6 choice confirmed by player on 2026-09-03: Rejuvenated, selecting Production Master as the additional previous-tier relic.",
     "2026-09-07 ranged armour update: full T80 Anima Core of Zamorak set (helm, body, legs) completed; the 3-crest target is finished.",
     "2026-09-07 cooking update: cheesecake making is unlocked for prayer-food use.",
-    "2026-09-07 Twin Furies drops update: owns both Blade of Avaryss and Blade of Nymora."
+    "2026-09-07 Twin Furies drops update: owns both Blade of Avaryss and Blade of Nymora.",
+    "2026-09-07 blessing reset update: remaining reset was used; Eternal Sustenance retained at T3 and Higher Power chosen at T4. T1/T2 post-reset choices are intentionally left unrecorded until explicitly confirmed.",
+    "2026-09-07 blessing progress: T5 blessing threshold reached (16 blessing tasks). Exact T5 choice not yet explicitly confirmed.",
+    "2026-09-07 QBD update: Queen Black Dragon defeated and Royal sight obtained."
   ]
 }
