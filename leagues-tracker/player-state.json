@@ -104,6 +104,18 @@
       "quantity": 9,
       "status": "obtained_total",
       "note": "Nine dormant anima core armour drops were obtained while farming Gregorovic/Twin Furies progression. Exact piece split and current duplicate remainder are not tracked; at least one helm, body, and legs were used for the finished Zamorak set."
+    },
+    {
+      "name": "Blade of Avaryss",
+      "quantity": 1,
+      "status": "owned",
+      "note": "Twin Furies unique melee weapon drop; one of the paired blades."
+    },
+    {
+      "name": "Blade of Nymora",
+      "quantity": 1,
+      "status": "owned",
+      "note": "Twin Furies unique melee weapon drop; one of the paired blades."
     }
   ],
   "manual_flags": {
@@ -142,6 +154,7 @@
     "Manual player-state should contain only facts that external sources cannot reliably infer. Do not store generated LP/task/level totals here.",
     "T6 choice confirmed by player on 2026-09-03: Rejuvenated, selecting Production Master as the additional previous-tier relic.",
     "2026-09-07 ranged armour update: full T80 Anima Core of Zamorak set (helm, body, legs) completed; the 3-crest target is finished.",
-    "2026-09-07 cooking update: cheesecake making is unlocked for prayer-food use."
+    "2026-09-07 cooking update: cheesecake making is unlocked for prayer-food use.",
+    "2026-09-07 Twin Furies drops update: owns both Blade of Avaryss and Blade of Nymora."
   ]
 }
