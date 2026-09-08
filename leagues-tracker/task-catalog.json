@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-02T00:24:49+00:00",
+  "fetched_at_utc": "2026-09-08T01:14:46+00:00",
   "schema_version": 2,
   "source": "ScapeLeagues Equilibrium task database",
   "source_url": "https://scapeleagues.com/rs3/equilibrium/tasks",
@@ -737,7 +737,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Smith a necronium bar at the smithy in the City of Um.",
+      "description": "Smith a necronium bar at the smithy in the City of Um. (Necro Necronium)",
       "id": 80,
       "issue": null,
       "name": "Smelt a necronium bar at the smithy in the City of Um.",
@@ -2137,7 +2137,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Sit on the bench with Sir Tiffy Cashien in Falador Park.",
+      "description": "Sit on the bench with Sir Tiffy Cashien in Falador Park. (Tiffy Time)",
       "id": 229,
       "issue": null,
       "name": "Sit down with Tiffy in Falador park.",
@@ -3567,7 +3567,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Defeat a Dagannoth King solo whilst wearing full yak-hide armour and a Fremennik round shield. Any equipment can be used to kill a king as long as the required equipment is worn before the death animation finishes.",
+      "description": "Defeat a Dagannoth King solo whilst wearing full yak-hide armour and a Fremennik round shield. Any equipment can be used to kill a king as long as the required equipment is worn before the death animation finishes. (Baroo Quality)",
       "id": 396,
       "issue": null,
       "name": "Defeat a Dagannoth King solo whilst wearing full yak-hide armour and a Fremennik round shield.",
@@ -4289,7 +4289,7 @@
       "blessing_task": false,
       "description": "Complete the base camp tutorial.",
       "id": 482,
-      "issue": null,
+      "issue": "Cannot be completed",
       "name": "Complete the base camp tutorial on Anachronia.",
       "points": 10,
       "region": "Anachronia",
@@ -4307,7 +4307,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Surge under the spine on Anachronia",
+      "description": "Surge under the spine on Anachronia. (Spinal Surgery)",
       "id": 484,
       "issue": null,
       "name": "Surge under the spine on Anachronia.",
@@ -4567,7 +4567,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Complete a Big Game Hunter encounter without using movement abilities.",
+      "description": "Complete a Big Game Hunter encounter without using movement abilities. (In and Out, Nice and Slow)",
       "id": 513,
       "issue": null,
       "name": "Complete a big game encounter without using movement abilities.",
@@ -4607,7 +4607,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Use Potterington Blend #102 or dinosaur 'propellant' on Prehistoric Potterington.",
+      "description": "Use Potterington Blend #102 or dinosaur 'propellant' on Prehistoric Potterington. (The Plop Thickens)",
       "id": 518,
       "issue": null,
       "name": "Use Potterington Blend #102 Fertiliser or dinosaur 'propellant' on Prehistoric Potterington.",
@@ -4667,7 +4667,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Complete a Big Game Hunter encounter without stepping into the creature's vision ring.",
+      "description": "Complete a Big Game Hunter encounter without stepping into the creature's vision ring. (Got to Go Around It)",
       "id": 526,
       "issue": null,
       "name": "Complete a big game encounter without stepping into the creature's vision ring.",
@@ -4907,7 +4907,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Mine 200 soft clay in Prifddinas.",
+      "description": "Mine 200 soft clay in Prifddinas. Does not count additional soft clay granted by bracelets of clay.",
       "id": 552,
       "issue": null,
       "name": "Mine 200 soft clay in Prifddinas.",
@@ -5137,7 +5137,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Aid Lady Trahaearn in removing some corruption.",
+      "description": "Aid Lady Trahaearn in removing some corruption by smelting 100 corrupted ore. (Uncorrupted Ore)",
       "id": 578,
       "issue": null,
       "name": "Aid Lady Trahaearn in removing some corruption by smelting 100 corrupted ore.",
@@ -5157,7 +5157,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Chop a log from an elder tree you have grown in the Prifddinas farming patch, then fletch it into an elder shortbow.",
+      "description": "Chop a log from an elder tree you have grown in the Prifddinas farming patch, then fletch it into an unstrung elder shortbow. (Respect your Elders)",
       "id": 581,
       "issue": null,
       "name": "Chop a log from an elder tree you have grown in the Prifddinas farming patch, then fletch it into a shortbow.",
@@ -6057,7 +6057,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Defeat the King Black Dragon while wearing black dragonhide in six equipment slots.",
+      "description": "Defeat the King Black Dragon while wearing black dragonhide in six equipment slots. Can only be completed in a solo instance. (Changing of the Guard)",
       "id": 684,
       "issue": null,
       "name": "Defeat the King Black Dragon while wearing black dragonhide in six equipment slots. Can only be completed in a solo instance.",
@@ -9097,7 +9097,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Complete all combat mastery achievements for the Giant Mole.",
+      "description": "Complete all Combat Mastery achievements for the Giant Mole.",
       "id": 1019,
       "issue": null,
       "name": "Complete all combat mastery achievements for the Giant Mole.",
@@ -10957,7 +10957,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Pick all pockets, open all chests and crack all safes in the Vault of Hereditas Heist before searching the rare chest.",
+      "description": "Pick all pockets, open all chests and crack all safes in the Vault of Hereditas Heist before searching the rare chest. (Vault of Hereditas: Clean Sweep)",
       "id": 1216,
       "issue": null,
       "name": "Pick all pockets, open all chests and crack all safes in the Vault of Hereditas Heist before searching the rare chest.",

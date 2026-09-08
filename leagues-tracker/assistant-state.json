@@ -1,6 +1,6 @@
 {
   "account": {
-    "blessing_tasks_completed": 14,
+    "blessing_tasks_completed": 16,
     "completed_task_ids": [
       0,
       1,
@@ -28,6 +28,7 @@
       48,
       49,
       50,
+      51,
       52,
       53,
       62,
@@ -141,6 +142,7 @@
       220,
       221,
       222,
+      235,
       241,
       254,
       255,
@@ -151,6 +153,7 @@
       263,
       265,
       266,
+      274,
       282,
       283,
       284,
@@ -171,9 +174,13 @@
       319,
       321,
       322,
+      323,
+      324,
       325,
+      326,
       341,
       342,
+      346,
       597,
       598,
       605,
@@ -191,6 +198,7 @@
       641,
       643,
       664,
+      800,
       807,
       808,
       810,
@@ -243,6 +251,7 @@
       889,
       890,
       896,
+      901,
       902,
       903,
       904,
@@ -261,6 +270,10 @@
       954,
       955,
       956,
+      958,
+      959,
+      961,
+      962,
       964,
       966,
       967,
@@ -273,7 +286,9 @@
       987,
       988,
       989,
+      1025,
       1052,
+      1058,
       1060,
       1066,
       1074,
@@ -315,33 +330,33 @@
       1250,
       1271
     ],
-    "completed_tasks": 312,
+    "completed_tasks": 327,
     "league": "Leagues II: Equilibrium",
-    "league_points": 13540,
+    "league_points": 14830,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
       "Archaeology": 60,
       "Attack": 80,
       "Constitution": 99,
-      "Construction": 53,
+      "Construction": 60,
       "Cooking": 88,
-      "Crafting": 97,
+      "Crafting": 98,
       "Defence": 99,
-      "Divination": 82,
+      "Divination": 84,
       "Dungeoneering": 39,
       "Farming": 32,
-      "Firemaking": 75,
+      "Firemaking": 78,
       "Fishing": 40,
-      "Fletching": 79,
+      "Fletching": 81,
       "Herblore": 79,
       "Hunter": 50,
       "Invention": 120,
       "Magic": 87,
-      "Mining": 84,
+      "Mining": 86,
       "Necromancy": 107,
       "Prayer": 99,
-      "Ranged": 106,
+      "Ranged": 110,
       "Runecrafting": 73,
       "Slayer": 79,
       "Smithing": 82,
@@ -351,28 +366,15 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-06T04:46:22.023Z",
-    "total_level": 2331
+    "timestamp_utc": "2026-09-08T01:14:45.750Z",
+    "total_level": 2352
   },
   "blessings": {
     "derived_god_choices": {
-      "god1": 3,
+      "god1": null,
       "god2": null
     },
-    "dynamic_effects": [
-      {
-        "current_bonus": {
-          "armour": 100,
-          "base_ability_damage": 150,
-          "critical_strike_chance_percent": 10,
-          "critical_strike_damage_percent": 15.0,
-          "life_points": 1000,
-          "prayer_bonus": 10
-        },
-        "source": "True Equilibrium",
-        "unique_paths_currently_chosen": 2
-      }
-    ],
+    "dynamic_effects": [],
     "passive_by_step": [
       {
         "effects": [
@@ -411,6 +413,13 @@
           "Maximum adrenaline is increased by 25%."
         ],
         "step": "t4"
+      },
+      {
+        "effects": [
+          "God books/scriptures/grimoires and scrimshaws do not consume charge.",
+          "Equipment does not degrade."
+        ],
+        "step": "t5"
       }
     ],
     "path_encoding": {
@@ -419,37 +428,31 @@
       "3": "Chaos"
     },
     "path_vector": {
-      "t1": 3,
-      "t2": 3,
+      "t1": null,
+      "t2": null,
       "t3": 2,
-      "t4": 2,
+      "t4": 1,
       "t5": null,
       "t6": null
     },
-    "resets_remaining": 1,
+    "resets_remaining": 0,
     "resolved": [
       {
-        "choice_number": 3,
+        "choice_number": null,
         "derived": false,
-        "effects": [
-          "Maximum adrenaline is increased by 50%.",
-          "Adrenaline generation is increased by 50%."
-        ],
-        "name": "Adrenaline Junkie",
-        "path": "Chaos",
+        "effects": [],
+        "name": null,
+        "path": null,
         "step": "t1",
         "threshold_tasks": 1,
         "unlocked": true
       },
       {
-        "choice_number": 3,
+        "choice_number": null,
         "derived": false,
-        "effects": [
-          "Attacks deal 15% ability damage as bonus damage on hit.",
-          "Hits have a 5% chance to trigger Inferno of Zamorak for additional single-target damage."
-        ],
-        "name": "Abyssal Cinders",
-        "path": "Chaos",
+        "effects": [],
+        "name": null,
+        "path": null,
         "step": "t2",
         "threshold_tasks": 3,
         "unlocked": true
@@ -468,26 +471,24 @@
         "unlocked": true
       },
       {
-        "choice_number": 3,
+        "choice_number": null,
         "derived": true,
-        "effects": [
-          "Accuracy is always calculated using the target's weakness."
-        ],
-        "name": "Demon's Mark",
-        "path": "Chaos",
+        "effects": [],
+        "name": null,
+        "path": null,
         "step": "god1",
         "threshold_tasks": 9,
         "unlocked": true
       },
       {
-        "choice_number": 2,
+        "choice_number": 1,
         "derived": false,
         "effects": [
-          "For each distinct blessing path represented across tiers 1-6, gain a stack of offensive and defensive stats.",
-          "Each stack grants base ability damage, armour, life points, critical chance, critical damage, and Prayer bonus; one/two/three unique paths grant one/two/three stacks."
+          "Base ability damage is increased by 30%.",
+          "Berserk, Death's Swiftness, Living Death, and Sunshine become unavailable."
         ],
-        "name": "True Equilibrium",
-        "path": "Balance",
+        "name": "Higher Power",
+        "path": "Order",
         "step": "t4",
         "threshold_tasks": 12,
         "unlocked": true
@@ -500,7 +501,7 @@
         "path": null,
         "step": "t5",
         "threshold_tasks": 16,
-        "unlocked": false
+        "unlocked": true
       },
       {
         "choice_number": null,
@@ -525,11 +526,214 @@
     ]
   },
   "changes": {
-    "league_points_delta": 0,
-    "level_ups": [],
-    "new_task_ids": [],
-    "new_tasks": [],
-    "task_delta": 0
+    "league_points_delta": 1290,
+    "level_ups": [
+      {
+        "from": 106,
+        "skill": "Ranged",
+        "to": 110
+      },
+      {
+        "from": 79,
+        "skill": "Fletching",
+        "to": 81
+      },
+      {
+        "from": 75,
+        "skill": "Firemaking",
+        "to": 78
+      },
+      {
+        "from": 97,
+        "skill": "Crafting",
+        "to": 98
+      },
+      {
+        "from": 84,
+        "skill": "Mining",
+        "to": 86
+      },
+      {
+        "from": 53,
+        "skill": "Construction",
+        "to": 60
+      },
+      {
+        "from": 82,
+        "skill": "Divination",
+        "to": 84
+      }
+    ],
+    "new_task_ids": [
+      51,
+      235,
+      274,
+      323,
+      324,
+      326,
+      346,
+      800,
+      901,
+      958,
+      959,
+      961,
+      962,
+      1025,
+      1058
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "description": "Make a pat of butter by using a bucket of milk at a dairy churn",
+        "id": 51,
+        "issue": null,
+        "name": "Churn some butter.",
+        "points": 30,
+        "region": "Misthalin",
+        "tier": "medium"
+      },
+      {
+        "blessing_task": true,
+        "description": "Kill the giant mole.",
+        "id": 235,
+        "issue": null,
+        "name": "Defeat the Giant Mole.",
+        "points": 30,
+        "region": "Asgarnia",
+        "tier": "medium"
+      },
+      {
+        "blessing_task": true,
+        "description": "Defeat the Queen Black Dragon.",
+        "id": 274,
+        "issue": null,
+        "name": "Defeat the Queen Black Dragon.",
+        "points": 80,
+        "region": "Asgarnia",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Defeat Vindicta.",
+        "id": 323,
+        "issue": null,
+        "name": "Defeat Vindicta and Gorvek.",
+        "points": 80,
+        "region": "Desert",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Defeat Helwyr.",
+        "id": 324,
+        "issue": null,
+        "name": "Defeat Helwyr.",
+        "points": 80,
+        "region": "Desert",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Defeat the Twin Furies 100 times.",
+        "id": 326,
+        "issue": null,
+        "name": "Defeat Avaryss and Nymora.",
+        "points": 80,
+        "region": "Desert",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Defeat Telos.",
+        "id": 346,
+        "issue": null,
+        "name": "Defeat Telos, the Warden.",
+        "points": 80,
+        "region": "Desert",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Cleanse the Gate of Elidinis.",
+        "id": 800,
+        "issue": null,
+        "name": "Cleanse the Gate of Elidinis.",
+        "points": 80,
+        "region": "Misthalin",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Bury 5 dragon bones.",
+        "id": 901,
+        "issue": null,
+        "name": "Bury 5 dragon bones.",
+        "points": 30,
+        "region": "Global",
+        "tier": "medium"
+      },
+      {
+        "blessing_task": false,
+        "description": "Equip a yew shortbow.",
+        "id": 958,
+        "issue": null,
+        "name": "Equip a yew shortbow.",
+        "points": 80,
+        "region": "Global",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Equip a magic shortbow.",
+        "id": 959,
+        "issue": null,
+        "name": "Equip a magic shortbow.",
+        "points": 80,
+        "region": "Global",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Fletch 100 Yew shortbows (unstrung).",
+        "id": 961,
+        "issue": null,
+        "name": "Fletch 100 yew shortbows (unstrung).",
+        "points": 80,
+        "region": "Global",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Fletch 100 yew stocks.",
+        "id": 962,
+        "issue": null,
+        "name": "Fletch 100 yew stocks.",
+        "points": 80,
+        "region": "Global",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Fletch 200 magic stocks.",
+        "id": 1025,
+        "issue": null,
+        "name": "Fletch 200 magic stocks.",
+        "points": 200,
+        "region": "Global",
+        "tier": "elite"
+      },
+      {
+        "blessing_task": false,
+        "description": "Burn 100 magic logs.",
+        "id": 1058,
+        "issue": null,
+        "name": "Burn 100 magic logs",
+        "points": 200,
+        "region": "Global",
+        "tier": "elite"
+      }
+    ],
+    "task_delta": 15
   },
   "forgotten_finish_opportunities": {
     "count": 5,
@@ -547,14 +751,14 @@
         "reasons": [
           {
             "code": "tiny_skill_gap",
-            "detail": "Only 2 Crafting level(s) remain to the task target.",
-            "gap": 2,
+            "detail": "Only 1 Crafting level(s) remain to the task target.",
+            "gap": 1,
             "skill": "Crafting"
           }
         ],
         "region": "Global",
         "status": "blocked",
-        "suspected_remaining_effort": "2_skill_levels_or_less",
+        "suspected_remaining_effort": "1_skill_level_or_less",
         "tier": "elite"
       },
       {
@@ -658,7 +862,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-06T04:46:22.023Z",
+    "generated_at_utc": "2026-09-08T01:14:45.750Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -668,41 +872,69 @@
       "errors": [],
       "expected_elective_slots": 2,
       "recorded_elective_regions": 2,
-      "status": "healthy",
-      "warnings": []
+      "status": "warning",
+      "warnings": [
+        {
+          "code": "unrecorded_blessing_choice",
+          "detail": "Blessing t1 is unlocked but no path choice is recorded."
+        },
+        {
+          "code": "unrecorded_blessing_choice",
+          "detail": "Blessing t2 is unlocked but no path choice is recorded."
+        },
+        {
+          "code": "unrecorded_blessing_choice",
+          "detail": "Blessing t5 is unlocked but no path choice is recorded."
+        }
+      ]
     },
     "recommendation_coverage": {
       "metadata_source_counts": {
-        "manual_override": 9,
-        "none": 675,
-        "text_inference": 156
+        "manual_override": 8,
+        "none": 663,
+        "text_inference": 154
       },
       "status_counts": {
-        "accessible_requirements_unknown": 296,
+        "accessible_requirements_unknown": 284,
         "blocked": 33,
         "excluded": 7,
-        "inferred_candidate": 123,
-        "known_issue": 1,
-        "locked_region": 371,
+        "inferred_candidate": 121,
+        "known_issue": 2,
+        "locked_region": 370,
         "manual_check": 3,
-        "verified_ready": 6
+        "verified_ready": 5
       },
-      "timed_inferred_candidates": 90,
-      "timed_verified_tasks": 6
+      "timed_inferred_candidates": 88,
+      "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 361294,
-      "fetched_at_utc": "2026-09-02T00:24:49+00:00",
+      "age_seconds_at_generation": 0,
+      "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
-        "changed_task_ids": [],
+        "changed_task_ids": [
+          80,
+          229,
+          396,
+          482,
+          484,
+          513,
+          518,
+          526,
+          552,
+          578,
+          581,
+          684,
+          1019,
+          1216
+        ],
         "current_task_count": 1152,
         "previous_task_count": 1152,
         "removed_task_ids": [],
-        "status": "unchanged"
+        "status": "changed"
       },
-      "mapped_completed_tasks": 312,
-      "status": "fresh_unchanged",
+      "mapped_completed_tasks": 327,
+      "status": "fresh_updated",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
     },
@@ -713,7 +945,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-06T04:46:22.023Z"
+      "timestamp": "2026-09-08T01:14:45.750Z"
     }
   },
   "manual": {
@@ -760,18 +992,6 @@
         "status": "owned_augmented"
       },
       {
-        "name": "Dormant anima core helm",
-        "note": "Obtained from Gregorovic. Reserve for conversion with a Crest of Zamorak into T80 ranged Anima Core of Zamorak.",
-        "quantity": 1,
-        "status": "owned"
-      },
-      {
-        "name": "Dormant anima core body",
-        "note": "Obtained from Gregorovic. Reserve for conversion with a Crest of Zamorak into T80 ranged Anima Core of Zamorak.",
-        "quantity": 1,
-        "status": "owned"
-      },
-      {
         "name": "TokHaar-Kal-Xil",
         "note": "Ranged Fight Kiln cape. Obtained 2026-09-04 after a 33-minute all-Ranged Kiln run.",
         "quantity": 1,
@@ -779,22 +999,69 @@
       },
       {
         "name": "Crest of Zamorak",
-        "note": "Obtained while farming Twin Furies. Goal is 3 total crests for full T80 Anima Core of Zamorak conversion; 2 more needed.",
+        "note": "At least 3 Crests of Zamorak were obtained; 3 were used to create the full Anima Core of Zamorak helm/body/legs. Any spare crest count is unknown.",
+        "quantity": null,
+        "status": "target_completed"
+      },
+      {
+        "name": "Anima Core of Zamorak set",
+        "note": "Full T80 ranged power armour set owned: helm, body, and legs. Created from dormant anima core pieces using Crests of Zamorak.",
+        "quantity": 3,
+        "status": "owned"
+      },
+      {
+        "name": "Dormant anima core armour pieces",
+        "note": "Nine dormant anima core armour drops were obtained while farming Gregorovic/Twin Furies progression. Exact piece split and current duplicate remainder are not tracked; at least one helm, body, and legs were used for the finished Zamorak set.",
+        "quantity": 9,
+        "status": "obtained_total"
+      },
+      {
+        "name": "Blade of Avaryss",
+        "note": "Twin Furies unique melee weapon drop; one of the paired blades.",
+        "quantity": 1,
+        "status": "owned"
+      },
+      {
+        "name": "Blade of Nymora",
+        "note": "Twin Furies unique melee weapon drop; one of the paired blades.",
+        "quantity": 1,
+        "status": "owned"
+      },
+      {
+        "name": "Royal sight",
+        "note": "Queen Black Dragon drop; Royal crossbow component.",
         "quantity": 1,
         "status": "owned"
       }
     ],
     "manual_flags": {
+      "blessing_t5_unlock": {
+        "note": "User confirmed reaching the 16-blessing-task threshold on 2026-09-07 after the Queen Black Dragon kill. Exact T5 choice not yet explicitly confirmed.",
+        "status": "unlocked"
+      },
       "bossing_resume_point": {
         "boss": "Rasial",
         "note": "User completed 2 kills at roughly 10 minutes each on mobile with T80 Necromancy weapons and does not want Rasial recommended unless explicitly reopened.",
         "status": "deferred_by_user"
       },
+      "cheesecake_unlock": {
+        "note": "Cook's Assistant and Chef's Assistant progression completed far enough to unlock cheesecake making; user confirmed cheesecake is unlocked.",
+        "status": "unlocked"
+      },
       "fort_workshop_unlocked": null,
+      "gate_of_elidinis_progress": {
+        "kills_confirmed": 1,
+        "note": "User confirmed first Gate of Elidinis cleanse on 2026-09-07, completing task 800 for 80 LP. First clear took longer than 5 minutes and felt unpleasant; do not recommend grinding the 10-kill task unless the user reopens it.",
+        "status": "first_kill_complete_not_recommended_to_farm"
+      },
+      "queen_black_dragon": {
+        "note": "Queen Black Dragon defeated on 2026-09-07; this was part of the push that unlocked T5 blessing.",
+        "status": "defeated"
+      },
       "t6_rejuvenated_relic": "Production Master",
       "twin_furies_progress": {
-        "note": "User got sick of farming Twin Furies after completing substantial kills. Has 1 Crest of Zamorak toward a 3-crest goal, and obtained 9 dormant anima core armour drops during the farm (exact piece split not specified). Also accumulated a large stock of magic logs; exact quantity not specified.",
-        "status": "paused_farming"
+        "note": "Full T80 Anima Core of Zamorak helm/body/legs completed. Earlier farm yielded 9 dormant anima core armour drops and a large stock of magic logs. At least 3 Crests of Zamorak were obtained; 3 were used for the set.",
+        "status": "armour_target_completed"
       }
     },
     "route_preferences": {
@@ -819,20 +1086,20 @@
     }
   },
   "progression": {
-    "current_blessing_step": "t4",
+    "current_blessing_step": "t5",
     "next_blessing": {
-      "remaining_tasks": 2,
-      "step": "t5",
-      "threshold": 16
+      "remaining_tasks": 4,
+      "step": "t6",
+      "threshold": 20
     },
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 88,
+      "remaining_tasks": 73,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 6460,
+      "remaining_points": 5170,
       "threshold": 20000,
       "tier": 7
     },
@@ -1052,22 +1319,22 @@
   },
   "schema_version": 2,
   "tasks": {
-    "inferred_candidate_count": 123,
+    "inferred_candidate_count": 121,
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 296,
+    "requirements_unknown_count": 284,
     "status_counts": {
-      "accessible_requirements_unknown": 296,
+      "accessible_requirements_unknown": 284,
       "blocked": 33,
       "excluded": 7,
-      "inferred_candidate": 123,
-      "known_issue": 1,
-      "locked_region": 371,
+      "inferred_candidate": 121,
+      "known_issue": 2,
+      "locked_region": 370,
       "manual_check": 3,
-      "verified_ready": 6
+      "verified_ready": 5
     },
-    "unfinished_count": 840,
-    "verified_ready_count": 6
+    "unfinished_count": 825,
+    "verified_ready_count": 5
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-06T04:46:22.023Z",
+  "generated_at_utc": "2026-09-08T01:14:45.750Z",
   "hiscores": {
     "note": "HiScores parsing is not a dependency.",
     "required": false,
@@ -9,41 +9,69 @@
     "errors": [],
     "expected_elective_slots": 2,
     "recorded_elective_regions": 2,
-    "status": "healthy",
-    "warnings": []
+    "status": "warning",
+    "warnings": [
+      {
+        "code": "unrecorded_blessing_choice",
+        "detail": "Blessing t1 is unlocked but no path choice is recorded."
+      },
+      {
+        "code": "unrecorded_blessing_choice",
+        "detail": "Blessing t2 is unlocked but no path choice is recorded."
+      },
+      {
+        "code": "unrecorded_blessing_choice",
+        "detail": "Blessing t5 is unlocked but no path choice is recorded."
+      }
+    ]
   },
   "recommendation_coverage": {
     "metadata_source_counts": {
-      "manual_override": 9,
-      "none": 675,
-      "text_inference": 156
+      "manual_override": 8,
+      "none": 663,
+      "text_inference": 154
     },
     "status_counts": {
-      "accessible_requirements_unknown": 296,
+      "accessible_requirements_unknown": 284,
       "blocked": 33,
       "excluded": 7,
-      "inferred_candidate": 123,
-      "known_issue": 1,
-      "locked_region": 371,
+      "inferred_candidate": 121,
+      "known_issue": 2,
+      "locked_region": 370,
       "manual_check": 3,
-      "verified_ready": 6
+      "verified_ready": 5
     },
-    "timed_inferred_candidates": 90,
-    "timed_verified_tasks": 6
+    "timed_inferred_candidates": 88,
+    "timed_verified_tasks": 5
   },
   "task_catalog": {
-    "age_seconds_at_generation": 361294,
-    "fetched_at_utc": "2026-09-02T00:24:49+00:00",
+    "age_seconds_at_generation": 0,
+    "fetched_at_utc": "2026-09-08T01:14:46+00:00",
     "latest_change_check": {
       "added_task_ids": [],
-      "changed_task_ids": [],
+      "changed_task_ids": [
+        80,
+        229,
+        396,
+        482,
+        484,
+        513,
+        518,
+        526,
+        552,
+        578,
+        581,
+        684,
+        1019,
+        1216
+      ],
       "current_task_count": 1152,
       "previous_task_count": 1152,
       "removed_task_ids": [],
-      "status": "unchanged"
+      "status": "changed"
     },
-    "mapped_completed_tasks": 312,
-    "status": "fresh_unchanged",
+    "mapped_completed_tasks": 327,
+    "status": "fresh_updated",
     "task_count": 1152,
     "unmapped_completed_task_ids": []
   },
@@ -54,6 +82,6 @@
       "skill_levels"
     ],
     "status": "fresh",
-    "timestamp": "2026-09-06T04:46:22.023Z"
+    "timestamp": "2026-09-08T01:14:45.750Z"
   }
 }

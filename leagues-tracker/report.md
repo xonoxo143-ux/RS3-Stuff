@@ -1,23 +1,23 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-06T04:46:22.023Z**
+Updated: **2026-09-08T01:14:45.750Z**
 
 ## Current
 
-- **312 tasks**
-- **13,540 LP**
-- **Total level 2,331**
+- **327 tasks**
+- **14,830 LP**
+- **Total level 2,352**
 - **Relic T6**
-- **14 blessing tasks**
+- **16 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **88 tasks** to the next region slot
-- **6,460 LP** to T7
-- **2 blessing tasks** to t5
+- **73 tasks** to the next region slot
+- **5,170 LP** to T7
+- **4 blessing tasks** to t6
 
 ## Suggested sprint
 
-Tracker selected **88** of the **88** tasks currently needed.
-Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
+Tracker selected **73** of the **73** tasks currently needed.
+Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
 - [212] Eat a baked potato. — Grade A, ~30s, bank_or_range, 10 LP
@@ -27,7 +27,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [602] Enter the Brimhaven Dungeon. — Grade B, ~30s, brimhaven_dungeon, 10 LP
 - [601] Pick a pineapple on Karamja. — Grade B, ~30s, karamja, 10 LP
 - [606] Catch a salmon on Karamja. — Grade B, ~45s, karamja, 30 LP
-- [51] Churn some butter. — Grade A, ~45s, lumbridge, 30 LP
 - [54] Use the range in Lumbridge Castle to bake a cake. — Grade A, ~60s, lumbridge, 30 LP
 - [14] Equip the full master runecrafter skilling outfit. — Grade B, ~20s, unclustered, 80 LP
 - [61] Equip a dragon crossbow. — Grade B, ~20s, unclustered, 200 LP
@@ -59,8 +58,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [949] Equip any 2 pieces of an elegant outfit. — Grade B, ~20s, unclustered, 30 LP
 - [950] Equip a composite bow of any kind. — Grade B, ~20s, unclustered, 30 LP
 - [951] Equip any dragon mask. — Grade B, ~20s, unclustered, 80 LP
-- [958] Equip a yew shortbow. — Grade B, ~20s, unclustered, 80 LP
-- [959] Equip a magic shortbow. — Grade B, ~20s, unclustered, 80 LP
 - [968] Equip a rune ceremonial sword. — Grade B, ~20s, unclustered, 80 LP
 - [969] Equip a full set of the Blacksmith's outfit. — Grade B, ~20s, unclustered, 80 LP
 - [984] Equip a full set of orikalkum armour. — Grade B, ~20s, unclustered, 80 LP
@@ -94,26 +91,14 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 - [1053] Catch a dragon impling. — Grade B, ~45s, unclustered, 200 LP
 - [1054] Catch a kingly impling. — Grade B, ~45s, unclustered, 200 LP
 - [1182] Catch a jackalope. — Grade B, ~45s, unclustered, 10 LP
-- [19] Make a waka canoe near Edgeville. — Grade B, ~60s, unclustered, 80 LP
 - [349] Craft some soul runes. — Grade B, ~60s, unclustered, 200 LP
-- [355] Craft a Zaros godsword, Seren godbow or staff of Sliske. — Grade B, ~60s, unclustered, 200 LP
-- [636] Craft a bolas. — Grade B, ~60s, unclustered, 80 LP
-- [809] Make 1,000 potions of any kind. — Grade B, ~60s, unclustered, 80 LP
-- [909] Craft 10,000 runes. — Grade B, ~60s, unclustered, 80 LP
-- [960] Fletch some broad arrows or bolts. — Grade B, ~60s, unclustered, 80 LP
-- [963] Fletch a rune crossbow. — Grade B, ~60s, unclustered, 80 LP
-- [1027] Fletch 20 elder shortbows (unstrung). — Grade B, ~60s, unclustered, 200 LP
-- [1031] Fletch an eternal magic wood box. — Grade B, ~60s, unclustered, 200 LP
-- [1033] Smith a primal ore box. — Grade B, ~60s, unclustered, 200 LP
-- [1034] Smith 10,000 armour spikes. — Grade B, ~60s, unclustered, 200 LP
-- [1035] Smith 10,000 primal armour spikes. — Grade B, ~60s, unclustered, 200 LP
 
 ## Best clusters
 
 - **bank_or_range** — 2 candidates (2 Grade A), 20 LP
-- **lumbridge** — 2 candidates (2 Grade A), 60 LP
 - **bank** — 1 candidates (1 Grade A), 10 LP
 - **al_kharid** — 1 candidates (1 Grade A), 10 LP
+- **lumbridge** — 1 candidates (1 Grade A), 30 LP
 - **fort_forinthry** — 3 candidates (0 Grade A), 30 LP
 - **karamja** — 2 candidates (0 Grade A), 40 LP
 - **brimhaven** — 1 candidates (0 Grade A), 10 LP
@@ -122,17 +107,20 @@ Prep once: bronze bolts/materials, potato, bread ingredients, milk, cake ingredi
 
 ## Nearly unlocked
 
-- [1065] Reach level 99 in the Crafting skill. — Crafting 97→99
+- [1065] Reach level 99 in the Crafting skill. — Crafting 98→99
 
 ## Health
 
-- **healthy**
+- **warning**
+- Warning: Blessing t1 is unlocked but no path choice is recorded.
+- Warning: Blessing t2 is unlocked but no path choice is recorded.
+- Warning: Blessing t5 is unlocked but no path choice is recorded.
 
 Grade A = explicit task metadata. Grade B = conservative automatic inference; verify before relying on it.
 
 ## Forgotten-finish opportunities
 
-- [1065] **Reach level 99 in the Crafting skill.** — score 45, 2_skill_levels_or_less; Only 2 Crafting level(s) remain to the task target.
+- [1065] **Reach level 99 in the Crafting skill.** — score 45, 1_skill_level_or_less; Only 1 Crafting level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.

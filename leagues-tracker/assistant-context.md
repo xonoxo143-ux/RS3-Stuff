@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-06T04:46:22.023Z**
+Updated: **2026-09-08T01:14:45.750Z**
 
 ## Tracker discipline
 
@@ -15,12 +15,12 @@ Updated: **2026-09-06T04:46:22.023Z**
 
 ## Current snapshot
 
-- **13,540 LP** · **312 tasks** · total level **2,331**
-- **14 blessing tasks** · relic **T6**
+- **14,830 LP** · **327 tasks** · total level **2,352**
+- **16 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **88 tasks** to 400
-- Next relic: **6,460 LP** to T7
-- Next blessing step: **2** to t5
+- Next region: **73 tasks** to 400
+- Next relic: **5,170 LP** to T7
+- Next blessing step: **4** to t6
 
 ## Active relics
 
@@ -126,18 +126,14 @@ Passive tier effects:
 
 Path encoding: `1=Order, 2=Balance, 3=Chaos`
 
-### t1 — Adrenaline Junkie
-- Maximum adrenaline is increased by 50%.
-- Adrenaline generation is increased by 50%.
+### t1 — choice not recorded
 Passive step effects:
 - 50% chance to save combat runes, rolled separately per rune type.
 - 50% chance to save ammunition in combat.
 - 50% chance to save ectoplasm and necrotic runes used by abilities/incantations.
 - Activating a tier-1 blessing grants one blessing reset.
 
-### t2 — Abyssal Cinders
-- Attacks deal 15% ability damage as bonus damage on hit.
-- Hits have a 5% chance to trigger Inferno of Zamorak for additional single-target damage.
+### t2 — choice not recorded
 Passive step effects:
 - Dive is automatically unlocked.
 - Attack range is increased by one game square, capped at 10 squares.
@@ -150,33 +146,49 @@ Passive step effects:
 - Movement-ability cooldowns are reduced to 4.2 seconds except Barge and Greater Barge.
 - Nature's rune pouch is granted and can hold four rune types.
 
-### god1 — Demon's Mark (derived)
-- Accuracy is always calculated using the target's weakness.
+### god1 — choice not recorded (derived)
 Passive step effects:
 - Activating the first God-tier blessing grants one blessing reset.
 - Araxxi, Rise of the Six, and Vorago rotations can be chosen.
 
-### t4 — True Equilibrium
-- For each distinct blessing path represented across tiers 1-6, gain a stack of offensive and defensive stats.
-- Each stack grants base ability damage, armour, life points, critical chance, critical damage, and Prayer bonus; one/two/three unique paths grant one/two/three stacks.
+### t4 — Higher Power
+- Base ability damage is increased by 30%.
+- Berserk, Death's Swiftness, Living Death, and Sunshine become unavailable.
 Passive step effects:
 - All War's Wares rewards are unlocked.
 - Maximum adrenaline is increased by 25%.
 
-### Dynamic blessing effect
-
-- **True Equilibrium** currently has **2 stacks**: `{'base_ability_damage': 150, 'armour': 100, 'life_points': 1000, 'critical_strike_chance_percent': 10, 'critical_strike_damage_percent': 15.0, 'prayer_bonus': 10}`
+### t5 — choice not recorded
+Passive step effects:
+- God books/scriptures/grimoires and scrimshaws do not consume charge.
+- Equipment does not degrade.
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
+- Tasks: **+15** · LP: **+1290**
+- [51] Churn some butter. — medium, Misthalin, 30 LP
+- [235] Defeat the Giant Mole. — medium, Asgarnia, 30 LP
+- [274] Defeat the Queen Black Dragon. — hard, Asgarnia, 80 LP
+- [323] Defeat Vindicta and Gorvek. — hard, Desert, 80 LP
+- [324] Defeat Helwyr. — hard, Desert, 80 LP
+- [326] Defeat Avaryss and Nymora. — hard, Desert, 80 LP
+- [346] Defeat Telos, the Warden. — hard, Desert, 80 LP
+- [800] Cleanse the Gate of Elidinis. — hard, Misthalin, 80 LP
+- [901] Bury 5 dragon bones. — medium, Global, 30 LP
+- [958] Equip a yew shortbow. — hard, Global, 80 LP
+- [959] Equip a magic shortbow. — hard, Global, 80 LP
+- [961] Fletch 100 yew shortbows (unstrung). — hard, Global, 80 LP
+- [962] Fletch 100 yew stocks. — hard, Global, 80 LP
+- [1025] Fletch 200 magic stocks. — elite, Global, 200 LP
+- [1058] Burn 100 magic logs — elite, Global, 200 LP
+- Level-ups: Ranged 106→110; Fletching 79→81; Firemaking 75→78; Crafting 97→98; Mining 84→86; Construction 53→60; Divination 82→84
 
 ## Current task sprint
 
-- Need: **88 tasks**
-- Precomputed sprint: **88 tasks** (6 Grade A, 82 Grade B)
-- Action-time estimate excluding travel: **2770 sec**
-- Prep: bronze bolts/materials, potato, bread ingredients, milk, cake ingredients
+- Need: **73 tasks**
+- Precomputed sprint: **73 tasks** (5 Grade A, 68 Grade B)
+- Action-time estimate excluding travel: **1965 sec**
+- Prep: bronze bolts/materials, potato, bread ingredients, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
 - [838] **Make some bread.** — Grade A · ~45s · bank_or_range
@@ -185,7 +197,6 @@ Passive step effects:
 - [602] **Enter the Brimhaven Dungeon.** — Grade B · ~30s · brimhaven_dungeon
 - [601] **Pick a pineapple on Karamja.** — Grade B · ~30s · karamja
 - [606] **Catch a salmon on Karamja.** — Grade B · ~45s · karamja
-- [51] **Churn some butter.** — Grade A · ~45s · lumbridge
 - [54] **Use the range in Lumbridge Castle to bake a cake.** — Grade A · ~60s · lumbridge
 - [14] **Equip the full master runecrafter skilling outfit.** — Grade B · ~20s · unclustered
 - [61] **Equip a dragon crossbow.** — Grade B · ~20s · unclustered
@@ -207,25 +218,29 @@ Passive step effects:
 - [625] **Equip a red topaz machete.** — Grade B · ~20s · unclustered
 - [652] **Equip a piece of gemstone armour.** — Grade B · ~20s · unclustered
 - [694] **Equip a pair of Steadfast boots.** — Grade B · ~20s · unclustered
+- [695] **Equip a pair of Glaiven boots.** — Grade B · ~20s · unclustered
 
 ## Recommendation coverage
 
-- Timed Grade-A tasks: **6**
-- Timed Grade-B inferred candidates: **90**
-- Metadata sources: `{'manual_override': 9, 'none': 675, 'text_inference': 156}`
+- Timed Grade-A tasks: **5**
+- Timed Grade-B inferred candidates: **88**
+- Metadata sources: `{'manual_override': 8, 'none': 663, 'text_inference': 154}`
 
 ## Data health
 
-- Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-06T04:46:22.023Z
-- Task catalog: **fresh_unchanged** · 1152 tasks
+- Overall: **warning**
+- WikiSync: **fresh** · 2026-09-08T01:14:45.750Z
+- Task catalog: **fresh_updated** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
+- WARNING `unrecorded_blessing_choice`: Blessing t1 is unlocked but no path choice is recorded.
+- WARNING `unrecorded_blessing_choice`: Blessing t2 is unlocked but no path choice is recorded.
+- WARNING `unrecorded_blessing_choice`: Blessing t5 is unlocked but no path choice is recorded.
 
 > Always apply the active League effects above before normal RS3 mechanics.
 
 ## Forgotten-finish opportunities
 
-- [1065] **Reach level 99 in the Crafting skill.** — score 45, 2_skill_levels_or_less; Only 2 Crafting level(s) remain to the task target.
+- [1065] **Reach level 99 in the Crafting skill.** — score 45, 1_skill_level_or_less; Only 1 Crafting level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.

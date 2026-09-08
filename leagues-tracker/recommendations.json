@@ -46,51 +46,6 @@
       "verified_count": 2
     },
     {
-      "cluster": "lumbridge",
-      "estimated_action_seconds": 105,
-      "points": 60,
-      "task_count": 2,
-      "tasks": [
-        {
-          "blockers": [],
-          "cluster": "lumbridge",
-          "confidence": 1.0,
-          "estimated_seconds": 45,
-          "id": 51,
-          "items_to_prepare": [
-            "milk"
-          ],
-          "lp_per_minute": 40.0,
-          "name": "Churn some butter.",
-          "points": 30,
-          "recommendation_grade": "A",
-          "region": "Misthalin",
-          "status": "verified_ready",
-          "tier": "medium",
-          "unknown_checks": []
-        },
-        {
-          "blockers": [],
-          "cluster": "lumbridge",
-          "confidence": 1.0,
-          "estimated_seconds": 60,
-          "id": 54,
-          "items_to_prepare": [
-            "cake ingredients"
-          ],
-          "lp_per_minute": 30.0,
-          "name": "Use the range in Lumbridge Castle to bake a cake.",
-          "points": 30,
-          "recommendation_grade": "A",
-          "region": "Misthalin",
-          "status": "verified_ready",
-          "tier": "medium",
-          "unknown_checks": []
-        }
-      ],
-      "verified_count": 2
-    },
-    {
       "cluster": "bank",
       "estimated_action_seconds": 30,
       "points": 10,
@@ -137,6 +92,33 @@
           "region": "Desert",
           "status": "verified_ready",
           "tier": "easy",
+          "unknown_checks": []
+        }
+      ],
+      "verified_count": 1
+    },
+    {
+      "cluster": "lumbridge",
+      "estimated_action_seconds": 60,
+      "points": 30,
+      "task_count": 1,
+      "tasks": [
+        {
+          "blockers": [],
+          "cluster": "lumbridge",
+          "confidence": 1.0,
+          "estimated_seconds": 60,
+          "id": 54,
+          "items_to_prepare": [
+            "cake ingredients"
+          ],
+          "lp_per_minute": 30.0,
+          "name": "Use the range in Lumbridge Castle to bake a cake.",
+          "points": 30,
+          "recommendation_grade": "A",
+          "region": "Misthalin",
+          "status": "verified_ready",
+          "tier": "medium",
           "unknown_checks": []
         }
       ],
@@ -340,22 +322,22 @@
   ],
   "coverage": {
     "metadata_source_counts": {
-      "manual_override": 9,
-      "none": 675,
-      "text_inference": 156
+      "manual_override": 8,
+      "none": 663,
+      "text_inference": 154
     },
     "status_counts": {
-      "accessible_requirements_unknown": 296,
+      "accessible_requirements_unknown": 284,
       "blocked": 33,
       "excluded": 7,
-      "inferred_candidate": 123,
-      "known_issue": 1,
-      "locked_region": 371,
+      "inferred_candidate": 121,
+      "known_issue": 2,
+      "locked_region": 370,
       "manual_check": 3,
-      "verified_ready": 6
+      "verified_ready": 5
     },
-    "timed_inferred_candidates": 90,
-    "timed_verified_tasks": 6
+    "timed_inferred_candidates": 88,
+    "timed_verified_tasks": 5
   },
   "fastest_inferred_backups": [
     {
@@ -763,38 +745,6 @@
       "cluster": null,
       "confidence": 0.72,
       "estimated_seconds": 20,
-      "id": 958,
-      "items_to_prepare": [],
-      "lp_per_minute": 240.0,
-      "name": "Equip a yew shortbow.",
-      "points": 80,
-      "recommendation_grade": "B",
-      "region": "Global",
-      "status": "inferred_candidate",
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
-      "id": 959,
-      "items_to_prepare": [],
-      "lp_per_minute": 240.0,
-      "name": "Equip a magic shortbow.",
-      "points": 80,
-      "recommendation_grade": "B",
-      "region": "Global",
-      "status": "inferred_candidate",
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
       "id": 968,
       "items_to_prepare": [],
       "lp_per_minute": 240.0,
@@ -1157,6 +1107,38 @@
       "status": "inferred_candidate",
       "tier": "medium",
       "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 30,
+      "id": 238,
+      "items_to_prepare": [],
+      "lp_per_minute": 60.0,
+      "name": "Use the Telekinetic Grab spell to steal some wine of Zamorak from the captured temple south of Goblin Village.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Asgarnia",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 30,
+      "id": 1175,
+      "items_to_prepare": [],
+      "lp_per_minute": 60.0,
+      "name": "Use an oaken key to open Raz's stash in her hut north of Wendlewick.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Havenhythe",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
     }
   ],
   "fastest_verified": [
@@ -1194,24 +1176,6 @@
       "region": "Global",
       "status": "verified_ready",
       "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": "lumbridge",
-      "confidence": 1.0,
-      "estimated_seconds": 45,
-      "id": 51,
-      "items_to_prepare": [
-        "milk"
-      ],
-      "lp_per_minute": 40.0,
-      "name": "Churn some butter.",
-      "points": 30,
-      "recommendation_grade": "A",
-      "region": "Misthalin",
-      "status": "verified_ready",
-      "tier": "medium",
       "unknown_checks": []
     },
     {
@@ -1273,17 +1237,16 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 2770,
-    "inferred_count": 82,
+    "estimated_action_seconds_excluding_travel": 1965,
+    "inferred_count": 68,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [
       "bronze bolts/materials",
       "potato",
       "bread ingredients",
-      "milk",
       "cake ingredients"
     ],
-    "selected_count": 88,
+    "selected_count": 73,
     "tasks": [
       {
         "blockers": [],
@@ -1416,24 +1379,6 @@
         "recommendation_grade": "B",
         "region": "Karamja",
         "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": "lumbridge",
-        "confidence": 1.0,
-        "estimated_seconds": 45,
-        "id": 51,
-        "items_to_prepare": [
-          "milk"
-        ],
-        "lp_per_minute": 40.0,
-        "name": "Churn some butter.",
-        "points": 30,
-        "recommendation_grade": "A",
-        "region": "Misthalin",
-        "status": "verified_ready",
         "tier": "medium",
         "unknown_checks": []
       },
@@ -1928,38 +1873,6 @@
         "items_to_prepare": [],
         "lp_per_minute": 240.0,
         "name": "Equip any dragon mask.",
-        "points": 80,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "hard",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 20,
-        "id": 958,
-        "items_to_prepare": [],
-        "lp_per_minute": 240.0,
-        "name": "Equip a yew shortbow.",
-        "points": 80,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "hard",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 20,
-        "id": 959,
-        "items_to_prepare": [],
-        "lp_per_minute": 240.0,
-        "name": "Equip a magic shortbow.",
         "points": 80,
         "recommendation_grade": "B",
         "region": "Global",
@@ -2500,22 +2413,6 @@
         "cluster": null,
         "confidence": 0.72,
         "estimated_seconds": 60,
-        "id": 19,
-        "items_to_prepare": [],
-        "lp_per_minute": 80.0,
-        "name": "Make a waka canoe near Edgeville.",
-        "points": 80,
-        "recommendation_grade": "B",
-        "region": "Misthalin",
-        "status": "inferred_candidate",
-        "tier": "hard",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
         "id": 349,
         "items_to_prepare": [],
         "lp_per_minute": 200.0,
@@ -2526,206 +2423,12 @@
         "status": "inferred_candidate",
         "tier": "elite",
         "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 355,
-        "items_to_prepare": [],
-        "lp_per_minute": 200.0,
-        "name": "Craft a Zaros godsword, Seren godbow or staff of Sliske.",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Desert",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 636,
-        "items_to_prepare": [],
-        "lp_per_minute": 80.0,
-        "name": "Craft a bolas.",
-        "points": 80,
-        "recommendation_grade": "B",
-        "region": "Karamja",
-        "status": "inferred_candidate",
-        "tier": "hard",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 809,
-        "items_to_prepare": [],
-        "lp_per_minute": 80.0,
-        "name": "Make 1,000 potions of any kind.",
-        "points": 80,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "hard",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 909,
-        "items_to_prepare": [],
-        "lp_per_minute": 80.0,
-        "name": "Craft 10,000 runes.",
-        "points": 80,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "hard",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 960,
-        "items_to_prepare": [],
-        "lp_per_minute": 80.0,
-        "name": "Fletch some broad arrows or bolts.",
-        "points": 80,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "hard",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 963,
-        "items_to_prepare": [],
-        "lp_per_minute": 80.0,
-        "name": "Fletch a rune crossbow.",
-        "points": 80,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "hard",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 1027,
-        "items_to_prepare": [],
-        "lp_per_minute": 200.0,
-        "name": "Fletch 20 elder shortbows (unstrung).",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 1031,
-        "items_to_prepare": [],
-        "lp_per_minute": 200.0,
-        "name": "Fletch an eternal magic wood box.",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 1033,
-        "items_to_prepare": [],
-        "lp_per_minute": 200.0,
-        "name": "Smith a primal ore box.",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 1034,
-        "items_to_prepare": [],
-        "lp_per_minute": 200.0,
-        "name": "Smith 10,000 armour spikes.",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 60,
-        "id": 1035,
-        "items_to_prepare": [],
-        "lp_per_minute": 200.0,
-        "name": "Smith 10,000 primal armour spikes.",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
       }
     ],
-    "tasks_needed": 88,
-    "verified_count": 6
+    "tasks_needed": 73,
+    "verified_count": 5
   },
   "highest_lp_per_minute": [
-    {
-      "blockers": [],
-      "cluster": "lumbridge",
-      "confidence": 1.0,
-      "estimated_seconds": 45,
-      "id": 51,
-      "items_to_prepare": [
-        "milk"
-      ],
-      "lp_per_minute": 40.0,
-      "name": "Churn some butter.",
-      "points": 30,
-      "recommendation_grade": "A",
-      "region": "Misthalin",
-      "status": "verified_ready",
-      "tier": "medium",
-      "unknown_checks": []
-    },
     {
       "blockers": [],
       "cluster": "lumbridge",
@@ -3283,38 +2986,6 @@
       "cluster": null,
       "confidence": 0.72,
       "estimated_seconds": 20,
-      "id": 958,
-      "items_to_prepare": [],
-      "lp_per_minute": 240.0,
-      "name": "Equip a yew shortbow.",
-      "points": 80,
-      "recommendation_grade": "B",
-      "region": "Global",
-      "status": "inferred_candidate",
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
-      "id": 959,
-      "items_to_prepare": [],
-      "lp_per_minute": 240.0,
-      "name": "Equip a magic shortbow.",
-      "points": 80,
-      "recommendation_grade": "B",
-      "region": "Global",
-      "status": "inferred_candidate",
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
       "id": 968,
       "items_to_prepare": [],
       "lp_per_minute": 240.0,
@@ -3517,6 +3188,54 @@
       "status": "inferred_candidate",
       "tier": "elite",
       "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 60,
+      "id": 1035,
+      "items_to_prepare": [],
+      "lp_per_minute": 200.0,
+      "name": "Smith 10,000 primal armour spikes.",
+      "points": 200,
+      "recommendation_grade": "B",
+      "region": "Global",
+      "status": "inferred_candidate",
+      "tier": "elite",
+      "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 45,
+      "id": 635,
+      "items_to_prepare": [],
+      "lp_per_minute": 106.67,
+      "name": "Catch a draconic jadinko at Herblore Habitat.",
+      "points": 80,
+      "recommendation_grade": "B",
+      "region": "Karamja",
+      "status": "inferred_candidate",
+      "tier": "hard",
+      "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 45,
+      "id": 978,
+      "items_to_prepare": [],
+      "lp_per_minute": 106.67,
+      "name": "Catch a spirit impling.",
+      "points": 80,
+      "recommendation_grade": "B",
+      "region": "Global",
+      "status": "inferred_candidate",
+      "tier": "hard",
+      "unknown_checks": []
     }
   ],
   "manual_checks": [
@@ -3595,8 +3314,8 @@
     {
       "blockers": [
         {
-          "current": 97,
-          "gap": 2,
+          "current": 98,
+          "gap": 1,
           "required": 99,
           "skill": "Crafting",
           "type": "skill"
@@ -3616,8 +3335,8 @@
       "tier": "elite",
       "unknown_checks": [],
       "unlock": {
-        "current": 97,
-        "gap": 2,
+        "current": 98,
+        "gap": 1,
         "required": 99,
         "skill": "Crafting",
         "type": "skill"
@@ -3627,7 +3346,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 88,
+    "remaining_tasks": 73,
     "tasks": 400
   },
   "schema_version": 1
