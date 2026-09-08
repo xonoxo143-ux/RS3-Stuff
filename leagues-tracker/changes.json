@@ -1,63 +1,13 @@
 {
-  "league_points_delta": 480,
+  "league_points_delta": 0,
   "level_ups": [
     {
-      "from": 111,
-      "skill": "Ranged",
-      "to": 113
-    },
-    {
-      "from": 87,
-      "skill": "Magic",
-      "to": 88
-    },
-    {
-      "from": 82,
-      "skill": "Smithing",
-      "to": 84
-    },
-    {
-      "from": 71,
-      "skill": "Summoning",
-      "to": 72
+      "from": 88,
+      "skill": "Cooking",
+      "to": 91
     }
   ],
-  "new_task_ids": [
-    264,
-    330,
-    1128
-  ],
-  "new_tasks": [
-    {
-      "blessing_task": false,
-      "description": "Equip a full set of Bandos armour.",
-      "id": 264,
-      "issue": null,
-      "name": "Equip a full set of Bandos armour.",
-      "points": 200,
-      "region": "Asgarnia",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat Helwyr 50 times.",
-      "id": 330,
-      "issue": null,
-      "name": "Defeat Helwyr.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Obtain 50 million Ranged XP.",
-      "id": 1128,
-      "issue": null,
-      "name": "Obtain 50 million Ranged XP.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    }
-  ],
-  "task_delta": 3
+  "new_task_ids": [],
+  "new_tasks": [],
+  "task_delta": 0
 }

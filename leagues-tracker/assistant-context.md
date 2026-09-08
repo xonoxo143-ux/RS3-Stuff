@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-08T16:14:16.628Z**
+Updated: **2026-09-08T16:25:31.066Z**
 
 ## Tracker discipline
 
@@ -15,7 +15,7 @@ Updated: **2026-09-08T16:14:16.628Z**
 
 ## Current snapshot
 
-- **15,990 LP** · **333 tasks** · total level **2,364**
+- **15,990 LP** · **333 tasks** · total level **2,367**
 - **16 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
 - Next region: **67 tasks** to 400
@@ -126,14 +126,17 @@ Passive tier effects:
 
 Path encoding: `1=Order, 2=Balance, 3=Chaos`
 
-### t1 — choice not recorded
+### t1 — Teragard's Aegis
+- Base ability damage and natural health regeneration scale upward with armour value, with larger bonuses while using a defender or shield.
 Passive step effects:
 - 50% chance to save combat runes, rolled separately per rune type.
 - 50% chance to save ammunition in combat.
 - 50% chance to save ectoplasm and necrotic runes used by abilities/incantations.
 - Activating a tier-1 blessing grants one blessing reset.
 
-### t2 — choice not recorded
+### t2 — Striking Light
+- Basic-attack damage is increased by 40%.
+- Basic attacks periodically trigger Light of Saradomin for additional damage.
 Passive step effects:
 - Dive is automatically unlocked.
 - Attack range is increased by one game square, capped at 10 squares.
@@ -146,7 +149,8 @@ Passive step effects:
 - Movement-ability cooldowns are reduced to 4.2 seconds except Barge and Greater Barge.
 - Nature's rune pouch is granted and can hold four rune types.
 
-### god1 — choice not recorded (derived)
+### god1 — Sacred Fervor (derived)
+- Melee, Magic, Ranged, and Necromancy ability/special-attack cooldowns are reduced by 30%.
 Passive step effects:
 - Activating the first God-tier blessing grants one blessing reset.
 - Araxxi, Rise of the Six, and Vorago rotations can be chosen.
@@ -158,18 +162,16 @@ Passive step effects:
 - All War's Wares rewards are unlocked.
 - Maximum adrenaline is increased by 25%.
 
-### t5 — choice not recorded
+### t5 — Lord of Light
+- Basic attacks periodically trigger multiple Light of Saradomin strikes near the target; Prayer bonus increases their damage and they heal you for part of damage dealt.
 Passive step effects:
 - God books/scriptures/grimoires and scrimshaws do not consume charge.
 - Equipment does not degrade.
 
 ## Changes
 
-- Tasks: **+3** · LP: **+480**
-- [264] Equip a full set of Bandos armour. — elite, Asgarnia, 200 LP
-- [330] Defeat Helwyr. — hard, Desert, 80 LP
-- [1128] Obtain 50 million Ranged XP. — elite, Global, 200 LP
-- Level-ups: Ranged 111→113; Magic 87→88; Smithing 82→84; Summoning 71→72
+- Tasks: **+0** · LP: **+0**
+- Level-ups: Cooking 88→91
 
 ## Current task sprint
 
@@ -216,13 +218,10 @@ Passive step effects:
 
 ## Data health
 
-- Overall: **warning**
-- WikiSync: **fresh** · 2026-09-08T16:14:16.628Z
+- Overall: **healthy**
+- WikiSync: **fresh** · 2026-09-08T16:25:31.066Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
-- WARNING `unrecorded_blessing_choice`: Blessing t1 is unlocked but no path choice is recorded.
-- WARNING `unrecorded_blessing_choice`: Blessing t2 is unlocked but no path choice is recorded.
-- WARNING `unrecorded_blessing_choice`: Blessing t5 is unlocked but no path choice is recorded.
 
 > Always apply the active League effects above before normal RS3 mechanics.
 

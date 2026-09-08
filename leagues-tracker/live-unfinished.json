@@ -13,7 +13,7 @@
     "manual_check": 3,
     "verified_ready": 5
   },
-  "timestamp_utc": "2026-09-08T16:14:16.628Z",
+  "timestamp_utc": "2026-09-08T16:25:31.066Z",
   "unfinished_task_count": 819,
   "unfinished_tasks": [
     {
@@ -16632,8 +16632,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 88,
-          "gap": 11,
+          "current": 91,
+          "gap": 8,
           "required": 99,
           "skill": "Cooking",
           "type": "skill"

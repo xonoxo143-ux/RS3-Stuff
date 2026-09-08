@@ -1,12 +1,12 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-08T16:14:16.628Z**
+Updated: **2026-09-08T16:25:31.066Z**
 
 ## Current
 
 - **333 tasks**
 - **15,990 LP**
-- **Total level 2,364**
+- **Total level 2,367**
 - **Relic T6**
 - **16 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
@@ -105,10 +105,7 @@ Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 
 ## Health
 
-- **warning**
-- Warning: Blessing t1 is unlocked but no path choice is recorded.
-- Warning: Blessing t2 is unlocked but no path choice is recorded.
-- Warning: Blessing t5 is unlocked but no path choice is recorded.
+- **healthy**
 
 Grade A = explicit task metadata. Grade B = conservative automatic inference; verify before relying on it.
 

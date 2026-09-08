@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-08T16:14:16.628Z",
+  "generated_at_utc": "2026-09-08T16:25:31.066Z",
   "hiscores": {
     "note": "HiScores parsing is not a dependency.",
     "required": false,
@@ -9,21 +9,8 @@
     "errors": [],
     "expected_elective_slots": 2,
     "recorded_elective_regions": 2,
-    "status": "warning",
-    "warnings": [
-      {
-        "code": "unrecorded_blessing_choice",
-        "detail": "Blessing t1 is unlocked but no path choice is recorded."
-      },
-      {
-        "code": "unrecorded_blessing_choice",
-        "detail": "Blessing t2 is unlocked but no path choice is recorded."
-      },
-      {
-        "code": "unrecorded_blessing_choice",
-        "detail": "Blessing t5 is unlocked but no path choice is recorded."
-      }
-    ]
+    "status": "healthy",
+    "warnings": []
   },
   "recommendation_coverage": {
     "metadata_source_counts": {
@@ -45,7 +32,7 @@
     "timed_verified_tasks": 5
   },
   "task_catalog": {
-    "age_seconds_at_generation": 53971,
+    "age_seconds_at_generation": 54646,
     "fetched_at_utc": "2026-09-08T01:14:46+00:00",
     "latest_change_check": {
       "added_task_ids": [],
@@ -67,6 +54,6 @@
       "skill_levels"
     ],
     "status": "fresh",
-    "timestamp": "2026-09-08T16:14:16.628Z"
+    "timestamp": "2026-09-08T16:25:31.066Z"
   }
 }

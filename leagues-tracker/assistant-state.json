@@ -346,7 +346,7 @@
       "Attack": 80,
       "Constitution": 99,
       "Construction": 60,
-      "Cooking": 88,
+      "Cooking": 91,
       "Crafting": 99,
       "Defence": 99,
       "Divination": 84,
@@ -372,12 +372,12 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T16:14:16.628Z",
-    "total_level": 2364
+    "timestamp_utc": "2026-09-08T16:25:31.066Z",
+    "total_level": 2367
   },
   "blessings": {
     "derived_god_choices": {
-      "god1": null,
+      "god1": 1,
       "god2": null
     },
     "dynamic_effects": [],
@@ -434,31 +434,36 @@
       "3": "Chaos"
     },
     "path_vector": {
-      "t1": null,
-      "t2": null,
+      "t1": 1,
+      "t2": 1,
       "t3": 2,
       "t4": 1,
-      "t5": null,
+      "t5": 1,
       "t6": null
     },
     "resets_remaining": 0,
     "resolved": [
       {
-        "choice_number": null,
+        "choice_number": 1,
         "derived": false,
-        "effects": [],
-        "name": null,
-        "path": null,
+        "effects": [
+          "Base ability damage and natural health regeneration scale upward with armour value, with larger bonuses while using a defender or shield."
+        ],
+        "name": "Teragard's Aegis",
+        "path": "Order",
         "step": "t1",
         "threshold_tasks": 1,
         "unlocked": true
       },
       {
-        "choice_number": null,
+        "choice_number": 1,
         "derived": false,
-        "effects": [],
-        "name": null,
-        "path": null,
+        "effects": [
+          "Basic-attack damage is increased by 40%.",
+          "Basic attacks periodically trigger Light of Saradomin for additional damage."
+        ],
+        "name": "Striking Light",
+        "path": "Order",
         "step": "t2",
         "threshold_tasks": 3,
         "unlocked": true
@@ -477,11 +482,13 @@
         "unlocked": true
       },
       {
-        "choice_number": null,
+        "choice_number": 1,
         "derived": true,
-        "effects": [],
-        "name": null,
-        "path": null,
+        "effects": [
+          "Melee, Magic, Ranged, and Necromancy ability/special-attack cooldowns are reduced by 30%."
+        ],
+        "name": "Sacred Fervor",
+        "path": "Order",
         "step": "god1",
         "threshold_tasks": 9,
         "unlocked": true
@@ -500,11 +507,13 @@
         "unlocked": true
       },
       {
-        "choice_number": null,
+        "choice_number": 1,
         "derived": false,
-        "effects": [],
-        "name": null,
-        "path": null,
+        "effects": [
+          "Basic attacks periodically trigger multiple Light of Saradomin strikes near the target; Prayer bonus increases their damage and they heal you for part of damage dealt."
+        ],
+        "name": "Lord of Light",
+        "path": "Order",
         "step": "t5",
         "threshold_tasks": 16,
         "unlocked": true
@@ -532,67 +541,17 @@
     ]
   },
   "changes": {
-    "league_points_delta": 480,
+    "league_points_delta": 0,
     "level_ups": [
       {
-        "from": 111,
-        "skill": "Ranged",
-        "to": 113
-      },
-      {
-        "from": 87,
-        "skill": "Magic",
-        "to": 88
-      },
-      {
-        "from": 82,
-        "skill": "Smithing",
-        "to": 84
-      },
-      {
-        "from": 71,
-        "skill": "Summoning",
-        "to": 72
+        "from": 88,
+        "skill": "Cooking",
+        "to": 91
       }
     ],
-    "new_task_ids": [
-      264,
-      330,
-      1128
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Equip a full set of Bandos armour.",
-        "id": 264,
-        "issue": null,
-        "name": "Equip a full set of Bandos armour.",
-        "points": 200,
-        "region": "Asgarnia",
-        "tier": "elite"
-      },
-      {
-        "blessing_task": false,
-        "description": "Defeat Helwyr 50 times.",
-        "id": 330,
-        "issue": null,
-        "name": "Defeat Helwyr.",
-        "points": 80,
-        "region": "Desert",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Obtain 50 million Ranged XP.",
-        "id": 1128,
-        "issue": null,
-        "name": "Obtain 50 million Ranged XP.",
-        "points": 200,
-        "region": "Global",
-        "tier": "elite"
-      }
-    ],
-    "task_delta": 3
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "forgotten_finish_opportunities": {
     "count": 4,
@@ -700,7 +659,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T16:14:16.628Z",
+    "generated_at_utc": "2026-09-08T16:25:31.066Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -710,21 +669,8 @@
       "errors": [],
       "expected_elective_slots": 2,
       "recorded_elective_regions": 2,
-      "status": "warning",
-      "warnings": [
-        {
-          "code": "unrecorded_blessing_choice",
-          "detail": "Blessing t1 is unlocked but no path choice is recorded."
-        },
-        {
-          "code": "unrecorded_blessing_choice",
-          "detail": "Blessing t2 is unlocked but no path choice is recorded."
-        },
-        {
-          "code": "unrecorded_blessing_choice",
-          "detail": "Blessing t5 is unlocked but no path choice is recorded."
-        }
-      ]
+      "status": "healthy",
+      "warnings": []
     },
     "recommendation_coverage": {
       "metadata_source_counts": {
@@ -746,7 +692,7 @@
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 53971,
+      "age_seconds_at_generation": 54646,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -768,7 +714,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T16:14:16.628Z"
+      "timestamp": "2026-09-08T16:25:31.066Z"
     }
   },
   "manual": {

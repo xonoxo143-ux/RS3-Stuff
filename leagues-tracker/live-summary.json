@@ -1,10 +1,10 @@
 {
   "blessing_path_vector": {
-    "t1": null,
-    "t2": null,
+    "t1": 1,
+    "t2": 1,
     "t3": 2,
     "t4": 1,
-    "t5": null,
+    "t5": 1,
     "t6": null
   },
   "blessing_tasks_completed": 16,
@@ -367,24 +367,9 @@
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 111,
-      "skill": "Ranged",
-      "to": 113
-    },
-    {
-      "from": 87,
-      "skill": "Magic",
-      "to": 88
-    },
-    {
-      "from": 82,
-      "skill": "Smithing",
-      "to": 84
-    },
-    {
-      "from": 71,
-      "skill": "Summoning",
-      "to": 72
+      "from": 88,
+      "skill": "Cooking",
+      "to": 91
     }
   ],
   "levels": {
@@ -393,7 +378,7 @@
     "Attack": 80,
     "Constitution": 99,
     "Construction": 60,
-    "Cooking": 88,
+    "Cooking": 91,
     "Crafting": 99,
     "Defence": 99,
     "Divination": 84,
@@ -419,43 +404,8 @@
     "Woodcutting": 72
   },
   "mapped_completed_tasks": 333,
-  "new_task_ids_since_previous_live_sync": [
-    264,
-    330,
-    1128
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Equip a full set of Bandos armour.",
-      "id": 264,
-      "issue": null,
-      "name": "Equip a full set of Bandos armour.",
-      "points": 200,
-      "region": "Asgarnia",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat Helwyr 50 times.",
-      "id": 330,
-      "issue": null,
-      "name": "Defeat Helwyr.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Obtain 50 million Ranged XP.",
-      "id": 1128,
-      "issue": null,
-      "name": "Obtain 50 million Ranged XP.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "next_blessing": {
     "remaining_tasks": 4,
     "step": "t6",
@@ -484,9 +434,9 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 3,
-  "timestamp_utc": "2026-09-08T16:14:16.628Z",
-  "total_level": 2364,
-  "tracker_health": "warning",
+  "task_delta_since_previous_live_sync": 0,
+  "timestamp_utc": "2026-09-08T16:25:31.066Z",
+  "total_level": 2367,
+  "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }
