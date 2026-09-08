@@ -344,7 +344,7 @@
     "levels": {
       "Agility": 99,
       "Archaeology": 60,
-      "Attack": 90,
+      "Attack": 91,
       "Constitution": 99,
       "Construction": 60,
       "Cooking": 91,
@@ -359,7 +359,7 @@
       "Herblore": 82,
       "Hunter": 50,
       "Invention": 120,
-      "Magic": 88,
+      "Magic": 89,
       "Mining": 86,
       "Necromancy": 107,
       "Prayer": 99,
@@ -367,14 +367,14 @@
       "Runecrafting": 73,
       "Slayer": 79,
       "Smithing": 84,
-      "Strength": 90,
+      "Strength": 91,
       "Summoning": 72,
       "Thieving": 120,
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T17:44:51.803Z",
-    "total_level": 2387
+    "timestamp_utc": "2026-09-08T18:44:45.933Z",
+    "total_level": 2390
   },
   "blessings": {
     "derived_god_choices": {
@@ -545,14 +545,19 @@
     "league_points_delta": 0,
     "level_ups": [
       {
-        "from": 85,
+        "from": 90,
         "skill": "Attack",
-        "to": 90
+        "to": 91
       },
       {
-        "from": 85,
+        "from": 90,
         "skill": "Strength",
-        "to": 90
+        "to": 91
+      },
+      {
+        "from": 88,
+        "skill": "Magic",
+        "to": 89
       }
     ],
     "new_task_ids": [],
@@ -665,7 +670,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T17:44:51.803Z",
+    "generated_at_utc": "2026-09-08T18:44:45.933Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -698,7 +703,7 @@
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 59407,
+      "age_seconds_at_generation": 63001,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -720,7 +725,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T17:44:51.803Z"
+      "timestamp": "2026-09-08T18:44:45.933Z"
     }
   },
   "manual": {

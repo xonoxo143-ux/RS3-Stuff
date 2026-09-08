@@ -368,20 +368,25 @@
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 85,
+      "from": 90,
       "skill": "Attack",
-      "to": 90
+      "to": 91
     },
     {
-      "from": 85,
+      "from": 90,
       "skill": "Strength",
-      "to": 90
+      "to": 91
+    },
+    {
+      "from": 88,
+      "skill": "Magic",
+      "to": 89
     }
   ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
-    "Attack": 90,
+    "Attack": 91,
     "Constitution": 99,
     "Construction": 60,
     "Cooking": 91,
@@ -396,7 +401,7 @@
     "Herblore": 82,
     "Hunter": 50,
     "Invention": 120,
-    "Magic": 88,
+    "Magic": 89,
     "Mining": 86,
     "Necromancy": 107,
     "Prayer": 99,
@@ -404,7 +409,7 @@
     "Runecrafting": 73,
     "Slayer": 79,
     "Smithing": 84,
-    "Strength": 90,
+    "Strength": 91,
     "Summoning": 72,
     "Thieving": 120,
     "Woodcutting": 72
@@ -441,8 +446,8 @@
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
   "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-08T17:44:51.803Z",
-  "total_level": 2387,
+  "timestamp_utc": "2026-09-08T18:44:45.933Z",
+  "total_level": 2390,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }
