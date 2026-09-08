@@ -149,9 +149,9 @@
       "note": "Queen Black Dragon defeated on 2026-09-07; this was part of the push that unlocked T5 blessing."
     },
     "gate_of_elidinis_progress": {
-      "status": "first_kill_complete",
+      "status": "first_kill_complete_not_recommended_to_farm",
       "kills_confirmed": 1,
-      "note": "User confirmed first Gate of Elidinis cleanse on 2026-09-07, completing task 800 for 80 LP. The 10-kill task 801 remains 9 kills away unless WikiSync later shows more."
+      "note": "User confirmed first Gate of Elidinis cleanse on 2026-09-07, completing task 800 for 80 LP. First clear took longer than 5 minutes and felt unpleasant; do not recommend grinding the 10-kill task unless the user reopens it."
     }
   },
   "goal": {
@@ -178,6 +178,7 @@
     "2026-09-07 blessing reset update: remaining reset was used; Eternal Sustenance retained at T3 and Higher Power chosen at T4. T1/T2 post-reset choices are intentionally left unrecorded until explicitly confirmed.",
     "2026-09-07 blessing progress: T5 blessing threshold reached (16 blessing tasks). Exact T5 choice not yet explicitly confirmed.",
     "2026-09-07 QBD update: Queen Black Dragon defeated and Royal sight obtained.",
-    "2026-09-07 Gate of Elidinis update: first cleanse completed; task 800 (80 LP) confirmed. 10-cleans task 801 is now at least 1/10."
+    "2026-09-07 Gate of Elidinis update: first cleanse completed; task 800 (80 LP) confirmed. 10-cleans task 801 is now at least 1/10.",
+    "2026-09-07 Gate follow-up: first clear took >5 minutes and was unpleasant; deprioritize the 10-cleans/200-LP grind."
   ]
 }
