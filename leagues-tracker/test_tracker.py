@@ -158,15 +158,26 @@ excluded = tracker.evaluate(
 )
 assert excluded["status"] == "excluded"
 
-# State-validator fixtures must not depend on the user's current live region choices.
-one_slot_state = json.loads(json.dumps(state))
+# State-validator fixtures must not depend on the user's current live
+# region or blessing choices.
+validator_state = json.loads(json.dumps(state))
+validator_state["blessing_path_vector"] = {
+    "t1": 3,
+    "t2": 3,
+    "t3": 2,
+    "t4": 2,
+    "t5": None,
+    "t6": None,
+}
+
+one_slot_state = json.loads(json.dumps(validator_state))
 one_slot_state["regions"]["elective"] = ["Desert"]
 health = tracker.validate_state(rules, one_slot_state, 260, 5, 12, [])
 assert health["status"] == "healthy"
 assert health["expected_elective_slots"] == 1
 assert health["recorded_elective_regions"] == 1
 
-two_slot_state = json.loads(json.dumps(state))
+two_slot_state = json.loads(json.dumps(validator_state))
 two_slot_state["regions"]["elective"] = ["Desert", "Asgarnia"]
 health = tracker.validate_state(rules, two_slot_state, 275, 5, 12, [])
 assert health["status"] == "healthy"
