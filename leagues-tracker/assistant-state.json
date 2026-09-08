@@ -351,7 +351,7 @@
       "Crafting": 99,
       "Defence": 99,
       "Divination": 84,
-      "Dungeoneering": 39,
+      "Dungeoneering": 68,
       "Farming": 32,
       "Firemaking": 78,
       "Fishing": 40,
@@ -368,13 +368,13 @@
       "Slayer": 79,
       "Smithing": 84,
       "Strength": 91,
-      "Summoning": 72,
+      "Summoning": 73,
       "Thieving": 120,
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T19:04:24.286Z",
-    "total_level": 2391
+    "timestamp_utc": "2026-09-08T21:54:05.006Z",
+    "total_level": 2421
   },
   "blessings": {
     "derived_god_choices": {
@@ -543,7 +543,18 @@
   },
   "changes": {
     "league_points_delta": 0,
-    "level_ups": [],
+    "level_ups": [
+      {
+        "from": 72,
+        "skill": "Summoning",
+        "to": 73
+      },
+      {
+        "from": 39,
+        "skill": "Dungeoneering",
+        "to": 68
+      }
+    ],
     "new_task_ids": [],
     "new_tasks": [],
     "task_delta": 0
@@ -654,7 +665,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T19:04:24.286Z",
+    "generated_at_utc": "2026-09-08T21:54:05.006Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -687,7 +698,7 @@
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 64179,
+      "age_seconds_at_generation": 74360,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -709,7 +720,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T19:04:24.286Z"
+      "timestamp": "2026-09-08T21:54:05.006Z"
     }
   },
   "manual": {

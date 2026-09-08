@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-08T19:04:24.286Z**
+Updated: **2026-09-08T21:54:05.006Z**
 
 ## Tracker discipline
 
@@ -15,7 +15,7 @@ Updated: **2026-09-08T19:04:24.286Z**
 
 ## Current snapshot
 
-- **16,020 LP** · **334 tasks** · total level **2,391**
+- **16,020 LP** · **334 tasks** · total level **2,421**
 - **16 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
 - Next region: **66 tasks** to 400
@@ -171,6 +171,7 @@ Passive step effects:
 ## Changes
 
 - Tasks: **+0** · LP: **+0**
+- Level-ups: Summoning 72→73; Dungeoneering 39→68
 
 ## Current task sprint
 
@@ -218,7 +219,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-08T19:04:24.286Z
+- WikiSync: **fresh** · 2026-09-08T21:54:05.006Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 

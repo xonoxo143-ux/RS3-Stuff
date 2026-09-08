@@ -13,7 +13,7 @@
     "manual_check": 3,
     "verified_ready": 5
   },
-  "timestamp_utc": "2026-09-08T19:04:24.286Z",
+  "timestamp_utc": "2026-09-08T21:54:05.006Z",
   "unfinished_task_count": 818,
   "unfinished_tasks": [
     {
@@ -16674,8 +16674,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 39,
-          "gap": 60,
+          "current": 68,
+          "gap": 31,
           "required": 99,
           "skill": "Dungeoneering",
           "type": "skill"
@@ -17092,8 +17092,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 72,
-          "gap": 27,
+          "current": 73,
+          "gap": 26,
           "required": 99,
           "skill": "Summoning",
           "type": "skill"
@@ -17390,8 +17390,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 39,
-          "gap": 81,
+          "current": 68,
+          "gap": 52,
           "required": 120,
           "skill": "Dungeoneering",
           "type": "skill"
