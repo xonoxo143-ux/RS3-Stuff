@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-08T14:03:47.914Z**
+Updated: **2026-09-08T14:36:30.243Z**
 
 ## Tracker discipline
 
@@ -213,7 +213,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **warning**
-- WikiSync: **fresh** · 2026-09-08T14:03:47.914Z
+- WikiSync: **fresh** · 2026-09-08T14:36:30.243Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 - WARNING `unrecorded_blessing_choice`: Blessing t1 is unlocked but no path choice is recorded.
