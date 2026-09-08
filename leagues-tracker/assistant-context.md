@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-08T17:14:16.269Z**
+Updated: **2026-09-08T17:44:51.803Z**
 
 ## Tracker discipline
 
@@ -15,7 +15,7 @@ Updated: **2026-09-08T17:14:16.269Z**
 
 ## Current snapshot
 
-- **16,020 LP** · **334 tasks** · total level **2,377**
+- **16,020 LP** · **334 tasks** · total level **2,387**
 - **16 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
 - Next region: **66 tasks** to 400
@@ -170,9 +170,8 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+1** · LP: **+30**
-- [616] Kill a metal dragon in Brimhaven Dungeon. — medium, Karamja, 30 LP
-- Level-ups: Attack 80→85; Strength 80→85
+- Tasks: **+0** · LP: **+0**
+- Level-ups: Attack 85→90; Strength 85→90
 
 ## Current task sprint
 
@@ -220,7 +219,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-08T17:14:16.269Z
+- WikiSync: **fresh** · 2026-09-08T17:44:51.803Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 

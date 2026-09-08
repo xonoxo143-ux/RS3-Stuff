@@ -1,31 +1,18 @@
 {
-  "league_points_delta": 30,
+  "league_points_delta": 0,
   "level_ups": [
     {
-      "from": 80,
+      "from": 85,
       "skill": "Attack",
-      "to": 85
+      "to": 90
     },
     {
-      "from": 80,
+      "from": 85,
       "skill": "Strength",
-      "to": 85
+      "to": 90
     }
   ],
-  "new_task_ids": [
-    616
-  ],
-  "new_tasks": [
-    {
-      "blessing_task": false,
-      "description": "Kill a metal dragon in Brimhaven Dungeon.",
-      "id": 616,
-      "issue": null,
-      "name": "Kill a metal dragon in Brimhaven Dungeon.",
-      "points": 30,
-      "region": "Karamja",
-      "tier": "medium"
-    }
-  ],
-  "task_delta": 1
+  "new_task_ids": [],
+  "new_tasks": [],
+  "task_delta": 0
 }

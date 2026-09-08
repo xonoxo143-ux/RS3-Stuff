@@ -13,7 +13,7 @@
     "manual_check": 3,
     "verified_ready": 5
   },
-  "timestamp_utc": "2026-09-08T17:14:16.269Z",
+  "timestamp_utc": "2026-09-08T17:44:51.803Z",
   "unfinished_task_count": 818,
   "unfinished_tasks": [
     {
@@ -16542,8 +16542,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 85,
-          "gap": 14,
+          "current": 90,
+          "gap": 9,
           "required": 99,
           "skill": "Attack",
           "type": "skill"
@@ -17059,8 +17059,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 85,
-          "gap": 14,
+          "current": 90,
+          "gap": 9,
           "required": 99,
           "skill": "Strength",
           "type": "skill"

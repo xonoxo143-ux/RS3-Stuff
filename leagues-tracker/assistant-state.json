@@ -344,7 +344,7 @@
     "levels": {
       "Agility": 99,
       "Archaeology": 60,
-      "Attack": 85,
+      "Attack": 90,
       "Constitution": 99,
       "Construction": 60,
       "Cooking": 91,
@@ -367,14 +367,14 @@
       "Runecrafting": 73,
       "Slayer": 79,
       "Smithing": 84,
-      "Strength": 85,
+      "Strength": 90,
       "Summoning": 72,
       "Thieving": 120,
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T17:14:16.269Z",
-    "total_level": 2377
+    "timestamp_utc": "2026-09-08T17:44:51.803Z",
+    "total_level": 2387
   },
   "blessings": {
     "derived_god_choices": {
@@ -542,35 +542,22 @@
     ]
   },
   "changes": {
-    "league_points_delta": 30,
+    "league_points_delta": 0,
     "level_ups": [
       {
-        "from": 80,
+        "from": 85,
         "skill": "Attack",
-        "to": 85
+        "to": 90
       },
       {
-        "from": 80,
+        "from": 85,
         "skill": "Strength",
-        "to": 85
+        "to": 90
       }
     ],
-    "new_task_ids": [
-      616
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Kill a metal dragon in Brimhaven Dungeon.",
-        "id": 616,
-        "issue": null,
-        "name": "Kill a metal dragon in Brimhaven Dungeon.",
-        "points": 30,
-        "region": "Karamja",
-        "tier": "medium"
-      }
-    ],
-    "task_delta": 1
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "forgotten_finish_opportunities": {
     "count": 4,
@@ -678,7 +665,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T17:14:16.269Z",
+    "generated_at_utc": "2026-09-08T17:44:51.803Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -711,7 +698,7 @@
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 57571,
+      "age_seconds_at_generation": 59407,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -727,13 +714,13 @@
       "unmapped_completed_task_ids": []
     },
     "wikisync": {
-      "age_seconds_at_generation": 0,
+      "age_seconds_at_generation": 1,
       "authoritative_for": [
         "completed_task_ids",
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T17:14:16.269Z"
+      "timestamp": "2026-09-08T17:44:51.803Z"
     }
   },
   "manual": {
