@@ -364,19 +364,9 @@
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 81,
-      "skill": "Fletching",
-      "to": 82
-    },
-    {
-      "from": 98,
-      "skill": "Crafting",
-      "to": 99
-    },
-    {
-      "from": 79,
-      "skill": "Herblore",
-      "to": 82
+      "from": 110,
+      "skill": "Ranged",
+      "to": 111
     }
   ],
   "levels": {
@@ -401,7 +391,7 @@
     "Mining": 86,
     "Necromancy": 107,
     "Prayer": 99,
-    "Ranged": 110,
+    "Ranged": 111,
     "Runecrafting": 73,
     "Slayer": 79,
     "Smithing": 82,
@@ -411,43 +401,8 @@
     "Woodcutting": 72
   },
   "mapped_completed_tasks": 330,
-  "new_task_ids_since_previous_live_sync": [
-    809,
-    1065,
-    1143
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Make 1,000 potions of any kind.",
-      "id": 809,
-      "issue": null,
-      "name": "Make 1,000 potions of any kind.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach level 99 Crafting.",
-      "id": 1065,
-      "issue": null,
-      "name": "Reach level 99 in the Crafting skill.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Obtain 200 Million XP in any single skill.",
-      "id": 1143,
-      "issue": null,
-      "name": "Obtain 200 million XP in any single skill.",
-      "points": 400,
-      "region": "Global",
-      "tier": "master"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "next_blessing": {
     "remaining_tasks": 4,
     "step": "t6",
@@ -476,9 +431,9 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 3,
-  "timestamp_utc": "2026-09-08T04:45:21.713Z",
-  "total_level": 2357,
+  "task_delta_since_previous_live_sync": 0,
+  "timestamp_utc": "2026-09-08T09:46:35.016Z",
+  "total_level": 2358,
   "tracker_health": "warning",
   "unmapped_completed_task_ids": []
 }

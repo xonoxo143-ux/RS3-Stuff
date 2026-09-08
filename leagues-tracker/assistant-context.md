@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-08T04:45:21.713Z**
+Updated: **2026-09-08T09:46:35.016Z**
 
 ## Tracker discipline
 
@@ -15,7 +15,7 @@ Updated: **2026-09-08T04:45:21.713Z**
 
 ## Current snapshot
 
-- **15,510 LP** · **330 tasks** · total level **2,357**
+- **15,510 LP** · **330 tasks** · total level **2,358**
 - **16 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
 - Next region: **70 tasks** to 400
@@ -165,11 +165,8 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+3** · LP: **+680**
-- [809] Make 1,000 potions of any kind. — hard, Global, 80 LP
-- [1065] Reach level 99 in the Crafting skill. — elite, Global, 200 LP
-- [1143] Obtain 200 million XP in any single skill. — master, Global, 400 LP
-- Level-ups: Fletching 81→82; Crafting 98→99; Herblore 79→82
+- Tasks: **+0** · LP: **+0**
+- Level-ups: Ranged 110→111
 
 ## Current task sprint
 
@@ -217,7 +214,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **warning**
-- WikiSync: **fresh** · 2026-09-08T04:45:21.713Z
+- WikiSync: **fresh** · 2026-09-08T09:46:35.016Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 - WARNING `unrecorded_blessing_choice`: Blessing t1 is unlocked but no path choice is recorded.

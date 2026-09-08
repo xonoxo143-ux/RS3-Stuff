@@ -359,7 +359,7 @@
       "Mining": 86,
       "Necromancy": 107,
       "Prayer": 99,
-      "Ranged": 110,
+      "Ranged": 111,
       "Runecrafting": 73,
       "Slayer": 79,
       "Smithing": 82,
@@ -369,8 +369,8 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T04:45:21.713Z",
-    "total_level": 2357
+    "timestamp_utc": "2026-09-08T09:46:35.016Z",
+    "total_level": 2358
   },
   "blessings": {
     "derived_god_choices": {
@@ -529,62 +529,17 @@
     ]
   },
   "changes": {
-    "league_points_delta": 680,
+    "league_points_delta": 0,
     "level_ups": [
       {
-        "from": 81,
-        "skill": "Fletching",
-        "to": 82
-      },
-      {
-        "from": 98,
-        "skill": "Crafting",
-        "to": 99
-      },
-      {
-        "from": 79,
-        "skill": "Herblore",
-        "to": 82
+        "from": 110,
+        "skill": "Ranged",
+        "to": 111
       }
     ],
-    "new_task_ids": [
-      809,
-      1065,
-      1143
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Make 1,000 potions of any kind.",
-        "id": 809,
-        "issue": null,
-        "name": "Make 1,000 potions of any kind.",
-        "points": 80,
-        "region": "Global",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Reach level 99 Crafting.",
-        "id": 1065,
-        "issue": null,
-        "name": "Reach level 99 in the Crafting skill.",
-        "points": 200,
-        "region": "Global",
-        "tier": "elite"
-      },
-      {
-        "blessing_task": false,
-        "description": "Obtain 200 Million XP in any single skill.",
-        "id": 1143,
-        "issue": null,
-        "name": "Obtain 200 million XP in any single skill.",
-        "points": 400,
-        "region": "Global",
-        "tier": "master"
-      }
-    ],
-    "task_delta": 3
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "forgotten_finish_opportunities": {
     "count": 4,
@@ -692,7 +647,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T04:45:21.713Z",
+    "generated_at_utc": "2026-09-08T09:46:35.016Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -738,7 +693,7 @@
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 12636,
+      "age_seconds_at_generation": 30710,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -760,7 +715,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T04:45:21.713Z"
+      "timestamp": "2026-09-08T09:46:35.016Z"
     }
   },
   "manual": {

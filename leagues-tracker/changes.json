@@ -1,58 +1,13 @@
 {
-  "league_points_delta": 680,
+  "league_points_delta": 0,
   "level_ups": [
     {
-      "from": 81,
-      "skill": "Fletching",
-      "to": 82
-    },
-    {
-      "from": 98,
-      "skill": "Crafting",
-      "to": 99
-    },
-    {
-      "from": 79,
-      "skill": "Herblore",
-      "to": 82
+      "from": 110,
+      "skill": "Ranged",
+      "to": 111
     }
   ],
-  "new_task_ids": [
-    809,
-    1065,
-    1143
-  ],
-  "new_tasks": [
-    {
-      "blessing_task": false,
-      "description": "Make 1,000 potions of any kind.",
-      "id": 809,
-      "issue": null,
-      "name": "Make 1,000 potions of any kind.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Reach level 99 Crafting.",
-      "id": 1065,
-      "issue": null,
-      "name": "Reach level 99 in the Crafting skill.",
-      "points": 200,
-      "region": "Global",
-      "tier": "elite"
-    },
-    {
-      "blessing_task": false,
-      "description": "Obtain 200 Million XP in any single skill.",
-      "id": 1143,
-      "issue": null,
-      "name": "Obtain 200 million XP in any single skill.",
-      "points": 400,
-      "region": "Global",
-      "tier": "master"
-    }
-  ],
-  "task_delta": 3
+  "new_task_ids": [],
+  "new_tasks": [],
+  "task_delta": 0
 }
