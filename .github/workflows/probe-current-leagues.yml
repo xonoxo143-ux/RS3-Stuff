@@ -47,9 +47,14 @@ jobs:
           curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
             -o leagues-tracker/live-wikisync.json \
             'https://sync.runescape.wiki/runescape/player/112321/LEAGUE_2'
-          curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
-            -o leagues-tracker-112321-2/live-wikisync.json \
-            'https://sync.runescape.wiki/runescape/player/112321-2/LEAGUE_2'
+          if ! curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
+            -o leagues-tracker-112321-2/live-wikisync.json.tmp \
+            'https://sync.runescape.wiki/runescape/player/112321-2/LEAGUE_2'; then
+            echo 'Warning: WikiSync refresh for 112321-2 failed; keeping cached state.'
+            rm -f leagues-tracker-112321-2/live-wikisync.json.tmp
+          else
+            mv leagues-tracker-112321-2/live-wikisync.json.tmp leagues-tracker-112321-2/live-wikisync.json
+          fi
 
       - name: Fetch optional task catalog refresh
         shell: bash
