@@ -166,7 +166,18 @@
       "Abyssal Conduit"
     ],
     "chain_nearby_tasks": true,
-    "cross_check_maps_when_directions_are_uncertain": true
+    "cross_check_maps_when_directions_are_uncertain": true,
+    "group_content_policy": {
+      "priority": "strongly_deprioritize",
+      "rule": "Treat group-dependent activities as effectively unavailable during the League unless the user explicitly confirms an active group. Prefer soloable alternatives even when the group method is nominally faster or stronger.",
+      "examples": [
+        "Croesus",
+        "Vorago",
+        "Nex: Angel of Death",
+        "Liberation of Mazcab/Raids",
+        "other content whose practical completion depends on finding teammates"
+      ]
+    }
   },
   "notes": [
     "The final elective region choice at 400 tasks remains intentionally unset until explicitly confirmed.",
@@ -179,6 +190,7 @@
     "2026-09-07 blessing progress: T5 blessing threshold reached (16 blessing tasks). Exact T5 choice not yet explicitly confirmed.",
     "2026-09-07 QBD update: Queen Black Dragon defeated and Royal sight obtained.",
     "2026-09-07 Gate of Elidinis update: first cleanse completed; task 800 (80 LP) confirmed. 10-cleans task 801 is now at least 1/10.",
-    "2026-09-07 Gate follow-up: first clear took >5 minutes and was unpleasant; deprioritize the 10-cleans/200-LP grind."
+    "2026-09-07 Gate follow-up: first clear took >5 minutes and was unpleasant; deprioritize the 10-cleans/200-LP grind.",
+    "League routing preference: heavily penalize group-dependent content. Assume no usable group exists unless the user explicitly says one is available; prefer solo routes."
   ]
 }
