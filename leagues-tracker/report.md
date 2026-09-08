@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-08T21:54:05.006Z**
+Updated: **2026-09-08T23:34:58.476Z**
 
 ## Current
 
-- **334 tasks**
-- **16,020 LP**
-- **Total level 2,421**
+- **335 tasks**
+- **16,100 LP**
+- **Total level 2,423**
 - **Relic T6**
 - **16 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **66 tasks** to the next region slot
-- **3,980 LP** to T7
+- **65 tasks** to the next region slot
+- **3,900 LP** to T7
 - **4 blessing tasks** to t6
 
 ## Suggested sprint
 
-Tracker selected **66** of the **66** tasks currently needed.
+Tracker selected **65** of the **65** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
@@ -81,7 +81,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 - [1186] Search a hollow tree within the Highweald forest. — Grade B, ~30s, unclustered, 30 LP
 - [1192] Use a clockwork box trap to catch a grenwall in a kebbit encounter. — Grade B, ~30s, unclustered, 30 LP
 - [1212] Speak to Inanna with the Anzagar pet present. — Grade B, ~30s, unclustered, 200 LP
-- [635] Catch a draconic jadinko at Herblore Habitat. — Grade B, ~45s, unclustered, 80 LP
 - [1049] Catch a cavefish. — Grade B, ~45s, unclustered, 200 LP
 - [1053] Catch a dragon impling. — Grade B, ~45s, unclustered, 200 LP
 - [1054] Catch a kingly impling. — Grade B, ~45s, unclustered, 200 LP

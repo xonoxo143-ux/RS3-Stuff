@@ -1,18 +1,26 @@
 {
-  "league_points_delta": 0,
+  "league_points_delta": 80,
   "level_ups": [
     {
-      "from": 72,
-      "skill": "Summoning",
-      "to": 73
-    },
-    {
-      "from": 39,
-      "skill": "Dungeoneering",
-      "to": 68
+      "from": 113,
+      "skill": "Ranged",
+      "to": 115
     }
   ],
-  "new_task_ids": [],
-  "new_tasks": [],
-  "task_delta": 0
+  "new_task_ids": [
+    327
+  ],
+  "new_tasks": [
+    {
+      "blessing_task": false,
+      "description": "Defeat Gregorovic 50 times.",
+      "id": 327,
+      "issue": null,
+      "name": "Defeat Gregorovic.",
+      "points": 80,
+      "region": "Desert",
+      "tier": "hard"
+    }
+  ],
+  "task_delta": 1
 }

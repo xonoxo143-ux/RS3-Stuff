@@ -179,6 +179,7 @@
       324,
       325,
       326,
+      327,
       330,
       341,
       342,
@@ -337,9 +338,9 @@
       1250,
       1271
     ],
-    "completed_tasks": 334,
+    "completed_tasks": 335,
     "league": "Leagues II: Equilibrium",
-    "league_points": 16020,
+    "league_points": 16100,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
@@ -363,7 +364,7 @@
       "Mining": 86,
       "Necromancy": 107,
       "Prayer": 99,
-      "Ranged": 113,
+      "Ranged": 115,
       "Runecrafting": 73,
       "Slayer": 79,
       "Smithing": 84,
@@ -373,8 +374,8 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T21:54:05.006Z",
-    "total_level": 2421
+    "timestamp_utc": "2026-09-08T23:34:58.476Z",
+    "total_level": 2423
   },
   "blessings": {
     "derived_god_choices": {
@@ -542,22 +543,30 @@
     ]
   },
   "changes": {
-    "league_points_delta": 0,
+    "league_points_delta": 80,
     "level_ups": [
       {
-        "from": 72,
-        "skill": "Summoning",
-        "to": 73
-      },
-      {
-        "from": 39,
-        "skill": "Dungeoneering",
-        "to": 68
+        "from": 113,
+        "skill": "Ranged",
+        "to": 115
       }
     ],
-    "new_task_ids": [],
-    "new_tasks": [],
-    "task_delta": 0
+    "new_task_ids": [
+      327
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "description": "Defeat Gregorovic 50 times.",
+        "id": 327,
+        "issue": null,
+        "name": "Defeat Gregorovic.",
+        "points": 80,
+        "region": "Desert",
+        "tier": "hard"
+      }
+    ],
+    "task_delta": 1
   },
   "forgotten_finish_opportunities": {
     "count": 4,
@@ -665,7 +674,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T21:54:05.006Z",
+    "generated_at_utc": "2026-09-08T23:34:58.476Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -681,11 +690,11 @@
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 8,
-        "none": 660,
+        "none": 659,
         "text_inference": 150
       },
       "status_counts": {
-        "accessible_requirements_unknown": 281,
+        "accessible_requirements_unknown": 280,
         "blocked": 32,
         "excluded": 7,
         "inferred_candidate": 118,
@@ -698,7 +707,7 @@
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 74360,
+      "age_seconds_at_generation": 80413,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -708,7 +717,7 @@
         "removed_task_ids": [],
         "status": "unchanged"
       },
-      "mapped_completed_tasks": 334,
+      "mapped_completed_tasks": 335,
       "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
@@ -720,7 +729,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T21:54:05.006Z"
+      "timestamp": "2026-09-08T23:34:58.476Z"
     }
   },
   "manual": {
@@ -881,11 +890,11 @@
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 66,
+      "remaining_tasks": 65,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 3980,
+      "remaining_points": 3900,
       "threshold": 20000,
       "tier": 7
     },
@@ -1109,9 +1118,9 @@
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 281,
+    "requirements_unknown_count": 280,
     "status_counts": {
-      "accessible_requirements_unknown": 281,
+      "accessible_requirements_unknown": 280,
       "blocked": 32,
       "excluded": 7,
       "inferred_candidate": 118,
@@ -1120,7 +1129,7 @@
       "manual_check": 3,
       "verified_ready": 5
     },
-    "unfinished_count": 818,
+    "unfinished_count": 817,
     "verified_ready_count": 5
   }
 }

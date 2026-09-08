@@ -187,6 +187,7 @@
     324,
     325,
     326,
+    327,
     330,
     341,
     342,
@@ -345,7 +346,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 334,
+  "completed_tasks": 335,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -364,18 +365,13 @@
     805,
     988
   ],
-  "league_points": 16020,
+  "league_points": 16100,
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 72,
-      "skill": "Summoning",
-      "to": 73
-    },
-    {
-      "from": 39,
-      "skill": "Dungeoneering",
-      "to": 68
+      "from": 113,
+      "skill": "Ranged",
+      "to": 115
     }
   ],
   "levels": {
@@ -400,7 +396,7 @@
     "Mining": 86,
     "Necromancy": 107,
     "Prayer": 99,
-    "Ranged": 113,
+    "Ranged": 115,
     "Runecrafting": 73,
     "Slayer": 79,
     "Smithing": 84,
@@ -409,9 +405,22 @@
     "Thieving": 120,
     "Woodcutting": 72
   },
-  "mapped_completed_tasks": 334,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 335,
+  "new_task_ids_since_previous_live_sync": [
+    327
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Defeat Gregorovic 50 times.",
+      "id": 327,
+      "issue": null,
+      "name": "Defeat Gregorovic.",
+      "points": 80,
+      "region": "Desert",
+      "tier": "hard"
+    }
+  ],
   "next_blessing": {
     "remaining_tasks": 4,
     "step": "t6",
@@ -420,11 +429,11 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 66,
+    "remaining_tasks": 65,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 3980,
+    "remaining_points": 3900,
     "threshold": 20000,
     "tier": 7
   },
@@ -440,9 +449,9 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-08T21:54:05.006Z",
-  "total_level": 2421,
+  "task_delta_since_previous_live_sync": 1,
+  "timestamp_utc": "2026-09-08T23:34:58.476Z",
+  "total_level": 2423,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

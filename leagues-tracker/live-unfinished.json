@@ -1,10 +1,10 @@
 {
-  "completed_task_count": 334,
+  "completed_task_count": 335,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
   "status_counts": {
-    "accessible_requirements_unknown": 281,
+    "accessible_requirements_unknown": 280,
     "blocked": 32,
     "excluded": 7,
     "inferred_candidate": 118,
@@ -13,8 +13,8 @@
     "manual_check": 3,
     "verified_ready": 5
   },
-  "timestamp_utc": "2026-09-08T21:54:05.006Z",
-  "unfinished_task_count": 818,
+  "timestamp_utc": "2026-09-08T23:34:58.476Z",
+  "unfinished_task_count": 817,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -2842,28 +2842,6 @@
       "lp_per_minute": null,
       "metadata_source": "none",
       "name": "Complete the task set: Hard Desert.",
-      "points": 80,
-      "recommendation_grade": "U",
-      "region": "Desert",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Defeat Gregorovic 50 times.",
-      "estimated_seconds": null,
-      "id": 327,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Defeat Gregorovic.",
       "points": 80,
       "recommendation_grade": "U",
       "region": "Desert",

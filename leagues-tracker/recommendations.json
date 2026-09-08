@@ -323,11 +323,11 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 8,
-      "none": 660,
+      "none": 659,
       "text_inference": 150
     },
     "status_counts": {
-      "accessible_requirements_unknown": 281,
+      "accessible_requirements_unknown": 280,
       "blocked": 32,
       "excluded": 7,
       "inferred_candidate": 118,
@@ -1237,8 +1237,8 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 1660,
-    "inferred_count": 61,
+    "estimated_action_seconds_excluding_travel": 1615,
+    "inferred_count": 60,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [
       "bronze bolts/materials",
@@ -1246,7 +1246,7 @@
       "bread ingredients",
       "cake ingredients"
     ],
-    "selected_count": 66,
+    "selected_count": 65,
     "tasks": [
       {
         "blockers": [],
@@ -2253,22 +2253,6 @@
         "cluster": null,
         "confidence": 0.72,
         "estimated_seconds": 45,
-        "id": 635,
-        "items_to_prepare": [],
-        "lp_per_minute": 106.67,
-        "name": "Catch a draconic jadinko at Herblore Habitat.",
-        "points": 80,
-        "recommendation_grade": "B",
-        "region": "Karamja",
-        "status": "inferred_candidate",
-        "tier": "hard",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 45,
         "id": 1049,
         "items_to_prepare": [],
         "lp_per_minute": 266.67,
@@ -2313,7 +2297,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 66,
+    "tasks_needed": 65,
     "verified_count": 5
   },
   "highest_lp_per_minute": [
@@ -3202,7 +3186,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 66,
+    "remaining_tasks": 65,
     "tasks": 400
   },
   "schema_version": 1
