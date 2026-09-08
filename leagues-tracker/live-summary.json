@@ -209,6 +209,7 @@
     800,
     807,
     808,
+    809,
     810,
     811,
     812,
@@ -298,6 +299,7 @@
     1052,
     1058,
     1060,
+    1065,
     1066,
     1074,
     1076,
@@ -311,6 +313,7 @@
     1118,
     1121,
     1141,
+    1143,
     1146,
     1147,
     1148,
@@ -338,7 +341,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 327,
+  "completed_tasks": 330,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -357,43 +360,23 @@
     805,
     988
   ],
-  "league_points": 14830,
+  "league_points": 15510,
   "league_points_source": "mapped completed-task point sum",
   "level_ups_since_previous_live_sync": [
     {
-      "from": 106,
-      "skill": "Ranged",
-      "to": 110
+      "from": 81,
+      "skill": "Fletching",
+      "to": 82
+    },
+    {
+      "from": 98,
+      "skill": "Crafting",
+      "to": 99
     },
     {
       "from": 79,
-      "skill": "Fletching",
-      "to": 81
-    },
-    {
-      "from": 75,
-      "skill": "Firemaking",
-      "to": 78
-    },
-    {
-      "from": 97,
-      "skill": "Crafting",
-      "to": 98
-    },
-    {
-      "from": 84,
-      "skill": "Mining",
-      "to": 86
-    },
-    {
-      "from": 53,
-      "skill": "Construction",
-      "to": 60
-    },
-    {
-      "from": 82,
-      "skill": "Divination",
-      "to": 84
+      "skill": "Herblore",
+      "to": 82
     }
   ],
   "levels": {
@@ -403,15 +386,15 @@
     "Constitution": 99,
     "Construction": 60,
     "Cooking": 88,
-    "Crafting": 98,
+    "Crafting": 99,
     "Defence": 99,
     "Divination": 84,
     "Dungeoneering": 39,
     "Farming": 32,
     "Firemaking": 78,
     "Fishing": 40,
-    "Fletching": 81,
-    "Herblore": 79,
+    "Fletching": 82,
+    "Herblore": 82,
     "Hunter": 50,
     "Invention": 120,
     "Magic": 87,
@@ -427,174 +410,42 @@
     "Thieving": 120,
     "Woodcutting": 72
   },
-  "mapped_completed_tasks": 327,
+  "mapped_completed_tasks": 330,
   "new_task_ids_since_previous_live_sync": [
-    51,
-    235,
-    274,
-    323,
-    324,
-    326,
-    346,
-    800,
-    901,
-    958,
-    959,
-    961,
-    962,
-    1025,
-    1058
+    809,
+    1065,
+    1143
   ],
   "new_tasks_since_previous_live_sync": [
     {
       "blessing_task": false,
-      "description": "Make a pat of butter by using a bucket of milk at a dairy churn",
-      "id": 51,
+      "description": "Make 1,000 potions of any kind.",
+      "id": 809,
       "issue": null,
-      "name": "Churn some butter.",
-      "points": 30,
-      "region": "Misthalin",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": true,
-      "description": "Kill the giant mole.",
-      "id": 235,
-      "issue": null,
-      "name": "Defeat the Giant Mole.",
-      "points": 30,
-      "region": "Asgarnia",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": true,
-      "description": "Defeat the Queen Black Dragon.",
-      "id": 274,
-      "issue": null,
-      "name": "Defeat the Queen Black Dragon.",
-      "points": 80,
-      "region": "Asgarnia",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat Vindicta.",
-      "id": 323,
-      "issue": null,
-      "name": "Defeat Vindicta and Gorvek.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat Helwyr.",
-      "id": 324,
-      "issue": null,
-      "name": "Defeat Helwyr.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat the Twin Furies 100 times.",
-      "id": 326,
-      "issue": null,
-      "name": "Defeat Avaryss and Nymora.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Defeat Telos.",
-      "id": 346,
-      "issue": null,
-      "name": "Defeat Telos, the Warden.",
-      "points": 80,
-      "region": "Desert",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Cleanse the Gate of Elidinis.",
-      "id": 800,
-      "issue": null,
-      "name": "Cleanse the Gate of Elidinis.",
-      "points": 80,
-      "region": "Misthalin",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Bury 5 dragon bones.",
-      "id": 901,
-      "issue": null,
-      "name": "Bury 5 dragon bones.",
-      "points": 30,
-      "region": "Global",
-      "tier": "medium"
-    },
-    {
-      "blessing_task": false,
-      "description": "Equip a yew shortbow.",
-      "id": 958,
-      "issue": null,
-      "name": "Equip a yew shortbow.",
+      "name": "Make 1,000 potions of any kind.",
       "points": 80,
       "region": "Global",
       "tier": "hard"
     },
     {
       "blessing_task": false,
-      "description": "Equip a magic shortbow.",
-      "id": 959,
+      "description": "Reach level 99 Crafting.",
+      "id": 1065,
       "issue": null,
-      "name": "Equip a magic shortbow.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Fletch 100 Yew shortbows (unstrung).",
-      "id": 961,
-      "issue": null,
-      "name": "Fletch 100 yew shortbows (unstrung).",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Fletch 100 yew stocks.",
-      "id": 962,
-      "issue": null,
-      "name": "Fletch 100 yew stocks.",
-      "points": 80,
-      "region": "Global",
-      "tier": "hard"
-    },
-    {
-      "blessing_task": false,
-      "description": "Fletch 200 magic stocks.",
-      "id": 1025,
-      "issue": null,
-      "name": "Fletch 200 magic stocks.",
+      "name": "Reach level 99 in the Crafting skill.",
       "points": 200,
       "region": "Global",
       "tier": "elite"
     },
     {
       "blessing_task": false,
-      "description": "Burn 100 magic logs.",
-      "id": 1058,
+      "description": "Obtain 200 Million XP in any single skill.",
+      "id": 1143,
       "issue": null,
-      "name": "Burn 100 magic logs",
-      "points": 200,
+      "name": "Obtain 200 million XP in any single skill.",
+      "points": 400,
       "region": "Global",
-      "tier": "elite"
+      "tier": "master"
     }
   ],
   "next_blessing": {
@@ -605,11 +456,11 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 73,
+    "remaining_tasks": 70,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 5170,
+    "remaining_points": 4490,
     "threshold": 20000,
     "tier": 7
   },
@@ -625,9 +476,9 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 15,
-  "timestamp_utc": "2026-09-08T01:14:45.750Z",
-  "total_level": 2352,
+  "task_delta_since_previous_live_sync": 3,
+  "timestamp_utc": "2026-09-08T04:45:21.713Z",
+  "total_level": 2357,
   "tracker_health": "warning",
   "unmapped_completed_task_ids": []
 }

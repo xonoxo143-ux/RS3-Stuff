@@ -201,6 +201,7 @@
       800,
       807,
       808,
+      809,
       810,
       811,
       812,
@@ -290,6 +291,7 @@
       1052,
       1058,
       1060,
+      1065,
       1066,
       1074,
       1076,
@@ -303,6 +305,7 @@
       1118,
       1121,
       1141,
+      1143,
       1146,
       1147,
       1148,
@@ -330,9 +333,9 @@
       1250,
       1271
     ],
-    "completed_tasks": 327,
+    "completed_tasks": 330,
     "league": "Leagues II: Equilibrium",
-    "league_points": 14830,
+    "league_points": 15510,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
@@ -341,15 +344,15 @@
       "Constitution": 99,
       "Construction": 60,
       "Cooking": 88,
-      "Crafting": 98,
+      "Crafting": 99,
       "Defence": 99,
       "Divination": 84,
       "Dungeoneering": 39,
       "Farming": 32,
       "Firemaking": 78,
       "Fishing": 40,
-      "Fletching": 81,
-      "Herblore": 79,
+      "Fletching": 82,
+      "Herblore": 82,
       "Hunter": 50,
       "Invention": 120,
       "Magic": 87,
@@ -366,8 +369,8 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T01:14:45.750Z",
-    "total_level": 2352
+    "timestamp_utc": "2026-09-08T04:45:21.713Z",
+    "total_level": 2357
   },
   "blessings": {
     "derived_god_choices": {
@@ -526,241 +529,68 @@
     ]
   },
   "changes": {
-    "league_points_delta": 1290,
+    "league_points_delta": 680,
     "level_ups": [
       {
-        "from": 106,
-        "skill": "Ranged",
-        "to": 110
+        "from": 81,
+        "skill": "Fletching",
+        "to": 82
+      },
+      {
+        "from": 98,
+        "skill": "Crafting",
+        "to": 99
       },
       {
         "from": 79,
-        "skill": "Fletching",
-        "to": 81
-      },
-      {
-        "from": 75,
-        "skill": "Firemaking",
-        "to": 78
-      },
-      {
-        "from": 97,
-        "skill": "Crafting",
-        "to": 98
-      },
-      {
-        "from": 84,
-        "skill": "Mining",
-        "to": 86
-      },
-      {
-        "from": 53,
-        "skill": "Construction",
-        "to": 60
-      },
-      {
-        "from": 82,
-        "skill": "Divination",
-        "to": 84
+        "skill": "Herblore",
+        "to": 82
       }
     ],
     "new_task_ids": [
-      51,
-      235,
-      274,
-      323,
-      324,
-      326,
-      346,
-      800,
-      901,
-      958,
-      959,
-      961,
-      962,
-      1025,
-      1058
+      809,
+      1065,
+      1143
     ],
     "new_tasks": [
       {
         "blessing_task": false,
-        "description": "Make a pat of butter by using a bucket of milk at a dairy churn",
-        "id": 51,
+        "description": "Make 1,000 potions of any kind.",
+        "id": 809,
         "issue": null,
-        "name": "Churn some butter.",
-        "points": 30,
-        "region": "Misthalin",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": true,
-        "description": "Kill the giant mole.",
-        "id": 235,
-        "issue": null,
-        "name": "Defeat the Giant Mole.",
-        "points": 30,
-        "region": "Asgarnia",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": true,
-        "description": "Defeat the Queen Black Dragon.",
-        "id": 274,
-        "issue": null,
-        "name": "Defeat the Queen Black Dragon.",
-        "points": 80,
-        "region": "Asgarnia",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Defeat Vindicta.",
-        "id": 323,
-        "issue": null,
-        "name": "Defeat Vindicta and Gorvek.",
-        "points": 80,
-        "region": "Desert",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Defeat Helwyr.",
-        "id": 324,
-        "issue": null,
-        "name": "Defeat Helwyr.",
-        "points": 80,
-        "region": "Desert",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Defeat the Twin Furies 100 times.",
-        "id": 326,
-        "issue": null,
-        "name": "Defeat Avaryss and Nymora.",
-        "points": 80,
-        "region": "Desert",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Defeat Telos.",
-        "id": 346,
-        "issue": null,
-        "name": "Defeat Telos, the Warden.",
-        "points": 80,
-        "region": "Desert",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Cleanse the Gate of Elidinis.",
-        "id": 800,
-        "issue": null,
-        "name": "Cleanse the Gate of Elidinis.",
-        "points": 80,
-        "region": "Misthalin",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Bury 5 dragon bones.",
-        "id": 901,
-        "issue": null,
-        "name": "Bury 5 dragon bones.",
-        "points": 30,
-        "region": "Global",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": false,
-        "description": "Equip a yew shortbow.",
-        "id": 958,
-        "issue": null,
-        "name": "Equip a yew shortbow.",
+        "name": "Make 1,000 potions of any kind.",
         "points": 80,
         "region": "Global",
         "tier": "hard"
       },
       {
         "blessing_task": false,
-        "description": "Equip a magic shortbow.",
-        "id": 959,
+        "description": "Reach level 99 Crafting.",
+        "id": 1065,
         "issue": null,
-        "name": "Equip a magic shortbow.",
-        "points": 80,
-        "region": "Global",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Fletch 100 Yew shortbows (unstrung).",
-        "id": 961,
-        "issue": null,
-        "name": "Fletch 100 yew shortbows (unstrung).",
-        "points": 80,
-        "region": "Global",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Fletch 100 yew stocks.",
-        "id": 962,
-        "issue": null,
-        "name": "Fletch 100 yew stocks.",
-        "points": 80,
-        "region": "Global",
-        "tier": "hard"
-      },
-      {
-        "blessing_task": false,
-        "description": "Fletch 200 magic stocks.",
-        "id": 1025,
-        "issue": null,
-        "name": "Fletch 200 magic stocks.",
+        "name": "Reach level 99 in the Crafting skill.",
         "points": 200,
         "region": "Global",
         "tier": "elite"
       },
       {
         "blessing_task": false,
-        "description": "Burn 100 magic logs.",
-        "id": 1058,
+        "description": "Obtain 200 Million XP in any single skill.",
+        "id": 1143,
         "issue": null,
-        "name": "Burn 100 magic logs",
-        "points": 200,
+        "name": "Obtain 200 million XP in any single skill.",
+        "points": 400,
         "region": "Global",
-        "tier": "elite"
+        "tier": "master"
       }
     ],
-    "task_delta": 15
+    "task_delta": 3
   },
   "forgotten_finish_opportunities": {
-    "count": 5,
+    "count": 4,
     "note": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. For cumulative families, completed milestones provide only a guaranteed lower bound; exact states such as 19/20 require a source that exposes that counter.",
     "source": "opportunities.json",
     "top": [
-      {
-        "cluster": null,
-        "confidence": 0.95,
-        "estimated_seconds_if_known": null,
-        "id": 1065,
-        "name": "Reach level 99 in the Crafting skill.",
-        "opportunity_score": 45,
-        "points": 200,
-        "reasons": [
-          {
-            "code": "tiny_skill_gap",
-            "detail": "Only 1 Crafting level(s) remain to the task target.",
-            "gap": 1,
-            "skill": "Crafting"
-          }
-        ],
-        "region": "Global",
-        "status": "blocked",
-        "suspected_remaining_effort": "1_skill_level_or_less",
-        "tier": "elite"
-      },
       {
         "cluster": null,
         "confidence": 0.9,
@@ -862,7 +692,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T01:14:45.750Z",
+    "generated_at_utc": "2026-09-08T04:45:21.713Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -891,50 +721,35 @@
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 8,
-        "none": 663,
-        "text_inference": 154
+        "none": 662,
+        "text_inference": 152
       },
       "status_counts": {
-        "accessible_requirements_unknown": 284,
-        "blocked": 33,
+        "accessible_requirements_unknown": 283,
+        "blocked": 32,
         "excluded": 7,
-        "inferred_candidate": 121,
+        "inferred_candidate": 120,
         "known_issue": 2,
         "locked_region": 370,
         "manual_check": 3,
         "verified_ready": 5
       },
-      "timed_inferred_candidates": 88,
+      "timed_inferred_candidates": 87,
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 0,
+      "age_seconds_at_generation": 12636,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
-        "changed_task_ids": [
-          80,
-          229,
-          396,
-          482,
-          484,
-          513,
-          518,
-          526,
-          552,
-          578,
-          581,
-          684,
-          1019,
-          1216
-        ],
+        "changed_task_ids": [],
         "current_task_count": 1152,
         "previous_task_count": 1152,
         "removed_task_ids": [],
-        "status": "changed"
+        "status": "unchanged"
       },
-      "mapped_completed_tasks": 327,
-      "status": "fresh_updated",
+      "mapped_completed_tasks": 330,
+      "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
     },
@@ -945,7 +760,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T01:14:45.750Z"
+      "timestamp": "2026-09-08T04:45:21.713Z"
     }
   },
   "manual": {
@@ -1095,11 +910,11 @@
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 73,
+      "remaining_tasks": 70,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 5170,
+      "remaining_points": 4490,
       "threshold": 20000,
       "tier": 7
     },
@@ -1319,22 +1134,22 @@
   },
   "schema_version": 2,
   "tasks": {
-    "inferred_candidate_count": 121,
+    "inferred_candidate_count": 120,
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 284,
+    "requirements_unknown_count": 283,
     "status_counts": {
-      "accessible_requirements_unknown": 284,
-      "blocked": 33,
+      "accessible_requirements_unknown": 283,
+      "blocked": 32,
       "excluded": 7,
-      "inferred_candidate": 121,
+      "inferred_candidate": 120,
       "known_issue": 2,
       "locked_region": 370,
       "manual_check": 3,
       "verified_ready": 5
     },
-    "unfinished_count": 825,
+    "unfinished_count": 822,
     "verified_ready_count": 5
   }
 }

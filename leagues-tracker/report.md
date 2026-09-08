@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-08T01:14:45.750Z**
+Updated: **2026-09-08T04:45:21.713Z**
 
 ## Current
 
-- **327 tasks**
-- **14,830 LP**
-- **Total level 2,352**
+- **330 tasks**
+- **15,510 LP**
+- **Total level 2,357**
 - **Relic T6**
 - **16 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **73 tasks** to the next region slot
-- **5,170 LP** to T7
+- **70 tasks** to the next region slot
+- **4,490 LP** to T7
 - **4 blessing tasks** to t6
 
 ## Suggested sprint
 
-Tracker selected **73** of the **73** tasks currently needed.
+Tracker selected **70** of the **70** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
@@ -83,15 +83,12 @@ Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 - [1186] Search a hollow tree within the Highweald forest. — Grade B, ~30s, unclustered, 30 LP
 - [1192] Use a clockwork box trap to catch a grenwall in a kebbit encounter. — Grade B, ~30s, unclustered, 30 LP
 - [1212] Speak to Inanna with the Anzagar pet present. — Grade B, ~30s, unclustered, 200 LP
-- [293] Sell a pyramid top to Simon. — Grade B, ~45s, unclustered, 10 LP
 - [306] Catch a catfish. — Grade B, ~45s, unclustered, 30 LP
 - [635] Catch a draconic jadinko at Herblore Habitat. — Grade B, ~45s, unclustered, 80 LP
 - [978] Catch a spirit impling. — Grade B, ~45s, unclustered, 80 LP
 - [1049] Catch a cavefish. — Grade B, ~45s, unclustered, 200 LP
 - [1053] Catch a dragon impling. — Grade B, ~45s, unclustered, 200 LP
 - [1054] Catch a kingly impling. — Grade B, ~45s, unclustered, 200 LP
-- [1182] Catch a jackalope. — Grade B, ~45s, unclustered, 10 LP
-- [349] Craft some soul runes. — Grade B, ~60s, unclustered, 200 LP
 
 ## Best clusters
 
@@ -107,7 +104,7 @@ Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 
 ## Nearly unlocked
 
-- [1065] Reach level 99 in the Crafting skill. — Crafting 98→99
+- None currently identified within 5 skill levels.
 
 ## Health
 
@@ -120,7 +117,6 @@ Grade A = explicit task metadata. Grade B = conservative automatic inference; ve
 
 ## Forgotten-finish opportunities
 
-- [1065] **Reach level 99 in the Crafting skill.** — score 45, 1_skill_level_or_less; Only 1 Crafting level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.

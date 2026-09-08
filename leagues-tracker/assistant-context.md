@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-08T01:14:45.750Z**
+Updated: **2026-09-08T04:45:21.713Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-08T01:14:45.750Z**
 
 ## Current snapshot
 
-- **14,830 LP** · **327 tasks** · total level **2,352**
+- **15,510 LP** · **330 tasks** · total level **2,357**
 - **16 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **73 tasks** to 400
-- Next relic: **5,170 LP** to T7
+- Next region: **70 tasks** to 400
+- Next relic: **4,490 LP** to T7
 - Next blessing step: **4** to t6
 
 ## Active relics
@@ -165,29 +165,17 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+15** · LP: **+1290**
-- [51] Churn some butter. — medium, Misthalin, 30 LP
-- [235] Defeat the Giant Mole. — medium, Asgarnia, 30 LP
-- [274] Defeat the Queen Black Dragon. — hard, Asgarnia, 80 LP
-- [323] Defeat Vindicta and Gorvek. — hard, Desert, 80 LP
-- [324] Defeat Helwyr. — hard, Desert, 80 LP
-- [326] Defeat Avaryss and Nymora. — hard, Desert, 80 LP
-- [346] Defeat Telos, the Warden. — hard, Desert, 80 LP
-- [800] Cleanse the Gate of Elidinis. — hard, Misthalin, 80 LP
-- [901] Bury 5 dragon bones. — medium, Global, 30 LP
-- [958] Equip a yew shortbow. — hard, Global, 80 LP
-- [959] Equip a magic shortbow. — hard, Global, 80 LP
-- [961] Fletch 100 yew shortbows (unstrung). — hard, Global, 80 LP
-- [962] Fletch 100 yew stocks. — hard, Global, 80 LP
-- [1025] Fletch 200 magic stocks. — elite, Global, 200 LP
-- [1058] Burn 100 magic logs — elite, Global, 200 LP
-- Level-ups: Ranged 106→110; Fletching 79→81; Firemaking 75→78; Crafting 97→98; Mining 84→86; Construction 53→60; Divination 82→84
+- Tasks: **+3** · LP: **+680**
+- [809] Make 1,000 potions of any kind. — hard, Global, 80 LP
+- [1065] Reach level 99 in the Crafting skill. — elite, Global, 200 LP
+- [1143] Obtain 200 million XP in any single skill. — master, Global, 400 LP
+- Level-ups: Fletching 81→82; Crafting 98→99; Herblore 79→82
 
 ## Current task sprint
 
-- Need: **73 tasks**
-- Precomputed sprint: **73 tasks** (5 Grade A, 68 Grade B)
-- Action-time estimate excluding travel: **1965 sec**
+- Need: **70 tasks**
+- Precomputed sprint: **70 tasks** (5 Grade A, 65 Grade B)
+- Action-time estimate excluding travel: **1815 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -223,14 +211,14 @@ Passive step effects:
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **5**
-- Timed Grade-B inferred candidates: **88**
-- Metadata sources: `{'manual_override': 8, 'none': 663, 'text_inference': 154}`
+- Timed Grade-B inferred candidates: **87**
+- Metadata sources: `{'manual_override': 8, 'none': 662, 'text_inference': 152}`
 
 ## Data health
 
 - Overall: **warning**
-- WikiSync: **fresh** · 2026-09-08T01:14:45.750Z
-- Task catalog: **fresh_updated** · 1152 tasks
+- WikiSync: **fresh** · 2026-09-08T04:45:21.713Z
+- Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 - WARNING `unrecorded_blessing_choice`: Blessing t1 is unlocked but no path choice is recorded.
 - WARNING `unrecorded_blessing_choice`: Blessing t2 is unlocked but no path choice is recorded.
@@ -240,7 +228,6 @@ Passive step effects:
 
 ## Forgotten-finish opportunities
 
-- [1065] **Reach level 99 in the Crafting skill.** — score 45, 1_skill_level_or_less; Only 1 Crafting level(s) remain to the task target.
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.

@@ -1,20 +1,20 @@
 {
-  "completed_task_count": 327,
+  "completed_task_count": 330,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
   "status_counts": {
-    "accessible_requirements_unknown": 284,
-    "blocked": 33,
+    "accessible_requirements_unknown": 283,
+    "blocked": 32,
     "excluded": 7,
-    "inferred_candidate": 121,
+    "inferred_candidate": 120,
     "known_issue": 2,
     "locked_region": 370,
     "manual_check": 3,
     "verified_ready": 5
   },
-  "timestamp_utc": "2026-09-08T01:14:45.750Z",
-  "unfinished_task_count": 825,
+  "timestamp_utc": "2026-09-08T04:45:21.713Z",
+  "unfinished_task_count": 822,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -13102,31 +13102,6 @@
     {
       "blessing_task": false,
       "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "description": "Make 1,000 potions of any kind.",
-      "estimated_seconds": 60,
-      "id": 809,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 80.0,
-      "metadata_source": "text_inference",
-      "name": "Make 1,000 potions of any kind.",
-      "points": 80,
-      "recommendation_grade": "B",
-      "region": "Global",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "production"
-      ],
-      "task_count_efficiency": 110,
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
       "cluster": "bank",
       "confidence": 1.0,
       "description": "Fletch 50 bronze bolts.",
@@ -16737,39 +16712,6 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 98,
-          "gap": 1,
-          "required": 99,
-          "skill": "Crafting",
-          "type": "skill"
-        }
-      ],
-      "cluster": null,
-      "confidence": 0.55,
-      "description": "Reach level 99 Crafting.",
-      "estimated_seconds": null,
-      "id": 1065,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "text_inference",
-      "name": "Reach level 99 in the Crafting skill.",
-      "points": 200,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "blocked",
-      "tags": [
-        "inferred",
-        "crafting"
-      ],
-      "task_count_efficiency": null,
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [
-        {
           "current": 84,
           "gap": 15,
           "required": 99,
@@ -16935,8 +16877,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 81,
-          "gap": 18,
+          "current": 82,
+          "gap": 17,
           "required": 99,
           "skill": "Fletching",
           "type": "skill"
@@ -16968,8 +16910,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 79,
-          "gap": 20,
+          "current": 82,
+          "gap": 17,
           "required": 99,
           "skill": "Herblore",
           "type": "skill"
@@ -17353,8 +17295,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 98,
-          "gap": 12,
+          "current": 99,
+          "gap": 11,
           "required": 110,
           "skill": "Crafting",
           "type": "skill"
@@ -17419,8 +17361,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 81,
-          "gap": 29,
+          "current": 82,
+          "gap": 28,
           "required": 110,
           "skill": "Fletching",
           "type": "skill"
@@ -17585,8 +17527,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 79,
-          "gap": 41,
+          "current": 82,
+          "gap": 38,
           "required": 120,
           "skill": "Herblore",
           "type": "skill"
@@ -18365,28 +18307,6 @@
       ],
       "task_count_efficiency": 70,
       "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Obtain 200 Million XP in any single skill.",
-      "estimated_seconds": null,
-      "id": 1143,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Obtain 200 million XP in any single skill.",
-      "points": 400,
-      "recommendation_grade": "U",
-      "region": "Global",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "master",
       "unknown_checks": []
     },
     {
