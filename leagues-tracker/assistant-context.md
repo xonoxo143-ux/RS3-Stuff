@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-08T16:25:55.282Z**
+Updated: **2026-09-08T17:14:16.269Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-08T16:25:55.282Z**
 
 ## Current snapshot
 
-- **15,990 LP** · **333 tasks** · total level **2,367**
+- **16,020 LP** · **334 tasks** · total level **2,377**
 - **16 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **67 tasks** to 400
-- Next relic: **4,010 LP** to T7
+- Next region: **66 tasks** to 400
+- Next relic: **3,980 LP** to T7
 - Next blessing step: **4** to t6
 
 ## Active relics
@@ -170,13 +170,15 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
+- Tasks: **+1** · LP: **+30**
+- [616] Kill a metal dragon in Brimhaven Dungeon. — medium, Karamja, 30 LP
+- Level-ups: Attack 80→85; Strength 80→85
 
 ## Current task sprint
 
-- Need: **67 tasks**
-- Precomputed sprint: **67 tasks** (5 Grade A, 62 Grade B)
-- Action-time estimate excluding travel: **1705 sec**
+- Need: **66 tasks**
+- Precomputed sprint: **66 tasks** (5 Grade A, 61 Grade B)
+- Action-time estimate excluding travel: **1660 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -213,12 +215,12 @@ Passive step effects:
 
 - Timed Grade-A tasks: **5**
 - Timed Grade-B inferred candidates: **86**
-- Metadata sources: `{'manual_override': 8, 'none': 660, 'text_inference': 151}`
+- Metadata sources: `{'manual_override': 8, 'none': 660, 'text_inference': 150}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-08T16:25:55.282Z
+- WikiSync: **fresh** · 2026-09-08T17:14:16.269Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 

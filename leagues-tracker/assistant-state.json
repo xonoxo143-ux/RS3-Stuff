@@ -192,6 +192,7 @@
       611,
       612,
       614,
+      616,
       620,
       623,
       627,
@@ -336,14 +337,14 @@
       1250,
       1271
     ],
-    "completed_tasks": 333,
+    "completed_tasks": 334,
     "league": "Leagues II: Equilibrium",
-    "league_points": 15990,
+    "league_points": 16020,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
       "Archaeology": 60,
-      "Attack": 80,
+      "Attack": 85,
       "Constitution": 99,
       "Construction": 60,
       "Cooking": 91,
@@ -366,14 +367,14 @@
       "Runecrafting": 73,
       "Slayer": 79,
       "Smithing": 84,
-      "Strength": 80,
+      "Strength": 85,
       "Summoning": 72,
       "Thieving": 120,
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T16:25:55.282Z",
-    "total_level": 2367
+    "timestamp_utc": "2026-09-08T17:14:16.269Z",
+    "total_level": 2377
   },
   "blessings": {
     "derived_god_choices": {
@@ -541,11 +542,35 @@
     ]
   },
   "changes": {
-    "league_points_delta": 0,
-    "level_ups": [],
-    "new_task_ids": [],
-    "new_tasks": [],
-    "task_delta": 0
+    "league_points_delta": 30,
+    "level_ups": [
+      {
+        "from": 80,
+        "skill": "Attack",
+        "to": 85
+      },
+      {
+        "from": 80,
+        "skill": "Strength",
+        "to": 85
+      }
+    ],
+    "new_task_ids": [
+      616
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "description": "Kill a metal dragon in Brimhaven Dungeon.",
+        "id": 616,
+        "issue": null,
+        "name": "Kill a metal dragon in Brimhaven Dungeon.",
+        "points": 30,
+        "region": "Karamja",
+        "tier": "medium"
+      }
+    ],
+    "task_delta": 1
   },
   "forgotten_finish_opportunities": {
     "count": 4,
@@ -653,7 +678,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T16:25:55.282Z",
+    "generated_at_utc": "2026-09-08T17:14:16.269Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -670,13 +695,13 @@
       "metadata_source_counts": {
         "manual_override": 8,
         "none": 660,
-        "text_inference": 151
+        "text_inference": 150
       },
       "status_counts": {
         "accessible_requirements_unknown": 281,
         "blocked": 32,
         "excluded": 7,
-        "inferred_candidate": 119,
+        "inferred_candidate": 118,
         "known_issue": 2,
         "locked_region": 370,
         "manual_check": 3,
@@ -686,7 +711,7 @@
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 54669,
+      "age_seconds_at_generation": 57571,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -696,7 +721,7 @@
         "removed_task_ids": [],
         "status": "unchanged"
       },
-      "mapped_completed_tasks": 333,
+      "mapped_completed_tasks": 334,
       "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
@@ -708,7 +733,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T16:25:55.282Z"
+      "timestamp": "2026-09-08T17:14:16.269Z"
     }
   },
   "manual": {
@@ -869,11 +894,11 @@
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 67,
+      "remaining_tasks": 66,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 4010,
+      "remaining_points": 3980,
       "threshold": 20000,
       "tier": 7
     },
@@ -1093,7 +1118,7 @@
   },
   "schema_version": 2,
   "tasks": {
-    "inferred_candidate_count": 119,
+    "inferred_candidate_count": 118,
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
@@ -1102,13 +1127,13 @@
       "accessible_requirements_unknown": 281,
       "blocked": 32,
       "excluded": 7,
-      "inferred_candidate": 119,
+      "inferred_candidate": 118,
       "known_issue": 2,
       "locked_region": 370,
       "manual_check": 3,
       "verified_ready": 5
     },
-    "unfinished_count": 819,
+    "unfinished_count": 818,
     "verified_ready_count": 5
   }
 }

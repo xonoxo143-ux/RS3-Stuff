@@ -200,6 +200,7 @@
     611,
     612,
     614,
+    616,
     620,
     623,
     627,
@@ -344,7 +345,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 333,
+  "completed_tasks": 334,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -363,13 +364,24 @@
     805,
     988
   ],
-  "league_points": 15990,
+  "league_points": 16020,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [],
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 80,
+      "skill": "Attack",
+      "to": 85
+    },
+    {
+      "from": 80,
+      "skill": "Strength",
+      "to": 85
+    }
+  ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
-    "Attack": 80,
+    "Attack": 85,
     "Constitution": 99,
     "Construction": 60,
     "Cooking": 91,
@@ -392,14 +404,27 @@
     "Runecrafting": 73,
     "Slayer": 79,
     "Smithing": 84,
-    "Strength": 80,
+    "Strength": 85,
     "Summoning": 72,
     "Thieving": 120,
     "Woodcutting": 72
   },
-  "mapped_completed_tasks": 333,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 334,
+  "new_task_ids_since_previous_live_sync": [
+    616
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Kill a metal dragon in Brimhaven Dungeon.",
+      "id": 616,
+      "issue": null,
+      "name": "Kill a metal dragon in Brimhaven Dungeon.",
+      "points": 30,
+      "region": "Karamja",
+      "tier": "medium"
+    }
+  ],
   "next_blessing": {
     "remaining_tasks": 4,
     "step": "t6",
@@ -408,11 +433,11 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 67,
+    "remaining_tasks": 66,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 4010,
+    "remaining_points": 3980,
     "threshold": 20000,
     "tier": 7
   },
@@ -428,9 +453,9 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-08T16:25:55.282Z",
-  "total_level": 2367,
+  "task_delta_since_previous_live_sync": 1,
+  "timestamp_utc": "2026-09-08T17:14:16.269Z",
+  "total_level": 2377,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []
 }

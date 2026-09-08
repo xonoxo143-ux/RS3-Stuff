@@ -1,5 +1,5 @@
 {
-  "completed_task_count": 333,
+  "completed_task_count": 334,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
@@ -7,14 +7,14 @@
     "accessible_requirements_unknown": 281,
     "blocked": 32,
     "excluded": 7,
-    "inferred_candidate": 119,
+    "inferred_candidate": 118,
     "known_issue": 2,
     "locked_region": 370,
     "manual_check": 3,
     "verified_ready": 5
   },
-  "timestamp_utc": "2026-09-08T16:25:55.282Z",
-  "unfinished_task_count": 819,
+  "timestamp_utc": "2026-09-08T17:14:16.269Z",
+  "unfinished_task_count": 818,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -9063,30 +9063,6 @@
     {
       "blessing_task": false,
       "blockers": [],
-      "cluster": "brimhaven_dungeon",
-      "confidence": 0.55,
-      "description": "Kill a metal dragon in Brimhaven Dungeon.",
-      "estimated_seconds": null,
-      "id": 616,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "text_inference",
-      "name": "Kill a metal dragon in Brimhaven Dungeon.",
-      "points": 30,
-      "recommendation_grade": "U",
-      "region": "Karamja",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred"
-      ],
-      "task_count_efficiency": null,
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
       "cluster": "karamja",
       "confidence": 0.55,
       "description": "Catch 25 lobsters on Karamja.",
@@ -16566,8 +16542,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 80,
-          "gap": 19,
+          "current": 85,
+          "gap": 14,
           "required": 99,
           "skill": "Attack",
           "type": "skill"
@@ -17083,8 +17059,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 80,
-          "gap": 19,
+          "current": 85,
+          "gap": 14,
           "required": 99,
           "skill": "Strength",
           "type": "skill"
