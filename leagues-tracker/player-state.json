@@ -12,11 +12,11 @@
     null
   ],
   "blessing_path_vector": {
-    "t1": null,
-    "t2": null,
+    "t1": 1,
+    "t2": 1,
     "t3": 2,
     "t4": 1,
-    "t5": null,
+    "t5": 1,
     "t6": null
   },
   "blessing_resets_remaining": 0,
@@ -191,6 +191,7 @@
     "2026-09-07 QBD update: Queen Black Dragon defeated and Royal sight obtained.",
     "2026-09-07 Gate of Elidinis update: first cleanse completed; task 800 (80 LP) confirmed. 10-cleans task 801 is now at least 1/10.",
     "2026-09-07 Gate follow-up: first clear took >5 minutes and was unpleasant; deprioritize the 10-cleans/200-LP grind.",
-    "League routing preference: heavily penalize group-dependent content. Assume no usable group exists unless the user explicitly says one is available; prefer solo routes."
+    "League routing preference: heavily penalize group-dependent content. Assume no usable group exists unless the user explicitly says one is available; prefer solo routes.",
+    "2026-09-08 blessing update: T1 Teragard's Aegis, T2 Striking Light, T3 Eternal Sustenance, T4 Higher Power, T5 Lord of Light confirmed. T6 remains undecided; Perfidious is a candidate to discuss when relevant."
   ]
 }
