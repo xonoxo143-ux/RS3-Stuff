@@ -36,8 +36,18 @@ assert [x["name"] for x in resolved[:5]] == [
     "Devout",
 ]
 
-# Blessing paths and derived God tier.
-blessings, _, gods, dynamic = tracker.resolve_blessings(rules, state, 12)
+# Blessing resolution is tested against a fixed synthetic vector so normal
+# player blessing resets/repicks do not break tracker invariants.
+blessing_test_state = json.loads(json.dumps(state))
+blessing_test_state["blessing_path_vector"] = {
+    "t1": 3,
+    "t2": 3,
+    "t3": 2,
+    "t4": 2,
+    "t5": None,
+    "t6": None,
+}
+blessings, _, gods, dynamic = tracker.resolve_blessings(rules, blessing_test_state, 12)
 chosen = {x["step"]: x["name"] for x in blessings if x["unlocked"]}
 assert chosen["t1"] == "Adrenaline Junkie"
 assert chosen["t2"] == "Abyssal Cinders"
@@ -48,7 +58,7 @@ assert gods["god1"] == 3
 assert dynamic and dynamic[0]["unique_paths_currently_chosen"] == 2
 
 # Future blessing-vector slots must not inflate True Equilibrium before unlock.
-future_state = json.loads(json.dumps(state))
+future_state = json.loads(json.dumps(blessing_test_state))
 future_state["blessing_path_vector"]["t5"] = 1
 future_state["blessing_path_vector"]["t6"] = 1
 _, _, _, future_dynamic = tracker.resolve_blessings(rules, future_state, 12)
