@@ -323,20 +323,20 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 8,
-      "none": 662,
-      "text_inference": 152
+      "none": 660,
+      "text_inference": 151
     },
     "status_counts": {
-      "accessible_requirements_unknown": 283,
+      "accessible_requirements_unknown": 281,
       "blocked": 32,
       "excluded": 7,
-      "inferred_candidate": 120,
+      "inferred_candidate": 119,
       "known_issue": 2,
       "locked_region": 370,
       "manual_check": 3,
       "verified_ready": 5
     },
-    "timed_inferred_candidates": 87,
+    "timed_inferred_candidates": 86,
     "timed_verified_tasks": 5
   },
   "fastest_inferred_backups": [
@@ -496,22 +496,6 @@
       "points": 200,
       "recommendation_grade": "B",
       "region": "Global",
-      "status": "inferred_candidate",
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
-      "id": 264,
-      "items_to_prepare": [],
-      "lp_per_minute": 600.0,
-      "name": "Equip a full set of Bandos armour.",
-      "points": 200,
-      "recommendation_grade": "B",
-      "region": "Asgarnia",
       "status": "inferred_candidate",
       "tier": "elite",
       "unknown_checks": []
@@ -1139,6 +1123,22 @@
       "status": "inferred_candidate",
       "tier": "medium",
       "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 30,
+      "id": 1185,
+      "items_to_prepare": [],
+      "lp_per_minute": 60.0,
+      "name": "Use the Fang of Mohegan to teleport to the Shrine of Inanna.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Havenhythe",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
     }
   ],
   "fastest_verified": [
@@ -1237,8 +1237,8 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 1815,
-    "inferred_count": 65,
+    "estimated_action_seconds_excluding_travel": 1705,
+    "inferred_count": 62,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [
       "bronze bolts/materials",
@@ -1246,7 +1246,7 @@
       "bread ingredients",
       "cake ingredients"
     ],
-    "selected_count": 70,
+    "selected_count": 67,
     "tasks": [
       {
         "blockers": [],
@@ -1364,22 +1364,6 @@
         "region": "Karamja",
         "status": "inferred_candidate",
         "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": "karamja",
-        "confidence": 0.72,
-        "estimated_seconds": 45,
-        "id": 606,
-        "items_to_prepare": [],
-        "lp_per_minute": 40.0,
-        "name": "Catch a salmon on Karamja.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Karamja",
-        "status": "inferred_candidate",
-        "tier": "medium",
         "unknown_checks": []
       },
       {
@@ -1524,22 +1508,6 @@
         "points": 200,
         "recommendation_grade": "B",
         "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 20,
-        "id": 264,
-        "items_to_prepare": [],
-        "lp_per_minute": 600.0,
-        "name": "Equip a full set of Bandos armour.",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Asgarnia",
         "status": "inferred_candidate",
         "tier": "elite",
         "unknown_checks": []
@@ -2285,22 +2253,6 @@
         "cluster": null,
         "confidence": 0.72,
         "estimated_seconds": 45,
-        "id": 306,
-        "items_to_prepare": [],
-        "lp_per_minute": 40.0,
-        "name": "Catch a catfish.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Desert",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 45,
         "id": 635,
         "items_to_prepare": [],
         "lp_per_minute": 106.67,
@@ -2377,7 +2329,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 70,
+    "tasks_needed": 67,
     "verified_count": 5
   },
   "highest_lp_per_minute": [
@@ -2625,22 +2577,6 @@
       "points": 200,
       "recommendation_grade": "B",
       "region": "Global",
-      "status": "inferred_candidate",
-      "tier": "elite",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
-      "id": 264,
-      "items_to_prepare": [],
-      "lp_per_minute": 600.0,
-      "name": "Equip a full set of Bandos armour.",
-      "points": 200,
-      "recommendation_grade": "B",
-      "region": "Asgarnia",
       "status": "inferred_candidate",
       "tier": "elite",
       "unknown_checks": []
@@ -3188,6 +3124,22 @@
       "status": "inferred_candidate",
       "tier": "hard",
       "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 20,
+      "id": 225,
+      "items_to_prepare": [],
+      "lp_per_minute": 90.0,
+      "name": "Equip a defender.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Asgarnia",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
     }
   ],
   "manual_checks": [
@@ -3266,7 +3218,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 70,
+    "remaining_tasks": 67,
     "tasks": 400
   },
   "schema_version": 1

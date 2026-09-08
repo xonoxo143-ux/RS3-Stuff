@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-08T14:36:30.243Z**
+Updated: **2026-09-08T16:14:16.628Z**
 
 ## Current
 
-- **330 tasks**
-- **15,510 LP**
-- **Total level 2,358**
+- **333 tasks**
+- **15,990 LP**
+- **Total level 2,364**
 - **Relic T6**
 - **16 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **70 tasks** to the next region slot
-- **4,490 LP** to T7
+- **67 tasks** to the next region slot
+- **4,010 LP** to T7
 - **4 blessing tasks** to t6
 
 ## Suggested sprint
 
-Tracker selected **70** of the **70** tasks currently needed.
+Tracker selected **67** of the **67** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
@@ -26,7 +26,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 - [596] Claim a ticket from Brimhaven Agility Arena. — Grade B, ~30s, brimhaven, 10 LP
 - [602] Enter the Brimhaven Dungeon. — Grade B, ~30s, brimhaven_dungeon, 10 LP
 - [601] Pick a pineapple on Karamja. — Grade B, ~30s, karamja, 10 LP
-- [606] Catch a salmon on Karamja. — Grade B, ~45s, karamja, 30 LP
 - [54] Use the range in Lumbridge Castle to bake a cake. — Grade A, ~60s, lumbridge, 30 LP
 - [14] Equip the full master runecrafter skilling outfit. — Grade B, ~20s, unclustered, 80 LP
 - [61] Equip a dragon crossbow. — Grade B, ~20s, unclustered, 200 LP
@@ -36,7 +35,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 - [225] Equip a defender. — Grade B, ~20s, unclustered, 30 LP
 - [250] Equip a seismic wand or seismic singularity. — Grade B, ~20s, unclustered, 200 LP
 - [253] Equip a piece of masterwork melee armour. — Grade B, ~20s, unclustered, 200 LP
-- [264] Equip a full set of Bandos armour. — Grade B, ~20s, unclustered, 200 LP
 - [267] Equip a piece of Torva, Pernix or Virtus armour. — Grade B, ~20s, unclustered, 200 LP
 - [317] Equip a drygore weapon. — Grade B, ~20s, unclustered, 80 LP
 - [377] Equip a full set of graahk, larupia or kyatt hunter gear. — Grade B, ~20s, unclustered, 30 LP
@@ -83,7 +81,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 - [1186] Search a hollow tree within the Highweald forest. — Grade B, ~30s, unclustered, 30 LP
 - [1192] Use a clockwork box trap to catch a grenwall in a kebbit encounter. — Grade B, ~30s, unclustered, 30 LP
 - [1212] Speak to Inanna with the Anzagar pet present. — Grade B, ~30s, unclustered, 200 LP
-- [306] Catch a catfish. — Grade B, ~45s, unclustered, 30 LP
 - [635] Catch a draconic jadinko at Herblore Habitat. — Grade B, ~45s, unclustered, 80 LP
 - [978] Catch a spirit impling. — Grade B, ~45s, unclustered, 80 LP
 - [1049] Catch a cavefish. — Grade B, ~45s, unclustered, 200 LP

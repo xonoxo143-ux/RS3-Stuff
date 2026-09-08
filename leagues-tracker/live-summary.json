@@ -159,6 +159,7 @@
     258,
     259,
     263,
+    264,
     265,
     266,
     274,
@@ -186,6 +187,7 @@
     324,
     325,
     326,
+    330,
     341,
     342,
     346,
@@ -312,6 +314,7 @@
     1114,
     1118,
     1121,
+    1128,
     1141,
     1143,
     1146,
@@ -341,7 +344,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 330,
+  "completed_tasks": 333,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -360,9 +363,30 @@
     805,
     988
   ],
-  "league_points": 15510,
+  "league_points": 15990,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [],
+  "level_ups_since_previous_live_sync": [
+    {
+      "from": 111,
+      "skill": "Ranged",
+      "to": 113
+    },
+    {
+      "from": 87,
+      "skill": "Magic",
+      "to": 88
+    },
+    {
+      "from": 82,
+      "skill": "Smithing",
+      "to": 84
+    },
+    {
+      "from": 71,
+      "skill": "Summoning",
+      "to": 72
+    }
+  ],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -381,22 +405,57 @@
     "Herblore": 82,
     "Hunter": 50,
     "Invention": 120,
-    "Magic": 87,
+    "Magic": 88,
     "Mining": 86,
     "Necromancy": 107,
     "Prayer": 99,
-    "Ranged": 111,
+    "Ranged": 113,
     "Runecrafting": 73,
     "Slayer": 79,
-    "Smithing": 82,
+    "Smithing": 84,
     "Strength": 80,
-    "Summoning": 71,
+    "Summoning": 72,
     "Thieving": 120,
     "Woodcutting": 72
   },
-  "mapped_completed_tasks": 330,
-  "new_task_ids_since_previous_live_sync": [],
-  "new_tasks_since_previous_live_sync": [],
+  "mapped_completed_tasks": 333,
+  "new_task_ids_since_previous_live_sync": [
+    264,
+    330,
+    1128
+  ],
+  "new_tasks_since_previous_live_sync": [
+    {
+      "blessing_task": false,
+      "description": "Equip a full set of Bandos armour.",
+      "id": 264,
+      "issue": null,
+      "name": "Equip a full set of Bandos armour.",
+      "points": 200,
+      "region": "Asgarnia",
+      "tier": "elite"
+    },
+    {
+      "blessing_task": false,
+      "description": "Defeat Helwyr 50 times.",
+      "id": 330,
+      "issue": null,
+      "name": "Defeat Helwyr.",
+      "points": 80,
+      "region": "Desert",
+      "tier": "hard"
+    },
+    {
+      "blessing_task": false,
+      "description": "Obtain 50 million Ranged XP.",
+      "id": 1128,
+      "issue": null,
+      "name": "Obtain 50 million Ranged XP.",
+      "points": 200,
+      "region": "Global",
+      "tier": "elite"
+    }
+  ],
   "next_blessing": {
     "remaining_tasks": 4,
     "step": "t6",
@@ -405,11 +464,11 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 70,
+    "remaining_tasks": 67,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 4490,
+    "remaining_points": 4010,
     "threshold": 20000,
     "tier": 7
   },
@@ -425,9 +484,9 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-08T14:36:30.243Z",
-  "total_level": 2358,
+  "task_delta_since_previous_live_sync": 3,
+  "timestamp_utc": "2026-09-08T16:14:16.628Z",
+  "total_level": 2364,
   "tracker_health": "warning",
   "unmapped_completed_task_ids": []
 }

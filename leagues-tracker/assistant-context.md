@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-08T14:36:30.243Z**
+Updated: **2026-09-08T16:14:16.628Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-08T14:36:30.243Z**
 
 ## Current snapshot
 
-- **15,510 LP** · **330 tasks** · total level **2,358**
+- **15,990 LP** · **333 tasks** · total level **2,364**
 - **16 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **70 tasks** to 400
-- Next relic: **4,490 LP** to T7
+- Next region: **67 tasks** to 400
+- Next relic: **4,010 LP** to T7
 - Next blessing step: **4** to t6
 
 ## Active relics
@@ -165,13 +165,17 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
+- Tasks: **+3** · LP: **+480**
+- [264] Equip a full set of Bandos armour. — elite, Asgarnia, 200 LP
+- [330] Defeat Helwyr. — hard, Desert, 80 LP
+- [1128] Obtain 50 million Ranged XP. — elite, Global, 200 LP
+- Level-ups: Ranged 111→113; Magic 87→88; Smithing 82→84; Summoning 71→72
 
 ## Current task sprint
 
-- Need: **70 tasks**
-- Precomputed sprint: **70 tasks** (5 Grade A, 65 Grade B)
-- Action-time estimate excluding travel: **1815 sec**
+- Need: **67 tasks**
+- Precomputed sprint: **67 tasks** (5 Grade A, 62 Grade B)
+- Action-time estimate excluding travel: **1705 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -180,7 +184,6 @@ Passive step effects:
 - [596] **Claim a ticket from Brimhaven Agility Arena.** — Grade B · ~30s · brimhaven
 - [602] **Enter the Brimhaven Dungeon.** — Grade B · ~30s · brimhaven_dungeon
 - [601] **Pick a pineapple on Karamja.** — Grade B · ~30s · karamja
-- [606] **Catch a salmon on Karamja.** — Grade B · ~45s · karamja
 - [54] **Use the range in Lumbridge Castle to bake a cake.** — Grade A · ~60s · lumbridge
 - [14] **Equip the full master runecrafter skilling outfit.** — Grade B · ~20s · unclustered
 - [61] **Equip a dragon crossbow.** — Grade B · ~20s · unclustered
@@ -190,7 +193,6 @@ Passive step effects:
 - [225] **Equip a defender.** — Grade B · ~20s · unclustered
 - [250] **Equip a seismic wand or seismic singularity.** — Grade B · ~20s · unclustered
 - [253] **Equip a piece of masterwork melee armour.** — Grade B · ~20s · unclustered
-- [264] **Equip a full set of Bandos armour.** — Grade B · ~20s · unclustered
 - [267] **Equip a piece of Torva, Pernix or Virtus armour.** — Grade B · ~20s · unclustered
 - [317] **Equip a drygore weapon.** — Grade B · ~20s · unclustered
 - [377] **Equip a full set of graahk, larupia or kyatt hunter gear.** — Grade B · ~20s · unclustered
@@ -203,17 +205,19 @@ Passive step effects:
 - [652] **Equip a piece of gemstone armour.** — Grade B · ~20s · unclustered
 - [694] **Equip a pair of Steadfast boots.** — Grade B · ~20s · unclustered
 - [695] **Equip a pair of Glaiven boots.** — Grade B · ~20s · unclustered
+- [696] **Equip a pair of Ragefire boots.** — Grade B · ~20s · unclustered
+- [882] **Equip an iron crossbow.** — Grade B · ~20s · unclustered
 
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **5**
-- Timed Grade-B inferred candidates: **87**
-- Metadata sources: `{'manual_override': 8, 'none': 662, 'text_inference': 152}`
+- Timed Grade-B inferred candidates: **86**
+- Metadata sources: `{'manual_override': 8, 'none': 660, 'text_inference': 151}`
 
 ## Data health
 
 - Overall: **warning**
-- WikiSync: **fresh** · 2026-09-08T14:36:30.243Z
+- WikiSync: **fresh** · 2026-09-08T16:14:16.628Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 - WARNING `unrecorded_blessing_choice`: Blessing t1 is unlocked but no path choice is recorded.

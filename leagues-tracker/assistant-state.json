@@ -151,6 +151,7 @@
       258,
       259,
       263,
+      264,
       265,
       266,
       274,
@@ -178,6 +179,7 @@
       324,
       325,
       326,
+      330,
       341,
       342,
       346,
@@ -304,6 +306,7 @@
       1114,
       1118,
       1121,
+      1128,
       1141,
       1143,
       1146,
@@ -333,9 +336,9 @@
       1250,
       1271
     ],
-    "completed_tasks": 330,
+    "completed_tasks": 333,
     "league": "Leagues II: Equilibrium",
-    "league_points": 15510,
+    "league_points": 15990,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
@@ -355,22 +358,22 @@
       "Herblore": 82,
       "Hunter": 50,
       "Invention": 120,
-      "Magic": 87,
+      "Magic": 88,
       "Mining": 86,
       "Necromancy": 107,
       "Prayer": 99,
-      "Ranged": 111,
+      "Ranged": 113,
       "Runecrafting": 73,
       "Slayer": 79,
-      "Smithing": 82,
+      "Smithing": 84,
       "Strength": 80,
-      "Summoning": 71,
+      "Summoning": 72,
       "Thieving": 120,
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T14:36:30.243Z",
-    "total_level": 2358
+    "timestamp_utc": "2026-09-08T16:14:16.628Z",
+    "total_level": 2364
   },
   "blessings": {
     "derived_god_choices": {
@@ -529,11 +532,67 @@
     ]
   },
   "changes": {
-    "league_points_delta": 0,
-    "level_ups": [],
-    "new_task_ids": [],
-    "new_tasks": [],
-    "task_delta": 0
+    "league_points_delta": 480,
+    "level_ups": [
+      {
+        "from": 111,
+        "skill": "Ranged",
+        "to": 113
+      },
+      {
+        "from": 87,
+        "skill": "Magic",
+        "to": 88
+      },
+      {
+        "from": 82,
+        "skill": "Smithing",
+        "to": 84
+      },
+      {
+        "from": 71,
+        "skill": "Summoning",
+        "to": 72
+      }
+    ],
+    "new_task_ids": [
+      264,
+      330,
+      1128
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "description": "Equip a full set of Bandos armour.",
+        "id": 264,
+        "issue": null,
+        "name": "Equip a full set of Bandos armour.",
+        "points": 200,
+        "region": "Asgarnia",
+        "tier": "elite"
+      },
+      {
+        "blessing_task": false,
+        "description": "Defeat Helwyr 50 times.",
+        "id": 330,
+        "issue": null,
+        "name": "Defeat Helwyr.",
+        "points": 80,
+        "region": "Desert",
+        "tier": "hard"
+      },
+      {
+        "blessing_task": false,
+        "description": "Obtain 50 million Ranged XP.",
+        "id": 1128,
+        "issue": null,
+        "name": "Obtain 50 million Ranged XP.",
+        "points": 200,
+        "region": "Global",
+        "tier": "elite"
+      }
+    ],
+    "task_delta": 3
   },
   "forgotten_finish_opportunities": {
     "count": 4,
@@ -641,7 +700,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T14:36:30.243Z",
+    "generated_at_utc": "2026-09-08T16:14:16.628Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -670,24 +729,24 @@
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 8,
-        "none": 662,
-        "text_inference": 152
+        "none": 660,
+        "text_inference": 151
       },
       "status_counts": {
-        "accessible_requirements_unknown": 283,
+        "accessible_requirements_unknown": 281,
         "blocked": 32,
         "excluded": 7,
-        "inferred_candidate": 120,
+        "inferred_candidate": 119,
         "known_issue": 2,
         "locked_region": 370,
         "manual_check": 3,
         "verified_ready": 5
       },
-      "timed_inferred_candidates": 87,
+      "timed_inferred_candidates": 86,
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 48105,
+      "age_seconds_at_generation": 53971,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -697,7 +756,7 @@
         "removed_task_ids": [],
         "status": "unchanged"
       },
-      "mapped_completed_tasks": 330,
+      "mapped_completed_tasks": 333,
       "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
@@ -709,7 +768,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T14:36:30.243Z"
+      "timestamp": "2026-09-08T16:14:16.628Z"
     }
   },
   "manual": {
@@ -870,11 +929,11 @@
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 70,
+      "remaining_tasks": 67,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 4490,
+      "remaining_points": 4010,
       "threshold": 20000,
       "tier": 7
     },
@@ -1094,22 +1153,22 @@
   },
   "schema_version": 2,
   "tasks": {
-    "inferred_candidate_count": 120,
+    "inferred_candidate_count": 119,
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 283,
+    "requirements_unknown_count": 281,
     "status_counts": {
-      "accessible_requirements_unknown": 283,
+      "accessible_requirements_unknown": 281,
       "blocked": 32,
       "excluded": 7,
-      "inferred_candidate": 120,
+      "inferred_candidate": 119,
       "known_issue": 2,
       "locked_region": 370,
       "manual_check": 3,
       "verified_ready": 5
     },
-    "unfinished_count": 822,
+    "unfinished_count": 819,
     "verified_ready_count": 5
   }
 }
