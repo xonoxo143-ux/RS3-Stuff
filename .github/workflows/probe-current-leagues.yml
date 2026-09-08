@@ -50,8 +50,9 @@ jobs:
           if ! curl -fsS -L --compressed -A "$UA" -H 'Cache-Control: no-cache' \
             -o leagues-tracker-112321-2/live-wikisync.json.tmp \
             'https://sync.runescape.wiki/runescape/player/112321-2/LEAGUE_2'; then
-            echo 'Warning: WikiSync refresh for 112321-2 failed; keeping cached state.'
+            echo 'Warning: WikiSync refresh for 112321-2 failed; skipping F2P tracker for this run.'
             rm -f leagues-tracker-112321-2/live-wikisync.json.tmp
+            touch .skip-f2p-tracker
           else
             mv leagues-tracker-112321-2/live-wikisync.json.tmp leagues-tracker-112321-2/live-wikisync.json
           fi
@@ -78,12 +79,20 @@ jobs:
       - name: Build tracker intelligence
         run: |
           python3 leagues-tracker/tracker.py
-          python3 leagues-tracker-112321-2/tracker.py
+          if [ -f .skip-f2p-tracker ]; then
+            echo 'Skipping 112321-2 tracker build because WikiSync data is unavailable.'
+          else
+            python3 leagues-tracker-112321-2/tracker.py
+          fi
 
       - name: Detect forgotten finishes
         run: |
           python3 leagues-tracker/opportunity_detector.py
-          python3 leagues-tracker-112321-2/opportunity_detector.py
+          if [ -f .skip-f2p-tracker ]; then
+            echo 'Skipping 112321-2 opportunity detection because WikiSync data is unavailable.'
+          else
+            python3 leagues-tracker-112321-2/opportunity_detector.py
+          fi
 
       - name: Validate tracker invariants
         run: |
