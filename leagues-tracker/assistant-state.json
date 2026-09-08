@@ -359,7 +359,7 @@
       "Herblore": 82,
       "Hunter": 50,
       "Invention": 120,
-      "Magic": 89,
+      "Magic": 90,
       "Mining": 86,
       "Necromancy": 107,
       "Prayer": 99,
@@ -373,8 +373,8 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T18:44:45.933Z",
-    "total_level": 2390
+    "timestamp_utc": "2026-09-08T19:03:52.551Z",
+    "total_level": 2391
   },
   "blessings": {
     "derived_god_choices": {
@@ -545,19 +545,9 @@
     "league_points_delta": 0,
     "level_ups": [
       {
-        "from": 90,
-        "skill": "Attack",
-        "to": 91
-      },
-      {
-        "from": 90,
-        "skill": "Strength",
-        "to": 91
-      },
-      {
-        "from": 88,
+        "from": 89,
         "skill": "Magic",
-        "to": 89
+        "to": 90
       }
     ],
     "new_task_ids": [],
@@ -670,7 +660,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T18:44:45.933Z",
+    "generated_at_utc": "2026-09-08T19:03:52.551Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -703,7 +693,7 @@
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 63001,
+      "age_seconds_at_generation": 64148,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -725,7 +715,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T18:44:45.933Z"
+      "timestamp": "2026-09-08T19:03:52.551Z"
     }
   },
   "manual": {

@@ -1,12 +1,12 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-08T18:44:45.933Z**
+Updated: **2026-09-08T19:03:52.551Z**
 
 ## Current
 
 - **334 tasks**
 - **16,020 LP**
-- **Total level 2,390**
+- **Total level 2,391**
 - **Relic T6**
 - **16 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia

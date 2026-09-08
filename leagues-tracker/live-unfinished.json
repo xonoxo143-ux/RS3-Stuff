@@ -13,7 +13,7 @@
     "manual_check": 3,
     "verified_ready": 5
   },
-  "timestamp_utc": "2026-09-08T18:44:45.933Z",
+  "timestamp_utc": "2026-09-08T19:03:52.551Z",
   "unfinished_task_count": 818,
   "unfinished_tasks": [
     {
@@ -16905,8 +16905,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 89,
-          "gap": 10,
+          "current": 90,
+          "gap": 9,
           "required": 99,
           "skill": "Magic",
           "type": "skill"
