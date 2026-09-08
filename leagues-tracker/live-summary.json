@@ -365,13 +365,7 @@
   ],
   "league_points": 15990,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 88,
-      "skill": "Cooking",
-      "to": 91
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -435,7 +429,7 @@
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
   "task_delta_since_previous_live_sync": 0,
-  "timestamp_utc": "2026-09-08T16:25:31.066Z",
+  "timestamp_utc": "2026-09-08T16:25:55.282Z",
   "total_level": 2367,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []

@@ -372,7 +372,7 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T16:25:31.066Z",
+    "timestamp_utc": "2026-09-08T16:25:55.282Z",
     "total_level": 2367
   },
   "blessings": {
@@ -542,13 +542,7 @@
   },
   "changes": {
     "league_points_delta": 0,
-    "level_ups": [
-      {
-        "from": 88,
-        "skill": "Cooking",
-        "to": 91
-      }
-    ],
+    "level_ups": [],
     "new_task_ids": [],
     "new_tasks": [],
     "task_delta": 0
@@ -659,7 +653,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T16:25:31.066Z",
+    "generated_at_utc": "2026-09-08T16:25:55.282Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -692,7 +686,7 @@
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 54646,
+      "age_seconds_at_generation": 54669,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -714,7 +708,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T16:25:31.066Z"
+      "timestamp": "2026-09-08T16:25:55.282Z"
     }
   },
   "manual": {
