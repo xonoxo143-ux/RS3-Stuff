@@ -373,7 +373,7 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T19:03:52.551Z",
+    "timestamp_utc": "2026-09-08T19:04:24.286Z",
     "total_level": 2391
   },
   "blessings": {
@@ -543,13 +543,7 @@
   },
   "changes": {
     "league_points_delta": 0,
-    "level_ups": [
-      {
-        "from": 89,
-        "skill": "Magic",
-        "to": 90
-      }
-    ],
+    "level_ups": [],
     "new_task_ids": [],
     "new_tasks": [],
     "task_delta": 0
@@ -660,7 +654,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T19:03:52.551Z",
+    "generated_at_utc": "2026-09-08T19:04:24.286Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -693,7 +687,7 @@
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 64148,
+      "age_seconds_at_generation": 64179,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -709,13 +703,13 @@
       "unmapped_completed_task_ids": []
     },
     "wikisync": {
-      "age_seconds_at_generation": 1,
+      "age_seconds_at_generation": 0,
       "authoritative_for": [
         "completed_task_ids",
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T19:03:52.551Z"
+      "timestamp": "2026-09-08T19:04:24.286Z"
     }
   },
   "manual": {
