@@ -369,7 +369,7 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-08T09:46:35.016Z",
+    "timestamp_utc": "2026-09-08T14:03:47.914Z",
     "total_level": 2358
   },
   "blessings": {
@@ -530,13 +530,7 @@
   },
   "changes": {
     "league_points_delta": 0,
-    "level_ups": [
-      {
-        "from": 110,
-        "skill": "Ranged",
-        "to": 111
-      }
-    ],
+    "level_ups": [],
     "new_task_ids": [],
     "new_tasks": [],
     "task_delta": 0
@@ -647,7 +641,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-08T09:46:35.016Z",
+    "generated_at_utc": "2026-09-08T14:03:47.914Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -693,7 +687,7 @@
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 30710,
+      "age_seconds_at_generation": 46143,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -709,13 +703,13 @@
       "unmapped_completed_task_ids": []
     },
     "wikisync": {
-      "age_seconds_at_generation": 0,
+      "age_seconds_at_generation": 1,
       "authoritative_for": [
         "completed_task_ids",
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-08T09:46:35.016Z"
+      "timestamp": "2026-09-08T14:03:47.914Z"
     }
   },
   "manual": {
@@ -838,6 +832,17 @@
       "chain_nearby_tasks": true,
       "compare_direct_walk_vs_teleports": true,
       "cross_check_maps_when_directions_are_uncertain": true,
+      "group_content_policy": {
+        "examples": [
+          "Croesus",
+          "Vorago",
+          "Nex: Angel of Death",
+          "Liberation of Mazcab/Raids",
+          "other content whose practical completion depends on finding teammates"
+        ],
+        "priority": "strongly_deprioritize",
+        "rule": "Treat group-dependent activities as effectively unavailable during the League unless the user explicitly confirms an active group. Prefer soloable alternatives even when the group method is nominally faster or stronger."
+      },
       "preferred_teleport_systems": [
         "lodestones",
         "Abyssal Conduit"
