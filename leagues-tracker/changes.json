@@ -1,36 +1,7 @@
 {
-  "league_points_delta": 10,
-  "level_ups": [
-    {
-      "from": 91,
-      "skill": "Attack",
-      "to": 95
-    },
-    {
-      "from": 91,
-      "skill": "Strength",
-      "to": 95
-    },
-    {
-      "from": 79,
-      "skill": "Slayer",
-      "to": 80
-    }
-  ],
-  "new_task_ids": [
-    227
-  ],
-  "new_tasks": [
-    {
-      "blessing_task": false,
-      "description": "Kill 15 goblins in the Goblin Village to spawn a goblin raider boss.",
-      "id": 227,
-      "issue": null,
-      "name": "Kill a goblin raider boss in the Goblin Village.",
-      "points": 10,
-      "region": "Asgarnia",
-      "tier": "easy"
-    }
-  ],
-  "task_delta": 1
+  "league_points_delta": 0,
+  "level_ups": [],
+  "new_task_ids": [],
+  "new_tasks": [],
+  "task_delta": 0
 }

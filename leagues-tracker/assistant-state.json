@@ -390,7 +390,7 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-09T19:49:16.954Z",
+    "timestamp_utc": "2026-09-09T22:35:51.837Z",
     "total_level": 2434
   },
   "blessings": {
@@ -559,40 +559,11 @@
     ]
   },
   "changes": {
-    "league_points_delta": 10,
-    "level_ups": [
-      {
-        "from": 91,
-        "skill": "Attack",
-        "to": 95
-      },
-      {
-        "from": 91,
-        "skill": "Strength",
-        "to": 95
-      },
-      {
-        "from": 79,
-        "skill": "Slayer",
-        "to": 80
-      }
-    ],
-    "new_task_ids": [
-      227
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Kill 15 goblins in the Goblin Village to spawn a goblin raider boss.",
-        "id": 227,
-        "issue": null,
-        "name": "Kill a goblin raider boss in the Goblin Village.",
-        "points": 10,
-        "region": "Asgarnia",
-        "tier": "easy"
-      }
-    ],
-    "task_delta": 1
+    "league_points_delta": 0,
+    "level_ups": [],
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "forgotten_finish_opportunities": {
     "count": 6,
@@ -742,7 +713,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-09T19:49:16.954Z",
+    "generated_at_utc": "2026-09-09T22:35:51.837Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -774,7 +745,7 @@
       "timed_verified_tasks": 0
     },
     "task_catalog": {
-      "age_seconds_at_generation": 153272,
+      "age_seconds_at_generation": 163267,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -796,7 +767,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-09T19:49:16.954Z"
+      "timestamp": "2026-09-09T22:35:51.837Z"
     }
   },
   "manual": {
