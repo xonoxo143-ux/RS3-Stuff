@@ -1,10 +1,10 @@
 {
-  "completed_task_count": 335,
+  "completed_task_count": 336,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
   "status_counts": {
-    "accessible_requirements_unknown": 280,
+    "accessible_requirements_unknown": 279,
     "blocked": 32,
     "excluded": 7,
     "inferred_candidate": 118,
@@ -13,8 +13,8 @@
     "manual_check": 3,
     "verified_ready": 5
   },
-  "timestamp_utc": "2026-09-08T23:34:58.476Z",
-  "unfinished_task_count": 817,
+  "timestamp_utc": "2026-09-09T00:18:56.780Z",
+  "unfinished_task_count": 816,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -1180,28 +1180,6 @@
       "lp_per_minute": null,
       "metadata_source": "none",
       "name": "Mine 50 dark animica from the Empty Throne Room.",
-      "points": 80,
-      "recommendation_grade": "U",
-      "region": "Misthalin",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "hard",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Defeat Kerapac, the bound once.",
-      "estimated_seconds": null,
-      "id": 122,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Defeat Kerapac, the bound.",
       "points": 80,
       "recommendation_grade": "U",
       "region": "Misthalin",

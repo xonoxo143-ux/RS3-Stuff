@@ -323,11 +323,11 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 8,
-      "none": 659,
+      "none": 658,
       "text_inference": 150
     },
     "status_counts": {
-      "accessible_requirements_unknown": 280,
+      "accessible_requirements_unknown": 279,
       "blocked": 32,
       "excluded": 7,
       "inferred_candidate": 118,
@@ -1237,8 +1237,8 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 1615,
-    "inferred_count": 60,
+    "estimated_action_seconds_excluding_travel": 1570,
+    "inferred_count": 59,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [
       "bronze bolts/materials",
@@ -1246,7 +1246,7 @@
       "bread ingredients",
       "cake ingredients"
     ],
-    "selected_count": 65,
+    "selected_count": 64,
     "tasks": [
       {
         "blockers": [],
@@ -2279,25 +2279,9 @@
         "status": "inferred_candidate",
         "tier": "elite",
         "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 45,
-        "id": 1054,
-        "items_to_prepare": [],
-        "lp_per_minute": 266.67,
-        "name": "Catch a kingly impling.",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
       }
     ],
-    "tasks_needed": 65,
+    "tasks_needed": 64,
     "verified_count": 5
   },
   "highest_lp_per_minute": [
@@ -3186,7 +3170,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 65,
+    "remaining_tasks": 64,
     "tasks": 400
   },
   "schema_version": 1

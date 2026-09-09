@@ -1,24 +1,18 @@
 {
   "league_points_delta": 80,
-  "level_ups": [
-    {
-      "from": 113,
-      "skill": "Ranged",
-      "to": 115
-    }
-  ],
+  "level_ups": [],
   "new_task_ids": [
-    327
+    122
   ],
   "new_tasks": [
     {
       "blessing_task": false,
-      "description": "Defeat Gregorovic 50 times.",
-      "id": 327,
+      "description": "Defeat Kerapac, the bound once.",
+      "id": 122,
       "issue": null,
-      "name": "Defeat Gregorovic.",
+      "name": "Defeat Kerapac, the bound.",
       "points": 80,
-      "region": "Desert",
+      "region": "Misthalin",
       "tier": "hard"
     }
   ],

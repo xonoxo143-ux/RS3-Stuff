@@ -70,6 +70,7 @@
     115,
     116,
     117,
+    122,
     125,
     131,
     133,
@@ -346,7 +347,7 @@
     1250,
     1271
   ],
-  "completed_tasks": 335,
+  "completed_tasks": 336,
   "confirmed_unlocked_regions": [
     "Misthalin",
     "Havenhythe",
@@ -365,15 +366,9 @@
     805,
     988
   ],
-  "league_points": 16100,
+  "league_points": 16180,
   "league_points_source": "mapped completed-task point sum",
-  "level_ups_since_previous_live_sync": [
-    {
-      "from": 113,
-      "skill": "Ranged",
-      "to": 115
-    }
-  ],
+  "level_ups_since_previous_live_sync": [],
   "levels": {
     "Agility": 99,
     "Archaeology": 60,
@@ -405,19 +400,19 @@
     "Thieving": 120,
     "Woodcutting": 72
   },
-  "mapped_completed_tasks": 335,
+  "mapped_completed_tasks": 336,
   "new_task_ids_since_previous_live_sync": [
-    327
+    122
   ],
   "new_tasks_since_previous_live_sync": [
     {
       "blessing_task": false,
-      "description": "Defeat Gregorovic 50 times.",
-      "id": 327,
+      "description": "Defeat Kerapac, the bound once.",
+      "id": 122,
       "issue": null,
-      "name": "Defeat Gregorovic.",
+      "name": "Defeat Kerapac, the bound.",
       "points": 80,
-      "region": "Desert",
+      "region": "Misthalin",
       "tier": "hard"
     }
   ],
@@ -429,11 +424,11 @@
   "next_region": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 65,
+    "remaining_tasks": 64,
     "tasks": 400
   },
   "next_relic": {
-    "remaining_points": 3900,
+    "remaining_points": 3820,
     "threshold": 20000,
     "tier": 7
   },
@@ -450,7 +445,7 @@
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
   "task_delta_since_previous_live_sync": 1,
-  "timestamp_utc": "2026-09-08T23:34:58.476Z",
+  "timestamp_utc": "2026-09-09T00:18:56.780Z",
   "total_level": 2423,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []

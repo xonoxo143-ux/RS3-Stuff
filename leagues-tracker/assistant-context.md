@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-08T23:34:58.476Z**
+Updated: **2026-09-09T00:18:56.780Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-08T23:34:58.476Z**
 
 ## Current snapshot
 
-- **16,100 LP** · **335 tasks** · total level **2,423**
+- **16,180 LP** · **336 tasks** · total level **2,423**
 - **16 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **65 tasks** to 400
-- Next relic: **3,900 LP** to T7
+- Next region: **64 tasks** to 400
+- Next relic: **3,820 LP** to T7
 - Next blessing step: **4** to t6
 
 ## Active relics
@@ -171,14 +171,13 @@ Passive step effects:
 ## Changes
 
 - Tasks: **+1** · LP: **+80**
-- [327] Defeat Gregorovic. — hard, Desert, 80 LP
-- Level-ups: Ranged 113→115
+- [122] Defeat Kerapac, the bound. — hard, Misthalin, 80 LP
 
 ## Current task sprint
 
-- Need: **65 tasks**
-- Precomputed sprint: **65 tasks** (5 Grade A, 60 Grade B)
-- Action-time estimate excluding travel: **1615 sec**
+- Need: **64 tasks**
+- Precomputed sprint: **64 tasks** (5 Grade A, 59 Grade B)
+- Action-time estimate excluding travel: **1570 sec**
 - Prep: bronze bolts/materials, potato, bread ingredients, cake ingredients
 - [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
 - [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
@@ -215,12 +214,12 @@ Passive step effects:
 
 - Timed Grade-A tasks: **5**
 - Timed Grade-B inferred candidates: **86**
-- Metadata sources: `{'manual_override': 8, 'none': 659, 'text_inference': 150}`
+- Metadata sources: `{'manual_override': 8, 'none': 658, 'text_inference': 150}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-08T23:34:58.476Z
+- WikiSync: **fresh** · 2026-09-09T00:18:56.780Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 

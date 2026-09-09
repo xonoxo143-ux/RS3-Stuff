@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-08T23:34:58.476Z**
+Updated: **2026-09-09T00:18:56.780Z**
 
 ## Current
 
-- **335 tasks**
-- **16,100 LP**
+- **336 tasks**
+- **16,180 LP**
 - **Total level 2,423**
 - **Relic T6**
 - **16 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **65 tasks** to the next region slot
-- **3,900 LP** to T7
+- **64 tasks** to the next region slot
+- **3,820 LP** to T7
 - **4 blessing tasks** to t6
 
 ## Suggested sprint
 
-Tracker selected **65** of the **65** tasks currently needed.
+Tracker selected **64** of the **64** tasks currently needed.
 Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 
 - [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
@@ -83,7 +83,6 @@ Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 - [1212] Speak to Inanna with the Anzagar pet present. — Grade B, ~30s, unclustered, 200 LP
 - [1049] Catch a cavefish. — Grade B, ~45s, unclustered, 200 LP
 - [1053] Catch a dragon impling. — Grade B, ~45s, unclustered, 200 LP
-- [1054] Catch a kingly impling. — Grade B, ~45s, unclustered, 200 LP
 
 ## Best clusters
 
