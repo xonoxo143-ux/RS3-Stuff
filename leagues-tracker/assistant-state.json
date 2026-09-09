@@ -147,6 +147,7 @@
       222,
       223,
       224,
+      227,
       229,
       231,
       232,
@@ -353,14 +354,14 @@
       1250,
       1271
     ],
-    "completed_tasks": 350,
+    "completed_tasks": 351,
     "league": "Leagues II: Equilibrium",
-    "league_points": 16380,
+    "league_points": 16390,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
       "Archaeology": 60,
-      "Attack": 91,
+      "Attack": 95,
       "Constitution": 99,
       "Construction": 60,
       "Cooking": 91,
@@ -381,16 +382,16 @@
       "Prayer": 99,
       "Ranged": 115,
       "Runecrafting": 73,
-      "Slayer": 79,
+      "Slayer": 80,
       "Smithing": 84,
-      "Strength": 91,
+      "Strength": 95,
       "Summoning": 73,
       "Thieving": 120,
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-09T16:43:09.689Z",
-    "total_level": 2425
+    "timestamp_utc": "2026-09-09T19:49:16.954Z",
+    "total_level": 2434
   },
   "blessings": {
     "derived_god_choices": {
@@ -558,181 +559,43 @@
     ]
   },
   "changes": {
-    "league_points_delta": 200,
+    "league_points_delta": 10,
     "level_ups": [
       {
-        "from": 90,
-        "skill": "Magic",
-        "to": 91
+        "from": 91,
+        "skill": "Attack",
+        "to": 95
       },
       {
-        "from": 86,
-        "skill": "Mining",
-        "to": 87
+        "from": 91,
+        "skill": "Strength",
+        "to": 95
+      },
+      {
+        "from": 79,
+        "skill": "Slayer",
+        "to": 80
       }
     ],
     "new_task_ids": [
-      54,
-      212,
-      223,
-      224,
-      229,
-      231,
-      232,
-      288,
-      602,
-      603,
-      822,
-      838,
-      1197,
-      1198
+      227
     ],
     "new_tasks": [
       {
         "blessing_task": false,
-        "description": "Use the range in Lumbridge Castle to bake a cake.",
-        "id": 54,
+        "description": "Kill 15 goblins in the Goblin Village to spawn a goblin raider boss.",
+        "id": 227,
         "issue": null,
-        "name": "Use the range in Lumbridge Castle to bake a cake.",
-        "points": 30,
-        "region": "Misthalin",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": false,
-        "description": "Eat a baked potato. You will need to get a raw potato and cook it at a range.",
-        "id": 212,
-        "issue": null,
-        "name": "Eat a baked potato.",
-        "points": 10,
-        "region": "Global",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Complete a lap of the Burthorpe Agility Course.",
-        "id": 223,
-        "issue": null,
-        "name": "Complete a lap of the Burthorpe Agility course.",
+        "name": "Kill a goblin raider boss in the Goblin Village.",
         "points": 10,
         "region": "Asgarnia",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Enter the Warriors' Guild.",
-        "id": 224,
-        "issue": null,
-        "name": "Enter the Warriors' Guild.",
-        "points": 30,
-        "region": "Asgarnia",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": false,
-        "description": "Sit on the bench with Sir Tiffy Cashien in Falador Park. (Tiffy Time)",
-        "id": 229,
-        "issue": null,
-        "name": "Sit down with Tiffy in Falador park.",
-        "points": 10,
-        "region": "Asgarnia",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Dance in the Falador party room.",
-        "id": 231,
-        "issue": null,
-        "name": "Dance in the Falador party room.",
-        "points": 10,
-        "region": "Asgarnia",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Enter the Crafting Guild.",
-        "id": 232,
-        "issue": null,
-        "name": "Enter the Crafting Guild.",
-        "points": 30,
-        "region": "Asgarnia",
-        "tier": "medium"
-      },
-      {
-        "blessing_task": false,
-        "description": "Mine a gem rock at the Al Kharid mine. Common gem rocks can be mined with level 1 Mining.",
-        "id": 288,
-        "issue": null,
-        "name": "Mine a gem rock at the Al Kharid mine.",
-        "points": 10,
-        "region": "Desert",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Enter the Brimhaven Dungeon.",
-        "id": 602,
-        "issue": null,
-        "name": "Enter the Brimhaven Dungeon.",
-        "points": 10,
-        "region": "Karamja",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Cross the spiky pit using the stepping stones within Brimhaven Dungeon.",
-        "id": 603,
-        "issue": null,
-        "name": "Cross the spiky pit using the stepping stones within Brimhaven Dungeon.",
-        "points": 10,
-        "region": "Karamja",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Fletch 50 bronze bolts.",
-        "id": 822,
-        "issue": null,
-        "name": "Fletch 50 bronze bolts.",
-        "points": 10,
-        "region": "Global",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Make some bread. Bread dough can be created by using a pot of flour with water, it must be cooked at a range.",
-        "id": 838,
-        "issue": null,
-        "name": "Make some bread.",
-        "points": 10,
-        "region": "Global",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Mine 20 havensilver ore.",
-        "id": 1197,
-        "issue": null,
-        "name": "Mine 20 havensilver ore.",
-        "points": 10,
-        "region": "Havenhythe",
-        "tier": "easy"
-      },
-      {
-        "blessing_task": false,
-        "description": "Smith a havensilver weapon.",
-        "id": 1198,
-        "issue": null,
-        "name": "Smith a havensilver weapon.",
-        "points": 10,
-        "region": "Havenhythe",
         "tier": "easy"
       }
     ],
-    "task_delta": 14
+    "task_delta": 1
   },
   "forgotten_finish_opportunities": {
-    "count": 4,
+    "count": 6,
     "note": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. For cumulative families, completed milestones provide only a guaranteed lower bound; exact states such as 19/20 require a source that exposes that counter.",
     "source": "opportunities.json",
     "top": [
@@ -790,6 +653,48 @@
       },
       {
         "cluster": null,
+        "confidence": 0.9,
+        "estimated_seconds_if_known": null,
+        "id": 1062,
+        "name": "Reach level 99 in the Attack skill.",
+        "opportunity_score": 25,
+        "points": 200,
+        "reasons": [
+          {
+            "code": "small_skill_gap",
+            "detail": "Only 4 Attack levels remain to the task target.",
+            "gap": 4,
+            "skill": "Attack"
+          }
+        ],
+        "region": "Global",
+        "status": "blocked",
+        "suspected_remaining_effort": "unknown_check_progress",
+        "tier": "elite"
+      },
+      {
+        "cluster": null,
+        "confidence": 0.9,
+        "estimated_seconds_if_known": null,
+        "id": 1085,
+        "name": "Reach level 99 in the Strength skill.",
+        "opportunity_score": 25,
+        "points": 200,
+        "reasons": [
+          {
+            "code": "small_skill_gap",
+            "detail": "Only 4 Strength levels remain to the task target.",
+            "gap": 4,
+            "skill": "Strength"
+          }
+        ],
+        "region": "Global",
+        "status": "blocked",
+        "suspected_remaining_effort": "unknown_check_progress",
+        "tier": "elite"
+      },
+      {
+        "cluster": null,
         "confidence": 0.72,
         "estimated_seconds_if_known": null,
         "id": 851,
@@ -837,7 +742,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-09T16:43:09.689Z",
+    "generated_at_utc": "2026-09-09T19:49:16.954Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -853,11 +758,11 @@
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 3,
-        "none": 654,
+        "none": 653,
         "text_inference": 145
       },
       "status_counts": {
-        "accessible_requirements_unknown": 275,
+        "accessible_requirements_unknown": 274,
         "blocked": 32,
         "excluded": 7,
         "inferred_candidate": 113,
@@ -869,7 +774,7 @@
       "timed_verified_tasks": 0
     },
     "task_catalog": {
-      "age_seconds_at_generation": 142104,
+      "age_seconds_at_generation": 153272,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -879,19 +784,19 @@
         "removed_task_ids": [],
         "status": "unchanged"
       },
-      "mapped_completed_tasks": 350,
+      "mapped_completed_tasks": 351,
       "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
     },
     "wikisync": {
-      "age_seconds_at_generation": 0,
+      "age_seconds_at_generation": 1,
       "authoritative_for": [
         "completed_task_ids",
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-09T16:43:09.689Z"
+      "timestamp": "2026-09-09T19:49:16.954Z"
     }
   },
   "manual": {
@@ -1052,11 +957,11 @@
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 50,
+      "remaining_tasks": 49,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 3620,
+      "remaining_points": 3610,
       "threshold": 20000,
       "tier": 7
     },
@@ -1280,9 +1185,9 @@
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 275,
+    "requirements_unknown_count": 274,
     "status_counts": {
-      "accessible_requirements_unknown": 275,
+      "accessible_requirements_unknown": 274,
       "blocked": 32,
       "excluded": 7,
       "inferred_candidate": 113,
@@ -1290,7 +1195,7 @@
       "locked_region": 370,
       "manual_check": 3
     },
-    "unfinished_count": 802,
+    "unfinished_count": 801,
     "verified_ready_count": 0
   }
 }

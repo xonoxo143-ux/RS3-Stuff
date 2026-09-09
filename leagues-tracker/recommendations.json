@@ -174,11 +174,11 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 3,
-      "none": 654,
+      "none": 653,
       "text_inference": 145
     },
     "status_counts": {
-      "accessible_requirements_unknown": 275,
+      "accessible_requirements_unknown": 274,
       "blocked": 32,
       "excluded": 7,
       "inferred_candidate": 113,
@@ -998,11 +998,11 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 1060,
-    "inferred_count": 50,
+    "estimated_action_seconds_excluding_travel": 1030,
+    "inferred_count": 49,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [],
-    "selected_count": 50,
+    "selected_count": 49,
     "tasks": [
       {
         "blockers": [],
@@ -1777,22 +1777,6 @@
         "cluster": null,
         "confidence": 0.72,
         "estimated_seconds": 30,
-        "id": 1192,
-        "items_to_prepare": [],
-        "lp_per_minute": 60.0,
-        "name": "Use a clockwork box trap to catch a grenwall in a kebbit encounter.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Havenhythe",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 30,
         "id": 1212,
         "items_to_prepare": [],
         "lp_per_minute": 400.0,
@@ -1805,7 +1789,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 50,
+    "tasks_needed": 49,
     "verified_count": 0
   },
   "highest_lp_per_minute": [
@@ -2682,11 +2666,74 @@
       ]
     }
   ],
-  "nearly_unblocked": [],
+  "nearly_unblocked": [
+    {
+      "blockers": [
+        {
+          "current": 95,
+          "gap": 4,
+          "required": 99,
+          "skill": "Attack",
+          "type": "skill"
+        }
+      ],
+      "cluster": null,
+      "confidence": 0.55,
+      "estimated_seconds": null,
+      "id": 1062,
+      "items_to_prepare": [],
+      "lp_per_minute": null,
+      "name": "Reach level 99 in the Attack skill.",
+      "points": 200,
+      "recommendation_grade": "U",
+      "region": "Global",
+      "status": "blocked",
+      "tier": "elite",
+      "unknown_checks": [],
+      "unlock": {
+        "current": 95,
+        "gap": 4,
+        "required": 99,
+        "skill": "Attack",
+        "type": "skill"
+      }
+    },
+    {
+      "blockers": [
+        {
+          "current": 95,
+          "gap": 4,
+          "required": 99,
+          "skill": "Strength",
+          "type": "skill"
+        }
+      ],
+      "cluster": null,
+      "confidence": 0.55,
+      "estimated_seconds": null,
+      "id": 1085,
+      "items_to_prepare": [],
+      "lp_per_minute": null,
+      "name": "Reach level 99 in the Strength skill.",
+      "points": 200,
+      "recommendation_grade": "U",
+      "region": "Global",
+      "status": "blocked",
+      "tier": "elite",
+      "unknown_checks": [],
+      "unlock": {
+        "current": 95,
+        "gap": 4,
+        "required": 99,
+        "skill": "Strength",
+        "type": "skill"
+      }
+    }
+  ],
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 50,
+    "remaining_tasks": 49,
     "tasks": 400
   },
   "schema_version": 1

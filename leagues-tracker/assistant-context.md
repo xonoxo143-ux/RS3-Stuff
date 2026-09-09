@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-09T16:43:09.689Z**
+Updated: **2026-09-09T19:49:16.954Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-09T16:43:09.689Z**
 
 ## Current snapshot
 
-- **16,380 LP** · **350 tasks** · total level **2,425**
+- **16,390 LP** · **351 tasks** · total level **2,434**
 - **16 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **50 tasks** to 400
-- Next relic: **3,620 LP** to T7
+- Next region: **49 tasks** to 400
+- Next relic: **3,610 LP** to T7
 - Next blessing step: **4** to t6
 
 ## Active relics
@@ -170,28 +170,15 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+14** · LP: **+200**
-- [54] Use the range in Lumbridge Castle to bake a cake. — medium, Misthalin, 30 LP
-- [212] Eat a baked potato. — easy, Global, 10 LP
-- [223] Complete a lap of the Burthorpe Agility course. — easy, Asgarnia, 10 LP
-- [224] Enter the Warriors' Guild. — medium, Asgarnia, 30 LP
-- [229] Sit down with Tiffy in Falador park. — easy, Asgarnia, 10 LP
-- [231] Dance in the Falador party room. — easy, Asgarnia, 10 LP
-- [232] Enter the Crafting Guild. — medium, Asgarnia, 30 LP
-- [288] Mine a gem rock at the Al Kharid mine. — easy, Desert, 10 LP
-- [602] Enter the Brimhaven Dungeon. — easy, Karamja, 10 LP
-- [603] Cross the spiky pit using the stepping stones within Brimhaven Dungeon. — easy, Karamja, 10 LP
-- [822] Fletch 50 bronze bolts. — easy, Global, 10 LP
-- [838] Make some bread. — easy, Global, 10 LP
-- [1197] Mine 20 havensilver ore. — easy, Havenhythe, 10 LP
-- [1198] Smith a havensilver weapon. — easy, Havenhythe, 10 LP
-- Level-ups: Magic 90→91; Mining 86→87
+- Tasks: **+1** · LP: **+10**
+- [227] Kill a goblin raider boss in the Goblin Village. — easy, Asgarnia, 10 LP
+- Level-ups: Attack 91→95; Strength 91→95; Slayer 79→80
 
 ## Current task sprint
 
-- Need: **50 tasks**
-- Precomputed sprint: **50 tasks** (0 Grade A, 50 Grade B)
-- Action-time estimate excluding travel: **1060 sec**
+- Need: **49 tasks**
+- Precomputed sprint: **49 tasks** (0 Grade A, 49 Grade B)
+- Action-time estimate excluding travel: **1030 sec**
 - [14] **Equip the full master runecrafter skilling outfit.** — Grade B · ~20s · unclustered
 - [61] **Equip a dragon crossbow.** — Grade B · ~20s · unclustered
 - [128] **Equip an Ek-ZekKil.** — Grade B · ~20s · unclustered
@@ -227,12 +214,12 @@ Passive step effects:
 
 - Timed Grade-A tasks: **0**
 - Timed Grade-B inferred candidates: **82**
-- Metadata sources: `{'manual_override': 3, 'none': 654, 'text_inference': 145}`
+- Metadata sources: `{'manual_override': 3, 'none': 653, 'text_inference': 145}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-09T16:43:09.689Z
+- WikiSync: **fresh** · 2026-09-09T19:49:16.954Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
@@ -242,6 +229,8 @@ Passive step effects:
 
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
+- [1062] **Reach level 99 in the Attack skill.** — score 25, unknown_check_progress; Only 4 Attack levels remain to the task target.
+- [1085] **Reach level 99 in the Strength skill.** — score 25, unknown_check_progress; Only 4 Strength levels remain to the task target.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
 - [852] **Catch 35 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.
 

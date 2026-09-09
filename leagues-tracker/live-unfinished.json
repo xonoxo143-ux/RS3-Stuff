@@ -1,10 +1,10 @@
 {
-  "completed_task_count": 350,
+  "completed_task_count": 351,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
   "status_counts": {
-    "accessible_requirements_unknown": 275,
+    "accessible_requirements_unknown": 274,
     "blocked": 32,
     "excluded": 7,
     "inferred_candidate": 113,
@@ -12,8 +12,8 @@
     "locked_region": 370,
     "manual_check": 3
   },
-  "timestamp_utc": "2026-09-09T16:43:09.689Z",
-  "unfinished_task_count": 802,
+  "timestamp_utc": "2026-09-09T19:49:16.954Z",
+  "unfinished_task_count": 801,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -1565,28 +1565,6 @@
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Kill 15 goblins in the Goblin Village to spawn a goblin raider boss.",
-      "estimated_seconds": null,
-      "id": 227,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Kill a goblin raider boss in the Goblin Village.",
-      "points": 10,
-      "recommendation_grade": "U",
-      "region": "Asgarnia",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "easy",
       "unknown_checks": []
     },
     {
@@ -16191,8 +16169,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 91,
-          "gap": 8,
+          "current": 95,
+          "gap": 4,
           "required": 99,
           "skill": "Attack",
           "type": "skill"
@@ -16642,8 +16620,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 79,
-          "gap": 20,
+          "current": 80,
+          "gap": 19,
           "required": 99,
           "skill": "Slayer",
           "type": "skill"
@@ -16708,8 +16686,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 91,
-          "gap": 8,
+          "current": 95,
+          "gap": 4,
           "required": 99,
           "skill": "Strength",
           "type": "skill"
@@ -17138,8 +17116,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 79,
-          "gap": 41,
+          "current": 80,
+          "gap": 40,
           "required": 120,
           "skill": "Slayer",
           "type": "skill"
