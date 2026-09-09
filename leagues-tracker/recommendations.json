@@ -1,130 +1,6 @@
 {
   "cluster_bundles": [
     {
-      "cluster": "bank_or_range",
-      "estimated_action_seconds": 75,
-      "points": 20,
-      "task_count": 2,
-      "tasks": [
-        {
-          "blockers": [],
-          "cluster": "bank_or_range",
-          "confidence": 1.0,
-          "estimated_seconds": 30,
-          "id": 212,
-          "items_to_prepare": [
-            "potato"
-          ],
-          "lp_per_minute": 20.0,
-          "name": "Eat a baked potato.",
-          "points": 10,
-          "recommendation_grade": "A",
-          "region": "Global",
-          "status": "verified_ready",
-          "tier": "easy",
-          "unknown_checks": []
-        },
-        {
-          "blockers": [],
-          "cluster": "bank_or_range",
-          "confidence": 1.0,
-          "estimated_seconds": 45,
-          "id": 838,
-          "items_to_prepare": [
-            "bread ingredients"
-          ],
-          "lp_per_minute": 13.33,
-          "name": "Make some bread.",
-          "points": 10,
-          "recommendation_grade": "A",
-          "region": "Global",
-          "status": "verified_ready",
-          "tier": "easy",
-          "unknown_checks": []
-        }
-      ],
-      "verified_count": 2
-    },
-    {
-      "cluster": "bank",
-      "estimated_action_seconds": 30,
-      "points": 10,
-      "task_count": 1,
-      "tasks": [
-        {
-          "blockers": [],
-          "cluster": "bank",
-          "confidence": 1.0,
-          "estimated_seconds": 30,
-          "id": 822,
-          "items_to_prepare": [
-            "bronze bolts/materials"
-          ],
-          "lp_per_minute": 20.0,
-          "name": "Fletch 50 bronze bolts.",
-          "points": 10,
-          "recommendation_grade": "A",
-          "region": "Global",
-          "status": "verified_ready",
-          "tier": "easy",
-          "unknown_checks": []
-        }
-      ],
-      "verified_count": 1
-    },
-    {
-      "cluster": "al_kharid",
-      "estimated_action_seconds": 45,
-      "points": 10,
-      "task_count": 1,
-      "tasks": [
-        {
-          "blockers": [],
-          "cluster": "al_kharid",
-          "confidence": 1.0,
-          "estimated_seconds": 45,
-          "id": 288,
-          "items_to_prepare": [],
-          "lp_per_minute": 13.33,
-          "name": "Mine a gem rock at the Al Kharid mine.",
-          "points": 10,
-          "recommendation_grade": "A",
-          "region": "Desert",
-          "status": "verified_ready",
-          "tier": "easy",
-          "unknown_checks": []
-        }
-      ],
-      "verified_count": 1
-    },
-    {
-      "cluster": "lumbridge",
-      "estimated_action_seconds": 60,
-      "points": 30,
-      "task_count": 1,
-      "tasks": [
-        {
-          "blockers": [],
-          "cluster": "lumbridge",
-          "confidence": 1.0,
-          "estimated_seconds": 60,
-          "id": 54,
-          "items_to_prepare": [
-            "cake ingredients"
-          ],
-          "lp_per_minute": 30.0,
-          "name": "Use the range in Lumbridge Castle to bake a cake.",
-          "points": 30,
-          "recommendation_grade": "A",
-          "region": "Misthalin",
-          "status": "verified_ready",
-          "tier": "medium",
-          "unknown_checks": []
-        }
-      ],
-      "verified_count": 1
-    },
-    {
       "cluster": "fort_forinthry",
       "estimated_action_seconds": 70,
       "points": 30,
@@ -270,31 +146,6 @@
       "verified_count": 0
     },
     {
-      "cluster": "brimhaven_dungeon",
-      "estimated_action_seconds": 30,
-      "points": 10,
-      "task_count": 1,
-      "tasks": [
-        {
-          "blockers": [],
-          "cluster": "brimhaven_dungeon",
-          "confidence": 0.72,
-          "estimated_seconds": 30,
-          "id": 602,
-          "items_to_prepare": [],
-          "lp_per_minute": 20.0,
-          "name": "Enter the Brimhaven Dungeon.",
-          "points": 10,
-          "recommendation_grade": "B",
-          "region": "Karamja",
-          "status": "inferred_candidate",
-          "tier": "easy",
-          "unknown_checks": []
-        }
-      ],
-      "verified_count": 0
-    },
-    {
       "cluster": "draynor",
       "estimated_action_seconds": 60,
       "points": 30,
@@ -322,22 +173,21 @@
   ],
   "coverage": {
     "metadata_source_counts": {
-      "manual_override": 8,
-      "none": 658,
-      "text_inference": 150
+      "manual_override": 3,
+      "none": 654,
+      "text_inference": 145
     },
     "status_counts": {
-      "accessible_requirements_unknown": 279,
+      "accessible_requirements_unknown": 275,
       "blocked": 32,
       "excluded": 7,
-      "inferred_candidate": 118,
+      "inferred_candidate": 113,
       "known_issue": 2,
       "locked_region": 370,
-      "manual_check": 3,
-      "verified_ready": 5
+      "manual_check": 3
     },
-    "timed_inferred_candidates": 86,
-    "timed_verified_tasks": 5
+    "timed_inferred_candidates": 82,
+    "timed_verified_tasks": 0
   },
   "fastest_inferred_backups": [
     {
@@ -1065,38 +915,6 @@
       "cluster": null,
       "confidence": 0.72,
       "estimated_seconds": 30,
-      "id": 224,
-      "items_to_prepare": [],
-      "lp_per_minute": 60.0,
-      "name": "Enter the Warriors' Guild.",
-      "points": 30,
-      "recommendation_grade": "B",
-      "region": "Asgarnia",
-      "status": "inferred_candidate",
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 30,
-      "id": 232,
-      "items_to_prepare": [],
-      "lp_per_minute": 60.0,
-      "name": "Enter the Crafting Guild.",
-      "points": 30,
-      "recommendation_grade": "B",
-      "region": "Asgarnia",
-      "status": "inferred_candidate",
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 30,
       "id": 238,
       "items_to_prepare": [],
       "lp_per_minute": 60.0,
@@ -1139,251 +957,53 @@
       "status": "inferred_candidate",
       "tier": "medium",
       "unknown_checks": []
-    }
-  ],
-  "fastest_verified": [
-    {
-      "blockers": [],
-      "cluster": "bank_or_range",
-      "confidence": 1.0,
-      "estimated_seconds": 30,
-      "id": 212,
-      "items_to_prepare": [
-        "potato"
-      ],
-      "lp_per_minute": 20.0,
-      "name": "Eat a baked potato.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tier": "easy",
-      "unknown_checks": []
     },
     {
       "blockers": [],
-      "cluster": "bank",
-      "confidence": 1.0,
+      "cluster": null,
+      "confidence": 0.72,
       "estimated_seconds": 30,
-      "id": 822,
-      "items_to_prepare": [
-        "bronze bolts/materials"
-      ],
-      "lp_per_minute": 20.0,
-      "name": "Fletch 50 bronze bolts.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": "al_kharid",
-      "confidence": 1.0,
-      "estimated_seconds": 45,
-      "id": 288,
+      "id": 1186,
       "items_to_prepare": [],
-      "lp_per_minute": 13.33,
-      "name": "Mine a gem rock at the Al Kharid mine.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Desert",
-      "status": "verified_ready",
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": "bank_or_range",
-      "confidence": 1.0,
-      "estimated_seconds": 45,
-      "id": 838,
-      "items_to_prepare": [
-        "bread ingredients"
-      ],
-      "lp_per_minute": 13.33,
-      "name": "Make some bread.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": "lumbridge",
-      "confidence": 1.0,
-      "estimated_seconds": 60,
-      "id": 54,
-      "items_to_prepare": [
-        "cake ingredients"
-      ],
-      "lp_per_minute": 30.0,
-      "name": "Use the range in Lumbridge Castle to bake a cake.",
+      "lp_per_minute": 60.0,
+      "name": "Search a hollow tree within the Highweald forest.",
       "points": 30,
-      "recommendation_grade": "A",
-      "region": "Misthalin",
-      "status": "verified_ready",
+      "recommendation_grade": "B",
+      "region": "Havenhythe",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 30,
+      "id": 1192,
+      "items_to_prepare": [],
+      "lp_per_minute": 60.0,
+      "name": "Use a clockwork box trap to catch a grenwall in a kebbit encounter.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Havenhythe",
+      "status": "inferred_candidate",
       "tier": "medium",
       "unknown_checks": []
     }
   ],
+  "fastest_verified": [],
   "goal": {
     "strategy": "Prioritize high-point tasks and blessing progress, stacking them with useful progression such as Necromancy gear upgrades.",
     "threshold_id": "elective_3",
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 1570,
-    "inferred_count": 59,
+    "estimated_action_seconds_excluding_travel": 1060,
+    "inferred_count": 50,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
-    "prep_list": [
-      "bronze bolts/materials",
-      "potato",
-      "bread ingredients",
-      "cake ingredients"
-    ],
-    "selected_count": 64,
+    "prep_list": [],
+    "selected_count": 50,
     "tasks": [
-      {
-        "blockers": [],
-        "cluster": "bank",
-        "confidence": 1.0,
-        "estimated_seconds": 30,
-        "id": 822,
-        "items_to_prepare": [
-          "bronze bolts/materials"
-        ],
-        "lp_per_minute": 20.0,
-        "name": "Fletch 50 bronze bolts.",
-        "points": 10,
-        "recommendation_grade": "A",
-        "region": "Global",
-        "status": "verified_ready",
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": "bank_or_range",
-        "confidence": 1.0,
-        "estimated_seconds": 30,
-        "id": 212,
-        "items_to_prepare": [
-          "potato"
-        ],
-        "lp_per_minute": 20.0,
-        "name": "Eat a baked potato.",
-        "points": 10,
-        "recommendation_grade": "A",
-        "region": "Global",
-        "status": "verified_ready",
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": "bank_or_range",
-        "confidence": 1.0,
-        "estimated_seconds": 45,
-        "id": 838,
-        "items_to_prepare": [
-          "bread ingredients"
-        ],
-        "lp_per_minute": 13.33,
-        "name": "Make some bread.",
-        "points": 10,
-        "recommendation_grade": "A",
-        "region": "Global",
-        "status": "verified_ready",
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": "al_kharid",
-        "confidence": 1.0,
-        "estimated_seconds": 45,
-        "id": 288,
-        "items_to_prepare": [],
-        "lp_per_minute": 13.33,
-        "name": "Mine a gem rock at the Al Kharid mine.",
-        "points": 10,
-        "recommendation_grade": "A",
-        "region": "Desert",
-        "status": "verified_ready",
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": "brimhaven",
-        "confidence": 0.72,
-        "estimated_seconds": 30,
-        "id": 596,
-        "items_to_prepare": [],
-        "lp_per_minute": 20.0,
-        "name": "Claim a ticket from Brimhaven Agility Arena.",
-        "points": 10,
-        "recommendation_grade": "B",
-        "region": "Karamja",
-        "status": "inferred_candidate",
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": "brimhaven_dungeon",
-        "confidence": 0.72,
-        "estimated_seconds": 30,
-        "id": 602,
-        "items_to_prepare": [],
-        "lp_per_minute": 20.0,
-        "name": "Enter the Brimhaven Dungeon.",
-        "points": 10,
-        "recommendation_grade": "B",
-        "region": "Karamja",
-        "status": "inferred_candidate",
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": "karamja",
-        "confidence": 0.72,
-        "estimated_seconds": 30,
-        "id": 601,
-        "items_to_prepare": [],
-        "lp_per_minute": 20.0,
-        "name": "Pick a pineapple on Karamja.",
-        "points": 10,
-        "recommendation_grade": "B",
-        "region": "Karamja",
-        "status": "inferred_candidate",
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": "lumbridge",
-        "confidence": 1.0,
-        "estimated_seconds": 60,
-        "id": 54,
-        "items_to_prepare": [
-          "cake ingredients"
-        ],
-        "lp_per_minute": 30.0,
-        "name": "Use the range in Lumbridge Castle to bake a cake.",
-        "points": 30,
-        "recommendation_grade": "A",
-        "region": "Misthalin",
-        "status": "verified_ready",
-        "tier": "medium",
-        "unknown_checks": []
-      },
       {
         "blockers": [],
         "cluster": null,
@@ -2093,38 +1713,6 @@
         "cluster": null,
         "confidence": 0.72,
         "estimated_seconds": 30,
-        "id": 224,
-        "items_to_prepare": [],
-        "lp_per_minute": 60.0,
-        "name": "Enter the Warriors' Guild.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Asgarnia",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 30,
-        "id": 232,
-        "items_to_prepare": [],
-        "lp_per_minute": 60.0,
-        "name": "Enter the Crafting Guild.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Asgarnia",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 30,
         "id": 238,
         "items_to_prepare": [],
         "lp_per_minute": 60.0,
@@ -2150,38 +1738,6 @@
         "region": "Havenhythe",
         "status": "inferred_candidate",
         "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 30,
-        "id": 1183,
-        "items_to_prepare": [],
-        "lp_per_minute": 20.0,
-        "name": "Use an empowered obelisk to create a jackalope pouch at the Shrine of Inanna.",
-        "points": 10,
-        "recommendation_grade": "B",
-        "region": "Havenhythe",
-        "status": "inferred_candidate",
-        "tier": "easy",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 30,
-        "id": 1184,
-        "items_to_prepare": [],
-        "lp_per_minute": 20.0,
-        "name": "Use the spirit plane connection bonus at the Shrine of Inanna to create a summoning pouch for free.",
-        "points": 10,
-        "recommendation_grade": "B",
-        "region": "Havenhythe",
-        "status": "inferred_candidate",
-        "tier": "easy",
         "unknown_checks": []
       },
       {
@@ -2247,132 +1803,12 @@
         "status": "inferred_candidate",
         "tier": "elite",
         "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 45,
-        "id": 1049,
-        "items_to_prepare": [],
-        "lp_per_minute": 266.67,
-        "name": "Catch a cavefish.",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Asgarnia",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 45,
-        "id": 1053,
-        "items_to_prepare": [],
-        "lp_per_minute": 266.67,
-        "name": "Catch a dragon impling.",
-        "points": 200,
-        "recommendation_grade": "B",
-        "region": "Global",
-        "status": "inferred_candidate",
-        "tier": "elite",
-        "unknown_checks": []
       }
     ],
-    "tasks_needed": 64,
-    "verified_count": 5
+    "tasks_needed": 50,
+    "verified_count": 0
   },
   "highest_lp_per_minute": [
-    {
-      "blockers": [],
-      "cluster": "lumbridge",
-      "confidence": 1.0,
-      "estimated_seconds": 60,
-      "id": 54,
-      "items_to_prepare": [
-        "cake ingredients"
-      ],
-      "lp_per_minute": 30.0,
-      "name": "Use the range in Lumbridge Castle to bake a cake.",
-      "points": 30,
-      "recommendation_grade": "A",
-      "region": "Misthalin",
-      "status": "verified_ready",
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": "bank_or_range",
-      "confidence": 1.0,
-      "estimated_seconds": 30,
-      "id": 212,
-      "items_to_prepare": [
-        "potato"
-      ],
-      "lp_per_minute": 20.0,
-      "name": "Eat a baked potato.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": "bank",
-      "confidence": 1.0,
-      "estimated_seconds": 30,
-      "id": 822,
-      "items_to_prepare": [
-        "bronze bolts/materials"
-      ],
-      "lp_per_minute": 20.0,
-      "name": "Fletch 50 bronze bolts.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": "al_kharid",
-      "confidence": 1.0,
-      "estimated_seconds": 45,
-      "id": 288,
-      "items_to_prepare": [],
-      "lp_per_minute": 13.33,
-      "name": "Mine a gem rock at the Al Kharid mine.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Desert",
-      "status": "verified_ready",
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": "bank_or_range",
-      "confidence": 1.0,
-      "estimated_seconds": 45,
-      "id": 838,
-      "items_to_prepare": [
-        "bread ingredients"
-      ],
-      "lp_per_minute": 13.33,
-      "name": "Make some bread.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tier": "easy",
-      "unknown_checks": []
-    },
     {
       "blockers": [],
       "cluster": null,
@@ -3092,6 +2528,86 @@
       "status": "inferred_candidate",
       "tier": "medium",
       "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 20,
+      "id": 377,
+      "items_to_prepare": [],
+      "lp_per_minute": 90.0,
+      "name": "Equip a full set of graahk, larupia or kyatt hunter gear.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Global",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 20,
+      "id": 615,
+      "items_to_prepare": [],
+      "lp_per_minute": 90.0,
+      "name": "Equip an obsidian cape.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Karamja",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 20,
+      "id": 618,
+      "items_to_prepare": [],
+      "lp_per_minute": 90.0,
+      "name": "Equip a Toktz-Ket-Xil.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Karamja",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 20,
+      "id": 619,
+      "items_to_prepare": [],
+      "lp_per_minute": 90.0,
+      "name": "Equip a Tzhaar-Ket-Om.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Karamja",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": null,
+      "confidence": 0.72,
+      "estimated_seconds": 20,
+      "id": 621,
+      "items_to_prepare": [],
+      "lp_per_minute": 90.0,
+      "name": "Equip a Toktz-Xil-Ek.",
+      "points": 30,
+      "recommendation_grade": "B",
+      "region": "Karamja",
+      "status": "inferred_candidate",
+      "tier": "medium",
+      "unknown_checks": []
     }
   ],
   "manual_checks": [
@@ -3170,7 +2686,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 64,
+    "remaining_tasks": 50,
     "tasks": 400
   },
   "schema_version": 1

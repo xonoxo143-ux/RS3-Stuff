@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-09T11:30:41.485Z**
+Updated: **2026-09-09T16:43:09.689Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-09T11:30:41.485Z**
 
 ## Current snapshot
 
-- **16,180 LP** · **336 tasks** · total level **2,423**
+- **16,380 LP** · **350 tasks** · total level **2,425**
 - **16 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **64 tasks** to 400
-- Next relic: **3,820 LP** to T7
+- Next region: **50 tasks** to 400
+- Next relic: **3,620 LP** to T7
 - Next blessing step: **4** to t6
 
 ## Active relics
@@ -170,22 +170,28 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
+- Tasks: **+14** · LP: **+200**
+- [54] Use the range in Lumbridge Castle to bake a cake. — medium, Misthalin, 30 LP
+- [212] Eat a baked potato. — easy, Global, 10 LP
+- [223] Complete a lap of the Burthorpe Agility course. — easy, Asgarnia, 10 LP
+- [224] Enter the Warriors' Guild. — medium, Asgarnia, 30 LP
+- [229] Sit down with Tiffy in Falador park. — easy, Asgarnia, 10 LP
+- [231] Dance in the Falador party room. — easy, Asgarnia, 10 LP
+- [232] Enter the Crafting Guild. — medium, Asgarnia, 30 LP
+- [288] Mine a gem rock at the Al Kharid mine. — easy, Desert, 10 LP
+- [602] Enter the Brimhaven Dungeon. — easy, Karamja, 10 LP
+- [603] Cross the spiky pit using the stepping stones within Brimhaven Dungeon. — easy, Karamja, 10 LP
+- [822] Fletch 50 bronze bolts. — easy, Global, 10 LP
+- [838] Make some bread. — easy, Global, 10 LP
+- [1197] Mine 20 havensilver ore. — easy, Havenhythe, 10 LP
+- [1198] Smith a havensilver weapon. — easy, Havenhythe, 10 LP
+- Level-ups: Magic 90→91; Mining 86→87
 
 ## Current task sprint
 
-- Need: **64 tasks**
-- Precomputed sprint: **64 tasks** (5 Grade A, 59 Grade B)
-- Action-time estimate excluding travel: **1570 sec**
-- Prep: bronze bolts/materials, potato, bread ingredients, cake ingredients
-- [822] **Fletch 50 bronze bolts.** — Grade A · ~30s · bank
-- [212] **Eat a baked potato.** — Grade A · ~30s · bank_or_range
-- [838] **Make some bread.** — Grade A · ~45s · bank_or_range
-- [288] **Mine a gem rock at the Al Kharid mine.** — Grade A · ~45s · al_kharid
-- [596] **Claim a ticket from Brimhaven Agility Arena.** — Grade B · ~30s · brimhaven
-- [602] **Enter the Brimhaven Dungeon.** — Grade B · ~30s · brimhaven_dungeon
-- [601] **Pick a pineapple on Karamja.** — Grade B · ~30s · karamja
-- [54] **Use the range in Lumbridge Castle to bake a cake.** — Grade A · ~60s · lumbridge
+- Need: **50 tasks**
+- Precomputed sprint: **50 tasks** (0 Grade A, 50 Grade B)
+- Action-time estimate excluding travel: **1060 sec**
 - [14] **Equip the full master runecrafter skilling outfit.** — Grade B · ~20s · unclustered
 - [61] **Equip a dragon crossbow.** — Grade B · ~20s · unclustered
 - [128] **Equip an Ek-ZekKil.** — Grade B · ~20s · unclustered
@@ -208,17 +214,25 @@ Passive step effects:
 - [695] **Equip a pair of Glaiven boots.** — Grade B · ~20s · unclustered
 - [696] **Equip a pair of Ragefire boots.** — Grade B · ~20s · unclustered
 - [882] **Equip an iron crossbow.** — Grade B · ~20s · unclustered
+- [883] **Equip a maple longbow.** — Grade B · ~20s · unclustered
+- [914] **Equip a full set of rune armour.** — Grade B · ~20s · unclustered
+- [918] **Equip a full set of mystic robes.** — Grade B · ~20s · unclustered
+- [923] **Equip a mystic staff.** — Grade B · ~20s · unclustered
+- [949] **Equip any 2 pieces of an elegant outfit.** — Grade B · ~20s · unclustered
+- [950] **Equip a composite bow of any kind.** — Grade B · ~20s · unclustered
+- [951] **Equip any dragon mask.** — Grade B · ~20s · unclustered
+- [968] **Equip a rune ceremonial sword.** — Grade B · ~20s · unclustered
 
 ## Recommendation coverage
 
-- Timed Grade-A tasks: **5**
-- Timed Grade-B inferred candidates: **86**
-- Metadata sources: `{'manual_override': 8, 'none': 658, 'text_inference': 150}`
+- Timed Grade-A tasks: **0**
+- Timed Grade-B inferred candidates: **82**
+- Metadata sources: `{'manual_override': 3, 'none': 654, 'text_inference': 145}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-09T11:30:41.485Z
+- WikiSync: **fresh** · 2026-09-09T16:43:09.689Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 

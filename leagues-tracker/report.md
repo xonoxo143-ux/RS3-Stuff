@@ -1,32 +1,23 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-09T11:30:41.485Z**
+Updated: **2026-09-09T16:43:09.689Z**
 
 ## Current
 
-- **336 tasks**
-- **16,180 LP**
-- **Total level 2,423**
+- **350 tasks**
+- **16,380 LP**
+- **Total level 2,425**
 - **Relic T6**
 - **16 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **64 tasks** to the next region slot
-- **3,820 LP** to T7
+- **50 tasks** to the next region slot
+- **3,620 LP** to T7
 - **4 blessing tasks** to t6
 
 ## Suggested sprint
 
-Tracker selected **64** of the **64** tasks currently needed.
-Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
+Tracker selected **50** of the **50** tasks currently needed.
 
-- [822] Fletch 50 bronze bolts. — Grade A, ~30s, bank, 10 LP
-- [212] Eat a baked potato. — Grade A, ~30s, bank_or_range, 10 LP
-- [838] Make some bread. — Grade A, ~45s, bank_or_range, 10 LP
-- [288] Mine a gem rock at the Al Kharid mine. — Grade A, ~45s, al_kharid, 10 LP
-- [596] Claim a ticket from Brimhaven Agility Arena. — Grade B, ~30s, brimhaven, 10 LP
-- [602] Enter the Brimhaven Dungeon. — Grade B, ~30s, brimhaven_dungeon, 10 LP
-- [601] Pick a pineapple on Karamja. — Grade B, ~30s, karamja, 10 LP
-- [54] Use the range in Lumbridge Castle to bake a cake. — Grade A, ~60s, lumbridge, 30 LP
 - [14] Equip the full master runecrafter skilling outfit. — Grade B, ~20s, unclustered, 80 LP
 - [61] Equip a dragon crossbow. — Grade B, ~20s, unclustered, 200 LP
 - [128] Equip an Ek-ZekKil. — Grade B, ~20s, unclustered, 400 LP
@@ -71,29 +62,18 @@ Prep once: bronze bolts/materials, potato, bread ingredients, cake ingredients
 - [1218] Equip a Khopesh of Tumeken or Khopesh of Elidinis. — Grade B, ~20s, unclustered, 400 LP
 - [1234] Equip a Bow of the Last Guardian. — Grade B, ~20s, unclustered, 400 LP
 - [1254] Equip an igneous Kal-Ket, Xil, Mej, or Mor cape. — Grade B, ~20s, unclustered, 200 LP
-- [224] Enter the Warriors' Guild. — Grade B, ~30s, unclustered, 30 LP
-- [232] Enter the Crafting Guild. — Grade B, ~30s, unclustered, 30 LP
 - [238] Use the Telekinetic Grab spell to steal some wine of Zamorak from the captured temple south of Goblin Village. — Grade B, ~30s, unclustered, 30 LP
 - [1175] Use an oaken key to open Raz's stash in her hut north of Wendlewick. — Grade B, ~30s, unclustered, 30 LP
-- [1183] Use an empowered obelisk to create a jackalope pouch at the Shrine of Inanna. — Grade B, ~30s, unclustered, 10 LP
-- [1184] Use the spirit plane connection bonus at the Shrine of Inanna to create a summoning pouch for free. — Grade B, ~30s, unclustered, 10 LP
 - [1185] Use the Fang of Mohegan to teleport to the Shrine of Inanna. — Grade B, ~30s, unclustered, 30 LP
 - [1186] Search a hollow tree within the Highweald forest. — Grade B, ~30s, unclustered, 30 LP
 - [1192] Use a clockwork box trap to catch a grenwall in a kebbit encounter. — Grade B, ~30s, unclustered, 30 LP
 - [1212] Speak to Inanna with the Anzagar pet present. — Grade B, ~30s, unclustered, 200 LP
-- [1049] Catch a cavefish. — Grade B, ~45s, unclustered, 200 LP
-- [1053] Catch a dragon impling. — Grade B, ~45s, unclustered, 200 LP
 
 ## Best clusters
 
-- **bank_or_range** — 2 candidates (2 Grade A), 20 LP
-- **bank** — 1 candidates (1 Grade A), 10 LP
-- **al_kharid** — 1 candidates (1 Grade A), 10 LP
-- **lumbridge** — 1 candidates (1 Grade A), 30 LP
 - **fort_forinthry** — 3 candidates (0 Grade A), 30 LP
 - **karamja** — 2 candidates (0 Grade A), 40 LP
 - **brimhaven** — 1 candidates (0 Grade A), 10 LP
-- **brimhaven_dungeon** — 1 candidates (0 Grade A), 10 LP
 - **draynor** — 1 candidates (0 Grade A), 30 LP
 
 ## Nearly unlocked

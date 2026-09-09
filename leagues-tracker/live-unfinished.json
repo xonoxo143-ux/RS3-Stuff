@@ -1,20 +1,19 @@
 {
-  "completed_task_count": 336,
+  "completed_task_count": 350,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
   "status_counts": {
-    "accessible_requirements_unknown": 279,
+    "accessible_requirements_unknown": 275,
     "blocked": 32,
     "excluded": 7,
-    "inferred_candidate": 118,
+    "inferred_candidate": 113,
     "known_issue": 2,
     "locked_region": 370,
-    "manual_check": 3,
-    "verified_ready": 5
+    "manual_check": 3
   },
-  "timestamp_utc": "2026-09-09T11:30:41.485Z",
-  "unfinished_task_count": 816,
+  "timestamp_utc": "2026-09-09T16:43:09.689Z",
+  "unfinished_task_count": 802,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -506,35 +505,6 @@
       "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "lumbridge",
-      "confidence": 1.0,
-      "description": "Use the range in Lumbridge Castle to bake a cake.",
-      "estimated_seconds": 60,
-      "id": 54,
-      "issue": null,
-      "items_to_prepare": [
-        "cake ingredients"
-      ],
-      "lp_per_minute": 30.0,
-      "metadata_source": "manual_override",
-      "name": "Use the range in Lumbridge Castle to bake a cake.",
-      "points": 30,
-      "recommendation_grade": "A",
-      "region": "Misthalin",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "use",
-        "fast",
-        "cooking"
-      ],
-      "task_count_efficiency": 60,
       "tier": "medium",
       "unknown_checks": []
     },
@@ -1553,82 +1523,6 @@
     {
       "blessing_task": false,
       "blockers": [],
-      "cluster": "bank_or_range",
-      "confidence": 1.0,
-      "description": "Eat a baked potato. You will need to get a raw potato and cook it at a range.",
-      "estimated_seconds": 30,
-      "id": 212,
-      "issue": null,
-      "items_to_prepare": [
-        "potato"
-      ],
-      "lp_per_minute": 20.0,
-      "metadata_source": "manual_override",
-      "name": "Eat a baked potato.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "consume",
-        "fast",
-        "cooking"
-      ],
-      "task_count_efficiency": 30,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Complete a lap of the Burthorpe Agility Course.",
-      "estimated_seconds": null,
-      "id": 223,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Complete a lap of the Burthorpe Agility course.",
-      "points": 10,
-      "recommendation_grade": "U",
-      "region": "Asgarnia",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "description": "Enter the Warriors' Guild.",
-      "estimated_seconds": 30,
-      "id": 224,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 60.0,
-      "metadata_source": "text_inference",
-      "name": "Enter the Warriors' Guild.",
-      "points": 30,
-      "recommendation_grade": "B",
-      "region": "Asgarnia",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "travel"
-      ],
-      "task_count_efficiency": 80,
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
       "cluster": null,
       "confidence": 0.72,
       "description": "Equip a defender.",
@@ -1722,28 +1616,6 @@
       "blockers": [],
       "cluster": null,
       "confidence": 0.0,
-      "description": "Sit on the bench with Sir Tiffy Cashien in Falador Park. (Tiffy Time)",
-      "estimated_seconds": null,
-      "id": 229,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Sit down with Tiffy in Falador park.",
-      "points": 10,
-      "recommendation_grade": "U",
-      "region": "Asgarnia",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
       "description": "Pray to Bandos's remains (just south-east of Goblin Village).",
       "estimated_seconds": null,
       "id": 230,
@@ -1759,54 +1631,6 @@
       "tags": [],
       "task_count_efficiency": null,
       "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Dance in the Falador party room.",
-      "estimated_seconds": null,
-      "id": 231,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Dance in the Falador party room.",
-      "points": 10,
-      "recommendation_grade": "U",
-      "region": "Asgarnia",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "description": "Enter the Crafting Guild.",
-      "estimated_seconds": 30,
-      "id": 232,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 60.0,
-      "metadata_source": "text_inference",
-      "name": "Enter the Crafting Guild.",
-      "points": 30,
-      "recommendation_grade": "B",
-      "region": "Asgarnia",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "travel",
-        "crafting"
-      ],
-      "task_count_efficiency": 80,
-      "tier": "medium",
       "unknown_checks": []
     },
     {
@@ -2457,32 +2281,6 @@
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "al_kharid",
-      "confidence": 1.0,
-      "description": "Mine a gem rock at the Al Kharid mine. Common gem rocks can be mined with level 1 Mining.",
-      "estimated_seconds": 45,
-      "id": 288,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 13.33,
-      "metadata_source": "manual_override",
-      "name": "Mine a gem rock at the Al Kharid mine.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Desert",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "mining",
-        "fast"
-      ],
-      "task_count_efficiency": 45,
-      "tier": "easy",
       "unknown_checks": []
     },
     {
@@ -8850,55 +8648,6 @@
     {
       "blessing_task": false,
       "blockers": [],
-      "cluster": "brimhaven_dungeon",
-      "confidence": 0.72,
-      "description": "Enter the Brimhaven Dungeon.",
-      "estimated_seconds": 30,
-      "id": 602,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 20.0,
-      "metadata_source": "text_inference",
-      "name": "Enter the Brimhaven Dungeon.",
-      "points": 10,
-      "recommendation_grade": "B",
-      "region": "Karamja",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "travel"
-      ],
-      "task_count_efficiency": 80,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "brimhaven_dungeon",
-      "confidence": 0.55,
-      "description": "Cross the spiky pit using the stepping stones within Brimhaven Dungeon.",
-      "estimated_seconds": null,
-      "id": 603,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "text_inference",
-      "name": "Cross the spiky pit using the stepping stones within Brimhaven Dungeon.",
-      "points": 10,
-      "recommendation_grade": "U",
-      "region": "Karamja",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred"
-      ],
-      "task_count_efficiency": null,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
       "cluster": "karamja",
       "confidence": 0.55,
       "description": "Complete the Easy Karamja achievements.",
@@ -12987,33 +12736,6 @@
     {
       "blessing_task": false,
       "blockers": [],
-      "cluster": "bank",
-      "confidence": 1.0,
-      "description": "Fletch 50 bronze bolts.",
-      "estimated_seconds": 30,
-      "id": 822,
-      "issue": null,
-      "items_to_prepare": [
-        "bronze bolts/materials"
-      ],
-      "lp_per_minute": 20.0,
-      "metadata_source": "manual_override",
-      "name": "Fletch 50 bronze bolts.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tags": [
-        "fast",
-        "fletching"
-      ],
-      "task_count_efficiency": 30,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
       "cluster": null,
       "confidence": 0.0,
       "description": "Complete 10 laps of any Agility course.",
@@ -13162,35 +12884,6 @@
       "status": "accessible_requirements_unknown",
       "tags": [],
       "task_count_efficiency": null,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": "bank_or_range",
-      "confidence": 1.0,
-      "description": "Make some bread. Bread dough can be created by using a pot of flour with water, it must be cooked at a range.",
-      "estimated_seconds": 45,
-      "id": 838,
-      "issue": null,
-      "items_to_prepare": [
-        "bread ingredients"
-      ],
-      "lp_per_minute": 13.33,
-      "metadata_source": "manual_override",
-      "name": "Make some bread.",
-      "points": 10,
-      "recommendation_grade": "A",
-      "region": "Global",
-      "status": "verified_ready",
-      "tags": [
-        "inferred",
-        "production",
-        "fast",
-        "cooking"
-      ],
-      "task_count_efficiency": 45,
       "tier": "easy",
       "unknown_checks": []
     },
@@ -16861,8 +16554,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 90,
-          "gap": 9,
+          "current": 91,
+          "gap": 8,
           "required": 99,
           "skill": "Magic",
           "type": "skill"
@@ -16894,8 +16587,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 86,
-          "gap": 13,
+          "current": 87,
+          "gap": 12,
           "required": 99,
           "skill": "Mining",
           "type": "skill"
@@ -17114,8 +16807,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 86,
-          "gap": 24,
+          "current": 87,
+          "gap": 23,
           "required": 110,
           "skill": "Mining",
           "type": "skill"
@@ -18970,53 +18663,6 @@
       "tags": [],
       "task_count_efficiency": null,
       "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.0,
-      "description": "Mine 20 havensilver ore.",
-      "estimated_seconds": null,
-      "id": 1197,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": null,
-      "metadata_source": "none",
-      "name": "Mine 20 havensilver ore.",
-      "points": 10,
-      "recommendation_grade": "U",
-      "region": "Havenhythe",
-      "status": "accessible_requirements_unknown",
-      "tags": [],
-      "task_count_efficiency": null,
-      "tier": "easy",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "description": "Smith a havensilver weapon.",
-      "estimated_seconds": 60,
-      "id": 1198,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 10.0,
-      "metadata_source": "text_inference",
-      "name": "Smith a havensilver weapon.",
-      "points": 10,
-      "recommendation_grade": "B",
-      "region": "Havenhythe",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "production"
-      ],
-      "task_count_efficiency": 110,
-      "tier": "easy",
       "unknown_checks": []
     },
     {
