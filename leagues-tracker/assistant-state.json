@@ -375,7 +375,7 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-09T00:18:56.780Z",
+    "timestamp_utc": "2026-09-09T06:02:20.752Z",
     "total_level": 2423
   },
   "blessings": {
@@ -544,24 +544,11 @@
     ]
   },
   "changes": {
-    "league_points_delta": 80,
+    "league_points_delta": 0,
     "level_ups": [],
-    "new_task_ids": [
-      122
-    ],
-    "new_tasks": [
-      {
-        "blessing_task": false,
-        "description": "Defeat Kerapac, the bound once.",
-        "id": 122,
-        "issue": null,
-        "name": "Defeat Kerapac, the bound.",
-        "points": 80,
-        "region": "Misthalin",
-        "tier": "hard"
-      }
-    ],
-    "task_delta": 1
+    "new_task_ids": [],
+    "new_tasks": [],
+    "task_delta": 0
   },
   "forgotten_finish_opportunities": {
     "count": 4,
@@ -669,7 +656,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-09T00:18:56.780Z",
+    "generated_at_utc": "2026-09-09T06:02:20.752Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -702,7 +689,7 @@
       "timed_verified_tasks": 5
     },
     "task_catalog": {
-      "age_seconds_at_generation": 83051,
+      "age_seconds_at_generation": 103655,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -724,7 +711,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-09T00:18:56.780Z"
+      "timestamp": "2026-09-09T06:02:20.752Z"
     }
   },
   "manual": {
