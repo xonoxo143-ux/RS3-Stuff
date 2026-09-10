@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-10T19:45:28.909Z",
+  "generated_at_utc": "2026-09-10T22:38:32.459Z",
   "hiscores": {
     "note": "HiScores parsing is not a dependency.",
     "required": false,
@@ -31,7 +31,7 @@
     "timed_verified_tasks": 0
   },
   "task_catalog": {
-    "age_seconds_at_generation": 239444,
+    "age_seconds_at_generation": 249827,
     "fetched_at_utc": "2026-09-08T01:14:46+00:00",
     "latest_change_check": {
       "added_task_ids": [],
@@ -47,12 +47,12 @@
     "unmapped_completed_task_ids": []
   },
   "wikisync": {
-    "age_seconds_at_generation": 1,
+    "age_seconds_at_generation": 0,
     "authoritative_for": [
       "completed_task_ids",
       "skill_levels"
     ],
     "status": "fresh",
-    "timestamp": "2026-09-10T19:45:28.909Z"
+    "timestamp": "2026-09-10T22:38:32.459Z"
   }
 }
