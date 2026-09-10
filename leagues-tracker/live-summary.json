@@ -417,21 +417,8 @@
     "Woodcutting": 72
   },
   "mapped_completed_tasks": 352,
-  "new_task_ids_since_previous_live_sync": [
-    619
-  ],
-  "new_tasks_since_previous_live_sync": [
-    {
-      "blessing_task": false,
-      "description": "Equip a TzHaar-Ket-Om.",
-      "id": 619,
-      "issue": null,
-      "name": "Equip a Tzhaar-Ket-Om.",
-      "points": 30,
-      "region": "Karamja",
-      "tier": "medium"
-    }
-  ],
+  "new_task_ids_since_previous_live_sync": [],
+  "new_tasks_since_previous_live_sync": [],
   "next_blessing": {
     "remaining_tasks": 4,
     "step": "t6",
@@ -460,8 +447,8 @@
   ],
   "relic_tier": 6,
   "source": "WikiSync + master Equilibrium task catalog; HiScores optional",
-  "task_delta_since_previous_live_sync": 1,
-  "timestamp_utc": "2026-09-10T06:01:59.559Z",
+  "task_delta_since_previous_live_sync": 0,
+  "timestamp_utc": "2026-09-10T11:27:04.047Z",
   "total_level": 2434,
   "tracker_health": "healthy",
   "unmapped_completed_task_ids": []

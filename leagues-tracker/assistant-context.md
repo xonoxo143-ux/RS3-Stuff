@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-10T06:01:59.559Z**
+Updated: **2026-09-10T11:27:04.047Z**
 
 ## Tracker discipline
 
@@ -170,8 +170,7 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+1** · LP: **+30**
-- [619] Equip a Tzhaar-Ket-Om. — medium, Karamja, 30 LP
+- Tasks: **+0** · LP: **+0**
 
 ## Current task sprint
 
@@ -218,7 +217,7 @@ Passive step effects:
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-10T06:01:59.559Z
+- WikiSync: **fresh** · 2026-09-10T11:27:04.047Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
