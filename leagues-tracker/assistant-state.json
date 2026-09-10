@@ -206,6 +206,7 @@
       612,
       614,
       616,
+      619,
       620,
       623,
       627,
@@ -354,9 +355,9 @@
       1250,
       1271
     ],
-    "completed_tasks": 351,
+    "completed_tasks": 352,
     "league": "Leagues II: Equilibrium",
-    "league_points": 16390,
+    "league_points": 16420,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
       "Agility": 99,
@@ -390,7 +391,7 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-10T01:07:58.590Z",
+    "timestamp_utc": "2026-09-10T06:01:59.559Z",
     "total_level": 2434
   },
   "blessings": {
@@ -559,11 +560,24 @@
     ]
   },
   "changes": {
-    "league_points_delta": 0,
+    "league_points_delta": 30,
     "level_ups": [],
-    "new_task_ids": [],
-    "new_tasks": [],
-    "task_delta": 0
+    "new_task_ids": [
+      619
+    ],
+    "new_tasks": [
+      {
+        "blessing_task": false,
+        "description": "Equip a TzHaar-Ket-Om.",
+        "id": 619,
+        "issue": null,
+        "name": "Equip a Tzhaar-Ket-Om.",
+        "points": 30,
+        "region": "Karamja",
+        "tier": "medium"
+      }
+    ],
+    "task_delta": 1
   },
   "forgotten_finish_opportunities": {
     "count": 6,
@@ -713,7 +727,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-10T01:07:58.590Z",
+    "generated_at_utc": "2026-09-10T06:01:59.559Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -730,22 +744,22 @@
       "metadata_source_counts": {
         "manual_override": 3,
         "none": 653,
-        "text_inference": 145
+        "text_inference": 144
       },
       "status_counts": {
         "accessible_requirements_unknown": 274,
         "blocked": 32,
         "excluded": 7,
-        "inferred_candidate": 113,
+        "inferred_candidate": 112,
         "known_issue": 2,
         "locked_region": 370,
         "manual_check": 3
       },
-      "timed_inferred_candidates": 82,
+      "timed_inferred_candidates": 81,
       "timed_verified_tasks": 0
     },
     "task_catalog": {
-      "age_seconds_at_generation": 172394,
+      "age_seconds_at_generation": 190034,
       "fetched_at_utc": "2026-09-08T01:14:46+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -755,19 +769,19 @@
         "removed_task_ids": [],
         "status": "unchanged"
       },
-      "mapped_completed_tasks": 351,
+      "mapped_completed_tasks": 352,
       "status": "fresh_unchanged",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
     },
     "wikisync": {
-      "age_seconds_at_generation": 1,
+      "age_seconds_at_generation": 0,
       "authoritative_for": [
         "completed_task_ids",
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-10T01:07:58.590Z"
+      "timestamp": "2026-09-10T06:01:59.559Z"
     }
   },
   "manual": {
@@ -928,11 +942,11 @@
     "next_region": {
       "id": "elective_3",
       "region": null,
-      "remaining_tasks": 49,
+      "remaining_tasks": 48,
       "tasks": 400
     },
     "next_relic": {
-      "remaining_points": 3610,
+      "remaining_points": 3580,
       "threshold": 20000,
       "tier": 7
     },
@@ -1152,7 +1166,7 @@
   },
   "schema_version": 2,
   "tasks": {
-    "inferred_candidate_count": 113,
+    "inferred_candidate_count": 112,
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
@@ -1161,12 +1175,12 @@
       "accessible_requirements_unknown": 274,
       "blocked": 32,
       "excluded": 7,
-      "inferred_candidate": 113,
+      "inferred_candidate": 112,
       "known_issue": 2,
       "locked_region": 370,
       "manual_check": 3
     },
-    "unfinished_count": 801,
+    "unfinished_count": 800,
     "verified_ready_count": 0
   }
 }

@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-09-10T01:07:58.590Z**
+Updated: **2026-09-10T06:01:59.559Z**
 
 ## Tracker discipline
 
@@ -15,11 +15,11 @@ Updated: **2026-09-10T01:07:58.590Z**
 
 ## Current snapshot
 
-- **16,390 LP** · **351 tasks** · total level **2,434**
+- **16,420 LP** · **352 tasks** · total level **2,434**
 - **16 blessing tasks** · relic **T6**
 - Regions: **Misthalin, Havenhythe, Karamja, Desert, Asgarnia**
-- Next region: **49 tasks** to 400
-- Next relic: **3,610 LP** to T7
+- Next region: **48 tasks** to 400
+- Next relic: **3,580 LP** to T7
 - Next blessing step: **4** to t6
 
 ## Active relics
@@ -170,13 +170,14 @@ Passive step effects:
 
 ## Changes
 
-- Tasks: **+0** · LP: **+0**
+- Tasks: **+1** · LP: **+30**
+- [619] Equip a Tzhaar-Ket-Om. — medium, Karamja, 30 LP
 
 ## Current task sprint
 
-- Need: **49 tasks**
-- Precomputed sprint: **49 tasks** (0 Grade A, 49 Grade B)
-- Action-time estimate excluding travel: **1030 sec**
+- Need: **48 tasks**
+- Precomputed sprint: **48 tasks** (0 Grade A, 48 Grade B)
+- Action-time estimate excluding travel: **1010 sec**
 - [14] **Equip the full master runecrafter skilling outfit.** — Grade B · ~20s · unclustered
 - [61] **Equip a dragon crossbow.** — Grade B · ~20s · unclustered
 - [128] **Equip an Ek-ZekKil.** — Grade B · ~20s · unclustered
@@ -190,7 +191,6 @@ Passive step effects:
 - [377] **Equip a full set of graahk, larupia or kyatt hunter gear.** — Grade B · ~20s · unclustered
 - [615] **Equip an obsidian cape.** — Grade B · ~20s · unclustered
 - [618] **Equip a Toktz-Ket-Xil.** — Grade B · ~20s · unclustered
-- [619] **Equip a Tzhaar-Ket-Om.** — Grade B · ~20s · unclustered
 - [621] **Equip a Toktz-Xil-Ek.** — Grade B · ~20s · unclustered
 - [624] **Equip a full set of obsidian armour.** — Grade B · ~20s · unclustered
 - [625] **Equip a red topaz machete.** — Grade B · ~20s · unclustered
@@ -207,17 +207,18 @@ Passive step effects:
 - [950] **Equip a composite bow of any kind.** — Grade B · ~20s · unclustered
 - [951] **Equip any dragon mask.** — Grade B · ~20s · unclustered
 - [968] **Equip a rune ceremonial sword.** — Grade B · ~20s · unclustered
+- [969] **Equip a full set of the Blacksmith's outfit.** — Grade B · ~20s · unclustered
 
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **0**
-- Timed Grade-B inferred candidates: **82**
-- Metadata sources: `{'manual_override': 3, 'none': 653, 'text_inference': 145}`
+- Timed Grade-B inferred candidates: **81**
+- Metadata sources: `{'manual_override': 3, 'none': 653, 'text_inference': 144}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-09-10T01:07:58.590Z
+- WikiSync: **fresh** · 2026-09-10T06:01:59.559Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 

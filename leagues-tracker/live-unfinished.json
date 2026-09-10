@@ -1,5 +1,5 @@
 {
-  "completed_task_count": 351,
+  "completed_task_count": 352,
   "master_task_count": 1152,
   "recommendations_file": "recommendations.json",
   "schema_version": 3,
@@ -7,13 +7,13 @@
     "accessible_requirements_unknown": 274,
     "blocked": 32,
     "excluded": 7,
-    "inferred_candidate": 113,
+    "inferred_candidate": 112,
     "known_issue": 2,
     "locked_region": 370,
     "manual_check": 3
   },
-  "timestamp_utc": "2026-09-10T01:07:58.590Z",
-  "unfinished_task_count": 801,
+  "timestamp_utc": "2026-09-10T06:01:59.559Z",
+  "unfinished_task_count": 800,
   "unfinished_tasks": [
     {
       "blessing_task": false,
@@ -8780,31 +8780,6 @@
       "lp_per_minute": 90.0,
       "metadata_source": "text_inference",
       "name": "Equip a Toktz-Ket-Xil.",
-      "points": 30,
-      "recommendation_grade": "B",
-      "region": "Karamja",
-      "status": "inferred_candidate",
-      "tags": [
-        "inferred",
-        "equip"
-      ],
-      "task_count_efficiency": 70,
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blessing_task": false,
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "description": "Equip a TzHaar-Ket-Om.",
-      "estimated_seconds": 20,
-      "id": 619,
-      "issue": null,
-      "items_to_prepare": [],
-      "lp_per_minute": 90.0,
-      "metadata_source": "text_inference",
-      "name": "Equip a Tzhaar-Ket-Om.",
       "points": 30,
       "recommendation_grade": "B",
       "region": "Karamja",

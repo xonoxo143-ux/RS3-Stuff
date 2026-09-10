@@ -1,7 +1,20 @@
 {
-  "league_points_delta": 0,
+  "league_points_delta": 30,
   "level_ups": [],
-  "new_task_ids": [],
-  "new_tasks": [],
-  "task_delta": 0
+  "new_task_ids": [
+    619
+  ],
+  "new_tasks": [
+    {
+      "blessing_task": false,
+      "description": "Equip a TzHaar-Ket-Om.",
+      "id": 619,
+      "issue": null,
+      "name": "Equip a Tzhaar-Ket-Om.",
+      "points": 30,
+      "region": "Karamja",
+      "tier": "medium"
+    }
+  ],
+  "task_delta": 1
 }

@@ -175,18 +175,18 @@
     "metadata_source_counts": {
       "manual_override": 3,
       "none": 653,
-      "text_inference": 145
+      "text_inference": 144
     },
     "status_counts": {
       "accessible_requirements_unknown": 274,
       "blocked": 32,
       "excluded": 7,
-      "inferred_candidate": 113,
+      "inferred_candidate": 112,
       "known_issue": 2,
       "locked_region": 370,
       "manual_check": 3
     },
-    "timed_inferred_candidates": 82,
+    "timed_inferred_candidates": 81,
     "timed_verified_tasks": 0
   },
   "fastest_inferred_backups": [
@@ -755,22 +755,6 @@
       "cluster": null,
       "confidence": 0.72,
       "estimated_seconds": 20,
-      "id": 619,
-      "items_to_prepare": [],
-      "lp_per_minute": 90.0,
-      "name": "Equip a Tzhaar-Ket-Om.",
-      "points": 30,
-      "recommendation_grade": "B",
-      "region": "Karamja",
-      "status": "inferred_candidate",
-      "tier": "medium",
-      "unknown_checks": []
-    },
-    {
-      "blockers": [],
-      "cluster": null,
-      "confidence": 0.72,
-      "estimated_seconds": 20,
       "id": 621,
       "items_to_prepare": [],
       "lp_per_minute": 90.0,
@@ -989,6 +973,22 @@
       "status": "inferred_candidate",
       "tier": "medium",
       "unknown_checks": []
+    },
+    {
+      "blockers": [],
+      "cluster": "brimhaven",
+      "confidence": 0.72,
+      "estimated_seconds": 30,
+      "id": 596,
+      "items_to_prepare": [],
+      "lp_per_minute": 20.0,
+      "name": "Claim a ticket from Brimhaven Agility Arena.",
+      "points": 10,
+      "recommendation_grade": "B",
+      "region": "Karamja",
+      "status": "inferred_candidate",
+      "tier": "easy",
+      "unknown_checks": []
     }
   ],
   "fastest_verified": [],
@@ -998,11 +998,11 @@
     "type": "task_threshold"
   },
   "goal_sprint": {
-    "estimated_action_seconds_excluding_travel": 1030,
-    "inferred_count": 49,
+    "estimated_action_seconds_excluding_travel": 1010,
+    "inferred_count": 48,
     "note": "Grade A tasks come from explicit tracker metadata. Grade B tasks are conservative text-inferred candidates and should be verified before relying on them.",
     "prep_list": [],
-    "selected_count": 49,
+    "selected_count": 48,
     "tasks": [
       {
         "blockers": [],
@@ -1205,22 +1205,6 @@
         "items_to_prepare": [],
         "lp_per_minute": 90.0,
         "name": "Equip a Toktz-Ket-Xil.",
-        "points": 30,
-        "recommendation_grade": "B",
-        "region": "Karamja",
-        "status": "inferred_candidate",
-        "tier": "medium",
-        "unknown_checks": []
-      },
-      {
-        "blockers": [],
-        "cluster": null,
-        "confidence": 0.72,
-        "estimated_seconds": 20,
-        "id": 619,
-        "items_to_prepare": [],
-        "lp_per_minute": 90.0,
-        "name": "Equip a Tzhaar-Ket-Om.",
         "points": 30,
         "recommendation_grade": "B",
         "region": "Karamja",
@@ -1789,7 +1773,7 @@
         "unknown_checks": []
       }
     ],
-    "tasks_needed": 49,
+    "tasks_needed": 48,
     "verified_count": 0
   },
   "highest_lp_per_minute": [
@@ -2566,10 +2550,10 @@
       "cluster": null,
       "confidence": 0.72,
       "estimated_seconds": 20,
-      "id": 619,
+      "id": 621,
       "items_to_prepare": [],
       "lp_per_minute": 90.0,
-      "name": "Equip a Tzhaar-Ket-Om.",
+      "name": "Equip a Toktz-Xil-Ek.",
       "points": 30,
       "recommendation_grade": "B",
       "region": "Karamja",
@@ -2582,13 +2566,13 @@
       "cluster": null,
       "confidence": 0.72,
       "estimated_seconds": 20,
-      "id": 621,
+      "id": 882,
       "items_to_prepare": [],
       "lp_per_minute": 90.0,
-      "name": "Equip a Toktz-Xil-Ek.",
+      "name": "Equip an iron crossbow.",
       "points": 30,
       "recommendation_grade": "B",
-      "region": "Karamja",
+      "region": "Global",
       "status": "inferred_candidate",
       "tier": "medium",
       "unknown_checks": []
@@ -2733,7 +2717,7 @@
   "next_region_target": {
     "id": "elective_3",
     "region": null,
-    "remaining_tasks": 49,
+    "remaining_tasks": 48,
     "tasks": 400
   },
   "schema_version": 1

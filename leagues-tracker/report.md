@@ -1,22 +1,22 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-10T01:07:58.590Z**
+Updated: **2026-09-10T06:01:59.559Z**
 
 ## Current
 
-- **351 tasks**
-- **16,390 LP**
+- **352 tasks**
+- **16,420 LP**
 - **Total level 2,434**
 - **Relic T6**
 - **16 blessing tasks**
 - Regions: Misthalin, Havenhythe, Karamja, Desert, Asgarnia
-- **49 tasks** to the next region slot
-- **3,610 LP** to T7
+- **48 tasks** to the next region slot
+- **3,580 LP** to T7
 - **4 blessing tasks** to t6
 
 ## Suggested sprint
 
-Tracker selected **49** of the **49** tasks currently needed.
+Tracker selected **48** of the **48** tasks currently needed.
 
 - [14] Equip the full master runecrafter skilling outfit. — Grade B, ~20s, unclustered, 80 LP
 - [61] Equip a dragon crossbow. — Grade B, ~20s, unclustered, 200 LP
@@ -31,7 +31,6 @@ Tracker selected **49** of the **49** tasks currently needed.
 - [377] Equip a full set of graahk, larupia or kyatt hunter gear. — Grade B, ~20s, unclustered, 30 LP
 - [615] Equip an obsidian cape. — Grade B, ~20s, unclustered, 30 LP
 - [618] Equip a Toktz-Ket-Xil. — Grade B, ~20s, unclustered, 30 LP
-- [619] Equip a Tzhaar-Ket-Om. — Grade B, ~20s, unclustered, 30 LP
 - [621] Equip a Toktz-Xil-Ek. — Grade B, ~20s, unclustered, 30 LP
 - [624] Equip a full set of obsidian armour. — Grade B, ~20s, unclustered, 80 LP
 - [625] Equip a red topaz machete. — Grade B, ~20s, unclustered, 80 LP
