@@ -1,6 +1,6 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-09-12T10:53:14.934Z**
+Updated: **2026-09-12T14:11:54.275Z**
 
 ## Current
 
