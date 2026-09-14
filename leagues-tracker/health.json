@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-14T06:23:14.991Z",
+  "generated_at_utc": "2026-09-14T14:10:01.752Z",
   "hiscores": {
     "note": "HiScores parsing is not a dependency.",
     "required": false,
@@ -31,30 +31,18 @@
     "timed_verified_tasks": 0
   },
   "task_catalog": {
-    "age_seconds_at_generation": 0,
+    "age_seconds_at_generation": 28007,
     "fetched_at_utc": "2026-09-14T06:23:16+00:00",
     "latest_change_check": {
       "added_task_ids": [],
-      "changed_task_ids": [
-        432,
-        482,
-        582,
-        849,
-        850,
-        851,
-        852,
-        903,
-        978,
-        1053,
-        1054
-      ],
+      "changed_task_ids": [],
       "current_task_count": 1152,
       "previous_task_count": 1152,
       "removed_task_ids": [],
-      "status": "changed"
+      "status": "unchanged"
     },
     "mapped_completed_tasks": 352,
-    "status": "fresh_updated",
+    "status": "fresh_unchanged",
     "task_count": 1152,
     "unmapped_completed_task_ids": []
   },
@@ -65,6 +53,6 @@
       "skill_levels"
     ],
     "status": "fresh",
-    "timestamp": "2026-09-14T06:23:14.991Z"
+    "timestamp": "2026-09-14T14:10:01.752Z"
   }
 }
