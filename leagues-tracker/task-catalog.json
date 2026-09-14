@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-08T01:14:46+00:00",
+  "fetched_at_utc": "2026-09-14T06:23:16+00:00",
   "schema_version": 2,
   "source": "ScapeLeagues Equilibrium task database",
   "source_url": "https://scapeleagues.com/rs3/equilibrium/tasks",
@@ -3877,7 +3877,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Teleport to Castle Wars with a ring of duelling.",
+      "description": "Teleport to Castle Wars with a ring of duelling. (No Time to Lose)",
       "id": 432,
       "issue": null,
       "name": "Use a ring of duelling to teleport to Castle Wars.",
@@ -4289,7 +4289,7 @@
       "blessing_task": false,
       "description": "Complete the base camp tutorial.",
       "id": 482,
-      "issue": "Cannot be completed",
+      "issue": null,
       "name": "Complete the base camp tutorial on Anachronia.",
       "points": 10,
       "region": "Anachronia",
@@ -5167,7 +5167,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch a crystal impling. Cannot be completed in Puro-Puro.",
+      "description": "Catch a crystal impling. Can be completed in Puro-Puro.",
       "id": 582,
       "issue": null,
       "name": "Catch a crystal impling.",
@@ -7517,7 +7517,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch a baby impling. Cannot be completed in Puro-Puro.",
+      "description": "Catch a baby impling. Can be completed in Puro-Puro.",
       "id": 849,
       "issue": null,
       "name": "Catch a baby impling.",
@@ -7527,7 +7527,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch 10 implings. Cannot be completed in Puro-Puro.",
+      "description": "Catch 10 implings. Can be completed in Puro-Puro.",
       "id": 850,
       "issue": null,
       "name": "Catch 10 implings of any kind.",
@@ -7537,7 +7537,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch 25 implings of any kind. Cannot be completed in Puro-Puro.",
+      "description": "Catch 25 implings of any kind. Can be completed in Puro-Puro.",
       "id": 851,
       "issue": null,
       "name": "Catch 25 implings of any kind.",
@@ -7547,7 +7547,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch 35 Implings of any kind. Cannot be completed in Puro-Puro.",
+      "description": "Catch 35 Implings of any kind. Can be completed in Puro-Puro.",
       "id": 852,
       "issue": null,
       "name": "Catch 35 implings of any kind.",
@@ -8047,7 +8047,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch a gourmet impling.",
+      "description": "Catch a gourmet impling. Can be completed in Puro-Puro.",
       "id": 903,
       "issue": null,
       "name": "Catch a gourmet impling.",
@@ -8727,7 +8727,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch a spirit impling. Cannot be completed in Puro-Puro.",
+      "description": "Catch a spirit impling. Can be completed in Puro-Puro.",
       "id": 978,
       "issue": null,
       "name": "Catch a spirit impling.",
@@ -9417,7 +9417,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch a dragon impling. Cannot be completed in Puro-Puro.",
+      "description": "Catch a dragon impling. Can be completed in Puro-Puro.",
       "id": 1053,
       "issue": null,
       "name": "Catch a dragon impling.",
@@ -9427,7 +9427,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Catch a kingly impling. Cannot be completed in Puro-Puro.",
+      "description": "Catch a kingly impling. Can be completed in Puro-Puro.",
       "id": 1054,
       "issue": null,
       "name": "Catch a kingly impling.",

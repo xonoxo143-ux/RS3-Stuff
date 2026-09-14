@@ -182,8 +182,8 @@
       "blocked": 32,
       "excluded": 7,
       "inferred_candidate": 112,
-      "known_issue": 2,
-      "locked_region": 370,
+      "known_issue": 1,
+      "locked_region": 371,
       "manual_check": 3
     },
     "timed_inferred_candidates": 81,
