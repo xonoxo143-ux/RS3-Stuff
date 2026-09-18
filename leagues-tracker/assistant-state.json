@@ -391,7 +391,7 @@
       "Woodcutting": 72
     },
     "player": "112321",
-    "timestamp_utc": "2026-09-18T00:27:13.250Z",
+    "timestamp_utc": "2026-09-18T05:59:04.451Z",
     "total_level": 2434
   },
   "blessings": {
@@ -714,7 +714,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-09-18T00:27:13.250Z",
+    "generated_at_utc": "2026-09-18T05:59:04.451Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -730,12 +730,12 @@
     "recommendation_coverage": {
       "metadata_source_counts": {
         "manual_override": 3,
-        "none": 653,
-        "text_inference": 144
+        "none": 652,
+        "text_inference": 145
       },
       "status_counts": {
-        "accessible_requirements_unknown": 274,
-        "blocked": 32,
+        "accessible_requirements_unknown": 273,
+        "blocked": 33,
         "excluded": 7,
         "inferred_candidate": 112,
         "known_issue": 1,
@@ -746,18 +746,32 @@
       "timed_verified_tasks": 0
     },
     "task_catalog": {
-      "age_seconds_at_generation": 324237,
-      "fetched_at_utc": "2026-09-14T06:23:16+00:00",
+      "age_seconds_at_generation": 0,
+      "fetched_at_utc": "2026-09-18T05:59:05+00:00",
       "latest_change_check": {
         "added_task_ids": [],
-        "changed_task_ids": [],
+        "changed_task_ids": [
+          9,
+          10,
+          12,
+          24,
+          111,
+          120,
+          139,
+          140,
+          394,
+          575,
+          1082,
+          1153,
+          1231
+        ],
         "current_task_count": 1152,
         "previous_task_count": 1152,
         "removed_task_ids": [],
-        "status": "unchanged"
+        "status": "changed"
       },
       "mapped_completed_tasks": 352,
-      "status": "fresh_unchanged",
+      "status": "fresh_updated",
       "task_count": 1152,
       "unmapped_completed_task_ids": []
     },
@@ -768,7 +782,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-09-18T00:27:13.250Z"
+      "timestamp": "2026-09-18T05:59:04.451Z"
     }
   },
   "manual": {
@@ -1157,10 +1171,10 @@
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
-    "requirements_unknown_count": 274,
+    "requirements_unknown_count": 273,
     "status_counts": {
-      "accessible_requirements_unknown": 274,
-      "blocked": 32,
+      "accessible_requirements_unknown": 273,
+      "blocked": 33,
       "excluded": 7,
       "inferred_candidate": 112,
       "known_issue": 1,

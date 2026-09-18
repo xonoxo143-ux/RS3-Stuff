@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-09-14T06:23:16+00:00",
+  "fetched_at_utc": "2026-09-18T05:59:05+00:00",
   "schema_version": 2,
   "source": "ScapeLeagues Equilibrium task database",
   "source_url": "https://scapeleagues.com/rs3/equilibrium/tasks",
@@ -87,7 +87,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Siphon rune dust from a Runesphere in the RuneSpan.",
+      "description": "Siphon rune dust from a Runesphere in the Runespan.",
       "id": 9,
       "issue": null,
       "name": "Siphon rune dust from a Runesphere in the Runespan.",
@@ -97,7 +97,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Siphon from a death esswraith in the RuneSpan.",
+      "description": "Siphon from a death esswraith in the Runespan.",
       "id": 10,
       "issue": null,
       "name": "Siphon from a death esswraith in the Runespan.",
@@ -117,7 +117,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Obtain the massive pouch from the RuneSpan.",
+      "description": "Obtain the massive pouch from the Runespan.",
       "id": 12,
       "issue": null,
       "name": "Obtain the massive pouch from the Runespan.",
@@ -227,7 +227,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Upgrade the Workshop in Fort Forinthry to tier 3.",
+      "description": "Upgrade the workshop in Fort Forinthry to tier 3.",
       "id": 24,
       "issue": null,
       "name": "Upgrade the workshop in Fort Forinthry to Tier 3.",
@@ -997,7 +997,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Browse through Oziach's Armour Shop.",
+      "description": "Browse through Oziach's Armour.",
       "id": 111,
       "issue": null,
       "name": "Browse through Oziach's Armour Shop.",
@@ -1077,7 +1077,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Activate 3 Archaeology relics at once.",
+      "description": "Have three Archaeology relic powers harnessed at once.",
       "id": 120,
       "issue": null,
       "name": "Harness the power of three relics at once.",
@@ -1247,7 +1247,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Reach at least level 10 in all non-elite skills.",
+      "description": "Reach at least level 10 in all non-elite skills",
       "id": 139,
       "issue": null,
       "name": "Reach at least level 10 in all non-elite skills.",
@@ -1257,7 +1257,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Reach at least level 20 in all non-elite skills.",
+      "description": "Reach at least level 20 in all non-elite skills",
       "id": 140,
       "issue": null,
       "name": "Reach at least level 20 in all non-elite skills.",
@@ -3547,7 +3547,7 @@
     },
     {
       "blessing_task": true,
-      "description": "Equip a Berserker, Warrior, Seers, or Archers Ring.",
+      "description": "Equip a Berserker, Warrior, Seers, or Archers' ring.",
       "id": 394,
       "issue": null,
       "name": "Equip a Berserker, Warrior, Seers', or Archers' Ring.",
@@ -5117,7 +5117,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Find all of the memoriam crystals in Prifddinas.",
+      "description": "Find all of the memoriam crystals in Prifddinas. Memoriam crystal 06 has been automatically submitted.",
       "id": 575,
       "issue": null,
       "name": "Find all of the memoriam crystals in Prifddinas.",
@@ -9707,7 +9707,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Reach level 99 Runecraft.",
+      "description": "Reach level 99 Runecrafting.",
       "id": 1082,
       "issue": null,
       "name": "Reach level 99 in the Runecrafting skill.",
@@ -10347,7 +10347,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Reach at least level 30 in all non-elite skills.",
+      "description": "Reach at least level 30 in all non-elite skills",
       "id": 1153,
       "issue": null,
       "name": "Reach at least level 30 in all non-elite skills.",
@@ -11107,7 +11107,7 @@
     },
     {
       "blessing_task": false,
-      "description": "Clear an overgrown idol on Karamja.",
+      "description": "Investigate an overgrown idol after clearing it on Karamja.",
       "id": 1231,
       "issue": null,
       "name": "Investigate an overgrown Karamjan idol to discover an ancient tale.",

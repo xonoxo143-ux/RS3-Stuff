@@ -174,12 +174,12 @@
   "coverage": {
     "metadata_source_counts": {
       "manual_override": 3,
-      "none": 653,
-      "text_inference": 144
+      "none": 652,
+      "text_inference": 145
     },
     "status_counts": {
-      "accessible_requirements_unknown": 274,
-      "blocked": 32,
+      "accessible_requirements_unknown": 273,
+      "blocked": 33,
       "excluded": 7,
       "inferred_candidate": 112,
       "known_issue": 1,
