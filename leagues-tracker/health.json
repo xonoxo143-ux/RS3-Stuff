@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-19T18:04:49.377Z",
+  "generated_at_utc": "2026-09-19T20:46:39.072Z",
   "hiscores": {
     "note": "HiScores parsing is not a dependency.",
     "required": false,
@@ -31,7 +31,7 @@
     "timed_verified_tasks": 0
   },
   "task_catalog": {
-    "age_seconds_at_generation": 129945,
+    "age_seconds_at_generation": 139655,
     "fetched_at_utc": "2026-09-18T05:59:05+00:00",
     "latest_change_check": {
       "added_task_ids": [],
@@ -53,6 +53,6 @@
       "skill_levels"
     ],
     "status": "fresh",
-    "timestamp": "2026-09-19T18:04:49.377Z"
+    "timestamp": "2026-09-19T20:46:39.072Z"
   }
 }
