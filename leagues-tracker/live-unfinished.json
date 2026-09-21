@@ -12,7 +12,7 @@
     "locked_region": 371,
     "manual_check": 3
   },
-  "timestamp_utc": "2026-09-21T19:34:27.542Z",
+  "timestamp_utc": "2026-09-21T23:20:38.313Z",
   "unfinished_task_count": 800,
   "unfinished_tasks": [
     {
@@ -18591,7 +18591,7 @@
       "blockers": [],
       "cluster": null,
       "confidence": 0.0,
-      "description": "Catch 30 giant crayfish at the Wendlewick fish farm.",
+      "description": "Catch raw giant crayfish 30 times at the Wendlewick fish farm.",
       "estimated_seconds": null,
       "id": 1195,
       "issue": null,
