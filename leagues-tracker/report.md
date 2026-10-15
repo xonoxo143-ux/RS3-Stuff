@@ -1,6 +1,6 @@
 # RS3 Equilibrium Tracker
 
-Updated: **2026-10-15T13:29:30.202Z**
+Updated: **2026-10-15T18:21:01.552Z**
 
 ## Current
 
@@ -28,7 +28,6 @@ Tracker selected **48** of the **48** tasks currently needed.
 - [253] Equip a piece of masterwork melee armour. — Grade B, ~20s, unclustered, 200 LP
 - [267] Equip a piece of Torva, Pernix or Virtus armour. — Grade B, ~20s, unclustered, 200 LP
 - [317] Equip a drygore weapon. — Grade B, ~20s, unclustered, 80 LP
-- [377] Equip a full set of graahk, larupia or kyatt hunter gear. — Grade B, ~20s, unclustered, 30 LP
 - [615] Equip an obsidian cape. — Grade B, ~20s, unclustered, 30 LP
 - [618] Equip a Toktz-Ket-Xil. — Grade B, ~20s, unclustered, 30 LP
 - [621] Equip a Toktz-Xil-Ek. — Grade B, ~20s, unclustered, 30 LP
@@ -65,6 +64,7 @@ Tracker selected **48** of the **48** tasks currently needed.
 - [1175] Use an oaken key to open Raz's stash in her hut north of Wendlewick. — Grade B, ~30s, unclustered, 30 LP
 - [1185] Use the Fang of Mohegan to teleport to the Shrine of Inanna. — Grade B, ~30s, unclustered, 30 LP
 - [1186] Search a hollow tree within the Highweald forest. — Grade B, ~30s, unclustered, 30 LP
+- [1192] Use a clockwork box trap to catch a grenwall in a kebbit encounter. — Grade B, ~30s, unclustered, 30 LP
 - [1212] Speak to Inanna with the Anzagar pet present. — Grade B, ~30s, unclustered, 200 LP
 
 ## Best clusters
@@ -76,8 +76,7 @@ Tracker selected **48** of the **48** tasks currently needed.
 
 ## Nearly unlocked
 
-- [1062] Reach level 99 in the Attack skill. — Attack 95→99
-- [1085] Reach level 99 in the Strength skill. — Strength 95→99
+- None currently identified within 5 skill levels.
 
 ## Health
 
@@ -89,8 +88,6 @@ Grade A = explicit task metadata. Grade B = conservative automatic inference; ve
 
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
-- [1062] **Reach level 99 in the Attack skill.** — score 25, unknown_check_progress; Only 4 Attack levels remain to the task target.
-- [1085] **Reach level 99 in the Strength skill.** — score 25, unknown_check_progress; Only 4 Strength levels remain to the task target.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
 - [852] **Catch 35 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.
 

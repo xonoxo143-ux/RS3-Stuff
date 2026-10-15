@@ -5,14 +5,14 @@
   "schema_version": 3,
   "status_counts": {
     "accessible_requirements_unknown": 273,
-    "blocked": 33,
+    "blocked": 36,
     "excluded": 7,
-    "inferred_candidate": 112,
+    "inferred_candidate": 109,
     "known_issue": 1,
     "locked_region": 371,
     "manual_check": 3
   },
-  "timestamp_utc": "2026-10-15T13:29:30.202Z",
+  "timestamp_utc": "2026-10-15T18:21:01.552Z",
   "unfinished_task_count": 800,
   "unfinished_tasks": [
     {
@@ -3451,7 +3451,15 @@
     },
     {
       "blessing_task": false,
-      "blockers": [],
+      "blockers": [
+        {
+          "current": 0,
+          "gap": 31,
+          "required": 31,
+          "skill": "Hunter",
+          "type": "skill"
+        }
+      ],
       "cluster": null,
       "confidence": 0.72,
       "description": "Equip a full set of graahk, larupia or kyatt hunter gear. Three of each creature's furs (tatty or perfect) are required, along with some coins, to pay the fancy-dress shop owner to create the outfit pieces; the hats can only be created using perfect furs. They are all caught using pitfall trapping. Spined larupia can be caught with level 31 Hunter at the Feldip Hunter area.",
@@ -3465,7 +3473,7 @@
       "points": 30,
       "recommendation_grade": "B",
       "region": "Global",
-      "status": "inferred_candidate",
+      "status": "blocked",
       "tags": [
         "inferred",
         "equip",
@@ -13339,7 +13347,15 @@
     },
     {
       "blessing_task": false,
-      "blockers": [],
+      "blockers": [
+        {
+          "current": 0,
+          "gap": 60,
+          "required": 60,
+          "skill": "Mining",
+          "type": "skill"
+        }
+      ],
       "cluster": null,
       "confidence": 0.55,
       "description": "Open 20 igneous geodes. These are found rarely while mining from rocks which require at least level 60 Mining",
@@ -13353,7 +13369,7 @@
       "points": 30,
       "recommendation_grade": "U",
       "region": "Global",
-      "status": "inferred_candidate",
+      "status": "blocked",
       "tags": [
         "inferred",
         "mining"
@@ -15673,7 +15689,15 @@
     },
     {
       "blessing_task": false,
-      "blockers": [],
+      "blockers": [
+        {
+          "current": 0,
+          "gap": 60,
+          "required": 60,
+          "skill": "Mining",
+          "type": "skill"
+        }
+      ],
       "cluster": null,
       "confidence": 0.55,
       "description": "Open 10 metamorphic geodes. These are found rarely while mining from rocks which require at least level 60 Mining",
@@ -15687,7 +15711,7 @@
       "points": 200,
       "recommendation_grade": "U",
       "region": "Global",
-      "status": "inferred_candidate",
+      "status": "blocked",
       "tags": [
         "inferred",
         "mining"
@@ -16111,8 +16135,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 60,
-          "gap": 39,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Archaeology",
           "type": "skill"
@@ -16144,8 +16168,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 95,
-          "gap": 4,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Attack",
           "type": "skill"
@@ -16177,8 +16201,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 60,
-          "gap": 39,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Construction",
           "type": "skill"
@@ -16210,8 +16234,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 91,
-          "gap": 8,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Cooking",
           "type": "skill"
@@ -16243,8 +16267,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 84,
-          "gap": 15,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Divination",
           "type": "skill"
@@ -16276,8 +16300,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 68,
-          "gap": 31,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Dungeoneering",
           "type": "skill"
@@ -16309,8 +16333,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 32,
-          "gap": 67,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Farming",
           "type": "skill"
@@ -16342,8 +16366,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 78,
-          "gap": 21,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Firemaking",
           "type": "skill"
@@ -16375,8 +16399,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 40,
-          "gap": 59,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Fishing",
           "type": "skill"
@@ -16408,8 +16432,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 82,
-          "gap": 17,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Fletching",
           "type": "skill"
@@ -16441,8 +16465,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 82,
-          "gap": 17,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Herblore",
           "type": "skill"
@@ -16474,8 +16498,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 50,
-          "gap": 49,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Hunter",
           "type": "skill"
@@ -16507,8 +16531,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 91,
-          "gap": 8,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Magic",
           "type": "skill"
@@ -16540,8 +16564,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 87,
-          "gap": 12,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Mining",
           "type": "skill"
@@ -16573,8 +16597,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 73,
-          "gap": 26,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Runecrafting",
           "type": "skill"
@@ -16607,8 +16631,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 80,
-          "gap": 19,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Slayer",
           "type": "skill"
@@ -16640,8 +16664,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 84,
-          "gap": 15,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Smithing",
           "type": "skill"
@@ -16673,8 +16697,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 95,
-          "gap": 4,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Strength",
           "type": "skill"
@@ -16706,8 +16730,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 73,
-          "gap": 26,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Summoning",
           "type": "skill"
@@ -16739,8 +16763,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 72,
-          "gap": 27,
+          "current": 0,
+          "gap": 99,
           "required": 99,
           "skill": "Woodcutting",
           "type": "skill"
@@ -16772,8 +16796,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 87,
-          "gap": 23,
+          "current": 0,
+          "gap": 110,
           "required": 110,
           "skill": "Mining",
           "type": "skill"
@@ -16805,8 +16829,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 84,
-          "gap": 26,
+          "current": 0,
+          "gap": 110,
           "required": 110,
           "skill": "Smithing",
           "type": "skill"
@@ -16838,8 +16862,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 99,
-          "gap": 11,
+          "current": 0,
+          "gap": 110,
           "required": 110,
           "skill": "Crafting",
           "type": "skill"
@@ -16871,8 +16895,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 78,
-          "gap": 32,
+          "current": 0,
+          "gap": 110,
           "required": 110,
           "skill": "Firemaking",
           "type": "skill"
@@ -16904,8 +16928,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 82,
-          "gap": 28,
+          "current": 0,
+          "gap": 110,
           "required": 110,
           "skill": "Fletching",
           "type": "skill"
@@ -16937,8 +16961,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 72,
-          "gap": 38,
+          "current": 0,
+          "gap": 110,
           "required": 110,
           "skill": "Woodcutting",
           "type": "skill"
@@ -16970,8 +16994,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 73,
-          "gap": 37,
+          "current": 0,
+          "gap": 110,
           "required": 110,
           "skill": "Runecrafting",
           "type": "skill"
@@ -17004,8 +17028,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 68,
-          "gap": 52,
+          "current": 0,
+          "gap": 120,
           "required": 120,
           "skill": "Dungeoneering",
           "type": "skill"
@@ -17037,8 +17061,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 32,
-          "gap": 88,
+          "current": 0,
+          "gap": 120,
           "required": 120,
           "skill": "Farming",
           "type": "skill"
@@ -17070,8 +17094,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 82,
-          "gap": 38,
+          "current": 0,
+          "gap": 120,
           "required": 120,
           "skill": "Herblore",
           "type": "skill"
@@ -17103,8 +17127,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 80,
-          "gap": 40,
+          "current": 0,
+          "gap": 120,
           "required": 120,
           "skill": "Slayer",
           "type": "skill"
@@ -17136,8 +17160,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 60,
-          "gap": 60,
+          "current": 0,
+          "gap": 120,
           "required": 120,
           "skill": "Archaeology",
           "type": "skill"
@@ -17169,8 +17193,8 @@
       "blessing_task": false,
       "blockers": [
         {
-          "current": 107,
-          "gap": 13,
+          "current": 0,
+          "gap": 120,
           "required": 120,
           "skill": "Necromancy",
           "type": "skill"

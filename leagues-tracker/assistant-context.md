@@ -1,6 +1,6 @@
 # Equilibrium assistant state — 112321
 
-Updated: **2026-10-15T13:29:30.202Z**
+Updated: **2026-10-15T18:21:01.552Z**
 
 ## Tracker discipline
 
@@ -176,7 +176,7 @@ Passive step effects:
 
 - Need: **48 tasks**
 - Precomputed sprint: **48 tasks** (0 Grade A, 48 Grade B)
-- Action-time estimate excluding travel: **1010 sec**
+- Action-time estimate excluding travel: **1020 sec**
 - [14] **Equip the full master runecrafter skilling outfit.** — Grade B · ~20s · unclustered
 - [61] **Equip a dragon crossbow.** — Grade B · ~20s · unclustered
 - [128] **Equip an Ek-ZekKil.** — Grade B · ~20s · unclustered
@@ -187,7 +187,6 @@ Passive step effects:
 - [253] **Equip a piece of masterwork melee armour.** — Grade B · ~20s · unclustered
 - [267] **Equip a piece of Torva, Pernix or Virtus armour.** — Grade B · ~20s · unclustered
 - [317] **Equip a drygore weapon.** — Grade B · ~20s · unclustered
-- [377] **Equip a full set of graahk, larupia or kyatt hunter gear.** — Grade B · ~20s · unclustered
 - [615] **Equip an obsidian cape.** — Grade B · ~20s · unclustered
 - [618] **Equip a Toktz-Ket-Xil.** — Grade B · ~20s · unclustered
 - [621] **Equip a Toktz-Xil-Ek.** — Grade B · ~20s · unclustered
@@ -207,17 +206,18 @@ Passive step effects:
 - [951] **Equip any dragon mask.** — Grade B · ~20s · unclustered
 - [968] **Equip a rune ceremonial sword.** — Grade B · ~20s · unclustered
 - [969] **Equip a full set of the Blacksmith's outfit.** — Grade B · ~20s · unclustered
+- [984] **Equip a full set of orikalkum armour.** — Grade B · ~20s · unclustered
 
 ## Recommendation coverage
 
 - Timed Grade-A tasks: **0**
-- Timed Grade-B inferred candidates: **81**
+- Timed Grade-B inferred candidates: **80**
 - Metadata sources: `{'manual_override': 3, 'none': 652, 'text_inference': 145}`
 
 ## Data health
 
 - Overall: **healthy**
-- WikiSync: **fresh** · 2026-10-15T13:29:30.202Z
+- WikiSync: **fresh** · 2026-10-15T18:21:01.552Z
 - Task catalog: **fresh_unchanged** · 1152 tasks
 - HiScores: **unavailable_optional** (optional)
 
@@ -227,8 +227,6 @@ Passive step effects:
 
 - [796] **Upgrade a set of Death Skull equipment to tier 90.** — score 35, unknown_check_progress; Completed related milestone 70 proves at least 78% of the 90 cumulative target was reached.
 - [830] **Smith 100 of any metal weapon or armour piece.** — score 27, unknown_check_progress; Completed related milestone 50 proves at least 50% of the 100 cumulative target was reached.
-- [1062] **Reach level 99 in the Attack skill.** — score 25, unknown_check_progress; Only 4 Attack levels remain to the task target.
-- [1085] **Reach level 99 in the Strength skill.** — score 25, unknown_check_progress; Only 4 Strength levels remain to the task target.
 - [851] **Catch 25 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 40% of the 25 cumulative target was reached.
 - [852] **Catch 35 implings of any kind.** — score 8, unknown_check_progress; Completed related milestone 10 proves at least 29% of the 35 cumulative target was reached.
 

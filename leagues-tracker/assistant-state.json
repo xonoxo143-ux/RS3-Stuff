@@ -360,38 +360,38 @@
     "league_points": 16420,
     "league_points_source": "sum of mapped completed task points",
     "levels": {
-      "Agility": 99,
-      "Archaeology": 60,
-      "Attack": 95,
-      "Constitution": 99,
-      "Construction": 60,
-      "Cooking": 91,
-      "Crafting": 99,
-      "Defence": 99,
-      "Divination": 84,
-      "Dungeoneering": 68,
-      "Farming": 32,
-      "Firemaking": 78,
-      "Fishing": 40,
-      "Fletching": 82,
-      "Herblore": 82,
-      "Hunter": 50,
-      "Invention": 120,
-      "Magic": 91,
-      "Mining": 87,
-      "Necromancy": 107,
-      "Prayer": 99,
-      "Ranged": 115,
-      "Runecrafting": 73,
-      "Slayer": 80,
-      "Smithing": 84,
-      "Strength": 95,
-      "Summoning": 73,
-      "Thieving": 120,
-      "Woodcutting": 72
+      "0": 95,
+      "1": 99,
+      "10": 40,
+      "11": 78,
+      "12": 99,
+      "13": 84,
+      "14": 87,
+      "15": 82,
+      "16": 99,
+      "17": 120,
+      "18": 80,
+      "19": 32,
+      "2": 95,
+      "20": 73,
+      "21": 50,
+      "22": 60,
+      "23": 73,
+      "24": 68,
+      "25": 84,
+      "26": 120,
+      "27": 60,
+      "28": 107,
+      "3": 99,
+      "4": 115,
+      "5": 99,
+      "6": 91,
+      "7": 91,
+      "8": 72,
+      "9": 82
     },
     "player": "112321",
-    "timestamp_utc": "2026-10-15T13:29:30.202Z",
+    "timestamp_utc": "2026-10-15T18:21:01.552Z",
     "total_level": 2434
   },
   "blessings": {
@@ -567,7 +567,7 @@
     "task_delta": 0
   },
   "forgotten_finish_opportunities": {
-    "count": 6,
+    "count": 4,
     "note": "WikiSync exposes completed task IDs and skill levels, not arbitrary hidden per-task counters. For cumulative families, completed milestones provide only a guaranteed lower bound; exact states such as 19/20 require a source that exposes that counter.",
     "source": "opportunities.json",
     "top": [
@@ -625,48 +625,6 @@
       },
       {
         "cluster": null,
-        "confidence": 0.9,
-        "estimated_seconds_if_known": null,
-        "id": 1062,
-        "name": "Reach level 99 in the Attack skill.",
-        "opportunity_score": 25,
-        "points": 200,
-        "reasons": [
-          {
-            "code": "small_skill_gap",
-            "detail": "Only 4 Attack levels remain to the task target.",
-            "gap": 4,
-            "skill": "Attack"
-          }
-        ],
-        "region": "Global",
-        "status": "blocked",
-        "suspected_remaining_effort": "unknown_check_progress",
-        "tier": "elite"
-      },
-      {
-        "cluster": null,
-        "confidence": 0.9,
-        "estimated_seconds_if_known": null,
-        "id": 1085,
-        "name": "Reach level 99 in the Strength skill.",
-        "opportunity_score": 25,
-        "points": 200,
-        "reasons": [
-          {
-            "code": "small_skill_gap",
-            "detail": "Only 4 Strength levels remain to the task target.",
-            "gap": 4,
-            "skill": "Strength"
-          }
-        ],
-        "region": "Global",
-        "status": "blocked",
-        "suspected_remaining_effort": "unknown_check_progress",
-        "tier": "elite"
-      },
-      {
-        "cluster": null,
         "confidence": 0.72,
         "estimated_seconds_if_known": null,
         "id": 851,
@@ -714,7 +672,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-10-15T13:29:30.202Z",
+    "generated_at_utc": "2026-10-15T18:21:01.552Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -735,18 +693,18 @@
       },
       "status_counts": {
         "accessible_requirements_unknown": 273,
-        "blocked": 33,
+        "blocked": 36,
         "excluded": 7,
-        "inferred_candidate": 112,
+        "inferred_candidate": 109,
         "known_issue": 1,
         "locked_region": 371,
         "manual_check": 3
       },
-      "timed_inferred_candidates": 81,
+      "timed_inferred_candidates": 80,
       "timed_verified_tasks": 0
     },
     "task_catalog": {
-      "age_seconds_at_generation": 2038132,
+      "age_seconds_at_generation": 2055624,
       "fetched_at_utc": "2026-09-21T23:20:39+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -762,13 +720,13 @@
       "unmapped_completed_task_ids": []
     },
     "wikisync": {
-      "age_seconds_at_generation": 0,
+      "age_seconds_at_generation": 1,
       "authoritative_for": [
         "completed_task_ids",
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-10-15T13:29:30.202Z"
+      "timestamp": "2026-10-15T18:21:01.552Z"
     }
   },
   "manual": {
@@ -1153,16 +1111,16 @@
   },
   "schema_version": 2,
   "tasks": {
-    "inferred_candidate_count": 112,
+    "inferred_candidate_count": 109,
     "manual_check_count": 3,
     "master_task_count": 1152,
     "recommendations_file": "recommendations.json",
     "requirements_unknown_count": 273,
     "status_counts": {
       "accessible_requirements_unknown": 273,
-      "blocked": 33,
+      "blocked": 36,
       "excluded": 7,
-      "inferred_candidate": 112,
+      "inferred_candidate": 109,
       "known_issue": 1,
       "locked_region": 371,
       "manual_check": 3
