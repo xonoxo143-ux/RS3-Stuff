@@ -391,7 +391,7 @@
       "9": 82
     },
     "player": "112321",
-    "timestamp_utc": "2026-10-25T09:52:15.227Z",
+    "timestamp_utc": "2026-10-25T14:25:39.820Z",
     "total_level": 2434
   },
   "blessings": {
@@ -672,7 +672,7 @@
     ]
   },
   "health": {
-    "generated_at_utc": "2026-10-25T09:52:15.227Z",
+    "generated_at_utc": "2026-10-25T14:25:39.820Z",
     "hiscores": {
       "note": "HiScores parsing is not a dependency.",
       "required": false,
@@ -704,7 +704,7 @@
       "timed_verified_tasks": 0
     },
     "task_catalog": {
-      "age_seconds_at_generation": 2889097,
+      "age_seconds_at_generation": 2905501,
       "fetched_at_utc": "2026-09-21T23:20:39+00:00",
       "latest_change_check": {
         "added_task_ids": [],
@@ -726,7 +726,7 @@
         "skill_levels"
       ],
       "status": "fresh",
-      "timestamp": "2026-10-25T09:52:15.227Z"
+      "timestamp": "2026-10-25T14:25:39.820Z"
     }
   },
   "manual": {
